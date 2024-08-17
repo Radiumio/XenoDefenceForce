@@ -1,0 +1,5 @@
+#include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
+#include "CfgPatches.hpp"
+#include "CfgUnitInsignia.hpp"
+#include "CfgVehicles.hpp"
