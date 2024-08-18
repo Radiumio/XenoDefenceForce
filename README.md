@@ -12,4 +12,4 @@ Despite this unlikely show of collaboration, the threat of alien invasion grows 
 
 # Donations
 If you'd like to support the mod and me, you can donate on Ko-fi below!
-<a href="[URL](https://ko-fi.com/radiumio)"><img src="https://github.com/user-attachments/assets/c66061cb-de65-4c33-9795-f54d63bcea8b" width="800"></a> 
+<a href="https://ko-fi.com/radiumio"><img src="https://github.com/user-attachments/assets/c66061cb-de65-4c33-9795-f54d63bcea8b" width="800"></a> 
