@@ -83,11 +83,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\blackwasp\Fighter_01_fuselage_01_co.paa",
-			"\xdf\retextures\blackwasp\Fighter_01_fuselage_02_co.paa",
+			"\xdf\retextures\gemini\Fighter_01_fuselage_01_co.paa",
+			"\xdf\retextures\gemini\Fighter_01_fuselage_02_co.paa",
 			"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa",
 			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa",
-			"\xdf\retextures\blackwasp\Fighter_01_cockpit_02_co.paa",
+			"\xdf\retextures\gemini\Fighter_01_cockpit_02_co.paa",
 			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa",
 			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa",
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa",
@@ -240,13 +240,13 @@ class CfgVehicles
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
 		};
 	};
-	class B_Heli_Transport_03_F;
-	class XDF_Skyhawk: B_Heli_Transport_03_F
+	class B_Heli_Transport_03_base_F;
+	class XDF_Skyhawk: B_Heli_Transport_03_base_F
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Caiman";
+		displayName = "XDF Skyhawk";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
@@ -277,7 +277,8 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\mars\ugv_01_ext_co.paa",
-			"\xdf\retextures\mars\ugv_01_int_co.paa"
+			"\xdf\retextures\mars\ugv_01_int_co.paa",
+			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
 };
