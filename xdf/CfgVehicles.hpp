@@ -61,7 +61,7 @@ class CfgVehicles
 		};
 	};
 	class B_Plane_Fighter_01_F;
-	class XDF_Wasp: B_Plane_Fighter_01_F
+	class XDF_Gemini: B_Plane_Fighter_01_F
     {
 		author="Radium";
 		scope = 2;
@@ -221,7 +221,7 @@ class CfgVehicles
 		};    			
     };
 	class O_Heli_Attack_02_dynamicLoadout_black_F;
-	class XDF_Kajman: O_Heli_Attack_02_dynamicLoadout_black_F
+	class XDF_Caiman: O_Heli_Attack_02_dynamicLoadout_black_F
 	{
 		author="Radium";
 		scope = 2;
@@ -236,8 +236,48 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\kajman\Heli_Attack_02_body1_black_CO.paa",
-			"\xdf\retextures\kajman\Heli_Attack_02_body2_black_CO.paa"
+			"\xdf\retextures\caiman\Heli_Attack_02_body1_black_CO.paa",
+			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
+		};
+	};
+	class B_Heli_Transport_03_F;
+	class XDF_Skyhawk: B_Heli_Transport_03_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Caiman";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Helipilot_F";
+		typicalCargo[]=
+		{
+			"B_Helipilot_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_black_CO.paa",
+			"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
+		};
+	};
+	class B_UGV_01_rcws_F;
+	class XDF_Mars: B_UGV_01_rcws_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF M.A.R.S";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\mars\ugv_01_ext_co.paa",
+			"\xdf\retextures\mars\ugv_01_int_co.paa"
 		};
 	};
 };
