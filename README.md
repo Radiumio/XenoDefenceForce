@@ -9,3 +9,7 @@ Publically, not much is known about the XDF - even their existence and size is a
 As is necessary for such an organisation, the XDF employs some of the world's brightest minds in order to study the alien threat. Many of the foreign technologies recovered in the field have been used to develop hybrid weapons and equipment used by XDF operators, and create powerful variants of modern aircraft that are capable of standing up to their otherworldly opponents. It is believed that the XDF operates in independent cells, so as to avoid being toppled by evasive alien infiltrators or moles.
 
 Despite this unlikely show of collaboration, the threat of alien invasion grows ever closer. Panic spreads throughout the world as localized alien incursions become more frequent. Tensions between global powers are increasing - all orchestrated by our extraterrestrial neighbours who aim to secure our planet. If nothing is done, humanity is certainly doomed to go extinct. The XDF must act.
+
+# Donations
+If you'd like to support the mod and me, you can donate on Ko-fi below!
+<a href="[URL](https://ko-fi.com/radiumio)"><img src="https://github.com/user-attachments/assets/c66061cb-de65-4c33-9795-f54d63bcea8b" width="800"></a> 
