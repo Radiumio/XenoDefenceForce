@@ -716,4 +716,57 @@ class CfgVehicles
 			1
 		};
 	};
+	class O_MBT_02_railgun_F;
+	class XDF_Titan: O_MBT_02_railgun_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF TI-200 'Titan'";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_crew_F";
+		typicalCargo[]=
+		{
+			"B_crew_F"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\titan\mbt_02_body_co.paa",
+			"\xdf\retextures\titan\mbt_02_turret_co.paa",
+			"\xdf\retextures\titan\mbt_02_co.paa",
+			"\xdf\retextures\titan\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\titan\mbt_02_body_co.paa",
+					"\xdf\retextures\titan\mbt_02_turret_co.paa",
+					"\xdf\retextures\titan\mbt_02_co.paa",
+					"\xdf\retextures\titan\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 };
