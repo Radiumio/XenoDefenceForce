@@ -247,9 +247,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
-		armor = 180;
-		maxSpeed = 450;
-		fuelCapacity = 2040;
+		armor = 180; // 
+		maxSpeed = 450; //
+		fuelCapacity = 2040; //
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
@@ -270,9 +270,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
-		armor = 120;
-		maxSpeed = 500;
-		fuelCapacity = 2300;
+		armor = 120; // Default 40
+		maxSpeed = 500; // Default 300
+		fuelCapacity = 2300; // Default 1360
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
@@ -293,10 +293,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
-		armor = 120;
-		armorStructural = 16;
-		maxSpeed = 70;
-		fuelCapacity = 56;
+		armor = 120; // Default 30
+		armorStructural = 16; // Default none
+		maxSpeed = 70; // Default 45
+		fuelCapacity = 56; // Default 14
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -330,6 +330,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
+		armor = 120; // Default 30
+		armorStructural = 4; // Default none
+		maxSpeed = 400; // Default 245
+		fuelCapacity = 484; // Default 242
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
