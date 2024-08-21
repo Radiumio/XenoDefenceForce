@@ -498,6 +498,102 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_LSV_01_armed_black_F;
+	class XDF_Jackal_HMG: B_LSV_01_armed_black_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Jackal (Armed)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
+			"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
+			"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+			"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_LSV_01_AT_F;
+	class XDF_Jackal_AT: B_LSV_01_AT_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Jackal (AT)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+				"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
+				"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
+				"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+				"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
+				"\xdf\retextures\jackal\launcher_co.paa",
+			    "\xdf\retextures\jackal\tubem_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
+					"\xdf\retextures\jackal\launcher_co.paa",
+			        "\xdf\retextures\jackal\tubem_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class I_MRAP_03_F;
 	class XDF_Puma: I_MRAP_03_F
 	{
