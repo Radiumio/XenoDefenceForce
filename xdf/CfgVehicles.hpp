@@ -281,4 +281,33 @@ class CfgVehicles
 			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
+	class B_Heli_Light_01_F;
+	class XDF_Hornet: B_Heli_Light_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Hornet";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Helipilot_F";
+		typicalCargo[]=
+		{
+			"B_Helipilot_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa"
+		};
+		incomingMissileDetectionSystem="8 + 16";
+		weapons[]=
+		{
+			"CMFlareLauncher"
+		};
+		magazines[]=
+		{
+			"240Rnd_CMFlare_Chaff_Magazine"
+		};
+		armor=120;
+	};
 };
