@@ -293,6 +293,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
+		armor = 120;
+		armorStructural = 16;
+		maxSpeed = 70;
+		fuelCapacity = 56;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
