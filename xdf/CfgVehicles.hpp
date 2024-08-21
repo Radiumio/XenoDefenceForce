@@ -298,9 +298,17 @@ class CfgVehicles
 			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
-	class Helicopter_Base_F;
-	class B_Heli_Light_01_F
+	class Helicopter;
+	class Helicopter_Base_F: Helicopter
 	{
+		class Turrets;
+	};
+	class B_Heli_Light_01_F: Helicopter_Base_F
+	{
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+		};
 		class Components;
 	};
 	class XDF_Hornet: B_Heli_Light_01_F
@@ -316,20 +324,21 @@ class CfgVehicles
 		{
 			"B_Helipilot_F"
 		};
-		hiddenSelectionsTextures[]=
-		{
-			"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa"
-		};
-		incomingMissileDetectionSystem=16;
+		lockDetectionSystem="8 + 4";
+		incomingMissileDetectionSystem="8 + 16";
 		weapons[]=
 		{
 			"CMFlareLauncher_Singles"
 		};
 		magazines[]=
 		{
-			"60Rnd_CMFlareMagazine"
+			"120Rnd_CMFlareMagazine"
 		};
 		armor=120;
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa"
+		};
 		class Components: Components
 		{
 			class SensorsManagerComponent
