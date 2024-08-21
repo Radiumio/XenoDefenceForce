@@ -111,11 +111,11 @@ class CfgVehicles
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"
 		};
-		fuelCapacity=3000;
-		armor=240;
-		armorStructural=60;
-		damageResistance=0.5;
-		maxSpeed=2500;
+		fuelCapacity=3000; // Default 1550
+		armor=240; // Default 60
+		armorStructural=8; // Default 2
+		damageResistance=0.2; // Default 0.0040000002
+		maxSpeed=2500; // Default 1200
 		landingSpeed=300;
 		stallSpeed=180;
 		acceleration=200;
@@ -247,9 +247,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
-		armor = 180; // 
-		maxSpeed = 450; //
-		fuelCapacity = 2040; //
+		armor = 180; // Default 60
+		maxSpeed = 450; // Default 365
+		fuelCapacity = 3750; // Default 2500
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
