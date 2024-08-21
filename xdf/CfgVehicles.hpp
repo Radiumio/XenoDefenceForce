@@ -247,6 +247,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
+		armor = 180;
+		maxSpeed = 450;
+		fuelCapacity = 2040;
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
@@ -268,8 +271,8 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_Helipilot_F";
 		armor = 120;
-		maxSpeed=500;
-		fuelCapacity=2300;
+		maxSpeed = 500;
+		fuelCapacity = 2300;
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
