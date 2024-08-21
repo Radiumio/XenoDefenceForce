@@ -1,3 +1,20 @@
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
 class CfgVehicles
 {
 	class FlagCarrierCore;
@@ -281,7 +298,11 @@ class CfgVehicles
 			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
-	class B_Heli_Light_01_F;
+	class Helicopter_Base_F;
+	class B_Heli_Light_01_F
+	{
+		class Components;
+	};
 	class XDF_Hornet: B_Heli_Light_01_F
 	{
 		author="Radium";
@@ -299,15 +320,64 @@ class CfgVehicles
 		{
 			"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa"
 		};
-		incomingMissileDetectionSystem="8 + 16";
+		incomingMissileDetectionSystem=16;
 		weapons[]=
 		{
-			"CMFlareLauncher"
+			"CMFlareLauncher_Singles"
 		};
 		magazines[]=
 		{
-			"240Rnd_CMFlare_Chaff_Magazine"
+			"60Rnd_CMFlareMagazine"
 		};
 		armor=120;
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=2000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=1500;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=70;
+						angleRangeHorizontal=65;
+						angleRangeVertical=45;
+					};
+					class VisualSensorComponent: SensorTemplateVisual
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=1500;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=1000;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=70;
+						angleRangeHorizontal=46;
+						angleRangeVertical=34;
+					};
+				};
+			};
+		};
 	};
 };
