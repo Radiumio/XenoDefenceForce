@@ -488,6 +488,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Soldier_F";
+		armor = 160; // Default 80
+		armorStructural = 5; // Default none
+		maxSpeed = 240; // Default 170
+		fuelCapacity = 40; // Default 20
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -534,6 +538,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Soldier_F";
+		armor = 160; // Default 80
+		armorStructural = 5; // Default none
+		maxSpeed = 240; // Default 170
+		fuelCapacity = 40; // Default 20
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -580,6 +588,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Soldier_F";
+		armor = 160; // Default 80
+		armorStructural = 5; // Default none
+		maxSpeed = 240; // Default 170
+		fuelCapacity = 40; // Default 20
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -630,6 +642,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_Soldier_F";
+		armor = ; // Default 80
+		armorStructural = ; // Default none
+		maxSpeed = ; // Default 125
+		fuelCapacity = ; // Default 20
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
