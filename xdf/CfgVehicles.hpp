@@ -389,4 +389,235 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_MRAP_01_F;
+	class XDF_Boar: B_MRAP_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Boar";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\boar\mrap_01_base_co.paa",
+			"\xdf\retextures\boar\mrap_01_adds_co.paa",
+			"\xdf\retextures\boar\turret_co.paa"
+		};
+	};
+	class B_MRAP_01_gmg_F;
+	class XDF_Boar_GMG: B_MRAP_01_gmg_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Boar (GMG)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\boar\mrap_01_base_co.paa",
+			"\xdf\retextures\boar\mrap_01_adds_co.paa",
+			"\xdf\retextures\boar\turret_co.paa"
+		};
+	};
+	class B_MRAP_01_hmg_F;
+	class XDF_Boar_HMG: B_MRAP_01_hmg_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Boar (HMG)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\boar\mrap_01_base_co.paa",
+			"\xdf\retextures\boar\mrap_01_adds_co.paa",
+			"\xdf\retextures\boar\turret_co.paa"
+		};
+	};
+	class B_LSV_01_unarmed_black_F;
+	class XDF_Jackal: B_LSV_01_unarmed_black_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Jackal";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
+			"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
+			"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+			"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_MRAP_03_F;
+	class XDF_Puma: I_MRAP_03_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Puma";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\puma\mrap_03_ext_co.paa",
+			"\xdf\retextures\puma\turret_co.paa"
+		};
+	};
+	class I_MRAP_03_gmg_F;
+	class XDF_Puma_GMG: I_MRAP_03_gmg_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Puma (GMG)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\puma\mrap_03_ext_co.paa",
+			"\xdf\retextures\puma\turret_co.paa"
+		};
+	};
+	class I_MRAP_03_hmg_F;
+	class XDF_Puma_HMG: I_MRAP_03_hmg_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Puma (HMG)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_Soldier_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\puma\mrap_03_ext_co.paa",
+			"\xdf\retextures\puma\turret_co.paa"
+		};
+	};
+	class B_AFV_Wheeled_01_up_cannon_F;
+	class XDF_Odin: B_AFV_Wheeled_01_up_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Odin";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_crew_F";
+		typicalCargo[]=
+		{
+			"B_crew_F"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\odin\afv_wheeled_01_ext1_co.paa",
+			"\xdf\retextures\odin\afv_wheeled_01_ext2_co.paa",
+			"\xdf\retextures\odin\afv_wheeled_01_wheel_co.paa",
+			"\xdf\retextures\odin\afv_wheeled_01_ext3_co.paa",
+			"\xdf\retextures\odin\afv_commander_tow_co.paa",
+			"\xdf\retextures\odin\camonet_nato_black_co.paa",
+			"\xdf\retextures\odin\afv_wheeled_01_ext3_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\odin\afv_wheeled_01_ext1_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_ext2_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_wheel_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_ext3_co.paa",
+					"\xdf\retextures\odin\afv_commander_tow_co.paa",
+					"\xdf\retextures\odin\camonet_nato_black_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_ext3_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 };
