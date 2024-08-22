@@ -877,9 +877,12 @@ class CfgVehicles
 			1
 		};
 	};
+
+	// Uniforms
 	class B_SSU_Stealth_Uniform_base;
 	class B_SSU_Stealth_Uniform_Rolled_base;
 	class B_SSU_Stealth_Uniform_Sleeved_base;
+	class B_SSU_Stealth_Uniform_Ghillie_base;
 	class B_SSU_Coveralls_base;
 	class TCGM_Bra_B_MTP_Soldier_SL;
 	class TCGM_RollUp_B_CTRG_Soldier;
@@ -891,7 +894,7 @@ class CfgVehicles
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class B_XDF_Uniform_Rolled_Black: B_SSU_Stealth_Uniform_Rolled_base
@@ -901,7 +904,7 @@ class CfgVehicles
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Rolled_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class B_XDF_Uniform_Sleeved_Black: B_SSU_Stealth_Uniform_Sleeved_base
@@ -911,7 +914,7 @@ class CfgVehicles
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Sleeved_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class B_XDF_Coveralls_Black: B_SSU_Coveralls_base
@@ -921,9 +924,20 @@ class CfgVehicles
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Coveralls_Black.paa",
-			"\xdf\retextures\xdf_uniform\xdf_boots_black.paa",
-			"\xdf\retextures\xdf_uniform\U_XDF_Coveralls_Black_gloves.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_gloves.paa"
+		};
+	};
+	class B_XDF_Uniform_Ghillie_Black: B_SSU_Stealth_Uniform_Ghillie_base
+	{
+		author="Clasless & Radium";
+		uniformClass="B_XDF_Uniform_Ghillie_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Ghillie_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa",
+			"\xdf\retextures\xdf_uniform\xdf_ghillie_black.paa"
 		};
 	};
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
@@ -935,7 +949,7 @@ class CfgVehicles
 		uniformClass="U_XDF_Female_Uniform_Black";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class TCGM_RollUp_B_CTRG_Soldier;
@@ -947,7 +961,7 @@ class CfgVehicles
 		uniformClass="U_XDF_Female_Uniform_Black_Rolled";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class TCGM_Bra_B_MTP_Soldier_SL;
@@ -960,7 +974,93 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\Characters_F\common\data\basicbody_black_co.paa",
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+	};
+
+	// Backpacks
+	class B_SSU_Viper_Harness_base;
+	class B_SSU_Viper_Light_Harness_base;
+	class B_SSU_Assault_Pack_base;
+	class B_SSU_LegStrapBag_base;
+	class B_SSU_TacticalPack_base;
+	class B_SSU_Kitbag_base;
+	class B_SSU_RadioBag_base;
+	class B_XDF_Viper_Harness_Black: B_SSU_Viper_Harness_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Viper Harness";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Viper_Harness_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black.paa"
+		};
+	};
+	class B_XDF_Viper_Light_Harness_Black: B_SSU_Viper_Light_Harness_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Viper Light Harness";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Viper_Light_Harness_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black.paa"
+		};
+	};
+	class B_XDF_Assault_Pack_Black: B_SSU_Assault_Pack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Assault Pack";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Assault_Pack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black.paa"
+		};
+	};
+	class B_XDF_LegStrapBag_Black: B_SSU_LegStrapBag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Leg Strap Bag";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_LegStrapBag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_LegStrapBag_Black.paa"
+		};
+	};
+	class B_XDF_TacticalPack_Black: B_SSU_TacticalPack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Backpack";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+		};
+	};
+	class B_XDF_Kitbag_Black: B_SSU_Kitbag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Kitbag";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Kitbag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black.paa"
+		};
+	};
+	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Radio Pack";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_RadioBag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Black.paa"
 		};
 	};
 };
