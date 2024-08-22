@@ -420,7 +420,7 @@ class CfgVehicles
 		armor = 600; // Default 200
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
-		fuelCapacity = 52; // Default 242
+		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
@@ -446,7 +446,7 @@ class CfgVehicles
 		armor = 600; // Default 200
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
-		fuelCapacity = 52; // Default 242
+		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
