@@ -780,6 +780,10 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_crew_F";
+		armor = 2550; // Default 850
+		armorStructural = 12; // Default 6
+		maxSpeed = 150; // Default 75
+		fuelCapacity = 45; // Default 15
 		typicalCargo[]=
 		{
 			"B_crew_F"
