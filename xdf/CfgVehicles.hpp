@@ -936,8 +936,8 @@ class CfgVehicles
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Ghillie_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa",
-			"\xdf\retextures\xdf_uniform\xdf_ghillie_black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_ghillie_black.paa"
 		};
 	};
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
