@@ -250,6 +250,7 @@ class CfgVehicles
 		armor = 180; // Default 60
 		maxSpeed = 450; // Default 365
 		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
@@ -273,6 +274,7 @@ class CfgVehicles
 		armor = 120; // Default 40
 		maxSpeed = 500; // Default 300
 		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
@@ -297,6 +299,7 @@ class CfgVehicles
 		armorStructural = 16; // Default none
 		maxSpeed = 70; // Default 45
 		fuelCapacity = 56; // Default 14
+		damageResistance = 0.05; // Default 0.0071899998
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -334,6 +337,7 @@ class CfgVehicles
 		armorStructural = 4; // Default none
 		maxSpeed = 400; // Default 245
 		fuelCapacity = 484; // Default 242
+		damageResistance = 0.02; // Default 0.01039
 		typicalCargo[]=
 		{
 			"B_Helipilot_F"
@@ -417,6 +421,7 @@ class CfgVehicles
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 242
+		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -442,6 +447,7 @@ class CfgVehicles
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 242
+		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -467,6 +473,7 @@ class CfgVehicles
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 242
+		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -492,6 +499,7 @@ class CfgVehicles
 		armorStructural = 5; // Default none
 		maxSpeed = 240; // Default 170
 		fuelCapacity = 40; // Default 20
+		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -542,6 +550,7 @@ class CfgVehicles
 		armorStructural = 5; // Default none
 		maxSpeed = 240; // Default 170
 		fuelCapacity = 40; // Default 20
+		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -592,6 +601,7 @@ class CfgVehicles
 		armorStructural = 5; // Default none
 		maxSpeed = 240; // Default 170
 		fuelCapacity = 40; // Default 20
+		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -646,6 +656,7 @@ class CfgVehicles
 		armorStructural = 12; // Default 7
 		maxSpeed = 240; // Default 125
 		fuelCapacity = 52; // Default 26
+		damageResistance = 0.05; // Default 0.030990001
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -670,6 +681,7 @@ class CfgVehicles
 		armorStructural = 12; // Default 7
 		maxSpeed = 240; // Default 125
 		fuelCapacity = 52; // Default 26
+		damageResistance = 0.05; // Default 0.030990001
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -694,6 +706,7 @@ class CfgVehicles
 		armorStructural = 12; // Default 7
 		maxSpeed = 240; // Default 125
 		fuelCapacity = 52; // Default 26
+		damageResistance = 0.05; // Default 0.030990001
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -718,6 +731,7 @@ class CfgVehicles
 		armorStructural = 15; // Default 5
 		maxSpeed = 180; // Default 120
 		fuelCapacity = 48; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
 		typicalCargo[]=
 		{
 			"B_crew_F"
@@ -784,6 +798,7 @@ class CfgVehicles
 		armorStructural = 12; // Default 6
 		maxSpeed = 150; // Default 75
 		fuelCapacity = 45; // Default 15
+		damageResistance = 0.1; // Default 0.0038900001
 		typicalCargo[]=
 		{
 			"B_crew_F"
