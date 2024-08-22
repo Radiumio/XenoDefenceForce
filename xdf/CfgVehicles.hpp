@@ -326,7 +326,6 @@ class CfgVehicles
 		{
 			"120Rnd_CMFlareMagazine"
 		};
-		armor=120;
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa"
@@ -876,6 +875,92 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+	};
+	class B_SSU_Stealth_Uniform_base;
+	class B_SSU_Stealth_Uniform_Rolled_base;
+	class B_SSU_Stealth_Uniform_Sleeved_base;
+	class B_SSU_Coveralls_base;
+	class TCGM_Bra_B_MTP_Soldier_SL;
+	class TCGM_RollUp_B_CTRG_Soldier;
+	class TCGM_Stealth_B_CTRG_Soldier_arid;
+	class B_XDF_Uniform_Black: B_SSU_Stealth_Uniform_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Uniform_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class B_XDF_Uniform_Rolled_Black: B_SSU_Stealth_Uniform_Rolled_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Uniform_Rolled_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Rolled_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class B_XDF_Uniform_Sleeved_Black: B_SSU_Stealth_Uniform_Sleeved_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Uniform_Sleeved_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Sleeved_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class B_XDF_Coveralls_Black: B_SSU_Coveralls_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Coveralls_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Coveralls_Black.paa",
+			"\xdf\retextures\xdf_uniform\xdf_boots_black.paa",
+			"\xdf\retextures\xdf_uniform\U_XDF_Coveralls_Black_gloves.paa"
+		};
+	};
+	class TCGM_Stealth_B_CTRG_Soldier_arid;
+	class U_XDF_Female_Uniform_Black: TCGM_Stealth_B_CTRG_Soldier_arid
+	{
+		author="TCGM & Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Uniform_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class TCGM_RollUp_B_CTRG_Soldier;
+	class U_XDF_Female_Uniform_Black_Rolled: TCGM_RollUp_B_CTRG_Soldier
+	{
+		author="TCGM & Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Uniform_Black_Rolled";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class TCGM_Bra_B_MTP_Soldier_SL;
+	class U_XDF_Female_Uniform_Black_Bra: TCGM_Bra_B_MTP_Soldier_SL
+	{
+		author="TCGM & Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Uniform_Black_Bra";
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\Characters_F\common\data\basicbody_black_co.paa",
+			"\xdf\retextures\xdf_uniform\U_XDF_Uniform_Black.paa"
 		};
 	};
 };

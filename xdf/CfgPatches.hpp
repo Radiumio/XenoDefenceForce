@@ -2,7 +2,11 @@ class CfgPatches
 {
 	class xdf
 	{
-		requiredAddons[] = {};
+		requiredAddons[] = 
+		{
+			"SSU_Core",
+			"TCGM_Girls"
+		};
 		version = "1.0";
 		author="Radium";
 		authorUrl = "https://steamcommunity.com/id/radiumio/";
@@ -23,7 +27,13 @@ class CfgPatches
 			"XDF_Odin",
 			"XDF_Titan"
 		};
-		weapons[] = {};
+		weapons[] = 
+		{
+			"U_XDF_Uniform_Black",
+			"U_XDF_Uniform_Rolled_Black",
+			"U_XDF_Uniform_Sleeved_Black",
+			"B_XDF_Coveralls_Black"
+		};
 	};
 
 };

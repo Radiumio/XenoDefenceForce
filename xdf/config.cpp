@@ -3,3 +3,4 @@
 #include "CfgPatches.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
