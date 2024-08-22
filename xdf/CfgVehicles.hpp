@@ -729,7 +729,7 @@ class CfgVehicles
 		crew = "B_crew_F";
 		armor = 1440; // Default 480
 		armorStructural = 15; // Default 5
-		maxSpeed = 180; // Default 120
+		maxSpeed = 240; // Default 120
 		fuelCapacity = 48; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
 		typicalCargo[]=
