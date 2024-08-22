@@ -395,7 +395,10 @@ class CfgVehicles
 		armorStructural = 16; // Default none
 		maxSpeed = 70; // Default 45
 		fuelCapacity = 56; // Default 14
-		damageResistance = 0.05; // Default 0.0071899998
+		damageResistance = 0.05; // Default 0.0071899998	    
+		engineMOI = 1;
+		accelAidForceCoef = 5.5;
+		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -422,6 +425,9 @@ class CfgVehicles
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
+		engineMOI = 1.2;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 80.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -448,6 +454,9 @@ class CfgVehicles
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
+		engineMOI = 1.2;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 80.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -474,6 +483,9 @@ class CfgVehicles
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 242
 		damageResistance = 0.05; // Default 0
+	    engineMOI = 1.2;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 80.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -500,6 +512,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 170
 		fuelCapacity = 40; // Default 20
 		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -551,6 +566,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 170
 		fuelCapacity = 40; // Default 20
 		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -602,6 +620,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 170
 		fuelCapacity = 40; // Default 20
 		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -657,6 +678,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 125
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0.030990001
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -682,6 +706,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 125
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0.030990001
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -707,6 +734,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 125
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0.030990001
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_Soldier_F"
@@ -732,6 +762,9 @@ class CfgVehicles
 		maxSpeed = 240; // Default 120
 		fuelCapacity = 48; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 50.0;
 		typicalCargo[]=
 		{
 			"B_crew_F"
@@ -799,6 +832,9 @@ class CfgVehicles
 		maxSpeed = 150; // Default 75
 		fuelCapacity = 45; // Default 15
 		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_crew_F"
