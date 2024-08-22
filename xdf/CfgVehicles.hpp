@@ -285,32 +285,6 @@ class CfgVehicles
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
 		};
 	};
-	class B_UGV_01_rcws_F;
-	class XDF_Mars: B_UGV_01_rcws_F
-	{
-		author="Radium";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "XDF M.A.R.S";
-		side = 1;
-		faction = "B_XDF";
-		crew = "B_UAV_AI";
-		armor = 120; // Default 30
-		armorStructural = 16; // Default none
-		maxSpeed = 70; // Default 45
-		fuelCapacity = 56; // Default 14
-		damageResistance = 0.05; // Default 0.0071899998
-		typicalCargo[]=
-		{
-			"B_Soldier_F"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\xdf\retextures\mars\ugv_01_ext_co.paa",
-			"\xdf\retextures\mars\ugv_01_int_co.paa",
-			"\xdf\retextures\mars\turret_co.paa"
-		};
-	};
 	class Helicopter;
 	class Helicopter_Base_F: Helicopter
 	{
@@ -405,6 +379,32 @@ class CfgVehicles
 					};
 				};
 			};
+		};
+	};
+	class B_UGV_01_rcws_F;
+	class XDF_Mars: B_UGV_01_rcws_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF M.A.R.S";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 120; // Default 30
+		armorStructural = 16; // Default none
+		maxSpeed = 70; // Default 45
+		fuelCapacity = 56; // Default 14
+		damageResistance = 0.05; // Default 0.0071899998
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\mars\ugv_01_ext_co.paa",
+			"\xdf\retextures\mars\ugv_01_int_co.paa",
+			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
 	class B_MRAP_01_F;

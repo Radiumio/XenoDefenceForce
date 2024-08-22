@@ -11,8 +11,8 @@ class CfgPatches
 			"XDF_Gemini",
 			"XDF_Caiman",
 			"XDF_Skyhawk",
-			"XDF_Mars",
 			"XDF_Hornet",
+			"XDF_Mars",
 			"XDF_Boar",
 			"XDF_Boar_GMG",
 			"XDF_Boar_HMG",
@@ -20,7 +20,8 @@ class CfgPatches
 			"XDF_Puma",
 			"XDF_Puma_GMG",
 			"XDF_Puma_HMG",
-			"XDF_Odin"
+			"XDF_Odin",
+			"XDF_Titan"
 		};
 		weapons[] = {};
 	};
