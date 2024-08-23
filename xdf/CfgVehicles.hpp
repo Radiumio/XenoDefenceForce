@@ -263,7 +263,18 @@ class CfgVehicles
 		};
 	};
 	class B_Heli_Transport_03_base_F;
-	class XDF_Skyhawk: B_Heli_Transport_03_base_F
+    class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_03_base_F_OCimport_02 : B_Heli_Transport_03_base_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class MainTurret;
+            class RightDoorGun;
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+	class XDF_Skyhawk: B_Heli_Transport_03_base_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -284,6 +295,21 @@ class CfgVehicles
 		{
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_black_CO.paa",
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
+		};
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class MainTurret : MainTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class RightDoorGun : RightDoorGun 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
 		};
 	};
 	class Helicopter;
