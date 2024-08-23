@@ -20,4 +20,8 @@ class CfgEditorSubcategories
 	{
 		displayName = "Xenohunters"
 	};
+    class XDF_CRW_M
+	{
+		displayName = "Crew"
+	};
 };

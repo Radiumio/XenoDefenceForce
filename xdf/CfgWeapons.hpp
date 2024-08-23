@@ -426,10 +426,30 @@ class cfgWeapons
 	};
 
 	class arifle_MSBS65_black_F;
+	class arifle_MSBS65_UBS_black_F;
+	class arifle_MSBS65_GL_black_F;
 	class MMG_02_black_F;
 	class srifle_DMR_03_F;
 	class srifle_GM6_F;
-	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_black_F
+	class SMG_01_F;
+	class arifle_ARX_blk_F;
+	class srifle_DMR_05_blk_F;
+	class MMG_01_tan_F;
+	class srifle_LRR_F;
+	class srifle_DMR_02_F;
+	class srifle_DMR_04_F;
+	class launch_MRAWS_green_F;
+	class XDF_launch_MRAWS_green_F: launch_MRAWS_green_F // MAAWS with IR Laser
+	{
+		class linkedItems
+		{
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_black_F // Promet Standard
 	{
 		class linkedItems
 		{
@@ -443,7 +463,21 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_black_F
+	class arifle_MSBS65_GL_XDF_black_F: arifle_MSBS65_GL_black_F // Promet GL
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Hamr";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_black_F // Promet AX (Suppressed)
 	{
 		class linkedItems
 		{
@@ -461,7 +495,45 @@ class cfgWeapons
 			};
 		};
 	};
-	class XDF_MMG_02_black_F: MMG_02_black_F
+	class arifle_MSBS65_CRW_XDF_black_F: arifle_MSBS65_black_F // Promet Crew
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Aco";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_black_F // Promet Elite AX Shotgun
+		{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Nightstalker";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_65_TI_blk_F";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class XDF_SMG_01_F: SMG_01_F // Vector
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Aco";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class XDF_MMG_02_black_F: MMG_02_black_F // SPMG
 	{
 		class linkedItems
 		{
@@ -479,7 +551,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class XDF_srifle_DMR_03_F: srifle_DMR_03_F
+	class XDF_srifle_DMR_03_F: srifle_DMR_03_F // SIG 556
 	{
 		class linkedItems
 		{
@@ -497,13 +569,121 @@ class cfgWeapons
 			};
 		};
 	};
-	class XDF_srifle_GM6_F: srifle_GM6_F
+	class XDF_srifle_GM6_F: srifle_GM6_F // GM6 Lynx
 	{
 		class linkedItems
 		{
 			class LinkedItemsOptic {
 				item = "optic_Nightstalker";
 				slot = "CowsSlot";
+			};
+		};
+	};
+	class XDF_arifle_ARX_blk_F: arifle_ARX_blk_F // Type 115
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Hamr";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_65_TI_blk_F";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class XDF_srifle_DMR_05_blk_F: srifle_DMR_05_blk_F // Cyrus
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_AMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_93mmg";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_MMG_01_tan_F: MMG_01_tan_F // Navid
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Nightstalker";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_93mmg";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_srifle_DMR_04_F: srifle_DMR_04_F // ASP-1 Kir
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_MRCO";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};
+	class XDF_srifle_LRR_F: srifle_LRR_F // Intervention
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_LRPS";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class XDF_srifle_DMR_02_F: srifle_DMR_02_F // MAR-10
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_AMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_338_black";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
 			};
 		};
 	};
