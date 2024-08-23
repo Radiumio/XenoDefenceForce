@@ -2,7 +2,11 @@ class CfgPatches
 {
 	class xdf
 	{
-		requiredAddons[] = {};
+		requiredAddons[] = 
+		{
+			"SSU_Core",
+			"TCGM_Girls"
+		};
 		version = "1.0";
 		author="Radium";
 		authorUrl = "https://steamcommunity.com/id/radiumio/";
@@ -21,9 +25,106 @@ class CfgPatches
 			"XDF_Puma_GMG",
 			"XDF_Puma_HMG",
 			"XDF_Odin",
-			"XDF_Titan"
+			"XDF_Titan",
+			"B_XDF_Uniform_Black",
+			"B_XDF_Uniform_Rolled_Black",
+			"B_XDF_Uniform_Sleeved_Black",
+			"B_XDF_Coveralls_Black",
+			"B_XDF_Uniform_Ghillie_Black",
+			"B_XDF_Uniform_Tee_Black",
+			"U_XDF_Female_Uniform_Black",
+			"U_XDF_Female_Uniform_Black_Rolled",
+			"U_XDF_Female_Uniform_Black_Bra",
+			"B_XDF_Viper_Harness_Black",
+			"B_XDF_Viper_Light_Harness_Black",
+			"B_XDF_Assault_Pack_Black",
+			"B_XDF_LegStrapBag_Black",
+			"B_XDF_TacticalPack_Black",
+			"B_XDF_Kitbag_Black",
+			"B_XDF_RadioBag_Black",
+			"B_XDF_Operative",
+			"B_XDF_Operative_F",
+			"B_XDF_Light_Operative",
+			"B_XDF_Light_Operative_F",
+			"B_XDF_Marksman",
+			"B_XDF_Marksman_F",
+			"B_XDF_Sniper",
+			"B_XDF_Sniper_F",
+			"B_XDF_Medic",
+			"B_XDF_Medic_F",
+			"B_XDF_Engineer",
+			"B_XDF_Engineer_F",
+			"B_XDF_JTAC",
+			"B_XDF_JTAC_F",
+			"B_XDF_UAV",
+			"B_XDF_UAV_F",
+			"B_XDF_Grenadier",
+			"B_XDF_Grenadier_F",
+			"B_XDF_HAT",
+			"B_XDF_HAT_F",
+			"B_XDF_Crew",
+			"B_XDF_Pilot",
+			"B_XDF_AX_Operative",
+			"B_XDF_AX_Operative_F",
+			"B_XDF_AX_Medic",
+			"B_XDF_AX_Medic_F",
+			"B_XDF_AX_JTAC",
+			"B_XDF_AX_JTAC_F",
+			"B_XDF_AX_UAV",
+			"B_XDF_AX_UAV_F",
+			"B_XDF_AX_Gunner",
+			"B_XDF_AX_Gunner_F",
+			"B_XDF_AX_Hunter",
+			"B_XDF_AX_Hunter_F",
+			"B_XDF_AX_HAT",
+			"B_XDF_AX_HAT_F",
+			"B_XDF_AX_Elite_Operative",
+			"B_XDF_AX_Elite_Operative_F",
+			"B_XDF_AX_Elite_Medic",
+			"B_XDF_AX_Elite_Medic_F",
+			"B_XDF_AX_Elite_Gunner",
+			"B_XDF_AX_Elite_Gunner_F",
+			"B_XDF_AX_Elite_Hunter",
+			"B_XDF_AX_Elite_Hunter_F",
+			"B_XDF_AX_HAT",
+			"B_XDF_AX_HAT_F",
+			"B_XDF_Xenohunter",
+			"B_XDF_Xenohunter_Sharpshooter",
+			"B_XDF_Xenohunter_Exterminator",
+			"B_XDF_Xenohunter_Corpsman"
 		};
-		weapons[] = {};
+		weapons[] = 
+		{
+			"U_XDF_Uniform_Black",
+			"U_XDF_Uniform_Rolled_Black",
+			"U_XDF_Uniform_Sleeved_Black",
+			"U_XDF_Coveralls_Black",
+			"U_XDF_Uniform_Ghillie_Black",
+			"U_XDF_Uniform_Tee_Black",
+			"U_XDF_Female_Uniform_Black",
+			"U_XDF_Female_Uniform_Black_Rolled",
+			"U_XDF_Female_Uniform_Black_Bra",
+			"V_XDF_Tactical_Vest_Black",
+			"V_XDF_Carrier_Lite_Black",
+			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Modular_Carrier_Lite_Black",
+			"V_XDF_Modular_Carrier_GL_Rig_Black",
+			"V_XDF_Carrier_GL_Rig_Black",
+			"V_XDF_Carrier_Special_Rig_Black",
+			"H_XDF_Stealth_Combat_Helmet_Black",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_XDF_Combat_Helmet_Black",
+			"H_XDF_Enhanced_Combat_Helmet_Black",
+			"H_XDF_Camo_Combat_Helmet_Black",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"H_XDF_Advanced_Modular_Helmet_HS_Black",
+			"H_XDF_Advanced_Modular_Helmet_Ear_Black",
+			"H_XDF_Advanced_Modular_Helmet_Chops_Black",
+			"H_XDF_Special_Purpose_Helmet_Black",
+			"H_XDF_Boonie_HS_Black",
+			"H_XDF_Cap_HS_Black",
+			"arifle_MSBS65_XDF_black_F"
+		};
 	};
 
 };
