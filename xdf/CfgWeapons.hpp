@@ -1,6 +1,5 @@
 class cfgWeapons
 {
-	// Uniforms
 	class ItemCore;
 	class UniformItem;
 	class Uniform_Base;
@@ -25,18 +24,19 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class U_B_CTRG_Soldier_2_Arid_F
-	{
-		class ItemInfo;
-	}
+	class U_B_CTRG_Soldier_2_F;
 	class U_SSU_Stealth_Uniform_Ghillie_Black: U_B_GhillieSuit
 	{
 		class ItemInfo;
-	}
+	};
+	class TCGM_CombatUniform_CTRG_Stealth_arid;
+	class TCGM_CombatUniform_CTRG_RollUp;
+	class TCGM_CombatUniform_CTRG_Bra;
 	class U_XDF_Uniform_Black: U_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
 		scope=2;
+		scopeArsenal=2;
 		displayName="XDF Standard Uniform";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -52,6 +52,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
+		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Rolled)";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Rolled_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -67,6 +68,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
+		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Sleeved)";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Sleeved_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -82,6 +84,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
+		scopeArsenal=2;
 		displayName="XDF Crew Coveralls";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -99,6 +102,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
+		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Ghillie)";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -111,21 +115,30 @@ class cfgWeapons
 			uniformClass="B_XDF_Uniform_Ghillie_Black";
 		};
 	};
-	class U_XDF_Uniform_Tee_Black: U_B_CTRG_Soldier_2_Arid_F
+	class U_XDF_Uniform_Tee_Black: U_B_CTRG_Soldier_2_F
 	{
 		author="Radium";
 		scope=2;
+		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Tee)";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2"
+		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
-		class ItemInfo: ItemInfo
+		class ItemInfo: UniformItem
 		{
+			uniformModel="-";
 			uniformClass="B_XDF_Uniform_Tee_Black";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
-	class TCGM_CombatUniform_CTRG_Stealth_arid;
 	class U_XDF_Female_Uniform_Black: TCGM_CombatUniform_CTRG_Stealth_arid
 	{
 		author="TCGM & Radium";
@@ -144,7 +157,6 @@ class cfgWeapons
 			mass=32;
 		};
 	};
-	class TCGM_CombatUniform_CTRG_RollUp;
 	class U_XDF_Female_Uniform_Black_Rolled: TCGM_CombatUniform_CTRG_RollUp
 	{
 		author="TCGM & Radium";
@@ -163,7 +175,6 @@ class cfgWeapons
 			mass=32;
 		};
 	};
-	class TCGM_CombatUniform_CTRG_Bra;
 	class U_XDF_Female_Uniform_Black_Bra: TCGM_CombatUniform_CTRG_Bra
 	{
 		author="TCGM & Radium";
@@ -183,7 +194,7 @@ class cfgWeapons
 			mass=32;
 		};
 	};
-	// Vests
+
 	class V_SSU_Tactical_Vest_base;
 	class V_SSU_Carrier_Lite_base;
 	class V_SSU_Carrier_Rig_base;
@@ -268,7 +279,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
 		};
 	};
-	// Helmets
+
 	class H_SSU_Stealth_Combat_Helmet_base;
 	class H_SSU_Combat_Helmet_base;
 	class H_SSU_Enhanced_Combat_Helmet_base;
@@ -414,8 +425,10 @@ class cfgWeapons
 		};
 	};
 
-	// Weapons	
 	class arifle_MSBS65_black_F;
+	class MMG_02_black_F;
+	class srifle_DMR_03_F;
+	class srifle_GM6_F;
 	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_black_F
 	{
 		class linkedItems
@@ -425,8 +438,72 @@ class cfgWeapons
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc {
-			item = "acc_pointer_IR";
-			slot = "PointerSlot";
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_black_F
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Nightstalker";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_65_TI_blk_F";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class XDF_MMG_02_black_F: MMG_02_black_F
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Nightstalker";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_srifle_DMR_03_F: srifle_DMR_03_F
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_AMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_srifle_GM6_F: srifle_GM6_F
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Nightstalker";
+				slot = "CowsSlot";
 			};
 		};
 	};

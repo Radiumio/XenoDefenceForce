@@ -5,3 +5,4 @@
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgGlasses.hpp"
+#include "CfgEditorCategories.hpp"
