@@ -85,6 +85,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "XDF Gemini";
 		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -246,14 +247,14 @@ class CfgVehicles
 		displayName = "XDF Caiman";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Helipilot_F";
+		crew = "B_XDF_Pilot";
 		armor = 180; // Default 60
 		maxSpeed = 450; // Default 365
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
 		{
-			"B_Helipilot_F"
+			"B_XDF_Pilot"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -270,14 +271,14 @@ class CfgVehicles
 		displayName = "XDF Skyhawk";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Helipilot_F";
+		crew = "B_XDF_Pilot";
 		armor = 120; // Default 40
 		maxSpeed = 500; // Default 300
 		fuelCapacity = 2300; // Default 1360
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
 		{
-			"B_Helipilot_F"
+			"B_XDF_Pilot"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -306,7 +307,7 @@ class CfgVehicles
 		displayName = "XDF Hornet";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Helipilot_F";
+		crew = "B_XDF_Pilot";
 		armor = 120; // Default 30
 		armorStructural = 4; // Default none
 		maxSpeed = 400; // Default 245
@@ -314,7 +315,7 @@ class CfgVehicles
 		damageResistance = 0.02; // Default 0.01039
 		typicalCargo[]=
 		{
-			"B_Helipilot_F"
+			"B_XDF_Pilot"
 		};
 		lockDetectionSystem="8 + 4";
 		incomingMissileDetectionSystem="8 + 16";
@@ -418,7 +419,7 @@ class CfgVehicles
 		displayName = "XDF Boar";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 600; // Default 200
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
@@ -429,7 +430,7 @@ class CfgVehicles
 		accelAidForceSpd = 80.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -447,7 +448,7 @@ class CfgVehicles
 		displayName = "XDF Boar (GMG)";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 600; // Default 200
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
@@ -458,7 +459,7 @@ class CfgVehicles
 		accelAidForceSpd = 80.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -476,7 +477,7 @@ class CfgVehicles
 		displayName = "XDF Boar (HMG)";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 600; // Default 200
 		armorStructural = 10; // Default 5
 		maxSpeed = 230; // Default 115
@@ -487,7 +488,7 @@ class CfgVehicles
 		accelAidForceSpd = 80.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -505,7 +506,7 @@ class CfgVehicles
 		displayName = "XDF Jackal";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 160; // Default 80
 		armorStructural = 5; // Default none
 		maxSpeed = 240; // Default 170
@@ -516,7 +517,7 @@ class CfgVehicles
 		accelAidForceSpd = 60.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -559,7 +560,7 @@ class CfgVehicles
 		displayName = "XDF Jackal (Armed)";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 160; // Default 80
 		armorStructural = 5; // Default none
 		maxSpeed = 240; // Default 170
@@ -570,7 +571,7 @@ class CfgVehicles
 		accelAidForceSpd = 60.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -613,7 +614,7 @@ class CfgVehicles
 		displayName = "XDF Jackal (AT)";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 160; // Default 80
 		armorStructural = 5; // Default none
 		maxSpeed = 240; // Default 170
@@ -624,7 +625,7 @@ class CfgVehicles
 		accelAidForceSpd = 60.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -671,7 +672,7 @@ class CfgVehicles
 		displayName = "XDF Puma";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 400; // Default 200
 		armorStructural = 12; // Default 7
 		maxSpeed = 240; // Default 125
@@ -682,7 +683,7 @@ class CfgVehicles
 		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -699,7 +700,7 @@ class CfgVehicles
 		displayName = "XDF Puma (GMG)";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 400; // Default 200
 		armorStructural = 12; // Default 7
 		maxSpeed = 240; // Default 125
@@ -710,7 +711,7 @@ class CfgVehicles
 		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -727,7 +728,7 @@ class CfgVehicles
 		displayName = "XDF Puma (HMG)";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_Soldier_F";
+		crew = "B_XDF_Operative";
 		armor = 400; // Default 200
 		armorStructural = 12; // Default 7
 		maxSpeed = 240; // Default 125
@@ -738,7 +739,7 @@ class CfgVehicles
 		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
-			"B_Soldier_F"
+			"B_XDF_Operative"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -755,7 +756,7 @@ class CfgVehicles
 		displayName = "XDF Odin";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_crew_F";
+		crew = "B_XDF_Crew";
 		armor = 1440; // Default 480
 		armorStructural = 15; // Default 5
 		maxSpeed = 240; // Default 120
@@ -766,7 +767,7 @@ class CfgVehicles
 		accelAidForceSpd = 50.0;
 		typicalCargo[]=
 		{
-			"B_crew_F"
+			"B_XDF_Crew"
 		};
 		hiddenSelections[]=
 		{
@@ -825,7 +826,7 @@ class CfgVehicles
 		displayName = "XDF TI-200 'Titan'";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_crew_F";
+		crew = "B_XDF_Crew";
 		armor = 2550; // Default 850
 		armorStructural = 12; // Default 6
 		maxSpeed = 150; // Default 75
@@ -836,7 +837,7 @@ class CfgVehicles
 		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
-			"B_crew_F"
+			"B_XDF_Crew"
 		};
 		hiddenSelections[]=
 		{
