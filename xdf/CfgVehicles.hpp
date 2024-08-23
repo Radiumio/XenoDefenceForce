@@ -312,20 +312,12 @@ class CfgVehicles
 			};
 		};
 	};
-	class Helicopter;
-	class Helicopter_Base_F: Helicopter
-	{
-		class Turrets;
-	};
-	class B_Heli_Light_01_F: Helicopter_Base_F
-	{
-		class Turrets: Turrets
-		{
-			class CopilotTurret;
-		};
+	class B_Heli_Light_01_F;
+    class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class Components; };
+    class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 
 		class Components;
-	};
-	class XDF_Hornet: B_Heli_Light_01_F
+    };
+	class XDF_Hornet: B_Heli_Light_01_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
