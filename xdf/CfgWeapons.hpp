@@ -477,6 +477,24 @@ class cfgWeapons
 			};
 		};
 	};
+	class arifle_MSBS65_AXGL_XDF_black_F: arifle_MSBS65_GL_black_F // Promet AX GL (Suppressed)
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Hamr";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_65_TI_blk_F";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
 	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_black_F // Promet AX (Suppressed)
 	{
 		class linkedItems
