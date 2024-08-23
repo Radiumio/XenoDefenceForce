@@ -5484,7 +5484,7 @@ class CfgVehicles
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF AX Heavy Anti-Tank";
+		displayName = "XDF AX Elite Heavy Anti-Tank";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5611,7 +5611,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
 		uniformClass = "U_XDF_Female_Uniform_Black";
 		linkedItems[] = {
-			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemGPS",
@@ -5622,7 +5622,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemGPS",
