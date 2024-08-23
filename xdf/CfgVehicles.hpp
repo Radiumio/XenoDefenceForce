@@ -4436,7 +4436,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
 		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
-		uniformClass = "U_XDF_Female_Uniform_Black_Bra";
+		uniformClass = "U_XDF_Female_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black",
