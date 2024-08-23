@@ -884,6 +884,7 @@ class CfgVehicles
 	class B_SSU_Stealth_Uniform_Sleeved_base;
 	class B_SSU_Stealth_Uniform_Ghillie_base;
 	class B_SSU_Coveralls_base;
+	class U_B_CTRG_Soldier_2_Arid_F;
 	class TCGM_Bra_B_MTP_Soldier_SL;
 	class TCGM_RollUp_B_CTRG_Soldier;
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
@@ -938,6 +939,15 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\xdf_ghillie_black.paa"
+		};
+	};
+	class B_XDF_Uniform_Tee_Black: U_B_CTRG_Soldier_2_Arid_F
+	{
+		author="Clasless & Radium";
+		uniformClass="B_XDF_Uniform_Tee_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
@@ -1061,6 +1071,406 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Black.paa"
+		};
+	};
+
+	// Units
+	class B_Soldier_F;
+	class TCGM_RollUp_B_MTP_Soldier_AR;
+	class B_XDF_Operative : B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Operator";
+		side = 1;
+		faction = "B_XDF";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Uniform_Black";
+		linkedItems[] = {
+			"V_XDF_Carrier_Rig_Black",
+			"H_XDF_Enhanced_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Rig_Black",
+			"H_XDF_Enhanced_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Assault_Pack_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Operative_F : TCGM_RollUp_B_MTP_Soldier_AR
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Female Operator";
+		side = 1;
+		faction = "B_XDF";
+		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
+		uniformClass = "U_XDF_Female_Uniform_Black";
+		linkedItems[] = {
+			"V_XDF_Carrier_Rig_Black",
+			"H_XDF_Enhanced_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Rig_Black",
+			"H_XDF_Enhanced_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Assault_Pack_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Light_Operative : B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Light Operator";
+		side = 1;
+		faction = "B_XDF";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "B_XDF_Uniform_Tee_Black";
+		linkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Light_Operative_F : TCGM_RollUp_B_MTP_Soldier_AR
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Female Light Operator";
+		side = 1;
+		faction = "B_XDF";
+		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
+		uniformClass = "U_XDF_Female_Uniform_Black_Bra";
+		linkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
 		};
 	};
 };

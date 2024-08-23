@@ -25,6 +25,10 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
+	class U_B_CTRG_Soldier_2_Arid_F
+	{
+		class ItemInfo;
+	}
 	class U_SSU_Stealth_Uniform_Ghillie_Black: U_B_GhillieSuit
 	{
 		class ItemInfo;
@@ -105,6 +109,20 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="B_XDF_Uniform_Ghillie_Black";
+		};
+	};
+	class U_XDF_Uniform_Tee_Black: U_B_CTRG_Soldier_2_Arid_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Standard Uniform (Tee)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Uniform_Tee_Black";
 		};
 	};
 	class TCGM_CombatUniform_CTRG_Stealth_arid;
@@ -393,6 +411,23 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Cap_HS_Black.paa"
+		};
+	};
+
+	// Weapons	
+	class arifle_MSBS65_black_F;
+	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_black_F
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Hamr";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+			item = "acc_pointer_IR";
+			slot = "PointerSlot";
+			};
 		};
 	};
 };
