@@ -25,6 +25,7 @@ class cfgWeapons
 		class ItemInfo;
 	};
 	class U_B_CTRG_Soldier_2_F;
+	class U_B_PilotCoveralls;
 	class U_SSU_Stealth_Uniform_Ghillie_Black: U_B_GhillieSuit
 	{
 		class ItemInfo;
@@ -135,6 +136,28 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Uniform_Tee_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Jet_Pilot_Suit: U_B_PilotCoveralls
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Experimental Jet Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Jet_Pilot_Suit";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -291,6 +314,9 @@ class cfgWeapons
 	class H_SSU_Special_Purpose_Helmet_base;
 	class H_SSU_Boonie_HS_base;
 	class H_SSU_Cap_HS_base;
+	class H_PilotHelmetFighter_B;
+	class H_PilotHelmetHeli_B;
+	class H_CrewHelmetHeli_B;
 	class H_XDF_Stealth_Combat_Helmet_Black: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -422,6 +448,36 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Cap_HS_Black.paa"
+		};
+	};
+	class H_XDF_Jet_Pilot_Helmet: H_PilotHelmetFighter_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Experimental Jet Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Jet_Pilot_Helmet_co.paa"
+		};
+	};
+	class H_XDF_Helmet_Heli_Black: H_PilotHelmetHeli_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Helicopter Pilot Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
+		};
+	};
+	class H_XDF_Helmet_Heli_Crew_Black: H_CrewHelmetHeli_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Helicopter Crew Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
 		};
 	};
 

@@ -312,6 +312,54 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_Heli_Transport_01_F;
+    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_F_OCimport_02 : B_Heli_Transport_01_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+			class CopilotTurret;
+            class MainTurret;
+			class RightDoorGun;
+        };
+    };
+	class XDF_Dragonfly: B_Heli_Transport_01_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dragonfly";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 500; // Default 300
+		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
+		};
+		class Turrets : Turrets
+		{
+			class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class MainTurret : MainTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class RightDoorGun : RightDoorGun 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+		};
+	};
 	class B_Heli_Light_01_F;
     class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class Components; };
     class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 
@@ -904,6 +952,7 @@ class CfgVehicles
 	class B_SSU_Stealth_Uniform_Ghillie_base;
 	class B_SSU_Coveralls_base;
 	class B_CTRG_Soldier_2_F;
+	class B_Pilot_F;
 	class TCGM_Bra_B_MTP_Soldier_SL;
 	class TCGM_RollUp_B_CTRG_Soldier;
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
@@ -975,6 +1024,21 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
 			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+	};
+	class B_XDF_Jet_Pilot_Suit: B_Pilot_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Jet_Pilot_Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_co.paa"
 		};
 	};
 	class U_XDF_Female_Uniform_Black: TCGM_Stealth_B_CTRG_Soldier_arid
