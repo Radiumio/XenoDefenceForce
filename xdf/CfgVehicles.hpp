@@ -300,7 +300,7 @@ class CfgVehicles
 		{
             class CopilotTurret : CopilotTurret 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Pilot"; 
 			};
             class MainTurret : MainTurret 
 			{ 
@@ -348,7 +348,7 @@ class CfgVehicles
 		{
 			class CopilotTurret : CopilotTurret 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Pilot"; 
 			};
             class MainTurret : MainTurret 
 			{ 
