@@ -1172,6 +1172,8 @@ class CfgVehicles
 	class B_soldier_UAV_F;
 	class B_crew_F;
 	class B_Helipilot_F;
+	class B_helicrew_F;
+	class B_Fighter_Pilot_F;
 	class B_HeavyGunner_F;
 	class B_recon_F;
 	class B_Recon_Sharpshooter_F;
@@ -3543,7 +3545,7 @@ class CfgVehicles
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Pilot";
+		displayName = "XDF Helicopter Pilot";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -3551,7 +3553,7 @@ class CfgVehicles
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
-			"H_SSU_Heli_Crew_Helmet_Black",
+			"H_XDF_Helmet_Heli_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3562,7 +3564,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
-			"H_SSU_Heli_Crew_Helmet_Black",
+			"H_XDF_Helmet_Heli_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3606,7 +3608,163 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_Parachute";
+		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Heli_Crew : B_helicrew_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Helicopter Crew";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_CRW_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Coveralls_Black";
+		linkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Helmet_Heli_Crew_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Helmet_Heli_Crew_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_CRW_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_CRW_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Jet_Pilot : B_Fighter_Pilot_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Jet Pilot";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_CRW_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Jet_Pilot_Suit";
+		linkedItems[] = {
+			"H_XDF_Jet_Pilot_Helmet",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"H_XDF_Jet_Pilot_Helmet",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_SMG_01_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"XDF_SMG_01_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "";
 		items[]=
 		{
 			"FirstAidKit",
@@ -6089,7 +6247,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_AX_M";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
-linkedItems[] = {
+		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
