@@ -447,6 +447,52 @@ class CfgVehicles
 			};
 		};
 	};
+	class O_T_VTOL_02_infantry_dynamicLoadout_F;
+	class XDF_Wraith: O_T_VTOL_02_infantry_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Wraith";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 200; // Default 100
+		armorStructural = 4; // Default 2
+		maxSpeed = 1400; // Default 700
+		fuelCapacity = 2500; // Default 1000
+		damageResistance = 0.02; // Default 0.00039999999
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		lockDetectionSystem="8 + 4";
+		incomingMissileDetectionSystem="8 + 16";
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\wraith\VTOL_02_EXT01_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_UGV_01_rcws_F;
 	class XDF_Mars: B_UGV_01_rcws_F
 	{
