@@ -85,7 +85,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "XDF Gemini";
 		faction = "B_XDF";
-		crew = "B_XDF_Pilot";
+		crew = "B_XDF_Jet_Pilot";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -300,15 +300,15 @@ class CfgVehicles
 		{
             class CopilotTurret : CopilotTurret 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
             class MainTurret : MainTurret 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
 		};
 	};
@@ -348,15 +348,15 @@ class CfgVehicles
 		{
 			class CopilotTurret : CopilotTurret 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
             class MainTurret : MainTurret 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
 		};
 	};
