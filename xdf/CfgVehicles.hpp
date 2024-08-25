@@ -568,6 +568,40 @@ class CfgVehicles
 			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
+	class B_UAV_01_F;
+	class XDF_Mosquito: B_UAV_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Mosquito";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 10; // Default 0.5
+		maxSpeed = 200; // Default 100
+		fuelCapacity = 200; // Default 100
+		damageResistance = 0.01; // Default 0.0071899998	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\mosquito\xdf_uav_01_co.paa"
+		};
+		class assembleInfo
+		{
+			primary=1;
+			base="";
+			assembleTo="";
+			displayName="";
+			dissasembleTo[]=
+			{
+				"B_XDF_UAV_01_backpack_F"
+			};
+		};
+	};
 	class B_MRAP_01_F;
 	class XDF_Boar: B_MRAP_01_F
 	{
@@ -1176,6 +1210,10 @@ class CfgVehicles
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
+	class Weapon_Bag_Base
+	{
+		class assembleInfo;
+	};
 	class B_XDF_Viper_Harness_Black: B_SSU_Viper_Harness_base
 	{
 		author="Clasless & Radium";
@@ -1251,6 +1289,32 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Black.paa"
+		};
+	};
+	class B_XDF_UAV_01_backpack_F: Weapon_Bag_Base
+	{
+		author="Radium";
+		mapSize=0.60000002;
+		_generalMacro="B_UAV_01_backpack_F";
+		scope=2;
+		scopeCurator=2;
+		displayName="XDF UAV Bag (Mosquito)";
+		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+		editorCategory="EdCat_Equipment";
+		editorSubcategory="EdSubcat_Backpacks";
+		faction="B_XDF";
+		picture="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\xdf_uav_01_backpack_co.paa"
+		};
+		maximumLoad=0;
+		mass=300;
+		class assembleInfo: assembleInfo
+		{
+			base="";
+			displayName="XDF Mosquito";
+			assembleTo="XDF_Mosquito";
 		};
 	};
 
@@ -2904,7 +2968,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -3012,7 +3076,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -4724,7 +4788,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -4832,7 +4896,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -6458,7 +6522,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -6604,7 +6668,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
