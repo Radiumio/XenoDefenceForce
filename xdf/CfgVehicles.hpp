@@ -112,6 +112,36 @@ class CfgVehicles
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\gemini\Fighter_01_fuselage_01_co.paa",
+					"\xdf\retextures\gemini\Fighter_01_fuselage_02_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa",
+					"\xdf\retextures\gemini\Fighter_01_cockpit_02_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 		fuelCapacity=3000; // Default 1550
 		armor=240; // Default 60
 		armorStructural=8; // Default 2
@@ -600,6 +630,52 @@ class CfgVehicles
 			{
 				"B_XDF_UAV_01_backpack_F"
 			};
+		};
+	};
+	class B_UAV_05_F;
+	class XDF_Guardian: B_UAV_05_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Guardian";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 100; // Default 50
+		maxSpeed = 1000; // Default 800
+		// fuelCapacity = 200; // Default 100
+		damageResistance = 0.02; // Default 0.0040000002	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
+			"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
+					"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
 		};
 	};
 	class B_MRAP_01_F;
