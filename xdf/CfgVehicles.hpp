@@ -1085,6 +1085,354 @@ class CfgVehicles
 			1
 		};
 	};
+	class O_Truck_03_ammo_F;
+	class XDF_Cyclone_Ammo: O_Truck_03_ammo_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Ammo)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_covered_F;
+	class XDF_Cyclone_Covered: O_Truck_03_covered_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Covered)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_fuel_F;
+	class XDF_Cyclone_Fuel: O_Truck_03_fuel_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Fuel)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_fuel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_medical_F;
+	class XDF_Cyclone_Medical: O_Truck_03_medical_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Medical)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_repair_F;
+	class XDF_Cyclone_Repair: O_Truck_03_repair_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Repair)";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_transport_F;
+	class XDF_Cyclone: O_Truck_03_transport_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cargo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_MBT_02_railgun_F;
 	class XDF_Titan: O_MBT_02_railgun_F
 	{
