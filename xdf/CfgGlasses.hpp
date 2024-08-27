@@ -38,6 +38,11 @@ class CfgGlasses
 		scopeCurator=2;
 		displayName="XDF SIC Goggles";
 		picture="\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		model="\A3\characters_f_beta\heads\glasses\g_combat";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
