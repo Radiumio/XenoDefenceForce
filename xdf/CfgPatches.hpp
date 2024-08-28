@@ -4,6 +4,18 @@ class CfgPatches
 	{
 		requiredAddons[] = 
 		{
+			"A3_Armor_F_Decade",
+			"A3_Armor_F_Tank",
+			"A3_Air_F_Jets",
+			"A3_Air_F",
+			"A3_Air_F_Beta",
+			"A3_Air_F_Exp",
+			"A3_Soft_F",
+			"A3_Soft_F_Beta_MRAP_03",
+			"A3_Soft_F_Exp",
+			"A3_Drones_F",
+			"A3_Characters_F",
+			"A3_Weapons_F"
 			"SSU_Core",
 			"TCGM_Girls"
 		};
@@ -15,8 +27,13 @@ class CfgPatches
 			"XDF_Gemini",
 			"XDF_Caiman",
 			"XDF_Skyhawk",
+			"XDF_Dragonfly",
 			"XDF_Hornet",
+			"XDF_Wraith_IT",
+			"XDF_Wraith_VT",
 			"XDF_Mars",
+			"XDF_Mosquito",
+			"XDF_Guardian",
 			"XDF_Boar",
 			"XDF_Boar_GMG",
 			"XDF_Boar_HMG",
@@ -25,6 +42,12 @@ class CfgPatches
 			"XDF_Puma_GMG",
 			"XDF_Puma_HMG",
 			"XDF_Odin",
+			"XDF_Cyclone_Ammo",
+			"XDF_Cyclone_Covered",
+			"XDF_Cyclone_Fuel",
+			"XDF_Cyclone_Medical",
+			"XDF_Cyclone_Repair",
+			"XDF_Cyclone",
 			"XDF_Titan",
 			"B_XDF_Uniform_Black",
 			"B_XDF_Uniform_Rolled_Black",
