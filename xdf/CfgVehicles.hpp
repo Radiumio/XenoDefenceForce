@@ -67,7 +67,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\Flag_TaskForceLotus.jpg";
+		editorPreview="\xdf\previews\misc\Flag_TaskForceLotus.jpg";
 		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
@@ -84,6 +84,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Gemini";
+		editorPreview="\xdf\previews\vehicles\XDF_Gemini.jpg";
 		faction = "B_XDF";
 		crew = "B_XDF_Jet_Pilot";
 		hiddenSelections[]=
@@ -275,6 +276,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Caiman";
+		editorPreview="\xdf\previews\vehicles\XDF_Caiman.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -310,6 +312,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Skyhawk";
+		editorPreview="\xdf\previews\vehicles\XDF_Skyhawk.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -358,6 +361,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Dragonfly";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -401,6 +405,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Hornet";
+		editorPreview="\xdf\previews\vehicles\XDF_Hornet.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -484,6 +489,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Wraith (Infantry Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Wraith_IT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -530,6 +536,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Wraith (Vehicle Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Wraith_VT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -576,6 +583,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF M.A.R.S";
+		editorPreview="\xdf\previews\vehicles\XDF_Mars.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
@@ -605,6 +613,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mosquito";
+		editorPreview="\xdf\previews\vehicles\XDF_Mosquito.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
@@ -639,6 +648,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Guardian";
+		editorPreview="\xdf\previews\vehicles\XDF_Guardian.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
@@ -685,6 +695,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Boar";
+		editorPreview="\xdf\previews\vehicles\XDF_Boar.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -714,6 +725,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Boar (GMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Boar_GMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -743,6 +755,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Boar (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Boar_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -772,6 +785,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jackal";
+		editorPreview="\xdf\previews\vehicles\XDF_Jackal.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -826,6 +840,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jackal (Armed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Jackal_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -880,6 +895,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jackal (AT)";
+		editorPreview="\xdf\previews\vehicles\XDF_Jackal_AT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -938,6 +954,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Puma";
+		editorPreview="\xdf\previews\vehicles\XDF_Puma.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -966,6 +983,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Puma (GMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Puma_GMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -994,6 +1012,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Puma (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Puma_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1022,6 +1041,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Odin";
+		editorPreview="\xdf\previews\vehicles\XDF_Odin.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -1092,6 +1112,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Cyclone (Ammo)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Ammo.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1149,6 +1170,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Cyclone (Covered)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Covered.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1209,6 +1231,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Cyclone (Fuel)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Fuel.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1266,6 +1289,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Cyclone (Medical)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Medical.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1326,6 +1350,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Cyclone (Repair)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Repair.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1383,6 +1408,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Cyclone";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -1440,6 +1466,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF TI-200 'Titan'";
+		editorPreview="\xdf\previews\vehicles\XDF_Titan.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -1771,6 +1798,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -1879,6 +1907,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -1987,6 +2016,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Light Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Light_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2079,6 +2109,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Light Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Light_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2171,6 +2202,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marksman";
+		editorPreview="\xdf\previews\units\B_XDF_Marksman.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2275,6 +2307,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Markswoman";
+		editorPreview="\xdf\previews\units\B_XDF_Marksman_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2379,6 +2412,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Sniper";
+		editorPreview="\xdf\previews\units\B_XDF_Sniper.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2483,6 +2517,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Sniper";
+		editorPreview="\xdf\previews\units\B_XDF_Sniper_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2587,6 +2622,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Medic";
+		editorPreview="\xdf\previews\units\B_XDF_Medic.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2713,6 +2749,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Medic";
+		editorPreview="\xdf\previews\units\B_XDF_Medic_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2839,6 +2876,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Engineer";
+		editorPreview="\xdf\previews\units\B_XDF_Engineer.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2945,6 +2983,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Engineer";
+		editorPreview="\xdf\previews\units\B_XDF_Engineer_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -3051,6 +3090,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_JTAC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -3179,6 +3219,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_JTAC_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -3307,6 +3348,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_UAV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -3415,6 +3457,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_UAV_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -3523,6 +3566,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Grenadier";
+		editorPreview="\xdf\previews\units\B_XDF_Grenadier.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -3667,6 +3711,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Grenadier";
+		editorPreview="\xdf\previews\units\B_XDF_Grenadier_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -3811,6 +3856,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_HAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -3929,6 +3975,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_HAT_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -4047,6 +4094,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Crewman";
+		editorPreview="\xdf\previews\units\B_XDF_Crew.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -4127,6 +4175,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Helicopter Pilot";
+		editorPreview="\xdf\previews\units\B_XDF_Pilot.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -4207,6 +4256,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Helicopter Crew";
+		editorPreview="\xdf\previews\units\B_XDF_Heli_Crew.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -4287,6 +4337,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jet Pilot";
+		editorPreview="\xdf\previews\units\B_XDF_Jet_Pilot.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -4363,6 +4414,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4491,6 +4543,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -4619,6 +4672,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Medic.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4745,6 +4799,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Medic_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -4871,6 +4926,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_JTAC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4999,6 +5055,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_JTAC_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5127,6 +5184,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_UAV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5235,6 +5293,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_UAV_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5343,6 +5402,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Gunner.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5453,6 +5513,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Gunner_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5563,6 +5624,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Hunter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5671,6 +5733,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Hunter_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5779,6 +5842,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_HAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5897,6 +5961,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_HAT_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6015,6 +6080,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6165,6 +6231,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6315,6 +6382,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Medic.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6441,6 +6509,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Medic_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6567,6 +6636,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_JTAC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6695,6 +6765,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_JTAC_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6823,6 +6894,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_UAV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6969,6 +7041,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_UAV_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -7115,6 +7188,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Gunner.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -7225,6 +7299,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Gunner_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -7335,6 +7410,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Hunter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -7439,6 +7515,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Hunter_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -7543,6 +7620,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_HAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -7657,6 +7735,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_HAT_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -7771,6 +7850,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
@@ -7891,6 +7971,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Sharpshooter";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter_Sharpshooter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
@@ -7995,6 +8076,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Exterminator";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter_Exterminator.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
@@ -8093,6 +8175,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Corpsman";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter_Corpsman.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
