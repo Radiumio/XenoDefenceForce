@@ -1025,8 +1025,8 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 1440; // Default 480
-		armorStructural = 15; // Default 5
+		armor = 960; // Default 480
+		armorStructural = 7; // Default 5
 		maxSpeed = 240; // Default 120
 		fuelCapacity = 48; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
