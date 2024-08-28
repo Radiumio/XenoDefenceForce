@@ -67,7 +67,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\Flag_TaskForceLotus.jpg";
+		editorPreview="\xdf\previews\misc\Flag_TaskForceLotus.jpg";
 		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
@@ -84,8 +84,9 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Gemini";
+		editorPreview="\xdf\previews\vehicles\XDF_Gemini.jpg";
 		faction = "B_XDF";
-		crew = "B_XDF_Pilot";
+		crew = "B_XDF_Jet_Pilot";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -111,6 +112,36 @@ class CfgVehicles
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa",
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
 			"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\gemini\Fighter_01_fuselage_01_co.paa",
+					"\xdf\retextures\gemini\Fighter_01_fuselage_02_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa",
+					"\xdf\retextures\gemini\Fighter_01_cockpit_02_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
 		};
 		fuelCapacity=3000; // Default 1550
 		armor=240; // Default 60
@@ -245,6 +276,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Caiman";
+		editorPreview="\xdf\previews\vehicles\XDF_Caiman.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -280,6 +312,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Skyhawk";
+		editorPreview="\xdf\previews\vehicles\XDF_Skyhawk.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -304,33 +337,75 @@ class CfgVehicles
 			};
             class MainTurret : MainTurret 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
+				gunnerType = "B_XDF_Heli_Crew"; 
 			};
 		};
 	};
-	class Helicopter;
-	class Helicopter_Base_F: Helicopter
-	{
-		class Turrets;
-	};
-	class B_Heli_Light_01_F: Helicopter_Base_F
-	{
-		class Turrets: Turrets
-		{
+	class B_Heli_Transport_01_F;
+    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_F_OCimport_02 : B_Heli_Transport_01_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
 			class CopilotTurret;
+            class MainTurret;
+			class RightDoorGun;
+        };
+    };
+	class XDF_Dragonfly: B_Heli_Transport_01_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dragonfly";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 500; // Default 300
+		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
 		};
-		class Components;
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
+		};
+		class Turrets : Turrets
+		{
+			class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class MainTurret : MainTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+            class RightDoorGun : RightDoorGun 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
 	};
-	class XDF_Hornet: B_Heli_Light_01_F
+	class B_Heli_Light_01_F;
+    class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class Components; };
+    class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 
+		class Components;
+    };
+	class XDF_Hornet: B_Heli_Light_01_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Hornet";
+		editorPreview="\xdf\previews\vehicles\XDF_Hornet.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -407,6 +482,100 @@ class CfgVehicles
 			};
 		};
 	};
+	class O_T_VTOL_02_infantry_dynamicLoadout_F;
+	class XDF_Wraith_IT: O_T_VTOL_02_infantry_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Wraith (Infantry Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Wraith_IT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 200; // Default 100
+		armorStructural = 4; // Default 2
+		maxSpeed = 1400; // Default 700
+		fuelCapacity = 2500; // Default 1000
+		damageResistance = 0.02; // Default 0.00039999999
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		lockDetectionSystem="8 + 4";
+		incomingMissileDetectionSystem="8 + 16";
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\wraith\VTOL_02_EXT01_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_T_VTOL_02_vehicle_dynamicLoadout_F;
+	class XDF_Wraith_VT: O_T_VTOL_02_vehicle_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Wraith (Vehicle Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Wraith_VT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 200; // Default 100
+		armorStructural = 4; // Default 2
+		maxSpeed = 1400; // Default 700
+		fuelCapacity = 2500; // Default 1000
+		damageResistance = 0.02; // Default 0.00039999999
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		lockDetectionSystem="8 + 4";
+		incomingMissileDetectionSystem="8 + 16";
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\wraith\VTOL_02_EXT01_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_UGV_01_rcws_F;
 	class XDF_Mars: B_UGV_01_rcws_F
 	{
@@ -414,6 +583,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF M.A.R.S";
+		editorPreview="\xdf\previews\vehicles\XDF_Mars.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
@@ -436,6 +606,88 @@ class CfgVehicles
 			"\xdf\retextures\mars\turret_co.paa"
 		};
 	};
+	class B_UAV_01_F;
+	class XDF_Mosquito: B_UAV_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Mosquito";
+		editorPreview="\xdf\previews\vehicles\XDF_Mosquito.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 10; // Default 0.5
+		maxSpeed = 200; // Default 100
+		fuelCapacity = 200; // Default 100
+		damageResistance = 0.01; // Default 0.0071899998	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\mosquito\xdf_uav_01_co.paa"
+		};
+		class assembleInfo
+		{
+			primary=1;
+			base="";
+			assembleTo="";
+			displayName="";
+			dissasembleTo[]=
+			{
+				"B_XDF_UAV_01_backpack_F"
+			};
+		};
+	};
+	class B_UAV_05_F;
+	class XDF_Guardian: B_UAV_05_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Guardian";
+		editorPreview="\xdf\previews\vehicles\XDF_Guardian.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 100; // Default 50
+		maxSpeed = 1000; // Default 800
+		// fuelCapacity = 200; // Default 100
+		damageResistance = 0.02; // Default 0.0040000002	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
+			"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
+					"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_MRAP_01_F;
 	class XDF_Boar: B_MRAP_01_F
 	{
@@ -443,6 +695,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Boar";
+		editorPreview="\xdf\previews\vehicles\XDF_Boar.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -472,6 +725,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Boar (GMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Boar_GMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -501,6 +755,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Boar (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Boar_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -530,6 +785,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jackal";
+		editorPreview="\xdf\previews\vehicles\XDF_Jackal.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -584,6 +840,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jackal (Armed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Jackal_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -638,6 +895,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Jackal (AT)";
+		editorPreview="\xdf\previews\vehicles\XDF_Jackal_AT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -696,6 +954,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Puma";
+		editorPreview="\xdf\previews\vehicles\XDF_Puma.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -724,6 +983,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Puma (GMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Puma_GMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -752,6 +1012,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Puma (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Puma_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -780,11 +1041,12 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Odin";
+		editorPreview="\xdf\previews\vehicles\XDF_Odin.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 1440; // Default 480
-		armorStructural = 15; // Default 5
+		armor = 960; // Default 480
+		armorStructural = 7; // Default 5
 		maxSpeed = 240; // Default 120
 		fuelCapacity = 48; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
@@ -843,6 +1105,360 @@ class CfgVehicles
 			1
 		};
 	};
+	class O_Truck_03_ammo_F;
+	class XDF_Cyclone_Ammo: O_Truck_03_ammo_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Ammo)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Ammo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_covered_F;
+	class XDF_Cyclone_Covered: O_Truck_03_covered_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Covered)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Covered.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_fuel_F;
+	class XDF_Cyclone_Fuel: O_Truck_03_fuel_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Fuel)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Fuel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_fuel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_medical_F;
+	class XDF_Cyclone_Medical: O_Truck_03_medical_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Medical)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Medical.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cargo_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cover_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_repair_F;
+	class XDF_Cyclone_Repair: O_Truck_03_repair_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone (Repair)";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone_Repair.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Truck_03_transport_F;
+	class XDF_Cyclone: O_Truck_03_transport_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Cyclone";
+		editorPreview="\xdf\previews\vehicles\XDF_Cyclone.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+			"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+			"\xdf\retextures\cyclone\truck_03_cargo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
+					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
+					"\xdf\retextures\cyclone\truck_03_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_MBT_02_railgun_F;
 	class XDF_Titan: O_MBT_02_railgun_F
 	{
@@ -850,11 +1466,12 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF TI-200 'Titan'";
+		editorPreview="\xdf\previews\vehicles\XDF_Titan.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 2550; // Default 850
-		armorStructural = 12; // Default 6
+		armor = 1700; // Default 850
+		armorStructural = 9; // Default 6
 		maxSpeed = 150; // Default 75
 		fuelCapacity = 45; // Default 15
 		damageResistance = 0.1; // Default 0.0038900001
@@ -912,6 +1529,7 @@ class CfgVehicles
 	class B_SSU_Stealth_Uniform_Ghillie_base;
 	class B_SSU_Coveralls_base;
 	class B_CTRG_Soldier_2_F;
+	class B_Pilot_F;
 	class TCGM_Bra_B_MTP_Soldier_SL;
 	class TCGM_RollUp_B_CTRG_Soldier;
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
@@ -985,6 +1603,21 @@ class CfgVehicles
 			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
 	};
+	class B_XDF_Jet_Pilot_Suit: B_Pilot_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Jet_Pilot_Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_co.paa"
+		};
+	};
 	class U_XDF_Female_Uniform_Black: TCGM_Stealth_B_CTRG_Soldier_arid
 	{
 		author="TCGM & Radium";
@@ -1028,6 +1661,11 @@ class CfgVehicles
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
+	class Bag_Base;
+	class Weapon_Bag_Base: Bag_Base
+	{
+		class assembleInfo;
+	};
 	class B_XDF_Viper_Harness_Black: B_SSU_Viper_Harness_base
 	{
 		author="Clasless & Radium";
@@ -1105,6 +1743,32 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Black.paa"
 		};
 	};
+	class B_XDF_UAV_01_backpack_F: Weapon_Bag_Base
+	{
+		author="Radium";
+		mapSize=0.60000002;
+		_generalMacro="B_UAV_01_backpack_F";
+		scope=2;
+		scopeCurator=2;
+		displayName="XDF UAV Bag (Mosquito)";
+		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+		editorCategory="EdCat_Equipment";
+		editorSubcategory="EdSubcat_Backpacks";
+		faction="B_XDF";
+		picture="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\xdf_uav_01_backpack_co.paa"
+		};
+		maximumLoad=0;
+		mass=300;
+		class assembleInfo: assembleInfo
+		{
+			base="";
+			displayName="XDF Mosquito";
+			assembleTo="XDF_Mosquito";
+		};
+	};
 
 	// Units
 	class B_Soldier_F;
@@ -1116,6 +1780,8 @@ class CfgVehicles
 	class B_soldier_UAV_F;
 	class B_crew_F;
 	class B_Helipilot_F;
+	class B_helicrew_F;
+	class B_Fighter_Pilot_F;
 	class B_HeavyGunner_F;
 	class B_recon_F;
 	class B_Recon_Sharpshooter_F;
@@ -1132,6 +1798,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -1240,6 +1907,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -1348,6 +2016,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Light Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Light_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -1440,6 +2109,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Light Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Light_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -1532,6 +2202,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marksman";
+		editorPreview="\xdf\previews\units\B_XDF_Marksman.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -1636,6 +2307,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Markswoman";
+		editorPreview="\xdf\previews\units\B_XDF_Marksman_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -1740,6 +2412,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Sniper";
+		editorPreview="\xdf\previews\units\B_XDF_Sniper.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -1844,6 +2517,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Sniper";
+		editorPreview="\xdf\previews\units\B_XDF_Sniper_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -1948,6 +2622,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Medic";
+		editorPreview="\xdf\previews\units\B_XDF_Medic.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2074,6 +2749,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Medic";
+		editorPreview="\xdf\previews\units\B_XDF_Medic_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2200,6 +2876,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Engineer";
+		editorPreview="\xdf\previews\units\B_XDF_Engineer.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2306,6 +2983,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Engineer";
+		editorPreview="\xdf\previews\units\B_XDF_Engineer_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2412,6 +3090,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_JTAC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2540,6 +3219,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_JTAC_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2668,6 +3348,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_UAV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -2754,7 +3435,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -2776,6 +3457,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_UAV_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -2862,7 +3544,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -2884,6 +3566,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Grenadier";
+		editorPreview="\xdf\previews\units\B_XDF_Grenadier.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -3028,6 +3711,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Grenadier";
+		editorPreview="\xdf\previews\units\B_XDF_Grenadier_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -3172,6 +3856,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_HAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -3290,6 +3975,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_HAT_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -3408,6 +4094,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Crewman";
+		editorPreview="\xdf\previews\units\B_XDF_Crew.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -3487,7 +4174,8 @@ class CfgVehicles
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Pilot";
+		displayName = "XDF Helicopter Pilot";
+		editorPreview="\xdf\previews\units\B_XDF_Pilot.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
@@ -3495,7 +4183,7 @@ class CfgVehicles
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
-			"H_SSU_Heli_Crew_Helmet_Black",
+			"H_XDF_Helmet_Heli_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3506,7 +4194,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
-			"H_SSU_Heli_Crew_Helmet_Black",
+			"H_XDF_Helmet_Heli_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3550,7 +4238,165 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_Parachute";
+		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Heli_Crew : B_helicrew_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Helicopter Crew";
+		editorPreview="\xdf\previews\units\B_XDF_Heli_Crew.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_CRW_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Coveralls_Black";
+		linkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Helmet_Heli_Crew_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Helmet_Heli_Crew_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_CRW_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_CRW_XDF_black_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Jet_Pilot : B_Fighter_Pilot_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Jet Pilot";
+		editorPreview="\xdf\previews\units\B_XDF_Jet_Pilot.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_CRW_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Jet_Pilot_Suit";
+		linkedItems[] = {
+			"H_XDF_Jet_Pilot_Helmet",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"H_XDF_Jet_Pilot_Helmet",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_SMG_01_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"XDF_SMG_01_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"30Rnd_45ACP_Mag_SMG_01",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "";
 		items[]=
 		{
 			"FirstAidKit",
@@ -3568,6 +4414,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -3696,6 +4543,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -3824,6 +4672,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Medic.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -3950,6 +4799,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Medic_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -4076,6 +4926,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_JTAC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4204,6 +5055,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_JTAC_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -4332,6 +5184,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_UAV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4418,7 +5271,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -4440,11 +5293,12 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_UAV_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
 		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
-		uniformClass = "U_XDF_Female_Uniform_Black_Bra";
+		uniformClass = "U_XDF_Female_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black",
@@ -4526,7 +5380,7 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -4548,6 +5402,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Gunner.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4658,6 +5513,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Gunner_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -4768,6 +5624,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Hunter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -4876,6 +5733,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Hunter_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -4984,6 +5842,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_HAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5102,6 +5961,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_HAT_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5220,6 +6080,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Operative.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5370,6 +6231,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Operative";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Operative_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5520,6 +6382,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Medic.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5646,6 +6509,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Medic";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Medic_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -5772,6 +6636,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_JTAC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -5900,6 +6765,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite JTAC";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_JTAC_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6028,12 +6894,13 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_UAV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
-linkedItems[] = {
+		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
@@ -6152,7 +7019,7 @@ linkedItems[] = {
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -6174,6 +7041,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite UAV Operator";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_UAV_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6298,7 +7166,7 @@ linkedItems[] = {
 			"Laserbatteries"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_UAV_01_backpack_F";
 		items[]=
 		{
 			"FirstAidKit",
@@ -6320,6 +7188,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Gunner.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6430,6 +7299,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Gunner";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Gunner_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6540,6 +7410,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Hunter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6644,6 +7515,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Hunter";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_Hunter_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6748,6 +7620,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_HAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
@@ -6862,6 +7735,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AX Elite Heavy Anti-Tank";
+		editorPreview="\xdf\previews\units\B_XDF_AX_Elite_HAT_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
@@ -6976,6 +7850,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
@@ -7096,6 +7971,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Sharpshooter";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter_Sharpshooter.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
@@ -7200,6 +8076,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Exterminator";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter_Exterminator.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
@@ -7298,6 +8175,7 @@ linkedItems[] = {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF XH Corpsman";
+		editorPreview="\xdf\previews\units\B_XDF_Xenohunter_Corpsman.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
