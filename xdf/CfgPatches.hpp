@@ -4,18 +4,6 @@ class CfgPatches
 	{
 		requiredAddons[] = 
 		{
-			"A3_Armor_F_Decade",
-			"A3_Armor_F_Tank",
-			"A3_Air_F_Jets",
-			"A3_Air_F",
-			"A3_Air_F_Beta",
-			"A3_Air_F_Exp",
-			"A3_Soft_F",
-			"A3_Soft_F_Beta_MRAP_03",
-			"A3_Soft_F_Exp",
-			"A3_Drones_F",
-			"A3_Characters_F",
-			"A3_Weapons_F",
 			"SSU_Core",
 			"TCGM_Girls"
 		};
