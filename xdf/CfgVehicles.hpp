@@ -1634,7 +1634,8 @@ class CfgVehicles
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
-	class Weapon_Bag_Base
+	class Bag_Base;
+	class Weapon_Bag_Base: Bag_Base
 	{
 		class assembleInfo;
 	};
