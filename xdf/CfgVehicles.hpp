@@ -688,6 +688,54 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_T_UAV_03_dynamicLoadout_F;
+	class XDF_Kestrel: B_T_UAV_03_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Kestrel";
+		editorPreview="\xdf\previews\vehicles\XDF_Kestrel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 100; // Default 25
+		maxSpeed = 500; // Default 250
+		fuelCapacity = 200; // Default 100
+		damageResistance = 0.02; // Default 0	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\kestrel\uav_03_1_co.paa",
+			"\xdf\retextures\kestrel\uav_03_1_co.paa",
+			"\xdf\retextures\kestrel\uav_03_mlod_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
+					"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_MRAP_01_F;
 	class XDF_Boar: B_MRAP_01_F
 	{

@@ -481,6 +481,60 @@ class cfgWeapons
 		};
 	};
 
+	// Retextured Weapons
+	// MSBS Rifles
+	class arifle_MSBS65_base_black_F;
+	class arifle_MSBS65_GL_base_black_F;
+	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MSBS65_black_F";
+		scope=2;
+		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_black_F_ca.paa";
+		displayName="XDF MFS 'Spearhead'";
+		baseWeapon="arifle_MSBS65_XDF_black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_01_black_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
+		};
+	};
+	class arifle_MSBS65_GL_XDF_black: arifle_MSBS65_GL_base_black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MSBS65_GL_black_F";
+		scope=2;
+		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_GL_black_F_ca.paa";
+		displayName="XDF MFS 'Spearhead' GL";
+		baseWeapon="arifle_MSBS65_GL_XDF_black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_01_black_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
+		};
+	};
+
+    // Machineguns
+	class MMG_01_tan_F;
+	class XDF_MMG_01_tan: MMG_01_tan_F
+	{
+		author="Radium";
+		_generalMacro="MMG_01_tan_F";
+		scope=2;
+		picture="\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\UI\gear_MMG_01_tan_X_co.paa";
+		displayName="XDF MMG 'Ripper'";
+		baseWeapon="XDF_MMG_01_tan";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\navid\mmg_01_01_sand_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\navid\mmg_01_02_sand_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\navid\mmg_01_03_sand_co.paa"
+		};
+	};
+
+	// Loadouts
 	class arifle_MSBS65_black_F;
 	class arifle_MSBS65_UBS_black_F;
 	class arifle_MSBS65_GL_black_F;
@@ -490,7 +544,6 @@ class cfgWeapons
 	class SMG_01_F;
 	class arifle_ARX_blk_F;
 	class srifle_DMR_05_blk_F;
-	class MMG_01_tan_F;
 	class srifle_LRR_F;
 	class srifle_DMR_02_F;
 	class srifle_DMR_04_F;
@@ -505,7 +558,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_black_F // Promet Standard
+	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_XDF_black // Promet Standard
 	{
 		class linkedItems
 		{
@@ -519,7 +572,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_GL_XDF_black_F: arifle_MSBS65_GL_black_F // Promet GL
+	class arifle_MSBS65_GL_XDF_black_F: arifle_MSBS65_GL_XDF_black // Promet GL
 	{
 		class linkedItems
 		{
@@ -551,7 +604,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_black_F // Promet AX (Suppressed)
+	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_XDF_black // Promet AX (Suppressed)
 	{
 		class linkedItems
 		{
@@ -569,7 +622,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_CRW_XDF_black_F: arifle_MSBS65_black_F // Promet Crew
+	class arifle_MSBS65_CRW_XDF_black_F: arifle_MSBS65_XDF_black // Promet Crew
 	{
 		class linkedItems
 		{
@@ -693,7 +746,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class XDF_MMG_01_tan_F: MMG_01_tan_F // Navid
+	class XDF_MMG_01_tan_F: XDF_MMG_01_tan // Navid
 	{
 		class linkedItems
 		{
