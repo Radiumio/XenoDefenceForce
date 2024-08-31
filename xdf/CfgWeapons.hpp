@@ -317,6 +317,7 @@ class cfgWeapons
 	class H_PilotHelmetFighter_B;
 	class H_PilotHelmetHeli_B;
 	class H_CrewHelmetHeli_B;
+	class H_HelmetCrew_B;
 	class H_XDF_Stealth_Combat_Helmet_Black: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
