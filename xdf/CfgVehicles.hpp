@@ -710,7 +710,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\kestrel\uav_03_1_co.paa",
-			"\xdf\retextures\kestrel\uav_03_1_co.paa",
+			"\xdf\retextures\kestrel\uav_03_2_co.paa",
 			"\xdf\retextures\kestrel\uav_03_mlod_co.paa"
 		};
 		class TextureSources
@@ -721,8 +721,9 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
-					"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+					"\xdf\retextures\kestrel\uav_03_1_co.paa",
+					"\xdf\retextures\kestrel\uav_03_2_co.paa",
+					"\xdf\retextures\kestrel\uav_03_mlod_co.paa"
 				};
 				factions[]=
 				{
