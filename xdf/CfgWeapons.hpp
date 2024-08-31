@@ -480,6 +480,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
 		};
 	};
+	class H_XDF_Helmet_Crew_Black: H_HelmetCrew_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Crew Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
+		};
+	};
 
 	// Retextured Weapons
 	// Rifles

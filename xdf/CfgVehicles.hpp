@@ -4150,7 +4150,7 @@ class CfgVehicles
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
-			"H_XDF_Advanced_Modular_Helmet_HS_Black",
+			"H_XDF_Helmet_Crew_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -4161,7 +4161,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
-			"H_XDF_Advanced_Modular_Helmet_HS_Black",
+			"H_XDF_Helmet_Crew_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
