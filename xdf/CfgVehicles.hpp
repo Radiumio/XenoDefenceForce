@@ -4149,7 +4149,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
-			"V_XDF_Tactical_Vest_Black",
+			"V_XDF_Carrier_Lite_Black",
 			"H_XDF_Helmet_Crew_Black",
 			"ItemMap",
 			"ItemGPS",
@@ -4160,7 +4160,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Tactical_Vest_Black",
+			"V_XDF_Carrier_Lite_Black",
 			"H_XDF_Helmet_Crew_Black",
 			"ItemMap",
 			"ItemGPS",
