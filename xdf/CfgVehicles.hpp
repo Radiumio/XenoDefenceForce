@@ -688,6 +688,55 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_T_UAV_03_dynamicLoadout_F;
+	class XDF_Kestrel: B_T_UAV_03_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Kestrel";
+		editorPreview="\xdf\previews\vehicles\XDF_Kestrel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 100; // Default 25
+		maxSpeed = 500; // Default 250
+		fuelCapacity = 200; // Default 100
+		damageResistance = 0.02; // Default 0	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\kestrel\uav_03_1_co.paa",
+			"\xdf\retextures\kestrel\uav_03_2_co.paa",
+			"\xdf\retextures\kestrel\uav_03_mlod_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\kestrel\uav_03_1_co.paa",
+					"\xdf\retextures\kestrel\uav_03_2_co.paa",
+					"\xdf\retextures\kestrel\uav_03_mlod_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_MRAP_01_F;
 	class XDF_Boar: B_MRAP_01_F
 	{
@@ -3890,13 +3939,13 @@ class CfgVehicles
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 
@@ -4009,13 +4058,13 @@ class CfgVehicles
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 
@@ -4101,8 +4150,8 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
-			"V_XDF_Tactical_Vest_Black",
-			"H_XDF_Advanced_Modular_Helmet_HS_Black",
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Helmet_Crew_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -4112,8 +4161,8 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Tactical_Vest_Black",
-			"H_XDF_Advanced_Modular_Helmet_HS_Black",
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Helmet_Crew_Black",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -5876,13 +5925,13 @@ class CfgVehicles
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 
@@ -5995,13 +6044,13 @@ class CfgVehicles
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"XDF_launch_MRAWS_green_F",
+			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 
@@ -7218,12 +7267,12 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_MMG_01_tan_F",
+			"XDF_MMG_01_black_F",
 			"hgun_P07_blk_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_MMG_01_tan_F",
+			"XDF_MMG_01_black_F",
 			"hgun_P07_blk_F",
 			"Rangefinder"
 		};
@@ -7329,12 +7378,12 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_MMG_01_tan_F",
+			"XDF_MMG_01_black_F",
 			"hgun_P07_blk_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_MMG_01_tan_F",
+			"XDF_MMG_01_black_F",
 			"hgun_P07_blk_F",
 			"Rangefinder"
 		};
@@ -7654,13 +7703,13 @@ class CfgVehicles
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"launch_O_Vorona_green_F",
+			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"launch_O_Vorona_green_F",
+			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
 
@@ -7769,13 +7818,13 @@ class CfgVehicles
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"launch_O_Vorona_green_F",
+			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
 			"hgun_P07_blk_F",
-			"launch_O_Vorona_green_F",
+			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
 
@@ -8104,12 +8153,12 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_MMG_01_tan_F",
+			"XDF_MMG_01_black_F",
 			"hgun_P07_blk_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_MMG_01_tan_F",
+			"XDF_MMG_01_black_F",
 			"hgun_P07_blk_F",
 			"Rangefinder"
 		};
