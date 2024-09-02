@@ -505,7 +505,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_black_F_ca.paa";
-		displayName="XDF MFS 'Spearhead'";
+		displayName="XDF S-1 Spearhead";
 		baseWeapon="arifle_MSBS65_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -520,7 +520,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_GL_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_GL_black_F_ca.paa";
-		displayName="XDF MFS 'Spearhead' GL";
+		displayName="XDF S-2 Spearhead GL";
 		baseWeapon="arifle_MSBS65_GL_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -535,7 +535,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_UBS_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_UBS_black_F_ca.paa";
-		displayName="XDF MFS 'Spearhead' UBS";
+		displayName="XDF S-3 Spearhead UBS";
 		baseWeapon="arifle_MSBS65_UBS_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -548,7 +548,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Type-115";
+		displayName="XDF P-1 EXH-WS 'Type 115'";
 		baseWeapon="XDF_arifle_ARX_blk";
 		hiddenSelectionsTextures[]=
 		{
@@ -560,7 +560,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF KRISS Vector";
+		displayName="XDF V-1 KRISS Vector";
 		baseWeapon="XDF_SMG_01";
 		hiddenSelections[]=
 		{
@@ -587,7 +587,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF SIG 556";
+		displayName="XDF D-3 Marauder";
 		baseWeapon="XDF_srifle_DMR_03";
 		hiddenSelections[]=
 		{
@@ -604,7 +604,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF MAR-10";
+		displayName="XDF D-2 Bad News";
 		baseWeapon="XDF_srifle_DMR_02";
 		hiddenSelections[]=
 		{
@@ -621,7 +621,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF GM6 'Lynx'";
+		displayName="XDF L-2 HTI Caracal";
 		baseWeapon="XDF_srifle_GM6";
 		hiddenSelections[]=
 		{
@@ -636,7 +636,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Cyrus";
+		displayName="XDF D-5 Nova";
 		baseWeapon="XDF_srifle_DMR_05_blk";
 		hiddenSelections[]=
 		{
@@ -653,7 +653,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF ASP-1 Kir";
+		displayName="XDF D-4 AKINA";
 		baseWeapon="XDF_srifle_DMR_04";
 		hiddenSelections[]=
 		{
@@ -670,7 +670,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Intervention";
+		displayName="XDF L-1 Arbitrator";
 		baseWeapon="XDF_srifle_LRR";
 		hiddenSelections[]=
 		{
@@ -691,7 +691,7 @@ class cfgWeapons
 		_generalMacro="MMG_01_tan_F";
 		scope=2;
 		picture="\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\UI\gear_MMG_01_tan_X_co.paa";
-		displayName="XDF MMG 'Ripper'";
+		displayName="XDF M-1 HK121";
 		baseWeapon="XDF_MMG_01_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -704,7 +704,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF MMG 'Stomper'";
+		displayName="XDF M-2 LWMMG";
 		baseWeapon="XDF_MMG_02_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -721,7 +721,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF MAAWS (Black)";
+		displayName="XDF R-1 M4 MAAWS";
 		baseWeapon="XDF_launch_MRAWS_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -733,7 +733,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Vorona (Black)";
+		displayName="XDF R-2 Metis-M";
 		baseWeapon="XDF_launch_O_Vorona_black";
 		hiddenSelectionsTextures[]=
 		{
