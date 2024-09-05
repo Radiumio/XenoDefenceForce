@@ -281,7 +281,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
 		armor = 180; // Default 60
-		maxSpeed = 450; // Default 365
+		maxSpeed = 365; // Default 365
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
@@ -317,7 +317,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
 		armor = 120; // Default 40
-		maxSpeed = 500; // Default 300
+		maxSpeed = 300; // Default 300
 		fuelCapacity = 2300; // Default 1360
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
@@ -366,7 +366,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
 		armor = 120; // Default 40
-		maxSpeed = 500; // Default 300
+		maxSpeed = 300; // Default 300
 		fuelCapacity = 2300; // Default 1360
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
@@ -411,7 +411,7 @@ class CfgVehicles
 		crew = "B_XDF_Pilot";
 		armor = 120; // Default 30
 		armorStructural = 4; // Default none
-		maxSpeed = 400; // Default 245
+		maxSpeed = 245; // Default 245
 		fuelCapacity = 484; // Default 242
 		damageResistance = 0.02; // Default 0.01039
 		typicalCargo[]=
@@ -495,7 +495,7 @@ class CfgVehicles
 		crew = "B_XDF_Pilot";
 		armor = 200; // Default 100
 		armorStructural = 4; // Default 2
-		maxSpeed = 1400; // Default 700
+		maxSpeed = 700; // Default 700
 		fuelCapacity = 2500; // Default 1000
 		damageResistance = 0.02; // Default 0.00039999999
 		typicalCargo[]=
@@ -542,7 +542,7 @@ class CfgVehicles
 		crew = "B_XDF_Pilot";
 		armor = 200; // Default 100
 		armorStructural = 4; // Default 2
-		maxSpeed = 1400; // Default 700
+		maxSpeed = 700; // Default 700
 		fuelCapacity = 2500; // Default 1000
 		damageResistance = 0.02; // Default 0.00039999999
 		typicalCargo[]=
@@ -618,7 +618,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
 		armor = 10; // Default 0.5
-		maxSpeed = 200; // Default 100
+		maxSpeed = 100; // Default 100
 		fuelCapacity = 200; // Default 100
 		damageResistance = 0.01; // Default 0.0071899998	    
 		typicalCargo[]=
@@ -653,7 +653,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
 		armor = 100; // Default 50
-		maxSpeed = 1000; // Default 800
+		maxSpeed = 800; // Default 800
 		// fuelCapacity = 200; // Default 100
 		damageResistance = 0.02; // Default 0.0040000002	    
 		typicalCargo[]=
@@ -700,7 +700,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
 		armor = 100; // Default 25
-		maxSpeed = 500; // Default 250
+		maxSpeed = 250; // Default 250
 		fuelCapacity = 200; // Default 100
 		damageResistance = 0.02; // Default 0	    
 		typicalCargo[]=
