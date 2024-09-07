@@ -298,6 +298,52 @@ class CfgVehicles
 			0.3		// 	1800
 		};    			
     };
+	class B_Plane_CAS_01_dynamicLoadout_F;
+	class XDF_Tusk: B_Plane_CAS_01_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF A-21 Tusk";
+		editorPreview="\xdf\previews\vehicles\XDF_Tusk.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Jet_Pilot";
+		armor = 160; // Default 80
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Jet_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\tusk\plane_cas_01_ext01_co.paa",
+			"\xdf\retextures\tusk\plane_cas_01_ext02_co.paa"
+		};
+	};
+	class O_Plane_CAS_02_dynamicLoadout_F;
+	class XDF_Vulture: O_Plane_CAS_02_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF A-33 Vulture";
+		editorPreview="\xdf\previews\vehicles\XDF_Vulture.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Jet_Pilot";
+		armor = 160; // Default 80
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Jet_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\vulture\fighter02_ext01_co.paa",
+			"\xdf\retextures\vulture\fighter02_ext02_co.paa"
+		};
+	};
 	class O_Heli_Attack_02_dynamicLoadout_black_F;
 	class XDF_Caiman: O_Heli_Attack_02_dynamicLoadout_black_F
 	{
