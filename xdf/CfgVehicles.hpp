@@ -480,6 +480,67 @@ class CfgVehicles
 					};
 				};
 			};
+			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+			{
+				class Components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoAirborneMiniMap";
+					};
+					class CrewDisplay
+					{
+						componentType="CrewDisplayComponent";
+						resource="RscCustomInfoCrew";
+					};
+					class UAVDisplay
+					{
+						componentType="UAVFeedDisplayComponent";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={250,500,1000,2000};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
+			{
+				defaultDisplay="SensorDisplay";
+				class Components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoAirborneMiniMap";
+					};
+					class CrewDisplay
+					{
+						componentType="CrewDisplayComponent";
+						resource="RscCustomInfoCrew";
+					};
+					class UAVDisplay
+					{
+						componentType="UAVFeedDisplayComponent";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={250,500,1000,2000};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
 		};
 	};
 	class O_T_VTOL_02_infantry_dynamicLoadout_F;
@@ -502,8 +563,6 @@ class CfgVehicles
 		{
 			"B_XDF_Pilot"
 		};
-		lockDetectionSystem="8 + 4";
-		incomingMissileDetectionSystem="8 + 16";
 		class TextureSources
 		{
 			class XDF
@@ -549,8 +608,6 @@ class CfgVehicles
 		{
 			"B_XDF_Pilot"
 		};
-		lockDetectionSystem="8 + 4";
-		incomingMissileDetectionSystem="8 + 16";
 		class TextureSources
 		{
 			class XDF
@@ -567,6 +624,168 @@ class CfgVehicles
 					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_co.paa",
 					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_co.paa",
 					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_T_VTOL_01_infantry_olive_F;
+	class XDF_Albatross_IT: B_T_VTOL_01_infantry_olive_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF X-44 Albatross (Infantry Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Albatross_IT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 800; // Default 400
+		armorStructural = 4; // Default 0
+		maxSpeed = 550; // Default 550
+		fuelCapacity = 3000; // Default ?
+		damageResistance = 0.02; // Default 0.001
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\albatross\vtol_01_ext01_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\albatross\vtol_01_ext01_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
+					""
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_T_VTOL_01_vehicle_olive_F;
+	class XDF_Albatross_VT: B_T_VTOL_01_vehicle_olive_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF X-44 Albatross (Vehicle Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Albatross_VT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 800; // Default 400
+		armorStructural = 4; // Default 0
+		maxSpeed = 550; // Default 550
+		fuelCapacity = 3000; // Default ?
+		damageResistance = 0.02; // Default 0.001
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\albatross\vtol_01_ext01_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\albatross\vtol_01_ext01_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
+					""
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_T_VTOL_01_armed_olive_F;
+	class XDF_Retributor: B_T_VTOL_01_armed_olive_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF X-44 Retributor";
+		editorPreview="\xdf\previews\vehicles\XDF_Albatross_VT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 800; // Default 400
+		armorStructural = 4; // Default 0
+		maxSpeed = 550; // Default 550
+		fuelCapacity = 3000; // Default ?
+		damageResistance = 0.02; // Default 0.001
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\albatross\vtol_01_ext01_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
+			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\albatross\vtol_01_ext01_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
+					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
+					""
 				};
 			};
 		};
