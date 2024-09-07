@@ -934,7 +934,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF X-44 Retributor";
-		editorPreview="\xdf\previews\vehicles\XDF_Albatross_VT.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Retributor.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
