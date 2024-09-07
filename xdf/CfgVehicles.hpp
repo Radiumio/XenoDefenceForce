@@ -845,7 +845,7 @@ class CfgVehicles
 			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-			"vtol_01_signs_ca"
+			"\xdf\retextures\albatross\vtol_01_signs_ca.paa"
 		};
 		class TextureSources
 		{
@@ -863,7 +863,7 @@ class CfgVehicles
 					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-					"vtol_01_signs_ca"
+					"\xdf\retextures\albatross\vtol_01_signs_ca.paa"
 				};
 			};
 		};
@@ -899,7 +899,7 @@ class CfgVehicles
 			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-			"vtol_01_signs_ca"
+			"\xdf\retextures\albatross\vtol_01_signs_ca.paa"
 		};
 		class TextureSources
 		{
@@ -917,7 +917,7 @@ class CfgVehicles
 					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-					"vtol_01_signs_ca"
+					"\xdf\retextures\albatross\vtol_01_signs_ca.paa"
 				};
 			};
 		};
@@ -953,7 +953,7 @@ class CfgVehicles
 			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-			"vtol_01_signs_ca"
+			"\xdf\retextures\albatross\vtol_01_signs_ca.paa"
 		};
 		class TextureSources
 		{
@@ -971,7 +971,7 @@ class CfgVehicles
 					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-					"vtol_01_signs_ca"
+					"\xdf\retextures\albatross\vtol_01_signs_ca.paa"
 				};
 			};
 		};
