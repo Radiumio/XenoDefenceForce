@@ -71,10 +71,39 @@ class CfgVehicles
 		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
-		displayName="XNV Xenohunter - Task Force Lotus";
+		displayName="Flag (XDF - Task Force Lotus)";
 		class EventHandlers
 		{
-			init="(_this select 0) setFlagTexture '\xdf\flags\tfl_flag.paa'";
+			init="(_this select 0) setFlagTexture '\xdf\flags\lotus_flag.paa'";
+		};
+	};
+    class Flag_XenoDefenceForce: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_XenoDefenceForce.jpg";
+		_generalMacro="Flag_XenoDefenceForce";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (Xeno Defence Force)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\xdf_flag.paa'";
 		};
 	};
 	class B_Plane_Fighter_01_F;
@@ -543,6 +572,163 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_Heli_Light_01_dynamicLoadout_F;
+    class B_Heli_Light_01_dynamicLoadout_F_OCimport_01 : B_Heli_Light_01_dynamicLoadout_F { scope = 0; class Components; };
+    class B_Heli_Light_01_dynamicLoadout_F_OCimport_02 : B_Heli_Light_01_dynamicLoadout_F_OCimport_01 { 
+		class Components;
+    };
+	class XDF_Hornet_Armed: B_Heli_Light_01_dynamicLoadout_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Hornet (Armed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Hornet_Armed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 30
+		armorStructural = 4; // Default none
+		maxSpeed = 245; // Default 245
+		fuelCapacity = 484; // Default 242
+		damageResistance = 0.02; // Default 0.01039
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		lockDetectionSystem="8 + 4";
+		incomingMissileDetectionSystem="8 + 16";
+		weapons[]=
+		{
+			"M134_minigun",
+			"CMFlareLauncher_Singles"
+		};
+		magazines[]=
+		{
+			"5000Rnd_762x51_Belt",
+			"120Rnd_CMFlareMagazine"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"aiming_dot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa",
+			"\xdf\retextures\hornet\heli_light_01_crosshair_ca.paa"
+		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=2000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=1500;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=70;
+						angleRangeHorizontal=65;
+						angleRangeVertical=45;
+					};
+					class VisualSensorComponent: SensorTemplateVisual
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=1500;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=1000;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=70;
+						angleRangeHorizontal=46;
+						angleRangeVertical=34;
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+			{
+				class Components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoAirborneMiniMap";
+					};
+					class CrewDisplay
+					{
+						componentType="CrewDisplayComponent";
+						resource="RscCustomInfoCrew";
+					};
+					class UAVDisplay
+					{
+						componentType="UAVFeedDisplayComponent";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={250,500,1000,2000};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
+			{
+				defaultDisplay="SensorDisplay";
+				class Components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoAirborneMiniMap";
+					};
+					class CrewDisplay
+					{
+						componentType="CrewDisplayComponent";
+						resource="RscCustomInfoCrew";
+					};
+					class UAVDisplay
+					{
+						componentType="UAVFeedDisplayComponent";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={250,500,1000,2000};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+		};
+	};
 	class O_T_VTOL_02_infantry_dynamicLoadout_F;
 	class XDF_Wraith_IT: O_T_VTOL_02_infantry_dynamicLoadout_F
 	{
@@ -659,7 +845,7 @@ class CfgVehicles
 			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-			""
+			"vtol_01_signs_ca"
 		};
 		class TextureSources
 		{
@@ -677,7 +863,7 @@ class CfgVehicles
 					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-					""
+					"vtol_01_signs_ca"
 				};
 			};
 		};
@@ -713,7 +899,7 @@ class CfgVehicles
 			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-			""
+			"vtol_01_signs_ca"
 		};
 		class TextureSources
 		{
@@ -731,7 +917,7 @@ class CfgVehicles
 					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-					""
+					"vtol_01_signs_ca"
 				};
 			};
 		};
@@ -767,7 +953,7 @@ class CfgVehicles
 			"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 			"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-			""
+			"vtol_01_signs_ca"
 		};
 		class TextureSources
 		{
@@ -785,7 +971,7 @@ class CfgVehicles
 					"\xdf\retextures\albatross\vtol_01_ext02_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext03_black_co.paa",
 					"\xdf\retextures\albatross\vtol_01_ext04_black_co.paa",
-					""
+					"vtol_01_signs_ca"
 				};
 			};
 		};
