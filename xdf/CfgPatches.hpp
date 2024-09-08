@@ -19,6 +19,7 @@ class CfgPatches
 			"XDF_Skyhawk",
 			"XDF_Dragonfly",
 			"XDF_Hornet",
+			"XDF_Hornet_Armed",
 			"XDF_Wraith_IT",
 			"XDF_Wraith_VT",
 			"XDF_Albatross_IT",
