@@ -13,12 +13,18 @@ class CfgPatches
 		units[] = 
 		{
 			"XDF_Gemini",
+			"XDF_Vulture",
+			"XDF_Tusk",
 			"XDF_Caiman",
 			"XDF_Skyhawk",
 			"XDF_Dragonfly",
 			"XDF_Hornet",
+			"XDF_Hornet_Armed",
 			"XDF_Wraith_IT",
 			"XDF_Wraith_VT",
+			"XDF_Albatross_IT",
+			"XDF_Albatross_VT",
+			"XDF_Retributor",
 			"XDF_Mars",
 			"XDF_Mosquito",
 			"XDF_Guardian",
