@@ -1,3 +1,6 @@
+//[nil,get3DENSelected "" select 0] call BIS_fnc_exportCfgGroups; //Eden
+//[nil,nil] call BIS_fnc_exportCfgGroups; //Zeus
+
 class CfgGroups {
     class WEST {
 
@@ -224,6 +227,17 @@ class CfgGroups {
                     class Object6	{side = 1; vehicle = "B_XDF_AX_Elite_JTAC"; rank = "SERGEANT"; position[] = {9.46631,9.54346,0.00143909}; dir = 180;};
                     class Object7	{side = 1; vehicle = "B_XDF_AX_Elite_Medic"; rank = "SERGEANT"; position[] = {-19.0767,18.6032,0.00143909}; dir = 180;};
                 };
+                class XDF_Xenohunter_Team
+                {
+                    name="XDF Xenohunter Fireteam";
+                    side=1;
+                    faction="B_XDF";
+                    icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    class Object0	{side = 1; vehicle = "B_XDF_Xenohunter"; rank = "MAJOR"; position[] = {0,0,0.00143909}; dir = 0;};
+                    class Object1	{side = 1; vehicle = "B_XDF_Xenohunter_Corpsman"; rank = "CAPTAIN"; position[] = {5,-4.9502,0.00143909}; dir = 0;};
+                    class Object2	{side = 1; vehicle = "B_XDF_Xenohunter_Exterminator"; rank = "CAPTAIN"; position[] = {-5,-4.9502,0.00143909}; dir = 0;};
+                    class Object3	{side = 1; vehicle = "B_XDF_Xenohunter_Sharpshooter"; rank = "CAPTAIN"; position[] = {10,-9.9502,0.00143909}; dir = 0;};
+                }
             };
 
             class Motorized 
