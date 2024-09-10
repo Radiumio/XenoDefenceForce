@@ -2272,6 +2272,7 @@ class CfgVehicles
 
 	// Units
 	class B_Soldier_F;
+	class B_Soldier_AR_F;
 	class B_medic_F;
 	class B_engineer_F;
 	class B_recon_JTAC_F;
@@ -2683,6 +2684,188 @@ class CfgVehicles
 		};
 
 		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Autorifleman : B_Soldier_AR_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Autorifleman";
+		editorPreview="\xdf\previews\units\B_XDF_Autorifleman.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_FO_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Uniform_Rolled_Black";
+		linkedItems[] = {
+			"V_XDF_Modular_Carrier_Lite_Black",
+			"H_XDF_Advanced_Modular_Helmet_Ear_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Modular_Carrier_Lite_Black",
+			"H_XDF_Advanced_Modular_Helmet_Ear_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+
+		weapons[] = {
+			"XDF_LMG_03_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"XDF_LMG_03_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_LegStrapBag_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Autorifleman_F : TCGM_RollUp_B_MTP_Soldier_AR
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Autoriflewoman";
+		editorPreview="\xdf\previews\units\B_XDF_Autorifleman_F.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_FO_F";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Female_Uniform_Black_Rolled";
+		linkedItems[] = {
+			"V_XDF_Modular_Carrier_Lite_Black",
+			"H_XDF_Advanced_Modular_Helmet_Ear_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Modular_Carrier_Lite_Black",
+			"H_XDF_Advanced_Modular_Helmet_Ear_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Goggles"
+		};
+
+		weapons[] = {
+			"XDF_LMG_03_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"XDF_LMG_03_F",
+			"hgun_P07_blk_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"200Rnd_556x45_Box_F",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_LegStrapBag_Black";
 		items[]=
 		{
 			"FirstAidKit",
