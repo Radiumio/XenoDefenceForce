@@ -2798,7 +2798,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
 		uniformClass = "U_XDF_Female_Uniform_Black_Rolled";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
