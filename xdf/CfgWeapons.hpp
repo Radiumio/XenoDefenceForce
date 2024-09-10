@@ -685,6 +685,7 @@ class cfgWeapons
     // Machineguns
 	class MMG_01_tan_F;
 	class MMG_02_black_F;
+	class LMG_03_F;
 	class XDF_MMG_01_black: MMG_01_tan_F
 	{
 		author="Radium";
@@ -711,6 +712,19 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\spmg\mmg_02_01_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\spmg\mmg_02_02_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\spmg\mmg_02_03_black_co.paa"
+		};
+	};
+	class XDF_LMG_03: LMG_03_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF M-3 M249 SAW";
+		baseWeapon="XDF_LMG_03";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\lim85\lmg_03_f_body_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\lim85\lmg_03_f_acc_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\lim85\grip_co.paa"
 		};
 	};
 
@@ -963,6 +977,20 @@ class cfgWeapons
 			class LinkedItemsUnder {
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_LMG_03_F: XDF_LMG_03 // LIM-85
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Aco";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
 			};
 		};
 	};
