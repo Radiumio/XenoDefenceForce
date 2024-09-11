@@ -114,6 +114,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "XDF Gemini";
 		editorPreview="\xdf\previews\vehicles\XDF_Gemini.jpg";
+		side=1;
 		faction = "B_XDF";
 		crew = "B_XDF_Jet_Pilot";
 		hiddenSelections[]=
@@ -200,22 +201,22 @@ class CfgVehicles
 		/// this setting is linked to geometry LOD in the model, and usees the weight data from GEO LOD
 		envelope[] =
 		{
-			0.8,	// 	0
-			1.1,	// 	100
-			1.33,	// 	200
-			1.97,	// 	300
-			2.42,	// 	400
-			2.69,	// 	500
-			3.87,	// 	600
-			5.27,	// 	700
-			6.89,	// 	800
-			8.72,	// 	900
-			9.7,	// 	1000
-			10,	// 	1100
-			9.2,	// 	1200
-			9.1,	// 	1300
-			9.0,	// 	1400
-			8.8		// 	1500
+			0.8,	// 	1
+			1.1,	// 	2
+			1.33,	// 	3
+			1.97,	// 	4
+			2.42,	// 	5
+			2.69,	// 	6
+			3.87,	// 	7
+			5.27,	// 	8
+			6.89,	// 	9
+			8.72,	// 	10
+			9.7,	// 	11
+			10,	// 	12
+			9.2,	// 	13
+			9.1,	// 	14
+			9.0,	// 	15
+			8.8		// 	16
 		};
 
 		/// rudder, elevator, aileron, thrust effectiveness; if empty old settings is used
@@ -223,22 +224,22 @@ class CfgVehicles
 		/// last value goes for 150% of max speed
 		thrustCoef[] =
 		{
-			2.76,	// 	0
-			2.69,	// 	120
-			2.62,	// 	240
-			2.68,	// 	360
-			2.74,	// 	480
-			2.81,	// 	600
-			2.89,	// 	720
-			2.95,	// 	840
-			2.96,	// 	960
-			2.96,	// 	1080
-			2.92,	// 	1200
-			2.4,	// 	1320
-			1.4,	// 	1440
-			0.3,	// 	1560
-			0.2,	// 	1680
-			0.0		// 	1800
+			2.76,	// 	1
+			2.69,	// 	2
+			2.62,	// 	3
+			2.68,	// 	4
+			2.74,	// 	5
+			2.81,	// 	6
+			2.89,	// 	7
+			2.95,	// 	8
+			2.96,	// 	9
+			2.96,	// 	10
+			2.92,	// 	11
+			2.4,	// 	12
+			1.4,	// 	13
+			0.3,	// 	14
+			0.2,	// 	15
+			0.0		// 	16
 		};		/// default value is 1
 		elevatorCoef[] =
 		{
@@ -297,6 +298,187 @@ class CfgVehicles
 			0.5,	// 	1680
 			0.3		// 	1800
 		};    			
+    };
+	class O_Plane_Fighter_02_F;
+	class XDF_Accipiter: O_Plane_Fighter_02_F
+    {
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF X-121 Accipiter";
+		editorPreview="\xdf\previews\vehicles\XDF_Accipiter.jpg";
+		side=1;
+		faction = "B_XDF";
+		crew = "B_XDF_Jet_Pilot";
+		hiddenSelections[]=
+		{
+			"Camo_01",
+			"Camo_02",
+			"",
+			"number_01",
+			"number_02",
+			"number_03"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
+			"\xdf\retextures\accipiter\Fighter_02_fuselage_02_co.paa",
+			"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
+			"",
+			"",
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
+					"\xdf\retextures\accipiter\Fighter_02_fuselage_02_co.paa",
+					"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
+					"",
+					"",
+					""
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		fuelCapacity=5080; // Default 2540
+		armor=325; // Default 65
+		armorStructural=10; // Default 2
+		damageResistance=0.2; // Default 0.0040000002
+		maxSpeed=4500; // Default 1500
+		landingSpeed=300;
+		stallSpeed=180;
+		acceleration=200;
+        airBrakeFrictionCoef=3.0;
+		altFullForce				= 8000;				/// CRUISE ALTITUDE
+		altNoForce					= 20000;			/// SERVICE CEILING
+		rudderInfluence				= 0.7660;			/// Basic angle (cos angle) of the rudder extent
+		noseDownCoef 				= 0;
+		angleOfIndicence            = 0.04;
+
+		aileronSensitivity	= 1.6;			/// coefficient of ailerons affecting roll of the plane
+		elevatorSensitivity	= 1.8;			/// coefficient of elevators affecting changing of plane horizontal heading
+
+		elevatorControlsSensitivityCoef	= 4.0;	    /// elevator coefficient of player's controller sensitivity (does not affect AI)
+		aileronControlsSensitivityCoef	= 3.5;		/// aileron coefficient of player's controller sensitivity (does not affect AI)
+		rudderControlsSensitivityCoef	= 4.0;		/// rudder coefficient of player's controller sensitivity (does not affect AI)
+
+		/// envelope defines lift produced by the shape of the plane according to current speed relative to maxSpeed
+		/// the first element of the array is for zero speed, the last for 125 % of maxSpeed, the rest in between is evenly distributed
+		/// there may be as many elements as you wish, using 13 should be preferred as it modulates the 10% increase with reasonable error
+		/// this setting is linked to geometry LOD in the model, and usees the weight data from GEO LOD
+		envelope[] = 
+		{
+			1.0, // 1
+			2.1, // 2
+			2.3, // 3
+			2.7, // 4
+			2.9, // 5
+			3.0, // 6
+			3.1, // 7
+			3.3, // 8
+			3.6, // 9
+			10.9, // 10
+			11.1, // 11
+			11.2, // 12
+			12.0, // 13
+			13.0, // 14
+			14.0, // 15
+			14.5, // 16
+		};
+
+		/// rudder, elevator, aileron, thrust effectiveness; if empty old settings is used
+		/// effectiveness according to current speed and maxSpeed ratio
+		/// last value goes for 150% of max speed
+		thrustCoef[] = 
+		{
+			3.5,	// 	1
+			3.7,	// 	2
+			3.9,	// 	3
+			4.0,	// 	4
+			4.1,	// 	5
+			4.3,	// 	6
+			4.5,	// 	7
+			4.7,	// 	8
+			4.9,	// 	9
+			5.0,	// 	10
+			5.1,	// 	11
+			5.2,	// 	12
+			5.25,	// 	13
+			5.30,	// 	14
+			5.35,	// 	15
+			5.40    // 	16
+		};
+		elevatorCoef[]=
+		{
+			1.8,	// 	1
+			1.80,	// 	2
+			1.80,	// 	3
+			2.00,	// 	4
+			2.49,	// 	5
+			2.46,	// 	6
+			2.43,	// 	7
+			2.40,	// 	8
+			2.35,	// 	9
+			2.30,	// 	10
+			2.25,	// 	11
+			2.18,	// 	12
+			2.17,	// 	13
+			2.16,	// 	14
+			2.55,	// 	15
+			2.55	// 	16
+		};
+		aileronCoef[]=
+		{
+			1.8,	// 	1
+			1.8,	// 	2
+			2.0,	// 	3
+			2.01,	// 	4
+			2.02,	// 	5
+			2.04,	// 	6
+			2.03,	// 	7
+			2.01,	// 	8
+			2.0,	// 	9
+			2.7,	// 	10
+			2.6,	// 	11
+			2.55,	// 	12
+			2.5,	// 	13
+			2.45,	// 	14
+			2.4,	// 	15
+			2.35	// 	16
+		};
+		rudderCoef[]=
+		{
+			2.1,	// 	1
+			2.8,	// 	2
+			3.6,	// 	3
+			3.75,	// 	4
+			3.8,	// 	5
+			3.85,	// 	6
+			3.9,	// 	7
+			3.95,	// 	8
+			3.98,	// 	9
+			3.01, 	// 	10
+			2.7,	// 	11
+			2.1,	// 	12
+			2.9,	// 	13
+			2.7,	// 	14
+			2.5,	// 	15
+			2.3		// 	16
+		}; 			
     };
 	class B_Plane_CAS_01_dynamicLoadout_F;
 	class XDF_Tusk: B_Plane_CAS_01_dynamicLoadout_F
