@@ -552,6 +552,29 @@ class CfgVehicles
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
 		};
 	};
+	class B_Heli_Attack_01_dynamicLoadout_F;
+	class XDF_Comanche: B_Heli_Attack_01_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Comanche";
+		editorPreview="\xdf\previews\vehicles\XDF_Comanche.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\comanche\heli_attack_01_co.paa"
+		};
+	};
 	class B_Heli_Transport_03_base_F;
     class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
     class B_Heli_Transport_03_base_F_OCimport_02 : B_Heli_Transport_03_base_F_OCimport_01 { 
