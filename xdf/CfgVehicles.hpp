@@ -1278,6 +1278,163 @@ class CfgVehicles
 			"\xdf\retextures\boar\turret_co.paa"
 		};
 	};
+	class O_MRAP_02_F;
+	class XDF_Punisher: O_MRAP_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Punisher";
+		editorPreview="\xdf\previews\vehicles\XDF_Punisher.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default 200
+		armorStructural = 10; // Default 5
+		maxSpeed = 230; // Default 115
+		fuelCapacity = 52; // Default 26
+		damageResistance = 0.05; // Default 0
+		engineMOI = 1.2;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 80.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\punisher\mrap_02_ext_01_co.paa",
+			"\xdf\retextures\punisher\mrap_02_ext_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\punisher\mrap_02_ext_01_co.paa",
+					"\xdf\retextures\punisher\mrap_02_ext_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_MRAP_02_gmg_F;
+	class XDF_Punisher_GMG: O_MRAP_02_gmg_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Punisher (GMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Punisher_GMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default 200
+		armorStructural = 10; // Default 5
+		maxSpeed = 230; // Default 115
+		fuelCapacity = 52; // Default 26
+		damageResistance = 0.05; // Default 0
+		engineMOI = 1.2;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 80.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\punisher\mrap_02_ext_01_co.paa",
+			"\xdf\retextures\punisher\mrap_02_ext_02_co.paa",
+			"\xdf\retextures\punisher\turret_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\punisher\mrap_02_ext_01_co.paa",
+					"\xdf\retextures\punisher\mrap_02_ext_02_co.paa",
+					"\xdf\retextures\punisher\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_MRAP_02_hmg_F;
+	class XDF_Punisher_HMG: O_MRAP_02_hmg_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Punisher (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Punisher_HMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default 200
+		armorStructural = 10; // Default 5
+		maxSpeed = 230; // Default 115
+		fuelCapacity = 52; // Default 26
+		damageResistance = 0.05; // Default 0
+		engineMOI = 1.2;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 80.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\punisher\mrap_02_ext_01_co.paa",
+			"\xdf\retextures\punisher\mrap_02_ext_02_co.paa",
+			"\xdf\retextures\punisher\turret_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\punisher\mrap_02_ext_01_co.paa",
+					"\xdf\retextures\punisher\mrap_02_ext_02_co.paa",
+					"\xdf\retextures\punisher\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_LSV_01_unarmed_black_F;
 	class XDF_Jackal: B_LSV_01_unarmed_black_F
 	{
