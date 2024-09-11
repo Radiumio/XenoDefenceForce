@@ -324,9 +324,9 @@ class CfgVehicles
 			"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
 			"\xdf\retextures\accipiter\Fighter_02_fuselage_02_co.paa",
 			"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
-			"",
-			"",
-			""
+			"\xdf\retextures\accipiter\fighter_02_number_01_co",
+			"\xdf\retextures\accipiter\fighter_02_number_02_co",
+			"\xdf\retextures\accipiter\fighter_02_number_01_co"
 		};
 		class TextureSources
 		{
@@ -339,9 +339,9 @@ class CfgVehicles
 					"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
 					"\xdf\retextures\accipiter\Fighter_02_fuselage_02_co.paa",
 					"\xdf\retextures\accipiter\Fighter_02_fuselage_01_co.paa",
-					"",
-					"",
-					""
+					"\xdf\retextures\accipiter\fighter_02_number_01_co",
+					"\xdf\retextures\accipiter\fighter_02_number_02_co",
+					"\xdf\retextures\accipiter\fighter_02_number_01_co"
 				};
 				factions[]=
 				{
@@ -359,22 +359,23 @@ class CfgVehicles
 		armorStructural=10; // Default 2
 		damageResistance=0.2; // Default 0.0040000002
 		maxSpeed=4500; // Default 1500
-		landingSpeed=300;
-		stallSpeed=180;
-		acceleration=200;
-        airBrakeFrictionCoef=3.0;
+		landingSpeed=300; // Default 300
+		stallSpeed=220; // Default 220
+		acceleration=220; // Default 220
+        airBrakeFrictionCoef=4.5;
+		ejectSpeed[] = { 0, 150, 0 };
 		altFullForce				= 8000;				/// CRUISE ALTITUDE
 		altNoForce					= 20000;			/// SERVICE CEILING
 		rudderInfluence				= 0.7660;			/// Basic angle (cos angle) of the rudder extent
 		noseDownCoef 				= 0;
-		angleOfIndicence            = 0.04;
+		angleOfIndicence			= "-0.5*3.1415/180";
 
 		aileronSensitivity	= 1.6;			/// coefficient of ailerons affecting roll of the plane
 		elevatorSensitivity	= 1.8;			/// coefficient of elevators affecting changing of plane horizontal heading
 
-		elevatorControlsSensitivityCoef	= 4.0;	    /// elevator coefficient of player's controller sensitivity (does not affect AI)
-		aileronControlsSensitivityCoef	= 3.5;		/// aileron coefficient of player's controller sensitivity (does not affect AI)
-		rudderControlsSensitivityCoef	= 4.0;		/// rudder coefficient of player's controller sensitivity (does not affect AI)
+		elevatorControlsSensitivityCoef	= 3;	    /// elevator coefficient of player's controller sensitivity (does not affect AI)
+		aileronControlsSensitivityCoef	= 4;		/// aileron coefficient of player's controller sensitivity (does not affect AI)
+		rudderControlsSensitivityCoef	= 4;		/// rudder coefficient of player's controller sensitivity (does not affect AI)
 
 		/// envelope defines lift produced by the shape of the plane according to current speed relative to maxSpeed
 		/// the first element of the array is for zero speed, the last for 125 % of maxSpeed, the rest in between is evenly distributed
@@ -427,57 +428,57 @@ class CfgVehicles
 			1.8,	// 	1
 			1.80,	// 	2
 			1.80,	// 	3
-			2.00,	// 	4
-			2.49,	// 	5
-			2.46,	// 	6
-			2.43,	// 	7
-			2.40,	// 	8
-			2.35,	// 	9
-			2.30,	// 	10
-			2.25,	// 	11
-			2.18,	// 	12
-			2.17,	// 	13
-			2.16,	// 	14
-			2.55,	// 	15
-			2.55	// 	16
+			1.00,	// 	4
+			1.49,	// 	5
+			1.46,	// 	6
+			1.43,	// 	7
+			1.40,	// 	8
+			1.35,	// 	9
+			1.30,	// 	10
+			1.25,	// 	11
+			1.18,	// 	12
+			1.17,	// 	13
+			1.16,	// 	14
+			1.55,	// 	15
+			1.55	// 	16
 		};
 		aileronCoef[]=
 		{
 			1.8,	// 	1
 			1.8,	// 	2
-			2.0,	// 	3
-			2.01,	// 	4
-			2.02,	// 	5
-			2.04,	// 	6
-			2.03,	// 	7
-			2.01,	// 	8
-			2.0,	// 	9
-			2.7,	// 	10
-			2.6,	// 	11
-			2.55,	// 	12
-			2.5,	// 	13
-			2.45,	// 	14
-			2.4,	// 	15
-			2.35	// 	16
+			1.0,	// 	3
+			1.01,	// 	4
+			1.02,	// 	5
+			1.04,	// 	6
+			1.03,	// 	7
+			1.01,	// 	8
+			1.0,	// 	9
+			1.7,	// 	10
+			1.6,	// 	11
+			1.55,	// 	12
+			1.5,	// 	13
+			1.45,	// 	14
+			1.4,	// 	15
+			1.35	// 	16
 		};
 		rudderCoef[]=
 		{
-			2.1,	// 	1
-			2.8,	// 	2
-			3.6,	// 	3
-			3.75,	// 	4
-			3.8,	// 	5
-			3.85,	// 	6
-			3.9,	// 	7
-			3.95,	// 	8
-			3.98,	// 	9
-			3.01, 	// 	10
-			2.7,	// 	11
-			2.1,	// 	12
-			2.9,	// 	13
-			2.7,	// 	14
-			2.5,	// 	15
-			2.3		// 	16
+			1.1,	// 	1
+			1.8,	// 	2
+			1.6,	// 	3
+			1.75,	// 	4
+			1.8,	// 	5
+			1.85,	// 	6
+			1.9,	// 	7
+			1.95,	// 	8
+			1.98,	// 	9
+			1.01, 	// 	10
+			1.7,	// 	11
+			1.1,	// 	12
+			1.9,	// 	13
+			1.7,	// 	14
+			1.5,	// 	15
+			1.3		// 	16
 		}; 			
     };
 	class B_Plane_CAS_01_dynamicLoadout_F;
