@@ -1999,6 +1999,136 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_APC_Wheeled_01_cannon_F;
+	class XDF_Commando: B_APC_Wheeled_01_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Commando";
+		editorPreview="\xdf\previews\vehicles\XDF_Commando.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 640; // Default 320
+		armorStructural = 8; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 60; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 0.85; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 45.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+			"\xdf\retextures\commando\camonet_nato_black_co.paa",
+			"\xdf\retextures\commando\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_APC_Wheeled_01_cannon_F;
+	class XDF_Scorpion: B_APC_Wheeled_01_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Commando";
+		editorPreview="\xdf\previews\vehicles\XDF_Commando.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 640; // Default 320
+		armorStructural = 8; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 60; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 0.85; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 45.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+			"\xdf\retextures\commando\camonet_nato_black_co.paa",
+			"\xdf\retextures\commando\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_Truck_03_ammo_F;
 	class XDF_Cyclone_Ammo: O_Truck_03_ammo_F
 	{
