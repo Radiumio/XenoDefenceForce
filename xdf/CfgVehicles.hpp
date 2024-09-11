@@ -1399,6 +1399,12 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
 		};
+		driverDoor="Door_LF";
+		cargoDoors[]={
+			"Door_RF",
+			"Door_RB",
+			"Door_LB"
+		};
 	};
 	class B_MRAP_01_gmg_F;
 	class XDF_Boar_GMG: B_MRAP_01_gmg_F
@@ -1509,6 +1515,13 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};		
+		driverDoor="Door_LF";
+		cargoDoors[]={
+			"Door_RF",
+			"Door_LM",
+			"Door_RM",
+			"Door_rear"
 		};
 	};
 	class O_MRAP_02_gmg_F;
@@ -1563,6 +1576,13 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		driverDoor="Door_LF";
+		cargoDoors[]={
+			"Door_RF",
+			"Door_LM",
+			"Door_RM",
+			"Door_rear"
+		};
 	};
 	class O_MRAP_02_hmg_F;
 	class XDF_Punisher_HMG: O_MRAP_02_hmg_F
@@ -1615,6 +1635,13 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		driverDoor="Door_LF";
+		cargoDoors[]={
+			"Door_RF",
+			"Door_LM",
+			"Door_RM",
+			"Door_rear"
 		};
 	};
 	class B_LSV_01_unarmed_black_F;
@@ -1813,6 +1840,10 @@ class CfgVehicles
 		{
 			"\xdf\retextures\puma\mrap_03_ext_co.paa",
 			"\xdf\retextures\puma\turret_co.paa"
+		};		
+		driverDoor="Door_LF";
+		cargoDoors[]={
+			"Door_RF"
 		};
 	};
 	class I_MRAP_03_gmg_F;
