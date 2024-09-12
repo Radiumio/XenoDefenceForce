@@ -1394,6 +1394,57 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_Quadbike_01_F;
+	class XDF_Quadbike: B_Quadbike_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Quadbike";
+		editorPreview="\xdf\previews\vehicles\XDF_Quadbike.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 60; // Default 30
+		armorStructural = 2; // Default 0
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 20; // Default 10
+		damageResistance = 0.01; // Default 0
+		engineMOI = 0.5;
+		accelAidForceCoef = 4.5;
+		accelAidForceSpd = 50.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\quadbike\quadbike_01_co.paa",
+			"\xdf\retextures\quadbike\quadbike_01_wheel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\quadbike\quadbike_01_co.paa",
+					"\xdf\retextures\quadbike\quadbike_01_wheel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_MRAP_01_F;
 	class XDF_Boar: B_MRAP_01_F
 	{
@@ -2535,6 +2586,606 @@ class CfgVehicles
 					"\xdf\retextures\cyclone\truck_03_ext01_co.paa",
 					"\xdf\retextures\cyclone\truck_03_ext02_co.paa",
 					"\xdf\retextures\cyclone\truck_03_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_flatbed_F;
+	class XDF_HEMTT_Flatbed: B_Truck_01_flatbed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Flatbed";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Flatbed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_cargo_F;
+	class XDF_HEMTT_Cargo: B_Truck_01_cargo_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Cargo";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Cargo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_medical_F;
+	class XDF_HEMTT_Medical: B_Truck_01_medical_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Medical";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Medical.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cover_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cover_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_fuel_F;
+	class XDF_HEMTT_Fuel: B_Truck_01_fuel_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Fuel";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Fuel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_fuel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_Repair_F;
+	class XDF_HEMTT_Repair: B_Truck_01_Repair_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Repair";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Repair.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+			"\xdf\retextures\hemtt\containers_02_set_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_ammo_F;
+	class XDF_HEMTT_Ammo: B_Truck_01_ammo_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Ammo";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Ammo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ammo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_box_F;
+	class XDF_HEMTT_Box: B_Truck_01_box_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Box";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Box.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+			"\xdf\retextures\hemtt\containers_02_set_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_covered_F;
+	class XDF_HEMTT_Covered: B_Truck_01_covered_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Transport (Covered)";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Covered.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"Camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cover_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cover_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_transport_F;
+	class XDF_HEMTT_Transport: B_Truck_01_transport_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT Transport";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Truck_01_mover_F;
+	class XDF_HEMTT_Mover: B_Truck_01_mover_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF HEMTT";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 400; // Default 200
+		maxSpeed = 160; // Default 80
+		fuelCapacity = 56; // Default 28
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+			"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+			"\xdf\retextures\hemtt\truck_01_mprimer_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_mprimer_co.paa"
 				};
 				factions[]=
 				{
