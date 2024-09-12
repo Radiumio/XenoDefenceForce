@@ -731,6 +731,8 @@ class cfgWeapons
 	// Launchers
 	class launch_MRAWS_green_F;
 	class launch_O_Vorona_green_F;
+	class launch_B_Titan_F;
+	class launch_B_Titan_short_F;
 	class XDF_launch_MRAWS_black: launch_MRAWS_green_F
 	{
 		author="Radium";
@@ -755,12 +757,46 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa"
 		};
 	};
+	class XDF_launch_B_Titan: launch_B_Titan_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF R-4 Lance";
+		baseWeapon="XDF_launch_B_Titan";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+	};
+	class XDF_launch_B_Titan_short: launch_B_Titan_short_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF R-3 Spear";
+		baseWeapon="XDF_launch_B_Titan_short";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
+		};
+	};
 
 	// Loadouts
 	class arifle_MSBS65_black_F;
 	class arifle_MSBS65_UBS_black_F;
 	class arifle_MSBS65_GL_black_F;
 	class XDF_launch_MRAWS_black_F: XDF_launch_MRAWS_black // MAAWS with IR Laser
+	{
+		class linkedItems
+		{
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};	
+	class XDF_launch_B_Titan_short_F: XDF_launch_B_Titan_short // Spear with IR Laser
 	{
 		class linkedItems
 		{
