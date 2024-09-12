@@ -3023,13 +3023,13 @@ class CfgVehicles
 		};
 	};
 	class B_Truck_01_covered_F;
-	class XDF_HEMTT_Covered: B_Truck_01_covered_F
+	class XDF_HEMTT_Transport_Covered: B_Truck_01_covered_F
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF HEMTT Transport (Covered)";
-		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Covered.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Transport_Covered.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -3090,7 +3090,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF HEMTT Transport";
-		editorPreview="\xdf\previews\vehicles\XDF_HEMTT.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Transport.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -3148,7 +3148,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF HEMTT";
-		editorPreview="\xdf\previews\vehicles\XDF_HEMTT.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Mover.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
