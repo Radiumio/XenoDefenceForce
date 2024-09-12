@@ -3261,6 +3261,64 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_Boat_Armed_01_minigun_F;
+	class XDF_Trident: B_Boat_Armed_01_minigun_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Trident Speedboat";
+		editorPreview="\xdf\previews\vehicles\XDF_Trident.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default 400
+		maxSpeed = 150; // Default 75
+		fuelCapacity = 50; // Default ?
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\trident\boat_armed_01_ext_co.paa",
+			"\xdf\retextures\trident\boat_armed_01_int_co.paa",
+			"\xdf\retextures\trident\turret_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\trident\boat_armed_01_ext_co.paa",
+					"\xdf\retextures\trident\boat_armed_01_int_co.paa",
+					"\xdf\retextures\trident\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 
 	// Uniforms
 	class B_SSU_Stealth_Uniform_base;
