@@ -553,28 +553,40 @@ class CfgVehicles
 		};
 	};
 	class O_Heli_Transport_04_F;
-	class XDF_Taru: O_Heli_Transport_04_F
+    class O_Heli_Transport_04_F_OCimport_01 : O_Heli_Transport_04_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_F_OCimport_02 : O_Heli_Transport_04_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa: O_Heli_Transport_04_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Taru";
-		editorPreview="\xdf\previews\vehicles\XDF_Taru.jpg";
+		displayName = "XDF Medusa";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
-		armor = 180; // Default 60
-		maxSpeed = 365; // Default 365
+		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
 		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2"
+		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa",
-			"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa"
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa"
 		};
 		class TextureSources
 		{
@@ -584,8 +596,8 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa",
-					"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa"
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa"
 				};
 				factions[]=
 				{
@@ -597,6 +609,543 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_ammo_F;
+    class O_Heli_Transport_04_ammo_F_OCimport_01 : O_Heli_Transport_04_ammo_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_ammo_F_OCimport_02 : O_Heli_Transport_04_ammo_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Ammo: O_Heli_Transport_04_ammo_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Ammo)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Ammo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_bench_F;
+    class O_Heli_Transport_04_bench_F_OCimport_01 : O_Heli_Transport_04_bench_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_bench_F_OCimport_02 : O_Heli_Transport_04_bench_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Bench: O_Heli_Transport_04_bench_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Bench)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Bench.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_bench_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_bench_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_box_F;
+    class O_Heli_Transport_04_box_F_OCimport_01 : O_Heli_Transport_04_box_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_box_F_OCimport_02 : O_Heli_Transport_04_box_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Cargo: O_Heli_Transport_04_box_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Cargo)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Cargo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_fuel_F;
+    class O_Heli_Transport_04_fuel_F_OCimport_01 : O_Heli_Transport_04_fuel_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_fuel_F_OCimport_02 : O_Heli_Transport_04_fuel_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Fuel: O_Heli_Transport_04_fuel_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Fuel)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Fuel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_fuel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_medevac_F;
+    class O_Heli_Transport_04_medevac_F_OCimport_01 : O_Heli_Transport_04_medevac_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_medevac_F_OCimport_02 : O_Heli_Transport_04_medevac_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Medical: O_Heli_Transport_04_medevac_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Medical)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Medical.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_repair_F;
+    class O_Heli_Transport_04_repair_F_OCimport_01 : O_Heli_Transport_04_repair_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_repair_F_OCimport_02 : O_Heli_Transport_04_repair_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Repair: O_Heli_Transport_04_repair_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Repair)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Repair.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+		};
+	};
+	class O_Heli_Transport_04_covered_F;
+    class O_Heli_Transport_04_covered_F_OCimport_01 : O_Heli_Transport_04_covered_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Transport_04_covered_F_OCimport_02 : O_Heli_Transport_04_covered_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class LoadmasterTurret;
+        };
+    };
+	class XDF_Medusa_Transport: O_Heli_Transport_04_covered_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Medusa (Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Transport.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};		
+		class Turrets : Turrets
+		{
+            class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+            class LoadmasterTurret : LoadmasterTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+			};
 		};
 	};
 	class B_Heli_Attack_01_dynamicLoadout_F;
