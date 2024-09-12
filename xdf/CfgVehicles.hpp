@@ -552,6 +552,53 @@ class CfgVehicles
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
 		};
 	};
+	class O_Heli_Transport_04_F;
+	class XDF_Taru: O_Heli_Transport_04_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Taru";
+		editorPreview="\xdf\previews\vehicles\XDF_Taru.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 180; // Default 60
+		maxSpeed = 365; // Default 365
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa",
+			"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa",
+					"\xdf\retextures\taru\Heli_Transport_04_base_01_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_Heli_Attack_01_dynamicLoadout_F;
 	class XDF_Comanche: B_Heli_Attack_01_dynamicLoadout_F
 	{
@@ -3481,6 +3528,61 @@ class CfgVehicles
 					"\xdf\retextures\trident\boat_armed_01_ext_co.paa",
 					"\xdf\retextures\trident\boat_armed_01_int_co.paa",
 					"\xdf\retextures\trident\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class C_Boat_Transport_02_F;
+	class XDF_RHIB: C_Boat_Transport_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF RHIB";
+		editorPreview="\xdf\previews\vehicles\XDF_RHIB.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 100; // Default 50
+		maxSpeed = 180; // Default 90
+		fuelCapacity = 70; // Default ?
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\rhib\boat_transport_02_exterior_co.paa",
+			"\xdf\retextures\rhib\boat_transport_02_interior_2_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\rhib\boat_transport_02_exterior_co.paa",
+					"\xdf\retextures\rhib\boat_transport_02_interior_2_co.paa"
 				};
 				factions[]=
 				{
