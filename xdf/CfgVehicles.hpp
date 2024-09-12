@@ -3258,6 +3258,122 @@ class CfgVehicles
 			1
 		};
 	};
+	class C_Offroad_01_comms_F;
+	class XDF_Offroad_Comms: C_Offroad_01_comms_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Offroad (Comms)";
+		editorPreview="\xdf\previews\vehicles\XDF_Offroad_Comms.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+			"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+			"\xdf\retextures\offroad\offroad_01_cover_blk_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+					"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+					"\xdf\retextures\offroad\offroad_01_cover_blk_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class C_Offroad_01_covered_F;
+	class XDF_Offroad_Covered: C_Offroad_01_covered_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Offroad (Covered)";
+		editorPreview="\xdf\previews\vehicles\XDF_Offroad_Covered.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+			"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+			"\xdf\retextures\offroad\offroad_01_cover_blk_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+					"\xdf\retextures\offroad\offroad_01_ext_co.paa",
+					"\xdf\retextures\offroad\offroad_01_cover_blk_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_MBT_02_railgun_F;
 	class XDF_Titan: O_MBT_02_railgun_F
 	{
