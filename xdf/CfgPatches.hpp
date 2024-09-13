@@ -61,6 +61,8 @@ class CfgPatches
 			"XDF_Commando",
 			"XDF_Scorpion",
 			"XDF_Huntress",
+			"XDF_Dementer",
+			"XDF_Kodiak",
 			"XDF_Cyclone_Ammo",
 			"XDF_Cyclone_Covered",
 			"XDF_Cyclone_Fuel",
