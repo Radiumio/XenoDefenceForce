@@ -1158,6 +1158,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Ammo_Pod.jpg";
+		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
 		hiddenSelections[]=
 		{
 			"Camo_1",
@@ -1199,8 +1201,9 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Bench_Pod.jpg";
-		side = 1;
+		side=1;
 		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
 		hiddenSelections[]=
 		{
 			"Camo_1"
@@ -1231,14 +1234,17 @@ class CfgVehicles
 			1
 		};	
 	};
-	class Land_Pod_Heli_Transport_04_box_F;
-	class XDF_Medusa_Cargo_Pod: Land_Pod_Heli_Transport_04_box_F
+	class Land_Pod_Heli_Transport_04_medevac_F;
+	class XDF_Medusa_Medical_Pod: Land_Pod_Heli_Transport_04_medevac_F
 	{
 		author="Radium";
-		displayName="XDF Medusa Cargo Pod";
+		displayName="XDF Medusa Medical Pod";
 		scope = 2;
 		scopeCurator = 2;
-		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Cargo_Pod.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Medical_Pod.jpg";
+		side=1;
+		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
 		hiddenSelections[]=
 		{
 			"Camo_1",
@@ -1280,12 +1286,56 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Transport_Pod.jpg";
-		side = 1;
+		side=1;
 		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
 		hiddenSelections[]=
 		{
 			"Camo_1",
 			"Camo_2",
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+		};		
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};	
+	};
+	class Land_Pod_Heli_Transport_04_box_F;
+	class XDF_Medusa_Cargo_Pod: Land_Pod_Heli_Transport_04_box_F
+	{
+		author="Radium";
+		displayName="XDF Medusa Cargo Pod";
+		scope = 2;
+		scopeCurator = 2;
+		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Cargo_Pod.jpg";
+		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1323,6 +1373,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Fuel_Pod.jpg";
+		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
 		hiddenSelections[]=
 		{
 			"Camo_1"
@@ -1353,49 +1405,6 @@ class CfgVehicles
 			1
 		};	
 	};
-	class Land_Pod_Heli_Transport_04_medevac_F;
-	class XDF_Medusa_Medical_Pod: Land_Pod_Heli_Transport_04_medevac_F
-	{
-		author="Radium";
-		displayName="XDF Medusa Medical Pod";
-		scope = 2;
-		scopeCurator = 2;
-		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Medical_Pod.jpg";
-		side=1;
-		faction = "B_XDF";
-		hiddenSelections[]=
-		{
-			"Camo_1",
-			"Camo_2"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
-			"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
-		};		
-		class TextureSources
-		{
-			class XDF
-			{
-				displayName="Xeno Defence Force";
-				author="Radium";
-				textures[]=
-				{
-					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
-					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
-				};
-				factions[]=
-				{
-					"B_XDF"
-				};
-			};
-		};
-		textureList[]=
-		{
-			"XDF",
-			1
-		};	
-	};
 	class Land_Pod_Heli_Transport_04_repair_F;
 	class XDF_Medusa_Repair_Pod: Land_Pod_Heli_Transport_04_repair_F
 	{
@@ -1404,6 +1413,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Repair_Pod.jpg";
+		faction = "B_XDF";
+		editorSubcategory="XDF_Medusa_Pods";
 		hiddenSelections[]=
 		{
 			"Camo_1",
