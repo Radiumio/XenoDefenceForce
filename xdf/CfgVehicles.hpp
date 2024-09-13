@@ -18720,6 +18720,68 @@ class CfgVehicles
 			1
 		};
 	};
+	class I_MBT_03_cannon_F;
+	class XDF_Kodiak: I_MBT_03_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Kodiak";
+		editorPreview="\xdf\previews\vehicles\XDF_Kodiak.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1200; // Default 800
+		armorStructural = 8; // Default 6
+		maxSpeed = 130; // Default 65
+		fuelCapacity = 40; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dementer\mbt_03_ext01_co.paa",
+			"\xdf\retextures\dementer\mbt_03_ext02_co.paa",
+			"\xdf\retextures\dementer\mbt_03_rcws_co.paa",
+			"\xdf\retextures\dementer\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\dementer\mbt_03_ext01_co.paa",
+					"\xdf\retextures\dementer\mbt_03_ext02_co.paa",
+					"\xdf\retextures\dementer\mbt_03_rcws_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_Truck_03_ammo_F;
 	class XDF_Cyclone_Ammo: O_Truck_03_ammo_F
 	{
