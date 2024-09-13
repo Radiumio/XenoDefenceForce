@@ -1,3 +1,6 @@
+//[nil,get3DENSelected "" select 0] call BIS_fnc_exportCfgGroups; //Eden
+//[nil,nil] call BIS_fnc_exportCfgGroups; //Zeus
+
 class CfgGroups {
     class WEST {
 
@@ -15,7 +18,7 @@ class CfgGroups {
 					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class Object0	{side = 1; vehicle = "B_XDF_Operative"; rank = "SERGEANT"; position[] = {0,0,0.00143909}; dir = 180;};
                     class Object1	{side = 1; vehicle = "B_XDF_Medic"; rank = "CORPORAL"; position[] = {-3.38086,6.17017,0.00143909}; dir = 180;};
-                    class Object2	{side = 1; vehicle = "B_XDF_Marksman"; rank = "CORPORAL"; position[] = {6.2041,3.31848,0.00143909}; dir = 180;};
+                    class Object2	{side = 1; vehicle = "B_XDF_Autorifleman"; rank = "CORPORAL"; position[] = {6.2041,3.31848,0.00143909}; dir = 180;};
                     class Object3	{side = 1; vehicle = "B_XDF_HAT"; rank = "CORPORAL"; position[] = {-6.74756,12.3885,0.00143909}; dir = 180;};
                 };
                 class XDF_Frontline_Squad
@@ -29,7 +32,7 @@ class CfgGroups {
                     class Object2	{side = 1; vehicle = "B_XDF_HAT"; rank = "CORPORAL"; position[] = {-10.0781,8.35547,0.00143909}; dir = 180;};
                     class Object3	{side = 1; vehicle = "B_XDF_Marksman_F"; rank = "CORPORAL"; position[] = {3.94189,5.74329,0.00143909}; dir = 180;};
                     class Object4	{side = 1; vehicle = "B_XDF_Grenadier"; rank = "CORPORAL"; position[] = {7.98193,10.8524,0.00143909}; dir = 180;};
-                    class Object5	{side = 1; vehicle = "B_XDF_JTAC"; rank = "CORPORAL"; position[] = {-15.3213,12.5225,0.00143909}; dir = 180;};
+                    class Object5	{side = 1; vehicle = "B_XDF_Autorifleman_F"; rank = "CORPORAL"; position[] = {-15.3213,12.5225,0.00143909}; dir = 180;};
                     class Object6	{side = 1; vehicle = "B_XDF_Operative_F"; rank = "CORPORAL"; position[] = {12.0571,16.1354,0.00143909}; dir = 180;};
                     class Object7	{side = 1; vehicle = "B_XDF_Medic"; rank = "CORPORAL"; position[] = {-20.5127,16.6806,0.00143909}; dir = 180;};
                 };
@@ -224,6 +227,17 @@ class CfgGroups {
                     class Object6	{side = 1; vehicle = "B_XDF_AX_Elite_JTAC"; rank = "SERGEANT"; position[] = {9.46631,9.54346,0.00143909}; dir = 180;};
                     class Object7	{side = 1; vehicle = "B_XDF_AX_Elite_Medic"; rank = "SERGEANT"; position[] = {-19.0767,18.6032,0.00143909}; dir = 180;};
                 };
+                class XDF_Xenohunter_Team
+                {
+                    name="XDF Xenohunter Fireteam";
+                    side=1;
+                    faction="B_XDF";
+                    icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    class Object0	{side = 1; vehicle = "B_XDF_Xenohunter"; rank = "MAJOR"; position[] = {0,0,0.00143909}; dir = 0;};
+                    class Object1	{side = 1; vehicle = "B_XDF_Xenohunter_Corpsman"; rank = "CAPTAIN"; position[] = {5,-4.9502,0.00143909}; dir = 0;};
+                    class Object2	{side = 1; vehicle = "B_XDF_Xenohunter_Exterminator"; rank = "CAPTAIN"; position[] = {-5,-4.9502,0.00143909}; dir = 0;};
+                    class Object3	{side = 1; vehicle = "B_XDF_Xenohunter_Sharpshooter"; rank = "CAPTAIN"; position[] = {10,-9.9502,0.00143909}; dir = 0;};
+                }
             };
 
             class Motorized 

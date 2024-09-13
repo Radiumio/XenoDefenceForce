@@ -685,6 +685,7 @@ class cfgWeapons
     // Machineguns
 	class MMG_01_tan_F;
 	class MMG_02_black_F;
+	class LMG_03_F;
 	class XDF_MMG_01_black: MMG_01_tan_F
 	{
 		author="Radium";
@@ -713,10 +714,25 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\spmg\mmg_02_03_black_co.paa"
 		};
 	};
+	class XDF_LMG_03: LMG_03_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF M-3 M249 SAW";
+		baseWeapon="XDF_LMG_03";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\lim85\lmg_03_f_body_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\lim85\lmg_03_f_acc_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\lim85\grip_co.paa"
+		};
+	};
 
 	// Launchers
 	class launch_MRAWS_green_F;
 	class launch_O_Vorona_green_F;
+	class launch_B_Titan_F;
+	class launch_B_Titan_short_F;
 	class XDF_launch_MRAWS_black: launch_MRAWS_green_F
 	{
 		author="Radium";
@@ -741,12 +757,46 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa"
 		};
 	};
+	class XDF_launch_B_Titan: launch_B_Titan_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF R-4 Lance";
+		baseWeapon="XDF_launch_B_Titan";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+	};
+	class XDF_launch_B_Titan_short: launch_B_Titan_short_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF R-3 Spear";
+		baseWeapon="XDF_launch_B_Titan_short";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
+		};
+	};
 
 	// Loadouts
 	class arifle_MSBS65_black_F;
 	class arifle_MSBS65_UBS_black_F;
 	class arifle_MSBS65_GL_black_F;
 	class XDF_launch_MRAWS_black_F: XDF_launch_MRAWS_black // MAAWS with IR Laser
+	{
+		class linkedItems
+		{
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};	
+	class XDF_launch_B_Titan_short_F: XDF_launch_B_Titan_short // Spear with IR Laser
 	{
 		class linkedItems
 		{
@@ -963,6 +1013,20 @@ class cfgWeapons
 			class LinkedItemsUnder {
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_LMG_03_F: XDF_LMG_03 // LIM-85
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Aco";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
 			};
 		};
 	};

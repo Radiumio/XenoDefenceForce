@@ -24,4 +24,8 @@ class CfgEditorSubcategories
 	{
 		displayName = "Crew"
 	};
+    class XDF_Medusa_Pods
+	{
+		displayName = "Medusa Pods"
+	};
 };
