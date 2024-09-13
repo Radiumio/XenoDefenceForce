@@ -18752,10 +18752,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\dementer\mbt_03_ext01_co.paa",
-			"\xdf\retextures\dementer\mbt_03_ext02_co.paa",
-			"\xdf\retextures\dementer\mbt_03_rcws_co.paa",
-			"\xdf\retextures\dementer\camonet_nato_black_co.paa"
+			"\xdf\retextures\kodiak\mbt_03_ext01_co.paa",
+			"\xdf\retextures\kodiak\mbt_03_ext02_co.paa",
+			"\xdf\retextures\kodiak\mbt_03_rcws_co.paa",
+			"\xdf\retextures\kodiak\camonet_nato_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -18765,10 +18765,10 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{			
-					"\xdf\retextures\dementer\mbt_03_ext01_co.paa",
-					"\xdf\retextures\dementer\mbt_03_ext02_co.paa",
-					"\xdf\retextures\dementer\mbt_03_rcws_co.paa",
-					"\xdf\retextures\dementer\camonet_nato_black_co.paa"
+					"\xdf\retextures\kodiak\mbt_03_ext01_co.paa",
+					"\xdf\retextures\kodiak\mbt_03_ext02_co.paa",
+					"\xdf\retextures\kodiak\mbt_03_rcws_co.paa",
+					"\xdf\retextures\kodiak\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
