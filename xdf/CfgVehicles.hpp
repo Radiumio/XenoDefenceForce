@@ -19374,7 +19374,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF HEMTT Box";
+		displayName = "XDF HEMTT Container";
 		editorPreview="\xdf\previews\vehicles\XDF_HEMTT_Box.jpg";
 		side = 1;
 		faction = "B_XDF";
