@@ -18652,6 +18652,74 @@ class CfgVehicles
 			1
 		};
 	};
+	class I_APC_Wheeled_03_cannon_F;
+	class XDF_Dementer: I_APC_Wheeled_03_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dementer";
+		editorPreview="\xdf\previews\vehicles\XDF_Dementer.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 576; // Default 480
+		armorStructural = 6; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 48; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dementer\apc_wheeled_03_ext_co.paa",
+			"\xdf\retextures\dementer\apc_wheeled_03_ext2_co.paa",
+			"\xdf\retextures\dementer\rcws30_black_co.paa",
+			"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_co.paa",
+			"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+			"\xdf\retextures\dementer\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext2_co.paa",
+					"\xdf\retextures\dementer\rcws30_black_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+					"\xdf\retextures\dementer\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_Truck_03_ammo_F;
 	class XDF_Cyclone_Ammo: O_Truck_03_ammo_F
 	{
