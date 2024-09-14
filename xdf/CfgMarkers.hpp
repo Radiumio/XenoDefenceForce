@@ -47,7 +47,7 @@ class CfgMarkers
 	};
 	class xdf_warning: Flag
 	{
-		name="Xeno Warning";
+		name="Xeno Hazard";
 		icon="\xdf\markers\xdf_warning.paa";
 		texture="\xdf\markers\xdf_warning.paa";
 		size=32;
