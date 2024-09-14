@@ -6,7 +6,7 @@ class CfgMarkers
 		name="Xeno Defence Force";
 		icon="\xdf\markers\flag_XDF.paa";
 		texture="\xdf\markers\flag_XDF.paa";
-		size=32;
+		size=64;
 		scope=1;
 		shadow=0;
 		color[]={1,1,1,1};
