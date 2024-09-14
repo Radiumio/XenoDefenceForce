@@ -78,4 +78,26 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="Military";
 	};
+	class xdf_bomb: Flag
+	{
+		name="Xeno Anti-Matter Bomb";
+		icon="\xdf\markers\xdf_bomb.paa";
+		texture="\xdf\markers\xdf_bomb.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
+	class xdf_attack: Flag
+	{
+		name="Xeno Attack";
+		icon="\xdf\markers\xdf_attack.paa";
+		texture="\xdf\markers\xdf_attack.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
 };
