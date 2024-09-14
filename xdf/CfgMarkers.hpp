@@ -67,4 +67,15 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="Military";
 	};
+	class xdf_abduction: Flag
+	{
+		name="Xeno Abduction";
+		icon="\xdf\markers\xdf_abduction.paa";
+		texture="\xdf\markers\xdf_abduction.paa";
+		size=32;
+		scope=1;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
 };
