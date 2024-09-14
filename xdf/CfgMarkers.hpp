@@ -1,5 +1,6 @@
 class CfgMarkers
 {
+	class Flag;
 	class flag_XDF: Flag
 	{
 		name="Xeno Defence Force";
@@ -13,13 +14,13 @@ class CfgMarkers
 	};
 	class xdf_alien: Flag
 	{
-		name="Xeno Marker";
+		name="Xeno Symbol";
 		icon="\xdf\markers\xdf_alien.paa";
 		texture="\xdf\markers\xdf_alien.paa";
 		size=32;
 		scope=1;
 		shadow=1;
-		color[]={0,0,0,1};
+		color[]={1,1,1,1};
 		markerClass="Military";
 	};
 	class xdf_wolf: Flag
@@ -30,7 +31,29 @@ class CfgMarkers
 		size=32;
 		scope=1;
 		shadow=1;
-		color[]={0,0,0,1};
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
+	class xdf_symbol: Flag
+	{
+		name="XDF Logo";
+		icon="\xdf\markers\xdf_symbol.paa";
+		texture="\xdf\markers\xdf_symbol.paa";
+		size=32;
+		scope=1;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
+	class xdf_warning: Flag
+	{
+		name="Xeno Warning";
+		icon="\xdf\markers\xdf_warning.paa";
+		texture="\xdf\markers\xdf_warning.paa";
+		size=32;
+		scope=1;
+		shadow=1;
+		color[]={1,1,1,1};
 		markerClass="Military";
 	};
 };
