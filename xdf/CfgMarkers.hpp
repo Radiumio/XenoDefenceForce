@@ -18,7 +18,7 @@ class CfgMarkers
 		icon="\xdf\markers\xdf_alien.paa";
 		texture="\xdf\markers\xdf_alien.paa";
 		size=32;
-		scope=1;
+		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
 		markerClass="Military";
@@ -29,7 +29,7 @@ class CfgMarkers
 		icon="\xdf\markers\xdf_wolf.paa";
 		texture="\xdf\markers\xdf_wolf.paa";
 		size=32;
-		scope=1;
+		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
 		markerClass="Military";
@@ -40,7 +40,7 @@ class CfgMarkers
 		icon="\xdf\markers\xdf_symbol.paa";
 		texture="\xdf\markers\xdf_symbol.paa";
 		size=32;
-		scope=1;
+		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
 		markerClass="Military";
@@ -51,7 +51,7 @@ class CfgMarkers
 		icon="\xdf\markers\xdf_warning.paa";
 		texture="\xdf\markers\xdf_warning.paa";
 		size=32;
-		scope=1;
+		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
 		markerClass="Military";
@@ -62,7 +62,7 @@ class CfgMarkers
 		icon="\xdf\markers\xdf_mothership.paa";
 		texture="\xdf\markers\xdf_mothership.paa";
 		size=32;
-		scope=1;
+		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
 		markerClass="Military";
@@ -73,7 +73,7 @@ class CfgMarkers
 		icon="\xdf\markers\xdf_abduction.paa";
 		texture="\xdf\markers\xdf_abduction.paa";
 		size=32;
-		scope=1;
+		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
 		markerClass="Military";
