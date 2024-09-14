@@ -61,7 +61,7 @@ class CfgMarkers
 		name="Xeno Mothership";
 		icon="\xdf\markers\xdf_mothership.paa";
 		texture="\xdf\markers\xdf_mothership.paa";
-		size=64;
+		size=32;
 		scope=1;
 		shadow=1;
 		color[]={1,1,1,1};
