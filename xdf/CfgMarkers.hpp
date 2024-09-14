@@ -56,4 +56,15 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="Military";
 	};
+	class xdf_mothership: Flag
+	{
+		name="Xeno Mothership";
+		icon="\xdf\markers\xdf_mothership.paa";
+		texture="\xdf\markers\xdf_mothership.paa";
+		size=64;
+		scope=1;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
 };
