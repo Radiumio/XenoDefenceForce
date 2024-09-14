@@ -100,4 +100,15 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="Military";
 	};
+	class xdf_xenoresearch: Flag
+	{
+		name="XDF Xenobiology Research";
+		icon="\xdf\markers\xdf_xenoresearch.paa";
+		texture="\xdf\markers\xdf_xenoresearch.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
 };
