@@ -111,4 +111,15 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="Military";
 	};
+	class xdf_ufo: Flag
+	{
+		name="Xeno UFO";
+		icon="\xdf\markers\xdf_ufo.paa";
+		texture="\xdf\markers\xdf_ufo.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
 };
