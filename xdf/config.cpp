@@ -6,3 +6,4 @@
 #include "CfgWeapons.hpp"
 #include "CfgGlasses.hpp"
 #include "CfgEditorCategories.hpp"
+#include "CfgMarkers.hpp"
