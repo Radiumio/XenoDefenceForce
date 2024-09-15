@@ -12,6 +12,17 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="Flags";
 	};
+	class flag_Xeno: Flag
+	{
+		name="Extraterrestrials";
+		icon="\xdf\markers\flag_Xeno.paa";
+		texture="\xdf\markers\flag_Xeno.paa";
+		size=64;
+		scope=1;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="Flags";
+	};
 	class xdf_alien: Flag
 	{
 		name="Xeno Symbol";
@@ -116,6 +127,28 @@ class CfgMarkers
 		name="Xeno UFO";
 		icon="\xdf\markers\xdf_ufo.paa";
 		texture="\xdf\markers\xdf_ufo.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
+	class xdf_dome: Flag
+	{
+		name="Xeno Shield Dome";
+		icon="\xdf\markers\xdf_dome.paa";
+		texture="\xdf\markers\xdf_dome.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="Military";
+	};
+	class xeno_symbol: Flag
+	{
+		name="Extraterrestrial Xeno Symbol";
+		icon="\xdf\markers\xeno_symbol.paa";
+		texture="\xdf\markers\xeno_symbol.paa";
 		size=32;
 		scope=2;
 		shadow=1;
