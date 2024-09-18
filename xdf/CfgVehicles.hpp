@@ -16147,21 +16147,18 @@ class CfgVehicles
 			};
 		};
 	};
-	class O_Heli_Transport_04_bench_F;
-    class O_Heli_Transport_04_bench_F_OCimport_01 : O_Heli_Transport_04_bench_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_Heli_Transport_04_bench_F_OCimport_02 : O_Heli_Transport_04_bench_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class LoadmasterTurret;
-        };
-    };
-	class XDF_Medusa_Bench: O_Heli_Transport_04_bench_F_OCimport_02
+	class Heli_Transport_04_base_F;
+    class Heli_Transport_04_base_F_OCimport_01 : Heli_Transport_04_base_F { scope = 0; class EventHandlers; class Turrets; class AnimationSources; class CopilotTurret; class LoadmasterTurret; class CargoTurret; };
+	class XDF_Medusa_Bench: Heli_Transport_04_base_F_OCimport_01
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Medusa (Bench)";
+		model="\A3\Air_F_Heli\Heli_Transport_04\Heli_Transport_04_bench_F.p3d";
+		DLC="Heli";
+		icon="\A3\Air_F_Heli\Heli_Transport_04\Data\UI\Map_Heli_Transport_04_bench_CA.paa";
+		picture="\A3\Air_F_Heli\Heli_Transport_04\Data\UI\Heli_Transport_04_bench_CA.paa";
 		editorPreview="\xdf\previews\vehicles\XDF_Medusa_Bench.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -16171,7 +16168,11 @@ class CfgVehicles
 		damageResistance = 0.02; // Default 0
 		typicalCargo[]=
 		{
-			"B_XDF_Pilot"
+			"B_XDF_Operative"
+		};
+		class EventHandlers
+		{
+			init="[(_this select 0), ""XDF"", [""Bench_default_hide"", 1, ""Bench_black_hide"", 0], false] call bis_fnc_initVehicle;";
 		};
 		hiddenSelections[]=
 		{
@@ -16212,11 +16213,153 @@ class CfgVehicles
 		{
             class CopilotTurret : CopilotTurret 
 			{ 
-				gunnerType = "B_XDF_Pilot"; 
 			};
             class LoadmasterTurret : LoadmasterTurret 
 			{ 
 				gunnerType = "B_XDF_Heli_Crew"; 
+			};
+			class CargoTurret_01: CargoTurret
+			{
+				gunnerAction="passenger_inside_2";
+				gunnerCompartments="Compartment2";
+				memoryPointsGetInGunner="Cargo_R1_pos";
+				memoryPointsGetInGunnerDir="Cargo_R1_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_R1";
+				proxyIndex=1;
+				maxElev=20;
+				minElev=-45;
+				maxTurn=55;
+				minTurn=-65;
+				isPersonTurret=1;
+				ejectDeadGunner=0;
+				class dynamicViewLimits
+				{
+					CargoTurret_02[]={-65,95};
+					CargoTurret_03[]={-75,95};
+					CargoTurret_04[]={-80,95};
+				};
+			};
+			class CargoTurret_02: CargoTurret_01
+			{
+				proxyIndex=2;
+				gunnerCompartments="Compartment3";
+				memoryPointsGetInGunner="Cargo_R2_pos";
+				memoryPointsGetInGunnerDir="Cargo_R2_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_R2";
+				class dynamicViewLimits
+				{
+					CargoTurret_01[]={-95,65};
+					CargoTurret_03[]={-65,95};
+					CargoTurret_04[]={-75,95};
+				};
+			};
+			class CargoTurret_03: CargoTurret_01
+			{
+				proxyIndex=3;
+				gunnerCompartments="Compartment4";
+				memoryPointsGetInGunner="Cargo_R3_pos";
+				memoryPointsGetInGunnerDir="Cargo_R3_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_R3";
+				class dynamicViewLimits
+				{
+					CargoTurret_01[]={-95,75};
+					CargoTurret_02[]={-95,65};
+					CargoTurret_04[]={-65,95};
+				};
+			};
+			class CargoTurret_04: CargoTurret_01
+			{
+				proxyIndex=4;
+				gunnerCompartments="Compartment5";
+				memoryPointsGetInGunner="Cargo_R4_pos";
+				memoryPointsGetInGunnerDir="Cargo_R4_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_R4";
+				class dynamicViewLimits
+				{
+					CargoTurret_01[]={-95,80};
+					CargoTurret_02[]={-95,75};
+					CargoTurret_03[]={-95,65};
+				};
+			};
+			class CargoTurret_05: CargoTurret_01
+			{
+				gunnerCompartments="Compartment6";
+				memoryPointsGetInGunner="Cargo_L4_pos";
+				memoryPointsGetInGunnerDir="Cargo_L4_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_L4";
+				proxyIndex=5;
+				class dynamicViewLimits
+				{
+					CargoTurret_06[]={-65,95};
+					CargoTurret_07[]={-75,95};
+					CargoTurret_08[]={-80,95};
+				};
+			};
+			class CargoTurret_06: CargoTurret_05
+			{
+				proxyIndex=6;
+				gunnerCompartments="Compartment7";
+				memoryPointsGetInGunner="Cargo_L3_pos";
+				memoryPointsGetInGunnerDir="Cargo_L3_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_L3";
+				class dynamicViewLimits
+				{
+					CargoTurret_05[]={-95,65};
+					CargoTurret_07[]={-65,95};
+					CargoTurret_08[]={-75,95};
+				};
+			};
+			class CargoTurret_07: CargoTurret_05
+			{
+				proxyIndex=7;
+				gunnerCompartments="Compartment8";
+				memoryPointsGetInGunner="Cargo_L2_pos";
+				memoryPointsGetInGunnerDir="Cargo_L2_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_L2";
+				class dynamicViewLimits
+				{
+					CargoTurret_05[]={-95,75};
+					CargoTurret_06[]={-95,65};
+					CargoTurret_08[]={-65,95};
+				};
+			};
+			class CargoTurret_08: CargoTurret_05
+			{
+				proxyIndex=8;
+				gunnerCompartments="Compartment9";
+				memoryPointsGetInGunner="Cargo_L1_pos";
+				memoryPointsGetInGunnerDir="Cargo_L1_dir";
+				gunnerName="$STR_A3_Turrets_CargoTurret_L1";
+				class dynamicViewLimits
+				{
+					CargoTurret_05[]={-95,80};
+					CargoTurret_06[]={-95,75};
+					CargoTurret_07[]={-95,65};
+				};
+			};
+		};
+		cargoAction[]=
+		{
+			"passenger_apc_narrow_generic03",
+			"passenger_apc_narrow_generic01",
+			"passenger_apc_generic03",
+			"passenger_apc_narrow_generic02",
+			"passenger_apc_narrow_generic02",
+			"passenger_generic01_foldhands",
+			"passenger_generic01_leanleft",
+			"passenger_apc_narrow_generic03"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Bench_default_source
+			{
+				source="user";
+				initPhase=0;
+				animPeriod=0.001;
+			};
+			class Bench_black_source: Bench_default_source
+			{
+				initPhase=1;
 			};
 		};
 	};
