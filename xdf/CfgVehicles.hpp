@@ -17760,7 +17760,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Mosquito";
+		displayName = "XDF AR-5 Mosquito";
 		editorPreview="\xdf\previews\vehicles\XDF_Mosquito.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -20664,7 +20664,7 @@ class CfgVehicles
 		_generalMacro="B_UAV_01_backpack_F";
 		scope=2;
 		scopeCurator=2;
-		displayName="XDF UAV Bag (Mosquito)";
+		displayName="XDF UAV Bag (AR-5 Mosquito)";
 		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
 		editorCategory="EdCat_Equipment";
 		editorSubcategory="EdSubcat_Backpacks";
