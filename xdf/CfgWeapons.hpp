@@ -497,6 +497,7 @@ class cfgWeapons
 	class arifle_MSBS65_base_black_F;
 	class arifle_MSBS65_GL_base_black_F;
 	class arifle_MSBS65_UBS_base_black_F;
+	class arifle_MSBS65_Mark_base_black_F;
 	class arifle_ARX_blk_F;
 	class SMG_01_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
@@ -537,6 +538,21 @@ class cfgWeapons
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_UBS_black_F_ca.paa";
 		displayName="XDF S-3 Spearhead UBS";
 		baseWeapon="arifle_MSBS65_UBS_XDF_black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_01_black_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
+		};
+	};
+	class arifle_MSBS65_Mark_XDF_black: arifle_MSBS65_Mark_base_black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MSBS65_Mark_black_F";
+		scope=2;
+		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_Mark_black_F_ca.paa";
+		displayName="XDF S-4 Spearhead MR";
+		baseWeapon="arifle_MSBS65_Mark_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_01_black_co.paa",
