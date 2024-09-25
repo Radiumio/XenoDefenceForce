@@ -20171,6 +20171,59 @@ class CfgVehicles
 		};
 	};
 
+	// Turrets
+	class B_Radar_System_01_F;
+	
+	class XDF_Stratoseeker: C_Boat_Transport_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF RDR-23 Stratoseeker";
+		editorPreview="\xdf\previews\vehicles\XDF_Stratoseeker.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 120; // Default 80
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_01_co.paa",
+			"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_01_co.paa",
+					"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+
 	// Uniforms
 	class B_SSU_Stealth_Uniform_base;
 	class B_SSU_Stealth_Uniform_Rolled_base;
