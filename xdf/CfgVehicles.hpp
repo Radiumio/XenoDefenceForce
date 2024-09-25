@@ -20272,6 +20272,102 @@ class CfgVehicles
 			1
 		};
 	};
+	//class B_static_AA_F;
+	//class XDF_StaticLance: B_static_AA_F
+	//{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF R-4 Lance (Static)";
+		editorPreview="\xdf\previews\vehicles\XDF_StaticLance.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_launcher",
+			"camo_tube"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+					"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"		
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	//};
+	//class B_static_AT_F;
+	//class XDF_StaticSpear: B_static_AT_F
+	//{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF R-3 Spear (Static)";
+		editorPreview="\xdf\previews\vehicles\XDF_StaticSpear.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_launcher",
+			"camo_tube"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+					"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"		
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	//};
 
 	// Uniforms
 	class B_SSU_Stealth_Uniform_base;
