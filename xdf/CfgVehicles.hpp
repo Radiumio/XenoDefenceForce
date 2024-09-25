@@ -20310,6 +20310,7 @@ class CfgVehicles
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
+	class B_Carryall_blk;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -20379,6 +20380,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black.paa"
+		};
+	};
+	class B_XDF_CarryAll_Black: B_Carryall_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Carryall";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black.paa"
 		};
 	};
 	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
