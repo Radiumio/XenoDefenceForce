@@ -20173,8 +20173,7 @@ class CfgVehicles
 
 	// Turrets
 	class B_Radar_System_01_F;
-	
-	class XDF_Stratoseeker: C_Boat_Transport_02_F
+	class XDF_Stratoseeker: B_Radar_System_01_F
 	{
 		author="Radium";
 		scope = 2;
@@ -20210,6 +20209,56 @@ class CfgVehicles
 				{
 					"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_01_co.paa",
 					"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_SAM_System_03_F;
+	class XDF_Patriot: B_SAM_System_03_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF MIM-55 Patriot";
+		editorPreview="\xdf\previews\vehicles\XDF_Patriot.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 120; // Default 80
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\patriot\sam_system_03_mat_01_co.paa",
+			"\xdf\retextures\turrets\patriot\sam_system_03_mat_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\patriot\sam_system_03_mat_01_co.paa",
+					"\xdf\retextures\turrets\patriot\sam_system_03_mat_02_co.paa"
 				};
 				factions[]=
 				{
