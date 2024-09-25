@@ -21608,7 +21608,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -21735,7 +21735,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -24114,7 +24114,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -24241,7 +24241,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -25824,7 +25824,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -25951,7 +25951,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -27615,7 +27615,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_med";
 		items[]=
 		{
 			"Medikit",
