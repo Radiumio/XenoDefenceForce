@@ -20393,6 +20393,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black.paa"
 		};
 	};
+	class B_XDF_CarryAll_Black_med: B_Carryall_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Carryall (Medical)";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_med.paa"
+		};
+	};
 	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
 	{
 		author="Clasless & Radium";
