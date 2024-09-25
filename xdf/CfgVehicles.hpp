@@ -20327,6 +20327,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black.paa"
 		};
 	};
+	class B_XDF_Viper_Harness_Black_med: B_SSU_Viper_Harness_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Viper Harness (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Viper_Harness_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_med.paa"
+		};
+	};
 	class B_XDF_Viper_Light_Harness_Black: B_SSU_Viper_Light_Harness_base
 	{
 		author="Clasless & Radium";
@@ -20347,6 +20358,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black.paa"
+		};
+	};
+	class B_XDF_Assault_Pack_Black_med: B_SSU_Assault_Pack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Assault Pack (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Assault_Pack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_med.paa"
 		};
 	};
 	class B_XDF_LegStrapBag_Black: B_SSU_LegStrapBag_base
@@ -20371,6 +20393,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
 		};
 	};
+	class B_XDF_TacticalPack_Black_med: B_SSU_TacticalPack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Backpack (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black_med.paa"
+		};
+	};
 	class B_XDF_Kitbag_Black: B_SSU_Kitbag_base
 	{
 		author="Clasless & Radium";
@@ -20380,6 +20413,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black.paa"
+		};
+	};
+	class B_XDF_Kitbag_Black_med: B_SSU_Kitbag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Kitbag (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Kitbag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black_med.paa"
 		};
 	};
 	class B_XDF_CarryAll_Black: B_Carryall_blk
