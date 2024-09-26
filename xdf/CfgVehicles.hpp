@@ -20272,6 +20272,56 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_AAA_System_01_F;
+	class XDF_Praetorian: B_AAA_System_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Praetorian CIWS";
+		editorPreview="\xdf\previews\vehicles\XDF_Praetorian.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 160; // Default 80
+		damageResistance = 0.05; // Default 0.0040000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\praetorian\aaa_system_01_co.paa",
+			"\xdf\retextures\turrets\praetorian\aaa_system_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\praetorian\aaa_system_01_co.paa",
+					"\xdf\retextures\turrets\praetorian\aaa_system_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_static_AA_F;
 	class XDF_StaticLance: B_static_AA_F
 	{
