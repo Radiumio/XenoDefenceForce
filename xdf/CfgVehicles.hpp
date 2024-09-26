@@ -20272,9 +20272,9 @@ class CfgVehicles
 			1
 		};
 	};
-	//class B_static_AA_F;
-	//class XDF_StaticLance: B_static_AA_F
-	//{
+	class B_static_AA_F;
+	class XDF_StaticLance: B_static_AA_F
+	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
@@ -20319,10 +20319,22 @@ class CfgVehicles
 			"XDF",
 			1
 		};
-	//};
-	//class B_static_AT_F;
-	//class XDF_StaticSpear: B_static_AT_F
-	//{
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_R3_Spear_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_static_AT_F;
+	class XDF_StaticSpear: B_static_AT_F
+	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
@@ -20367,7 +20379,307 @@ class CfgVehicles
 			"XDF",
 			1
 		};
-	//};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_R4_Lance_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_GMG_01_F;
+	class XDF_XM307: B_GMG_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM307 GMG";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM307_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_GMG_01_high_F;
+	class XDF_XM307_Raised: B_GMG_01_high_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM307 GMG (Raised)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307_Raised.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM307_Raised_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_GMG_01_A_F;
+	class XDF_XM307A: B_GMG_01_A_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM307 GMG (Autonomous)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307A.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM307A_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_HMG_01_A_F;
+	class XDF_XM312A: B_HMG_01_A_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM312 HMG (Autonomous)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307A.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM312A_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_HMG_01_F;
+	class XDF_XM312: B_HMG_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM312 HMG";
+		editorPreview="\xdf\previews\vehicles\XDF_XM312.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM312A_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_HMG_01_high_F;
+	class XDF_XM312_Raised: B_HMG_01_high_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM312 HMG (Raised)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM312_Raised.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM312_Raised_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_G_HMG_02_F;
+	class XDF_M2HMG: B_G_HMG_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF M2 HMG .50";
+		editorPreview="\xdf\previews\vehicles\XDF_M2HMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+			"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+					"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_M2HMG_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_G_HMG_02_high_F;
+	class XDF_M2HMG_Raised: B_G_HMG_02_high_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF M2 HMG .50 (Raised)";
+		editorPreview="\xdf\previews\vehicles\XDF_M2HMG_Raised.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+			"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+					"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_M2HMG_Raised_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
 
 	// Uniforms
 	class B_SSU_Stealth_Uniform_base;
@@ -20683,6 +20995,221 @@ class CfgVehicles
 			assembleTo="XDF_Mosquito";
 		};
 	};
+
+	// Turret Backpacks
+	//class B_XDF_FUWT_Pack: B_SSU_TacticalPack_base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Folded Universal Weapon Tripod";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=180;
+	//};
+	//class B_XDF_R3_Spear_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled R-3 Spear (Static)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF R-3 Spear (Static)";
+	//		assembleTo="XDF_StaticSpear";
+	//	};
+	//};
+	//class B_XDF_R4_Lance_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled R-3 Lance (Static)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF R-4 Lance (Static)";
+	//		assembleTo="XDF_StaticLance";
+	//	};
+	//};
+	//class B_XDF_XM307_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM307 GMG";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM307 GMG";
+	//		assembleTo="XDF_XM307";
+	//	};
+	//};
+	//class B_XDF_XM307_Raised_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM307 GMG (Raised)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM307 HMG (Raised)";
+	//		assembleTo="XDF_XM307_Raised";
+	//	};
+	//};
+	//class B_XDF_XM307A_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM307 GMG (Autonomous)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM307 GMG (Autonomous)";
+	//		assembleTo="XDF_XM307A";
+	//	};
+	//};
+	//class B_XDF_XM312A_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM312 HMG (Autonomous)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM312 HMG (Autonomous)";
+	//		assembleTo="XDF_XM312A";
+	//	};
+	//};
+	//class B_XDF_XM312_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM312 HMG";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM312 HMG";
+	//		assembleTo="XDF_XM312";
+	//	};
+	//};
+	//class B_XDF_XM312_Raised_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM312 HMG (Raised)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM312 HMG (Raised)";
+	//		assembleTo="XDF_XM312_Raised";
+	//	};
+	//};
+	//class B_XDF_M2HMG_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled M2 HMG .50";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		displayName="XDF M2 HMG .50";
+	//		assembleTo="XDF_M2HMG";
+	//	};
+	//};
+	//class B_XDF_M2HMG_Raised_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled M2 HMG .50 (Raised)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF M2 HMG .50 (Raised)";
+	//		assembleTo="XDF_M2HMG_Raised";
+	//	};
+	//};
+
 
 	// Units
 	class B_Soldier_F;
