@@ -17760,7 +17760,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Mosquito";
+		displayName = "XDF AR-5 Mosquito";
 		editorPreview="\xdf\previews\vehicles\XDF_Mosquito.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -20171,6 +20171,566 @@ class CfgVehicles
 		};
 	};
 
+	// Turrets
+	class B_Radar_System_01_F;
+	class XDF_Stratoseeker: B_Radar_System_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF RDR-23 Stratoseeker";
+		editorPreview="\xdf\previews\vehicles\XDF_Stratoseeker.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 120; // Default 80
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_01_co.paa",
+			"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_01_co.paa",
+					"\xdf\retextures\turrets\stratoseeker\radar_system_01_mat_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_SAM_System_03_F;
+	class XDF_Patriot: B_SAM_System_03_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF MIM-55 Patriot";
+		editorPreview="\xdf\previews\vehicles\XDF_Patriot.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 120; // Default 80
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\patriot\sam_system_03_mat_01_co.paa",
+			"\xdf\retextures\turrets\patriot\sam_system_03_mat_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\patriot\sam_system_03_mat_01_co.paa",
+					"\xdf\retextures\turrets\patriot\sam_system_03_mat_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_AAA_System_01_F;
+	class XDF_Praetorian: B_AAA_System_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Praetorian CIWS";
+		editorPreview="\xdf\previews\vehicles\XDF_Praetorian.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 160; // Default 80
+		damageResistance = 0.05; // Default 0.0040000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\praetorian\aaa_system_01_co.paa",
+			"\xdf\retextures\turrets\praetorian\aaa_system_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\praetorian\aaa_system_01_co.paa",
+					"\xdf\retextures\turrets\praetorian\aaa_system_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_static_AA_F;
+	class XDF_StaticLance: B_static_AA_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF R-4 Lance (Static)";
+		editorPreview="\xdf\previews\vehicles\XDF_StaticLance.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_launcher",
+			"camo_tube"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+					"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"		
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_R3_Spear_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_static_AT_F;
+	class XDF_StaticSpear: B_static_AT_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF R-3 Spear (Static)";
+		editorPreview="\xdf\previews\vehicles\XDF_StaticSpear.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_launcher",
+			"camo_tube"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
+					"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"		
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_R4_Lance_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_GMG_01_F;
+	class XDF_XM307: B_GMG_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM307 GMG";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM307_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_GMG_01_high_F;
+	class XDF_XM307_Raised: B_GMG_01_high_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM307 GMG (Raised)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307_Raised.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM307_Raised_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_GMG_01_A_F;
+	class XDF_XM307A: B_GMG_01_A_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM307 GMG (Autonomous)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307A.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM307A_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_HMG_01_A_F;
+	class XDF_XM312A: B_HMG_01_A_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM312 HMG (Autonomous)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM307A.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM312A_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_HMG_01_F;
+	class XDF_XM312: B_HMG_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM312 HMG";
+		editorPreview="\xdf\previews\vehicles\XDF_XM312.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM312A_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_HMG_01_high_F;
+	class XDF_XM312_Raised: B_HMG_01_high_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF XM312 HMG (Raised)";
+		editorPreview="\xdf\previews\vehicles\XDF_XM312_Raised.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_XM312_Raised_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_G_HMG_02_F;
+	class XDF_M2HMG: B_G_HMG_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF M2 HMG .50";
+		editorPreview="\xdf\previews\vehicles\XDF_M2HMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+			"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+					"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_M2HMG_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+	class B_G_HMG_02_high_F;
+	class XDF_M2HMG_Raised: B_G_HMG_02_high_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF M2 HMG .50 (Raised)";
+		editorPreview="\xdf\previews\vehicles\XDF_M2HMG_Raised.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+			"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\m2hmg\static_m2_co.paa",
+					"\xdf\retextures\turrets\m2hmg\m2_combined_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		//class assembleInfo
+		//{
+		//	primary=0;
+		//	base="";
+		//	assembleTo="";
+		//	dissasembleTo[]=
+		//	{
+		//		"B_XDF_FUWT_Pack",
+		//		"B_XDF_M2HMG_Raised_Pack"
+		//	};
+		//	displayName="";
+		//};
+	};
+
 	// Uniforms
 	class B_SSU_Stealth_Uniform_base;
 	class B_SSU_Stealth_Uniform_Rolled_base;
@@ -20310,6 +20870,7 @@ class CfgVehicles
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
+	class B_Carryall_blk;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -20324,6 +20885,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black.paa"
+		};
+	};
+	class B_XDF_Viper_Harness_Black_med: B_SSU_Viper_Harness_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Viper Harness (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Viper_Harness_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_med.paa"
 		};
 	};
 	class B_XDF_Viper_Light_Harness_Black: B_SSU_Viper_Light_Harness_base
@@ -20348,6 +20920,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black.paa"
 		};
 	};
+	class B_XDF_Assault_Pack_Black_med: B_SSU_Assault_Pack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Assault Pack (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Assault_Pack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_med.paa"
+		};
+	};
 	class B_XDF_LegStrapBag_Black: B_SSU_LegStrapBag_base
 	{
 		author="Clasless & Radium";
@@ -20370,6 +20953,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
 		};
 	};
+	class B_XDF_TacticalPack_Black_med: B_SSU_TacticalPack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Backpack (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black_med.paa"
+		};
+	};
 	class B_XDF_Kitbag_Black: B_SSU_Kitbag_base
 	{
 		author="Clasless & Radium";
@@ -20379,6 +20973,39 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black.paa"
+		};
+	};
+	class B_XDF_Kitbag_Black_med: B_SSU_Kitbag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Kitbag (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Kitbag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black_med.paa"
+		};
+	};
+	class B_XDF_CarryAll_Black: B_Carryall_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Carryall";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black.paa"
+		};
+	};
+	class B_XDF_CarryAll_Black_med: B_Carryall_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Carryall (Medical)";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_med.paa"
 		};
 	};
 	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
@@ -20399,7 +21026,7 @@ class CfgVehicles
 		_generalMacro="B_UAV_01_backpack_F";
 		scope=2;
 		scopeCurator=2;
-		displayName="XDF UAV Bag (Mosquito)";
+		displayName="XDF UAV Bag (AR-5 Mosquito)";
 		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
 		editorCategory="EdCat_Equipment";
 		editorSubcategory="EdSubcat_Backpacks";
@@ -20418,6 +21045,221 @@ class CfgVehicles
 			assembleTo="XDF_Mosquito";
 		};
 	};
+
+	// Turret Backpacks
+	//class B_XDF_FUWT_Pack: B_SSU_TacticalPack_base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Folded Universal Weapon Tripod";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=180;
+	//};
+	//class B_XDF_R3_Spear_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled R-3 Spear (Static)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF R-3 Spear (Static)";
+	//		assembleTo="XDF_StaticSpear";
+	//	};
+	//};
+	//class B_XDF_R4_Lance_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled R-3 Lance (Static)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF R-4 Lance (Static)";
+	//		assembleTo="XDF_StaticLance";
+	//	};
+	//};
+	//class B_XDF_XM307_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM307 GMG";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM307 GMG";
+	//		assembleTo="XDF_XM307";
+	//	};
+	//};
+	//class B_XDF_XM307_Raised_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM307 GMG (Raised)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM307 HMG (Raised)";
+	//		assembleTo="XDF_XM307_Raised";
+	//	};
+	//};
+	//class B_XDF_XM307A_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM307 GMG (Autonomous)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM307 GMG (Autonomous)";
+	//		assembleTo="XDF_XM307A";
+	//	};
+	//};
+	//class B_XDF_XM312A_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM312 HMG (Autonomous)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM312 HMG (Autonomous)";
+	//		assembleTo="XDF_XM312A";
+	//	};
+	//};
+	//class B_XDF_XM312_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM312 HMG";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM312 HMG";
+	//		assembleTo="XDF_XM312";
+	//	};
+	//};
+	//class B_XDF_XM312_Raised_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled XM312 HMG (Raised)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF XM312 HMG (Raised)";
+	//		assembleTo="XDF_XM312_Raised";
+	//	};
+	//};
+	//class B_XDF_M2HMG_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled M2 HMG .50";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		displayName="XDF M2 HMG .50";
+	//		assembleTo="XDF_M2HMG";
+	//	};
+	//};
+	//class B_XDF_M2HMG_Raised_Pack: Weapon_Bag_Base
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="XDF Disassembled M2 HMG .50 (Raised)";
+	//	picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+	//	faction="B_XDF";
+	//	hiddenSelectionsTextures[]=
+	//	{
+	//		"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+	//	};
+	//	maximumLoad=0;
+	//	mass=320;
+	//	class assembleInfo: assembleInfo
+	//	{
+	//		base="B_XDF_FUWT_Pack";
+	//		displayName="XDF M2 HMG .50 (Raised)";
+	//		assembleTo="XDF_M2HMG_Raised";
+	//	};
+	//};
+
 
 	// Units
 	class B_Soldier_F;
@@ -21541,7 +22383,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -21668,7 +22510,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -24047,7 +24889,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -24174,7 +25016,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -25757,7 +26599,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -25884,7 +26726,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_med";
 		items[]=
 		{
 			"Medikit",
@@ -27548,7 +28390,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_med";
 		items[]=
 		{
 			"Medikit",
