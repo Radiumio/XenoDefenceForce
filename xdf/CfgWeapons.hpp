@@ -697,7 +697,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\weapons\acp\p07_co.paa"
+			"\xdf\retextures\xdf_uniform\weapons\acp\acpc2_co.paa"
 		};
 	};
 	class XDF_hgun_Pistol_heavy_01: hgun_Pistol_heavy_01_F
@@ -712,7 +712,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\weapons\45tactical\p07_co.paa"
+			"\xdf\retextures\xdf_uniform\weapons\45tactical\pistol_heavy_01_co.paa"
 		};
 	};
 
