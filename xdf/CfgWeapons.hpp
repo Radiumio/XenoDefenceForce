@@ -672,7 +672,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF P-1 Walther P99";
+		displayName="XDF H-1 Walther P99";
 		baseWeapon="XDF_hgun_P07";
 		hiddenSelections[]=
 		{
