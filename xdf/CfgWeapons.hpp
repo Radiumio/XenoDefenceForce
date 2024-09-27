@@ -499,7 +499,11 @@ class cfgWeapons
 	class arifle_MSBS65_UBS_base_black_F;
 	class arifle_MSBS65_Mark_base_black_F;
 	class arifle_ARX_blk_F;
-	class SMG_01_F;
+	class arifle_MX_Black_F;
+	class arifle_MX_GL_Black_F;
+	class arifle_MX_SW_Black_F;
+	class arifle_MXC_Black_F;
+	class arifle_MXM_Black_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
@@ -572,6 +576,76 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\type115\arifle_arx_blk_02_f_co.paa"
 		};
 	};
+	class arifle_MX_XDF: arifle_MX_Black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_Black_F";
+		scope=2;
+		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_black_X_CA.paa";
+		displayName="XDF S-5 ACR-X2";
+		baseWeapon="arifle_MX_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_short_co.paa"
+		};
+	};
+	class arifle_MXC_XDF: arifle_MXC_Black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MXC_Black_F";
+		scope=2;
+		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_cqc_black_X_CA.paa";
+		displayName="XDF S-6 ACR-X2 Carbine";
+		baseWeapon="arifle_MXC_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_short_co.paa"
+		};
+	};
+	class arifle_MXGL_XDF: arifle_MX_GL_Black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_GL_Black_F";
+		scope=2;
+		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_gl_black_X_CA.paa";
+		displayName="XDF S-7 ACR-X2 3GL";
+		baseWeapon="arifle_MXGL_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\glx_co.paa"
+		};
+	};
+	class arifle_MXSW_XDF: arifle_MX_SW_Black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_SW_Black_F";
+		scope=2;
+		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_lmg_black_X_CA.paa";
+		displayName="XDF S-8 ACR-X2 Support";
+		baseWeapon="arifle_MXSW_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_lmg_co.paa"
+		};
+	};
+	class arifle_MXM_XDF: arifle_MXM_Black_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_SW_Black_F";
+		scope=2;
+		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_dmr_black_X_CA.paa";
+		displayName="XDF S-9 ACR-X2 Marksman";
+		baseWeapon="arifle_MXM_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+		};
+	};
+
+	// SMGs
+	class SMG_01_F;
 	class XDF_SMG_01: SMG_01_F
 	{
 		author="Radium";
@@ -599,6 +673,7 @@ class cfgWeapons
 	class srifle_DMR_05_blk_F;
 	class srifle_DMR_04_F;
 	class srifle_LRR_F;
+	class srifle_DMR_01_F;
 	class XDF_srifle_DMR_03: srifle_DMR_03_F
 	{
 		author="Radium";
@@ -688,6 +763,21 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF L-1 Arbitrator";
 		baseWeapon="XDF_srifle_LRR";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\intervention\cheytac_m200_co.paa"
+		};
+	};
+	class XDF_srifle_DMR_01: srifle_DMR_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF D-5 VS-121";
+		baseWeapon="srifle_DMR_01_F";
 		hiddenSelections[]=
 		{
 			"camo"
