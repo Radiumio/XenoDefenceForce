@@ -21321,12 +21321,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -21430,12 +21430,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -21539,12 +21539,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -21632,12 +21632,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -21725,12 +21725,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_LMG_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_LMG_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -21816,12 +21816,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_LMG_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_LMG_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -21907,12 +21907,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22012,12 +22012,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_03_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22117,12 +22117,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_LRR_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_LRR_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22222,12 +22222,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_LRR_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_LRR_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22327,12 +22327,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22454,12 +22454,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22581,12 +22581,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22688,12 +22688,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -22795,12 +22795,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 
@@ -22924,12 +22924,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 
@@ -23053,12 +23053,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 
@@ -23162,12 +23162,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 
@@ -23271,12 +23271,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -23416,12 +23416,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -23563,13 +23563,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
@@ -23682,13 +23682,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
@@ -23801,13 +23801,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
 		};
@@ -23916,13 +23916,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
 		};
@@ -24031,13 +24031,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
@@ -24144,13 +24144,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_GL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
@@ -24255,12 +24255,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_CRW_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_CRW_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -24336,12 +24336,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_SMG_01_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_SMG_01_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -24417,12 +24417,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_CRW_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_CRW_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -24494,12 +24494,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_SMG_01_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_SMG_01_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Rangefinder"
 		};
 
@@ -24575,12 +24575,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -24598,12 +24598,12 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -24627,12 +24627,12 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -24704,12 +24704,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -24727,12 +24727,12 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -24756,12 +24756,12 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -24833,12 +24833,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -24851,11 +24851,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -24874,11 +24874,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -24960,12 +24960,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -24978,11 +24978,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25001,11 +25001,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25087,12 +25087,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -25115,11 +25115,11 @@ class CfgVehicles
 			"1Rnd_SmokeOrange_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25216,12 +25216,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -25244,11 +25244,11 @@ class CfgVehicles
 			"1Rnd_SmokeOrange_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25277,11 +25277,11 @@ class CfgVehicles
 			"1Rnd_SmokeOrange_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25345,12 +25345,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -25363,11 +25363,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25386,11 +25386,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25454,12 +25454,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -25472,11 +25472,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25495,11 +25495,11 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
 			"30Rnd_65x39_caseless_msbs_mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25563,12 +25563,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_MMG_02_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_MMG_02_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -25577,12 +25577,12 @@ class CfgVehicles
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -25597,12 +25597,12 @@ class CfgVehicles
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -25674,12 +25674,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_MMG_02_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_MMG_02_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -25688,12 +25688,12 @@ class CfgVehicles
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -25708,12 +25708,12 @@ class CfgVehicles
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
 			"130Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -25785,12 +25785,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_02_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_02_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -25804,12 +25804,12 @@ class CfgVehicles
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25827,12 +25827,12 @@ class CfgVehicles
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25894,12 +25894,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_02_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_02_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -25913,12 +25913,12 @@ class CfgVehicles
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -25936,12 +25936,12 @@ class CfgVehicles
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
 			"10Rnd_338_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26005,13 +26005,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
@@ -26030,11 +26030,11 @@ class CfgVehicles
 			"MRAWS_HEAT_F",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26056,11 +26056,11 @@ class CfgVehicles
 			"MRAWS_HEAT_F",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26124,13 +26124,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
@@ -26149,11 +26149,11 @@ class CfgVehicles
 			"MRAWS_HEAT_F",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26175,11 +26175,11 @@ class CfgVehicles
 			"MRAWS_HEAT_F",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26241,12 +26241,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -26275,12 +26275,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -26315,12 +26315,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -26392,12 +26392,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -26426,12 +26426,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -26466,12 +26466,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -26543,12 +26543,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_04_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_04_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -26561,11 +26561,11 @@ class CfgVehicles
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26584,11 +26584,11 @@ class CfgVehicles
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26670,12 +26670,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_04_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_04_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -26688,11 +26688,11 @@ class CfgVehicles
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26711,11 +26711,11 @@ class CfgVehicles
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26797,12 +26797,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_P07",
 			"Laserdesignator_03"
 		};
 
@@ -26926,12 +26926,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AXGL_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -26954,11 +26954,11 @@ class CfgVehicles
 			"1Rnd_SmokeOrange_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -26987,11 +26987,11 @@ class CfgVehicles
 			"1Rnd_SmokeOrange_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27055,12 +27055,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -27089,12 +27089,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27131,12 +27131,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27202,12 +27202,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_UBS_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Laserdesignator_03"
 		};
 
@@ -27236,12 +27236,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27278,12 +27278,12 @@ class CfgVehicles
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27349,12 +27349,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_MMG_01_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_MMG_01_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -27363,12 +27363,12 @@ class CfgVehicles
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27383,12 +27383,12 @@ class CfgVehicles
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27460,12 +27460,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_MMG_01_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_MMG_01_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -27474,12 +27474,12 @@ class CfgVehicles
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27494,12 +27494,12 @@ class CfgVehicles
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -27571,12 +27571,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_GM6_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_GM6_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -27588,12 +27588,12 @@ class CfgVehicles
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27609,12 +27609,12 @@ class CfgVehicles
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27676,12 +27676,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_GM6_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_GM6_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
@@ -27693,12 +27693,12 @@ class CfgVehicles
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27714,12 +27714,12 @@ class CfgVehicles
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
 			"5Rnd_127x108_APDS_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27783,13 +27783,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
@@ -27806,11 +27806,11 @@ class CfgVehicles
 			"Vorona_HEAT",
 			"Vorona_HEAT",
 			"Vorona_HEAT",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27830,11 +27830,11 @@ class CfgVehicles
 			"Vorona_HEAT",
 			"Vorona_HEAT",
 			"Vorona_HEAT",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27898,13 +27898,13 @@ class CfgVehicles
 
 		weapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"arifle_MSBS65_AX_XDF_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_Pistol_heavy_01",
 			"XDF_launch_O_Vorona_black",
 			"Rangefinder"
 		};
@@ -27921,11 +27921,11 @@ class CfgVehicles
 			"Vorona_HEAT",
 			"Vorona_HEAT",
 			"Vorona_HEAT",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -27945,11 +27945,11 @@ class CfgVehicles
 			"Vorona_HEAT",
 			"Vorona_HEAT",
 			"Vorona_HEAT",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28009,12 +28009,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_arifle_ARX_blk_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_arifle_ARX_blk_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
@@ -28034,12 +28034,12 @@ class CfgVehicles
 			"10Rnd_50BW_Mag_F",
 			"10Rnd_50BW_Mag_F",
 			"10Rnd_50BW_Mag_F",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28063,12 +28063,12 @@ class CfgVehicles
 			"10Rnd_50BW_Mag_F",
 			"10Rnd_50BW_Mag_F",
 			"10Rnd_50BW_Mag_F",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28130,12 +28130,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_05_blk_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_05_blk_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
@@ -28147,12 +28147,12 @@ class CfgVehicles
 			"10Rnd_93x64_DMR_05_Mag",
 			"10Rnd_93x64_DMR_05_Mag",
 			"10Rnd_93x64_DMR_05_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28168,12 +28168,12 @@ class CfgVehicles
 			"10Rnd_93x64_DMR_05_Mag",
 			"10Rnd_93x64_DMR_05_Mag",
 			"10Rnd_93x64_DMR_05_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28235,12 +28235,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_MMG_01_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_MMG_01_black_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
@@ -28249,12 +28249,12 @@ class CfgVehicles
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28267,12 +28267,12 @@ class CfgVehicles
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
 			"150Rnd_93x64_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28334,12 +28334,12 @@ class CfgVehicles
 
 		weapons[] = {
 			"XDF_srifle_DMR_04_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_srifle_DMR_04_F",
-			"hgun_P07_blk_F",
+			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
@@ -28351,12 +28351,12 @@ class CfgVehicles
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
@@ -28374,12 +28374,12 @@ class CfgVehicles
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
 			"10Rnd_127x54_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
-			"16Rnd_9x21_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
+			"9Rnd_45ACP_Mag",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",

@@ -670,7 +670,7 @@ class cfgWeapons
 	class hgun_P07_F;
 	class hgun_ACPC2_F;
 	class hgun_Pistol_heavy_01_F;
-	class XDF_hgun_P07: hgun_P07_F
+	class XDF_hgun_P07: hgun_P07_F // 16Rnd_9x21_Mag
 	{
 		author="Radium";
 		scope=2;
@@ -685,7 +685,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\p07\p07_co.paa"
 		};
 	};
-	class XDF_hgun_ACPC2: hgun_ACPC2_F
+	class XDF_hgun_ACPC2: hgun_ACPC2_F // 9Rnd_45ACP_Mag
 	{
 		author="Radium";
 		scope=2;
@@ -700,7 +700,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\acp\acpc2_co.paa"
 		};
 	};
-	class XDF_hgun_Pistol_heavy_01: hgun_Pistol_heavy_01_F
+	class XDF_hgun_Pistol_heavy_01: hgun_Pistol_heavy_01_F // 11Rnd_45ACP_Mag
 	{
 		author="Radium";
 		scope=2;
