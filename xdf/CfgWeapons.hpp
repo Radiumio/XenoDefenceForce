@@ -777,14 +777,16 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF D-5 VS-121";
-		baseWeapon="srifle_DMR_01_F";
+		baseWeapon="XDF_srifle_DMR_01";
 		hiddenSelections[]=
 		{
-			"camo"
+			"camo1",
+			"camo2"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\weapons\intervention\cheytac_m200_co.paa"
+			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_02_co.paa"
 		};
 	};
 
