@@ -666,6 +666,24 @@ class cfgWeapons
 		};
 	};
 
+	// Pistols
+	class hgun_P07_F;
+	class XDF_hgun_P07: hgun_P07_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF P-1 Walther P99";
+		baseWeapon="XDF_hgun_P07";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p07\p07_co.paa"
+		};
+	};
+
 	// Long Range Rifles
 	class srifle_DMR_03_F;
 	class srifle_DMR_02_F;
