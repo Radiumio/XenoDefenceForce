@@ -668,6 +668,8 @@ class cfgWeapons
 
 	// Pistols
 	class hgun_P07_F;
+	class hgun_ACPC2_F;
+	class hgun_Pistol_heavy_01_F;
 	class XDF_hgun_P07: hgun_P07_F
 	{
 		author="Radium";
@@ -681,6 +683,36 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p07\p07_co.paa"
+		};
+	};
+	class XDF_hgun_ACPC2: hgun_ACPC2_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF H-2 Custom Covert II";
+		baseWeapon="XDF_hgun_ACPC2";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\acp\p07_co.paa"
+		};
+	};
+	class XDF_hgun_Pistol_heavy_01: hgun_Pistol_heavy_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF H-3 FNX-45 Tactical";
+		baseWeapon="XDF_hgun_Pistol_heavy_01";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\45tactical\p07_co.paa"
 		};
 	};
 
