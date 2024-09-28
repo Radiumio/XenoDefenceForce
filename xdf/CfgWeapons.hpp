@@ -518,6 +518,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\spearhead_reload.ogg",
+			4,
+			1,
+			10
+		};
 	};
 	class arifle_MSBS65_GL_XDF_black: arifle_MSBS65_GL_base_black_F
 	{
@@ -861,7 +868,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\hk121_reload.ogg",
-			2.5,
+			4,
 			1,
 			10
 		};
@@ -881,7 +888,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\lwmmg_reload.ogg",
-			2.5,
+			4,
 			1,
 			10
 		};
@@ -901,7 +908,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\m249_reload.ogg",
-			2.5,
+			4,
 			1,
 			10
 		};
