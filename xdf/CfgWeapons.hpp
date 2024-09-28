@@ -860,7 +860,7 @@ class cfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\Navid_Reload.ogg",
+			"\xdf\sounds\reloads\hk121_reload.ogg",
 			2.5,
 			1,
 			10
@@ -878,6 +878,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\spmg\mmg_02_02_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\spmg\mmg_02_03_black_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\lwmmg_reload.ogg",
+			2.5,
+			1,
+			10
+		};
 	};
 	class XDF_LMG_03: LMG_03_F
 	{
@@ -890,6 +897,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\lim85\lmg_03_f_body_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\lim85\lmg_03_f_acc_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\lim85\grip_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\m249_reload.ogg",
+			2.5,
+			1,
+			10
 		};
 	};
 
