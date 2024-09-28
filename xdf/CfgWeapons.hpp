@@ -858,6 +858,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\navid\mmg_01_02_sand_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\navid\mmg_01_03_sand_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\Navid_Reload.ogg",
+			2.5,
+			1,
+			10
+		};
 	};
 	class XDF_MMG_02_black: MMG_02_black_F
 	{
