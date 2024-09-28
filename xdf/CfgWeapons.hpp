@@ -540,6 +540,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\spearhead_reload.ogg",
+			4,
+			1,
+			10
+		};
 	};
 	class arifle_MSBS65_UBS_XDF_black: arifle_MSBS65_UBS_base_black_F
 	{
@@ -555,6 +562,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\spearhead_reload.ogg",
+			4,
+			1,
+			10
+		};
 	};
 	class arifle_MSBS65_Mark_XDF_black: arifle_MSBS65_Mark_base_black_F
 	{
@@ -569,6 +583,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_01_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_02_black_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\msbs\msbs_03_black_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\spearhead_reload.ogg",
+			4,
+			1,
+			10
 		};
 	};
 	class XDF_arifle_ARX_blk: arifle_ARX_blk_F
