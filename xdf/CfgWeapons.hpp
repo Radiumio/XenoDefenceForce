@@ -804,6 +804,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\gm6\gm6_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\gm6_reload.ogg",
+			4,
+			1,
+			10
+		};
 		class single: mode_semiauto
 		{
 			sounds[]=
