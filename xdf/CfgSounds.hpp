@@ -35,7 +35,7 @@ class CfgSoundShaders
 				1
 			}
 		};
-		volume=1;
+		volume=0.9;
 		range=100;
 		rangeCurve="closeShotCurve";
 	};
