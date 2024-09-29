@@ -1,3 +1,7 @@
+
+class mode_semiauto;
+class mode_burst;
+class mode_fullauto;
 class cfgWeapons
 {
 	class ItemCore;
@@ -800,6 +804,27 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\gm6\gm6_co.paa"
 		};
+		class single: mode_semiauto
+		{
+			sounds[]=
+			{
+				"standardsound",
+				"silencedsound"
+			};
+			class basesoundmodetype;
+			class silencedsound: basesoundmodetype
+			{
+			};
+			class standardsound: basesoundmodetype
+			{
+				soundsetshot[]=
+				{
+					"XDF_GM6Lynx_Shot_SoundSet",
+					"GM6Lynx_Tail_SoundSet",
+					"GM6Lynx_InteriorTail_SoundSet"
+				};
+			};
+		};
 	};
 	class XDF_srifle_DMR_05_blk: srifle_DMR_05_blk_F
 	{
@@ -848,6 +873,13 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\intervention\cheytac_m200_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\cheytac_reload.ogg",
+			4,
+			1,
+			10
 		};
 	};
 	class XDF_srifle_DMR_01: srifle_DMR_01_F
