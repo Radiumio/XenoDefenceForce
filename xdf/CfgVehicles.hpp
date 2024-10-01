@@ -19020,7 +19020,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\onyx\apc_tracked_01_body_crv_co.paa",
+			"\xdf\retextures\onyx\apc_tracked_01_body_co.paa",
 			"\xdf\retextures\onyx\mbt_01_body_co.paa",
 			"\xdf\retextures\onyx\turret_co.paa",
 			"\xdf\retextures\onyx\apc_tracked_01_crv_co.paa",
@@ -19034,11 +19034,11 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{			
-					"\xdf\retextures\onyx\apc_tracked_01_body_crv_co.paa",
+					"\xdf\retextures\onyx\apc_tracked_01_body_co.paa",
 					"\xdf\retextures\onyx\mbt_01_body_co.paa",
 					"\xdf\retextures\onyx\turret_co.paa",
 					"\xdf\retextures\onyx\apc_tracked_01_crv_co.paa",
-					"\xdf\retextures\onyx\camonet_NATO_Desert_CO.paa"
+					"\xdf\retextures\onyx\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -20473,7 +20473,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\turrets\typhon\aaa_system_01_co.paa",
+			"\xdf\retextures\turrets\typhon\ship_mrls_01_co.paa",
 		};
 		class TextureSources
 		{
@@ -20483,7 +20483,7 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xdf\retextures\turrets\typhon\aaa_system_01_co.paa"
+					"\xdf\retextures\turrets\typhon\ship_mrls_01_co.paa"
 				};
 				factions[]=
 				{
