@@ -18600,6 +18600,68 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_MBT_01_arty_F;
+	class XDF_Scoria: B_MBT_01_arty_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Scoria SPG";
+		editorPreview="\xdf\previews\vehicles\XDF_Scoria.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Engineer";
+		armor = 800; // Default 500
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 60
+		fuelCapacity = 36; // Default 18
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 50.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Engineer"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\scoria\MBT_01_body_CO.paa",
+			"\xdf\retextures\scoria\mbt_01_scorcher_co.paa",
+			"\xdf\retextures\scoria\turret_co.paa",
+			"\xdf\retextures\scoria\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\scoria\MBT_01_body_CO.paa",
+					"\xdf\retextures\scoria\MBT_01_scorcher_co.paa",
+					"\xdf\retextures\scoria\Turret_CO.paa",
+					"\xdf\retextures\scoria\camonet_NATO_Desert_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_APC_Wheeled_01_cannon_F;
 	class XDF_Commando: B_APC_Wheeled_01_cannon_F
 	{
@@ -18912,6 +18974,71 @@ class CfgVehicles
 					"\xdf\retextures\kodiak\mbt_03_ext02_co.paa",
 					"\xdf\retextures\kodiak\mbt_03_rcws_co.paa",
 					"\xdf\retextures\kodiak\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_APC_Tracked_01_CRV_F;
+	class XDF_Onyx: B_APC_Tracked_01_CRV_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF CRV Onyx";
+		editorPreview="\xdf\previews\vehicles\XDF_Onyx.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Engineer";
+		armor = 800; // Default 500
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 60
+		fuelCapacity = 36; // Default 18
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 50.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Engineer"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\onyx\apc_tracked_01_body_crv_co.paa",
+			"\xdf\retextures\onyx\mbt_01_body_co.paa",
+			"\xdf\retextures\onyx\turret_co.paa",
+			"\xdf\retextures\onyx\apc_tracked_01_crv_co.paa",
+			"\xdf\retextures\onyx\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\onyx\apc_tracked_01_body_crv_co.paa",
+					"\xdf\retextures\onyx\mbt_01_body_co.paa",
+					"\xdf\retextures\onyx\turret_co.paa",
+					"\xdf\retextures\onyx\apc_tracked_01_crv_co.paa",
+					"\xdf\retextures\onyx\camonet_NATO_Desert_CO.paa"
 				};
 				factions[]=
 				{
@@ -20309,6 +20436,54 @@ class CfgVehicles
 				{
 					"\xdf\retextures\turrets\praetorian\aaa_system_01_co.paa",
 					"\xdf\retextures\turrets\praetorian\aaa_system_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Ship_MRLS_01_F;
+	class XDF_Typhon_VLS: B_Ship_MRLS_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Typhon VLS";
+		editorPreview="\xdf\previews\vehicles\XDF_Typhon_VLS.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 500; // Default 400
+		armorStructural=8; // Default 6
+		damageResistance = 0.05; // Default 0.0040000002
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\typhon\aaa_system_01_co.paa",
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\turrets\typhon\aaa_system_01_co.paa"
 				};
 				factions[]=
 				{
