@@ -509,6 +509,7 @@ class cfgWeapons
 	class arifle_MXC_Black_F;
 	class arifle_MXM_Black_F;
 	class UGL_F;
+	class GL_3GL_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
@@ -700,6 +701,16 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mx\glx_co.paa"
+		};
+		class GL_3GL_F: GL_3GL_F
+		{
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
 		};
 	};
 	class arifle_MXSW_XDF: arifle_MX_SW_Black_F
