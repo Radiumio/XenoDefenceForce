@@ -37,6 +37,7 @@ class cfgWeapons
 	class TCGM_CombatUniform_CTRG_Stealth_arid;
 	class TCGM_CombatUniform_CTRG_RollUp;
 	class TCGM_CombatUniform_CTRG_Bra;
+	class U_B_CBRN_Suit_01_MTP_F;
 	class U_XDF_Uniform_Black: U_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -162,6 +163,28 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Jet_Pilot_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_CBRN_Suit: U_B_CBRN_Suit_01_MTP_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF CBRN Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_CBRN_Suit";
 			containerClass="Supply40";
 			mass=40;
 		};

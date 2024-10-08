@@ -20917,6 +20917,7 @@ class CfgVehicles
 	class TCGM_Bra_B_MTP_Soldier_SL;
 	class TCGM_RollUp_B_CTRG_Soldier;
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
+	class B_CBRN_Man_Oversuit_01_MTP_F;
 	class B_XDF_Uniform_Black: B_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -21000,6 +21001,21 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_co.paa"
+		};
+	};
+	class B_XDF_CBRN_Suit: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_CBRN_Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_co.paa"
 		};
 	};
 	class U_XDF_Female_Uniform_Black: TCGM_Stealth_B_CTRG_Soldier_arid
