@@ -575,7 +575,7 @@ class cfgWeapons
 			magazineReloadSwitchPhase=0.36000001;
 			drySound[]=
 			{
-				"A3\Sounds_F_Exp\arsenal\weapons\LongRangeRifles\DMR07\DMR07_dry",
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
 				0.56234133,
 				1,
 				10
