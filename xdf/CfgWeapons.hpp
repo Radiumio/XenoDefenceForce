@@ -508,6 +508,7 @@ class cfgWeapons
 	class arifle_MX_SW_Black_F;
 	class arifle_MXC_Black_F;
 	class arifle_MXM_Black_F;
+	class UGL_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
@@ -550,6 +551,58 @@ class cfgWeapons
 			4,
 			1,
 			10
+		};
+		class UGL: UGL_F
+		{
+			displayName="Spearhead UGP-40";
+			useModelOptics=0;
+			useExternalOptic=0;
+			cameraDir="OP_look";
+			discreteDistance[]={50,100,150,200,250,300,350,400};
+			discreteDistanceCameraPoint[]=
+			{
+				"OP_eye_50",
+				"OP_eye_100",
+				"OP_eye_150",
+				"OP_eye_200",
+				"OP_eye_250",
+				"OP_eye_300",
+				"OP_eye_350",
+				"OP_eye_400"
+			};
+			discreteDistanceInitIndex=1;
+			reloadAction="GestureReloadMSBS_UGL";
+			magazineReloadSwitchPhase=0.36000001;
+			drySound[]=
+			{
+				"A3\Sounds_F_Exp\arsenal\weapons\LongRangeRifles\DMR07\DMR07_dry",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_reload.ogg",
+				3.5481339,
+				1,
+				10
+			};
+			class Single: Mode_SemiAuto
+			{
+				sounds[]=
+				{
+					"StandardSound"
+				};
+				class StandardSound
+				{
+					soundSetShot[]=
+					{
+						"Msbs65_01_Ugl_Shot_SoundSet",
+						"Msbs65_01_Ugl_Tail_SoundSet",
+						"Msbs65_01_Ugl_InteriorTail_SoundSet"
+					};
+				};
+			};
 		};
 	};
 	class arifle_MSBS65_UBS_XDF_black: arifle_MSBS65_UBS_base_black_F
