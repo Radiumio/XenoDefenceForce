@@ -508,7 +508,7 @@ class cfgWeapons
 	class arifle_MX_SW_Black_F;
 	class arifle_MXC_Black_F;
 	class arifle_MXM_Black_F;
-	class UGL_F;
+	class UGL;
 	class GL_3GL_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
@@ -553,27 +553,9 @@ class cfgWeapons
 			1,
 			10
 		};
-		class UGL: UGL_F
+		class UGL: UGL
 		{
 			displayName="Spearhead UGP-40";
-			useModelOptics=0;
-			useExternalOptic=0;
-			cameraDir="OP_look";
-			discreteDistance[]={50,100,150,200,250,300,350,400};
-			discreteDistanceCameraPoint[]=
-			{
-				"OP_eye_50",
-				"OP_eye_100",
-				"OP_eye_150",
-				"OP_eye_200",
-				"OP_eye_250",
-				"OP_eye_300",
-				"OP_eye_350",
-				"OP_eye_400"
-			};
-			discreteDistanceInitIndex=1;
-			reloadAction="GestureReloadMSBS_UGL";
-			magazineReloadSwitchPhase=0.36000001;
 			drySound[]=
 			{
 				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
@@ -587,22 +569,6 @@ class cfgWeapons
 				3.5481339,
 				1,
 				10
-			};
-			class Single: Mode_SemiAuto
-			{
-				sounds[]=
-				{
-					"StandardSound"
-				};
-				class StandardSound
-				{
-					soundSetShot[]=
-					{
-						"Msbs65_01_Ugl_Shot_SoundSet",
-						"Msbs65_01_Ugl_Tail_SoundSet",
-						"Msbs65_01_Ugl_InteriorTail_SoundSet"
-					};
-				};
 			};
 		};
 	};
