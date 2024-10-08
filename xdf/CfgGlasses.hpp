@@ -60,8 +60,7 @@ class CfgGlasses
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
 		hiddenSelections[]=
 		{
-			"Camo",
-			"filter"
+			"Camo"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -78,7 +77,8 @@ class CfgGlasses
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
 		hiddenSelections[]=
 		{
-			"Camo"
+			"Camo",
+			"filter"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -95,8 +95,7 @@ class CfgGlasses
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
 		hiddenSelections[]=
 		{
-			"Camo",
-			"filter"
+			"Camo"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -113,7 +112,8 @@ class CfgGlasses
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
 		hiddenSelections[]=
 		{
-			"Camo"
+			"Camo",
+			"filter"
 		};
 		hiddenSelectionsTextures[]=
 		{
