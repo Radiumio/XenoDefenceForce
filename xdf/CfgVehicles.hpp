@@ -28224,7 +28224,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -28345,7 +28345,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -28450,7 +28450,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_GL_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -28549,7 +28549,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
