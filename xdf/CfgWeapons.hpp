@@ -481,7 +481,7 @@ class cfgWeapons
 	};
 	class H_XDF_Mil_Cap: H_MilCap_blue
 	{
-		author="Clasless & Radium";
+		author="Radium";
 		scope=2;
 		displayName="XDF Military Cap";
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
@@ -492,10 +492,21 @@ class cfgWeapons
 	};
 	class H_XDF_Mil_Cap_Wolf: H_MilCap_blue
 	{
-		author="Clasless & Radium";
+		author="Radium";
 		scope=2;
 		displayName="XDF Military Cap (Wolf)";
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
+		};
+	};
+	class H_XDF_Beret: H_MilCap_blue
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret";
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
