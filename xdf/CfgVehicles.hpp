@@ -21213,6 +21213,7 @@ class CfgVehicles
 			"",
 			""
 		};
+		maximumLoad=190;
 	};
 	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
 	{
