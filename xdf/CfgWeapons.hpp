@@ -935,7 +935,7 @@ class cfgWeapons
 		_generalMacro="arifle_CTAR_blk_F";
 		scope=2;
 		displayName="XDF S-14 Komodo LSW";
-		baseWeapon="arifle_CTARS_blk_F";
+		baseWeapon="arifle_CTARS_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
