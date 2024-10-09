@@ -3,6 +3,7 @@ class mode_semiauto;
 class mode_burst;
 class mode_fullauto;
 class GL_3GL_F;
+class EGLM;
 class cfgWeapons
 {
 	class ItemCore;
@@ -626,6 +627,10 @@ class cfgWeapons
 	class arifle_MX_SW_Black_F;
 	class arifle_MXC_Black_F;
 	class arifle_MXM_Black_F;
+	class arifle_SPAR_01_blk_F;
+	class arifle_SPAR_01_GL_blk_F;
+	class arifle_SPAR_02_blk_F;
+	class arifle_SPAR_03_blk_F;
 	class UGL;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
@@ -820,6 +825,77 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+		};
+	};
+	class arifle_SPAR_01_XDF_F: arifle_SPAR_01_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_01_blk_F";
+		scope=2;
+		displayName="XDF S-10 HK416";
+		baseWeapon="arifle_SPAR_01_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
+		};
+	};
+	class arifle_SPAR_02_XDF_F: arifle_SPAR_02_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_02_blk_F";
+		scope=2;
+		displayName="XDF S-11 HK416 Support";
+		baseWeapon="arifle_SPAR_02_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
+		};
+	};
+	class arifle_SPAR_01_GL_XDF_F: arifle_SPAR_01_GL_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_GL_Black_F";
+		scope=2;
+		displayName="XDF S-12 HK416 EGLM";
+		baseWeapon="arifle_SPAR_01_GL_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_gl_blk_f_01_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+	};
+	class arifle_SPAR_03_XDF_F: arifle_SPAR_03_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_03_XDF_F";
+		scope=2;
+		displayName="XDF S-13 HK417 Marksman";
+		baseWeapon="arifle_SPAR_03_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_02_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"
 		};
 	};
 
