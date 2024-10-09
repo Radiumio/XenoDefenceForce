@@ -929,10 +929,11 @@ class cfgWeapons
 				10
 			};
 		};
+	};
 	class arifle_CTARS_XDF_F: arifle_CTARS_blk_F
 	{
 		author="Radium";
-		_generalMacro="arifle_CTAR_blk_F";
+		_generalMacro="arifle_CTARS_blk_F";
 		scope=2;
 		displayName="XDF S-14 Komodo LSW";
 		baseWeapon="arifle_CTARS_XDF_F";
@@ -941,7 +942,6 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_f_co.paa"
 		};
-	};
 	};
 
 	// SMGs
