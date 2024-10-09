@@ -341,6 +341,7 @@ class cfgWeapons
 	class H_SSU_Special_Purpose_Helmet_base;
 	class H_SSU_Boonie_HS_base;
 	class H_SSU_Cap_HS_base;
+	class H_MilCap_blue;
 	class H_PilotHelmetFighter_B;
 	class H_PilotHelmetHeli_B;
 	class H_CrewHelmetHeli_B;
@@ -476,6 +477,28 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Cap_HS_Black.paa"
+		};
+	};
+	class H_XDF_Mil_Cap: H_MilCap_blue
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Military Cap";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap.paa"
+		};
+	};
+	class H_XDF_Mil_Cap_Wolf: H_MilCap_blue
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Military Cap (Wolf)";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
 		};
 	};
 	class H_XDF_Jet_Pilot_Helmet: H_PilotHelmetFighter_B
