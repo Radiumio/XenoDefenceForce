@@ -342,6 +342,7 @@ class cfgWeapons
 	class H_SSU_Boonie_HS_base;
 	class H_SSU_Cap_HS_base;
 	class H_MilCap_blue;
+	class H_Beret_02;
 	class H_PilotHelmetFighter_B;
 	class H_PilotHelmetHeli_B;
 	class H_CrewHelmetHeli_B;
@@ -501,7 +502,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
 		};
 	};
-	class H_XDF_Beret: H_MilCap_blue
+	class H_XDF_Beret: H_Beret_02
 	{
 		author="Radium";
 		scope=2;
@@ -509,7 +510,18 @@ class cfgWeapons
 		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret.paa"
+		};
+	};
+	class H_XDF_Beret_Wolf: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret";
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Wolf.paa"
 		};
 	};
 	class H_XDF_Jet_Pilot_Helmet: H_PilotHelmetFighter_B
