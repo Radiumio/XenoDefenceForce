@@ -21089,6 +21089,7 @@ class CfgVehicles
 	class B_SSU_Viper_Harness_base;
 	class B_SSU_Viper_Light_Harness_base;
 	class B_SSU_Assault_Pack_base;
+	class B_FieldPack_blk;
 	class B_SSU_LegStrapBag_base;
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
@@ -21153,6 +21154,26 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_med.paa"
+		};
+	};
+	class B_XDF_Field_Pack_Black: B_FieldPack_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Field Pack";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black.paa"
+		};
+	};
+	class B_XDF_Field_Pack_Black_med: B_FieldPack_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Field Pack (Medical)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black_med.paa"
 		};
 	};
 	class B_XDF_LegStrapBag_Black: B_SSU_LegStrapBag_base
