@@ -630,7 +630,9 @@ class cfgWeapons
 	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_GL_blk_F;
 	class arifle_SPAR_02_blk_F;
-	class arifle_SPAR_03_blk_F;
+	class arifle_CTAR_blk_F;
+	class arifle_CTAR_GL_blk_F;
+	class arifle_CTARS_blk_F;
 	class UGL;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
@@ -817,7 +819,7 @@ class cfgWeapons
 	class arifle_MXM_XDF: arifle_MXM_Black_F
 	{
 		author="Radium";
-		_generalMacro="arifle_MX_SW_Black_F";
+		_generalMacro="arifle_MXM_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_dmr_black_X_CA.paa";
 		displayName="XDF S-9 ACR-X2 Marksman";
@@ -856,7 +858,7 @@ class cfgWeapons
 	class arifle_SPAR_01_GL_XDF_F: arifle_SPAR_01_GL_blk_F
 	{
 		author="Radium";
-		_generalMacro="arifle_MX_GL_Black_F";
+		_generalMacro="arifle_SPAR_01_GL_blk_F";
 		scope=2;
 		displayName="XDF S-12 HK416 EGLM";
 		baseWeapon="arifle_SPAR_01_GL_XDF_F";
@@ -884,19 +886,62 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_SPAR_03_XDF_F: arifle_SPAR_03_blk_F
+	class arifle_CTAR_XDF_F: arifle_CTAR_blk_F
 	{
 		author="Radium";
-		_generalMacro="arifle_SPAR_03_XDF_F";
+		_generalMacro="arifle_CTAR_blk_F";
 		scope=2;
-		displayName="XDF S-13 HK417 Marksman";
-		baseWeapon="arifle_SPAR_03_XDF_F";
+		displayName="XDF S-14 Komodo";
+		baseWeapon="arifle_CTAR_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_01_co.paa",
-			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_02_co.paa",
-			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa"
 		};
+	};
+	class arifle_CTAR_GL_XDF_F: arifle_CTAR_GL_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_CTAR_GL_blk_F";
+		scope=2;
+		displayName="XDF S-14 Komodo GL";
+		baseWeapon="arifle_CTAR_GL_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_gl_f_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+	class arifle_CTARS_XDF_F: arifle_CTARS_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_CTAR_blk_F";
+		scope=2;
+		displayName="XDF S-14 Komodo LSW";
+		baseWeapon="arifle_CTARS_blk_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_f_co.paa"
+		};
+	};
 	};
 
 	// SMGs
@@ -1044,6 +1089,8 @@ class cfgWeapons
 	class srifle_LRR_F;
 	class srifle_DMR_01_F;
 	class srifle_EBR_F;
+	class arifle_SPAR_03_blk_F;
+	class srifle_DMR_07_blk_F;
 	class XDF_srifle_DMR_03: srifle_DMR_03_F
 	{
 		author="Radium";
@@ -1209,6 +1256,37 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr02_co.paa"
+		};
+	};
+	class arifle_SPAR_03_XDF_F: arifle_SPAR_03_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_03_XDF_F";
+		scope=2;
+		displayName="XDF D-7 HK417 Marksman";
+		baseWeapon="arifle_SPAR_03_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_02_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"
+		};
+	};
+	class XDF_srifle_DMR_07_blk_F: srifle_DMR_07_blk_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF D-8 Tempest";
+		baseWeapon="XDF_srifle_DMR_07_blk_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\dmr_07_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\dmr_07_f_2_co.paa"
 		};
 	};
 
