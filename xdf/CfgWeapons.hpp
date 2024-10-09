@@ -825,6 +825,10 @@ class cfgWeapons
 
 	// SMGs
 	class SMG_01_F;
+	class SMG_03C_black;
+	class SMG_03C_TR_black;
+	class SMG_03_black;
+	class SMG_03_TR_black;
 	class XDF_SMG_01: SMG_01_F
 	{
 		author="Radium";
@@ -842,6 +846,66 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\vector\smg_01_co.paa",
 			"\a3\weapons_f\data\vectoratt_co.paa",
 			"\a3\weapons_f\acc\data\battlesight_co.paa"
+		};
+	};
+	class XDF_SMG_03C_black: SMG_03C_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-2 P90";
+		baseWeapon="XDF_SMG_03C_black";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\body_nohq.paa"
+		};
+	};
+	class XDF_SMG_03C_TR_black: SMG_03C_TR_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-3 P90 TR";
+		baseWeapon="XDF_SMG_01";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\body_nohq.paa"
+		};
+	};
+	class XDF_SMG_03_black: SMG_03_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-4 PS90";
+		baseWeapon="XDF_SMG_01";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\body_nohq.paa"
+		};
+	};
+	class XDF_SMG_03_TR_black: SMG_03_TR_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-5 PS90 TR";
+		baseWeapon="XDF_SMG_01";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\body_nohq.paa"
 		};
 	};
 
