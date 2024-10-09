@@ -903,6 +903,7 @@ class cfgWeapons
 	class srifle_DMR_04_F;
 	class srifle_LRR_F;
 	class srifle_DMR_01_F;
+	class srifle_EBR_F;
 	class XDF_srifle_DMR_03: srifle_DMR_03_F
 	{
 		author="Radium";
@@ -1051,6 +1052,23 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_02_co.paa"
+		};
+	};
+	class XDF_srifle_EBR_F: srifle_EBR_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF D-6 MK-21 EBR";
+		baseWeapon="XDF_srifle_EBR_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr02_co.paa"
 		};
 	};
 
