@@ -199,6 +199,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Special Purpose Suit";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
 			"camo"
