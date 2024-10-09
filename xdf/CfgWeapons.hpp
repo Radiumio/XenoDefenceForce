@@ -2,6 +2,7 @@
 class mode_semiauto;
 class mode_burst;
 class mode_fullauto;
+class GL_3GL_F;
 class cfgWeapons
 {
 	class ItemCore;
@@ -219,6 +220,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Special Purpose Suit";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -241,6 +243,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -624,7 +627,6 @@ class cfgWeapons
 	class arifle_MXC_Black_F;
 	class arifle_MXM_Black_F;
 	class UGL;
-	class GL_3GL_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
