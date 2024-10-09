@@ -21062,6 +21062,7 @@ class CfgVehicles
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
 	class B_Carryall_blk;
+	class B_CombinationUnitRespirator_01_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -21197,6 +21198,20 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_med.paa"
+		};
+	};
+	class B_XDF_CUR: B_CombinationUnitRespirator_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combination Unit Respirator";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CUR_co.paa",
+			"",
+			"",
+			"",
+			""
 		};
 	};
 	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
