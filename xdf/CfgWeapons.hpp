@@ -891,7 +891,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_CTAR_blk_F";
 		scope=2;
-		displayName="XDF S-14 Komodo";
+		displayName="XDF S-13 Komodo";
 		baseWeapon="arifle_CTAR_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -935,7 +935,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_CTARS_blk_F";
 		scope=2;
-		displayName="XDF S-14 Komodo LSW";
+		displayName="XDF S-15 Komodo LSW";
 		baseWeapon="arifle_CTARS_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
