@@ -517,7 +517,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Beret";
+		displayName="XDF Beret (Wolf)";
 		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
