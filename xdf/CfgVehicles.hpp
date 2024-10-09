@@ -20917,6 +20917,9 @@ class CfgVehicles
 	class TCGM_Bra_B_MTP_Soldier_SL;
 	class TCGM_RollUp_B_CTRG_Soldier;
 	class TCGM_Stealth_B_CTRG_Soldier_arid;
+	class B_CBRN_Man_Oversuit_01_MTP_F;
+	class O_V_Soldier_Viper_hex_F;
+	class TCGM_Viper_O_AHex_Soldier;
 	class B_XDF_Uniform_Black: B_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -21002,6 +21005,51 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_co.paa"
 		};
 	};
+	class B_XDF_CBRN_Suit: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_CBRN_Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_co.paa"
+		};
+	};
+	class B_XDF_SP_Suit: O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_SP_Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+	};
+	class B_XDF_Female_SP_Suit: TCGM_Viper_O_AHex_Soldier
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_SP_Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+	};
 	class U_XDF_Female_Uniform_Black: TCGM_Stealth_B_CTRG_Soldier_arid
 	{
 		author="TCGM & Radium";
@@ -21041,11 +21089,13 @@ class CfgVehicles
 	class B_SSU_Viper_Harness_base;
 	class B_SSU_Viper_Light_Harness_base;
 	class B_SSU_Assault_Pack_base;
+	class B_FieldPack_blk;
 	class B_SSU_LegStrapBag_base;
 	class B_SSU_TacticalPack_base;
 	class B_SSU_Kitbag_base;
 	class B_SSU_RadioBag_base;
 	class B_Carryall_blk;
+	class B_CombinationUnitRespirator_01_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -21104,6 +21154,26 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_med.paa"
+		};
+	};
+	class B_XDF_Field_Pack_Black: B_FieldPack_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Field Pack";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black.paa"
+		};
+	};
+	class B_XDF_Field_Pack_Black_med: B_FieldPack_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Field Pack (Medical)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black_med.paa"
 		};
 	};
 	class B_XDF_LegStrapBag_Black: B_SSU_LegStrapBag_base
@@ -21182,6 +21252,21 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_med.paa"
 		};
+	};
+	class B_XDF_CUR: B_CombinationUnitRespirator_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combination Unit Respirator";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CUR_co.paa",
+			"",
+			"",
+			"",
+			""
+		};
+		maximumLoad=190;
 	};
 	class B_XDF_RadioBag_Black: B_SSU_RadioBag_base
 	{
@@ -28160,7 +28245,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -28281,7 +28366,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -28386,7 +28471,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_GL_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -28485,7 +28570,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",

@@ -2,6 +2,8 @@
 class mode_semiauto;
 class mode_burst;
 class mode_fullauto;
+class GL_3GL_F;
+class EGLM;
 class cfgWeapons
 {
 	class ItemCore;
@@ -37,6 +39,9 @@ class cfgWeapons
 	class TCGM_CombatUniform_CTRG_Stealth_arid;
 	class TCGM_CombatUniform_CTRG_RollUp;
 	class TCGM_CombatUniform_CTRG_Bra;
+	class U_B_CBRN_Suit_01_MTP_F;
+	class U_O_V_Soldier_Viper_hex_F;
+	class TCGM_F_Viper_GHex;
 	class U_XDF_Uniform_Black: U_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -166,12 +171,81 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_CBRN_Suit: U_B_CBRN_Suit_01_MTP_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF CBRN Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_CBRN_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_SP_Suit: U_O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Special Purpose Suit";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_SP_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_SP_Suit: TCGM_F_Viper_GHex
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Special Purpose Suit";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_SP_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_XDF_Female_Uniform_Black: TCGM_CombatUniform_CTRG_Stealth_arid
 	{
 		author="TCGM & Radium";
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -318,6 +392,8 @@ class cfgWeapons
 	class H_SSU_Special_Purpose_Helmet_base;
 	class H_SSU_Boonie_HS_base;
 	class H_SSU_Cap_HS_base;
+	class H_MilCap_blue;
+	class H_Beret_02;
 	class H_PilotHelmetFighter_B;
 	class H_PilotHelmetHeli_B;
 	class H_CrewHelmetHeli_B;
@@ -455,6 +531,50 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Cap_HS_Black.paa"
 		};
 	};
+	class H_XDF_Mil_Cap: H_MilCap_blue
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Military Cap";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap.paa"
+		};
+	};
+	class H_XDF_Mil_Cap_Wolf: H_MilCap_blue
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Military Cap (Wolf)";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
+		};
+	};
+	class H_XDF_Beret: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret";
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret.paa"
+		};
+	};
+	class H_XDF_Beret_Wolf: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Wolf)";
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Wolf.paa"
+		};
+	};
 	class H_XDF_Jet_Pilot_Helmet: H_PilotHelmetFighter_B
 	{
 		author="Radium";
@@ -508,6 +628,13 @@ class cfgWeapons
 	class arifle_MX_SW_Black_F;
 	class arifle_MXC_Black_F;
 	class arifle_MXM_Black_F;
+	class arifle_SPAR_01_blk_F;
+	class arifle_SPAR_01_GL_blk_F;
+	class arifle_SPAR_02_blk_F;
+	class arifle_CTAR_blk_F;
+	class arifle_CTAR_GL_blk_F;
+	class arifle_CTARS_blk_F;
+	class UGL;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
@@ -550,6 +677,24 @@ class cfgWeapons
 			4,
 			1,
 			10
+		};
+		class UGL: UGL
+		{
+			displayName="Spearhead UGP-40";
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_reload.ogg",
+				3.5481339,
+				1,
+				10
+			};
 		};
 	};
 	class arifle_MSBS65_UBS_XDF_black: arifle_MSBS65_UBS_base_black_F
@@ -648,6 +793,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mx\glx_co.paa"
 		};
+		class GL_3GL_F: GL_3GL_F
+		{
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
 	};
 	class arifle_MXSW_XDF: arifle_MX_SW_Black_F
 	{
@@ -665,7 +820,7 @@ class cfgWeapons
 	class arifle_MXM_XDF: arifle_MXM_Black_F
 	{
 		author="Radium";
-		_generalMacro="arifle_MX_SW_Black_F";
+		_generalMacro="arifle_MXM_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_dmr_black_X_CA.paa";
 		displayName="XDF S-9 ACR-X2 Marksman";
@@ -675,9 +830,127 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
 		};
 	};
+	class arifle_SPAR_01_XDF_F: arifle_SPAR_01_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_01_blk_F";
+		scope=2;
+		displayName="XDF S-10 HK416";
+		baseWeapon="arifle_SPAR_01_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
+		};
+	};
+	class arifle_SPAR_02_XDF_F: arifle_SPAR_02_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_02_blk_F";
+		scope=2;
+		displayName="XDF S-11 HK416 Support";
+		baseWeapon="arifle_SPAR_02_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
+		};
+	};
+	class arifle_SPAR_01_GL_XDF_F: arifle_SPAR_01_GL_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_01_GL_blk_F";
+		scope=2;
+		displayName="XDF S-12 HK416 EGLM";
+		baseWeapon="arifle_SPAR_01_GL_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_gl_blk_f_01_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+	};
+	class arifle_CTAR_XDF_F: arifle_CTAR_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_CTAR_blk_F";
+		scope=2;
+		displayName="XDF S-13 Komodo";
+		baseWeapon="arifle_CTAR_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa"
+		};
+	};
+	class arifle_CTAR_GL_XDF_F: arifle_CTAR_GL_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_CTAR_GL_blk_F";
+		scope=2;
+		displayName="XDF S-14 Komodo GL";
+		baseWeapon="arifle_CTAR_GL_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_gl_f_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+	};
+	class arifle_CTARS_XDF_F: arifle_CTARS_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_CTARS_blk_F";
+		scope=2;
+		displayName="XDF S-15 Komodo LSW";
+		baseWeapon="arifle_CTARS_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_f_co.paa"
+		};
+	};
 
 	// SMGs
 	class SMG_01_F;
+	class SMG_03C_black;
+	class SMG_03C_TR_black;
+	class SMG_03_black;
+	class SMG_03_TR_black;
 	class XDF_SMG_01: SMG_01_F
 	{
 		author="Radium";
@@ -695,6 +968,66 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\vector\smg_01_co.paa",
 			"\a3\weapons_f\data\vectoratt_co.paa",
 			"\a3\weapons_f\acc\data\battlesight_co.paa"
+		};
+	};
+	class XDF_SMG_03C_black: SMG_03C_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-2 P90";
+		baseWeapon="XDF_SMG_03C_black";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
+		};
+	};
+	class XDF_SMG_03C_TR_black: SMG_03C_TR_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-3 P90 TR";
+		baseWeapon="XDF_SMG_03C_TR_black";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
+		};
+	};
+	class XDF_SMG_03_black: SMG_03_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-4 PS90";
+		baseWeapon="XDF_SMG_03_black";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
+		};
+	};
+	class XDF_SMG_03_TR_black: SMG_03_TR_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF V-5 PS90 TR";
+		baseWeapon="XDF_SMG_03_TR_black";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
 		};
 	};
 
@@ -756,6 +1089,9 @@ class cfgWeapons
 	class srifle_DMR_04_F;
 	class srifle_LRR_F;
 	class srifle_DMR_01_F;
+	class srifle_EBR_F;
+	class arifle_SPAR_03_blk_F;
+	class srifle_DMR_07_blk_F;
 	class XDF_srifle_DMR_03: srifle_DMR_03_F
 	{
 		author="Radium";
@@ -904,6 +1240,54 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_02_co.paa"
+		};
+	};
+	class XDF_srifle_EBR_F: srifle_EBR_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF D-6 MK-21 EBR";
+		baseWeapon="XDF_srifle_EBR_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr02_co.paa"
+		};
+	};
+	class arifle_SPAR_03_XDF_F: arifle_SPAR_03_blk_F
+	{
+		author="Radium";
+		_generalMacro="arifle_SPAR_03_XDF_F";
+		scope=2;
+		displayName="XDF D-7 HK417 Marksman";
+		baseWeapon="arifle_SPAR_03_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_02_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"
+		};
+	};
+	class XDF_srifle_DMR_07_blk_F: srifle_DMR_07_blk_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF D-8 Tempest";
+		baseWeapon="XDF_srifle_DMR_07_blk_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\dmr_07_f_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\qbuz\dmr_07_f_2_co.paa"
 		};
 	};
 
