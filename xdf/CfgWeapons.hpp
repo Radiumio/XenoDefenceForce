@@ -42,6 +42,11 @@ class cfgWeapons
 	class U_B_CBRN_Suit_01_MTP_F;
 	class U_O_V_Soldier_Viper_hex_F;
 	class TCGM_F_Viper_GHex;
+	class U_B_Wetsuit;
+	class TCGM_F_Wetsuit_B;
+	class TCGM_F_WetsuitShort_B;
+	class U_B_survival_uniform;
+	class TCGM_Survival_MTP_Bra;
 	class U_XDF_Uniform_Black: U_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -216,6 +221,113 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Wetsuit: U_B_Wetsuit
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Wetsuit";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Wetsuit: TCGM_F_Wetsuit_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Wetsuit_Short: TCGM_F_WetsuitShort_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit (Short)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit_Short";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Survival_Suit: U_B_survival_uniform
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Survival Suit";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Survival_Suit";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Survival_Suit: TCGM_Survival_MTP_Bra
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Survival Suit";
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Survival_Suit";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
 	class U_XDF_Female_SP_Suit: TCGM_F_Viper_GHex
 	{
 		author="Radium";
@@ -297,13 +409,56 @@ class cfgWeapons
 	};
 
 	class V_SSU_Tactical_Vest_base;
+	class V_SSU_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_Lite_base;
+	class V_SSU_Carrier_Lite_Black: V_SSU_Carrier_Lite_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_Rig_base;
+	class V_SSU_Carrier_Rig_Black: V_SSU_Carrier_Rig_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Modular_Carrier_Lite_base;
+	class V_SSU_Modular_Carrier_Lite_Black: V_SSU_Modular_Carrier_Lite_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Modular_Carrier_GL_Rig_base;
+	class V_SSU_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_GL_Rig_base;
+	class V_SSU_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_Special_Rig_base;
-	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
+	class V_SSU_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_base
+	{
+		class ItemInfo;
+	};
+	class V_SmershVest_01_base_F;
+	class V_SmershVest_01_F: V_SmershVest_01_base_F
+	{
+		class ItemInfo;
+	};
+	class V_SmershVest_01_radio_base_F;
+	class V_SmershVest_01_radio_F: V_SmershVest_01_radio_base_F
+	{
+		class ItemInfo;
+	};
+	class Vest_Camo_Base;
+	class V_RebreatherB: Vest_Camo_Base
+	{
+		class ItemInfo;
+	};
+	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -313,8 +468,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Tactical_Vest_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+		};
 	};
-	class V_XDF_Carrier_Lite_Black: V_SSU_Carrier_Lite_base
+	class V_XDF_Carrier_Lite_Black: V_SSU_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -324,8 +483,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
-	class V_XDF_Carrier_Rig_Black: V_SSU_Carrier_Rig_base
+	class V_XDF_Carrier_Rig_Black: V_SSU_Carrier_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -335,8 +498,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
-	class V_XDF_Modular_Carrier_Lite_Black: V_SSU_Modular_Carrier_Lite_base
+	class V_XDF_Modular_Carrier_Lite_Black: V_SSU_Modular_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -346,8 +513,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
-	class V_XDF_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_base
+	class V_XDF_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -357,8 +528,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
 	};
-	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_base
+	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -368,8 +543,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
 	};
-	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_base
+	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -378,6 +557,152 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_SmershVest_01_F: V_SmershVest_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_SmershVest_01_radio_F: V_SmershVest_01_radio_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest (Tactical Radio)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_Rebreather: V_RebreatherB
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combat Rebreather";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply150";
+			class HitpointsProtectionInfo
+			{
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=10;
+					passThrough=0.5;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=35;
+					passThrough=0.5;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=35;
+					passThrough=0.5;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=17;
+					passThrough=0.5;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=12;
+					passThrough=0.3;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.6;
+				};
+			};
+		};
+	};
+	class V_XDF_Rebreather_Mask: V_RebreatherB
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combat Rebreather (Mask)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+		hiddenUnderwaterSelections[]={};
+		shownUnderwaterSelections[]={};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply150";
+			hiddenUnderwaterSelections[]={};
+			shownUnderwaterSelections[]={};
+			class HitpointsProtectionInfo
+			{
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=10;
+					passThrough=0.5;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=35;
+					passThrough=0.5;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=35;
+					passThrough=0.5;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=17;
+					passThrough=0.5;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=12;
+					passThrough=0.3;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.6;
+				};
+			};
 		};
 	};
 
@@ -418,6 +743,28 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_NM_Black: H_SSU_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (No Mandible)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_NM_Black.paa"
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_NM_Black_b: H_SSU_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (No Mandible, Red)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_NM_Black_b.paa"
 		};
 	};
 	class H_XDF_Combat_Helmet_Black: H_SSU_Combat_Helmet_base
