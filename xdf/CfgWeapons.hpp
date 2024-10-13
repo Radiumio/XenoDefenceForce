@@ -609,17 +609,29 @@ class cfgWeapons
 			containerClass="Supply150";
 			class HitpointsProtectionInfo
 			{
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=10;
+					passThrough=0.5;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=35;
+					passThrough=0.5;
+				};
 				class Diaphragm
 				{
 					hitpointName="HitDiaphragm";
 					armor=35;
-					passThrough=0.4;
+					passThrough=0.5;
 				};
 				class Abdomen
 				{
 					hitpointName="HitAbdomen";
 					armor=17;
-					passThrough=0.2;
+					passThrough=0.5;
 				};
 				class Pelvis
 				{
