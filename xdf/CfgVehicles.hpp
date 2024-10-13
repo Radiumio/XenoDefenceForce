@@ -21101,10 +21101,19 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		uniformClass="U_XDF_Female_Survival_Suit";
+		hiddenSelections[]=
+		{
+			"camo2",
+			"camo",
+			"camo1",
+			"camo3"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\Characters_F\Common\Data\basicbody_black_co.paa",
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
 		};
 	};
 	class B_XDF_Female_SP_Suit: TCGM_Viper_O_AHex_Soldier

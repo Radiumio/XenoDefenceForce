@@ -237,6 +237,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="B_XDF_Wetsuit";
 			containerClass="Supply80";
+			uniformType="Neopren";
 			mass=40;
 		};
 	};
@@ -256,6 +257,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="B_XDF_Female_Wetsuit";
 			containerClass="Supply80";
+			uniformType="Neopren";
 			mass=40;
 		};
 	};
@@ -275,6 +277,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="B_XDF_Female_Wetsuit_Short";
 			containerClass="Supply80";
+			uniformType="Neopren";
 			mass=40;
 		};
 	};
@@ -301,6 +304,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="B_XDF_Survival_Suit";
 			containerClass="Supply80";
+			uniformType="Neopren";
 			mass=40;
 		};
 	};
@@ -320,6 +324,7 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="B_XDF_Female_Survival_Suit";
 			containerClass="Supply80";
+			uniformType="Neopren";
 			mass=40;
 		};
 	};
