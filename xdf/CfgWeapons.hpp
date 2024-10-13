@@ -655,6 +655,18 @@ class cfgWeapons
 			shownUnderwaterSelections[]={};
 			class HitpointsProtectionInfo
 			{
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=10;
+					passThrough=0.5;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=35;
+					passThrough=0.5;
+				};
 				class Diaphragm
 				{
 					hitpointName="HitDiaphragm";
