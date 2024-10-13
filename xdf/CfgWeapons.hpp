@@ -606,7 +606,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply100";
+			containerClass="Supply150";
 			class HitpointsProtectionInfo
 			{
 				class Diaphragm
@@ -650,7 +650,7 @@ class cfgWeapons
 		shownUnderwaterSelections[]={};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply100";
+			containerClass="Supply150";
 			hiddenUnderwaterSelections[]={};
 			shownUnderwaterSelections[]={};
 			class HitpointsProtectionInfo
