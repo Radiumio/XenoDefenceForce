@@ -287,11 +287,13 @@ class cfgWeapons
 		hiddenSelections[]=
 		{
 			"camo",
-			"camo2"
+			"camo1",
+			"camo3"
 		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
 			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
 		class ItemInfo: UniformItem
