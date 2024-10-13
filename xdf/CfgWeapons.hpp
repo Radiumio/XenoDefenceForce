@@ -341,6 +341,11 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
+	class Vest_Camo_Base;
+	class V_RebreatherB: Vest_Camo_Base
+	{
+		class ItemInfo;
+	};
 	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Clasless & Radium";
@@ -476,6 +481,94 @@ class cfgWeapons
 			containerClass="Supply150";
 		};
 	};
+	class V_XDF_Rebreather: V_RebreatherB
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combat Rebreather";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply100";
+			class HitpointsProtectionInfo
+			{
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=35;
+					passThrough=0.4;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=17;
+					passThrough=0.2;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=12;
+					passThrough=0.3;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.6;
+				};
+			};
+		};
+	};
+	class V_XDF_Rebreather_Mask: V_RebreatherB
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combat Rebreather (Mask)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+		hiddenUnderwaterSelections[]={};
+		shownUnderwaterSelections[]={};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply100";
+			hiddenUnderwaterSelections[]={};
+			shownUnderwaterSelections[]={};
+			class HitpointsProtectionInfo
+			{
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=35;
+					passThrough=0.5;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=17;
+					passThrough=0.5;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=12;
+					passThrough=0.3;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.6;
+				};
+			};
+		};
+	};
 
 	class H_SSU_Stealth_Combat_Helmet_base;
 	class H_SSU_Combat_Helmet_base;
@@ -514,6 +607,28 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_NM_Black: H_SSU_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (No Mandible)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_NM_Black.paa"
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_NM_Black_b: H_SSU_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (No Mandible, Red)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_NM_Black_b.paa"
 		};
 	};
 	class H_XDF_Combat_Helmet_Black: H_SSU_Combat_Helmet_base
