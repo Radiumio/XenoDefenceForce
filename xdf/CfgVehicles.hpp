@@ -20923,6 +20923,8 @@ class CfgVehicles
 	class B_diver_F;
 	class TCGM_F_Diver_B;
 	class TCGM_F_DiverShort_B;
+	class b_soldier_survival_F;
+	class TCGM_Survival_Bra_B_MTP_Soldier;
 	class B_XDF_Uniform_Black: B_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -21072,6 +21074,35 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+	};
+	class B_XDF_Survival_Suit: b_soldier_survival_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Survival_Suit";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+	};
+	class B_XDF_Female_Survival_Suit: TCGM_Survival_Bra_B_MTP_Soldier
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Survival_Suit";
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
 	class B_XDF_Female_SP_Suit: TCGM_Viper_O_AHex_Soldier

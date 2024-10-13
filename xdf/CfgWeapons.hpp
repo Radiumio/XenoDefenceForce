@@ -45,6 +45,8 @@ class cfgWeapons
 	class U_B_Wetsuit;
 	class TCGM_F_Wetsuit_B;
 	class TCGM_F_WetsuitShort_B;
+	class U_B_survival_uniform;
+	class TCGM_Survival_MTP_Bra;
 	class U_XDF_Uniform_Black: U_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -272,6 +274,49 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Female_Wetsuit_Short";
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class U_XDF_Survival_Suit: U_B_survival_uniform
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Survival Suit";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa",
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Survival_Suit";
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Survival_Suit: TCGM_Survival_MTP_Bra
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Survival Suit";
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\Characters_F\Common\Data\basicbody_black_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Survival_Suit";
 			containerClass="Supply80";
 			mass=40;
 		};
