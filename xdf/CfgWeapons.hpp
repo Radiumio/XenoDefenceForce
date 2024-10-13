@@ -575,7 +575,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply150";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_SmershVest_01_radio_F: V_SmershVest_01_radio_F
@@ -590,7 +590,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply150";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_Rebreather: V_RebreatherB
