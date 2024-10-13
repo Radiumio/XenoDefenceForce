@@ -301,7 +301,9 @@ class cfgWeapons
 	class V_SSU_Carrier_Rig_base;
 	class V_SSU_Modular_Carrier_Lite_base;
 	class V_SSU_Modular_Carrier_GL_Rig_base;
-	class V_SSU_Carrier_GL_Rig_base
+
+	class V_SSU_Carrier_GL_Rig_base;
+	class V_SSU_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_base
 	{
 		class ItemInfo;
 	};
@@ -361,7 +363,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
 		};
 	};
-	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_base
+	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
