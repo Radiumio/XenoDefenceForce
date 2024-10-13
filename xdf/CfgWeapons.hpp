@@ -301,7 +301,10 @@ class cfgWeapons
 	class V_SSU_Carrier_Rig_base;
 	class V_SSU_Modular_Carrier_Lite_base;
 	class V_SSU_Modular_Carrier_GL_Rig_base;
-	class V_SSU_Carrier_GL_Rig_base;
+	class V_SSU_Carrier_GL_Rig_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_Special_Rig_base;
 	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
 	{
@@ -368,7 +371,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
 		};
-		maximumLoad=300; // default 140
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
 	};
 	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_base
 	{
