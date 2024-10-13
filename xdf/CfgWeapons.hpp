@@ -297,18 +297,41 @@ class cfgWeapons
 	};
 
 	class V_SSU_Tactical_Vest_base;
+	class V_SSU_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_Lite_base;
+	class V_SSU_Carrier_Lite_Black: V_SSU_Carrier_Lite_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_Rig_base;
+	class V_SSU_Carrier_Rig_Black: V_SSU_Carrier_Rig_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Modular_Carrier_Lite_base;
+	class V_SSU_Modular_Carrier_Lite_Black: V_SSU_Modular_Carrier_Lite_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Modular_Carrier_GL_Rig_base;
-
+	class V_SSU_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_base
+	{
+		class ItemInfo;
+	};
 	class V_SSU_Carrier_GL_Rig_base;
 	class V_SSU_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_base
 	{
 		class ItemInfo;
 	};
 	class V_SSU_Carrier_Special_Rig_base;
-	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
+	class V_SSU_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_base
+	{
+		class ItemInfo;
+	};
+	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -318,8 +341,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Tactical_Vest_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+		};
 	};
-	class V_XDF_Carrier_Lite_Black: V_SSU_Carrier_Lite_base
+	class V_XDF_Carrier_Lite_Black: V_SSU_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -329,8 +356,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
-	class V_XDF_Carrier_Rig_Black: V_SSU_Carrier_Rig_base
+	class V_XDF_Carrier_Rig_Black: V_SSU_Carrier_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -340,8 +371,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
-	class V_XDF_Modular_Carrier_Lite_Black: V_SSU_Modular_Carrier_Lite_base
+	class V_XDF_Modular_Carrier_Lite_Black: V_SSU_Modular_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -351,8 +386,12 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
-	class V_XDF_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_base
+	class V_XDF_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -361,6 +400,10 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
 		};
 	};
 	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
@@ -378,7 +421,7 @@ class cfgWeapons
 			containerClass="Supply300";
 		};
 	};
-	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_base
+	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -387,6 +430,10 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
 		};
 	};
 
