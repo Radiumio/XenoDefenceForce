@@ -42,6 +42,9 @@ class cfgWeapons
 	class U_B_CBRN_Suit_01_MTP_F;
 	class U_O_V_Soldier_Viper_hex_F;
 	class TCGM_F_Viper_GHex;
+	class U_B_Wetsuit;
+	class TCGM_F_Wetsuit_B;
+	class TCGM_F_WetsuitShort_B;
 	class U_XDF_Uniform_Black: U_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -213,6 +216,63 @@ class cfgWeapons
 			uniformModel="-";
 			uniformClass="B_XDF_SP_Suit";
 			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Wetsuit: U_B_Wetsuit
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Wetsuit";
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Wetsuit: TCGM_F_Wetsuit_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit";
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Wetsuit_Short: TCGM_F_WetsuitShort_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit (Short)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit_Short";
+			containerClass="Supply80";
 			mass=40;
 		};
 	};
