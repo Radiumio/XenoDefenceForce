@@ -331,6 +331,16 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
+	class V_SmershVest_01_base_F;
+	class V_SmershVest_01_F: V_SmershVest_01_base_F
+	{
+		class ItemInfo;
+	};
+	class V_SmershVest_01_radio_base_F;
+	class V_SmershVest_01_radio_F: V_SmershVest_01_radio_base_F
+	{
+		class ItemInfo;
+	};
 	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Clasless & Radium";
@@ -434,6 +444,36 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			containerClass="Supply250";
+		};
+	};
+	class V_XDF_SmershVest_01_F: V_SmershVest_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_SmershVest_01_radio_F: V_SmershVest_01_radio_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest (Tactical Radio)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
 		};
 	};
 
