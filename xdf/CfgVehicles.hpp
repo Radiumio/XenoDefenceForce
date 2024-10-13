@@ -20920,6 +20920,9 @@ class CfgVehicles
 	class B_CBRN_Man_Oversuit_01_MTP_F;
 	class O_V_Soldier_Viper_hex_F;
 	class TCGM_Viper_O_AHex_Soldier;
+	class B_diver_F;
+	class TCGM_F_Diver_B;
+	class TCGM_F_DiverShort_B;
 	class B_XDF_Uniform_Black: B_SSU_Stealth_Uniform_base
 	{
 		author="Clasless & Radium";
@@ -21033,6 +21036,42 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+	};
+	class B_XDF_Wetsuit: B_diver_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+	};
+	class B_XDF_Female_Wetsuit: TCGM_F_Diver_B
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="B_XDF_Female_Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+	};
+	class B_XDF_Female_Wetsuit_Short: TCGM_F_DiverShort_B
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="B_XDF_Female_Wetsuit_Short";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
 		};
 	};
 	class B_XDF_Female_SP_Suit: TCGM_Viper_O_AHex_Soldier
