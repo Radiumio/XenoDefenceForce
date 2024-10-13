@@ -368,6 +368,7 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
 		};
+		maximumLoad=300; // default 140
 	};
 	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_base
 	{
