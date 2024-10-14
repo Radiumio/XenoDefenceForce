@@ -17819,7 +17819,7 @@ class CfgVehicles
 			displayName="";
 			dissasembleTo[]=
 			{
-				"B_XDF_Sentinel_backpack_F"
+				"B_XDF_Sentinel_Backpack"
 			};
 		};
 	};
@@ -21420,7 +21420,7 @@ class CfgVehicles
 			assembleTo="XDF_Mosquito";
 		};
 	};
-	class B_XDF_Sentinel_backpack_F: Weapon_Bag_Base
+	class B_XDF_Sentinel_Backpack: Weapon_Bag_Base
 	{
 		author="Radium";
 		mapSize=0.60000002;
@@ -21428,17 +21428,17 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		displayName="XDF Designator Bag (LS-2 Sentinel)";
-		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+		model="\A3\Supplies_F_Mark\Bags\Backpack_Compact.p3d";
 		editorCategory="EdCat_Equipment";
 		editorSubcategory="EdSubcat_Backpacks";
 		faction="B_XDF";
-		picture="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_b_c_compact_mcamo_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\backpacks\xdf_uav_01_backpack_co.paa"
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Sentinel_Backpack.paa"
 		};
 		maximumLoad=0;
-		mass=300;
+		mass=180;
 		class assembleInfo: assembleInfo
 		{
 			base="";
