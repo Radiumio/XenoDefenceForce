@@ -43,6 +43,7 @@ class CfgPatches
 			"XDF_Retributor",
 			"XDF_Mars",
 			"XDF_Mosquito",
+			"XDF_Sentinel",
 			"XDF_Guardian",
 			"XDF_Kestrel",
 			"XDF_Quadbike",
