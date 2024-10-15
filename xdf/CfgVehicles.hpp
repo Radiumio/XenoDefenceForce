@@ -20504,7 +20504,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\vehicles\XDF_SDV.jpg";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_XDF_Operative";
+		crew = "B_XDF_Combat_Diver";
 		armor = 80; // Default 30
 		maxSpeed = 80; // Default 30
 		fuelCapacity = 240; // Default 120
@@ -20514,7 +20514,7 @@ class CfgVehicles
 		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
-			"B_XDF_Operative"
+			"B_XDF_Combat_Diver"
 		};
 		hiddenSelections[]=
 		{
