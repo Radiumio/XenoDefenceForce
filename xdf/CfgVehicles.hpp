@@ -20331,6 +20331,58 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_SDV_01_F;
+	class XDF_SDV: B_SDV_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF MK-81 SDV";
+		editorPreview="\xdf\previews\vehicles\XDF_SDV.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 30
+		maxSpeed = 80; // Default 30
+		fuelCapacity = 240; // Default 120
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\sdv\sdv_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\sdv\sdv_ext_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 
 	// Turrets
 	class B_Radar_System_01_F;
