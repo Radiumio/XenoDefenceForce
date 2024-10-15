@@ -17789,6 +17789,40 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_Static_Designator_01_F;
+	class XDF_Sentinel: B_Static_Designator_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF LS-2 Sentinel Designator";
+		editorPreview="\xdf\previews\vehicles\XDF_Sentinel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 10; // Default ??
+		damageResistance = 0.01; // Default ?? 
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\turrets\sentinel\xdf_ld01_remote_co.paa",
+			"\xdf\retextures\turrets\sentinel\xdf_ltlm_co.paa"
+		};
+		class assembleInfo
+		{
+			primary=1;
+			base="";
+			assembleTo="";
+			displayName="";
+			dissasembleTo[]=
+			{
+				"B_XDF_Sentinel_Backpack"
+			};
+		};
+	};
 	class B_UAV_05_F;
 	class XDF_Guardian: B_UAV_05_F
 	{
@@ -17823,6 +17857,51 @@ class CfgVehicles
 				{
 					"\xdf\retextures\guardian\xdf_uav05_fuselage_01_co.paa",
 					"\xdf\retextures\guardian\xdf_uav05_fuselage_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_UAV_02_dynamicLoadout_F;
+	class XDF_Reaper: B_UAV_02_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF MQ-50 Reaper";
+		editorPreview="\xdf\previews\vehicles\XDF_Reaper.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 80; // Default ??
+		maxSpeed = 400; // Default 400
+		// fuelCapacity = 200; // Default 100
+		damageResistance = 0.02; // Default 0.0040000002	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\reaper\uav_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\guardian\uav_02_co.paa"
 				};
 				factions[]=
 				{
@@ -18974,6 +19053,124 @@ class CfgVehicles
 					"\xdf\retextures\kodiak\mbt_03_ext02_co.paa",
 					"\xdf\retextures\kodiak\mbt_03_rcws_co.paa",
 					"\xdf\retextures\kodiak\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_MBT_04_cannon_F;
+	class XDF_Minotaur: O_MBT_04_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Minotaur";
+		editorPreview="\xdf\previews\vehicles\XDF_Minotaur.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1400; // Default 700
+		armorStructural = 10; // Default 6
+		maxSpeed = 140; // Default 70
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+			"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+			"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+					"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_MBT_04_command_F;
+	class XDF_Minotaur_CTWS: O_MBT_04_command_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Minotaur CTWS";
+		editorPreview="\xdf\previews\vehicles\XDF_Minotaur_CTWS.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1400; // Default 700
+		armorStructural = 10; // Default 6
+		maxSpeed = 140; // Default 70
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+			"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+			"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+					"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -20297,6 +20494,58 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_SDV_01_F;
+	class XDF_SDV: B_SDV_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF MK-81 SDV";
+		editorPreview="\xdf\previews\vehicles\XDF_SDV.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Combat_Diver";
+		armor = 80; // Default 30
+		maxSpeed = 80; // Default 30
+		fuelCapacity = 240; // Default 120
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Combat_Diver"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\sdv\sdv_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\sdv\sdv_ext_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 
 	// Turrets
 	class B_Radar_System_01_F;
@@ -21386,6 +21635,32 @@ class CfgVehicles
 			assembleTo="XDF_Mosquito";
 		};
 	};
+	class B_XDF_Sentinel_Backpack: Weapon_Bag_Base
+	{
+		author="Radium";
+		mapSize=0.60000002;
+		_generalMacro="B_UAV_01_backpack_F";
+		scope=2;
+		scopeCurator=2;
+		displayName="XDF Designator Bag (LS-2 Sentinel)";
+		model="\A3\Supplies_F_Mark\Bags\Backpack_Compact.p3d";
+		editorCategory="EdCat_Equipment";
+		editorSubcategory="EdSubcat_Backpacks";
+		faction="B_XDF";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_b_c_compact_mcamo_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Sentinel_Backpack.paa"
+		};
+		maximumLoad=0;
+		mass=180;
+		class assembleInfo: assembleInfo
+		{
+			base="";
+			displayName="XDF LS-2 Sentinel Designator";
+			assembleTo="XDF_Sentinel";
+		};
+	};
 
 	// Turret Backpacks
 	//class B_XDF_FUWT_Pack: B_SSU_TacticalPack_base
@@ -22016,6 +22291,192 @@ class CfgVehicles
 		};
 
 		backpack = "";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Combat_Diver : B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Combat Diver";
+		editorPreview="\xdf\previews\units\B_XDF_Combat_Diver.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_FO_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Survival_Suit";
+		linkedItems[] = {
+			"V_XDF_Rebreather_Mask",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Rebreather_Mask",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"XDF_hgun_P07",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"XDF_hgun_P07",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Assault_Pack_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Combat_Diver_F : TCGM_RollUp_B_MTP_Soldier_LT
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Combat Diver";
+		editorPreview="\xdf\previews\units\B_XDF_Combat_Diver_F.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_FO_F";
+		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
+		uniformClass = "U_XDF_Female_Survival_Suit";
+		linkedItems[] = {
+			"V_XDF_Rebreather_Mask",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Rebreather_Mask",
+			"H_XDF_Light_Combat_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGogglesB_SSU_blk",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"XDF_hgun_P07",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_XDF_black_F",
+			"XDF_hgun_P07",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Assault_Pack_Black";
 		items[]=
 		{
 			"FirstAidKit",
