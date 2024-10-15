@@ -45,6 +45,7 @@ class CfgPatches
 			"XDF_Mosquito",
 			"XDF_Sentinel",
 			"XDF_Guardian",
+			"XDF_Reaper",
 			"XDF_Kestrel",
 			"XDF_Quadbike",
 			"XDF_Boar",

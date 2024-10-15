@@ -17870,6 +17870,51 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_UAV_02_dynamicLoadout_F;
+	class XDF_Reaper: B_UAV_02_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF MQ-50 Reaper";
+		editorPreview="\xdf\previews\vehicles\XDF_Reaper.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 80; // Default ??
+		maxSpeed = 400; // Default 400
+		// fuelCapacity = 200; // Default 100
+		damageResistance = 0.02; // Default 0.0040000002	    
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\reaper\uav_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\guardian\uav_02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_T_UAV_03_dynamicLoadout_F;
 	class XDF_Kestrel: B_T_UAV_03_dynamicLoadout_F
 	{
