@@ -92,6 +92,7 @@ class CfgPatches
 			"XDF_Titan",
 			"XDF_Trident",
 			"XDF_RHIB",
+			"XDF_SDV",
 			"XDF_Stratoseeker",
 			"XDF_Patriot",
 			"XDF_Praetorian",
