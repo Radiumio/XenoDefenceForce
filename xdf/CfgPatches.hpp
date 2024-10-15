@@ -127,6 +127,8 @@ class CfgPatches
 			"B_XDF_Operative_F",
 			"B_XDF_Light_Operative",
 			"B_XDF_Light_Operative_F",
+			"B_XDF_Combat_Diver",
+			"B_XDF_Combat_Diver_F",
 			"B_XDF_Autorifleman",
 			"B_XDF_Autorifleman_F",
 			"B_XDF_Marksman",
