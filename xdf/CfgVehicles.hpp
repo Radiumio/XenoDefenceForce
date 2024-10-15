@@ -20504,7 +20504,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\vehicles\XDF_SDV.jpg";
 		side = 1;
 		faction = "B_XDF";
-		crew = "G_XDF_Balaclava_TI_G_Black";
+		crew = "B_XDF_Operative";
 		armor = 80; // Default 30
 		maxSpeed = 80; // Default 30
 		fuelCapacity = 240; // Default 120
@@ -20514,7 +20514,7 @@ class CfgVehicles
 		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
-			"G_XDF_Balaclava_TI_G_Black"
+			"B_XDF_Operative"
 		};
 		hiddenSelections[]=
 		{
@@ -22383,7 +22383,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "";
+		backpack = "B_XDF_Assault_Pack_Black";
 		items[]=
 		{
 			"FirstAidKit",
@@ -22403,7 +22403,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Combat Diver";
-		editorPreview="\xdf\previews\units\B_XDF_Light_Operative_F.jpg";
+		editorPreview="\xdf\previews\units\B_XDF_Combat_Diver_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
@@ -22476,7 +22476,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "";
+		backpack = "B_XDF_Assault_Pack_Black";
 		items[]=
 		{
 			"FirstAidKit",
