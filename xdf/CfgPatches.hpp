@@ -68,6 +68,8 @@ class CfgPatches
 			"XDF_Huntress",
 			"XDF_Dementer",
 			"XDF_Kodiak",
+			"XDF_Minotaur",
+			"XDF_Minotaur_CTWS",
 			"XDF_Onyx",
 			"XDF_Cyclone_Ammo",
 			"XDF_Cyclone_Covered",

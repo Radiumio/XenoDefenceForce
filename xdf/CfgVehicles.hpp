@@ -19126,13 +19126,13 @@ class CfgVehicles
 		};
 	};
 	class O_MBT_04_command_F;
-	class XDF_Minotaur_UP: O_MBT_04_command_F
+	class XDF_Minotaur_CTWS: O_MBT_04_command_F
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Minotaur UP";
-		editorPreview="\xdf\previews\vehicles\XDF_Minotaur_UP.jpg";
+		displayName = "XDF Minotaur CTWS";
+		editorPreview="\xdf\previews\vehicles\XDF_Minotaur_CTWS.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
