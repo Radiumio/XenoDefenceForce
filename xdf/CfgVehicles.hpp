@@ -19066,6 +19066,124 @@ class CfgVehicles
 			1
 		};
 	};
+	class O_MBT_04_cannon_F;
+	class XDF_Minotaur: O_MBT_04_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Minotaur";
+		editorPreview="\xdf\previews\vehicles\XDF_Minotaur.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1400; // Default 700
+		armorStructural = 10; // Default 6
+		maxSpeed = 140; // Default 70
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+			"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+			"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+					"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_MBT_04_command_F;
+	class XDF_Minotaur_UP: O_MBT_04_command_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Minotaur UP";
+		editorPreview="\xdf\previews\vehicles\XDF_Minotaur_UP.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1400; // Default 700
+		armorStructural = 10; // Default 6
+		maxSpeed = 140; // Default 70
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+			"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+			"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
+					"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_APC_Tracked_01_CRV_F;
 	class XDF_Onyx: B_APC_Tracked_01_CRV_F
 	{
