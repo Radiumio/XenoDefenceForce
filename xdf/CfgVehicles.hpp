@@ -19199,13 +19199,13 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
 		armor = 800; // Default 900
-		armorStructural = 8; // Default 6
-		maxSpeed = 120; // Default 65
-		fuelCapacity = 60; // Default 20
+		armorStructural = 10; // Default 6
+		maxSpeed = 144; // Default 72
+		fuelCapacity = 72; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 60.0;
+		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -19219,10 +19219,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\champion\mbt_01_body_co.paa",
-			"\xdf\retextures\champion\mbt_01_tow_co.paa",
-			"\xdf\retextures\champion\mbt_addons_co.paa",
-			"\xdf\retextures\champion\camonet_nato_black_co.paa"
+			"\xdf\retextures\champion\apc_tracked_03_ext_co.paa",
+			"\xdf\retextures\champion\apc_tracked_03_ext2_co.paa",
+			"\xdf\retextures\champion\camonet_nato_black_co.paa",
+			"\xdf\retextures\champion\cage_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -19232,10 +19232,10 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{			
-					"\xdf\retextures\champion\mbt_01_body_co.paa",
-					"\xdf\retextures\champion\mbt_01_tow_co.paa",
-					"\xdf\retextures\champion\mbt_addons_co.paa",
-					"\xdf\retextures\champion\camonet_nato_black_co.paa"
+					"\xdf\retextures\champion\apc_tracked_03_ext_co.paa",
+					"\xdf\retextures\champion\apc_tracked_03_ext2_co.paa",
+					"\xdf\retextures\champion\camonet_nato_black_co.paa",
+					"\xdf\retextures\champion\cage_black_co.paa"
 				};
 				factions[]=
 				{
