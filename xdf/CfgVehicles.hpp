@@ -18689,7 +18689,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\vehicles\XDF_Scoria.jpg";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_XDF_Engineer";
+		crew = "B_XDF_Crew";
 		armor = 800; // Default 500
 		armorStructural = 8; // Default 6
 		maxSpeed = 120; // Default 60
@@ -18700,7 +18700,7 @@ class CfgVehicles
 		accelAidForceSpd = 50.0;
 		typicalCargo[]=
 		{
-			"B_XDF_Engineer"
+			"B_XDF_Crew"
 		};
 		hiddenSelections[]=
 		{
