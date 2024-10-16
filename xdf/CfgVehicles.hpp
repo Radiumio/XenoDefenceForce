@@ -19066,6 +19066,127 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_MBT_01_cannon_F;
+	class XDF_Basilisk: B_MBT_01_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Basilisk";
+		editorPreview="\xdf\previews\vehicles\XDF_Basilisk.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1000; // Default 900
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 65
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+			"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+			"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+					"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+					"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_MBT_01_TUSK_F;
+	class XDF_Basilisk_LIC: B_MBT_01_TUSK_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Basilisk LIC";
+		editorPreview="\xdf\previews\vehicles\XDF_Basilisk_LIC.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1000; // Default 900
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 65
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+			"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+			"\xdf\retextures\basilisk\mbt_addons_co.paa",
+			"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+					"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+					"\xdf\retextures\basilisk\mbt_addons_co.paa",
+					"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_MBT_04_cannon_F;
 	class XDF_Minotaur: O_MBT_04_cannon_F
 	{
