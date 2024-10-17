@@ -1,10 +1,24 @@
 class CfgUnitInsignia
 {
-	class xdf_alien
+	class xdf_crosshair
 	{
-		displayName = "Xeno Defence Force";
+		displayName = "XDF Crosshair";
 		author = "Radium";
-		texture = "\xdf\insignias\xdf_alien.paa";
+		texture = "\xdf\insignias\xdf_crosshair.paa";
+		textureVehicle = "";
+	};
+	class xdf_wolf
+	{
+		displayName = "XDF Wolf";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_wolf.paa";
+		textureVehicle = "";
+	};
+	class xdf_eliteWolf
+	{
+		displayName = "XDF Elite Wolf";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_eliteWolf.paa";
 		textureVehicle = "";
 	};
 	class tf_lotus
