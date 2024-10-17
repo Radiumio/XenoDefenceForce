@@ -21,6 +21,13 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_eliteWolf.paa";
 		textureVehicle = "";
 	};
+	class xdf_xenobiology
+	{
+		displayName = "XDF Xenobiology";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_xenobiology.paa";
+		textureVehicle = "";
+	};
 	class tf_lotus
 	{
 		displayName = "XDF Task Force Lotus";
