@@ -23,7 +23,7 @@ class CfgUnitInsignia
 	};
 	class xdf_xenobiology
 	{
-		displayName = "XDF Xenobiology";
+		displayName = "XDF Xenoresearch";
 		author = "Radium";
 		texture = "\xdf\insignias\xdf_xenobiology.paa";
 		textureVehicle = "";
