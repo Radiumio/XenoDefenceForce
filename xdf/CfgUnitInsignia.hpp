@@ -35,11 +35,18 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_xenohelix.paa";
 		textureVehicle = "";
 	};
-	class tf_lotus
+	class xdf_lotus
 	{
 		displayName = "XDF Task Force Lotus";
 		author = "Radium";
 		texture = "\xdf\insignias\xdf_lotus.paa";
+		textureVehicle = "";
+	};
+	class xdf_damocles
+	{
+		displayName = "XDF Task Force Damocles";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_damocles.paa";
 		textureVehicle = "";
 	};
 };
