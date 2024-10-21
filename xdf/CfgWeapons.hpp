@@ -2088,6 +2088,7 @@ class cfgWeapons
 	};
 
 	// vehicles
+	class MGun;
 	class cannon_125mm_advanced;
 	class cannon_125mm_advanced_AX: cannon_125mm_advanced
 	{
@@ -2119,6 +2120,199 @@ class cfgWeapons
 			"8Rnd_125mm_HE_T_Green",
 			"8Rnd_125mm_HE_T_Yellow",
 			"4Rnd_125mm_cannon_missiles"
+		};
+	};
+	class LMG_Minigun;
+	class LMG_Minigun_AX: LMG_Minigun
+	{
+		displayName="LMG AX Minigun";
+		magazineReloadTime=15;
+		ballisticsComputer=2;
+		aiDispersionCoefY=0.5;
+		aiDispersionCoefX=0.5;
+		class gunParticles
+		{
+			class effect1
+			{
+				positionName="machinegun_eject_pos";
+				directionName="machinegun_eject_dir";
+				effectName="MachineGunCartridge1";
+			};
+			class effect2
+			{
+				positionName="machinegun_end";
+				directionName="machinegun_beg";
+				effectName="MachineGun1";
+			};
+		};
+		magazines[]=
+		{
+			"200Rnd_65x39_Belt",
+			"200Rnd_65x39_Belt_Tracer_Red",
+			"200Rnd_65x39_Belt_Tracer_Green",
+			"200Rnd_65x39_Belt_Tracer_Yellow",
+			"2000Rnd_65x39_Belt",
+			"2000Rnd_65x39_Belt_Green",
+			"2000Rnd_65x39_Belt_Yellow",
+			"1000Rnd_65x39_Belt",
+			"1000Rnd_65x39_Belt_Green",
+			"1000Rnd_65x39_Belt_Yellow",
+			"2000Rnd_65x39_Belt_Tracer_Red",
+			"2000Rnd_65x39_Belt_Tracer_Green",
+			"2000Rnd_65x39_Belt_Tracer_Yellow",
+			"1000Rnd_65x39_Belt_Tracer_Red",
+			"1000Rnd_65x39_Belt_Tracer_Green",
+			"1000Rnd_65x39_Belt_Tracer_Yellow",
+			"2000Rnd_65x39_Belt_Tracer_Green_Splash",
+			"2000Rnd_65x39_Belt_Tracer_Yellow_Splash"
+		};
+		class manual: MGun
+		{
+			displayName="LMG AX Minigun";
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class StandardSound
+			{
+				begin1[]=
+				{
+					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_762mm\LMG_762mm_01",
+					1,
+					1,
+					2000
+				};
+				begin2[]=
+				{
+					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_762mm\LMG_762mm_02",
+					1,
+					1.1,
+					2000
+				};
+				begin3[]=
+				{
+					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_762mm\LMG_762mm_03",
+					1,
+					0.89999998,
+					2000
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.34
+				};
+				closure1[]=
+				{
+					"A3\sounds_f\weapons\gatling\gatling_rotation_short_2",
+					0.31622776,
+					1,
+					20
+				};
+				closure2[]=
+				{
+					"A3\sounds_f\weapons\gatling\gatling_rotation_short_3",
+					0.31622776,
+					1,
+					20
+				};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			soundContinuous=0;
+			soundBurst=0;
+			multiplier=3;
+			reloadTime=0.033333302;
+			dispersion=0.0115;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=10;
+			minRange=0;
+			minRangeProbab=0.0099999998;
+			midRange=1;
+			midRangeProbab=0.0099999998;
+			maxRange=2;
+			maxRangeProbab=0.0099999998;
+		};
+		class close: manual
+		{
+			soundBurst=0;
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=12;
+			burstRangeMax=42;
+			aiRateOfFire=0.5;
+			aiRateOfFireDispersion=1;
+			aiRateOfFireDistance=50;
+			minRange=0;
+			minRangeProbab=0.69999999;
+			midRange=100;
+			midRangeProbab=0.75;
+			maxRange=300;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=36;
+			aiRateOfFire=1;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=150;
+			minRange=100;
+			minRangeProbab=0.75;
+			midRange=300;
+			midRangeProbab=0.75;
+			maxRange=600;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=30;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=300;
+			minRange=300;
+			minRangeProbab=0.75;
+			midRange=600;
+			midRangeProbab=0.64999998;
+			maxRange=800;
+			maxRangeProbab=0.1;
+		};
+		class far: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=12;
+			aiRateOfFire=4;
+			aiRateOfFireDispersion=4;
+			aiRateOfFireDistance=800;
+			minRange=800;
+			minRangeProbab=0.64999998;
+			midRange=1000;
+			midRangeProbab=0.30000001;
+			maxRange=1500;
+			maxRangeProbab=0.050000001;
+		};
+	};
+	class LMG_Minigun_AX_HE: LMG_Minigun_AX
+	{
+		displayName="LMG AX Minigun HE";
+		magazines[]=
+		{
+			"2000Rnd_40mm_GPR_shells",
 		};
 	};
 };

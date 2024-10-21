@@ -73,6 +73,7 @@ class CfgMagazines
 	//};
 
 	// vehicles
+	class VehicleMagazine;
 	class 20Rnd_125mm_APFSDS;
 	class 12Rnd_125mm_APFSDS_T_Blue_AX: 20Rnd_125mm_APFSDS
 	{
@@ -83,6 +84,20 @@ class CfgMagazines
 		ammo="Sh_125mm_APFSDS_T_Blue_XDF";
 		count=12;
 		tracersEvery=1;
+	};
+	class 2000Rnd_40mm_GPR_shells: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="40mm AX shells";
+		displayNameShort="GPR-AX";
+		ammo="B_40mm_GPR_AX";
+		count=2000;
+		initSpeed=1035;
+		maxLeadSpeed=83.333298;
+		nameSound="cannon";
+		tracersEvery=4;
+		muzzleImpulseFactor[]={1,6};
 	};
 };
 class CfgMagazineWells
