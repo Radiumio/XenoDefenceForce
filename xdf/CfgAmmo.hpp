@@ -21,10 +21,44 @@ class CfgAmmo
 		maxSpeed=350;
 		thrust=150;
 	};
+	class R_MRAAWS_HEAT_F;
+	class R_MRAAWS_HEAT_XDF: R_MRAAWS_HEAT_F
+	{
+		hit=300;
+		indirectHit=25;
+		indirectHitRange=3;
+		submunitionAmmo="ammo_Penetrator_MRAAWS_XDF";
+	};
+	class R_MRAAWS_HEAT55_F;
+	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F
+	{
+		hit=150;
+		submunitionAmmo="ammo_Penetrator_MRAAWS_HEAT55_XDF";
+	};
+	//class R_MRAAWS_HE_F;
+	//class R_MRAAWS_HE_NUKE_XDF: R_MRAAWS_HE_F
+	//{
+	//	hit=3000;
+	//	indirectHit=2500;
+	//	indirectHitRange=250;
+	//	CraterEffects="BombCrater";
+	//	ExplosionEffects="BombExplosion";
+	//};
 	class ammo_Penetrator_Base;
 	class ammo_Penetrator_Titan_AT_XDF: ammo_Penetrator_Base
 	{
 		caliber=60;
 		hit=877.5;
+	};
+	class ammo_Penetrator_MRAAWS_XDF: ammo_Penetrator_Base
+	{
+		caliber=33.333302;
+		warheadName="TandemHEAT";
+		hit=990;
+	};
+	class ammo_Penetrator_MRAAWS_HEAT55_XDF: ammo_Penetrator_Base
+	{
+		caliber=26;
+		hit=495;
 	};
 };

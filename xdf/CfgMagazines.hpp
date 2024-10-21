@@ -6,13 +6,12 @@ class CfgMagazines
 		author="Radium";
 		scope=2;
 		displayName="127mm Experimental Lance Round";
-		displayNameShort="127mm EXP-HE";
+		displayNameShort="EXP-HE";
 		ammo="M_Titan_AA_XDF";
 		type="6 * 		256";
 		initSpeed=18;
 		maxLeadSpeed=277.77802;
 		count=1;
-		descriptionShort="$STR_A3_CfgMagazines_Titan_AA1";
 		mass=150;
 	};
 	class Titan_AT;
@@ -21,15 +20,44 @@ class CfgMagazines
 		author="Radium";
 		scope=2;
 		displayName="127mm Experimental Spear Round";
-		displayNameShort="127mm EXP-HEAT";
+		displayNameShort="EXP-HEAT";
 		ammo="M_Titan_AT_XDF";
 		type="6 * 		256";
 		initSpeed=18;
 		maxLeadSpeed=277.77802;
 		count=1;
-		descriptionShort="$STR_A3_CfgMagazines_Titan_AA1";
 		mass=150;
 	};
+	class MRAWS_HEAT_F;
+	class MRAAWS_HEAT_XDF: MRAWS_HEAT_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="MAAWS Experimental HEAT 75";
+		displaynameshort="EXP-HEAT";
+		ammo="R_MRAAWS_HEAT_XDF";
+		mass=80;
+	};
+	class MRAWS_HEAT55_F;
+	class MRAAWS_HEAT55_XDF: MRAWS_HEAT55_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="MAAWS Experimental HEAT 55";
+		displaynameshort="EXP-HEAT55";
+		ammo="R_MRAAWS_HEAT55_XDF";
+		mass=60;
+	};
+	//class MRAWS_HE_F;
+	//class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="MAAWS Experimental Nuclear Round";
+	//	displaynameshort="EXP-NUKE";
+	//	ammo="R_MRAAWS_HE_NUKE_XDF";
+	//	mass=250;
+	//};
 };
 class CfgMagazineWells
 {

@@ -1716,6 +1716,13 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF R-1 M4 MAAWS";
 		baseWeapon="XDF_launch_MRAWS_black";
+		magazines[]={
+			"MRAWS_HE_F",
+			"MRAWS_HEAT55_F",
+			"MRAWS_HEAT55_F",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT55_XDF"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\maaws\launch_mraws_black_01_f_co.paa",
