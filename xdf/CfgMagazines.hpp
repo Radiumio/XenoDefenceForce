@@ -28,6 +28,19 @@ class CfgMagazines
 		count=1;
 		mass=150;
 	};
+	class Vorona_HEAT;
+	class Vorona_HEAT_XDF: Vorona_HEAT
+	{
+		author="Radium";
+		scope=2;
+		displayName="9M135 Experimental HEAT";
+		displayNameShort="EXP-HEAT";
+		ammo="M_Vorona_HEAT_XDF";
+		mass=150;
+		count=1;
+		initSpeed=150;
+		maxLeadSpeed=27.7778;
+	};
 	class MRAWS_HEAT_F;
 	class MRAAWS_HEAT_XDF: MRAWS_HEAT_F
 	{

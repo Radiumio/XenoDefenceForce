@@ -1716,7 +1716,8 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF R-1 M4 MAAWS";
 		baseWeapon="XDF_launch_MRAWS_black";
-		magazines[]={
+		magazines[]=
+		{
 			"MRAWS_HE_F",
 			"MRAWS_HEAT55_F",
 			"MRAWS_HEAT55_F",
@@ -1735,6 +1736,12 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF R-2 Metis-M";
 		baseWeapon="XDF_launch_O_Vorona_black";
+		magazines[]=
+		{
+			"Vorona_HE",
+			"Vorona_HEAT",
+			"Vorona_HEAT_XDF"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa",

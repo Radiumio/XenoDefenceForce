@@ -29,6 +29,15 @@ class CfgAmmo
 		indirectHitRange=3;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_XDF";
 	};
+	class M_Vorona_HEAT;
+	class M_Vorona_HEAT_XDF: M_Vorona_HEAT
+	{
+		hit=950;
+		indirectHit=50;
+		indirectHitRange=4;
+		maxSpeed=350;
+		submunitionAmmo="ammo_Penetrator_Vorona_XDF";
+	};
 	class R_MRAAWS_HEAT55_F;
 	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F
 	{
@@ -60,5 +69,11 @@ class CfgAmmo
 	{
 		caliber=26;
 		hit=495;
+	};
+	class ammo_Penetrator_Vorona_XDF: ammo_Penetrator_Base
+	{
+		caliber=60;
+		warheadName="TandemHEAT";
+		hit=1080;
 	};
 };
