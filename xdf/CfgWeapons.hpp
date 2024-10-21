@@ -2177,21 +2177,21 @@ class cfgWeapons
 			{
 				begin1[]=
 				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_762mm\LMG_762mm_01",
+					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_01",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_762mm\LMG_762mm_02",
+					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_02",
 					1,
 					1.1,
 					2000
 				};
 				begin3[]=
 				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_762mm\LMG_762mm_03",
+					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_03",
 					1,
 					0.89999998,
 					2000

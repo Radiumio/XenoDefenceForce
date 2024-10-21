@@ -90,7 +90,7 @@ class CfgAmmo
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
 	};
 	class B_40mm_GPR;
-	class B_40mm_GPR_AX: B_40mm_GPR
+	class B_20mm_GPR_AX: B_40mm_GPR
 	{
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";

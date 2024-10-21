@@ -85,18 +85,18 @@ class CfgMagazines
 		count=12;
 		tracersEvery=1;
 	};
-	class 2000Rnd_40mm_GPR_shells: VehicleMagazine
+	class 2000Rnd_20mm_GPR_shells: VehicleMagazine
 	{
 		author="Radium";
 		scope=2;
-		displayName="40mm AX shells";
+		displayName="20mm AX Shells";
 		displayNameShort="GPR-AX";
-		ammo="B_40mm_GPR_AX";
+		ammo="B_20mm_GPR_AX";
 		count=2000;
 		initSpeed=1035;
 		maxLeadSpeed=83.333298;
 		nameSound="cannon";
-		tracersEvery=4;
+		tracersEvery=1;
 		muzzleImpulseFactor[]={1,6};
 	};
 };
