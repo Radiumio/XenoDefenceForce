@@ -71,6 +71,18 @@ class CfgMagazines
 	//	ammo="R_MRAAWS_HE_NUKE_XDF";
 	//	mass=250;
 	//};
+
+	// vehicles
+	class 20Rnd_125mm_APFSDS;
+	class 12Rnd_125mm_APFSDS_T_Blue_AX: 20Rnd_125mm_APFSDS
+	{
+		author="Radium";
+		displayName="APFSDS-AX";
+		displayNameMFDFormat="AX";
+		ammo="Sh_125mm_APFSDS_T_Blue_XDF";
+		count=12;
+		tracersEvery=1;
+	};
 };
 class CfgMagazineWells
 {

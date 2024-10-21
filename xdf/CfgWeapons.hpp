@@ -2086,4 +2086,39 @@ class cfgWeapons
 			};
 		};
 	};
+
+	// vehicles
+	class cannon_125mm_advanced;
+	class cannon_125mm_advanced_AX: cannon_125mm_advanced
+	{
+		magazines[]=
+		{
+			"12Rnd_125mm_APFSDS_T_Blue_AX",
+			"24Rnd_125mm_APFSDS",
+			"24Rnd_125mm_APFSDS_T_Red",
+			"24Rnd_125mm_APFSDS_T_Green",
+			"24Rnd_125mm_APFSDS_T_Yellow",
+			"20Rnd_125mm_APFSDS",
+			"20Rnd_125mm_APFSDS_T_Red",
+			"20Rnd_125mm_APFSDS_T_Green",
+			"20Rnd_125mm_APFSDS_T_Yellow",
+			"16Rnd_125mm_APFSDS",
+			"16Rnd_125mm_APFSDS_T_Red",
+			"16Rnd_125mm_APFSDS_T_Green",
+			"16Rnd_125mm_APFSDS_T_Yellow",
+			"12Rnd_125mm_HEAT",
+			"12Rnd_125mm_HEAT_T_Red",
+			"12Rnd_125mm_HEAT_T_Green",
+			"12Rnd_125mm_HEAT_T_Yellow",
+			"12Rnd_125mm_HE",
+			"12Rnd_125mm_HE_T_Red",
+			"12Rnd_125mm_HE_T_Green",
+			"12Rnd_125mm_HE_T_Yellow",
+			"8Rnd_125mm_HE",
+			"8Rnd_125mm_HE_T_Red",
+			"8Rnd_125mm_HE_T_Green",
+			"8Rnd_125mm_HE_T_Yellow",
+			"4Rnd_125mm_cannon_missiles"
+		};
+	};
 };

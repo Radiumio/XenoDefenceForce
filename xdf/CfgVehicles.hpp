@@ -19250,7 +19250,14 @@ class CfgVehicles
 		};
 	};
 	class O_MBT_04_cannon_F;
-	class XDF_Minotaur: O_MBT_04_cannon_F
+	class O_MBT_04_cannon_F_OCimport_01 : O_MBT_04_cannon_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_MBT_04_cannon_F_OCimport_02 : O_MBT_04_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Minotaur: O_MBT_04_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19306,6 +19313,56 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_coax
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun";
+			};
+			class muzzle_hide_coax
+			{
+				source="reload";
+				weapon="LMG_Minigun";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						weapons[]=
+						{
+							"HMG_127_APC",
+							"SmokeLauncher"
+						};
+						magazines[]=
+						{
+							"500Rnd_127x99_mag_Tracer_Yellow",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_125mm_advanced_AX",
+					"LMG_Minigun"
+				};
+				magazines[]=
+				{
+					"12Rnd_125mm_APFSDS_T_Blue_AX",
+					"20Rnd_125mm_APFSDS_T_Green",
+					"12Rnd_125mm_HEAT_T_Green",
+					"12Rnd_125mm_HE_T_Green",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red"
+				};
+			};
 		};
 	};
 	class O_MBT_04_command_F;
