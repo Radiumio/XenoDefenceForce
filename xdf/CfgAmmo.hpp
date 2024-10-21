@@ -10,4 +10,21 @@ class CfgAmmo
 		maxSpeed=1050;
 		thrust=550;
 	};
+	class M_Titan_AT;
+	class M_Titan_AT_XDF: M_Titan_AT
+	{
+		hit=800;
+		indirectHit=200;
+		indirectHitRange=4;
+		submunitionAmmo="ammo_Penetrator_Titan_AT_XDF";
+		manuevrability=25;
+		maxSpeed=350;
+		thrust=150;
+	};
+	class ammo_Penetrator_Base;
+	class ammo_Penetrator_Titan_AT_XDF: ammo_Penetrator_Base
+	{
+		caliber=60;
+		hit=877.5;
+	};
 };

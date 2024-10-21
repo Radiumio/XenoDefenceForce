@@ -1761,6 +1761,16 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF R-3 Spear";
 		baseWeapon="XDF_launch_B_Titan_short";
+		magazines[]=
+		{
+			"Titan_AT",
+			"Titan_AP",
+			"Titan_AT_XDF"
+		};
+		magazineWell[]=
+		{
+			"Titan_Short_XDF"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
