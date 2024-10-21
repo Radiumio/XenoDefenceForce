@@ -19480,7 +19480,7 @@ class CfgVehicles
 					"20Rnd_125mm_APFSDS_T_Green",
 					"12Rnd_125mm_HEAT_T_Green",
 					"12Rnd_125mm_HE_T_Green",
-					"2000Rnd_40mm_GPR_shells"
+					"2000Rnd_20mm_GPR_shells"
 				};
 			};
 		};
