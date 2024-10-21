@@ -2312,7 +2312,7 @@ class cfgWeapons
 		displayName="LMG AX Minigun HE";
 		magazines[]=
 		{
-			"2000Rnd_40mm_GPR_shells",
+			"2000Rnd_20mm_GPR_shells",
 		};
 	};
 };
