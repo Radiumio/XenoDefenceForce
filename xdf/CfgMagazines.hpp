@@ -12,7 +12,7 @@ class CfgMagazines
 		initSpeed=18;
 		maxLeadSpeed=277.77802;
 		count=1;
-		mass=150;
+		mass=200;
 	};
 	class Titan_AT;
 	class Titan_AT_XDF: Titan_AT
@@ -26,7 +26,7 @@ class CfgMagazines
 		initSpeed=18;
 		maxLeadSpeed=277.77802;
 		count=1;
-		mass=150;
+		mass=200;
 	};
 	class Vorona_HEAT;
 	class Vorona_HEAT_XDF: Vorona_HEAT
@@ -36,7 +36,7 @@ class CfgMagazines
 		displayName="9M135 Experimental HEAT";
 		displayNameShort="EXP-HEAT";
 		ammo="M_Vorona_HEAT_XDF";
-		mass=150;
+		mass=180;
 		count=1;
 		initSpeed=150;
 		maxLeadSpeed=27.7778;
@@ -49,7 +49,7 @@ class CfgMagazines
 		displayName="MAAWS Experimental HEAT 75";
 		displaynameshort="EXP-HEAT";
 		ammo="R_MRAAWS_HEAT_XDF";
-		mass=100;
+		mass=120;
 	};
 	class MRAWS_HEAT55_F;
 	class MRAAWS_HEAT55_XDF: MRAWS_HEAT55_F
@@ -59,7 +59,7 @@ class CfgMagazines
 		displayName="MAAWS Experimental HEAT 55";
 		displaynameshort="EXP-HEAT55";
 		ammo="R_MRAAWS_HEAT55_XDF";
-		mass=80;
+		mass=100;
 	};
 	//class MRAWS_HE_F;
 	//class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
