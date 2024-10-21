@@ -2122,6 +2122,32 @@ class cfgWeapons
 			"4Rnd_125mm_cannon_missiles"
 		};
 	};
+	class cannon_railgun;
+	class cannon_AX_railgun: cannon_railgun
+	{
+		displayName="Experimental AX Railgun 75mm";
+		magazines[]=
+		{
+			"45Rnd_75mm_RailGun_APFSDS_AX_mag"
+		};
+		class EventHandlers
+		{
+			fired="_this call bis_fnc_RailGun_AX_01_fireEH";
+		};
+	};
+	class cannon_railgun_fake;
+	class cannon_AX_railgun_fake: cannon_railgun_fake
+	{
+		displayName="Experimental AX Railgun 75mm";
+		magazines[]=
+		{
+			"AX_RailGun_01_DummyMagazine"
+		};
+		class EventHandlers
+		{
+			fired="_this call BIS_fnc_RailGun_AX_01_chargingStart";
+		};
+	};
 	class LMG_Minigun;
 	class LMG_Minigun_AX: LMG_Minigun
 	{
@@ -2312,7 +2338,147 @@ class cfgWeapons
 		displayName="LMG AX Minigun HE";
 		magazines[]=
 		{
-			"2000Rnd_20mm_GPR_shells",
+			"1000Rnd_20mm_GPR_shells",
+		};
+		class manual: MGun
+		{
+			displayName="LMG AX Minigun";
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class StandardSound
+			{
+				begin1[]=
+				{
+					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_01",
+					1,
+					1,
+					2000
+				};
+				begin2[]=
+				{
+					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_02",
+					1,
+					1.1,
+					2000
+				};
+				begin3[]=
+				{
+					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_03",
+					1,
+					0.89999998,
+					2000
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.34
+				};
+				closure1[]=
+				{
+					"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_01",
+					0.31622776,
+					1,
+					20
+				};
+				closure2[]=
+				{
+					"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_02",
+					0.31622776,
+					1,
+					20
+				};
+				soundClosure[]=
+				{
+					"closure1",
+					0.5,
+					"closure2",
+					0.5
+				};
+			};
+			soundContinuous=0;
+			soundBurst=0;
+			multiplier=3;
+			reloadTime=0.033333302;
+			dispersion=0.0115;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=10;
+			minRange=0;
+			minRangeProbab=0.0099999998;
+			midRange=1;
+			midRangeProbab=0.0099999998;
+			maxRange=2;
+			maxRangeProbab=0.0099999998;
+		};
+		class close: manual
+		{
+			soundBurst=0;
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=12;
+			burstRangeMax=42;
+			aiRateOfFire=0.5;
+			aiRateOfFireDispersion=1;
+			aiRateOfFireDistance=50;
+			minRange=0;
+			minRangeProbab=0.69999999;
+			midRange=100;
+			midRangeProbab=0.75;
+			maxRange=300;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=36;
+			aiRateOfFire=1;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=150;
+			minRange=100;
+			minRangeProbab=0.75;
+			midRange=300;
+			midRangeProbab=0.75;
+			maxRange=600;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=30;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=300;
+			minRange=300;
+			minRangeProbab=0.75;
+			midRange=600;
+			midRangeProbab=0.64999998;
+			maxRange=800;
+			maxRangeProbab=0.1;
+		};
+		class far: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=12;
+			aiRateOfFire=4;
+			aiRateOfFireDispersion=4;
+			aiRateOfFireDistance=800;
+			minRange=800;
+			minRangeProbab=0.64999998;
+			midRange=1000;
+			midRangeProbab=0.30000001;
+			maxRange=1500;
+			maxRangeProbab=0.050000001;
 		};
 	};
 };

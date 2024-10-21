@@ -19316,15 +19316,30 @@ class CfgVehicles
 		};
 		class AnimationSources: AnimationSources
 		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_125mm_advanced_AX";
+			};
 			class muzzle_rot_coax
 			{
 				source="ammorandom";
-				weapon="LMG_Minigun";
+				weapon="LMG_Minigun_AX";
 			};
 			class muzzle_hide_coax
 			{
 				source="reload";
-				weapon="LMG_Minigun";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_125mm_advanced_AX";
+			};
+			class zeroing_cannon
+			{
+				source="zeroing";
+				weapon="cannon_125mm_advanced_AX";
 			};
 		};
 		class Turrets: Turrets
@@ -19432,15 +19447,30 @@ class CfgVehicles
 		};
 		class AnimationSources: AnimationSources
 		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_125mm_advanced_AX";
+			};
 			class muzzle_rot_coax
 			{
 				source="ammorandom";
-				weapon="LMG_Minigun";
+				weapon="LMG_Minigun_AX";
 			};
 			class muzzle_hide_coax
 			{
 				source="reload";
-				weapon="LMG_Minigun";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_125mm_advanced_AX";
+			};
+			class zeroing_cannon
+			{
+				source="zeroing";
+				weapon="cannon_125mm_advanced_AX";
 			};
 		};
 		class Turrets: Turrets
@@ -19480,7 +19510,7 @@ class CfgVehicles
 					"20Rnd_125mm_APFSDS_T_Green",
 					"12Rnd_125mm_HEAT_T_Green",
 					"12Rnd_125mm_HE_T_Green",
-					"2000Rnd_20mm_GPR_shells"
+					"1000Rnd_20mm_GPR_shells"
 				};
 			};
 		};
@@ -20621,7 +20651,14 @@ class CfgVehicles
 		};
 	};
 	class O_MBT_02_railgun_F;
-	class XDF_Titan: O_MBT_02_railgun_F
+	class O_MBT_02_railgun_F_OCimport_01 : O_MBT_02_railgun_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_MBT_02_railgun_F_OCimport_02 : O_MBT_02_railgun_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Titan: O_MBT_02_railgun_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -20680,6 +20717,55 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"150Rnd_127x108_Ball",
+							"150Rnd_127x108_Ball",
+							"150Rnd_127x108_Ball",
+							"150Rnd_127x108_Ball",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_AX_railgun_fake",
+					"cannon_AX_railgun"
+				};
+				magazines[]=
+				{
+					"45Rnd_75mm_RailGun_APFSDS_AX_mag",
+					"AX_RailGun_01_DummyMagazine"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_AX_railgun";
+			};
+			class muzzle_hide_cannon2
+			{
+				source="reload";
+				weapon="cannon_AX_railgun_fake";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_AX_railgun";
+			};
 		};
 	};
 	class B_Boat_Armed_01_minigun_F;

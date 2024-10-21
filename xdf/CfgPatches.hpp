@@ -5,7 +5,10 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"SSU_Core",
-			"TCGM_Girls"
+			"TCGM_Girls",
+			"A3_Armor_F_Decade",
+			"A3_Weapons_F_Decade",
+			"A3_Data_F_Decade"
 		};
 		version = "1.0";
 		author="Radium";

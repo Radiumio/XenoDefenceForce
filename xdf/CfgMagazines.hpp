@@ -85,19 +85,39 @@ class CfgMagazines
 		count=12;
 		tracersEvery=1;
 	};
-	class 2000Rnd_20mm_GPR_shells: VehicleMagazine
+	class 1000Rnd_20mm_GPR_shells: VehicleMagazine
 	{
 		author="Radium";
 		scope=2;
 		displayName="20mm AX Shells";
 		displayNameShort="GPR-AX";
+		displayNameMFDFormat="GPR-AX";
 		ammo="B_20mm_GPR_AX";
-		count=2000;
+		count=1000;
 		initSpeed=1035;
 		maxLeadSpeed=83.333298;
 		nameSound="cannon";
 		tracersEvery=1;
 		muzzleImpulseFactor[]={1,6};
+	};
+	class 60Rnd_75mm_RailGun_APFSDS_mag;
+	class 45Rnd_75mm_RailGun_APFSDS_AX_mag: 60Rnd_75mm_RailGun_APFSDS_mag
+	{
+		scope=2;
+		count=45;
+		maxLeadSpeed=300;
+		ammo="Sh_75mm_Railgun_APFSDS_AX";
+		initSpeed=3000;
+		nameSound="cannon";
+		displayName="75mm APFSDS-AXKE";
+		displayNameShort="APFSDS-AXKE";
+		displayNameMFDFormat="RG-AX";
+		muzzleImpulseFactor[]={2,1};
+	};
+	class AX_RailGun_01_DummyMagazine: 45Rnd_75mm_RailGun_APFSDS_AX_mag
+	{
+		ammo="Sh_75mm_Railgun_APFSDS_AX_fake";
+		muzzleImpulseFactor[]={0,0};
 	};
 };
 class CfgMagazineWells

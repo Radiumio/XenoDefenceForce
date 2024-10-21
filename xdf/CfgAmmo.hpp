@@ -89,6 +89,19 @@ class CfgAmmo
 		deflecting=15;
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
 	};
+	class Sh_75mm_Railgun_APFSDS;
+	class Sh_75mm_Railgun_APFSDS_AX: Sh_75mm_Railgun_APFSDS
+	{
+		hit=1000;
+		typicalSpeed=4000;
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
+	class Sh_75mm_Railgun_APFSDS_fake;
+	class Sh_75mm_Railgun_APFSDS_AX_fake: Sh_75mm_Railgun_APFSDS_fake
+	{
+		hit=5000;
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
 	class B_40mm_GPR;
 	class B_20mm_GPR_AX: B_40mm_GPR
 	{

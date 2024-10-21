@@ -1,6 +1,7 @@
 #include "CfgAmmo.hpp"
 #include "CfgEditorCategories.hpp"
 #include "CfgFactionClasses.hpp"
+#include "CfgFunctions.hpp"
 #include "CfgGlasses.hpp"
 #include "CfgGroups.hpp"
 #include "CfgMagazines.hpp"
