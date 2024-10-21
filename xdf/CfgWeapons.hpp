@@ -1740,6 +1740,15 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF R-4 Lance";
 		baseWeapon="XDF_launch_B_Titan";
+		magazines[]=
+		{
+			"M_Titan_AA",
+			"M_Titan_AA_XDF"
+		};
+		magazineWell[]=
+		{
+			"Titan_Long_XDF"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
