@@ -24,7 +24,7 @@ class CfgAmmo
 	class R_MRAAWS_HEAT_F;
 	class R_MRAAWS_HEAT_XDF: R_MRAAWS_HEAT_F
 	{
-		hit=300;
+		hit=800;
 		indirectHit=25;
 		indirectHitRange=3;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_XDF";
@@ -32,7 +32,7 @@ class CfgAmmo
 	class R_MRAAWS_HEAT55_F;
 	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F
 	{
-		hit=150;
+		hit=400;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_HEAT55_XDF";
 	};
 	//class R_MRAAWS_HE_F;

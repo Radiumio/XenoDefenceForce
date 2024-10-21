@@ -36,7 +36,7 @@ class CfgMagazines
 		displayName="MAAWS Experimental HEAT 75";
 		displaynameshort="EXP-HEAT";
 		ammo="R_MRAAWS_HEAT_XDF";
-		mass=80;
+		mass=100;
 	};
 	class MRAWS_HEAT55_F;
 	class MRAAWS_HEAT55_XDF: MRAWS_HEAT55_F
@@ -46,7 +46,7 @@ class CfgMagazines
 		displayName="MAAWS Experimental HEAT 55";
 		displaynameshort="EXP-HEAT55";
 		ammo="R_MRAAWS_HEAT55_XDF";
-		mass=60;
+		mass=80;
 	};
 	//class MRAWS_HE_F;
 	//class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
