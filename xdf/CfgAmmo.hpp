@@ -9,6 +9,7 @@ class CfgAmmo
 		manuevrability=25;
 		maxSpeed=1050;
 		thrust=550;
+		effectsMissile="XDF_Missile3";
 	};
 	class M_Titan_AT;
 	class M_Titan_AT_XDF: M_Titan_AT
@@ -20,6 +21,7 @@ class CfgAmmo
 		manuevrability=25;
 		maxSpeed=350;
 		thrust=150;
+		effectsMissile="XDF_Missile3";
 	};
 	class R_MRAAWS_HEAT_F;
 	class R_MRAAWS_HEAT_XDF: R_MRAAWS_HEAT_F
@@ -37,6 +39,7 @@ class CfgAmmo
 		indirectHitRange=4;
 		maxSpeed=350;
 		submunitionAmmo="ammo_Penetrator_Vorona_XDF";
+		effectsMissile="XDF_Missile3";
 	};
 	class R_MRAAWS_HEAT55_F;
 	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F

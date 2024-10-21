@@ -1,4 +1,5 @@
 #include "CfgAmmo.hpp"
+#include "CfgCloudlets.hpp"
 #include "CfgEditorCategories.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgFunctions.hpp"
