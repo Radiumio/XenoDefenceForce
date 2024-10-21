@@ -94,13 +94,16 @@ class CfgAmmo
 	{
 		hit=1000;
 		typicalSpeed=4000;
-		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
 	};
 	class Sh_75mm_Railgun_APFSDS_fake;
 	class Sh_75mm_Railgun_APFSDS_AX_fake: Sh_75mm_Railgun_APFSDS_fake
 	{
 		hit=5000;
-		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
+	class Sh_75mm_Railgun_APFSDS_sub_fake;
+	class Sh_75mm_Railgun_APFSDS_AX_sub_fake: Sh_75mm_Railgun_APFSDS_sub_fake
+	{
+		hit=1;
 	};
 	class B_40mm_GPR;
 	class B_20mm_GPR_AX: B_40mm_GPR
