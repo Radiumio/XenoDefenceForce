@@ -81,10 +81,10 @@ class CfgAmmo
 	class Sh_125mm_APFSDS;
 	class Sh_125mm_APFSDS_T_Blue_XDF: Sh_125mm_APFSDS
 	{
-		hit=1200;
-		indirectHit=350;
+		hit=2200;
+		indirectHit=500;
 		indirectHitRange=2;
-		typicalSpeed=2300;
+		typicalSpeed=2600;
 		caliber=35;
 		deflecting=15;
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";

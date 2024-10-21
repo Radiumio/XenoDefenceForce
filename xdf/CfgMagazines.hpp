@@ -77,7 +77,8 @@ class CfgMagazines
 	class 12Rnd_125mm_APFSDS_T_Blue_AX: 20Rnd_125mm_APFSDS
 	{
 		author="Radium";
-		displayName="APFSDS-AX";
+		displayName="125mm APFSDS-AX";
+		displaynameshort="APFSDS-AX";
 		displayNameMFDFormat="AX";
 		ammo="Sh_125mm_APFSDS_T_Blue_XDF";
 		count=12;
