@@ -56,4 +56,11 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_damocles.paa";
 		textureVehicle = "";
 	};
+	class xdf_ion
+	{
+		displayName = "XDF Task Force Ion";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_ion.paa";
+		textureVehicle = "";
+	};
 };
