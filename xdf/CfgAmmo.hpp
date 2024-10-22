@@ -116,4 +116,11 @@ class CfgAmmo
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+
+	// infantry weapons 
+	class B_65x39_Caseless;
+	class B_65x39_Caseless_blue: B_65x39_Caseless
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 };

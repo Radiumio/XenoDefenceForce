@@ -1003,6 +1003,10 @@ class cfgWeapons
 			1,
 			10
 		};
+		magazineWell[]=
+		{
+			"MX_65x39_MSBS_XDF"
+		};
 	};
 	class arifle_MSBS65_GL_XDF_black: arifle_MSBS65_GL_base_black_F
 	{
@@ -1043,6 +1047,10 @@ class cfgWeapons
 				10
 			};
 		};
+		magazineWell[]=
+		{
+			"MX_65x39_MSBS_XDF"
+		};
 	};
 	class arifle_MSBS65_UBS_XDF_black: arifle_MSBS65_UBS_base_black_F
 	{
@@ -1065,6 +1073,10 @@ class cfgWeapons
 			1,
 			10
 		};
+		magazineWell[]=
+		{
+			"MX_65x39_MSBS_XDF"
+		};
 	};
 	class arifle_MSBS65_Mark_XDF_black: arifle_MSBS65_Mark_base_black_F
 	{
@@ -1086,6 +1098,10 @@ class cfgWeapons
 			4,
 			1,
 			10
+		};
+		magazineWell[]=
+		{
+			"MX_65x39_MSBS_XDF"
 		};
 	};
 	class XDF_arifle_ARX_blk: arifle_ARX_blk_F

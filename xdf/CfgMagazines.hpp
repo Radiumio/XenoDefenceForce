@@ -119,6 +119,28 @@ class CfgMagazines
 		ammo="Sh_75mm_Railgun_APFSDS_AX_fake";
 		muzzleImpulseFactor[]={0,0};
 	};
+
+	// infantry weapons
+	class 30Rnd_65x39_caseless_msbs_mag_Tracer;
+	class 30Rnd_65x39_caseless_msbs_mag_blue_tracer: 30Rnd_65x39_caseless_msbs_mag_Tracer
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Tracer Mag (Blue)";
+		displaynameshort="$STR_A3_tracer_dns";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer: 30Rnd_65x39_caseless_msbs_mag_blue_tracer
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Reload Tracer Mag (Blue)";
+		displaynameshort="";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };
 class CfgMagazineWells
 {
@@ -137,6 +159,26 @@ class CfgMagazineWells
 			"Titan_AT",
 			"Titan_AP",
 			"Titan_AT_XDF"
+		};
+	};
+	class Titan_Short_XDF
+	{
+		BI_Magazines[]=
+		{
+			"Titan_AT",
+			"Titan_AP",
+			"Titan_AT_XDF"
+		};
+	};
+	class MX_65x39_MSBS;
+	class MX_65x39_MSBS_XDF: MX_65x39_MSBS
+	{
+		BI_Enoch_Magazines[]=
+		{
+			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_Tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer"
 		};
 	};
 };

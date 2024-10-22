@@ -1,3 +1,4 @@
+#include "CfgPatches.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
 #include "CfgEditorCategories.hpp"
@@ -7,7 +8,6 @@
 #include "CfgGroups.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMarkers.hpp"
-#include "CfgPatches.hpp"
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"
