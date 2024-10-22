@@ -70,4 +70,11 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_ceto.paa";
 		textureVehicle = "";
 	};
+	class xdf_artificer
+	{
+		displayName = "XDF Task Force Artificer";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_artificer.paa";
+		textureVehicle = "";
+	};
 };
