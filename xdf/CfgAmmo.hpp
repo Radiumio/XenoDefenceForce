@@ -1,3 +1,5 @@
+class Components;
+class SensorTemplateIR;
 class CfgAmmo
 {
 	class M_Titan_AA;
@@ -18,10 +20,66 @@ class CfgAmmo
 		indirectHit=200;
 		indirectHitRange=4;
 		submunitionAmmo="ammo_Penetrator_Titan_AT_XDF";
-		manuevrability=25;
-		maxSpeed=350;
+		manuevrability=28;
+		maxSpeed=250;
 		thrust=150;
 		effectsMissile="XDF_Missile3";
+		lockType=0;
+		missileLockCone=4.5;
+		missileKeepLockedCone=160;
+		missileLockMaxDistance=2000;
+		missileLockMinDistance=50;
+		missileLockMaxSpeed=35;
+		manualControl=1;
+		missileManualControlCone=45;
+		maxControlRange=2000;
+		weaponLockSystem="2 + 16";
+		cmImmunity=0.40000001;
+		flightProfiles[]=
+		{
+			"Direct",
+			"TopDown"
+		};
+		class Direct
+		{
+		};
+		class TopDown
+		{
+			ascendHeight=150;
+			descendDistance=180;
+			minDistance=180;
+			ascendAngle=30;
+		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=2000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=2000;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=35;
+						angleRangeHorizontal=3.7;
+						angleRangeVertical=2.3;
+						maxTrackableATL=50;
+					};
+				};
+			};
+		};
 	};
 	class R_MRAAWS_HEAT_F;
 	class R_MRAAWS_HEAT_XDF: R_MRAAWS_HEAT_F
