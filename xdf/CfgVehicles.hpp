@@ -18689,7 +18689,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\vehicles\XDF_Scoria.jpg";
 		side = 1;
 		faction = "B_XDF";
-		crew = "B_XDF_Engineer";
+		crew = "B_XDF_Crew";
 		armor = 800; // Default 500
 		armorStructural = 8; // Default 6
 		maxSpeed = 120; // Default 60
@@ -18700,7 +18700,7 @@ class CfgVehicles
 		accelAidForceSpd = 50.0;
 		typicalCargo[]=
 		{
-			"B_XDF_Engineer"
+			"B_XDF_Crew"
 		};
 		hiddenSelections[]=
 		{
@@ -18742,7 +18742,14 @@ class CfgVehicles
 		};
 	};
 	class B_APC_Wheeled_01_cannon_F;
-	class XDF_Commando: B_APC_Wheeled_01_cannon_F
+	class B_APC_Wheeled_01_cannon_F_OCimport_01: B_APC_Wheeled_01_cannon_F { scope = 0; class Turrets; };
+	class B_APC_Wheeled_01_cannon_F_OCimport_02: B_APC_Wheeled_01_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Commando: B_APC_Wheeled_01_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -18805,9 +18812,53 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"autocannon_40mm_CTWS",
+					"LMG_Minigun_AX",
+				};
+				magazines[]=
+				{
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red"
+				};
+			};
+		};
 	};
 	class O_APC_Tracked_02_cannon_F;
-	class XDF_Scorpion: O_APC_Tracked_02_cannon_F
+	class O_APC_Tracked_02_cannon_F_OCimport_01 : O_APC_Tracked_02_cannon_F { scope = 0; class Turrets; };
+	class O_APC_Tracked_02_cannon_F_OCimport_02 : O_APC_Tracked_02_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Scorpion: O_APC_Tracked_02_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -18869,6 +18920,43 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"autocannon_30mm_CTWS",
+					"LMG_Minigun_AX",
+					"missiles_titan"
+				};
+				magazines[]=
+				{
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2Rnd_GAT_missiles_O",
+					"2Rnd_GAT_missiles_O",
+					"2Rnd_GAT_missiles_O"
+				};
+			};
 		};
 	};
 	class O_APC_Tracked_02_AA_F;
@@ -18937,7 +19025,14 @@ class CfgVehicles
 		};
 	};
 	class I_APC_Wheeled_03_cannon_F;
-	class XDF_Dementer: I_APC_Wheeled_03_cannon_F
+	class I_APC_Wheeled_03_cannon_F_OCimport_01 : I_APC_Wheeled_03_cannon_F { scope = 0; class Turrets; };
+	class I_APC_Wheeled_03_cannon_F_OCimport_02 : I_APC_Wheeled_03_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Dementer: I_APC_Wheeled_03_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19003,9 +19098,53 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"autocannon_30mm_CTWS",
+					"LMG_Minigun_AX",
+					"missiles_titan"
+				};
+				magazines[]=
+				{
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2Rnd_GAT_missiles",
+					"2Rnd_GAT_missiles",
+					"2Rnd_GAT_missiles"
+				};
+			};
+		};
 	};
 	class I_MBT_03_cannon_F;
-	class XDF_Kodiak: I_MBT_03_cannon_F
+	class I_MBT_03_cannon_F_OCimport_01: I_MBT_03_cannon_F { scope = 0; class Turrets; };
+	class I_MBT_03_cannon_F_OCimport_02: I_MBT_03_cannon_F_OCimport_01 {
+		class Turrets: Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Kodiak: I_MBT_03_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19065,9 +19204,351 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_120mm",
+					"LMG_Minigun_AX",
+				};
+				magazines[]=
+				{
+					"20Rnd_120mm_APFSDS_shells_Tracer_Yellow",
+					"12Rnd_120mm_HE_shells_Tracer_Yellow",
+					"12Rnd_120mm_HEAT_MP_T_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Yellow"
+				};
+			};
+		};
+	};
+	class B_MBT_01_cannon_F;
+	class B_MBT_01_cannon_F_OCimport_01 : B_MBT_01_cannon_F { scope = 0; class Turrets; };
+	class B_MBT_01_cannon_F_OCimport_02 : B_MBT_01_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Basilisk: B_MBT_01_cannon_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Basilisk";
+		editorPreview="\xdf\previews\vehicles\XDF_Basilisk.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1000; // Default 900
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 65
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+			"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+			"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+					"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+					"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_120mm",
+					"LMG_Minigun_AX",
+				};
+				magazines[]=
+				{
+					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
+					"12Rnd_120mm_HE_shells_Tracer_Red",
+					"12Rnd_120mm_HEAT_MP_T_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red"
+				};
+			};
+		};
+	};
+	class B_MBT_01_TUSK_F;
+	class B_MBT_01_TUSK_F_OCimport_01: B_MBT_01_TUSK_F { scope = 0; class Turrets; };
+	class B_MBT_01_TUSK_F_OCimport_02: B_MBT_01_TUSK_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Basilisk_LIC: B_MBT_01_TUSK_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Basilisk LIC";
+		editorPreview="\xdf\previews\vehicles\XDF_Basilisk_LIC.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 1000; // Default 900
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 65
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+			"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+			"\xdf\retextures\basilisk\mbt_addons_co.paa",
+			"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\basilisk\mbt_01_body_co.paa",
+					"\xdf\retextures\basilisk\mbt_01_tow_co.paa",
+					"\xdf\retextures\basilisk\mbt_addons_co.paa",
+					"\xdf\retextures\basilisk\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"200Rnd_127x99_mag_Tracer_Red",
+							"200Rnd_127x99_mag_Tracer_Red",
+							"200Rnd_127x99_mag_Tracer_Red",
+							"200Rnd_127x99_mag_Tracer_Red",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_120mm",
+					"LMG_Minigun_AX",
+				};
+				magazines[]=
+				{
+					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
+					"12Rnd_120mm_HE_shells_Tracer_Red",
+					"12Rnd_120mm_HEAT_MP_T_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red"
+				};
+			};
+		};
+	};
+	class I_APC_tracked_03_cannon_F;
+	class I_APC_tracked_03_cannon_F_OCimport_01: I_APC_tracked_03_cannon_F { scope = 0; class Turrets; };
+	class I_APC_tracked_03_cannon_F_OCimport_02: I_APC_tracked_03_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Champion: I_APC_tracked_03_cannon_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Champion";
+		editorPreview="\xdf\previews\vehicles\XDF_Champion.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 800; // Default 900
+		armorStructural = 10; // Default 6
+		maxSpeed = 144; // Default 72
+		fuelCapacity = 72; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\champion\apc_tracked_03_ext_co.paa",
+			"\xdf\retextures\champion\apc_tracked_03_ext2_co.paa",
+			"\xdf\retextures\champion\camonet_nato_black_co.paa",
+			"\xdf\retextures\champion\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\champion\apc_tracked_03_ext_co.paa",
+					"\xdf\retextures\champion\apc_tracked_03_ext2_co.paa",
+					"\xdf\retextures\champion\camonet_nato_black_co.paa",
+					"\xdf\retextures\champion\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"autocannon_30mm",
+					"LMG_Minigun_AX"
+				};
+				magazines[]=
+				{
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red"
+				};
+			};
+		};
 	};
 	class O_MBT_04_cannon_F;
-	class XDF_Minotaur: O_MBT_04_cannon_F
+	class O_MBT_04_cannon_F_OCimport_01 : O_MBT_04_cannon_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_MBT_04_cannon_F_OCimport_02 : O_MBT_04_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Minotaur: O_MBT_04_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19124,9 +19605,81 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_125mm_advanced_AX";
+			};
+			class muzzle_rot_coax
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_hide_coax
+			{
+				source="reload";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_125mm_advanced_AX";
+			};
+			class zeroing_cannon
+			{
+				source="zeroing";
+				weapon="cannon_125mm_advanced_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						weapons[]=
+						{
+							"HMG_127_APC",
+							"SmokeLauncher"
+						};
+						magazines[]=
+						{
+							"500Rnd_127x99_mag_Tracer_Yellow",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_125mm_advanced_AX",
+					"LMG_Minigun_AX"
+				};
+				magazines[]=
+				{
+					"12Rnd_125mm_APFSDS_T_Blue_AX",
+					"20Rnd_125mm_APFSDS_T_Green",
+					"12Rnd_125mm_HEAT_T_Green",
+					"12Rnd_125mm_HE_T_Green",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red"
+				};
+			};
+		};
 	};
 	class O_MBT_04_command_F;
-	class XDF_Minotaur_CTWS: O_MBT_04_command_F
+	class O_MBT_04_command_F_OCimport_01 : O_MBT_04_command_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_MBT_04_command_F_OCimport_02 : O_MBT_04_command_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Minotaur_CTWS: O_MBT_04_command_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19182,6 +19735,75 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_125mm_advanced_AX";
+			};
+			class muzzle_rot_coax
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_hide_coax
+			{
+				source="reload";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_125mm_advanced_AX";
+			};
+			class zeroing_cannon
+			{
+				source="zeroing";
+				weapon="cannon_125mm_advanced_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						weapons[]=
+						{
+							"autocannon_30mm_RCWS",
+							"SmokeLauncher"
+						};
+						magazines[]=
+						{
+							"60Rnd_30mm_MP_shells_Tracer_Green",
+							"60Rnd_30mm_MP_shells_Tracer_Green",
+							"60Rnd_30mm_MP_shells_Tracer_Green",
+							"60Rnd_30mm_MP_shells_Tracer_Green",
+							"60Rnd_30mm_MP_shells_Tracer_Green",
+							"60Rnd_30mm_MP_shells_Tracer_Green",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_125mm_advanced_AX",
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"12Rnd_125mm_APFSDS_T_Blue_AX",
+					"20Rnd_125mm_APFSDS_T_Green",
+					"12Rnd_125mm_HEAT_T_Green",
+					"12Rnd_125mm_HE_T_Green",
+					"1000Rnd_20mm_GPR_shells"
+				};
+			};
 		};
 	};
 	class B_APC_Tracked_01_CRV_F;
@@ -20320,7 +20942,14 @@ class CfgVehicles
 		};
 	};
 	class O_MBT_02_railgun_F;
-	class XDF_Titan: O_MBT_02_railgun_F
+	class O_MBT_02_railgun_F_OCimport_01 : O_MBT_02_railgun_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_MBT_02_railgun_F_OCimport_02 : O_MBT_02_railgun_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Titan: O_MBT_02_railgun_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -20379,6 +21008,55 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"150Rnd_127x108_Ball",
+							"150Rnd_127x108_Ball",
+							"150Rnd_127x108_Ball",
+							"150Rnd_127x108_Ball",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_AX_railgun_fake",
+					"cannon_AX_railgun"
+				};
+				magazines[]=
+				{
+					"45Rnd_75mm_RailGun_APFSDS_AX_mag",
+					"AX_RailGun_01_DummyMagazine"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_AX_railgun";
+			};
+			class muzzle_hide_cannon2
+			{
+				source="reload";
+				weapon="cannon_AX_railgun_fake";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_AX_railgun";
+			};
 		};
 	};
 	class B_Boat_Armed_01_minigun_F;
@@ -21947,14 +22625,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -21968,14 +22646,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22056,14 +22734,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22077,14 +22755,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22165,11 +22843,11 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22181,11 +22859,11 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22258,11 +22936,11 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22274,11 +22952,11 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22351,11 +23029,11 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22367,11 +23045,11 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22444,11 +23122,11 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -22460,11 +23138,11 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23139,14 +23817,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23162,14 +23840,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23266,14 +23944,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23289,14 +23967,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23393,14 +24071,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23414,14 +24092,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23500,14 +24178,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23521,14 +24199,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23607,14 +24285,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -23640,14 +24318,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -23736,14 +24414,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -23769,14 +24447,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -23865,14 +24543,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23888,14 +24566,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23974,14 +24652,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -23997,14 +24675,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24083,14 +24761,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -24124,14 +24802,14 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -24228,14 +24906,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -24269,14 +24947,14 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -24377,17 +25055,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag",
@@ -24403,17 +25081,17 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag",
@@ -24496,17 +25174,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag",
@@ -24522,17 +25200,17 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag",
@@ -24615,17 +25293,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AT",
-			"Titan_AT",
-			"Titan_AT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24639,17 +25317,17 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AT",
-			"Titan_AT",
-			"Titan_AT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24730,17 +25408,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AT",
-			"Titan_AT",
-			"Titan_AT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24754,17 +25432,17 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AT",
-			"Titan_AT",
-			"Titan_AT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
+			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24845,16 +25523,16 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AA",
-			"Titan_AA",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AA_XDF",
+			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24868,16 +25546,16 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AA",
-			"Titan_AA",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AA_XDF",
+			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24958,16 +25636,16 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AA",
-			"Titan_AA",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AA_XDF",
+			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -24981,16 +25659,16 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Titan_AA",
-			"Titan_AA",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Titan_AA_XDF",
+			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -25067,9 +25745,9 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"SmokeShellRed",
@@ -25078,9 +25756,9 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"SmokeShellRed",
@@ -25229,9 +25907,9 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"SmokeShellRed",
@@ -25240,9 +25918,9 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"SmokeShellRed",
@@ -25387,19 +26065,19 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25416,19 +26094,19 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25516,19 +26194,19 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25545,19 +26223,19 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25645,14 +26323,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25668,14 +26346,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25772,14 +26450,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25795,14 +26473,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -25899,14 +26577,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -25932,14 +26610,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -26028,14 +26706,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -26061,14 +26739,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -26157,14 +26835,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -26180,14 +26858,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -26266,14 +26944,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -26289,14 +26967,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -26819,17 +27497,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag",
@@ -26845,17 +27523,17 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag",
@@ -26938,17 +27616,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag",
@@ -26964,17 +27642,17 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
-			"MRAWS_HEAT_F",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag",
@@ -27053,19 +27731,19 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -27093,19 +27771,19 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -27204,19 +27882,19 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -27244,19 +27922,19 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -27609,14 +28287,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -27642,14 +28320,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -27738,14 +28416,14 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -27771,14 +28449,14 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"UGL_FlareCIR_F",
 			"UGL_FlareCIR_F",
 			"UGL_FlareWhite_F",
@@ -27867,19 +28545,19 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -27909,19 +28587,19 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -28014,19 +28692,19 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -28056,19 +28734,19 @@ class CfgVehicles
 			"Laserbatteries"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -28597,17 +29275,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -28621,17 +29299,17 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -28712,17 +29390,17 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -28736,17 +29414,17 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
-			"Vorona_HEAT",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
+			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",

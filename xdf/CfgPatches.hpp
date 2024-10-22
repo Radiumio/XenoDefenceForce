@@ -5,7 +5,12 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"SSU_Core",
-			"TCGM_Girls"
+			"TCGM_Girls",
+			"A3_Armor_F_Decade",
+			"A3_Weapons_F_Decade",
+			"A3_Weapons_F",
+			"A3_Data_F_Decade",
+			"A3_Armor_F_Gamma"
 		};
 		version = "1.0";
 		author="Radium";
@@ -68,6 +73,8 @@ class CfgPatches
 			"XDF_Huntress",
 			"XDF_Dementer",
 			"XDF_Kodiak",
+			"XDF_Basilisk",
+			"XDF_Basilisk_LIC",
 			"XDF_Minotaur",
 			"XDF_Minotaur_CTWS",
 			"XDF_Onyx",
