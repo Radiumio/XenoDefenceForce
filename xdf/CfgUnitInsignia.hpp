@@ -63,4 +63,11 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_ion.paa";
 		textureVehicle = "";
 	};
+	class xdf_ceto
+	{
+		displayName = "XDF Task Force Ceto";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_ceto.paa";
+		textureVehicle = "";
+	};
 };
