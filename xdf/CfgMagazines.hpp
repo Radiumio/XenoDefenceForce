@@ -36,7 +36,7 @@ class CfgMagazines
 		displayName="9M135 Experimental HEAT";
 		displayNameShort="EXP-HEAT";
 		ammo="M_Vorona_HEAT_XDF";
-		mass=180;
+		mass=220;
 		count=1;
 		initSpeed=150;
 		maxLeadSpeed=27.7778;
