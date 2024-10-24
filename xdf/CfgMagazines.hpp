@@ -442,7 +442,7 @@ class CfgMagazines
 		scope=2;
 		displayName=".338 LM 10Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
-		ammo="B_338_Ball";
+		ammo="B_338_Ball_blue";
 		tracersEvery=1;
 	};
 	class 10Rnd_338_Mag;
@@ -452,7 +452,7 @@ class CfgMagazines
 		scope=2;
 		displayName=".338 LM 10Rnd Reload Tracer Mag (AX)";
 		displaynameshort="AX R-Tracer";
-		ammo="B_338_Ball";
+		ammo="B_338_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
