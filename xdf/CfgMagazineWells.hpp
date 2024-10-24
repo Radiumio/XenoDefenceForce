@@ -190,4 +190,28 @@ class CfgMagazineWells
 			"20Rnd_650x39_Cased_Mag_blue_reload_tracer"
 		};
 	};
+	class Navid_93x64_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_reload_tracer"
+		};
+	};
+	class SPMG_338_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"130Rnd_338_Mag_blue_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer"
+		};
+	};
+	class M249_556x45_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_reload_tracer"
+		};
+	};
 };

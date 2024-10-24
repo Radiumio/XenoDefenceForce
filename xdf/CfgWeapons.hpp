@@ -1818,6 +1818,10 @@ class cfgWeapons
 			1,
 			10
 		};
+		magazineWell[] +=
+		{
+			"Navid_93x64_XDF"
+		};
 	};
 	class XDF_MMG_02_black: MMG_02_black_F
 	{
@@ -1838,6 +1842,10 @@ class cfgWeapons
 			1,
 			10
 		};
+		magazineWell[] +=
+		{
+			"SPMG_338_XDF"
+		};
 	};
 	class XDF_LMG_03: LMG_03_F
 	{
@@ -1857,6 +1865,10 @@ class cfgWeapons
 			4,
 			1,
 			10
+		};
+		magazineWell[] +=
+		{
+			"M249_556x45_XDF"
 		};
 	};
 

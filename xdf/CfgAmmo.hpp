@@ -172,6 +172,12 @@ class CfgAmmo
 		hit=21; // default 16, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_338_NM_Ball;
+	class B_338_NM_Ball_blue: B_338_NM_Ball
+	{
+		hit=19; // default 14, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 	class B_127x108_Ball;
 	class B_127x108_Ball_blue: B_127x108_Ball
 	{
@@ -213,5 +219,5 @@ class CfgAmmo
 	{
 		hit=15; // default 10, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
-	}
+	};
 };

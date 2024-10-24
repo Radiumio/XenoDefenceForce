@@ -576,4 +576,70 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
+
+	class 150Rnd_93x64_Mag;
+	class 150Rnd_93x64_Mag_blue_tracer: 150Rnd_93x64_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9.3 mm 150Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=1;
+	};
+	class 150Rnd_93x64_Mag;
+	class 150Rnd_93x64_Mag_blue_reload_tracer: 150Rnd_93x64_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9.3 mm 150Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 130Rnd_338_Mag;
+	class 130Rnd_338_Mag_blue_tracer: 130Rnd_338_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".338 NM 130Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=1;
+	};
+	class 130Rnd_338_Mag;
+	class 130Rnd_338_Mag_blue_reload_tracer: 130Rnd_338_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".338 NM 130Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 200Rnd_556x45_Box_Tracer_F;
+	class 200Rnd_556x45_Box_Tracer_blue_tracer: 200Rnd_556x45_Box_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.56 mm 200Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_556x45_Ball_blue";
+		tracersEvery=1;
+	};
+	class 200Rnd_556x45_Box_Tracer_F;
+	class 200Rnd_556x45_Box_Tracer_blue_reload_tracer: 200Rnd_556x45_Box_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.56 mm 200Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_556x45_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };
