@@ -166,4 +166,52 @@ class CfgAmmo
 		hit=10; // default 5, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_338_Ball;
+	class B_338_Ball_blue: B_338_Ball
+	{
+		hit=21; // default 16, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_127x108_Ball;
+	class B_127x108_Ball_blue: B_127x108_Ball
+	{
+		hit=40; // default 35, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_127x108_APDS;
+	class B_127x108_APDS_blue: B_127x108_APDS
+	{
+		hit=65; // default 60, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_93x64_Ball;
+	class B_93x64_Ball_blue: B_93x64_Ball
+	{
+		hit=23; // default 18, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_127x54_Ball;
+	class B_127x54_Ball_blue: B_127x54_Ball
+	{
+		hit=25; // default 20, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_408_Ball;
+	class B_408_Ball_blue: B_408_Ball
+	{
+		hit=29; // default 24, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_762x54_Ball;
+	class B_762x54_Ball_blue: B_762x54_Ball
+	{
+		hit=16.6; // default 11.6, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_65x39_Case_green;
+	class B_65x39_Case_blue: B_65x39_Case_green
+	{
+		hit=15; // default 10, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	}
 };

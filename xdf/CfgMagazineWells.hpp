@@ -120,7 +120,7 @@ class CfgMagazineWells
 	};
 	class ACPC2_45ACP_XDF
 	{
-		BI_Magazines[]=
+		XDF_Magazines[]=
 		{
 			"9Rnd_45ACP_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer"
@@ -128,10 +128,66 @@ class CfgMagazineWells
 	};
 	class PistolHeavy_01_45ACP_XDF
 	{
-		BI_Magazines[]=
+		XDF_Magazines[]=
 		{
 			"11Rnd_45ACP_Mag_blue_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer"
+		};
+	};
+	class M14_762x51_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_reload_tracer"
+		};
+	};
+	class MAR10_338_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"10Rnd_338_Mag_blue_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer"
+		};
+	};
+	class GM6_127x108_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"5Rnd_127x108_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer"
+		};
+	};
+	class Cyrus_93_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"10Rnd_93x64_DMR_05_Mag_blue_tracer",
+			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer"
+		};
+	};
+	class ASP1_127x54_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"10Rnd_127x54_Mag_blue_tracer",
+			"10Rnd_127x54_Mag_blue_reload_tracer"
+		};
+	};
+	class Rahim_762x54_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"10Rnd_762x54_Mag_blue_tracer",
+			"10Rnd_762x54_Mag_blue_reload_tracer"
+		};
+	};
+	class Tempest_65x39_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"20Rnd_650x39_Cased_Mag_blue_tracer",
+			"20Rnd_650x39_Cased_Mag_blue_reload_tracer"
 		};
 	};
 };

@@ -1570,6 +1570,10 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\sig556\dmr_03_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\sig556\dmr_03_02_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"M14_762x51_XDF"
+		};
 	};
 	class XDF_srifle_DMR_02: srifle_DMR_02_F
 	{
@@ -1586,6 +1590,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mar10\dmr_02_01_dazzle_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mar10\dmr_02_02_dazzle_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"MAR10_338_XDF"
 		};
 	};
 	class XDF_srifle_GM6: srifle_GM6_F
@@ -1630,6 +1638,10 @@ class cfgWeapons
 				};
 			};
 		};
+		magazineWell[] +=
+		{
+			"GM6_127x108_XDF"
+		};
 	};
 	class XDF_srifle_DMR_05_blk: srifle_DMR_05_blk_F
 	{
@@ -1647,6 +1659,10 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\cyrus\dmr_05_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\cyrus\dmr_05_02_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"Cyrus_93_XDF"
+		};
 	};
 	class XDF_srifle_DMR_04: srifle_DMR_04_F
 	{
@@ -1663,6 +1679,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\asp1\dmr_04_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\asp1\dmr_04_02_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"ASP1_127x54_XDF"
 		};
 	};
 	class XDF_srifle_LRR: srifle_LRR_F
@@ -1686,6 +1706,10 @@ class cfgWeapons
 			1,
 			10
 		};
+		magazineWell[] +=
+		{
+			"ASP1_127x54_XDF"
+		};
 	};
 	class XDF_srifle_DMR_01: srifle_DMR_01_F
 	{
@@ -1702,6 +1726,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_02_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Rahim_762x54_XDF"
 		};
 	};
 	class XDF_srifle_EBR_F: srifle_EBR_F
@@ -1720,6 +1748,10 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ebr\m14_ebr02_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"M14_762x51_XDF"
+		};
 	};
 	class arifle_SPAR_03_XDF_F: arifle_SPAR_03_blk_F
 	{
@@ -1733,6 +1765,10 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_02_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"M14_762x51_XDF"
 		};
 	};
 	class XDF_srifle_DMR_07_blk_F: srifle_DMR_07_blk_F
@@ -1750,6 +1786,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\dmr_07_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\dmr_07_f_2_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Tempest_65x39_XDF"
 		};
 	};
 

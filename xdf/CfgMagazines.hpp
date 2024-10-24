@@ -412,4 +412,168 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
+
+	class 20Rnd_762x51_Mag;
+	class 20Rnd_762x51_Mag_blue_tracer: 20Rnd_762x51_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 20Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_762x51_Ball_blue";
+		tracersEvery=1;
+	};
+	class 20Rnd_762x51_Mag;
+	class 20Rnd_762x51_Mag_blue_reload_tracer: 20Rnd_762x51_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 20Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_762x51_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 10Rnd_338_Mag;
+	class 10Rnd_338_Mag_blue_tracer: 10Rnd_338_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".338 LM 10Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_338_Ball";
+		tracersEvery=1;
+	};
+	class 10Rnd_338_Mag;
+	class 10Rnd_338_Mag_blue_reload_tracer: 10Rnd_338_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".338 LM 10Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_338_Ball";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 5Rnd_127x108_Mag;
+	class 5Rnd_127x108_Mag_blue_tracer: 5Rnd_127x108_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 5Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_127x108_Ball_blue";
+		tracersEvery=1;
+	};
+	class 5Rnd_127x108_APDS_Mag;
+	class 5Rnd_127x108_APDS_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 5Rnd Tracer Mag (APDS-AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_127x108_APDS_blue";
+		tracersEvery=1;
+	};
+
+	class 10Rnd_93x64_DMR_05_Mag;
+	class 10Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9.3 mm 10Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=1;
+	};
+	class 10Rnd_93x64_DMR_05_Mag;
+	class 10Rnd_93x64_DMR_05_Mag_blue_reload_tracer: 10Rnd_93x64_DMR_05_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9.3 mm 10Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 10Rnd_127x54_Mag;
+	class 10Rnd_127x54_Mag_blue_tracer: 10Rnd_127x54_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 10Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_127x54_Ball_blue";
+		tracersEvery=1;
+	};
+	class 10Rnd_127x54_Mag;
+	class 10Rnd_127x54_Mag_blue_reload_tracer: 10Rnd_127x54_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 10Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_127x54_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 7Rnd_408_Mag;
+	class 7Rnd_408_Mag_blue_tracer: 7Rnd_408_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".408 mm 7Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_408_Ball_blue";
+		tracersEvery=1;
+	};
+
+	class 10Rnd_762x54_Mag;
+	class 10Rnd_762x54_Mag_blue_tracer: 10Rnd_762x54_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 10Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_762x54_Ball_blue";
+		tracersEvery=1;
+	};
+	class 10Rnd_762x54_Mag;
+	class 10Rnd_762x54_Mag_blue_reload_tracer: 10Rnd_762x54_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 10Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_762x54_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 20Rnd_650x39_Cased_Mag_F;
+	class 20Rnd_650x39_Cased_Mag_blue_tracer: 20Rnd_650x39_Cased_Mag_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 20Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Case_blue";
+		tracersEvery=1;
+	};
+	class 20Rnd_650x39_Cased_Mag_F;
+	class 20Rnd_650x39_Cased_Mag_blue_reload_tracer: 10Rnd_762x54_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 20Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Case_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };
