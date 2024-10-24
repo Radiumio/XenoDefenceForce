@@ -346,4 +346,70 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
+
+	class 16Rnd_9x21_Mag;
+	class 16Rnd_9x21_Mag_blue_tracer: 16Rnd_9x21_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 17Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=1;
+	};
+	class 16Rnd_9x21_Mag;
+	class 16Rnd_9x21_Mag_blue_reload_tracer: 16Rnd_9x21_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 17Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 9Rnd_45ACP_Mag;
+	class 9Rnd_45ACP_Mag_blue_tracer: 9Rnd_45ACP_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP 8Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACP_Ball_blue";
+		tracersEvery=1;
+	};
+	class 9Rnd_45ACP_Mag;
+	class 9Rnd_45ACP_Mag_blue_reload_tracer: 9Rnd_45ACP_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP 8Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_45ACP_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 11Rnd_45ACP_Mag;
+	class 11Rnd_45ACP_Mag_blue_tracer: 11Rnd_45ACP_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP 15Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACP_Ball_blue";
+		tracersEvery=1;
+	};
+	class 11Rnd_45ACP_Mag;
+	class 11Rnd_45ACP_Mag_blue_reload_tracer: 11Rnd_45ACP_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP 15Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_45ACP_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };

@@ -1499,6 +1499,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p07\p07_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"Pistol_9x21_XDF"
+		};
 	};
 	class XDF_hgun_ACPC2: hgun_ACPC2_F // 9Rnd_45ACP_Mag
 	{
@@ -1514,6 +1518,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\acp\acpc2_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"ACPC2_45ACP_XDF"
+		};
 	};
 	class XDF_hgun_Pistol_heavy_01: hgun_Pistol_heavy_01_F // 11Rnd_45ACP_Mag
 	{
@@ -1528,6 +1536,10 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\45tactical\pistol_heavy_01_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"PistolHeavy_01_45ACP_XDF"
 		};
 	};
 

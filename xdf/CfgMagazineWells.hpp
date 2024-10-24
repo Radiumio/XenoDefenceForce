@@ -110,4 +110,28 @@ class CfgMagazineWells
 			"50Rnd_570x28_SMG_03_blue_reload_tracer"
 		};
 	};
+	class Pistol_9x21_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_reload_tracer"
+		};
+	};
+	class ACPC2_45ACP_XDF
+	{
+		BI_Magazines[]=
+		{
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_reload_tracer"
+		};
+	};
+	class PistolHeavy_01_45ACP_XDF
+	{
+		BI_Magazines[]=
+		{
+			"11Rnd_45ACP_Mag_blue_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer"
+		};
+	};
 };
