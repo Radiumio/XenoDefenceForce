@@ -22105,6 +22105,7 @@ class CfgVehicles
 	class B_Carryall_blk;
 	class B_CombinationUnitRespirator_01_F;
 	class B_Messenger_Black_F;
+	class B_Bergen_mcamo_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -22280,6 +22281,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Messenger_Bag_med.paa"
+		};
+	};
+	class B_Bergen_mcamo_F: B_Bergen_mcamo_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Bergen Backpack";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Bergen.paa"
 		};
 	};
 	class B_XDF_CUR: B_CombinationUnitRespirator_01_F
