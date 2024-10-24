@@ -126,8 +126,8 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="6.5 mm 30Rnd Tracer Mag (Blue)";
-		displaynameshort="$STR_A3_tracer_dns";
+		displayName="6.5 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=1;
 	};
@@ -135,50 +135,160 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="6.5 mm 30Rnd Reload Tracer Mag (Blue)";
-		displaynameshort="";
+		displayName="6.5 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
-};
-class CfgMagazineWells
-{
-	class Titan_Long_XDF
+	class 30Rnd_65x39_caseless_black_mag_Tracer;
+	class 30Rnd_65x39_caseless_black_mag_blue_tracer: 30Rnd_65x39_caseless_black_mag_Tracer
 	{
-		BI_Magazines[]=
-		{
-			"Titan_AA",
-			"Titan_AA_XDF"
-		};
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
 	};
-	class Titan_Short_XDF
+	class 30Rnd_65x39_caseless_black_mag_Tracer;
+	class 30Rnd_65x39_caseless_black_mag_blue_reload_tracer: 30Rnd_65x39_caseless_black_mag_Tracer
 	{
-		BI_Magazines[]=
-		{
-			"Titan_AT",
-			"Titan_AP",
-			"Titan_AT_XDF"
-		};
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
 	};
-	class Titan_Short_XDF
+	class 100Rnd_65x39_caseless_black_mag_tracer;
+	class 100Rnd_65x39_caseless_mag_blue_tracer: 100Rnd_65x39_caseless_black_mag_tracer
 	{
-		BI_Magazines[]=
-		{
-			"Titan_AT",
-			"Titan_AP",
-			"Titan_AT_XDF"
-		};
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 100Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+		lastRoundsTracer=100;
 	};
-	class MX_65x39_MSBS;
-	class MX_65x39_MSBS_XDF: MX_65x39_MSBS
+	class 100Rnd_65x39_caseless_black_mag_tracer;
+	class 100Rnd_65x39_caseless_mag_blue_reload_tracer: 100Rnd_65x39_caseless_black_mag_tracer
 	{
-		BI_Enoch_Magazines[]=
-		{
-			"30Rnd_65x39_caseless_msbs_mag",
-			"30Rnd_65x39_caseless_msbs_mag_Tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer"
-		};
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 100Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+	class 30Rnd_65x39_caseless_green;
+	class 30Rnd_65x39_caseless_blue_tracer: 30Rnd_65x39_caseless_green
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Caseless Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_65x39_caseless_green;
+	class 30Rnd_65x39_caseless_blue_reload_tracer: 30Rnd_65x39_caseless_green
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Caseless Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+	
+	class 30Rnd_556x45_Stanag_Tracer_Green;
+	class 30rnd_556x45_stanag_blue_tracer: 30Rnd_556x45_Stanag_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.56 mm 30rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_556x45_Ball_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_556x45_Stanag_Tracer_Green;
+	class 30rnd_556x45_stanag_blue_reload_tracer: 30Rnd_556x45_Stanag_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.56 mm 30rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_556x45_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 150Rnd_556x45_Drum_Mag_Tracer_F;
+	class 150rnd_556x45_drum_mag_blue_tracer: 150Rnd_556x45_Drum_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.56 mm 150Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_556x45_Ball_blue";
+		tracersEvery=1;
+	};
+	class 150Rnd_556x45_Drum_Mag_Tracer_F;
+	class 150rnd_556x45_drum_mag_blue_reload_tracer: 150Rnd_556x45_Drum_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.56 mm 150Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_556x45_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+	
+	class 30Rnd_580x42_Mag_Tracer_F;
+	class 30rnd_580x42_mag_blue_tracer: 30Rnd_580x42_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.8 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_580x42_Ball_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_580x42_Mag_Tracer_F;
+	class 30rnd_580x42_mag_blue_reload_tracer: 30Rnd_580x42_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.8 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_580x42_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+	class 100Rnd_580x42_Mag_Tracer_F;
+	class 100rnd_580x42_mag_blue_tracer: 100Rnd_580x42_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.8 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_580x42_Ball_blue";
+		tracersEvery=1;
+	};
+	class 100Rnd_580x42_Mag_Tracer_F;
+	class 100rnd_580x42_mag_blue_reload_tracer: 100Rnd_580x42_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.8 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_580x42_Ball_blue";
+		tracersEvery=1;
 	};
 };

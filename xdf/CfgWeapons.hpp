@@ -1003,7 +1003,7 @@ class cfgWeapons
 			1,
 			10
 		};
-		magazineWell[]=
+		magazineWell[] +=
 		{
 			"MX_65x39_MSBS_XDF"
 		};
@@ -1047,7 +1047,7 @@ class cfgWeapons
 				10
 			};
 		};
-		magazineWell[]=
+		magazineWell[] +=
 		{
 			"MX_65x39_MSBS_XDF"
 		};
@@ -1073,7 +1073,7 @@ class cfgWeapons
 			1,
 			10
 		};
-		magazineWell[]=
+		magazineWell[] +=
 		{
 			"MX_65x39_MSBS_XDF"
 		};
@@ -1099,7 +1099,7 @@ class cfgWeapons
 			1,
 			10
 		};
-		magazineWell[]=
+		magazineWell[] +=
 		{
 			"MX_65x39_MSBS_XDF"
 		};
@@ -1115,6 +1115,10 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\type115\arifle_arx_blk_01_f_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\type115\arifle_arx_blk_02_f_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"Katiba_65x39_XDF"
+		};
 	};
 	class arifle_MX_XDF: arifle_MX_Black_F
 	{
@@ -1129,6 +1133,11 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_short_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
+		};
 	};
 	class arifle_MXC_XDF: arifle_MXC_Black_F
 	{
@@ -1141,6 +1150,11 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_short_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
 		};
 	};
 	class arifle_MXGL_XDF: arifle_MX_GL_Black_F
@@ -1166,6 +1180,11 @@ class cfgWeapons
 				10
 			};
 		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
+		};
 	};
 	class arifle_MXSW_XDF: arifle_MX_SW_Black_F
 	{
@@ -1178,6 +1197,11 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_lmg_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
 		};
 	};
 	class arifle_MXM_XDF: arifle_MXM_Black_F
@@ -1192,6 +1216,11 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
+		};
 	};
 	class arifle_SPAR_01_XDF_F: arifle_SPAR_01_blk_F
 	{
@@ -1205,6 +1234,11 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF",
+			"STANAG_556x45_Large_XDF"
+		};
 	};
 	class arifle_SPAR_02_XDF_F: arifle_SPAR_02_blk_F
 	{
@@ -1217,6 +1251,11 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF",
+			"STANAG_556x45_Large_XDF"
 		};
 	};
 	class arifle_SPAR_01_GL_XDF_F: arifle_SPAR_01_GL_blk_F
@@ -1249,6 +1288,11 @@ class cfgWeapons
 				10
 			};
 		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF",
+			"STANAG_556x45_Large_XDF"
+		};
 	};
 	class arifle_CTAR_XDF_F: arifle_CTAR_blk_F
 	{
@@ -1261,6 +1305,11 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"CTAR_580x42_XDF",
+			"CTAR_580x42_Large_XDF"
 		};
 	};
 	class arifle_CTAR_GL_XDF_F: arifle_CTAR_GL_blk_F
@@ -1293,6 +1342,11 @@ class cfgWeapons
 				10
 			};
 		};
+		magazineWell[] +=
+		{
+			"CTAR_580x42_XDF",
+			"CTAR_580x42_Large_XDF"
+		};
 	};
 	class arifle_CTARS_XDF_F: arifle_CTARS_blk_F
 	{
@@ -1305,6 +1359,11 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_f_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"CTAR_580x42_XDF",
+			"CTAR_580x42_Large_XDF"
 		};
 	};
 

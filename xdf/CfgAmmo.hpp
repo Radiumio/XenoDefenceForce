@@ -121,6 +121,25 @@ class CfgAmmo
 	class B_65x39_Caseless;
 	class B_65x39_Caseless_blue: B_65x39_Caseless
 	{
+		hit=15 // default 10, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_556x45_Ball;
+	class B_556x45_Ball_blue: B_556x45_Ball
+	{
+		hit=14 // default 9, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_762x51_Ball;
+	class B_762x51_Ball_blue: B_762x51_Ball
+	{
+		hit=16.6 // default 11.6, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_580x42_Ball_F;
+	class B_580x42_Ball_blue: B_580x42_Ball_F
+	{
+		hit=14 // default 9, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
 };
