@@ -26,8 +26,7 @@ class CfgMagazineWells
 			"Titan_AT_XDF"
 		};
 	};
-	class MX_65x39_MSBS;
-	class MX_65x39_MSBS_XDF: MX_65x39_MSBS
+	class MX_65x39_MSBS_XDF
 	{
 		XDF_Magazines[]=
 		{
@@ -35,8 +34,7 @@ class CfgMagazineWells
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer"
 		};
 	};
-	class MX_65x39;
-	class MX_65x39_XDF: MX_65x39
+	class MX_65x39_XDF
 	{
 		XDF_Magazines[]=
 		{
@@ -44,8 +42,7 @@ class CfgMagazineWells
 			"30Rnd_65x39_caseless_black_mag_blue_reload_tracer"
 		};
 	};
-	class MX_65x39_Large;
-	class MX_65x39_Large_XDF: MX_65x39_Large
+	class MX_65x39_Large_XDF
 	{
 		XDF_Magazines[]=
 		{
@@ -53,8 +50,7 @@ class CfgMagazineWells
 			"100Rnd_65x39_caseless_mag_blue_reload_tracer"
 		};
 	};
-	class Katiba_65x39;
-	class Katiba_65x39_XDF: Katiba_65x39
+	class Katiba_65x39_XDF
 	{
 		XDF_Magazines[]=
 		{
