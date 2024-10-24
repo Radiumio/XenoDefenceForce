@@ -205,6 +205,16 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
+	class 10Rnd_50BW_Mag_F;
+	class 10Rnd_50BW_Mag_blue: 10Rnd_50BW_Mag_F
+	{
+		author="Radium";
+		scope=2;
+		displayName=".50 BW 10Rnd Caseless Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_50BW_Ball_blue";
+		tracersEvery=1;
+	};
 	
 	class 30Rnd_556x45_Stanag_Tracer_Green;
 	class 30rnd_556x45_stanag_blue_tracer: 30Rnd_556x45_Stanag_Tracer_Green
@@ -289,6 +299,51 @@ class CfgMagazines
 		displayName="5.8 mm 100Rnd Reload Tracer Mag (AX)";
 		displaynameshort="AX R-Tracer";
 		ammo="B_580x42_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green;
+	class 30rnd_45acp_mag_smg_01_blue_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP mm 25Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACP_Ball_blue";
 		tracersEvery=1;
+	};
+	class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green;
+	class 30rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP mm 25Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_45ACP_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 50Rnd_570x28_SMG_03;
+	class 50Rnd_570x28_SMG_03_blue_tracer: 50Rnd_570x28_SMG_03
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.7 mm 50Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_570x28_Ball_blue";
+		tracersEvery=1;
+	};
+	class 50Rnd_570x28_SMG_03;
+	class 50Rnd_570x28_SMG_03_blue_reload_tracer: 50Rnd_570x28_SMG_03
+	{
+		author="Radium";
+		scope=2;
+		displayName="5.7 mm 50Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_570x28_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
 	};
 };

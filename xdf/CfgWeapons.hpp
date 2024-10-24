@@ -981,6 +981,7 @@ class cfgWeapons
 	class arifle_CTAR_blk_F;
 	class arifle_CTAR_GL_blk_F;
 	class arifle_CTARS_blk_F;
+	class Secondary;
 	class UGL;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
@@ -1118,6 +1119,13 @@ class cfgWeapons
 		magazineWell[] +=
 		{
 			"Katiba_65x39_XDF"
+		};
+		class Secondary: Secondary
+		{
+			magazines[]+=
+			{
+				"10Rnd_50BW_Mag_blue"
+			};
 		};
 	};
 	class arifle_MX_XDF: arifle_MX_Black_F
@@ -1391,6 +1399,10 @@ class cfgWeapons
 			"\a3\weapons_f\data\vectoratt_co.paa",
 			"\a3\weapons_f\acc\data\battlesight_co.paa"
 		};
+		magazineWell[] +=
+		{
+			"Vector_45ACP_XDF"
+		};
 	};
 	class XDF_SMG_03C_black: SMG_03C_black
 	{
@@ -1405,6 +1417,10 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
+		};
+		magazineWell[] +=
+		{
+			"P90_57_XDF"
 		};
 	};
 	class XDF_SMG_03C_TR_black: SMG_03C_TR_black
@@ -1421,6 +1437,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
 		};
+		magazineWell[] +=
+		{
+			"P90_57_XDF"
+		};
 	};
 	class XDF_SMG_03_black: SMG_03_black
 	{
@@ -1436,6 +1456,10 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
 		};
+		magazineWell[] +=
+		{
+			"P90_57_XDF"
+		};
 	};
 	class XDF_SMG_03_TR_black: SMG_03_TR_black
 	{
@@ -1450,6 +1474,10 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
+		};
+		magazineWell[] +=
+		{
+			"P90_57_XDF"
 		};
 	};
 
