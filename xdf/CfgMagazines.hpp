@@ -566,7 +566,7 @@ class CfgMagazines
 		tracersEvery=1;
 	};
 	class 20Rnd_650x39_Cased_Mag_F;
-	class 20Rnd_650x39_Cased_Mag_blue_reload_tracer: 10Rnd_762x54_Mag
+	class 20Rnd_650x39_Cased_Mag_blue_reload_tracer: 20Rnd_650x39_Cased_Mag_F
 	{
 		author="Radium";
 		scope=2;
