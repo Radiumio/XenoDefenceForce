@@ -7,6 +7,7 @@
 #include "CfgGlasses.hpp"
 #include "CfgGroups.hpp"
 #include "CfgMagazines.hpp"
+#include "CfgMagazineWells.hpp"
 #include "CfgMarkers.hpp"
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
