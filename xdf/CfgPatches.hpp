@@ -9,6 +9,9 @@ class CfgPatches
 			"A3_Armor_F_Decade",
 			"A3_Weapons_F_Decade",
 			"A3_Weapons_F",
+			"A3_Weapons_F_Exp",
+			"A3_Weapons_F_Mod",
+			"A3_Weapons_F_Mark",
 			"A3_Data_F_Decade",
 			"A3_Armor_F_Gamma"
 		};
