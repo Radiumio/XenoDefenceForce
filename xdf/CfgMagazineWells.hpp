@@ -174,6 +174,13 @@ class CfgMagazineWells
 			"10Rnd_127x54_Mag_blue_reload_tracer"
 		};
 	};
+	class Arbitrator_408_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"7Rnd_408_Mag_blue_tracer"
+		};
+	};
 	class Rahim_762x54_XDF
 	{
 		XDF_Magazines[]=

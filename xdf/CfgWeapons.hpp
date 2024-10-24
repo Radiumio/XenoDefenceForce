@@ -1708,7 +1708,7 @@ class cfgWeapons
 		};
 		magazineWell[] +=
 		{
-			"ASP1_127x54_XDF"
+			"Arbitrator_408_XDF"
 		};
 	};
 	class XDF_srifle_DMR_01: srifle_DMR_01_F
