@@ -276,7 +276,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="5.8 mm 30Rnd Tracer Mag (AX)";
+		displayName="5.8 mm 100Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_580x42_Ball_blue";
 		tracersEvery=1;
@@ -286,7 +286,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="5.8 mm 30Rnd Reload Tracer Mag (AX)";
+		displayName="5.8 mm 100Rnd Reload Tracer Mag (AX)";
 		displaynameshort="AX R-Tracer";
 		ammo="B_580x42_Ball_blue";
 		tracersEvery=1;
