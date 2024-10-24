@@ -182,7 +182,7 @@ class CfgMagazines
 		displaynameshort="AX R-Tracer";
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=4;
-		lastRoundsTracer=4;
+		lastRoundsTracer=10;
 	};
 	class 30Rnd_65x39_caseless_green;
 	class 30Rnd_65x39_caseless_blue_tracer: 30Rnd_65x39_caseless_green
@@ -257,7 +257,7 @@ class CfgMagazines
 		displaynameshort="AX R-Tracer";
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=4;
-		lastRoundsTracer=4;
+		lastRoundsTracer=10;
 	};
 	
 	class 30Rnd_580x42_Mag_Tracer_F;
@@ -596,7 +596,7 @@ class CfgMagazines
 		displaynameshort="AX R-Tracer";
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=4;
-		lastRoundsTracer=4;
+		lastRoundsTracer=10;
 	};
 
 	class 130Rnd_338_Mag;
@@ -618,7 +618,7 @@ class CfgMagazines
 		displaynameshort="AX R-Tracer";
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=4;
-		lastRoundsTracer=4;
+		lastRoundsTracer=10;
 	};
 
 	class 200Rnd_556x45_Box_Tracer_F;
@@ -640,6 +640,6 @@ class CfgMagazines
 		displaynameshort="AX R-Tracer";
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=4;
-		lastRoundsTracer=4;
+		lastRoundsTracer=10;
 	};
 };
