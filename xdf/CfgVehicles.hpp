@@ -22283,7 +22283,7 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Messenger_Bag_med.paa"
 		};
 	};
-	class B_Bergen_mcamo_F: B_Bergen_mcamo_F
+	class B_XDF_Bergen: B_Bergen_mcamo_F
 	{
 		author="Radium";
 		scope=2;
