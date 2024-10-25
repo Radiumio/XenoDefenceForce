@@ -229,10 +229,18 @@ class CfgMagazineWells
 	};
 	class Mk200_65x39_XDF
 	{
-		BI_Magazines[]=
+		XDF_Magazines[]=
 		{
 			"200Rnd_65x39_cased_Box_blue_tracer",
 			"200Rnd_65x39_cased_Box_blue_reload_tracer"
+		};
+	};
+	class Katiba_65x39_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"30Rnd_65x39_caseless_mag_blue_tracer",
+			"30Rnd_65x39_caseless_mag_blue_reload_tracer"
 		};
 	};
 };

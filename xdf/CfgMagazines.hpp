@@ -708,4 +708,26 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=10;
 	};
+
+	class 30Rnd_65x39_caseless_green_mag_Tracer;
+	class 30Rnd_65x39_caseless_mag_blue_tracer: 30Rnd_65x39_caseless_green_mag_Tracer
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_65x39_caseless_green_mag_Tracer;
+	class 30Rnd_65x39_caseless_mag_blue_reload_tracer: 30Rnd_65x39_caseless_green_mag_Tracer
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=10;
+	};
 };

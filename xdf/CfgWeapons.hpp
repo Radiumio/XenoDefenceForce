@@ -1459,6 +1459,60 @@ class cfgWeapons
 			"AK_762x39_XDF"
 		};
 	};
+	class arifle_Katiba_F;
+	class arifle_Katiba_XDF: arifle_Katiba_F
+	{
+		author="Radium";
+		_generalMacro="arifle_Katiba_F";
+		scope=2;
+		displayName="XDF S-20 Khaybar";
+		baseWeapon="arifle_Katiba_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Katiba_65x39_XDF"
+		};
+	};
+	class arifle_Katiba_GL_F;
+	class arifle_Katiba_GL_XDF: arifle_Katiba_GL_F
+	{
+		author="Radium";
+		_generalMacro="arifle_Katiba_GL_F";
+		scope=2;
+		displayName="XDF S-21 Khaybar KGL";
+		baseWeapon="arifle_Katiba_GL_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Katiba_65x39_XDF"
+		};
+	};
+	class arifle_Katiba_C_F;
+	class arifle_Katiba_C_XDF: arifle_Katiba_C_F
+	{
+		author="Radium";
+		_generalMacro="arifle_Katiba_C_F";
+		scope=2;
+		displayName="XDF S-22 Khaybar Carbine";
+		baseWeapon="arifle_Katiba_C_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Katiba_65x39_XDF"
+		};
+	};
 
 	// SMGs
 	class SMG_01_F;
