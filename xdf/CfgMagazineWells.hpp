@@ -243,4 +243,11 @@ class CfgMagazineWells
 			"30Rnd_65x39_caseless_mag_blue_reload_tracer"
 		};
 	};
+	class Cylinder_45ACP_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"6Rnd_45ACP_Cylinder_blue_tracer"
+		};
+	};
 };

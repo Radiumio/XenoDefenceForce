@@ -1698,6 +1698,32 @@ class cfgWeapons
 			"PistolHeavy_01_45ACP_XDF"
 		};
 	};
+	class hgun_Pistol_heavy_02_F;
+	class XDF_hgun_Pistol_heavy_02_F: hgun_Pistol_heavy_02_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF H-4 'Nemesis'";
+		baseWeapon="XDF_hgun_Pistol_heavy_02_F";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\zubr\pistol_heavy_02_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\zubr\pistol_heavy_02_mag_co.paa"
+		};
+		magazines[]=
+		{
+			"6Rnd_45ACP_Cylinder_blue_tracer"
+		};
+		magazineWell[]=
+		{
+			"Cylinder_45ACP_XDF"
+		};
+	};
 
 	// Long Range Rifles
 	class srifle_DMR_03_F;

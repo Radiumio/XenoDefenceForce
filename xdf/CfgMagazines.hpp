@@ -413,6 +413,17 @@ class CfgMagazines
 		lastRoundsTracer=4;
 	};
 
+	class 6Rnd_45ACP_Cylinder;
+	class 6Rnd_45ACP_Cylinder_blue_tracer: 6Rnd_45ACP_Cylinder
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP 6Rnd Cylinder (NEMESIS-AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACP_Nemesis_blue";
+		tracersEvery=1;
+	};
+
 	class 20Rnd_762x51_Mag;
 	class 20Rnd_762x51_Mag_blue_tracer: 20Rnd_762x51_Mag
 	{

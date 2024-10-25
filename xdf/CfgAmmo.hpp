@@ -154,6 +154,12 @@ class CfgAmmo
 		hit=10; // default 5, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_45ACP_Ball;
+	class B_45ACP_Nemesis_blue: B_45ACP_Ball
+	{
+		hit=30; // default 5, experimental nemesis munitions add 20
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
 	class B_570x28_Ball;
 	class B_570x28_Ball_blue: B_570x28_Ball
 	{
