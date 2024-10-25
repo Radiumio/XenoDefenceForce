@@ -684,6 +684,28 @@ class CfgMagazines
 		displaynameshort="AX R-Tracer";
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=4;
-		lastRoundsTracer=4;
+		lastRoundsTracer=10;
+	};
+
+	class 200Rnd_65x39_cased_Box_Tracer_Red;
+	class 200Rnd_65x39_cased_Box_blue_tracer: 200Rnd_65x39_cased_Box_Tracer_Red
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 200Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+	};
+	class 200Rnd_65x39_cased_Box_Tracer_Red;
+	class 200Rnd_65x39_cased_Box_blue_reload_tracer: 200Rnd_65x39_cased_Box_Tracer_Red
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 200Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=10;
 	};
 };

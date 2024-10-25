@@ -1882,6 +1882,7 @@ class cfgWeapons
 	class MMG_01_tan_F;
 	class MMG_02_black_F;
 	class LMG_03_F;
+	class LMG_Mk200_black_F;
 	class XDF_MMG_01_black: MMG_01_tan_F
 	{
 		author="Radium";
@@ -1954,6 +1955,23 @@ class cfgWeapons
 		magazineWell[] +=
 		{
 			"M249_556x45_XDF"
+		};
+	};
+	class XDF_LMG_Mk200: LMG_Mk200_black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF M-4 Stoner 99";
+		baseWeapon="XDF_LMG_Mk200";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\m200\1st_person_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\m200\body_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\m200\grip_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Mk200_65x39_XDF"
 		};
 	};
 
