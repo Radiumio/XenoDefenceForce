@@ -217,4 +217,14 @@ class CfgMagazineWells
 			"200Rnd_556x45_Box_Tracer_blue_reload_tracer"
 		};
 	};
+	class AK_762x39_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"30Rnd_762x39_AK12_Mag_blue_tracer",
+			"30Rnd_762x39_AK12_Mag_blue_reload_tracer",
+			"75Rnd_762x39_AK12_Mag_blue_tracer",
+			"75Rnd_762x39_AK12_Mag_blue_reload_tracer"
+		};
+	};
 };

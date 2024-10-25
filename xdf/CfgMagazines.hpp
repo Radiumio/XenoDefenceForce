@@ -642,4 +642,48 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=10;
 	};
+
+	class 30Rnd_762x39_AK12_Mag_Tracer_F;
+	class 30Rnd_762x39_AK12_Mag_blue_tracer: 30Rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 30rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_762x39_AK12_Mag_Tracer_F;
+	class 30Rnd_762x39_AK12_Mag_blue_reload_tracer: 30Rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 30rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 75rnd_762x39_AK12_Mag_Tracer_F;
+	class 75Rnd_762x39_AK12_Mag_blue_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 75rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=1;
+	};
+	class 75rnd_762x39_AK12_Mag_Tracer_F;
+	class 75Rnd_762x39_AK12_Mag_blue_reload_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 75rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };

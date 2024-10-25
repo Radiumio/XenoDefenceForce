@@ -981,6 +981,10 @@ class cfgWeapons
 	class arifle_CTAR_blk_F;
 	class arifle_CTAR_GL_blk_F;
 	class arifle_CTARS_blk_F;
+	class arifle_AK12_F;
+	class arifle_AK12_GL_F;
+	class arifle_AK12U_F;
+	class arifle_RPK12_F;
 	class Secondary;
 	class UGL;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
@@ -1372,6 +1376,87 @@ class cfgWeapons
 		{
 			"CTAR_580x42_XDF",
 			"CTAR_580x42_Large_XDF"
+		};
+	};
+	class arifle_AK12_XDF_F: arifle_AK12_F
+	{
+		author="Radium";
+		_generalMacro="arifle_AK12_F";
+		scope=2;
+		displayName="XDF S-16 AK-12";
+		baseWeapon="arifle_AK12_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"AK_762x39_XDF"
+		};
+	};
+	class arifle_AK12_GL_XDF_F: arifle_AK12_GL_F
+	{
+		author="Radium";
+		_generalMacro="arifle_AK12_GL_F";
+		scope=2;
+		displayName="XDF S-17 AK-12 GL";
+		baseWeapon="arifle_AK12_GL_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_gl_co"
+		};
+		class EGLM: EGLM
+		{
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+		magazineWell[] +=
+		{
+			"AK_762x39_XDF"
+		};
+	};
+	class arifle_AK12U_XDF_F: arifle_AK12U_F
+	{
+		author="Radium";
+		_generalMacro="arifle_AK12U_F";
+		scope=2;
+		displayName="XDF S-18 AK-12U";
+		baseWeapon="arifle_AK12U_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\aku12_rpk12_parts_co"
+		};
+		magazineWell[] +=
+		{
+			"AK_762x39_XDF"
+		};
+	};
+	class arifle_RPK12_XDF_F: arifle_RPK12_F
+	{
+		author="Radium";
+		_generalMacro="arifle_RPK12_F";
+		scope=2;
+		displayName="XDF S-19 RPK-12";
+		baseWeapon="arifle_RPK12_XDF_F";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\ak12\aku12_rpk12_parts_co"
+		};
+		magazineWell[] +=
+		{
+			"AK_762x39_XDF"
 		};
 	};
 

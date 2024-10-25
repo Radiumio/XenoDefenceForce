@@ -222,4 +222,10 @@ class CfgAmmo
 		hit=15; // default 10, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_762x39_Ball_F;
+	class B_762x39_Ball_blue: B_762x39_Ball_F
+	{
+		hit=13; // default 8, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 };
