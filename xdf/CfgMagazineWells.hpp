@@ -217,4 +217,37 @@ class CfgMagazineWells
 			"200Rnd_556x45_Box_Tracer_blue_reload_tracer"
 		};
 	};
+	class AK_762x39_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"30Rnd_762x39_AK12_Mag_blue_tracer",
+			"30Rnd_762x39_AK12_Mag_blue_reload_tracer",
+			"75Rnd_762x39_AK12_Mag_blue_tracer",
+			"75Rnd_762x39_AK12_Mag_blue_reload_tracer"
+		};
+	};
+	class Mk200_65x39_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"200Rnd_65x39_cased_Box_blue_tracer",
+			"200Rnd_65x39_cased_Box_blue_reload_tracer"
+		};
+	};
+	class Katiba_65x39_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"30Rnd_65x39_caseless_mag_blue_tracer",
+			"30Rnd_65x39_caseless_mag_blue_reload_tracer"
+		};
+	};
+	class Cylinder_45ACP_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"6Rnd_45ACP_Cylinder_blue_tracer"
+		};
+	};
 };

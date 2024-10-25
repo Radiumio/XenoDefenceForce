@@ -9,6 +9,7 @@
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgMarkers.hpp"
+#include "CfgRecoils.hpp"
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"

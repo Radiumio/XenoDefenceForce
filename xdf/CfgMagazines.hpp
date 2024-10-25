@@ -413,6 +413,17 @@ class CfgMagazines
 		lastRoundsTracer=4;
 	};
 
+	class 6Rnd_45ACP_Cylinder;
+	class 6Rnd_45ACP_Cylinder_blue_tracer: 6Rnd_45ACP_Cylinder
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP 6Rnd Cylinder (NEMESIS-AX)";
+		displaynameshort="NEMESIS-AX";
+		ammo="B_45ACP_Nemesis_blue";
+		tracersEvery=1;
+	};
+
 	class 20Rnd_762x51_Mag;
 	class 20Rnd_762x51_Mag_blue_tracer: 20Rnd_762x51_Mag
 	{
@@ -639,6 +650,94 @@ class CfgMagazines
 		displayName="5.56 mm 200Rnd Reload Tracer Mag (AX)";
 		displaynameshort="AX R-Tracer";
 		ammo="B_556x45_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=10;
+	};
+
+	class 30Rnd_762x39_AK12_Mag_Tracer_F;
+	class 30Rnd_762x39_AK12_Mag_blue_tracer: 30Rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 30rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_762x39_AK12_Mag_Tracer_F;
+	class 30Rnd_762x39_AK12_Mag_blue_reload_tracer: 30Rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 30rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+
+	class 75rnd_762x39_AK12_Mag_Tracer_F;
+	class 75Rnd_762x39_AK12_Mag_blue_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 75rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=1;
+	};
+	class 75rnd_762x39_AK12_Mag_Tracer_F;
+	class 75Rnd_762x39_AK12_Mag_blue_reload_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 75rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_762x39_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=10;
+	};
+
+	class 200Rnd_65x39_cased_Box_Tracer_Red;
+	class 200Rnd_65x39_cased_Box_blue_tracer: 200Rnd_65x39_cased_Box_Tracer_Red
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 200Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+	};
+	class 200Rnd_65x39_cased_Box_Tracer_Red;
+	class 200Rnd_65x39_cased_Box_blue_reload_tracer: 200Rnd_65x39_cased_Box_Tracer_Red
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 200Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=4;
+		lastRoundsTracer=10;
+	};
+
+	class 30Rnd_65x39_caseless_green_mag_Tracer;
+	class 30Rnd_65x39_caseless_mag_blue_tracer: 30Rnd_65x39_caseless_green_mag_Tracer
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_65x39_Caseless_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_65x39_caseless_green_mag_Tracer;
+	class 30Rnd_65x39_caseless_mag_blue_reload_tracer: 30Rnd_65x39_caseless_green_mag_Tracer
+	{
+		author="Radium";
+		scope=2;
+		displayName="6.5 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_65x39_Caseless_blue";
 		tracersEvery=4;
 		lastRoundsTracer=10;
 	};

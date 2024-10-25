@@ -22345,6 +22345,46 @@ class CfgVehicles
 			assembleTo="XDF_Mosquito";
 		};
 	};
+	class B_XDF_Patrol_Backpack: Weapon_Bag_Base
+	{
+		author="Radium";
+		mapSize=0.60000002;
+		_generalMacro="B_UAV_01_backpack_F";
+		scope=2;
+		scopeCurator=2;
+		displayName="XDF Patrol Backpack";
+		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+		editorCategory="EdCat_Equipment";
+		editorSubcategory="EdSubcat_Backpacks";
+		faction="B_XDF";
+		picture="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Patrol_Backpack.paa"
+		};
+		maximumLoad=400;
+		mass=75;
+	};
+	class B_XDF_Patrol_Backpack_med: Weapon_Bag_Base
+	{
+		author="Radium";
+		mapSize=0.60000002;
+		_generalMacro="B_UAV_01_backpack_F";
+		scope=2;
+		scopeCurator=2;
+		displayName="XDF Patrol Backpack (Medical)";
+		model="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
+		editorCategory="EdCat_Equipment";
+		editorSubcategory="EdSubcat_Backpacks";
+		faction="B_XDF";
+		picture="\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Patrol_Backpack_med.paa"
+		};
+		maximumLoad=400;
+		mass=75;
+	};
 	class B_XDF_Sentinel_Backpack: Weapon_Bag_Base
 	{
 		author="Radium";
