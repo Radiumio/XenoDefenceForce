@@ -1705,6 +1705,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF H-4 'Nemesis'";
 		baseWeapon="XDF_hgun_Pistol_heavy_02_F";
+		recoil="recoil_pistol_nemesis";
 		hiddenSelections[]=
 		{
 			"camo",

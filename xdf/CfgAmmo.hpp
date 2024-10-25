@@ -159,6 +159,7 @@ class CfgAmmo
 	{
 		hit=30; // default 5, experimental nemesis munitions add 20
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+		typicalSpeed=330;
 	};
 	class B_570x28_Ball;
 	class B_570x28_Ball_blue: B_570x28_Ball
