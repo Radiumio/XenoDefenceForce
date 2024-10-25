@@ -1501,7 +1501,7 @@ class cfgWeapons
 			};
 			reloadMagazineSound[]=
 			{
-				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				"\xdf\sounds\reloads\khaybar_gl_reload.ogg",
 				4,
 				1,
 				10
@@ -2039,6 +2039,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\m200\1st_person_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\m200\body_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\m200\grip_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\stoner_reload.ogg",
+			4,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
