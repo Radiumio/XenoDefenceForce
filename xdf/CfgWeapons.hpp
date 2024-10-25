@@ -1490,6 +1490,23 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
 		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
 		magazineWell[] +=
 		{
 			"Katiba_65x39_XDF"
