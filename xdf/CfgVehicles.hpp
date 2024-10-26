@@ -225,7 +225,7 @@ class CfgVehicles
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
 	{
-		author="$STR_A3_Bohemia_Interactive";
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -235,11 +235,121 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_XenoDefenceForce.jpg";
+		editorPreview="\xdf\previews\misc\Banner_TaskForceLotus.jpg";
 		_generalMacro="Banner_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
 		displayName="Banner (XDF - Task Force Lotus)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\lotus_flag.paa"
+		};
+	};
+	class Banner_TaskForceArtificer: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceArtificer.jpg";
+		_generalMacro="Banner_TaskForceArtificer";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Artificer)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\artificer_flag.paa"
+		};
+	};
+	class Banner_TaskForceCeto: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceCeto.jpg";
+		_generalMacro="Banner_TaskForceCeto";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Ceto)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\ceto_flag.paa"
+		};
+	};
+	class Banner_TaskForceDamocles: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceDamocles.jpg";
+		_generalMacro="Banner_TaskForceDamocles";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Damocles)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\damocles_flag.paa"
+		};
+	};
+	class Banner_TaskForceIon: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceIon.jpg";
+		_generalMacro="Banner_TaskForceIon";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Ion)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\ion_flag.paa"
+		};
+	};
+	class Banner_XenoDefenceForce: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_XenoDefenceForce.jpg";
+		_generalMacro="Banner_XenoDefenceForce";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (Xeno Defence Force)";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\xdf_flag.paa"
