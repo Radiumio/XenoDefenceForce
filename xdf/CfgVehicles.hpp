@@ -77,6 +77,122 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\lotus_flag.paa'";
 		};
 	};
+    class Flag_TaskForceArtificer: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceArtificer.jpg";
+		_generalMacro="Flag_TaskForceArtificer";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Artificer)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\artificer_flag.paa'";
+		};
+	};
+    class Flag_TaskForceCeto: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceCeto.jpg";
+		_generalMacro="Flag_TaskForceCeto";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Ceto)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\ceto_flag.paa'";
+		};
+	};
+    class Flag_TaskForceDamocles: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceDamocles.jpg";
+		_generalMacro="Flag_TaskForceDamocles";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Damocles)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\damocles_flag.paa'";
+		};
+	};
+    class Flag_TaskForceIon: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceIon.jpg";
+		_generalMacro="Flag_TaskForceIon";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Ion)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\ion_flag.paa'";
+		};
+	};
     class Flag_XenoDefenceForce: FlagCarrier
 	{
 		author="Radium";
