@@ -222,6 +222,31 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\xdf_flag.paa'";
 		};
 	};
+	class Banner_01_F;
+	class Banner_TaskForceLotus: Banner_01_F
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_XenoDefenceForce.jpg";
+		_generalMacro="Banner_TaskForceLotus";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Lotus)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\xdf_flag.paa"
+		};
+	};
+
+
 	class B_Plane_Fighter_01_F;
 	class XDF_Gemini: B_Plane_Fighter_01_F
     {
