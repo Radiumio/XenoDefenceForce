@@ -1530,6 +1530,59 @@ class cfgWeapons
 			"Katiba_65x39_XDF"
 		};
 	};
+	class arifle_TRG21_F;
+	class arifle_TRG21_XDF: arifle_TRG21_F
+	{
+		author="Radium";
+		_generalMacro="arifle_TRG21_F";
+		scope=2;
+		displayName="XDF S-23 TAR-21";
+		baseWeapon="arifle_TRG21_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
+	class arifle_TRG20_F;
+	class arifle_TRG20_XDF: arifle_TRG20_F
+	{
+		author="Radium";
+		_generalMacro="arifle_TRG20_F";
+		scope=2;
+		displayName="XDF S-22 CTAR-21";
+		baseWeapon="arifle_TRG20_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
+	class arifle_TRG21_GL_F;
+	class arifle_TRG21_GL_XDF: arifle_TRG21_GL_F
+	{
+		author="Radium";
+		_generalMacro="arifle_TRG21_GL_F";
+		scope=2;
+		displayName="XDF S-23 GTAR-21 EGLM";
+		baseWeapon="arifle_TRG21_GL_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_eglm_co.paa",
+			"\a3\weapons_f\data\gl_holo_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
 
 	// SMGs
 	class SMG_01_F;
