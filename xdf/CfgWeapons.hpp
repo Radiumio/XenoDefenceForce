@@ -1530,29 +1530,17 @@ class cfgWeapons
 			"Katiba_65x39_XDF"
 		};
 	};
-	class arifle_TRG21_F;
-	class arifle_TRG21_XDF: arifle_TRG21_F
-	{
-		author="Radium";
-		scope=2;
-		displayName="XDF S-23 TAR-21";
-		baseWeapon="arifle_TRG21_XDF";
-		hiddenSelectionsTextures[]=
-		{
-			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
-		};
-		magazineWell[] +=
-		{
-			"STANAG_556x45_XDF"
-		};
-	};
 	class arifle_TRG20_F;
 	class arifle_TRG20_XDF: arifle_TRG20_F
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF S-24 CTAR-21";
+		displayName="XDF S-23 CTAR-21";
 		baseWeapon="arifle_TRG20_XDF";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
@@ -1567,8 +1555,14 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF S-25 GTAR-21 EGLM";
+		displayName="XDF S-24 GTAR-21 EGLM";
 		baseWeapon="arifle_TRG21_GL_XDF";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa",
