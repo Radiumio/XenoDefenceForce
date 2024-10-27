@@ -66,8 +66,8 @@ class CfgMagazines
 	//{
 	//	author="Radium";
 	//	scope=2;
-	//	displayName="MAAWS Experimental Nuclear Round";
-	//	displaynameshort="EXP-NUKE";
+	//	displayName="MAAWS Experimental Thermobaric Round";
+	//	displaynameshort="EXP-FAE";
 	//	ammo="R_MRAAWS_HE_NUKE_XDF";
 	//	mass=250;
 	//};
