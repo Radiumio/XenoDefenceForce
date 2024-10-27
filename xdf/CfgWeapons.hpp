@@ -1534,7 +1534,6 @@ class cfgWeapons
 	class arifle_TRG21_XDF: arifle_TRG21_F
 	{
 		author="Radium";
-		_generalMacro="arifle_TRG21_F";
 		scope=2;
 		displayName="XDF S-23 TAR-21";
 		baseWeapon="arifle_TRG21_XDF";
@@ -1551,9 +1550,8 @@ class cfgWeapons
 	class arifle_TRG20_XDF: arifle_TRG20_F
 	{
 		author="Radium";
-		_generalMacro="arifle_TRG20_F";
 		scope=2;
-		displayName="XDF S-23 CTAR-21";
+		displayName="XDF S-24 CTAR-21";
 		baseWeapon="arifle_TRG20_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1568,9 +1566,8 @@ class cfgWeapons
 	class arifle_TRG21_GL_XDF: arifle_TRG21_GL_F
 	{
 		author="Radium";
-		_generalMacro="arifle_TRG21_GL_F";
 		scope=2;
-		displayName="XDF S-24 GTAR-21 EGLM";
+		displayName="XDF S-25 GTAR-21 EGLM";
 		baseWeapon="arifle_TRG21_GL_XDF";
 		hiddenSelectionsTextures[]=
 		{
