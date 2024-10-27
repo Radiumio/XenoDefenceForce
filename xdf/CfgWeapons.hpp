@@ -1553,7 +1553,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_TRG20_F";
 		scope=2;
-		displayName="XDF S-22 CTAR-21";
+		displayName="XDF S-23 CTAR-21";
 		baseWeapon="arifle_TRG20_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1570,13 +1570,30 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_TRG21_GL_F";
 		scope=2;
-		displayName="XDF S-23 GTAR-21 EGLM";
+		displayName="XDF S-24 GTAR-21 EGLM";
 		baseWeapon="arifle_TRG21_GL_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_eglm_co.paa",
 			"\a3\weapons_f\data\gl_holo_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\trg_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
 		};
 		magazineWell[] +=
 		{
