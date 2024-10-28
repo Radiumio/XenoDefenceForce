@@ -13,6 +13,8 @@ class CfgPatches
 			"A3_Weapons_F_Mod",
 			"A3_Weapons_F_Mark",
 			"A3_Weapons_F_Tank",
+			"A3_Data_F_Tank",
+			"A3_Sounds_F",
 			"A3_Data_F_Decade",
 			"A3_Armor_F_Gamma"
 		};

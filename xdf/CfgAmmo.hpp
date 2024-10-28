@@ -49,48 +49,48 @@ class CfgAmmo
 		hit=400;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_HEAT55_XDF";
 	};
-	//class R_MRAAWS_HE_F;
-	//class R_MRAAWS_HE_NUKE_XDF: R_MRAAWS_HE_F
-	//{
-	//	hit=3500;
-	//	indirectHit=800;
-	//	indirectHitRange=15;
-	//	CraterEffects="HeavyBombCrater";
-	//	ExplosionEffects="HeavyBombExplosion"
-	//	explosive=1;
-	//	fuseDistance=100;
-	//	soundHit1[]=
-	//	{
-	//		"\xdf\sounds\exp\maaws_thermobaric_1",
-	//		2.5118864,
-	//		1,
-	//		1800
-	//	};
-	//	soundHit2[]=
-	//	{
-	//		"\xdf\sounds\exp\maaws_thermobaric_2",
-	//		2.5118864,
-	//		1,
-	//		1800
-	//	};
-	//	soundHit3[]=
-	//	{
-	//		"\xdf\sounds\exp\maaws_thermobaric_3",
-	//		2.5118864,
-	//		1,
-	//		1800
-	//	};
-	//	multiSoundHit[]=
-	//	{
-	//		"soundHit1",
-	//		0.34,
-	//		"soundHit2",
-	//		0.33000001,
-	//		"soundHit3",
-	//		0.33000001
-	//	};
-	//	effectsMissile="XDF_Thermobaric";
-	//};
+	class R_MRAAWS_HE_F;
+	class R_MRAAWS_HE_NUKE_XDF: R_MRAAWS_HE_F
+	{
+		hit=3500;
+		indirectHit=800;
+		indirectHitRange=15;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="HeavyBombExplosion"
+		explosive=1;
+		fuseDistance=100;
+		soundHit1[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_1",
+			5,
+			1,
+			2200
+		};
+		soundHit2[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_2",
+			5,
+			1,
+			2200
+		};
+		soundHit3[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_3",
+			5,
+			1,
+			2200
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.34,
+			"soundHit2",
+			0.33000001,
+			"soundHit3",
+			0.33000001
+		};
+		effectsMissile="XDF_Thermobaric";
+	};
 	class ammo_Penetrator_Base;
 	class ammo_Penetrator_Titan_AT_XDF: ammo_Penetrator_Base
 	{

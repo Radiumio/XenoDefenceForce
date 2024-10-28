@@ -61,16 +61,16 @@ class CfgMagazines
 		ammo="R_MRAAWS_HEAT55_XDF";
 		mass=100;
 	};
-	//class MRAWS_HE_F;
-	//class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
-	//{
-	//	author="Radium";
-	//	scope=2;
-	//	displayName="MAAWS Experimental Thermobaric Round";
-	//	displaynameshort="EXP-FAE";
-	//	ammo="R_MRAAWS_HE_NUKE_XDF";
-	//	mass=250;
-	//};
+	class MRAWS_HE_F;
+	class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="MAAWS Experimental Thermobaric Round";
+		displaynameshort="EXP-FAE";
+		ammo="R_MRAAWS_HE_NUKE_XDF";
+		mass=250;
+	};
 
 	// vehicles
 	class VehicleMagazine;

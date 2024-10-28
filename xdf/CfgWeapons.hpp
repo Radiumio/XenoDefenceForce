@@ -2158,7 +2158,8 @@ class cfgWeapons
 			"MRAWS_HEAT55_F",
 			"MRAWS_HEAT55_F",
 			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT55_XDF"
+			"MRAAWS_HEAT55_XDF",
+			"MRAAWS_HE_NUKE_XDF"
 		};
 		hiddenSelectionsTextures[]=
 		{
