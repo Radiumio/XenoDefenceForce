@@ -69,7 +69,7 @@ class CfgMagazines
 		displayName="MAAWS Experimental Thermobaric Round";
 		displaynameshort="EXP-FAE";
 		ammo="R_MRAAWS_HE_NUKE_XDF";
-		mass=250;
+		mass=75;
 	};
 
 	// vehicles
