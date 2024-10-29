@@ -2205,6 +2205,18 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
 		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
 	};
 	class XDF_launch_B_Titan_short: launch_B_Titan_short_F
 	{
@@ -2916,6 +2928,27 @@ class cfgWeapons
 			midRangeProbab=0.30000001;
 			maxRange=1500;
 			maxRangeProbab=0.050000001;
+		};
+	};
+	class weapon_AMRAAMLauncher;
+	class weapon_AMRAAMLauncher: weapon_AMRAAMLauncher
+	{
+		magazines[]+=
+		{
+			"magazine_Missile_AXInterceptor_D_x1",
+			"PylonRack_Missile_AXInterceptor_D_x1"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			0.316228,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			0.316228,
+			2.5
 		};
 	};
 };

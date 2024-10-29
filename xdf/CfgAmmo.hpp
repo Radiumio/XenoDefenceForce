@@ -149,6 +149,14 @@ class CfgAmmo
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class ammo_Missile_AMRAAM_D;
+	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
+	{
+		hit=2000;
+		maxSpeed=2500;
+		effectsMissile="XDF_Missile3";
+		manuevrability=36;
+	};
 
 	// infantry weapons 
 	class B_65x39_Caseless;
