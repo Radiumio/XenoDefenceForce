@@ -134,7 +134,8 @@ class CfgMagazines
 			"B_AMRAAM_D",
 			"B_AMRAAM_D_INT",
 			"O_R73",
-			"O_R77"
+			"O_R77",
+			"O_R77_INT"
 		};
 		pylonWeapon="weapon_AXMissileLauncher";
 		ejectSpeed[]={1,0,0};
@@ -152,7 +153,25 @@ class CfgMagazines
 		{
 			"B_AGM65_RAIL",
 			"B_AGM65_DUAL_RAIL",
-			"O_KH25"
+			"O_KH25",
+			"O_KH25_INT"
+		};
+		pylonWeapon="weapon_AXGMLauncher";
+		ejectSpeed[]={1,0,0};
+	};
+	class magazine_Missile_AGM_02_x1;
+	class magazine_Missile_AXGMx2_02_F: magazine_Missile_AGM_02_x1
+	{
+		displayName="AXGM-85 Dynamo x2";
+		displayNameShort="AX-AGM";
+		descriptionShort="Short-range, infrared-guided, air-to-surface missile with powerful anti-xeno warhead"
+		ammo="ammo_Missile_AXGM_02_F";
+		model="\A3\Weapons_F_Jets\Ammo\PylonPod_Missile_AGM_02_x2_F";
+		count=2;
+		hardpoints[]=
+		{
+			"B_MISSILE_PYLON",
+			"O_MISSILE_PYLON"
 		};
 		pylonWeapon="weapon_AXGMLauncher";
 		ejectSpeed[]={1,0,0};

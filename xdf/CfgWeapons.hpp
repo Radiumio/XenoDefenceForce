@@ -2957,7 +2957,8 @@ class cfgWeapons
 		displayName="AXGM-85 Dynamo";
 		magazines[]=
 		{
-			"magazine_Missile_AXGM_02_F"
+			"magazine_Missile_AXGM_02_F",
+			"magazine_Missile_AXGMx2_02_F"
 		};
 		lockingTargetSound[]=
 		{
