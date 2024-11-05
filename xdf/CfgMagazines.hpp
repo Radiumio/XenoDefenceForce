@@ -123,7 +123,7 @@ class CfgMagazines
 	class magazine_Missile_AXInterceptor_D_x1: magazine_Missile_AMRAAM_D_x1
 	{
 		displayName="AX-78 Peregrine";
-		displayNameShort="AX-INTER";
+		displayNameShort="AX-AA";
 		descriptionShort="Medium-range, signature radar-guided, air-to-air missile with powerful anti-xeno warhead"
 		ammo="ammo_Missile_AXInterceptor_D";
 		count=1;
