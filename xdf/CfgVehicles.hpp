@@ -16182,7 +16182,11 @@ class CfgVehicles
 		};
     };
 	class B_Plane_CAS_01_dynamicLoadout_F;
-	class XDF_Tusk: B_Plane_CAS_01_dynamicLoadout_F
+	class B_Plane_CAS_01_dynamicLoadout_F_OCimport_01 : B_Plane_CAS_01_dynamicLoadout_F { scope = 0; class AnimationSources; };
+	class B_Plane_CAS_01_dynamicLoadout_F_OCimport_02 : B_Plane_CAS_01_dynamicLoadout_F_OCimport_01 {
+		class AnimationSources;
+	};
+	class XDF_Tusk: B_Plane_CAS_01_dynamicLoadout_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -16202,6 +16206,36 @@ class CfgVehicles
 		{
 			"\xdf\retextures\tusk\plane_cas_01_ext01_co.paa",
 			"\xdf\retextures\tusk\plane_cas_01_ext02_co.paa"
+		};
+		weapons[]=
+		{
+			"Gatling_30mm_AX_CAS_01_F",
+			"Laserdesignator_pilotCamera",
+			"CMFlareLauncher"
+		};
+		magazines[]=
+		{
+			"1000Rnd_Gatling_30mm_AX_CAS_01_F",
+			"Laserbatteries",
+			"120Rnd_CMFlare_Chaff_Magazine"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling_30mm_ammorandom
+			{
+				source="ammorandom";
+				weapon="Gatling_30mm_AX_CAS_01_F";
+			};
+			class Gatling_30mm_reload
+			{
+				source="reload";
+				weapon="Gatling_30mm_AX_CAS_01_F";
+			};
+			class Gatling_30mm_revolving
+			{
+				source="revolving";
+				weapon="Gatling_30mm_AX_CAS_01_F";
+			};
 		};
 	};
 	class O_Plane_CAS_02_dynamicLoadout_F;

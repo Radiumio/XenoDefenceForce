@@ -165,6 +165,12 @@ class CfgAmmo
 		effectsMissile="XDF_Missile3";
 		manuevrability=30;
 	};
+	class Gatling_30mm_HE_Plane_CAS_01_F;
+	class Gatling_30mm_HE_AX_CAS_01_F: Gatling_30mm_HE_Plane_CAS_01_F
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=220;
+	};
 
 	// infantry weapons 
 	class B_65x39_Caseless;

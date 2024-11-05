@@ -178,6 +178,15 @@ class CfgMagazines
 		mirrorMissilesIndexes[]={2,1,3};
 		ejectSpeed[]={1,0,0};
 	};
+	class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
+	class 1000Rnd_Gatling_30mm_AX_CAS_01_F: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
+	{
+		author="Radium";
+		displayNameShort="AX-HE";
+		ammo="Gatling_30mm_HE_AX_CAS_01_F";
+		count=1000;
+		tracersEvery=1;
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

@@ -2973,4 +2973,13 @@ class cfgWeapons
 			2.5
 		};
 	};
+	class Gatling_30mm_Plane_CAS_01_F;
+	class Gatling_30mm_AX_CAS_01_F: Gatling_30mm_Plane_CAS_01_F
+	{
+		displayName="GAU-15 Retaliator";
+		magazines[]=
+		{
+			"1000Rnd_Gatling_30mm_AX_CAS_01_F"
+		};
+	};
 };
