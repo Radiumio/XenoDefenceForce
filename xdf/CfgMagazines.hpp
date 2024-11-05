@@ -127,15 +127,34 @@ class CfgMagazines
 		descriptionShort="Medium-range, signature radar-guided, air-to-air missile with powerful anti-xeno warhead"
 		ammo="ammo_Missile_AXInterceptor_D";
 		count=1;
-		//displayName="$STR_A3_Missile_AMRAAM_D_x1_magazine_name";
 		model="\A3\Weapons_F_Jets\Ammo\PylonPod_Missile_AA_06_Rail_x1_F";
 		hardpoints[]=
 		{
 			"B_AMRAAM_D_RAIL",
 			"B_AMRAAM_D",
-			"B_AMRAAM_D_INT"
+			"B_AMRAAM_D_INT",
+			"O_R73",
+			"O_R77"
 		};
 		pylonWeapon="weapon_AXMissileLauncher";
+		ejectSpeed[]={1,0,0};
+	};
+	class magazine_Missile_AGM_02_x1;
+	class magazine_Missile_AXGM_02_F: magazine_Missile_AGM_02_x1
+	{
+		displayName="AXGM-85 Dynamo";
+		displayNameShort="AX-AGM";
+		descriptionShort="Short-range, infrared-guided, air-to-surface missile with powerful anti-xeno warhead"
+		ammo="ammo_Missile_AXGM_02_F";
+		model="\A3\Weapons_F_Jets\Ammo\PylonPod_Missile_AGM_02_x1_F";
+		count=1;
+		hardpoints[]=
+		{
+			"B_AGM65_RAIL",
+			"B_AGM65_DUAL_RAIL",
+			"O_KH25"
+		};
+		pylonWeapon="weapon_AXGMLauncher";
 		ejectSpeed[]={1,0,0};
 	};
 

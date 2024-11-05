@@ -157,6 +157,14 @@ class CfgAmmo
 		effectsMissile="XDF_Missile3";
 		manuevrability=36;
 	};
+	class Missile_AGM_02_F;
+	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
+	{
+		hit=2500;
+		maxSpeed=2100;
+		effectsMissile="XDF_Missile3";
+		manuevrability=30;
+	};
 
 	// infantry weapons 
 	class B_65x39_Caseless;

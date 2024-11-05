@@ -2951,4 +2951,25 @@ class cfgWeapons
 			2.5
 		};
 	};
+	class weapon_AGM_65Launcher;
+	class weapon_AXGMLauncher: weapon_AGM_65Launcher
+	{
+		displayName="AXGM-85 Dynamo";
+		magazines[]=
+		{
+			"magazine_Missile_AXGM_02_F"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			0.316228,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			0.316228,
+			2.5
+		};
+	};
 };
