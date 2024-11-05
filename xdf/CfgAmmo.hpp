@@ -152,8 +152,8 @@ class CfgAmmo
 	class ammo_Missile_AMRAAM_D;
 	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
 	{
-		model="xdf\weapons\ax87\missile_aa_06_fly_f.p3d";
-		proxyShape="xdf\weapons\ax87\missile_aa_06_f.p3d";
+		model="xdf\weapons\ax78\missile_aa_06_fly_f.p3d";
+		proxyShape="xdf\weapons\ax78\missile_aa_06_f.p3d";
 		hit=2000;
 		maxSpeed=2900;
 		thrust=350;
