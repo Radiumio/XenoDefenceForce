@@ -358,11 +358,7 @@ class CfgVehicles
 
 
 	class B_Plane_Fighter_01_F;
-	class B_Plane_Fighter_01_F_OCimport_01 : B_Plane_Fighter_01_F { scope = 0; class AnimationSources };
-	class B_Plane_Fighter_01_F_OCimport_02 : B_Plane_Fighter_01_F_OCimport_01 {
-		class AnimationSources;
-	};
-	class XDF_Gemini: B_Plane_Fighter_01_F_OCimport_02
+	class XDF_Gemini: B_Plane_Fighter_01_F
     {
 		author="Radium";
 		scope = 2;
@@ -427,31 +423,6 @@ class CfgVehicles
 		{
 			"XDF",
 			1
-		};
-		weapons[]=
-		{
-			"weapon_Fighter_Gun20mm_AX",
-			"Laserdesignator_pilotCamera",
-			"CMFlareLauncher_Singles"
-		};
-		magazines[]=
-		{
-			"magazine_Fighter01_Gun20mm_AX_x450",
-			"Laserbatteries",
-			"240Rnd_CMFlare_Chaff_Magazine"
-		};
-		class AnimationSources: AnimationSources
-		{
-			class muzzle_rot_20mm
-			{
-				source="ammorandom";
-				weapon="weapon_Fighter_Gun20mm_AX";
-			};
-			class mfd_ammo_count_source
-			{
-				source="revolving";
-				weapon="weapon_Fighter_Gun20mm_AX";
-			};
 		};
 		fuelCapacity=3000; // Default 1550
 		armor=240; // Default 60
@@ -580,11 +551,7 @@ class CfgVehicles
 		};    			
     };
 	class O_Plane_Fighter_02_F;
-	class O_Plane_Fighter_02_F_OCimport_01 : O_Plane_Fighter_02_F { scope = 0; class AnimationSources; };
-	class O_Plane_Fighter_02_F_OCimport_02 : O_Plane_Fighter_02_F_OCimport_01 {
-		class AnimationSources;
-	};
-	class XDF_Accipiter: O_Plane_Fighter_02_F_OCimport_02
+	class XDF_Accipiter: O_Plane_Fighter_02_F
     {
 		author="Radium";
 		scope = 2;
@@ -637,26 +604,6 @@ class CfgVehicles
 		{
 			"XDF",
 			1
-		};
-		weapons[]=
-		{
-			"weapon_Fighter_Gun_30mm_AX",
-			"Laserdesignator_pilotCamera",
-			"CMFlareLauncher"
-		};
-		magazines[]=
-		{
-			"magazine_Fighter02_Gun30mm_AX_x180",
-			"Laserbatteries",
-			"240Rnd_CMFlare_Chaff_Magazine"
-		};
-		class AnimationSources: AnimationSources
-		{
-			class muzzle_rot_30mm
-			{
-				source="ammorandom";
-				weapon="weapon_Fighter_Gun_30mm_AX";
-			};
 		};
 		fuelCapacity=5080; // Default 2540
 		armor=325; // Default 65

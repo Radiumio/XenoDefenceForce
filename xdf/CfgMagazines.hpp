@@ -187,24 +187,6 @@ class CfgMagazines
 		count=1000;
 		tracersEvery=1;
 	};
-	class magazine_Fighter01_Gun20mm_AA_x450;
-	class magazine_Fighter01_Gun20mm_AX_x450: magazine_Fighter01_Gun20mm_AA_x450
-	{
-		author="Radium";
-		displayNameShort="AX-HE";
-		ammo="ammo_Fighter01_Gun20mm_AX";
-		count=450;
-		tracersEvery=1;
-	};
-	class magazine_Fighter02_Gun30mm_AA_x180;
-	class magazine_Fighter02_Gun30mm_AX_x180: magazine_Fighter02_Gun30mm_AA_x180
-	{
-		author="Radium";
-		displayNameShort="AX-HE";
-		ammo="ammo_Fighter02_Gun30mm_AX";
-		count=180;
-		tracersEvery=1;
-	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

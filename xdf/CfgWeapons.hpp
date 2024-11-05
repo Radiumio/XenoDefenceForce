@@ -2982,22 +2982,4 @@ class cfgWeapons
 			"1000Rnd_Gatling_30mm_AX_CAS_01_F"
 		};
 	};
-	class weapon_Fighter_Gun20mm_AA;
-	class weapon_Fighter_Gun20mm_AX: weapon_Fighter_Gun20mm_AA
-	{
-		//displayName="GAU-15 Retaliator";
-		magazines[]=
-		{
-			"magazine_Fighter01_Gun20mm_AX_x450"
-		};
-	};
-	class weapon_Fighter_Gun_30mm;
-	class weapon_Fighter_Gun_30mm_AX: weapon_Fighter_Gun_30mm
-	{
-		//displayName="GAU-15 Retaliator";
-		magazines[]=
-		{
-			"magazine_Fighter02_Gun30mm_AX_x180"
-		};
-	};
 };

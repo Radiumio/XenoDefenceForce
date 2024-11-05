@@ -171,18 +171,6 @@ class CfgAmmo
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		hit=220;
 	};
-	class ammo_Fighter01_Gun20mm_AA;
-	class ammo_Fighter01_Gun20mm_AX: ammo_Fighter01_Gun20mm_AA
-	{
-		model="xdf\weapons\tracer_blue\tracer_blue";
-		hit=100; // default 60
-	};
-	class ammo_Fighter02_Gun30mm_AA;
-	class ammo_Fighter02_Gun30mm_AX: ammo_Fighter02_Gun30mm_AA
-	{
-		model="xdf\weapons\tracer_blue\tracer_blue";
-		hit=110; // default 70
-	};
 
 	// infantry weapons 
 	class B_65x39_Caseless;
