@@ -358,7 +358,7 @@ class CfgVehicles
 
 
 	class B_Plane_Fighter_01_F;
-	class B_Plane_Fighter_01_F_OCimport_01 : B_Plane_Fighter_01_F { scope = 0; class AnimationSources };
+	class B_Plane_Fighter_01_F_OCimport_01 : B_Plane_Fighter_01_F { scope = 0; class AnimationSources; };
 	class B_Plane_Fighter_01_F_OCimport_02 : B_Plane_Fighter_01_F_OCimport_01 {
 		class AnimationSources;
 	};
