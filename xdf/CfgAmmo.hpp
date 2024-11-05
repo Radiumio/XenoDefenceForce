@@ -160,6 +160,8 @@ class CfgAmmo
 	class Missile_AGM_02_F;
 	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
 	{
+		model="xdf\weapons\axgm\missile_agm_02_fly_f.p3d";
+		proxyShape="xdf\weapons\axgm\missile_agm_02_f.p3d";
 		hit=2500;
 		maxSpeed=2100;
 		effectsMissile="XDF_Missile3";
