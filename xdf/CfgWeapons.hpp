@@ -2985,7 +2985,7 @@ class cfgWeapons
 	class weapon_Fighter_Gun20mm_AA;
 	class weapon_Fighter_Gun20mm_AX: weapon_Fighter_Gun20mm_AA
 	{
-		//displayName="GAU-15 Retaliator";
+		displayName="M-98 Ionizer";
 		magazines[]=
 		{
 			"magazine_Fighter01_Gun20mm_AX_x450"
@@ -2994,7 +2994,7 @@ class cfgWeapons
 	class weapon_Fighter_Gun_30mm;
 	class weapon_Fighter_Gun_30mm_AX: weapon_Fighter_Gun_30mm
 	{
-		//displayName="GAU-15 Retaliator";
+		displayName="M-121 Vindicator";
 		magazines[]=
 		{
 			"magazine_Fighter02_Gun30mm_AX_x180"
