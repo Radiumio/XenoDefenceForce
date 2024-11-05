@@ -122,15 +122,11 @@ class CfgMagazines
 	class magazine_Missile_AMRAAM_D_x1;
 	class magazine_Missile_AXInterceptor_D_x1: magazine_Missile_AMRAAM_D_x1
 	{
-		displayName="AX Interceptor Missile";
+		displayName="AX-78 Peregrine";
 		displayNameShort="AX-INTER";
 		descriptionShort="Medium-range, signature radar-guided, air-to-air missile with powerful anti-xeno warhead"
 		ammo="ammo_Missile_AXInterceptor_D";
-	};
-	class PylonRack_Missile_AXInterceptor_D_x1: magazine_Missile_AXInterceptor_D_x1
-	{
 		count=1;
-		displayName="AX Interceptor Missile";
 		//displayName="$STR_A3_Missile_AMRAAM_D_x1_magazine_name";
 		model="\A3\Weapons_F_Jets\Ammo\PylonPod_Missile_AA_06_Rail_x1_F";
 		hardpoints[]=
@@ -139,7 +135,7 @@ class CfgMagazines
 			"B_AMRAAM_D",
 			"B_AMRAAM_D_INT"
 		};
-		pylonWeapon="weapon_AMRAAMLauncher";
+		pylonWeapon="weapon_AXMissileLauncher";
 		ejectSpeed[]={1,0,0};
 	};
 

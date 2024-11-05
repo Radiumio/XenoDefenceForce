@@ -2931,12 +2931,12 @@ class cfgWeapons
 		};
 	};
 	class weapon_AMRAAMLauncher;
-	class weapon_AMRAAMLauncher: weapon_AMRAAMLauncher
+	class weapon_AXMissileLauncher: weapon_AMRAAMLauncher
 	{
-		magazines[]+=
+		displayName="AX-78 Peregrine";
+		magazines[]=
 		{
-			"magazine_Missile_AXInterceptor_D_x1",
-			"PylonRack_Missile_AXInterceptor_D_x1"
+			"magazine_Missile_AXInterceptor_D_x1"
 		};
 		lockingTargetSound[]=
 		{
