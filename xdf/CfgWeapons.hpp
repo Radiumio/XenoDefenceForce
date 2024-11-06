@@ -3030,7 +3030,7 @@ class cfgWeapons
 	{
 		displayName="GSh-4-80 Inquisitor";
 		scope=1;
-		reloadTime=5;
+		magazineReloadTime=5;
 		muzzles[]=
 		{
 			"HE",
@@ -3068,7 +3068,7 @@ class cfgWeapons
 	class AX_gatling_20mm: gatling_20mm
 	{
 		displayName="XM-303 Hunter";
-		reloadTime=5;
+		magazineReloadTime=5;
 		magazines[]+=
 		{
 			"1500Rnd_20mm_AX_shells"
