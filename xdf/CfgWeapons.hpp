@@ -2941,13 +2941,13 @@ class cfgWeapons
 		lockingTargetSound[]=
 		{
 			"\xdf\sounds\lock\xdf_locking.ogg",
-			0.316228,
+			1,
 			1
 		};
 		lockedTargetSound[]=
 		{
 			"\xdf\sounds\lock\xdf_locked.ogg",
-			0.316228,
+			1,
 			2.5
 		};
 	};
@@ -2962,13 +2962,13 @@ class cfgWeapons
 		lockingTargetSound[]=
 		{
 			"\xdf\sounds\lock\xdf_locking.ogg",
-			0.316228,
+			1,
 			1
 		};
 		lockedTargetSound[]=
 		{
 			"\xdf\sounds\lock\xdf_locked.ogg",
-			0.316228,
+			1,
 			2.5
 		};
 	};
@@ -2984,13 +2984,13 @@ class cfgWeapons
 		lockingTargetSound[]=
 		{
 			"\xdf\sounds\lock\xdf_locking.ogg",
-			0.316228,
+			1,
 			1
 		};
 		lockedTargetSound[]=
 		{
 			"\xdf\sounds\lock\xdf_locked.ogg",
-			0.316228,
+			1,
 			2.5
 		};
 	};
