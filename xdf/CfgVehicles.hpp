@@ -17473,8 +17473,7 @@ class CfgVehicles
 				};
 				magazines[]=
 				{
-					"500Rnd_20mm_AX_shells",
-					"500Rnd_20mm_AX_shells",
+					"1500Rnd_20mm_AX_shells",
 					"Laserbatteries"
 				};
 			};

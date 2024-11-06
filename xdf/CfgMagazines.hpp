@@ -249,12 +249,12 @@ class CfgMagazines
 		muzzleImpulseFactor[]={0.5,2};
 	};
 	class 1000Rnd_20mm_shells;
-	class 500Rnd_20mm_AX_shells: 1000Rnd_20mm_shells
+	class 1500Rnd_20mm_AX_shells: 1000Rnd_20mm_shells
 	{
 		author="Radium";
 		displayName="20mm AX-HE";
 		displayNameShort="20mm AX-HE";
-		count=500;
+		count=1500;
 		ammo="B_20mm_Tracer_AX";
 		tracersEvery=1;
 	};
