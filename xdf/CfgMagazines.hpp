@@ -152,7 +152,9 @@ class CfgMagazines
 		hardpoints[]=
 		{
 			"B_ASRAAM",
-			"B_ASRRAM_EJECTOR"
+			"B_ASRRAM_EJECTOR",
+			"B_MISSILE_PYLON",
+			"O_MISSILE_PYLON"
 		};
 		pylonWeapon="weapon_SRAXMissileLauncher";
 	};
