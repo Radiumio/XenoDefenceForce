@@ -16315,8 +16315,9 @@ class CfgVehicles
 		};
 	};
 	class O_Heli_Attack_02_dynamicLoadout_black_F;
-	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 : O_Heli_Attack_02_dynamicLoadout_black_F { scope = 0; class Turrets; };
+	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 : O_Heli_Attack_02_dynamicLoadout_black_F { scope = 0; class AnimationSources; class Turrets; };
 	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_02 : O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 {
+		class AnimationSources;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
@@ -16343,6 +16344,19 @@ class CfgVehicles
 		{
 			"\xdf\retextures\caiman\Heli_Attack_02_body1_black_CO.paa",
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling
+			{
+				source="revolving";
+				weapon="AX_gatling_30mm";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="AX_gatling_30mm";
+			};
 		};
 		class Turrets: Turrets
 		{
@@ -17407,7 +17421,14 @@ class CfgVehicles
 	// Medusa Pods
 
 	class B_Heli_Attack_01_dynamicLoadout_F;
-	class XDF_Comanche: B_Heli_Attack_01_dynamicLoadout_F
+	class B_Heli_Attack_01_dynamicLoadout_F_OCimport_01 : B_Heli_Attack_01_dynamicLoadout_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_Heli_Attack_01_dynamicLoadout_F_OCimport_02 : B_Heli_Attack_01_dynamicLoadout_F_OCimport_01 {
+		class AnimationSources;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Comanche: B_Heli_Attack_01_dynamicLoadout_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -17427,6 +17448,36 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\comanche\heli_attack_01_co.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling 
+			{
+				source="revolving";
+				weapon="AX_gatling_20mm";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="AX_gatling_20mm";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_gatling_20mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"500Rnd_20mm_AX_shells",
+					"500Rnd_20mm_AX_shells",
+					"Laserbatteries"
+				};
+			};
 		};
 	};
 	class B_Heli_Transport_03_base_F;

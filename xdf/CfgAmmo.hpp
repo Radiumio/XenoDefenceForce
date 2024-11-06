@@ -210,6 +210,12 @@ class CfgAmmo
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		hit=110; // default 80
 	};
+	class B_20mm;
+	class B_20mm_Tracer_AX: B_20mm
+	{
+		hit=90; // default 60
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 
 
 

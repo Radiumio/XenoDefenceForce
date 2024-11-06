@@ -151,7 +151,8 @@ class CfgMagazines
 		model="\A3\Weapons_F\DynamicLoadout\PylonMissile_1x_Bomb_04_F.p3d";
 		hardpoints[]=
 		{
-			"B_ASRAAM"
+			"B_ASRAAM",
+			"B_ASRRAM_EJECTOR"
 		};
 		pylonWeapon="weapon_SRAXMissileLauncher";
 	};
@@ -246,6 +247,16 @@ class CfgMagazines
 		initSpeed=1120;
 		tracersEvery=1;
 		muzzleImpulseFactor[]={0.5,2};
+	};
+	class 1000Rnd_20mm_shells;
+	class 500Rnd_20mm_AX_shells: 1000Rnd_20mm_shells
+	{
+		author="Radium";
+		displayName="20mm AX-HE";
+		displayNameShort="20mm AX-HE";
+		count=500;
+		ammo="B_20mm_Tracer_AX";
+		tracersEvery=1;
 	};
 
 	// infantry weapons

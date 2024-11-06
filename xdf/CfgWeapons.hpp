@@ -3028,6 +3028,7 @@ class cfgWeapons
 	class gatling_30mm;
 	class AX_gatling_30mm: gatling_30mm
 	{
+		displayName="GSh-4-80 Inquisitor";
 		scope=1;
 		muzzles[]=
 		{
@@ -3058,6 +3059,15 @@ class cfgWeapons
 				"250Rnd_30mm_APDS_shells_Tracer_Green",
 				"250Rnd_30mm_APDS_shells_Tracer_Yellow"
 			};
+		};
+	};
+	class gatling_20mm;
+	class AX_gatling_20mm: gatling_20mm
+	{
+		displayName="XM-303 Hunter";
+		magazines[]+=
+		{
+			"500Rnd_20mm_AX_shells"
 		};
 	};
 };
