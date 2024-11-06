@@ -3039,7 +3039,14 @@ class cfgWeapons
 		class HE: gatling_30mm_base
 		{
 			displayName="GSh-4-80 Inquisitor - HE Feed";
-			magazineReloadTime=5;
+			magazineReloadTime=2.5;
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
+				5,
+				1,
+				10
+			};
 			magazines[]=
 			{
 				"250Rnd_30mm_AXHE_shells",
@@ -3055,7 +3062,14 @@ class cfgWeapons
 		class AP: gatling_30mm_base
 		{
 			displayName="GSh-4-80 Inquisitor - AP Feed";
-			magazineReloadTime=5;
+			magazineReloadTime=2.5;
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
+				5,
+				1,
+				10
+			};
 			magazines[]=
 			{
 				"250Rnd_30mm_AXAPDS_shells",
