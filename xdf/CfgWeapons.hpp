@@ -2957,7 +2957,7 @@ class cfgWeapons
 		displayName="AX-55 Falcon";
 		magazines[]=
 		{
-			"magazine_1Rnd_AAA_missiles"
+			"magazine_1Rnd_AX_AAA_missiles"
 		};
 		lockingTargetSound[]=
 		{

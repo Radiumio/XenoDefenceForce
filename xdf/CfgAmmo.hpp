@@ -163,7 +163,7 @@ class CfgAmmo
 	class M_Air_AA_AX: M_Air_AA
 	{
 		model="xdf\weapons\ax55\missile_at_02_fly_f.p3d";
-		proxyShape="xdf\weapons\ax55\missile_at_02_f";
+		proxyShape="xdf\weapons\ax55\missile_at_02_f.p3d";
 		hit=1200;
 		maxSpeed=1520;
 		thrust=280;
