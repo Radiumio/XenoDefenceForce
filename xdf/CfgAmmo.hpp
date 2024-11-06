@@ -153,7 +153,7 @@ class CfgAmmo
 	{
 		model="xdf\weapons\ax78\missile_aa_06_fly_f.p3d";
 		proxyShape="xdf\weapons\ax78\missile_aa_06_f.p3d";
-		hit=2000;
+		hit=3000;
 		maxSpeed=2900;
 		thrust=350;
 		effectsMissile="XDF_Missile3";
@@ -164,7 +164,7 @@ class CfgAmmo
 	{
 		model="xdf\weapons\ax55\missile_at_02_fly_f.p3d";
 		proxyShape="xdf\weapons\ax55\missile_at_02_f.p3d";
-		hit=1500;
+		hit=2200;
 		maxSpeed=1520;
 		thrust=280;
 		effectsMissile="XDF_Missile3";
