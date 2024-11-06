@@ -2951,6 +2951,27 @@ class cfgWeapons
 			2.5
 		};
 	};
+	class missiles_ASRAAM;
+	class weapon_SRAXMissileLauncher: missiles_ASRAAM
+	{
+		displayName="AX-55 Falcon";
+		magazines[]=
+		{
+			"magazine_1Rnd_AAA_missiles"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			0.316228,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			0.316228,
+			2.5
+		};
+	};
 	class weapon_AGM_65Launcher;
 	class weapon_AXGMLauncher: weapon_AGM_65Launcher
 	{

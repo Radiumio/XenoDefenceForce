@@ -140,6 +140,21 @@ class CfgMagazines
 		pylonWeapon="weapon_AXMissileLauncher";
 		ejectSpeed[]={1,0,0};
 	};
+	class PylonMissile_1Rnd_AAA_missiles;
+	class magazine_1Rnd_AAA_missiles: PylonMissile_1Rnd_AAA_missiles
+	{
+		displayName="AX-55 Falcon";
+		displayNameShort="AX-AA";
+		descriptionShort="Short-range, infrared-guided, air-to-air missile with powerful anti-xeno warhead";
+		ammo="M_Air_AX_AA";
+		count=1;
+		model="\A3\Weapons_F\DynamicLoadout\PylonMissile_1x_Bomb_04_F.p3d";
+		hardpoints[]=
+		{
+			"B_ASRAAM",
+		};
+		pylonWeapon="weapon_SRAXMissileLauncher";
+	};
 	class magazine_Missile_AGM_02_x1;
 	class magazine_Missile_AXGM_02_F: magazine_Missile_AGM_02_x1
 	{

@@ -159,6 +159,17 @@ class CfgAmmo
 		effectsMissile="XDF_Missile3";
 		manuevrability=36;
 	};
+	class M_Air_AA;
+	class M_Air_AA_AX: M_Air_AA
+	{
+		model="xdf\weapons\ax55\missile_at_02_fly_f.p3d";
+		proxyShape="xdf\weapons\ax55\missile_at_02_f";
+		hit=1200;
+		maxSpeed=1520;
+		thrust=280;
+		effectsMissile="XDF_Missile3";
+		manuevrability=32;
+	};
 	class Missile_AGM_02_F;
 	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
 	{
