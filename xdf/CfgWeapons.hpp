@@ -3037,6 +3037,7 @@ class cfgWeapons
 		};
 		class HE: gatling_30mm_base
 		{
+			displayName="GSh-4-80 Inquisitor";
 			magazines[]=
 			{
 				"250Rnd_30mm_AXHE_shells",
@@ -3051,6 +3052,7 @@ class cfgWeapons
 		};
 		class AP: gatling_30mm_base
 		{
+			displayName="GSh-4-80 Inquisitor";
 			magazines[]=
 			{
 				"250Rnd_30mm_AXAPDS_shells",
