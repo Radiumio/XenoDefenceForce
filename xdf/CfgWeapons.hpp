@@ -3000,4 +3000,43 @@ class cfgWeapons
 			"magazine_Fighter02_Gun30mm_AX_x180"
 		};
 	};
+	class gatling_30mm_base
+	{
+		class LowROF;
+	};
+	class gatling_30mm;
+	class AX_gatling_30mm: gatling_30mm
+	{
+		scope=1;
+		muzzles[]=
+		{
+			"HE",
+			"AP"
+		};
+		class HE: gatling_30mm_base
+		{
+			magazines[]=
+			{
+				"250Rnd_30mm_AXHE_shells",
+				"250Rnd_30mm_HE_shells",
+				"250Rnd_30mm_HE_shells_Tracer_Red",
+				"250Rnd_30mm_HE_shells_Tracer_Green"
+			};
+			class LowROF: LowROF
+			{
+				dispersion=0.0066;
+			};
+		};
+		class AP: gatling_30mm_base
+		{
+			magazines[]=
+			{
+				"250Rnd_30mm_AXAPDS_shells",
+				"250Rnd_30mm_APDS_shells",
+				"250Rnd_30mm_APDS_shells_Tracer_Red",
+				"250Rnd_30mm_APDS_shells_Tracer_Green",
+				"250Rnd_30mm_APDS_shells_Tracer_Yellow"
+			};
+		};
+	};
 };

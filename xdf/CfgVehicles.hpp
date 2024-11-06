@@ -16315,7 +16315,13 @@ class CfgVehicles
 		};
 	};
 	class O_Heli_Attack_02_dynamicLoadout_black_F;
-	class XDF_Caiman: O_Heli_Attack_02_dynamicLoadout_black_F
+	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 : O_Heli_Attack_02_dynamicLoadout_black_F { scope = 0; class Turrets; };
+	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_02 : O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Caiman: O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -16337,6 +16343,25 @@ class CfgVehicles
 		{
 			"\xdf\retextures\caiman\Heli_Attack_02_body1_black_CO.paa",
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_gatling_30mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"250Rnd_30mm_AXHE_shells",
+					"250Rnd_30mm_AXHE_shells",
+					"250Rnd_30mm_AXAPDS_shells",
+					"250Rnd_30mm_AXAPDS_shells",
+					"Laserbatteries"
+				};
+			};
 		};
 	};
 	class O_Heli_Transport_04_F;

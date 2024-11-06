@@ -1,5 +1,4 @@
 class Components;
-class SensorTemplateIR;
 class CfgAmmo
 {
 	class M_Titan_AA;
@@ -188,6 +187,20 @@ class CfgAmmo
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		hit=110; // default 70
 	};
+	class B_30mm_HE;
+	class B_30mm_AXHE: B_30mm_HE
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=60; // default 30
+	};
+	class B_30mm_AP;
+	class B_30mm_AXAP: B_30mm_AP
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=110; // default 80
+	};
+
+
 
 	// infantry weapons 
 	class B_65x39_Caseless;
@@ -226,7 +239,6 @@ class CfgAmmo
 		hit=10; // default 5, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
-	class B_45ACP_Ball;
 	class B_45ACP_Nemesis_blue: B_45ACP_Ball
 	{
 		hit=30; // default 5, experimental nemesis munitions add 20
