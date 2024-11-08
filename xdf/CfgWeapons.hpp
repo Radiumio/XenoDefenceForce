@@ -1545,6 +1545,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\trg_reload.ogg",
+			4,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"STANAG_556x45_XDF"
@@ -1585,6 +1592,13 @@ class cfgWeapons
 				1,
 				10
 			};
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\trg_reload.ogg",
+			4,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
