@@ -85,6 +85,18 @@ class CfgMagazines
 		count=12;
 		tracersEvery=1;
 	};
+	class 12Rnd_120mm_APFSDS_shells_Tracer_Red;
+	class 18Rnd_120mm_APFSDS_T_Blue_AX: 12Rnd_120mm_APFSDS_shells_Tracer_Red
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		displayName="120mm APFSDS-AX";
+		displaynameshort="APFSDS-AX";
+		displayNameMFDFormat="AX";
+		count=18;
+		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
+		tracersEvery=1;
+		initSpeed=1670;
+	};
 	class 1000Rnd_20mm_GPR_shells: VehicleMagazine
 	{
 		author="Radium";

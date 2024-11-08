@@ -18963,7 +18963,14 @@ class CfgVehicles
 		};
 	};
 	class B_AFV_Wheeled_01_up_cannon_F;
-	class XDF_Odin: B_AFV_Wheeled_01_up_cannon_F
+	class B_AFV_Wheeled_01_up_cannon_F_OCimport_01: B_AFV_Wheeled_01_up_cannon_F { scope = 0; class Turrets; class AnimationSources; };
+	class B_AFV_Wheeled_01_up_cannon_F_OCimport_02: B_AFV_Wheeled_01_up_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+		class AnimationSources;
+	};
+	class XDF_Odin: B_AFV_Wheeled_01_up_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -18984,6 +18991,50 @@ class CfgVehicles
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_HMG
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class cannon_120mm_revolving
+			{
+				source="revolving";
+				weapon="cannon_120mm_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"cannon_120mm_AX",
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"18Rnd_120mm_APFSDS_T_Blue_AX",
+					"12Rnd_120mm_APFSDS_shells_Tracer_Red",
+					"8Rnd_120mm_HE_shells_Tracer_Red",
+					"8Rnd_120mm_HEAT_MP_T_Red",
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells",
+					"4Rnd_120mm_LG_cannon_missiles"
+				};
+			};
 		};
 		hiddenSelections[]=
 		{

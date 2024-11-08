@@ -126,6 +126,17 @@ class CfgAmmo
 		deflecting=15;
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
 	};
+	class Sh_120mm_APFSDS;
+	class Sh_120mm_APFSDS_T_Blue_XDF: Sh_120mm_APFSDS
+	{
+		hit=1250;
+		indirectHit=450;
+		indirectHitRange=2;
+		typicalSpeed=2800;
+		caliber=35;
+		deflecting=15;
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
 	class Sh_75mm_Railgun_APFSDS;
 	class Sh_75mm_Railgun_APFSDS_AX: Sh_75mm_Railgun_APFSDS
 	{

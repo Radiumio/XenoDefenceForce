@@ -2585,6 +2585,14 @@ class cfgWeapons
 			"4Rnd_125mm_cannon_missiles"
 		};
 	};
+	class cannon_120mm;
+	class cannon_120mm_AX: cannon_120mm
+	{
+		magazines[]+=
+		{
+			"18Rnd_120mm_APFSDS_T_Blue_AX"
+		};
+	};
 	class cannon_railgun;
 	class cannon_AX_railgun: cannon_railgun
 	{
