@@ -77,6 +77,122 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\lotus_flag.paa'";
 		};
 	};
+    class Flag_TaskForceArtificer: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceArtificer.jpg";
+		_generalMacro="Flag_TaskForceArtificer";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Artificer)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\artificer_flag.paa'";
+		};
+	};
+    class Flag_TaskForceCeto: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceCeto.jpg";
+		_generalMacro="Flag_TaskForceCeto";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Ceto)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\ceto_flag.paa'";
+		};
+	};
+    class Flag_TaskForceDamocles: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceDamocles.jpg";
+		_generalMacro="Flag_TaskForceDamocles";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Damocles)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\damocles_flag.paa'";
+		};
+	};
+    class Flag_TaskForceIon: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Flag_TaskForceIon.jpg";
+		_generalMacro="Flag_TaskForceIon";
+		scope=2;
+		scopeCurator=2;
+		displayName="Flag (XDF - Task Force Ion)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\ion_flag.paa'";
+		};
+	};
     class Flag_XenoDefenceForce: FlagCarrier
 	{
 		author="Radium";
@@ -106,8 +222,147 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\xdf_flag.paa'";
 		};
 	};
+	class Banner_01_F;
+	class Banner_TaskForceLotus: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceLotus.jpg";
+		_generalMacro="Banner_TaskForceLotus";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Lotus)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\lotus_flag.paa"
+		};
+	};
+	class Banner_TaskForceArtificer: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceArtificer.jpg";
+		_generalMacro="Banner_TaskForceArtificer";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Artificer)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\artificer_flag.paa"
+		};
+	};
+	class Banner_TaskForceCeto: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceCeto.jpg";
+		_generalMacro="Banner_TaskForceCeto";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Ceto)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\ceto_flag.paa"
+		};
+	};
+	class Banner_TaskForceDamocles: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceDamocles.jpg";
+		_generalMacro="Banner_TaskForceDamocles";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Damocles)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\damocles_flag.paa"
+		};
+	};
+	class Banner_TaskForceIon: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_TaskForceIon.jpg";
+		_generalMacro="Banner_TaskForceIon";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (XDF - Task Force Ion)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\ion_flag.paa"
+		};
+	};
+	class Banner_XenoDefenceForce: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\misc\Banner_XenoDefenceForce.jpg";
+		_generalMacro="Banner_XenoDefenceForce";
+		scope=2;
+		scopeCurator=2;
+		displayName="Banner (Xeno Defence Force)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\xdf_flag.paa"
+		};
+	};
+
+
 	class B_Plane_Fighter_01_F;
-	class XDF_Gemini: B_Plane_Fighter_01_F
+	class B_Plane_Fighter_01_F_OCimport_01 : B_Plane_Fighter_01_F { scope = 0; class AnimationSources; };
+	class B_Plane_Fighter_01_F_OCimport_02 : B_Plane_Fighter_01_F_OCimport_01 {
+		class AnimationSources;
+	};
+	class XDF_Gemini: B_Plane_Fighter_01_F_OCimport_02
     {
 		author="Radium";
 		scope = 2;
@@ -172,6 +427,31 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		weapons[]=
+		{
+			"weapon_Fighter_Gun20mm_AX",
+			"Laserdesignator_pilotCamera",
+			"CMFlareLauncher_Singles"
+		};
+		magazines[]=
+		{
+			"magazine_Fighter01_Gun20mm_AX_x450",
+			"Laserbatteries",
+			"240Rnd_CMFlare_Chaff_Magazine"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_20mm
+			{
+				source="ammorandom";
+				weapon="weapon_Fighter_Gun20mm_AX";
+			};
+			class mfd_ammo_count_source
+			{
+				source="revolving";
+				weapon="weapon_Fighter_Gun20mm_AX";
+			};
 		};
 		fuelCapacity=3000; // Default 1550
 		armor=240; // Default 60
@@ -300,7 +580,11 @@ class CfgVehicles
 		};    			
     };
 	class O_Plane_Fighter_02_F;
-	class XDF_Accipiter: O_Plane_Fighter_02_F
+	class O_Plane_Fighter_02_F_OCimport_01 : O_Plane_Fighter_02_F { scope = 0; class AnimationSources; };
+	class O_Plane_Fighter_02_F_OCimport_02 : O_Plane_Fighter_02_F_OCimport_01 {
+		class AnimationSources;
+	};
+	class XDF_Accipiter: O_Plane_Fighter_02_F_OCimport_02
     {
 		author="Radium";
 		scope = 2;
@@ -353,6 +637,26 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		weapons[]=
+		{
+			"weapon_Fighter_Gun_30mm_AX",
+			"Laserdesignator_pilotCamera",
+			"CMFlareLauncher"
+		};
+		magazines[]=
+		{
+			"magazine_Fighter02_Gun30mm_AX_x180",
+			"Laserbatteries",
+			"240Rnd_CMFlare_Chaff_Magazine"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_30mm
+			{
+				source="ammorandom";
+				weapon="weapon_Fighter_Gun_30mm_AX";
+			};
 		};
 		fuelCapacity=5080; // Default 2540
 		armor=325; // Default 65
@@ -15931,7 +16235,11 @@ class CfgVehicles
 		};
     };
 	class B_Plane_CAS_01_dynamicLoadout_F;
-	class XDF_Tusk: B_Plane_CAS_01_dynamicLoadout_F
+	class B_Plane_CAS_01_dynamicLoadout_F_OCimport_01 : B_Plane_CAS_01_dynamicLoadout_F { scope = 0; class AnimationSources; };
+	class B_Plane_CAS_01_dynamicLoadout_F_OCimport_02 : B_Plane_CAS_01_dynamicLoadout_F_OCimport_01 {
+		class AnimationSources;
+	};
+	class XDF_Tusk: B_Plane_CAS_01_dynamicLoadout_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -15951,6 +16259,36 @@ class CfgVehicles
 		{
 			"\xdf\retextures\tusk\plane_cas_01_ext01_co.paa",
 			"\xdf\retextures\tusk\plane_cas_01_ext02_co.paa"
+		};
+		weapons[]=
+		{
+			"Gatling_30mm_AX_CAS_01_F",
+			"Laserdesignator_pilotCamera",
+			"CMFlareLauncher"
+		};
+		magazines[]=
+		{
+			"1000Rnd_Gatling_30mm_AX_CAS_01_F",
+			"Laserbatteries",
+			"120Rnd_CMFlare_Chaff_Magazine"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling_30mm_ammorandom
+			{
+				source="ammorandom";
+				weapon="Gatling_30mm_AX_CAS_01_F";
+			};
+			class Gatling_30mm_reload
+			{
+				source="reload";
+				weapon="Gatling_30mm_AX_CAS_01_F";
+			};
+			class Gatling_30mm_revolving
+			{
+				source="revolving";
+				weapon="Gatling_30mm_AX_CAS_01_F";
+			};
 		};
 	};
 	class O_Plane_CAS_02_dynamicLoadout_F;
@@ -15977,7 +16315,14 @@ class CfgVehicles
 		};
 	};
 	class O_Heli_Attack_02_dynamicLoadout_black_F;
-	class XDF_Caiman: O_Heli_Attack_02_dynamicLoadout_black_F
+	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 : O_Heli_Attack_02_dynamicLoadout_black_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_02 : O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_01 {
+		class AnimationSources;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Caiman: O_Heli_Attack_02_dynamicLoadout_black_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -15999,6 +16344,38 @@ class CfgVehicles
 		{
 			"\xdf\retextures\caiman\Heli_Attack_02_body1_black_CO.paa",
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling
+			{
+				source="revolving";
+				weapon="AX_gatling_30mm";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="AX_gatling_30mm";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_gatling_30mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"250Rnd_30mm_AXHE_shells",
+					"250Rnd_30mm_AXHE_shells",
+					"250Rnd_30mm_AXAPDS_shells",
+					"250Rnd_30mm_AXAPDS_shells",
+					"Laserbatteries"
+				};
+			};
 		};
 	};
 	class O_Heli_Transport_04_F;
@@ -17044,7 +17421,14 @@ class CfgVehicles
 	// Medusa Pods
 
 	class B_Heli_Attack_01_dynamicLoadout_F;
-	class XDF_Comanche: B_Heli_Attack_01_dynamicLoadout_F
+	class B_Heli_Attack_01_dynamicLoadout_F_OCimport_01 : B_Heli_Attack_01_dynamicLoadout_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_Heli_Attack_01_dynamicLoadout_F_OCimport_02 : B_Heli_Attack_01_dynamicLoadout_F_OCimport_01 {
+		class AnimationSources;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Comanche: B_Heli_Attack_01_dynamicLoadout_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -17064,6 +17448,35 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\comanche\heli_attack_01_co.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling 
+			{
+				source="revolving";
+				weapon="AX_gatling_20mm";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="AX_gatling_20mm";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_gatling_20mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"1500Rnd_20mm_AX_shells",
+					"Laserbatteries"
+				};
+			};
 		};
 	};
 	class B_Heli_Transport_03_base_F;
@@ -18550,7 +18963,14 @@ class CfgVehicles
 		};
 	};
 	class B_AFV_Wheeled_01_up_cannon_F;
-	class XDF_Odin: B_AFV_Wheeled_01_up_cannon_F
+	class B_AFV_Wheeled_01_up_cannon_F_OCimport_01: B_AFV_Wheeled_01_up_cannon_F { scope = 0; class Turrets; class AnimationSources; };
+	class B_AFV_Wheeled_01_up_cannon_F_OCimport_02: B_AFV_Wheeled_01_up_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+		class AnimationSources;
+	};
+	class XDF_Odin: B_AFV_Wheeled_01_up_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -18571,6 +18991,50 @@ class CfgVehicles
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_HMG
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class cannon_120mm_revolving
+			{
+				source="revolving";
+				weapon="cannon_120mm_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"cannon_120mm_AX",
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"18Rnd_120mm_APFSDS_T_Blue_AX",
+					"12Rnd_120mm_APFSDS_shells_Tracer_Red",
+					"8Rnd_120mm_HE_shells_Tracer_Red",
+					"8Rnd_120mm_HEAT_MP_T_Red",
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells",
+					"4Rnd_120mm_LG_cannon_missiles"
+				};
+			};
 		};
 		hiddenSelections[]=
 		{

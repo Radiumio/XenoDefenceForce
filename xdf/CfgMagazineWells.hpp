@@ -17,15 +17,6 @@ class CfgMagazineWells
 			"Titan_AT_XDF"
 		};
 	};
-	class Titan_Short_XDF
-	{
-		BI_Magazines[]=
-		{
-			"Titan_AT",
-			"Titan_AP",
-			"Titan_AT_XDF"
-		};
-	};
 	class MX_65x39_MSBS_XDF
 	{
 		XDF_Magazines[]=
@@ -233,14 +224,6 @@ class CfgMagazineWells
 		{
 			"200Rnd_65x39_cased_Box_blue_tracer",
 			"200Rnd_65x39_cased_Box_blue_reload_tracer"
-		};
-	};
-	class Katiba_65x39_XDF
-	{
-		XDF_Magazines[]=
-		{
-			"30Rnd_65x39_caseless_mag_blue_tracer",
-			"30Rnd_65x39_caseless_mag_blue_reload_tracer"
 		};
 	};
 	class Cylinder_45ACP_XDF

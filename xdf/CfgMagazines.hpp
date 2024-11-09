@@ -61,16 +61,16 @@ class CfgMagazines
 		ammo="R_MRAAWS_HEAT55_XDF";
 		mass=100;
 	};
-	//class MRAWS_HE_F;
-	//class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
-	//{
-	//	author="Radium";
-	//	scope=2;
-	//	displayName="MAAWS Experimental Nuclear Round";
-	//	displaynameshort="EXP-NUKE";
-	//	ammo="R_MRAAWS_HE_NUKE_XDF";
-	//	mass=250;
-	//};
+	class MRAWS_HE_F;
+	class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="MAAWS Experimental Thermobaric Round";
+		displaynameshort="EXP-FAE";
+		ammo="R_MRAAWS_HE_NUKE_XDF";
+		mass=75;
+	};
 
 	// vehicles
 	class VehicleMagazine;
@@ -84,6 +84,18 @@ class CfgMagazines
 		ammo="Sh_125mm_APFSDS_T_Blue_XDF";
 		count=12;
 		tracersEvery=1;
+	};
+	class 12Rnd_120mm_APFSDS_shells_Tracer_Red;
+	class 18Rnd_120mm_APFSDS_T_Blue_AX: 12Rnd_120mm_APFSDS_shells_Tracer_Red
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		displayName="120mm APFSDS-AX";
+		displaynameshort="APFSDS-AX";
+		displayNameMFDFormat="AX";
+		count=18;
+		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
+		tracersEvery=1;
+		initSpeed=1670;
 	};
 	class 1000Rnd_20mm_GPR_shells: VehicleMagazine
 	{
@@ -119,6 +131,147 @@ class CfgMagazines
 		ammo="Sh_75mm_Railgun_APFSDS_AX_fake";
 		muzzleImpulseFactor[]={0,0};
 	};
+	class magazine_Missile_AMRAAM_D_x1;
+	class magazine_Missile_AXInterceptor_D_x1: magazine_Missile_AMRAAM_D_x1
+	{
+		displayName="AX-78 Peregrine";
+		displayNameShort="AX-AA";
+		descriptionShort="Medium-range, signature radar-guided, air-to-air missile with powerful anti-xeno warhead"
+		ammo="ammo_Missile_AXInterceptor_D";
+		count=1;
+		model="\A3\Weapons_F_Jets\Ammo\PylonPod_Missile_AA_06_Rail_x1_F";
+		hardpoints[]=
+		{
+			"B_AMRAAM_D_RAIL",
+			"B_AMRAAM_D",
+			"B_AMRAAM_D_INT",
+			"O_R73",
+			"O_R77",
+			"O_R77_INT"
+		};
+		pylonWeapon="weapon_AXMissileLauncher";
+		ejectSpeed[]={1,0,0};
+	};
+	class PylonMissile_1Rnd_AAA_missiles;
+	class magazine_1Rnd_AX_AAA_missiles: PylonMissile_1Rnd_AAA_missiles
+	{
+		displayName="AX-55 Falcon";
+		displayNameShort="AX-AA";
+		descriptionShort="Short-range, infrared-guided, air-to-air missile with powerful anti-xeno warhead";
+		ammo="M_Air_AA_AX";
+		count=1;
+		model="\A3\Weapons_F\DynamicLoadout\PylonMissile_1x_Bomb_04_F.p3d";
+		hardpoints[]=
+		{
+			"B_ASRAAM",
+			"B_ASRRAM_EJECTOR",
+			"B_MISSILE_PYLON",
+			"O_MISSILE_PYLON"
+		};
+		pylonWeapon="weapon_SRAXMissileLauncher";
+	};
+	class magazine_Missile_AGM_02_x1;
+	class magazine_Missile_AXGM_02_F: magazine_Missile_AGM_02_x1
+	{
+		displayName="AXGM-85 Dynamo";
+		displayNameShort="AX-AGM";
+		descriptionShort="Short-range, infrared-guided, air-to-surface missile with powerful anti-xeno warhead"
+		ammo="ammo_Missile_AXGM_02_F";
+		model="\A3\Weapons_F_Jets\Ammo\PylonPod_Missile_AGM_02_x1_F";
+		count=1;
+		hardpoints[]=
+		{
+			"B_AGM65_RAIL",
+			"B_AGM65_DUAL_RAIL",
+			"O_KH25",
+			"B_MISSILE_PYLON",
+			"O_MISSILE_PYLON",
+			"O_KH25_INT",
+			"UNI_SCALPEL"
+		};
+		pylonWeapon="weapon_AXGMLauncher";
+		ejectSpeed[]={1,0,0};
+	};
+	class PylonRack_3Rnd_Missile_AGM_02_F;
+	class magazine_Missile_AXGMx3_02_F: PylonRack_3Rnd_Missile_AGM_02_F
+	{
+		displayName="AXGM-85 Dynamo x3";
+		displayNameShort="AX-AGM";
+		descriptionShort="Short-range, infrared-guided, air-to-surface missile with powerful anti-xeno warhead"
+		ammo="ammo_Missile_AXGM_02_F";
+		model="\A3\Weapons_F\DynamicLoadout\PylonPod_3x_Missile_AGM_02_F.p3d";
+		count=3;
+		hardpoints[]=
+		{
+			"B_MISSILE_PYLON"
+		};
+		pylonWeapon="weapon_AXGMLauncher";
+		mirrorMissilesIndexes[]={2,1,3};
+		ejectSpeed[]={1,0,0};
+	};
+	class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
+	class 1000Rnd_Gatling_30mm_AX_CAS_01_F: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
+	{
+		author="Radium";
+		displayNameShort="AX-HE";
+		ammo="Gatling_30mm_HE_AX_CAS_01_F";
+		count=1000;
+		tracersEvery=1;
+	};
+	class magazine_Fighter01_Gun20mm_AA_x450;
+	class magazine_Fighter01_Gun20mm_AX_x450: magazine_Fighter01_Gun20mm_AA_x450
+	{
+		author="Radium";
+		displayNameShort="AX-HE";
+		ammo="ammo_Fighter01_Gun20mm_AX";
+		count=450;
+		tracersEvery=1;
+	};
+	class magazine_Fighter02_Gun30mm_AA_x180;
+	class magazine_Fighter02_Gun30mm_AX_x180: magazine_Fighter02_Gun30mm_AA_x180
+	{
+		author="Radium";
+		displayNameShort="AX-HE";
+		ammo="ammo_Fighter02_Gun30mm_AX";
+		count=180;
+		tracersEvery=1;
+	};
+	class 250Rnd_30mm_AXHE_shells: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="30mm AX-HE";
+		displayNameShort="30mm AX-HE";
+		ammo="B_30mm_AXHE";
+		count=250;
+		initSpeed=960;
+		maxLeadSpeed=83.333298;
+		nameSound="cannon";
+		tracersEvery=1;
+		weight=126;
+		muzzleImpulseFactor[]={1,4};
+	};
+	class 250Rnd_30mm_HE_shells;
+	class 250Rnd_30mm_AXAPDS_shells: 250Rnd_30mm_HE_shells
+	{
+		author="Radium";
+		displayName="30mm AX-APDS";
+		displayNameShort="30mm AX-APDS";
+		ammo="B_30mm_AXAP";
+		initSpeed=1120;
+		tracersEvery=1;
+		muzzleImpulseFactor[]={0.5,2};
+	};
+	class 1000Rnd_20mm_shells;
+	class 1500Rnd_20mm_AX_shells: 1000Rnd_20mm_shells
+	{
+		author="Radium";
+		displayName="20mm AX-HE";
+		displayNameShort="20mm AX-HE";
+		count=1500;
+		ammo="B_20mm_Tracer_AX";
+		tracersEvery=1;
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;
@@ -151,7 +304,6 @@ class CfgMagazines
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_65x39_caseless_black_mag_Tracer;
 	class 30Rnd_65x39_caseless_black_mag_blue_reload_tracer: 30Rnd_65x39_caseless_black_mag_Tracer
 	{
 		author="Radium";
@@ -173,7 +325,6 @@ class CfgMagazines
 		tracersEvery=1;
 		lastRoundsTracer=100;
 	};
-	class 100Rnd_65x39_caseless_black_mag_tracer;
 	class 100Rnd_65x39_caseless_mag_blue_reload_tracer: 100Rnd_65x39_caseless_black_mag_tracer
 	{
 		author="Radium";
@@ -194,7 +345,6 @@ class CfgMagazines
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_65x39_caseless_green;
 	class 30Rnd_65x39_caseless_blue_reload_tracer: 30Rnd_65x39_caseless_green
 	{
 		author="Radium";
@@ -226,7 +376,6 @@ class CfgMagazines
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_556x45_Stanag_Tracer_Green;
 	class 30rnd_556x45_stanag_blue_reload_tracer: 30Rnd_556x45_Stanag_Tracer_Green
 	{
 		author="Radium";
@@ -248,7 +397,6 @@ class CfgMagazines
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=1;
 	};
-	class 150Rnd_556x45_Drum_Mag_Tracer_F;
 	class 150rnd_556x45_drum_mag_blue_reload_tracer: 150Rnd_556x45_Drum_Mag_Tracer_F
 	{
 		author="Radium";
@@ -270,7 +418,6 @@ class CfgMagazines
 		ammo="B_580x42_Ball_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_580x42_Mag_Tracer_F;
 	class 30rnd_580x42_mag_blue_reload_tracer: 30Rnd_580x42_Mag_Tracer_F
 	{
 		author="Radium";
@@ -291,7 +438,6 @@ class CfgMagazines
 		ammo="B_580x42_Ball_blue";
 		tracersEvery=1;
 	};
-	class 100Rnd_580x42_Mag_Tracer_F;
 	class 100rnd_580x42_mag_blue_reload_tracer: 100Rnd_580x42_Mag_Tracer_F
 	{
 		author="Radium";
@@ -313,7 +459,6 @@ class CfgMagazines
 		ammo="B_45ACP_Ball_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green;
 	class 30rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
 	{
 		author="Radium";
@@ -335,7 +480,6 @@ class CfgMagazines
 		ammo="B_570x28_Ball_blue";
 		tracersEvery=1;
 	};
-	class 50Rnd_570x28_SMG_03;
 	class 50Rnd_570x28_SMG_03_blue_reload_tracer: 50Rnd_570x28_SMG_03
 	{
 		author="Radium";
@@ -357,7 +501,6 @@ class CfgMagazines
 		ammo="B_9x21_Ball_blue";
 		tracersEvery=1;
 	};
-	class 16Rnd_9x21_Mag;
 	class 16Rnd_9x21_Mag_blue_reload_tracer: 16Rnd_9x21_Mag
 	{
 		author="Radium";
@@ -379,7 +522,6 @@ class CfgMagazines
 		ammo="B_45ACP_Ball_blue";
 		tracersEvery=1;
 	};
-	class 9Rnd_45ACP_Mag;
 	class 9Rnd_45ACP_Mag_blue_reload_tracer: 9Rnd_45ACP_Mag
 	{
 		author="Radium";
@@ -401,7 +543,6 @@ class CfgMagazines
 		ammo="B_45ACP_Ball_blue";
 		tracersEvery=1;
 	};
-	class 11Rnd_45ACP_Mag;
 	class 11Rnd_45ACP_Mag_blue_reload_tracer: 11Rnd_45ACP_Mag
 	{
 		author="Radium";
@@ -434,7 +575,6 @@ class CfgMagazines
 		ammo="B_762x51_Ball_blue";
 		tracersEvery=1;
 	};
-	class 20Rnd_762x51_Mag;
 	class 20Rnd_762x51_Mag_blue_reload_tracer: 20Rnd_762x51_Mag
 	{
 		author="Radium";
@@ -456,7 +596,6 @@ class CfgMagazines
 		ammo="B_338_Ball_blue";
 		tracersEvery=1;
 	};
-	class 10Rnd_338_Mag;
 	class 10Rnd_338_Mag_blue_reload_tracer: 10Rnd_338_Mag
 	{
 		author="Radium";
@@ -499,7 +638,6 @@ class CfgMagazines
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=1;
 	};
-	class 10Rnd_93x64_DMR_05_Mag;
 	class 10Rnd_93x64_DMR_05_Mag_blue_reload_tracer: 10Rnd_93x64_DMR_05_Mag
 	{
 		author="Radium";
@@ -521,7 +659,6 @@ class CfgMagazines
 		ammo="B_127x54_Ball_blue";
 		tracersEvery=1;
 	};
-	class 10Rnd_127x54_Mag;
 	class 10Rnd_127x54_Mag_blue_reload_tracer: 10Rnd_127x54_Mag
 	{
 		author="Radium";
@@ -554,7 +691,6 @@ class CfgMagazines
 		ammo="B_762x54_Ball_blue";
 		tracersEvery=1;
 	};
-	class 10Rnd_762x54_Mag;
 	class 10Rnd_762x54_Mag_blue_reload_tracer: 10Rnd_762x54_Mag
 	{
 		author="Radium";
@@ -576,7 +712,6 @@ class CfgMagazines
 		ammo="B_65x39_Case_blue";
 		tracersEvery=1;
 	};
-	class 20Rnd_650x39_Cased_Mag_F;
 	class 20Rnd_650x39_Cased_Mag_blue_reload_tracer: 20Rnd_650x39_Cased_Mag_F
 	{
 		author="Radium";
@@ -598,7 +733,6 @@ class CfgMagazines
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=1;
 	};
-	class 150Rnd_93x64_Mag;
 	class 150Rnd_93x64_Mag_blue_reload_tracer: 150Rnd_93x64_Mag
 	{
 		author="Radium";
@@ -620,7 +754,6 @@ class CfgMagazines
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=1;
 	};
-	class 130Rnd_338_Mag;
 	class 130Rnd_338_Mag_blue_reload_tracer: 130Rnd_338_Mag
 	{
 		author="Radium";
@@ -642,7 +775,6 @@ class CfgMagazines
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=1;
 	};
-	class 200Rnd_556x45_Box_Tracer_F;
 	class 200Rnd_556x45_Box_Tracer_blue_reload_tracer: 200Rnd_556x45_Box_Tracer_F
 	{
 		author="Radium";
@@ -664,7 +796,6 @@ class CfgMagazines
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_762x39_AK12_Mag_Tracer_F;
 	class 30Rnd_762x39_AK12_Mag_blue_reload_tracer: 30Rnd_762x39_AK12_Mag_Tracer_F
 	{
 		author="Radium";
@@ -686,7 +817,6 @@ class CfgMagazines
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=1;
 	};
-	class 75rnd_762x39_AK12_Mag_Tracer_F;
 	class 75Rnd_762x39_AK12_Mag_blue_reload_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
 	{
 		author="Radium";
@@ -708,7 +838,6 @@ class CfgMagazines
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=1;
 	};
-	class 200Rnd_65x39_cased_Box_Tracer_Red;
 	class 200Rnd_65x39_cased_Box_blue_reload_tracer: 200Rnd_65x39_cased_Box_Tracer_Red
 	{
 		author="Radium";
@@ -730,7 +859,6 @@ class CfgMagazines
 		ammo="B_65x39_Caseless_blue";
 		tracersEvery=1;
 	};
-	class 30Rnd_65x39_caseless_green_mag_Tracer;
 	class 30Rnd_65x39_caseless_mag_blue_reload_tracer: 30Rnd_65x39_caseless_green_mag_Tracer
 	{
 		author="Radium";

@@ -12,6 +12,9 @@ class CfgPatches
 			"A3_Weapons_F_Exp",
 			"A3_Weapons_F_Mod",
 			"A3_Weapons_F_Mark",
+			"A3_Weapons_F_Tank",
+			"A3_Data_F_Tank",
+			"A3_Sounds_F",
 			"A3_Data_F_Decade",
 			"A3_Armor_F_Gamma"
 		};
@@ -25,6 +28,7 @@ class CfgPatches
 			"XDF_Vulture",
 			"XDF_Tusk",
 			"XDF_Caiman",
+			"XDF_Comanche",
 			"XDF_Medusa",
 			"XDF_Medusa_Ammo",
 			"XDF_Medusa_Bench",
@@ -71,6 +75,7 @@ class CfgPatches
 			"XDF_Odin",
 			"XDF_Hurricane",
 			"XDF_Scoria",
+			"XDF_Champion",
 			"XDF_Commando",
 			"XDF_Scorpion",
 			"XDF_Huntress",

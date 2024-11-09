@@ -1530,6 +1530,81 @@ class cfgWeapons
 			"Katiba_65x39_XDF"
 		};
 	};
+	class arifle_TRG20_F;
+	class arifle_TRG20_XDF: arifle_TRG20_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF S-23 CTAR-21";
+		baseWeapon="arifle_TRG20_XDF";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\trg_reload.ogg",
+			4,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
+	class arifle_TRG21_GL_F;
+	class arifle_TRG21_GL_XDF: arifle_TRG21_GL_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF S-24 GTAR-21 EGLM";
+		baseWeapon="arifle_TRG21_GL_XDF";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_eglm_co.paa",
+			"\a3\weapons_f\data\gl_holo_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\trg_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\trg_reload.ogg",
+			4,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
 
 	// SMGs
 	class SMG_01_F;
@@ -2097,7 +2172,8 @@ class cfgWeapons
 			"MRAWS_HEAT55_F",
 			"MRAWS_HEAT55_F",
 			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT55_XDF"
+			"MRAAWS_HEAT55_XDF",
+			"MRAAWS_HE_NUKE_XDF"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2142,6 +2218,18 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
 		};
 	};
 	class XDF_launch_B_Titan_short: launch_B_Titan_short_F
@@ -2495,6 +2583,14 @@ class cfgWeapons
 			"8Rnd_125mm_HE_T_Green",
 			"8Rnd_125mm_HE_T_Yellow",
 			"4Rnd_125mm_cannon_missiles"
+		};
+	};
+	class cannon_120mm;
+	class cannon_120mm_AX: cannon_120mm
+	{
+		magazines[]+=
+		{
+			"18Rnd_120mm_APFSDS_T_Blue_AX"
 		};
 	};
 	class cannon_railgun;
@@ -2854,6 +2950,166 @@ class cfgWeapons
 			midRangeProbab=0.30000001;
 			maxRange=1500;
 			maxRangeProbab=0.050000001;
+		};
+	};
+	class weapon_AMRAAMLauncher;
+	class weapon_AXMissileLauncher: weapon_AMRAAMLauncher
+	{
+		displayName="AX-78 Peregrine";
+		magazines[]=
+		{
+			"magazine_Missile_AXInterceptor_D_x1"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+	};
+	class missiles_ASRAAM;
+	class weapon_SRAXMissileLauncher: missiles_ASRAAM
+	{
+		displayName="AX-55 Falcon";
+		magazines[]=
+		{
+			"magazine_1Rnd_AX_AAA_missiles"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+	};
+	class weapon_AGM_65Launcher;
+	class weapon_AXGMLauncher: weapon_AGM_65Launcher
+	{
+		displayName="AXGM-85 Dynamo";
+		magazines[]=
+		{
+			"magazine_Missile_AXGM_02_F",
+			"magazine_Missile_AXGMx2_02_F"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+	};
+	class Gatling_30mm_Plane_CAS_01_F;
+	class Gatling_30mm_AX_CAS_01_F: Gatling_30mm_Plane_CAS_01_F
+	{
+		displayName="GAU-15 Retaliator";
+		magazines[]=
+		{
+			"1000Rnd_Gatling_30mm_AX_CAS_01_F"
+		};
+	};
+	class weapon_Fighter_Gun20mm_AA;
+	class weapon_Fighter_Gun20mm_AX: weapon_Fighter_Gun20mm_AA
+	{
+		displayName="M-98 Ionizer";
+		magazines[]=
+		{
+			"magazine_Fighter01_Gun20mm_AX_x450"
+		};
+	};
+	class weapon_Fighter_Gun_30mm;
+	class weapon_Fighter_Gun_30mm_AX: weapon_Fighter_Gun_30mm
+	{
+		displayName="M-121 Vindicator";
+		magazines[]=
+		{
+			"magazine_Fighter02_Gun30mm_AX_x180"
+		};
+	};
+	class gatling_30mm_base
+	{
+		class LowROF;
+	};
+	class gatling_30mm;
+	class AX_gatling_30mm: gatling_30mm
+	{
+		displayName="GSh-4-80 Inquisitor";
+		scope=1;
+		magazineReloadTime=5;
+		muzzles[]=
+		{
+			"HE",
+			"AP"
+		};
+		class HE: gatling_30mm_base
+		{
+			displayName="GSh-4-80 Inquisitor - HE Feed";
+			magazineReloadTime=3;
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
+				5,
+				1,
+				10
+			};
+			magazines[]=
+			{
+				"250Rnd_30mm_AXHE_shells",
+				"250Rnd_30mm_HE_shells",
+				"250Rnd_30mm_HE_shells_Tracer_Red",
+				"250Rnd_30mm_HE_shells_Tracer_Green"
+			};
+			class LowROF: LowROF
+			{
+				dispersion=0.0066;
+			};
+		};
+		class AP: gatling_30mm_base
+		{
+			displayName="GSh-4-80 Inquisitor - AP Feed";
+			magazineReloadTime=3;
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
+				5,
+				1,
+				10
+			};
+			magazines[]=
+			{
+				"250Rnd_30mm_AXAPDS_shells",
+				"250Rnd_30mm_APDS_shells",
+				"250Rnd_30mm_APDS_shells_Tracer_Red",
+				"250Rnd_30mm_APDS_shells_Tracer_Green",
+				"250Rnd_30mm_APDS_shells_Tracer_Yellow"
+			};
+		};
+	};
+	class gatling_20mm;
+	class AX_gatling_20mm: gatling_20mm
+	{
+		displayName="XM-303 Hunter";
+		magazineReloadTime=5;
+		magazines[]+=
+		{
+			"1500Rnd_20mm_AX_shells"
 		};
 	};
 };

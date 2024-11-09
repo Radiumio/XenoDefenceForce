@@ -1,5 +1,4 @@
 class Components;
-class SensorTemplateIR;
 class CfgAmmo
 {
 	class M_Titan_AA;
@@ -49,15 +48,48 @@ class CfgAmmo
 		hit=400;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_HEAT55_XDF";
 	};
-	//class R_MRAAWS_HE_F;
-	//class R_MRAAWS_HE_NUKE_XDF: R_MRAAWS_HE_F
-	//{
-	//	hit=3000;
-	//	indirectHit=2500;
-	//	indirectHitRange=250;
-	//	CraterEffects="BombCrater";
-	//	ExplosionEffects="BombExplosion";
-	//};
+	class R_MRAAWS_HE_F;
+	class R_MRAAWS_HE_NUKE_XDF: R_MRAAWS_HE_F
+	{
+		hit=3500;
+		indirectHit=800;
+		indirectHitRange=15;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="HeavyBombExplosion"
+		explosive=1;
+		fuseDistance=100;
+		soundHit1[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_1",
+			5,
+			1,
+			2200
+		};
+		soundHit2[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_2",
+			5,
+			1,
+			2200
+		};
+		soundHit3[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_3",
+			5,
+			1,
+			2200
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.34,
+			"soundHit2",
+			0.33000001,
+			"soundHit3",
+			0.33000001
+		};
+		effectsMissile="XDF_Thermobaric";
+	};
 	class ammo_Penetrator_Base;
 	class ammo_Penetrator_Titan_AT_XDF: ammo_Penetrator_Base
 	{
@@ -94,6 +126,17 @@ class CfgAmmo
 		deflecting=15;
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
 	};
+	class Sh_120mm_APFSDS;
+	class Sh_120mm_APFSDS_T_Blue_XDF: Sh_120mm_APFSDS
+	{
+		hit=1250;
+		indirectHit=450;
+		indirectHitRange=2;
+		typicalSpeed=2800;
+		caliber=35;
+		deflecting=15;
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
 	class Sh_75mm_Railgun_APFSDS;
 	class Sh_75mm_Railgun_APFSDS_AX: Sh_75mm_Railgun_APFSDS
 	{
@@ -116,6 +159,76 @@ class CfgAmmo
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class ammo_Missile_AMRAAM_D;
+	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
+	{
+		model="xdf\weapons\ax78\missile_aa_06_fly_f.p3d";
+		proxyShape="xdf\weapons\ax78\missile_aa_06_f.p3d";
+		hit=3000;
+		maxSpeed=2900;
+		thrust=350;
+		effectsMissile="XDF_Missile3";
+		manuevrability=36;
+	};
+	class M_Air_AA;
+	class M_Air_AA_AX: M_Air_AA
+	{
+		model="xdf\weapons\ax55\missile_at_02_fly_f.p3d";
+		proxyShape="xdf\weapons\ax55\missile_at_02_f.p3d";
+		hit=2200;
+		maxSpeed=1520;
+		thrust=280;
+		effectsMissile="XDF_Missile3";
+		manuevrability=32;
+	};
+	class Missile_AGM_02_F;
+	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
+	{
+		model="xdf\weapons\axgm\missile_agm_02_fly_f.p3d";
+		proxyShape="xdf\weapons\axgm\missile_agm_02_f.p3d";
+		hit=2500;
+		maxSpeed=2100;
+		effectsMissile="XDF_Missile3";
+		manuevrability=30;
+	};
+	class Gatling_30mm_HE_Plane_CAS_01_F;
+	class Gatling_30mm_HE_AX_CAS_01_F: Gatling_30mm_HE_Plane_CAS_01_F
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=220;
+	};
+	class ammo_Fighter01_Gun20mm_AA;
+	class ammo_Fighter01_Gun20mm_AX: ammo_Fighter01_Gun20mm_AA
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=100; // default 60
+	};
+	class ammo_Fighter02_Gun30mm_AA;
+	class ammo_Fighter02_Gun30mm_AX: ammo_Fighter02_Gun30mm_AA
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=110; // default 70
+	};
+	class B_30mm_HE;
+	class B_30mm_AXHE: B_30mm_HE
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=60; // default 30
+	};
+	class B_30mm_AP;
+	class B_30mm_AXAP: B_30mm_AP
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=110; // default 80
+	};
+	class B_20mm;
+	class B_20mm_Tracer_AX: B_20mm
+	{
+		hit=90; // default 60
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+
+
 
 	// infantry weapons 
 	class B_65x39_Caseless;
@@ -154,7 +267,6 @@ class CfgAmmo
 		hit=10; // default 5, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
-	class B_45ACP_Ball;
 	class B_45ACP_Nemesis_blue: B_45ACP_Ball
 	{
 		hit=30; // default 5, experimental nemesis munitions add 20
