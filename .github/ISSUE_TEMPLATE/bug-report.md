@@ -15,3 +15,5 @@ A clear and concise description of what you expected to happen.
 
 ## Additional context
 Add any other context about the problem here.
+
+**Please consider attaching the latest `.rpt` log that includes the error to further help trouble-shooting!**
