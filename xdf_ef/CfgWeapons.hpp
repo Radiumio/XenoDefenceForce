@@ -11,7 +11,6 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Marine Combat Uniform";
-		//picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -89,7 +88,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest";
-		//picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
@@ -101,7 +99,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Rifleman)";
-		//picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -114,7 +111,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Scout)";
-		//picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -127,7 +123,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Medic)";
-		//picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_co.paa",
@@ -140,7 +135,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Support)";
-		//picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
@@ -152,7 +146,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Team Leader)";
-		//picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
