@@ -6,7 +6,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF MH-252 Mamba";
+		displayName = "XDF Mamba";
 		editorPreview="\xdf\previews\vehicles\XDF_Mamba.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -60,7 +60,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF MH-252 Mamba (Unarmed)";
+		displayName = "XDF Mamba (Unarmed)";
 		editorPreview="\xdf\previews\vehicles\XDF_Mamba_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -114,7 +114,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF MH-252 Mamba SOCAT";
+		displayName = "XDF Mamba SOCAT";
 		editorPreview="\xdf\previews\vehicles\XDF_Mamba_SOCAT.jpg";
 		side = 1;
 		faction = "B_XDF";
