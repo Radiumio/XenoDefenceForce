@@ -41,6 +41,7 @@ class cfgWeapons
 	class TCGM_CombatUniform_CTRG_Bra;
 	class U_B_CBRN_Suit_01_MTP_F;
 	class U_O_V_Soldier_Viper_hex_F;
+	class EF_U_B_MarineCombatUniform_Des_5;
 	class TCGM_F_Viper_GHex;
 	class U_B_Wetsuit;
 	class TCGM_F_Wetsuit_B;
