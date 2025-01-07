@@ -9,7 +9,12 @@ class CfgPatches
 			"RF_Air_heli_medium_ec"
 		};
 		version = "1.0";
-		units[] = {};
+		units[] = 
+		{
+			"XDF_Mamba",
+			"XDF_Mamba_Unarmed",
+			"XDF_Mamba_SOCAT"
+		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;
 	};
