@@ -7,7 +7,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mamba";
-		editorPreview="\xdf\previews\vehicles\XDF_Mamba.jpg";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Mamba.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -61,7 +61,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mamba (Unarmed)";
-		editorPreview="\xdf\previews\vehicles\XDF_Mamba_Unarmed.jpg";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Mamba_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -115,7 +115,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mamba SOCAT";
-		editorPreview="\xdf\previews\vehicles\XDF_Mamba_SOCAT.jpg";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Mamba_SOCAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
