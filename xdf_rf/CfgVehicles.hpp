@@ -162,4 +162,415 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_ION_Pickup_rf;
+	class XDF_Marauder: B_ION_Pickup_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_G_Pickup_fuel_rf;
+	class XDF_Marauder_Fuel: B_G_Pickup_fuel_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup (Fuel)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_Fuel.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_G_Pickup_repair_rf;
+	class XDF_Marauder_Repair: B_G_Pickup_repair_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup (Repair)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_Repair.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_ION_Pickup_aat_rf;
+	class XDF_Marauder_AA: B_ION_Pickup_aat_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup (AA)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_AA.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_ION_Pickup_rcws_rf;
+	class XDF_Marauder_RCWS: B_ION_Pickup_rcws_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup (RCWS)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_RCWS.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\Data\RCWS\rcws_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\Data\RCWS\rcws_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_ION_Pickup_mmg_rf;
+	class XDF_Marauder_MMG: B_ION_Pickup_mmg_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup (MMG)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_MMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Pickup_Comms_rf;
+	class XDF_Marauder_Comms: B_Pickup_Comms_rf
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marauder Pickup (Comms)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_Comms.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 80; // Default 50
+		armorStructural = 5; // Default none
+		maxSpeed = 220; // Default 200
+		fuelCapacity = 32; // Default 18
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+			"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+			"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 };
