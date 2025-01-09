@@ -13,7 +13,17 @@ class CfgPatches
 		{
 			"XDF_Mamba",
 			"XDF_Mamba_Unarmed",
-			"XDF_Mamba_SOCAT"
+			"XDF_Mamba_SOCAT",
+			"XDF_Marauder",
+			"XDF_Marauder_Fuel",
+			"XDF_Marauder_Repair",
+			"XDF_Marauder_AA",
+			"XDF_Marauder_RCWS",
+			"XDF_Marauder_MMG",
+			"XDF_Marauder_Comms",
+			"XDF_TwinMortar",
+			"B_XDF_Scout",
+			"B_XDF_Scout_F"
 		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;

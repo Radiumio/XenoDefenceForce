@@ -255,4 +255,863 @@ class CfgVehicles
 	{
 		model="\ef\ef_marines\ef_u_frog_sl.p3d";
 	};
+	class B_recon_F;
+	class B_XDF_Marine_TL : B_recon_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine Team Leader";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_TL.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_TL",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_TL",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Kitbag_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_medic_F;
+	class B_XDF_Marine_Medic : B_medic_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine Medic";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_Medic.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Rolled_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_Medic",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_Medic",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShellPurple",
+			"SmokeShellOrange",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShellPurple",
+			"SmokeShellOrange",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Travel_Pack_med";
+		items[]=
+		{
+			"Medikit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"Medikit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_recon_JTAC_F;
+	class B_XDF_Marine_JTAC : B_recon_JTAC_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine JTAC";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_JTAC.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_Scout",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_Scout",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_AXGL_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Laserdesignator_03"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_AXGL_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Laserdesignator_03"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"UGL_FlareCIR_F",
+			"UGL_FlareCIR_F",
+			"UGL_FlareWhite_F",
+			"UGL_FlareWhite_F",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell",
+			"Laserbatteries",
+			"Laserbatteries"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"UGL_FlareCIR_F",
+			"UGL_FlareCIR_F",
+			"UGL_FlareWhite_F",
+			"UGL_FlareWhite_F",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"16Rnd_9x21_Mag_blue_reload_tracer",
+			"16Rnd_9x21_Mag_blue_reload_tracer",
+			"16Rnd_9x21_Mag_blue_reload_tracer",
+			"16Rnd_9x21_Mag_blue_reload_tracer",
+			"16Rnd_9x21_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell",
+			"Laserbatteries",
+			"Laserbatteries"
+		};
+
+		backpack = "B_XDF_RadioBag_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_HeavyGunner_F;
+	class B_XDF_Marine_Gunner : B_HeavyGunner_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine Gunner";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_Gunner.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_Support",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_Support",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_MMG_02_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"XDF_MMG_02_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"130Rnd_338_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Kitbag_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_Recon_Sharpshooter_F;
+	class B_XDF_Marine_Hunter : B_Recon_Sharpshooter_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine Hunter";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_Hunter.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Rolled_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_Support",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_Support",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_srifle_DMR_02_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"XDF_srifle_DMR_02_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_TacticalPack_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_soldier_LAT2_F;
+	class B_XDF_Marine_HAT : B_soldier_LAT2_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine Heavy Anti-Tank";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_HAT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		icon="iconManAT";
+		role="MissileSpecialist";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_Rifleman",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_Rifleman",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"XDF_launch_MRAWS_black_F",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"XDF_launch_MRAWS_black_F",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAWS_HE_F",
+			"MRAWS_HE_F",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell",
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAAWS_HEAT_XDF",
+			"MRAWS_HE_F",
+			"MRAWS_HE_F",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell",
+		};
+
+		backpack = "B_XDF_Viper_Harness_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Marine_Operative : B_recon_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Marine Operative";
+		editorPreview="\xdf_ef\previews\units\B_XDF_Marine_Operative.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_MSF_M";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Marine_Uniform_Gloved_Rolled_Pads";
+		linkedItems[] = {
+			"V_XDF_AAV_Rifleman",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_AAV_Rifleman",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"EF_LPNVG_T",
+			"G_XDF_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+		respawnWeapons[] = {
+			"arifle_MSBS65_AX_XDF_black_F",
+			"XDF_hgun_Pistol_heavy_01",
+			"Rangefinder"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"11Rnd_45ACP_Mag_blue_reload_tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack = "B_XDF_Kitbag_Black";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
 };
