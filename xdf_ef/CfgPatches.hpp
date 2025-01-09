@@ -14,7 +14,14 @@ class CfgPatches
 			"XDF_Boar_FSV",
 			"XDF_Boar_AT",
 			"XDF_Boar_LAAD",
-			"XDF_Python"
+			"XDF_Python",
+			"B_XDF_Marine_TL",
+			"B_XDF_Marine_Medic",
+			"B_XDF_Marine_JTAC",
+			"B_XDF_Marine_Gunner",
+			"B_XDF_Marine_Hunter",
+			"B_XDF_Marine_HAT",
+			"B_XDF_Marine_Operative"
 		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;
