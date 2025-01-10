@@ -12,7 +12,7 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
 		armor = 400; // Default 200
-		armorStructural = 5; // Default none
+		armorStructural = 5; // Default unknown
 		fuelCapacity = 40; // Default 20
 		damageResistance = 0.05; // Default 0
 		typicalCargo[]=
