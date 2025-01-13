@@ -11,7 +11,7 @@ class CfgVehicles
 		faction = "XDF";
 		side = 1;
 		scope = 2;
-		mass = 320;
+		mass = 180;
 		model = "lxws\shield_f_lxws\shield_backpack_black.p3d";
 		hiddenSelections[] = {"CamoB", "camo"};
 		hiddenSelectionsMaterials[] = {"lxws\shield_f_lxws\data\shield_bag_mat.rvmat", "lxws\shield_f_lxws\data\shield_mat.rvmat"};
