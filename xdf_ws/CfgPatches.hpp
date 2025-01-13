@@ -6,7 +6,8 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"xdf",
-			"Shield_F_lxWS"
+			"Shield_F_lxWS",
+			"data_f_lxWS"
 		};
 		version = "1.0";
 		units[] = 
