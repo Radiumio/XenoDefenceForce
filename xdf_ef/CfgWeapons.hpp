@@ -1,3 +1,4 @@
+class ItemInfo;
 class cfgWeapons
 {
 	class ItemCore;
@@ -92,6 +93,10 @@ class cfgWeapons
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
 	class EF_V_AAV_Rifleman_Black;
 	class V_XDF_AAV_Rifleman: EF_V_AAV_Rifleman_Black
@@ -103,6 +108,10 @@ class cfgWeapons
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
 		};
 	};
 	class EF_V_AAV_Scout_Black;
@@ -116,6 +125,10 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
 	class EF_V_AAV_Scout_Black;
 	class V_XDF_AAV_Medic: EF_V_AAV_Scout_Black
@@ -128,6 +141,10 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
 	};
 	class EF_V_AAV_Support_Black;
 	class V_XDF_AAV_Support: EF_V_AAV_Support_Black
@@ -138,6 +155,10 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
 		};
 	};
 	class EF_V_AAV_TL_Black;
@@ -150,6 +171,10 @@ class cfgWeapons
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
 		};
 	};
 };
