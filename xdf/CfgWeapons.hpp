@@ -1447,6 +1447,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"AK_762x39_XDF"
@@ -1464,6 +1471,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_gl_co"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -1493,6 +1507,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\aku12_rpk12_parts_co"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"AK_762x39_XDF"
@@ -1510,6 +1531,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\aku12_rpk12_parts_co"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
