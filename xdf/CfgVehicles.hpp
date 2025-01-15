@@ -19728,7 +19728,7 @@ class CfgVehicles
 		};
 	};
 	class I_MBT_03_cannon_F;
-	class I_MBT_03_cannon_F_OCimport_01: I_MBT_03_cannon_F { scope = 0; class Turrets; };
+	class I_MBT_03_cannon_F_OCimport_01: I_MBT_03_cannon_F { scope = 0; class AnimationSources; class Turrets; };
 	class I_MBT_03_cannon_F_OCimport_02: I_MBT_03_cannon_F_OCimport_01 {
 		class Turrets: Turrets {
 			class MainTurret;
@@ -19795,6 +19795,34 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_coax
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_rot_hmg
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_hide_coax
+			{
+				source="reload";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+		};
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -19816,11 +19844,12 @@ class CfgVehicles
 				};
 				weapons[]=
 				{
-					"cannon_120mm",
+					"cannon_120mm_AX",
 					"LMG_Minigun_AX",
 				};
 				magazines[]=
 				{
+					"8Rnd_120mm_APFSDS_T_Blue_AX",
 					"20Rnd_120mm_APFSDS_shells_Tracer_Yellow",
 					"12Rnd_120mm_HE_shells_Tracer_Yellow",
 					"12Rnd_120mm_HEAT_MP_T_Yellow",
@@ -19895,6 +19924,7 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -19927,7 +19957,7 @@ class CfgVehicles
 		};
 	};
 	class B_MBT_01_TUSK_F;
-	class B_MBT_01_TUSK_F_OCimport_01: B_MBT_01_TUSK_F { scope = 0; class Turrets; };
+	class B_MBT_01_TUSK_F_OCimport_01: B_MBT_01_TUSK_F { scope = 0; class AnimationSources; class Turrets; };
 	class B_MBT_01_TUSK_F_OCimport_02: B_MBT_01_TUSK_F_OCimport_01 {
 		class Turrets : Turrets {
 			class MainTurret;
@@ -19993,6 +20023,24 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
 		};
 		class Turrets: Turrets
 		{
