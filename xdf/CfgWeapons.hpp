@@ -1282,6 +1282,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\hk416_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"STANAG_556x45_XDF",
@@ -1299,6 +1306,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\hk416_support_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1318,6 +1332,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_02_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_gl_blk_f_01_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\hk416_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -2059,6 +2080,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_03_blk_f_02_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\hk417_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
