@@ -28,6 +28,12 @@ class CfgMagazines
 		count=1;
 		mass=200;
 	};
+	class 2Rnd_Titan_AT_XDF_missiles: Titan_AT_XDF
+	{
+		author = "Radium";
+		count = 2;
+		displayNameMFDFormat = "MISSILE";
+	};
 	class Vorona_HEAT;
 	class Vorona_HEAT_XDF: Vorona_HEAT
 	{
@@ -88,11 +94,22 @@ class CfgMagazines
 	class 12Rnd_120mm_APFSDS_shells_Tracer_Red;
 	class 18Rnd_120mm_APFSDS_T_Blue_AX: 12Rnd_120mm_APFSDS_shells_Tracer_Red
 	{
-		author="$STR_A3_Bohemia_Interactive";
+		author="Radium";
 		displayName="120mm APFSDS-AX";
 		displaynameshort="APFSDS-AX";
 		displayNameMFDFormat="AX";
 		count=18;
+		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
+		tracersEvery=1;
+		initSpeed=1670;
+	};
+	class 8Rnd_120mm_APFSDS_T_Blue_AX: 18Rnd_120mm_APFSDS_T_Blue_AX
+	{
+		author="Radium";
+		displayName="120mm APFSDS-AX";
+		displaynameshort="APFSDS-AX";
+		displayNameMFDFormat="AX";
+		count=8;
 		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
 		tracersEvery=1;
 		initSpeed=1670;
@@ -271,6 +288,56 @@ class CfgMagazines
 		count=1500;
 		ammo="B_20mm_Tracer_AX";
 		tracersEvery=1;
+	};
+	class AX_magazine_Cannon_Phalanx_x2000: VehicleMagazine
+	{
+		scope=2;
+		displayName="AX Prateorian 20mm";
+		descriptionShort="$STR_A3_Phalanx_x1550_magazine_description";
+		ammo="ammo_AAA_Gun35mm_AX";
+		count=2000;
+		initSpeed=1440;
+		maxLeadSpeed=600;
+		tracersEvery=1;
+		nameSound="cannon";
+	};
+	class 4Rnd_GAA_missiles;
+	class 4Rnd_Titan_long_missiles_AX: 4Rnd_GAA_missiles
+	{
+		author="Radium";
+		ammo="M_Titan_AA_XDF";
+		displayName="Lance Missile";
+		displayNameShort="AA-AX";
+		displayNameMFDFormat="MISSILE";
+	};
+	class 680Rnd_35mm_AA_AX_shells: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="35 mm AA-AX Shells";
+		displayNameShort="AA-AX";
+		ammo="B_35mm_AA_AX";
+		count=680;
+		initSpeed=1440;
+		maxLeadSpeed=416.66699;
+		tracersEvery=1;
+		nameSound="cannon";
+		muzzleImpulseFactor[]={1,4};
+	};
+	class magazine_Missile_mim145_x4;
+	class magazine_Missile_mim145_AX_x4: magazine_Missile_mim145_x4
+	{
+		displayName="TAIPAN Interceptor Missile";
+		displayNameShort="SAM LR TA-AX";
+		descriptionShort="$STR_A3_Missile_mim145_x4_magazine_description";
+		ammo="ammo_Missile_mim145_AX";
+	};
+	class 4Rnd_70mm_SAAMI_missiles;
+	class 4Rnd_70mm_SAAMI_AX_missiles: 4Rnd_70mm_SAAMI_missiles
+	{
+		displayName = "SAAMI-AX Missile";
+		displayNameShort = "AA-AX";
+		ammo = "M_70mm_SAAMI_AX";
 	};
 
 	// infantry weapons

@@ -1,7 +1,14 @@
 class CfgVehicles
 {
 	class EF_B_MRAP_01_FSV_NATO;
-	class XDF_Boar_FSV: EF_B_MRAP_01_FSV_NATO
+	class EF_B_MRAP_01_FSV_NATO_OCimport_01: EF_B_MRAP_01_FSV_NATO { scope = 0; class AnimationSources; class Turrets; };
+	class EF_B_MRAP_01_FSV_NATO_OCimport_02: EF_B_MRAP_01_FSV_NATO_OCimport_01 {
+		class Turrets: Turrets {
+			class MainTurret;
+			class CommanderTurret;
+		};
+	};
+	class XDF_Boar_FSV: EF_B_MRAP_01_FSV_NATO_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -36,9 +43,70 @@ class CfgVehicles
 			"Door_RB",
 			"Door_LB"
 		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot
+			{
+				source = "ammorandom";
+				weapon = "EF_autocannon_30mm_Hunter_AX";
+			};
+			class muzzle_hide
+			{
+				source = "reload";
+				weapon = "EF_autocannon_30mm_Hunter_AX";
+			};
+			class MainGun_recoil
+			{
+				source = "reload";
+				weapon = "EF_autocannon_30mm_Hunter_AX";
+			};
+			class Missiles_revolving
+			{
+				source = "revolving";
+				weapon = "EF_missiles_titan_AX_manual";
+			};
+			class missiles_reloadMagazine
+			{
+				source = "reloadMagazine";
+				weapon = "EF_missiles_titan_AX_manual";
+			};
+			class smoke_revolving
+			{
+				source = "revolving";
+				weapon = "SmokeLauncher";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[] = 
+				{
+					"EF_autocannon_30mm_Hunter_AX",
+					"EF_missiles_titan_AX_manual"
+				};
+				magazines[] = 
+				{
+					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
+					"2Rnd_Titan_AT_XDF_missiles",
+					"2Rnd_Titan_AT_XDF_missiles", 
+					"2Rnd_Titan_AT_XDF_missiles", 
+					"2Rnd_Titan_AT_XDF_missiles"
+				};	
+			};
+			class CommanderTurret: CommanderTurret {};
+		};
 	};
 	class EF_B_MRAP_01_AT_NATO;
-	class XDF_Boar_AT: EF_B_MRAP_01_AT_NATO
+	class EF_B_MRAP_01_AT_NATO_OCimport_01: EF_B_MRAP_01_AT_NATO { scope = 0; class AnimationSources; class Turrets; };
+	class EF_B_MRAP_01_AT_NATO_OCimport_02: EF_B_MRAP_01_AT_NATO_OCimport_01 { 
+		class Turrets : Turrets { 
+			class MainTurret;
+			class CommanderTurret;
+		};
+	};
+	class XDF_Boar_AT: EF_B_MRAP_01_AT_NATO_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -73,9 +141,62 @@ class CfgVehicles
 			"Door_RB",
 			"Door_LB"
 		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot
+			{
+				source = "ammorandom";
+				weapon = "EF_LMG_coax_Hunter";
+			};
+			class muzzle_hide
+			{
+				source = "reload";
+				weapon = "EF_LMG_coax_Hunter";
+			};
+			class Missiles_revolving
+			{
+				source = "revolving";
+				weapon = "EF_Weapon_Titan_NLOS_AX";
+			};
+			class missiles_reloadMagazine
+			{
+				source = "reloadMagazine";
+				weapon = "EF_Weapon_Titan_NLOS_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[] = 
+				{
+					"EF_Weapon_Titan_NLOS_AX", 
+					"EF_LMG_coax_Hunter", 
+					"LaserDesignator_mounted"
+				};
+				magazines[] = 
+				{
+					"EF_Magazine_Titan_NLOS_AX_2Rnd",
+					"EF_Magazine_Titan_NLOS_AX_2Rnd", 
+					"EF_Magazine_Titan_NLOS_AX_2Rnd",
+					"EF_Magazine_Titan_NLOS_AX_2Rnd", 
+					"200Rnd_762x51_Belt_Red",
+					"200Rnd_762x51_Belt_Red", 
+					"200Rnd_762x51_Belt_Red",
+					"LaserBatteries"
+				};
+			};
+			class CommanderTurret: CommanderTurret {};
+		};
 	};
 	class EF_B_MRAP_01_LAAD_NATO;
-	class XDF_Boar_LAAD: EF_B_MRAP_01_LAAD_NATO
+	class EF_B_MRAP_01_LAAD_NATO_OCimport_01: EF_B_MRAP_01_LAAD_NATO { scope = 0; class AnimationSources; class Turrets; };
+	class EF_B_MRAP_01_LAAD_NATO_OCimport_02: EF_B_MRAP_01_LAAD_NATO_OCimport_01 {
+		class Turrets: Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Boar_LAAD: EF_B_MRAP_01_LAAD_NATO_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -109,6 +230,38 @@ class CfgVehicles
 			"Door_RF",
 			"Door_RB",
 			"Door_LB"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source = "revolving";
+				weapon = "EF_missiles_SAAMI_AX_manual";
+			};
+			class missiles_reloadMagazine
+			{
+				source = "reloadMagazine";
+				weapon = "EF_missiles_SAAMI_AX_manual";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[] = 
+				{
+					"EF_autocannon_30mm_Hunter_AX",
+					"EF_missiles_SAAMI_AX_manual"
+				};
+				magazines[] = 
+				{
+					"SmokeLauncherMag",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue","EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"4Rnd_70mm_SAAMI_AX_missiles", 
+					"4Rnd_70mm_SAAMI_AX_missiles"
+				};
+			};
 		};
 	};
 	class EF_B_AH99J_NATO;

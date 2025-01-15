@@ -177,4 +177,78 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+
+	//////////////////// VEHICLES ////////////////////
+	class EF_autocannon_30mm_Hunter;
+	class EF_autocannon_30mm_Hunter_AX: EF_autocannon_30mm_Hunter
+	{
+		displayName = "AX Autocannon 30mm";
+		magazines[] += 
+		{
+			"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue", "EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue"
+		};
+	};
+	class EF_missiles_SAAMI_manual;
+	class EF_missiles_SAAMI_AX_manual: EF_missiles_SAAMI_manual
+	{
+		magazines[] += 
+		{
+			"4Rnd_70mm_SAAMI_AX_missiles"
+		};
+		autoReload = 0;
+	};
+	class EF_Weapon_Titan_NLOS;
+	class EF_Weapon_Titan_NLOS_AX: EF_Weapon_Titan_NLOS
+	{
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+		magazines[] += 
+		{
+			"EF_Magazine_Titan_NLOS_AX_1Rnd", 
+			"EF_Magazine_Titan_NLOS_AX_2Rnd",
+			"EF_Magazine_Titan_NLOS_AX_4Rnd",
+			"EF_PylonMissile_Titan_NLOS_AX_1Rnd", 
+			"EF_PylonMissile_Titan_NLOS_AX_2Rnd"
+		};
+	};
+	class EF_missiles_titan_manual;
+	class EF_missiles_titan_AX_manual: EF_missiles_titan_manual
+	{
+		magazines[] += 
+		{
+			"2Rnd_Titan_AT_XDF_missiles"
+		};
+	};
+	class EF_weapon_SidearmLauncher;
+	class EF_weapon_SidearmAXLauncher: EF_weapon_SidearmLauncher
+	{
+		displayName = "ARM-955M Hyperfox";
+		magazines[] +=
+		{
+			"EF_magazine_Missile_Sidearm_AX_x1",
+			"EF_PylonMissile_Missile_Sidearm_AX_x1"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+	};
 };
