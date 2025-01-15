@@ -177,4 +177,24 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+
+	//////////////////// VEHICLES ////////////////////
+	class EF_autocannon_30mm_Hunter;
+	class EF_autocannon_30mm_Hunter_AX: EF_autocannon_30mm_Hunter
+	{
+		displayName = "AX Autocannon 30mm";
+		magazines[] += 
+		{
+			"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue", "EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue"
+		};
+	};
+	class EF_missiles_SAAMI_manual;
+	class EF_missiles_SAAMI_AX_manual: EF_missiles_SAAMI_manual
+	{
+		magazines[] += 
+		{
+			"4Rnd_70mm_SAAMI_AX_missiles"
+		};
+		autoReload = 0;
+	};
 };

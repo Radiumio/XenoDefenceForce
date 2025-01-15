@@ -326,6 +326,13 @@ class CfgMagazines
 		descriptionShort="$STR_A3_Missile_mim145_x4_magazine_description";
 		ammo="ammo_Missile_mim145_AX";
 	};
+	class 4Rnd_70mm_SAAMI_missiles;
+	class 4Rnd_70mm_SAAMI_AX_missiles: 4Rnd_70mm_SAAMI_missiles
+	{
+		displayName = "SAAMI-AX Missile";
+		displayNameShort = "AA-AX";
+		ammo = "M_70mm_SAAMI_AX";
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

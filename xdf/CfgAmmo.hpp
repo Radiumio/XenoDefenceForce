@@ -255,6 +255,13 @@ class CfgAmmo
 		thrust=500;
 		maxSpeed=4000;
 	};
+	class M_70mm_SAAMI;
+	class M_70mm_SAAMI_AX: M_70mm_SAAMI
+	{
+		hit = 400;
+		indirectHit = 120;
+		effectsMissile = "XDF_Missile3";
+	};
 
 
 	// infantry weapons 
