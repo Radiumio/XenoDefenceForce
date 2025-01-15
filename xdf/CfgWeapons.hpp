@@ -1146,6 +1146,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_short_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"MX_65x39_XDF",
@@ -1163,6 +1170,13 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_short_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1182,6 +1196,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mx\glx_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class GL_3GL_F: GL_3GL_F
 		{
@@ -1211,6 +1232,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_lmg_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"MX_65x39_XDF",
@@ -1228,6 +1256,13 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
