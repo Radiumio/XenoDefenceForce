@@ -38,8 +38,8 @@ class CfgAmmo
 	class EF_ammo_Missile_Sidearm;
 	class EF_ammo_Missile_Sidearm_AX: EF_ammo_Missile_Sidearm
 	{
-		hit = 2000;
-		indirectHit = 500;
+		hit = 2500;
+		indirectHit = 800;
 		thrust = 250;
 		maxSpeed = 1200;
 		effectsMissile = "XDF_Missile3";
