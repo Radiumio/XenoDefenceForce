@@ -245,9 +245,9 @@ class CfgAmmo
 		indirectHit=4000;
 		indirectHitRange=15;
 		effectsMissile="XDF_Missile3";
-		maneuvrability=36;
+		maneuvrability=42;
 		thrust=500;
-		maxSpeed=2500;
+		maxSpeed=4000;
 	};
 
 
