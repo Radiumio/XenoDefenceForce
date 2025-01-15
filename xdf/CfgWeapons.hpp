@@ -2682,7 +2682,8 @@ class cfgWeapons
 	{
 		magazines[]+=
 		{
-			"18Rnd_120mm_APFSDS_T_Blue_AX"
+			"18Rnd_120mm_APFSDS_T_Blue_AX",
+			"8Rnd_120mm_APFSDS_T_Blue_AX"
 		};
 	};
 	class cannon_railgun;

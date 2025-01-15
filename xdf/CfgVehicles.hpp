@@ -20015,11 +20015,12 @@ class CfgVehicles
 				};
 				weapons[]=
 				{
-					"cannon_120mm",
+					"cannon_120mm_AX",
 					"LMG_Minigun_AX",
 				};
 				magazines[]=
 				{
+					"8Rnd_120mm_APFSDS_T_Blue_AX",
 					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
 					"12Rnd_120mm_HE_shells_Tracer_Red",
 					"12Rnd_120mm_HEAT_MP_T_Red",

@@ -88,11 +88,22 @@ class CfgMagazines
 	class 12Rnd_120mm_APFSDS_shells_Tracer_Red;
 	class 18Rnd_120mm_APFSDS_T_Blue_AX: 12Rnd_120mm_APFSDS_shells_Tracer_Red
 	{
-		author="$STR_A3_Bohemia_Interactive";
+		author="Radium";
 		displayName="120mm APFSDS-AX";
 		displaynameshort="APFSDS-AX";
 		displayNameMFDFormat="AX";
 		count=18;
+		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
+		tracersEvery=1;
+		initSpeed=1670;
+	};
+	class 8Rnd_120mm_APFSDS_T_Blue_AX: 18Rnd_120mm_APFSDS_T_Blue_AX
+	{
+		author="Radium";
+		displayName="120mm APFSDS-AX";
+		displaynameshort="APFSDS-AX";
+		displayNameMFDFormat="AX";
+		count=8;
 		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
 		tracersEvery=1;
 		initSpeed=1670;
