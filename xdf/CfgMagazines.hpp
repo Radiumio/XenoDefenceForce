@@ -310,8 +310,8 @@ class CfgMagazines
 	class magazine_Missile_mim145_x4;
 	class magazine_Missile_mim145_AX_x4: magazine_Missile_mim145_x4
 	{
-		displayName="$STR_A3_Missile_mim145_x4_magazine_name";
-		displayNameShort="$STR_A3_Missile_mim145_x4_magazine_shortName";
+		displayName="TAIPAN Interceptor Missile";
+		displayNameShort="SAM LR TA-AX";
 		descriptionShort="$STR_A3_Missile_mim145_x4_magazine_description";
 		ammo="ammo_Missile_mim145_AX";
 	};

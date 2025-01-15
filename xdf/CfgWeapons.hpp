@@ -3234,6 +3234,7 @@ class cfgWeapons
 	class weapon_mim145Launcher;
 	class weapon_mim145Launcher_AX: weapon_mim145Launcher
 	{
+		displayName="MIM-55 Taipan Launcher";
 		magazines[]=
 		{
 			"magazine_Missile_mim145_AX_x4"

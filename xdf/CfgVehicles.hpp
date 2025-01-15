@@ -21927,7 +21927,7 @@ class CfgVehicles
 			class Missiles_revolving
 			{
 				source="revolving";
-				weapon="magazine_Missile_mim145_AX_x4";
+				weapon="weapon_mim145Launcher_AX";
 			};
 		};
 		class Turrets: Turrets
@@ -21936,7 +21936,7 @@ class CfgVehicles
 			{
 				weapons[]=
 				{
-					"magazine_Missile_mim145_AX_x4"
+					"weapon_mim145Launcher_AX"
 				};
 				magazines[]=
 				{
