@@ -21940,7 +21940,6 @@ class CfgVehicles
 				};
 				magazines[]=
 				{
-					"magazine_Missile_mim145_AX_x4",
 					"magazine_Missile_mim145_AX_x4"
 				};
 			};
