@@ -34,4 +34,32 @@ class CfgMagazines
 		DLC = "ef";
 		count = 2;
 	};
+	class EF_Magazine_Titan_NLOS_AX_2Rnd: EF_Magazine_Titan_NLOS_AX_1Rnd
+	{
+		author = "Radium";
+		DLC = "ef";
+		count = 4;
+	};
+	class EF_Magazine_Titan_NLOS_1Rnd;
+	class EF_PylonMissile_Titan_NLOS_AX_1Rnd: EF_Magazine_Titan_NLOS_1Rnd
+	{
+		author = "Radium";
+		DLC = "ef";
+		displayName = "Titan NLOS-AX 1x";
+		model = "\ef\ef_weapons\titan_nlos\ef_titan_nlos_pod_single.p3d";
+		hardpoints[] = {"TITAN_NLOS_1RND"};
+		pylonWeapon = "EF_Weapon_Titan_NLOS";
+		mass = 90;
+	};
+	class EF_Magazine_Titan_NLOS_2Rnd;
+	class EF_PylonMissile_Titan_NLOS_AX_2Rnd: EF_Magazine_Titan_NLOS_2Rnd
+	{
+		author = "Radium";
+		DLC = "ef";
+		displayName = "Titan NLOS-AX 2x";
+		model = "\ef\ef_weapons\titan_nlos\ef_titan_nlos_pod_double.p3d";
+		hardpoints[] = {"TITAN_NLOS_2RND"};
+		pylonWeapon = "EF_Weapon_Titan_NLOS";
+		mass = 180;
+	};
 };
