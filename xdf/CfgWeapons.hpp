@@ -3231,4 +3231,12 @@ class cfgWeapons
 			"680Rnd_35mm_AA_AX_shells",
 		};
 	};
+	class weapon_mim145Launcher;
+	class weapon_mim145Launcher_AX: weapon_mim145Launcher
+	{
+		magazines[]=
+		{
+			"magazine_Missile_mim145_AX_x4"
+		};
+	};
 };

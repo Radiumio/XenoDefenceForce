@@ -307,6 +307,14 @@ class CfgMagazines
 		nameSound="cannon";
 		muzzleImpulseFactor[]={1,4};
 	};
+	class magazine_Missile_mim145_x4;
+	class magazine_Missile_mim145_AX_x4: magazine_Missile_mim145_x4
+	{
+		displayName="$STR_A3_Missile_mim145_x4_magazine_name";
+		displayNameShort="$STR_A3_Missile_mim145_x4_magazine_shortName";
+		descriptionShort="$STR_A3_Missile_mim145_x4_magazine_description";
+		ammo="ammo_Missile_mim145_AX";
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

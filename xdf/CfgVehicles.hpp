@@ -21868,7 +21868,13 @@ class CfgVehicles
 		};
 	};
 	class B_SAM_System_03_F;
-	class XDF_Patriot: B_SAM_System_03_F
+	class B_SAM_System_03_F_OCimport_01: B_SAM_System_03_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_SAM_System_03_F_OCimport_02: B_SAM_System_03_F_OCimport_01 {
+		class Turrets: Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Patriot: B_SAM_System_03_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21915,6 +21921,29 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="magazine_Missile_mim145_AX_x4";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"magazine_Missile_mim145_AX_x4"
+				};
+				magazines[]=
+				{
+					"magazine_Missile_mim145_AX_x4",
+					"magazine_Missile_mim145_AX_x4"
+				};
+			};
 		};
 	};
 	class B_AAA_System_01_F;

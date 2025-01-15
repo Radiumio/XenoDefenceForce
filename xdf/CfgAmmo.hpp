@@ -244,6 +244,15 @@ class CfgAmmo
 		hit=120; // Default 60
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class ammo_Missile_mim145;
+	class ammo_Missile_mim145_AX: ammo_Missile_mim145
+	{
+		hit=4000;
+		effectsMissile="XDF_Missile3";
+		maneuvrability=40;
+		thrust=800;
+		maxSpeed=3000;
+	};
 
 
 	// infantry weapons 
