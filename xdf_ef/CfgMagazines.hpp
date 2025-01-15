@@ -65,7 +65,7 @@ class CfgMagazines
 	class EF_magazine_Missile_Sidearm_AX_x1: EF_magazine_Missile_Sidearm_x1
 	{
 		displayName = "ARM-955M Hyperfox";
-		descriptionShort = "Short-range, anti-radiation, air-to-surface missile with anti-xeno warhead";
+		descriptionShort = "Short-range, anti-radiation, air-to-surface missile using an extremely unstable anti-xeno warhead";
 		ammo = "EF_ammo_Missile_Sidearm_AX";
 	};
 	class EF_PylonMissile_Missile_Sidearm_AX_x1: EF_magazine_Missile_Sidearm_AX_x1
