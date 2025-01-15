@@ -12,5 +12,26 @@ class CfgAmmo
 	{
 		hit = 60;
 		model="xdf\weapons\tracer_blue\tracer_blue";
+		submunitionAmmo = "EF_ammo_Penetrator_30mm_HEDPAX";
+	};
+	class EF_ammo_Penetrator_30mm_HEDP;
+	class EF_ammo_Penetrator_30mm_HEDPAX: EF_ammo_Penetrator_30mm_HEDP
+	{
+		hit = 80; // Default 62.5
+	};
+	class EF_Ammo_Titan_NLOS;
+	class EF_Ammo_Titan_NLOS_AX: EF_Ammo_Titan_NLOS
+	{
+		hit = 450;
+		indirectHit = 150;
+		thrust = 60;
+		maneuvrability = 20;
+		effectsMissile = "XDF_Missile3";
+		submunitionAmmo = "EF_ammo_Penetrator_Titan_NLOS_AX";
+	};
+	class EF_ammo_Penetrator_Titan_NLOS;
+	class EF_ammo_Penetrator_Titan_NLOS_AX: EF_ammo_Penetrator_Titan_NLOS
+	{
+		hit = 1100; // Default 900
 	};
 };

@@ -16,4 +16,22 @@ class CfgMagazines
 		ammo = "EF_B_30mm_HEDPAX";
 		displayNameShort = "HE-DP-AX";
 	};
+	class EF_Magazine_Titan_NLOS_1Rnd;
+	class EF_Magazine_Titan_NLOS_AX_1Rnd: EF_Magazine_Titan_NLOS_1Rnd
+	{
+		author = "Radium";
+		DLC = "ef";
+		scope = 2;
+		displayName = "Titan NLOS-AX";
+		displayNameShort = "NLOS-AX";
+		ammo = "EF_Ammo_Titan_NLOS_AX";
+		count = 1;
+		nameSound = "missiles";
+	};
+	class EF_Magazine_Titan_NLOS_AX_2Rnd: EF_Magazine_Titan_NLOS_AX_1Rnd
+	{
+		author = "Radium";
+		DLC = "ef";
+		count = 2;
+	};
 };

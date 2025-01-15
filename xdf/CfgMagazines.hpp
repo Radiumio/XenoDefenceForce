@@ -28,6 +28,12 @@ class CfgMagazines
 		count=1;
 		mass=200;
 	};
+	class 2Rnd_Titan_AT_XDF_missiles: Titan_AT_XDF
+	{
+		author = "Radium";
+		count = 2;
+		displayNameMFDFormat = "MISSILE";
+	};
 	class Vorona_HEAT;
 	class Vorona_HEAT_XDF: Vorona_HEAT
 	{

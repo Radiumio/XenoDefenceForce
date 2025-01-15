@@ -197,4 +197,33 @@ class cfgWeapons
 		};
 		autoReload = 0;
 	};
+	class EF_Weapon_Titan_NLOS;
+	class EF_Weapon_Titan_NLOS_AX: EF_Weapon_Titan_NLOS
+	{
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+		magazines[] += 
+		{
+			"EF_Magazine_Titan_NLOS_AX_1Rnd", 
+			"EF_Magazine_Titan_NLOS_AX_2Rnd"
+		};
+	};
+	class EF_missiles_titan_manual;
+	class EF_missiles_titan_AX_manual: EF_missiles_titan_manual
+	{
+		magazines[] += 
+		{
+			"2Rnd_Titan_AT_XDF_missiles"
+		};
+	};
 };
