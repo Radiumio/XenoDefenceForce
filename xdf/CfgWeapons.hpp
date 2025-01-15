@@ -1447,6 +1447,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"AK_762x39_XDF"
@@ -1464,6 +1471,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_gl_co"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -1493,6 +1507,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\aku12_rpk12_parts_co"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"AK_762x39_XDF"
@@ -1510,6 +1531,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\ak12_ak12_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\ak12\aku12_rpk12_parts_co"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ak12_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -2654,7 +2682,8 @@ class cfgWeapons
 	{
 		magazines[]+=
 		{
-			"18Rnd_120mm_APFSDS_T_Blue_AX"
+			"18Rnd_120mm_APFSDS_T_Blue_AX",
+			"8Rnd_120mm_APFSDS_T_Blue_AX"
 		};
 	};
 	class cannon_railgun;
@@ -3174,6 +3203,42 @@ class cfgWeapons
 		magazines[]+=
 		{
 			"1500Rnd_20mm_AX_shells"
+		};
+	};
+	class weapon_Cannon_Phalanx;
+	class AX_weapon_Cannon_Phalanx: weapon_Cannon_Phalanx
+	{
+		displayName="AX Gatling Cannon 20mm";
+		magazines[]=
+		{
+			"AX_magazine_Cannon_Phalanx_x2000"
+		};
+	};
+	class missiles_titan_AA;
+	class missiles_titan_AX: missiles_titan_AA
+	{
+		displayName="Lance MLS"
+		magazines[]+=
+		{
+			"4Rnd_Titan_long_missiles_AX"
+		};
+	};
+	class autocannon_35mm;
+	class autocannon_35mm_AX: autocannon_35mm
+	{
+		displayname="GDF-AX 'Viper'";
+		magazines[]+=
+		{
+			"680Rnd_35mm_AA_AX_shells",
+		};
+	};
+	class weapon_mim145Launcher;
+	class weapon_mim145Launcher_AX: weapon_mim145Launcher
+	{
+		displayName="MIM-55 Taipan Launcher";
+		magazines[]=
+		{
+			"magazine_Missile_mim145_AX_x4"
 		};
 	};
 };

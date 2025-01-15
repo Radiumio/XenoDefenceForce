@@ -3,3 +3,5 @@
 #include "CfgWeapons.hpp"
 #include "CfgEditorCategories.hpp"
 #include "CfgGroups.hpp"
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"

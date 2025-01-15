@@ -162,8 +162,6 @@ class CfgAmmo
 	class ammo_Missile_AMRAAM_D;
 	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
 	{
-		//model="xdf\weapons\ax78\ax78_fly.p3d";
-		//proxyShape="xdf\weapons\ax78\ax78.p3d";
 		hit=3000;
 		maxSpeed=2900;
 		thrust=350;
@@ -173,8 +171,6 @@ class CfgAmmo
 	class M_Air_AA;
 	class M_Air_AA_AX: M_Air_AA
 	{
-		//model="xdf\weapons\ax55\ax55_fly.p3d";
-		//proxyShape="xdf\weapons\ax55\ax55.p3d";
 		hit=2200;
 		maxSpeed=1520;
 		thrust=280;
@@ -184,8 +180,6 @@ class CfgAmmo
 	class Missile_AGM_02_F;
 	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
 	{
-		//model="xdf\weapons\axgm\axgm.p3d";
-		//proxyShape="xdf\weapons\axgm\axgm.p3d";
 		hit=2500;
 		maxSpeed=2100;
 		effectsMissile="XDF_Missile3";
@@ -221,13 +215,53 @@ class CfgAmmo
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		hit=110; // default 80
 	};
+	class B_30mm_APFSDS;
+	class B_30mm_APFSDS_AX: B_30mm_APFSDS
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=150; // default 120
+	};
 	class B_20mm;
 	class B_20mm_Tracer_AX: B_20mm
 	{
 		hit=90; // default 60
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
-
+	class ammo_Gun35mmAABase;
+	class ammo_AAA_Gun35mm_AX: ammo_Gun35mmAABase
+	{
+		hit=144; // default 72
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		tracerScale=2;
+		tracerStartTime=0.050000001;
+		tracerEndTime=2;
+		shotDistractionAI=-0.5;
+		typicalSpeed=1200;
+	};
+	class B_35mm_AA;
+	class B_35mm_AA_AX: B_35mm_AA
+	{
+		hit=120; // Default 60
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class ammo_Missile_mim145;
+	class ammo_Missile_mim145_AX: ammo_Missile_mim145
+	{
+		hit=8000;
+		indirectHit=4000;
+		indirectHitRange=15;
+		effectsMissile="XDF_Missile3";
+		maneuvrability=42;
+		thrust=500;
+		maxSpeed=4000;
+	};
+	class M_70mm_SAAMI;
+	class M_70mm_SAAMI_AX: M_70mm_SAAMI
+	{
+		hit = 400;
+		indirectHit = 120;
+		effectsMissile = "XDF_Missile3";
+	};
 
 
 	// infantry weapons 

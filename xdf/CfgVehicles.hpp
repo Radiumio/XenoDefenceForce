@@ -18201,6 +18201,96 @@ class CfgVehicles
 				"B_XDF_UAV_01_backpack_F"
 			};
 		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class ManSensorComponent: SensorTemplateMan
+					{
+						maxTrackableSpeed=15;
+						angleRangeHorizontal=360;
+						angleRangeVertical=360;
+						animDirection="mainGun";
+						aimDown=-0.5;
+					};
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=1500;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=1000;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=35;
+						angleRangeHorizontal=360;
+						angleRangeVertical=360;
+						animDirection="mainGun";
+						aimDown=-0.5;
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+			{
+				class components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoMiniMap";
+					};
+					class UAVDisplay
+					{
+						componentType="UAVFeedDisplayComponent";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={800,400,200,1600};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
+			{
+				defaultDisplay="SensorDisplay";
+				class components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoMiniMap";
+					};
+					class UAVDisplay
+					{
+						componentType="UAVFeedDisplayComponent";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={800,400,200,1600};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+		};
 	};
 	class B_Static_Designator_01_F;
 	class XDF_Sentinel: B_Static_Designator_01_F
@@ -19424,7 +19514,13 @@ class CfgVehicles
 		};
 	};
 	class O_APC_Tracked_02_AA_F;
-	class XDF_Huntress: O_APC_Tracked_02_AA_F
+	class O_APC_Tracked_02_AA_F_OCimport_01 : O_APC_Tracked_02_AA_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_APC_Tracked_02_AA_F_OCimport_02 : O_APC_Tracked_02_AA_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Huntress: O_APC_Tracked_02_AA_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19486,6 +19582,37 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_titan_AX";
+			};
+			class muzzle_rot
+			{
+				source="ammorandom";
+				weapon="autocannon_35mm_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"autocannon_35mm_AX",
+					"missiles_titan_AX"
+				};
+				magazines[]=
+				{
+					"680Rnd_35mm_AA_AX_shells",
+					"680Rnd_35mm_AA_AX_shells",
+					"4Rnd_Titan_long_missiles_AX",
+					"4Rnd_Titan_long_missiles_AX"
+				};
+			};
 		};
 	};
 	class I_APC_Wheeled_03_cannon_F;
@@ -19601,7 +19728,7 @@ class CfgVehicles
 		};
 	};
 	class I_MBT_03_cannon_F;
-	class I_MBT_03_cannon_F_OCimport_01: I_MBT_03_cannon_F { scope = 0; class Turrets; };
+	class I_MBT_03_cannon_F_OCimport_01: I_MBT_03_cannon_F { scope = 0; class AnimationSources; class Turrets; };
 	class I_MBT_03_cannon_F_OCimport_02: I_MBT_03_cannon_F_OCimport_01 {
 		class Turrets: Turrets {
 			class MainTurret;
@@ -19668,6 +19795,34 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_coax
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_rot_hmg
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_hide_coax
+			{
+				source="reload";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+		};
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -19689,11 +19844,12 @@ class CfgVehicles
 				};
 				weapons[]=
 				{
-					"cannon_120mm",
+					"cannon_120mm_AX",
 					"LMG_Minigun_AX",
 				};
 				magazines[]=
 				{
+					"8Rnd_120mm_APFSDS_T_Blue_AX",
 					"20Rnd_120mm_APFSDS_shells_Tracer_Yellow",
 					"12Rnd_120mm_HE_shells_Tracer_Yellow",
 					"12Rnd_120mm_HEAT_MP_T_Yellow",
@@ -19768,6 +19924,7 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -19800,7 +19957,7 @@ class CfgVehicles
 		};
 	};
 	class B_MBT_01_TUSK_F;
-	class B_MBT_01_TUSK_F_OCimport_01: B_MBT_01_TUSK_F { scope = 0; class Turrets; };
+	class B_MBT_01_TUSK_F_OCimport_01: B_MBT_01_TUSK_F { scope = 0; class AnimationSources; class Turrets; };
 	class B_MBT_01_TUSK_F_OCimport_02: B_MBT_01_TUSK_F_OCimport_01 {
 		class Turrets : Turrets {
 			class MainTurret;
@@ -19867,6 +20024,24 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+		};
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -19888,11 +20063,12 @@ class CfgVehicles
 				};
 				weapons[]=
 				{
-					"cannon_120mm",
+					"cannon_120mm_AX",
 					"LMG_Minigun_AX",
 				};
 				magazines[]=
 				{
+					"8Rnd_120mm_APFSDS_T_Blue_AX",
 					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
 					"12Rnd_120mm_HE_shells_Tracer_Red",
 					"12Rnd_120mm_HEAT_MP_T_Red",
@@ -21741,7 +21917,13 @@ class CfgVehicles
 		};
 	};
 	class B_SAM_System_03_F;
-	class XDF_Patriot: B_SAM_System_03_F
+	class B_SAM_System_03_F_OCimport_01: B_SAM_System_03_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_SAM_System_03_F_OCimport_02: B_SAM_System_03_F_OCimport_01 {
+		class Turrets: Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Patriot: B_SAM_System_03_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21789,9 +21971,37 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="weapon_mim145Launcher_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"weapon_mim145Launcher_AX"
+				};
+				magazines[]=
+				{
+					"magazine_Missile_mim145_AX_x4"
+				};
+			};
+		};
 	};
 	class B_AAA_System_01_F;
-	class XDF_Praetorian: B_AAA_System_01_F
+	class B_AAA_System_01_F_OCimport_01: B_AAA_System_01_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_AAA_System_01_F_OCimport_02: B_AAA_System_01_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Praetorian: B_AAA_System_01_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21801,7 +22011,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
-		armor = 160; // Default 80
+		armor = 800; // Default 80
 		damageResistance = 0.05; // Default 0.0040000002
 		typicalCargo[]=
 		{
@@ -21838,6 +22048,35 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources
+		{
+			class Revolving
+			{
+				source="revolving";
+				weapon="AX_weapon_Cannon_Phalanx";
+			};
+			class muzzle_rot_20mm: Revolving
+			{
+				source="ammorandom";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_weapon_Cannon_Phalanx"
+				};
+				magazines[]=
+				{
+					"AX_magazine_Cannon_Phalanx_x2000",
+					"AX_magazine_Cannon_Phalanx_x2000",
+					"AX_magazine_Cannon_Phalanx_x2000",
+					"AX_magazine_Cannon_Phalanx_x2000"
+				};
+			};
 		};
 	};
 	class B_Ship_MRLS_01_F;
