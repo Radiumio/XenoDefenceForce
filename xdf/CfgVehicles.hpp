@@ -19514,7 +19514,13 @@ class CfgVehicles
 		};
 	};
 	class O_APC_Tracked_02_AA_F;
-	class XDF_Huntress: O_APC_Tracked_02_AA_F
+	class O_APC_Tracked_02_AA_F_OCimport_01 : O_APC_Tracked_02_AA_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_APC_Tracked_02_AA_F_OCimport_02 : O_APC_Tracked_02_AA_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Huntress: O_APC_Tracked_02_AA_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -19576,6 +19582,37 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_titan_AX";
+			};
+			class muzzle_rot
+			{
+				source="ammorandom";
+				weapon="autocannon_35mm_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"autocannon_35mm_AX",
+					"missiles_titan_AA"
+				};
+				magazines[]=
+				{
+					"680Rnd_35mm_AA_AX_shells",
+					"680Rnd_35mm_AA_AX_shells",
+					"4Rnd_Titan_long_missiles_AX",
+					"4Rnd_Titan_long_missiles_AX"
+				};
+			};
 		};
 	};
 	class I_APC_Wheeled_03_cannon_F;

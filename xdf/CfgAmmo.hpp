@@ -238,6 +238,12 @@ class CfgAmmo
 		shotDistractionAI=-0.5;
 		typicalSpeed=1200;
 	};
+	class B_35mm_AA;
+	class B_35mm_AA_AX: B_35mm_AA
+	{
+		hit=120; // Default 60
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 
 
 	// infantry weapons 

@@ -3213,4 +3213,20 @@ class cfgWeapons
 			"AX_magazine_Cannon_Phalanx_x2000"
 		};
 	};
+	class missiles_titan_AA;
+	class missiles_titan_AX: missiles_titan_AA
+	{
+		magazines[]+=
+		{
+			"4Rnd_Titan_long_missiles_AX"
+		};
+	};
+	class autocannon_35mm;
+	class autocannon_35mm_AX: autocannon_35mm
+	{
+		magazines[]+=
+		{
+			"680Rnd_35mm_AA_AX_shells",
+		};
+	};
 };
