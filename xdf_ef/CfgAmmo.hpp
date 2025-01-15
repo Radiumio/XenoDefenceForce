@@ -24,8 +24,9 @@ class CfgAmmo
 	{
 		hit = 450;
 		indirectHit = 150;
-		thrust = 60;
-		maneuvrability = 20;
+		thrust = 180;
+		maxSpeed = 300;
+		maneuvrability = 30;
 		effectsMissile = "XDF_Missile3";
 		submunitionAmmo = "EF_ammo_Penetrator_Titan_NLOS_AX";
 	};
@@ -33,5 +34,14 @@ class CfgAmmo
 	class EF_ammo_Penetrator_Titan_NLOS_AX: EF_ammo_Penetrator_Titan_NLOS
 	{
 		hit = 1100; // Default 900
+	};
+	class EF_ammo_Missile_Sidearm;
+	class EF_ammo_Missile_Sidearm_AX: EF_ammo_Missile_Sidearm
+	{
+		hit = 1800;
+		indirectHit = 100;
+		thrust = 250;
+		maxSpeed = 1200;
+		effectsMissile = "XDF_Missile3";
 	};
 };
