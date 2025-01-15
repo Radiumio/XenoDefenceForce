@@ -21881,7 +21881,13 @@ class CfgVehicles
 		};
 	};
 	class B_AAA_System_01_F;
-	class XDF_Praetorian: B_AAA_System_01_F
+	class B_AAA_System_01_F_OCimport_01: B_AAA_System_01_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_AAA_System_01_F_OCimport_02: B_AAA_System_01_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Praetorian: B_AAA_System_01_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21891,7 +21897,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
-		armor = 160; // Default 80
+		armor = 800; // Default 80
 		damageResistance = 0.05; // Default 0.0040000002
 		typicalCargo[]=
 		{
@@ -21928,6 +21934,35 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class AnimationSources
+		{
+			class Revolving
+			{
+				source="revolving";
+				weapon="AX_weapon_Cannon_Phalanx";
+			};
+			class muzzle_rot_20mm: Revolving
+			{
+				source="ammorandom";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_weapon_Cannon_Phalanx"
+				};
+				magazines[]=
+				{
+					"AX_magazine_Cannon_Phalanx_x2000",
+					"AX_magazine_Cannon_Phalanx_x2000",
+					"AX_magazine_Cannon_Phalanx_x2000",
+					"AX_magazine_Cannon_Phalanx_x2000"
+				};
+			};
 		};
 	};
 	class B_Ship_MRLS_01_F;

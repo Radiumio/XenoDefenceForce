@@ -3204,4 +3204,13 @@ class cfgWeapons
 			"1500Rnd_20mm_AX_shells"
 		};
 	};
+	class weapon_Cannon_Phalanx;
+	class AX_weapon_Cannon_Phalanx: weapon_Cannon_Phalanx
+	{
+		displayName="AX Gatling Cannon 20mm";
+		magazines[]=
+		{
+			"AX_magazine_Cannon_Phalanx_x2000"
+		};
+	};
 };

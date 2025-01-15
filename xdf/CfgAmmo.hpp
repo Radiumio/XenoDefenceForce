@@ -227,7 +227,17 @@ class CfgAmmo
 		hit=90; // default 60
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
-
+	class ammo_Gun35mmAABase;
+	class ammo_AAA_Gun35mm_AX: ammo_Gun35mmAABase
+	{
+		hit=144; // default 72
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		tracerScale=2;
+		tracerStartTime=0.050000001;
+		tracerEndTime=2;
+		shotDistractionAI=-0.5;
+		typicalSpeed=1200;
+	};
 
 
 	// infantry weapons 

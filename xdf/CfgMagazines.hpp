@@ -272,6 +272,18 @@ class CfgMagazines
 		ammo="B_20mm_Tracer_AX";
 		tracersEvery=1;
 	};
+	class AX_magazine_Cannon_Phalanx_x2000: VehicleMagazine
+	{
+		scope=2;
+		displayName="AX Prateorian 20mm";
+		descriptionShort="$STR_A3_Phalanx_x1550_magazine_description";
+		ammo="ammo_AAA_Gun35mm_AX";
+		count=2000;
+		initSpeed=1440;
+		maxLeadSpeed=600;
+		tracersEvery=1;
+		nameSound="cannon";
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;
