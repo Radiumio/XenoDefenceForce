@@ -242,10 +242,12 @@ class CfgAmmo
 	class ammo_Missile_mim145_AX: ammo_Missile_mim145
 	{
 		hit=8000;
+		indirectHit=4000;
+		indirectHitRange=15;
 		effectsMissile="XDF_Missile3";
-		maneuvrability=40;
-		thrust=800;
-		maxSpeed=2800;
+		maneuvrability=36;
+		thrust=500;
+		maxSpeed=2500;
 	};
 
 
