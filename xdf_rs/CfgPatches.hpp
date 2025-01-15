@@ -8,7 +8,6 @@ class CfgPatches
 			"xdf",
 			"QAV_Ripsaw"
 		};
-		version = "1.0";
 		units[] = 
 		{
 			"XDF_Ripsaw"
