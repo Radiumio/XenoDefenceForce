@@ -162,8 +162,6 @@ class CfgAmmo
 	class ammo_Missile_AMRAAM_D;
 	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
 	{
-		//model="xdf\weapons\ax78\ax78_fly.p3d";
-		//proxyShape="xdf\weapons\ax78\ax78.p3d";
 		hit=3000;
 		maxSpeed=2900;
 		thrust=350;
@@ -173,8 +171,6 @@ class CfgAmmo
 	class M_Air_AA;
 	class M_Air_AA_AX: M_Air_AA
 	{
-		//model="xdf\weapons\ax55\ax55_fly.p3d";
-		//proxyShape="xdf\weapons\ax55\ax55.p3d";
 		hit=2200;
 		maxSpeed=1520;
 		thrust=280;
@@ -184,8 +180,6 @@ class CfgAmmo
 	class Missile_AGM_02_F;
 	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
 	{
-		//model="xdf\weapons\axgm\axgm.p3d";
-		//proxyShape="xdf\weapons\axgm\axgm.p3d";
 		hit=2500;
 		maxSpeed=2100;
 		effectsMissile="XDF_Missile3";
