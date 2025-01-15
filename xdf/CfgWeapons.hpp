@@ -3216,6 +3216,7 @@ class cfgWeapons
 	class missiles_titan_AA;
 	class missiles_titan_AX: missiles_titan_AA
 	{
+		displayName="Lance MLS"
 		magazines[]+=
 		{
 			"4Rnd_Titan_long_missiles_AX"
@@ -3224,6 +3225,7 @@ class cfgWeapons
 	class autocannon_35mm;
 	class autocannon_35mm_AX: autocannon_35mm
 	{
+		displayname="GDF-AX 'Viper'";
 		magazines[]+=
 		{
 			"680Rnd_35mm_AA_AX_shells",

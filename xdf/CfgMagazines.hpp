@@ -289,16 +289,16 @@ class CfgMagazines
 	{
 		author="Radium";
 		ammo="M_Titan_AA_XDF";
-		displayName="$STR_A3_MISSILES_TITAN0";
-		displayNameShort="$STR_A3_CfgMagazines_Titan_AA_dns";
+		displayName="Lance Missile";
+		displayNameShort="AA-AX";
 		displayNameMFDFormat="MISSILE";
 	};
 	class 680Rnd_35mm_AA_AX_shells: VehicleMagazine
 	{
 		author="Radium";
 		scope=2;
-		displayName="$STR_A3_CfgMagazines_680Rnd_35mm_AA_shells0";
-		displayNameShort="$STR_A3_CfgMagazines_680Rnd_35mm_AA_shells_dns";
+		displayName="35 mm AA-AX Shells";
+		displayNameShort="AA-AX";
 		ammo="B_35mm_AA_AX";
 		count=680;
 		initSpeed=1440;
