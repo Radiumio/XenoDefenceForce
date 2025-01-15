@@ -19603,7 +19603,7 @@ class CfgVehicles
 				weapons[]=
 				{
 					"autocannon_35mm_AX",
-					"missiles_titan_AA"
+					"missiles_titan_AX"
 				};
 				magazines[]=
 				{
