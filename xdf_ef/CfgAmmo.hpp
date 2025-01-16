@@ -24,9 +24,6 @@ class CfgAmmo
 	{
 		hit = 700;
 		indirectHit = 400;
-		thrust = 180;
-		maxSpeed = 300;
-		maneuvrability = 30;
 		effectsMissile = "XDF_Missile3";
 		submunitionAmmo = "EF_ammo_Penetrator_Titan_NLOS_AX";
 	};
