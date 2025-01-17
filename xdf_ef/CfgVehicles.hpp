@@ -37,12 +37,6 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
-		driverDoor="Door_LF";
-		cargoDoors[]={
-			"Door_RF",
-			"Door_RB",
-			"Door_LB"
-		};
 		class AnimationSources: AnimationSources
 		{
 			class muzzle_rot
@@ -135,12 +129,6 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
-		driverDoor="Door_LF";
-		cargoDoors[]={
-			"Door_RF",
-			"Door_RB",
-			"Door_LB"
-		};
 		class AnimationSources: AnimationSources
 		{
 			class muzzle_rot
@@ -224,12 +212,6 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
-		};
-		driverDoor="Door_LF";
-		cargoDoors[]={
-			"Door_RF",
-			"Door_RB",
-			"Door_LB"
 		};
 		class AnimationSources: AnimationSources
 		{
