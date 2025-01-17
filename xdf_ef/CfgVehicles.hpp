@@ -83,6 +83,8 @@ class CfgVehicles
 				{
 					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
 					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
 					"2Rnd_Titan_AT_XDF_missiles",
 					"2Rnd_Titan_AT_XDF_missiles", 
 					"2Rnd_Titan_AT_XDF_missiles", 
@@ -167,8 +169,11 @@ class CfgVehicles
 					"EF_Magazine_Titan_NLOS_AX_2Rnd",
 					"EF_Magazine_Titan_NLOS_AX_2Rnd", 
 					"EF_Magazine_Titan_NLOS_AX_2Rnd",
+					"EF_Magazine_Titan_NLOS_AX_2Rnd",
 					"EF_Magazine_Titan_NLOS_AX_2Rnd", 
 					"200Rnd_762x51_Belt_Red",
+					"200Rnd_762x51_Belt_Red", 
+					"200Rnd_762x51_Belt_Red", 
 					"200Rnd_762x51_Belt_Red", 
 					"200Rnd_762x51_Belt_Red",
 					"LaserBatteries"
@@ -238,8 +243,11 @@ class CfgVehicles
 				magazines[] = 
 				{
 					"SmokeLauncherMag",
-					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue","EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
 					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"4Rnd_70mm_SAAMI_AX_missiles", 
 					"4Rnd_70mm_SAAMI_AX_missiles", 
 					"4Rnd_70mm_SAAMI_AX_missiles"
 				};
