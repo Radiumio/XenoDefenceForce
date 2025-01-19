@@ -994,7 +994,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_black_F_ca.paa";
-		displayName="XDF S-1 Spearhead";
+		displayName="XDF Spearhead";
 		baseWeapon="arifle_MSBS65_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1020,7 +1020,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_GL_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_GL_black_F_ca.paa";
-		displayName="XDF S-2 Spearhead GL";
+		displayName="XDF Spearhead GL";
 		baseWeapon="arifle_MSBS65_GL_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1064,7 +1064,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_UBS_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_UBS_black_F_ca.paa";
-		displayName="XDF S-3 Spearhead UBS";
+		displayName="XDF Spearhead UBS";
 		baseWeapon="arifle_MSBS65_UBS_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1090,7 +1090,7 @@ class cfgWeapons
 		_generalMacro="arifle_MSBS65_Mark_black_F";
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_Mark_black_F_ca.paa";
-		displayName="XDF S-4 Spearhead MR";
+		displayName="XDF Spearhead MR";
 		baseWeapon="arifle_MSBS65_Mark_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1114,7 +1114,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF P-1 EXH-WS 'Type 115'";
+		displayName="XDF EXH-WS 'Type 115'";
 		baseWeapon="XDF_arifle_ARX_blk";
 		hiddenSelectionsTextures[]=
 		{
@@ -1125,11 +1125,25 @@ class cfgWeapons
 		{
 			"Katiba_65x39_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\type115_reload.ogg",
+			2,
+			1,
+			10
+		};
 		class Secondary: Secondary
 		{
 			magazines[]+=
 			{
 				"10Rnd_50BW_Mag_blue"
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\type115_bw_reload.ogg",
+				2.5,
+				1,
+				10
 			};
 		};
 	};
@@ -1139,7 +1153,7 @@ class cfgWeapons
 		_generalMacro="arifle_MX_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_black_X_CA.paa";
-		displayName="XDF S-5 ACR-X2";
+		displayName="XDF ACR-X2";
 		baseWeapon="arifle_MX_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1165,7 +1179,7 @@ class cfgWeapons
 		_generalMacro="arifle_MXC_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_cqc_black_X_CA.paa";
-		displayName="XDF S-6 ACR-X2 Carbine";
+		displayName="XDF ACR-X2 Carbine";
 		baseWeapon="arifle_MXC_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1190,7 +1204,7 @@ class cfgWeapons
 		_generalMacro="arifle_MX_GL_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_gl_black_X_CA.paa";
-		displayName="XDF S-7 ACR-X2 3GL";
+		displayName="XDF ACR-X2 3GL";
 		baseWeapon="arifle_MXGL_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1226,7 +1240,7 @@ class cfgWeapons
 		_generalMacro="arifle_MX_SW_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_lmg_black_X_CA.paa";
-		displayName="XDF S-8 ACR-X2 Support";
+		displayName="XDF ACR-X2 Support";
 		baseWeapon="arifle_MXSW_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1251,7 +1265,7 @@ class cfgWeapons
 		_generalMacro="arifle_MXM_Black_F";
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_dmr_black_X_CA.paa";
-		displayName="XDF S-9 ACR-X2 Marksman";
+		displayName="XDF ACR-X2 Marksman";
 		baseWeapon="arifle_MXM_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1275,7 +1289,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_SPAR_01_blk_F";
 		scope=2;
-		displayName="XDF S-10 HK416";
+		displayName="XDF HK416";
 		baseWeapon="arifle_SPAR_01_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1300,7 +1314,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_SPAR_02_blk_F";
 		scope=2;
-		displayName="XDF S-11 HK416 Support";
+		displayName="XDF HK416 Support";
 		baseWeapon="arifle_SPAR_02_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1325,7 +1339,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_SPAR_01_GL_blk_F";
 		scope=2;
-		displayName="XDF S-12 HK416 EGLM";
+		displayName="XDF HK416 EGLM";
 		baseWeapon="arifle_SPAR_01_GL_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1368,12 +1382,19 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_CTAR_blk_F";
 		scope=2;
-		displayName="XDF S-13 Komodo";
+		displayName="XDF Komodo";
 		baseWeapon="arifle_CTAR_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\komodo_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1386,13 +1407,20 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_CTAR_GL_blk_F";
 		scope=2;
-		displayName="XDF S-14 Komodo GL";
+		displayName="XDF Komodo GL";
 		baseWeapon="arifle_CTAR_GL_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_gl_f_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\komodo_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -1422,12 +1450,19 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_CTARS_blk_F";
 		scope=2;
-		displayName="XDF S-15 Komodo LSW";
+		displayName="XDF Komodo LSW";
 		baseWeapon="arifle_CTARS_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_f_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\komodo_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1440,7 +1475,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_AK12_F";
 		scope=2;
-		displayName="XDF S-16 AK-12";
+		displayName="XDF AK-12";
 		baseWeapon="arifle_AK12_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1464,7 +1499,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_AK12_GL_F";
 		scope=2;
-		displayName="XDF S-17 AK-12 GL";
+		displayName="XDF AK-12 GL";
 		baseWeapon="arifle_AK12_GL_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1499,7 +1534,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_AK12U_F";
 		scope=2;
-		displayName="XDF S-18 AK-12U";
+		displayName="XDF AK-12U";
 		baseWeapon="arifle_AK12U_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1524,7 +1559,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_RPK12_F";
 		scope=2;
-		displayName="XDF S-19 RPK-12";
+		displayName="XDF RPK-12";
 		baseWeapon="arifle_RPK12_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1550,12 +1585,19 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_Katiba_F";
 		scope=2;
-		displayName="XDF S-20 Khaybar";
+		displayName="XDF Khaybar";
 		baseWeapon="arifle_Katiba_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\khaybar_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1568,12 +1610,19 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_Katiba_GL_F";
 		scope=2;
-		displayName="XDF S-21 Khaybar KGL";
+		displayName="XDF Khaybar KGL";
 		baseWeapon="arifle_Katiba_GL_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\khaybar_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -1603,12 +1652,19 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_Katiba_C_F";
 		scope=2;
-		displayName="XDF S-22 Khaybar Carbine";
+		displayName="XDF Khaybar Carbine";
 		baseWeapon="arifle_Katiba_C_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\khaybar_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1620,7 +1676,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF S-23 CTAR-21";
+		displayName="XDF CTAR-21";
 		baseWeapon="arifle_TRG20_XDF";
 		hiddenSelections[]=
 		{
@@ -1647,7 +1703,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF S-24 GTAR-21 EGLM";
+		displayName="XDF GTAR-21 EGLM";
 		baseWeapon="arifle_TRG21_GL_XDF";
 		hiddenSelections[]=
 		{
@@ -1701,13 +1757,20 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF V-1 KRISS Vector";
+		displayName="XDF KRISS Vector";
 		baseWeapon="XDF_SMG_01";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2",
 			"camo3"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\vector_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1724,11 +1787,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF V-2 P90";
+		displayName="XDF P90";
 		baseWeapon="XDF_SMG_03C_black";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1743,11 +1813,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF V-3 P90 TR";
+		displayName="XDF P90 TR";
 		baseWeapon="XDF_SMG_03C_TR_black";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1762,11 +1839,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF V-4 PS90";
+		displayName="XDF PS90";
 		baseWeapon="XDF_SMG_03_black";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1781,11 +1865,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF V-5 PS90 TR";
+		displayName="XDF PS90 TR";
 		baseWeapon="XDF_SMG_03_TR_black";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1805,11 +1896,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF H-1 Walther P99";
+		displayName="XDF Walther P99";
 		baseWeapon="XDF_hgun_P07";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1824,11 +1922,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF H-2 Custom Covert II";
+		displayName="XDF Custom Covert II";
 		baseWeapon="XDF_hgun_ACPC2";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acp_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1843,11 +1948,18 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF H-3 FNX-45 Tactical";
+		displayName="XDF FNX-45 Tactical";
 		baseWeapon="XDF_hgun_Pistol_heavy_01";
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\45tactical_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1863,13 +1975,20 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF H-4 'Nemesis'";
+		displayName="XDF Nemesis";
 		baseWeapon="XDF_hgun_Pistol_heavy_02_F";
 		recoil="recoil_pistol_nemesis";
 		hiddenSelections[]=
 		{
 			"camo",
 			"camo1"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\nemesis_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1901,12 +2020,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-3 Marauder";
+		displayName="XDF Marauder";
 		baseWeapon="XDF_srifle_DMR_03";
 		hiddenSelections[]=
 		{
 			"Camo1",
 			"Camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\sig556_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1922,12 +2048,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-2 Bad News";
+		displayName="XDF Bad News";
 		baseWeapon="XDF_srifle_DMR_02";
 		hiddenSelections[]=
 		{
 			"Camo1",
 			"Camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\mar10_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1943,7 +2076,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF L-2 HTI Caracal";
+		displayName="XDF HTI Caracal";
 		baseWeapon="XDF_srifle_GM6";
 		hiddenSelections[]=
 		{
@@ -1990,12 +2123,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-5 Nova";
+		displayName="XDF Nova";
 		baseWeapon="XDF_srifle_DMR_05_blk";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\cyrus_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2011,12 +2151,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-4 AKINA";
+		displayName="XDF AKINA";
 		baseWeapon="XDF_srifle_DMR_04";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\asp1_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2032,7 +2179,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF L-1 Arbitrator";
+		displayName="XDF Arbitrator";
 		baseWeapon="XDF_srifle_LRR";
 		hiddenSelections[]=
 		{
@@ -2058,12 +2205,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-5 VS-121";
+		displayName="XDF VS-121";
 		baseWeapon="XDF_srifle_DMR_01";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\rahim_reload.ogg",
+			2.5,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2079,12 +2233,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-6 MK-21 EBR";
+		displayName="XDF MK-21 EBR";
 		baseWeapon="XDF_srifle_EBR_F";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ebr_reload.ogg",
+			2.5,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2101,7 +2262,7 @@ class cfgWeapons
 		author="Radium";
 		_generalMacro="arifle_SPAR_03_XDF_F";
 		scope=2;
-		displayName="XDF D-7 HK417 Marksman";
+		displayName="XDF HK417 Marksman";
 		baseWeapon="arifle_SPAR_03_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2125,12 +2286,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF D-8 Tempest";
+		displayName="XDF Tempest";
 		baseWeapon="XDF_srifle_DMR_07_blk_F";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\tempest_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2154,7 +2322,7 @@ class cfgWeapons
 		_generalMacro="MMG_01_tan_F";
 		scope=2;
 		picture="\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\UI\gear_MMG_01_tan_X_co.paa";
-		displayName="XDF M-1 HK121";
+		displayName="XDF HK121";
 		baseWeapon="XDF_MMG_01_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -2178,7 +2346,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF M-2 LWMMG";
+		displayName="XDF LWMMG";
 		baseWeapon="XDF_MMG_02_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -2202,7 +2370,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF M-3 M249 SAW";
+		displayName="XDF M249 SAW";
 		baseWeapon="XDF_LMG_03";
 		hiddenSelectionsTextures[]=
 		{
@@ -2226,7 +2394,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF M-4 Stoner 99";
+		displayName="XDF Stoner 99";
 		baseWeapon="XDF_LMG_Mk200";
 		hiddenSelectionsTextures[]=
 		{
@@ -2256,7 +2424,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF R-1 M4 MAAWS";
+		displayName="XDF M4 MAAWS";
 		baseWeapon="XDF_launch_MRAWS_black";
 		magazines[]=
 		{
@@ -2266,6 +2434,13 @@ class cfgWeapons
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT55_XDF",
 			"MRAAWS_HE_NUKE_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\maaws_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2277,13 +2452,20 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF R-2 Metis-M";
+		displayName="XDF Metis-M";
 		baseWeapon="XDF_launch_O_Vorona_black";
 		magazines[]=
 		{
 			"Vorona_HE",
 			"Vorona_HEAT",
 			"Vorona_HEAT_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\vorona_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2295,7 +2477,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF R-4 Lance";
+		displayName="XDF Lance";
 		baseWeapon="XDF_launch_B_Titan";
 		magazines[]=
 		{
@@ -2310,6 +2492,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\titan_reload.ogg",
+			2,
+			1,
+			10
 		};
 		lockingTargetSound[]=
 		{
@@ -2328,7 +2517,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF R-3 Spear";
+		displayName="XDF Spear";
 		baseWeapon="XDF_launch_B_Titan_short";
 		magazines[]=
 		{
@@ -2340,10 +2529,115 @@ class cfgWeapons
 		{
 			"Titan_Short_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\titan_reload.ogg",
+			2,
+			1,
+			10
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
+		};
+		modes[]=
+		{
+			"Single",
+			"TopDown"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[]=
+				{
+					"A3\Sounds_F\arsenal\weapons\Launchers\Titan\Titan",
+					3.1622777,
+					1,
+					2000
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					1
+				};
+			};
+			recoil="recoil_single_titan";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=70;
+			minRangeProbab=0.89999998;
+			midRange=300;
+			midRangeProbab=0.80000001;
+			maxRange=2000;
+			maxRangeProbab=0.80000001;
+		};
+		class TopDown: Single
+		{
+			textureType="topDown";
+			displayName="Top-down Attack";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=150;
+			minRangeProbab=0.80000001;
+			midRange=500;
+			midRangeProbab=0.94999999;
+			maxRange=2000;
+			maxRangeProbab=0.94999999;
+		};
+		canLock=2;
+		weaponLockDelay=3;
+		weaponLockSystem=2;
+		cmImmunity=0.40000001;
+	};
+	class launch_RPG32_F;
+	class XDF_launch_RPG32: launch_RPG32_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Hammer";
+		baseWeapon="XDF_launch_RPG32";
+		magazines[]+=
+		{
+			"RPG32_AT_XDF",
+			"RPG32_HE_XDF",
+			"RPG32_FAE_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\rpg32_reload.ogg",
+			2,
+			1,
+			10
+		};
+		magazineWell[]+=
+		{
+			"RPG32_XDF"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\rpg32\rpg_32_body_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\rpg32\rpg_32_optics_co.paa"
 		};
 	};
 

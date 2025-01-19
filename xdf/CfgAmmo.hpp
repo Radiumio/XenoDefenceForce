@@ -1,4 +1,13 @@
 class Components;
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
 class CfgAmmo
 {
 	class M_Titan_AA;
@@ -23,6 +32,63 @@ class CfgAmmo
 		maxSpeed=250;
 		thrust=150;
 		effectsMissile="XDF_Missile3";
+		airLock=1;
+		lockType=0;
+		missileLockCone=4.5;
+		missileKeepLockedCone=160;
+		missileLockMaxDistance=2000;
+		missileLockMinDistance=50;
+		missileLockMaxSpeed=35;
+		manualControl=1;
+		missileManualControlCone=45;
+		maxControlRange=2000;
+		weaponLockSystem="2 + 16";
+		cmImmunity=0.40000001;
+		flightProfiles[]=
+		{
+			"Direct",
+			"TopDown"
+		};
+		class Direct
+		{
+		};
+		class TopDown
+		{
+			ascendHeight=150;
+			descendDistance=180;
+			minDistance=180;
+			ascendAngle=30;
+		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=2000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=2000;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=35;
+						angleRangeHorizontal=3.7;
+						angleRangeVertical=2.3;
+						maxTrackableATL=50;
+					};
+				};
+			};
+		};
 	};
 	class R_MRAAWS_HEAT_F;
 	class R_MRAAWS_HEAT_XDF: R_MRAAWS_HEAT_F
@@ -31,6 +97,63 @@ class CfgAmmo
 		indirectHit=25;
 		indirectHitRange=3;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_XDF";
+	};
+	class R_PG32V_F;
+	class R_PG32V_HEAT_XDF: R_PG32V_F
+	{
+		hit=600;
+		indirectHit=30;
+		indirectHitRange=3;
+		submunitionAmmo="ammo_Penetrator_RPG32V_XDF";
+	};
+	class R_TBG32V_F;
+	class R_TBG32V_HE_XDF: R_TBG32V_F
+	{
+		hit=400;
+		indirectHit=60;
+		indirectHitRange=8;
+	};
+	class R_TBG32V_F;
+	class R_TBG32V_FAE_XDF: R_TBG32V_F
+	{
+		hit=3500;
+		indirectHit=800;
+		indirectHitRange=15;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="HeavyBombExplosion"
+		explosive=1;
+		fuseDistance=100;
+		soundHit1[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_1",
+			5,
+			1,
+			2200
+		};
+		soundHit2[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_2",
+			5,
+			1,
+			2200
+		};
+		soundHit3[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_3",
+			5,
+			1,
+			2200
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.34,
+			"soundHit2",
+			0.33000001,
+			"soundHit3",
+			0.33000001
+		};
+		effectsMissile="XDF_Thermobaric";
 	};
 	class M_Vorona_HEAT;
 	class M_Vorona_HEAT_XDF: M_Vorona_HEAT
@@ -112,6 +235,12 @@ class CfgAmmo
 		caliber=60;
 		warheadName="TandemHEAT";
 		hit=1080;
+	};
+	class ammo_Penetrator_RPG32V_XDF: ammo_Penetrator_Base
+	{
+		caliber=43.333302;
+		warheadName="TandemHEAT";
+		hit=550;
 	};
 
 	// vehicles

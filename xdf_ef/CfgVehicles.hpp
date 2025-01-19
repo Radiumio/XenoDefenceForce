@@ -37,12 +37,6 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
-		driverDoor="Door_LF";
-		cargoDoors[]={
-			"Door_RF",
-			"Door_RB",
-			"Door_LB"
-		};
 		class AnimationSources: AnimationSources
 		{
 			class muzzle_rot
@@ -87,6 +81,8 @@ class CfgVehicles
 				};
 				magazines[] = 
 				{
+					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
 					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
 					"EF_200Rnd_30mm_HEDPAX_shells_Tracer_Blue",
 					"2Rnd_Titan_AT_XDF_missiles",
@@ -135,12 +131,6 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
-		driverDoor="Door_LF";
-		cargoDoors[]={
-			"Door_RF",
-			"Door_RB",
-			"Door_LB"
-		};
 		class AnimationSources: AnimationSources
 		{
 			class muzzle_rot
@@ -179,8 +169,11 @@ class CfgVehicles
 					"EF_Magazine_Titan_NLOS_AX_2Rnd",
 					"EF_Magazine_Titan_NLOS_AX_2Rnd", 
 					"EF_Magazine_Titan_NLOS_AX_2Rnd",
+					"EF_Magazine_Titan_NLOS_AX_2Rnd",
 					"EF_Magazine_Titan_NLOS_AX_2Rnd", 
 					"200Rnd_762x51_Belt_Red",
+					"200Rnd_762x51_Belt_Red", 
+					"200Rnd_762x51_Belt_Red", 
 					"200Rnd_762x51_Belt_Red", 
 					"200Rnd_762x51_Belt_Red",
 					"LaserBatteries"
@@ -225,12 +218,6 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
-		driverDoor="Door_LF";
-		cargoDoors[]={
-			"Door_RF",
-			"Door_RB",
-			"Door_LB"
-		};
 		class AnimationSources: AnimationSources
 		{
 			class Missiles_revolving
@@ -256,8 +243,11 @@ class CfgVehicles
 				magazines[] = 
 				{
 					"SmokeLauncherMag",
-					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue","EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
 					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"EF_200Rnd_30mm_HEABAX_shells_Tracer_Blue",
+					"4Rnd_70mm_SAAMI_AX_missiles", 
 					"4Rnd_70mm_SAAMI_AX_missiles", 
 					"4Rnd_70mm_SAAMI_AX_missiles"
 				};
