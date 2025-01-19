@@ -2011,6 +2011,13 @@ class cfgWeapons
 			"camo1",
 			"camo2"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\cyrus_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\cyrus\dmr_05_01_co.paa",
