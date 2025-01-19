@@ -1125,11 +1125,25 @@ class cfgWeapons
 		{
 			"Katiba_65x39_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\type115_reload.ogg",
+			2,
+			1,
+			10
+		};
 		class Secondary: Secondary
 		{
 			magazines[]+=
 			{
 				"10Rnd_50BW_Mag_blue"
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\type115_bw_reload.ogg",
+				2,
+				1,
+				10
 			};
 		};
 	};
@@ -1375,6 +1389,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\komodo_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"CTAR_580x42_XDF",
@@ -1393,6 +1414,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_2_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_gl_f_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\komodo_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -1428,6 +1456,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctar_f_1_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\qbuz\ctars_f_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\komodo_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1557,6 +1592,13 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\khaybar_reload.ogg",
+			2,
+			1,
+			10
+		};
 		magazineWell[] +=
 		{
 			"Katiba_65x39_XDF"
@@ -1574,6 +1616,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\khaybar_reload.ogg",
+			2,
+			1,
+			10
 		};
 		class EGLM: EGLM
 		{
@@ -1609,6 +1658,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_01_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\khaybar\khaybar_02_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\khaybar_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[] +=
 		{
@@ -1709,6 +1765,13 @@ class cfgWeapons
 			"camo2",
 			"camo3"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\vector_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\vector\smg_01_co.paa",
@@ -1730,6 +1793,13 @@ class cfgWeapons
 		{
 			"camo"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
@@ -1748,6 +1818,13 @@ class cfgWeapons
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1768,6 +1845,13 @@ class cfgWeapons
 		{
 			"camo"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p90\p90_body.paa"
@@ -1786,6 +1870,13 @@ class cfgWeapons
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1811,6 +1902,13 @@ class cfgWeapons
 		{
 			"camo"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\p07\p07_co.paa"
@@ -1830,6 +1928,13 @@ class cfgWeapons
 		{
 			"camo"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acp_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\acp\acpc2_co.paa"
@@ -1848,6 +1953,13 @@ class cfgWeapons
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\45tactical_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1870,6 +1982,13 @@ class cfgWeapons
 		{
 			"camo",
 			"camo1"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\nemesis_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2093,6 +2212,13 @@ class cfgWeapons
 			"camo1",
 			"camo2"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\rahim_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\rahim\dmr_01_co.paa",
@@ -2113,6 +2239,13 @@ class cfgWeapons
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ebr_reload.ogg",
+			2.5,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2159,6 +2292,13 @@ class cfgWeapons
 		{
 			"camo1",
 			"camo2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\tempest_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2295,6 +2435,13 @@ class cfgWeapons
 			"MRAAWS_HEAT55_XDF",
 			"MRAAWS_HE_NUKE_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\maaws_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\maaws\launch_mraws_black_01_f_co.paa",
@@ -2312,6 +2459,13 @@ class cfgWeapons
 			"Vorona_HE",
 			"Vorona_HEAT",
 			"Vorona_HEAT_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\vorona_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -2338,6 +2492,13 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubel_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\titan_reload.ogg",
+			2,
+			1,
+			10
 		};
 		lockingTargetSound[]=
 		{
@@ -2367,6 +2528,13 @@ class cfgWeapons
 		magazineWell[]=
 		{
 			"Titan_Short_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\titan_reload.ogg",
+			2,
+			1,
+			10
 		};
 		lockingTargetSound[]=
 		{
@@ -2454,6 +2622,13 @@ class cfgWeapons
 			"RPG32_AT_XDF",
 			"RPG32_HE_XDF",
 			"RPG32_FAE_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\rpg32_reload.ogg",
+			2,
+			1,
+			10
 		};
 		magazineWell[]+=
 		{
