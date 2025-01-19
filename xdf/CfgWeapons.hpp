@@ -1141,7 +1141,7 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\type115_bw_reload.ogg",
-				2,
+				2.5,
 				1,
 				10
 			};

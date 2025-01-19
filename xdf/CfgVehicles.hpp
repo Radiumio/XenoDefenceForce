@@ -22147,6 +22147,13 @@ class CfgVehicles
 			"camo_launcher",
 			"camo_tube"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\titan_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
@@ -22206,6 +22213,13 @@ class CfgVehicles
 		{
 			"camo_launcher",
 			"camo_tube"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\titan_reload.ogg",
+			2,
+			1,
+			10
 		};
 		hiddenSelectionsTextures[]=
 		{
