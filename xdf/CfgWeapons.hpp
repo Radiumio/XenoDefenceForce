@@ -1929,6 +1929,13 @@ class cfgWeapons
 			"Camo1",
 			"Camo2"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\mar10_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mar10\dmr_02_01_dazzle_co.paa",
