@@ -97,6 +97,7 @@ class CfgMagazines
 		displayName="Hammer Experimental Thermobaric Round";
 		displaynameshort="EXP-FAE";
 		ammo="R_TBG32V_FAE_XDF";
+		mass=75;
 	};
 
 	// vehicles
