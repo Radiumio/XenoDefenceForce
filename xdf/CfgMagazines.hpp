@@ -77,6 +77,20 @@ class CfgMagazines
 		ammo="R_MRAAWS_HE_NUKE_XDF";
 		mass=75;
 	};
+	class RPG32_F;
+	class RPG32_AT_XDF: RPG32_F
+	{
+		displayName="Hammer Experimental HEAT";
+		displaynameshort="EXP-HEAT";
+		ammo="R_PG32V_HEAT_XDF";
+	};
+	class RPG32_HE_F;
+	class RPG32_HE_XDF: RPG32_HE_F
+	{
+		displayName="Hammer Experimental HE";
+		displaynameshort="EXP-HE";
+		ammo="R_TBG32V_HE_XDF";
+	};
 
 	// vehicles
 	class VehicleMagazine;

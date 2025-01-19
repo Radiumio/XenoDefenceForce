@@ -2365,6 +2365,15 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF Hammer";
 		baseWeapon="XDF_launch_RPG32";
+		magazines[]+=
+		{
+			"RPG32_AT_XDF",
+			"RPG32_HE_XDF"
+		};
+		magazineWell[]+=
+		{
+			"RPG32_XDF"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\rpg32\rpg_32_body_co.paa",

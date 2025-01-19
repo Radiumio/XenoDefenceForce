@@ -32,6 +32,21 @@ class CfgAmmo
 		indirectHitRange=3;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_XDF";
 	};
+	class R_PG32V_F;
+	class R_PG32V_HEAT_XDF: R_PG32V_F
+	{
+		hit=600;
+		indirectHit=30;
+		indirectHitRange=3;
+		submunitionAmmo="ammo_Penetrator_RPG32V_XDF";
+	};
+	class R_TBG32V_F;
+	class R_TBG32V_HE_XDF: R_TBG32V_F
+	{
+		hit=400;
+		indirectHit=60;
+		indirectHitRange=8;
+	};
 	class M_Vorona_HEAT;
 	class M_Vorona_HEAT_XDF: M_Vorona_HEAT
 	{
@@ -112,6 +127,12 @@ class CfgAmmo
 		caliber=60;
 		warheadName="TandemHEAT";
 		hit=1080;
+	};
+	class ammo_Penetrator_RPG32V_XDF: ammo_Penetrator_Base
+	{
+		caliber=43.333302;
+		warheadName="TandemHEAT";
+		hit=550;
 	};
 
 	// vehicles
