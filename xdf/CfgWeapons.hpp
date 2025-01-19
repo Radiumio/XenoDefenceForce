@@ -2368,7 +2368,8 @@ class cfgWeapons
 		magazines[]+=
 		{
 			"RPG32_AT_XDF",
-			"RPG32_HE_XDF"
+			"RPG32_HE_XDF",
+			"RPG32_FAE_XDF"
 		};
 		magazineWell[]+=
 		{

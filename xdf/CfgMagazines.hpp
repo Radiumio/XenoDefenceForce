@@ -91,6 +91,13 @@ class CfgMagazines
 		displaynameshort="EXP-HE";
 		ammo="R_TBG32V_HE_XDF";
 	};
+	class RPG32_HE_F;
+	class RPG32_FAE_XDF: RPG32_HE_F
+	{
+		displayName="Hammer Experimental Thermobaric Round";
+		displaynameshort="EXP-FAE";
+		ammo="R_TBG32V_FAE_XDF";
+	};
 
 	// vehicles
 	class VehicleMagazine;

@@ -47,6 +47,48 @@ class CfgAmmo
 		indirectHit=60;
 		indirectHitRange=8;
 	};
+	class R_TBG32V_F;
+	class R_TBG32V_FAE_XDF: R_TBG32V_F
+	{
+		hit=3500;
+		indirectHit=800;
+		indirectHitRange=15;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="HeavyBombExplosion"
+		explosive=1;
+		fuseDistance=100;
+		soundHit1[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_1",
+			5,
+			1,
+			2200
+		};
+		soundHit2[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_2",
+			5,
+			1,
+			2200
+		};
+		soundHit3[]=
+		{
+			"\xdf\sounds\exp\maaws_thermobaric_3",
+			5,
+			1,
+			2200
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.34,
+			"soundHit2",
+			0.33000001,
+			"soundHit3",
+			0.33000001
+		};
+		effectsMissile="XDF_Thermobaric";
+	};
 	class M_Vorona_HEAT;
 	class M_Vorona_HEAT_XDF: M_Vorona_HEAT
 	{

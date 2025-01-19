@@ -22,7 +22,8 @@ class CfgMagazineWells
 		XDF_Magazines[]=
 		{
 			"RPG32_AT_XDF",
-			"RPG32_HE_XDF"
+			"RPG32_HE_XDF",
+			"RPG32_FAE_XDF"
 		};
 	};
 	class MX_65x39_MSBS_XDF
