@@ -19399,6 +19399,8 @@ class CfgVehicles
 					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
 					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
 					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red"
 				};
 			};
@@ -19504,6 +19506,8 @@ class CfgVehicles
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2Rnd_GAT_missiles_O",
@@ -19718,6 +19722,8 @@ class CfgVehicles
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2Rnd_GAT_missiles",
@@ -19951,6 +19957,8 @@ class CfgVehicles
 					"12Rnd_120mm_HE_shells_Tracer_Red",
 					"12Rnd_120mm_HEAT_MP_T_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red"
 				};
 			};
@@ -20073,6 +20081,8 @@ class CfgVehicles
 					"12Rnd_120mm_HE_shells_Tracer_Red",
 					"12Rnd_120mm_HEAT_MP_T_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red"
 				};
 			};
@@ -20174,6 +20184,8 @@ class CfgVehicles
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red"
 				};
@@ -20305,6 +20317,8 @@ class CfgVehicles
 					"20Rnd_125mm_APFSDS_T_Green",
 					"12Rnd_125mm_HEAT_T_Green",
 					"12Rnd_125mm_HE_T_Green",
+					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red",
 					"2000Rnd_65x39_Belt_Tracer_Red"
 				};
