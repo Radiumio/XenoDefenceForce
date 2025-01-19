@@ -2032,6 +2032,13 @@ class cfgWeapons
 			"camo1",
 			"camo2"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\asp1_reload.ogg",
+			2,
+			1,
+			10
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\asp1\dmr_04_01_co.paa",
