@@ -2358,6 +2358,19 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
 		};
 	};
+	class launch_RPG32_F;
+	class XDF_launch_RPG32: launch_RPG32_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Hammer";
+		baseWeapon="XDF_launch_RPG32";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\rpg32\rpg_32_body_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\rpg32\rpg_32_optics_co.paa"
+		};
+	};
 
 	// Loadouts
 	class arifle_MSBS65_black_F;
