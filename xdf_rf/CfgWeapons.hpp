@@ -26,8 +26,8 @@ class CfgWeapons
 		baseWeapon="launch_PSRL1_PWS_xdf_RF";
 		hiddenSelectionsTextures[] = 
 		{
-			"\xdf_rf\retextures\xdf_uniform\weapons\launch_PSRL1_01_xdf_CO.paa",
-			"\xdf_rf\retextures\xdf_uniform\weapons\launch_PSRL1_02_xdf_CO.paa"
+			"\xdf_rf\retextures\xdf_uniform\weapons\psrl\launch_PSRL1_01_xdf_CO.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\psrl\launch_PSRL1_02_xdf_CO.paa"
 		};	
 	};
 };
