@@ -2357,6 +2357,62 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\titan\launcher_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\titan\tubem_co.paa"
 		};
+		modes[]=
+		{
+			"Single",
+			"TopDown"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[]=
+				{
+					"A3\Sounds_F\arsenal\weapons\Launchers\Titan\Titan",
+					3.1622777,
+					1,
+					2000
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					1
+				};
+			};
+			recoil="recoil_single_titan";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=70;
+			minRangeProbab=0.89999998;
+			midRange=300;
+			midRangeProbab=0.80000001;
+			maxRange=2000;
+			maxRangeProbab=0.80000001;
+		};
+		class TopDown: Single
+		{
+			textureType="topDown";
+			displayName="Top-down Attack";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=150;
+			minRangeProbab=0.80000001;
+			midRange=500;
+			midRangeProbab=0.94999999;
+			maxRange=2000;
+			maxRangeProbab=0.94999999;
+		};
+		canLock=2;
+		weaponLockDelay=3;
+		weaponLockSystem=2;
+		cmImmunity=0.40000001;
 	};
 	class launch_RPG32_F;
 	class XDF_launch_RPG32: launch_RPG32_F
