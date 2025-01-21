@@ -21720,7 +21720,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Ocelot AWC (ATGM)";
-		editorPreview="\xdf\previews\vehicles\XDF_Ocelot.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_ATGM.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
