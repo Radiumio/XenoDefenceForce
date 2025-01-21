@@ -21713,6 +21713,254 @@ class CfgVehicles
 			};
 		};
 	};
+	class I_LT_01_AT_F;
+	class XDF_Ocelot_ATGM: I_LT_01_AT_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot (ATGM)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_LT_01_scout_F;
+	class XDF_Ocelot_Radar: I_LT_01_scout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot (Radar)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Radar.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_radar_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_radar_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_LT_01_AA_F;
+	class XDF_Ocelot_AA: I_LT_01_AA_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot (AA)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Radar.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_LT_01_cannon_F;
+	class XDF_Ocelot_Cannon: I_LT_01_cannon_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot (Autocannon)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Cannon.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_cannon_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_cannon_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_Boat_Armed_01_minigun_F;
 	class XDF_Trident: B_Boat_Armed_01_minigun_F
 	{
