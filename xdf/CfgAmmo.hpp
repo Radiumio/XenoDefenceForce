@@ -408,6 +408,19 @@ class CfgAmmo
 		hit=15; // default 10, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_65x39_Minigun_Caseless;
+	class B_65x39_Minigun_Caseless_blue: B_65x39_Minigun_Caseless
+	{
+		hit=15; // default 10, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		submunitionAmmo="B_65x39_Caseless_blue_splash";
+	};
+	class B_65x39_Minigun_Caseless_Red_splash;
+	class B_65x39_Caseless_blue_splash: B_65x39_Minigun_Caseless_Red_splash
+	{
+		hit=10;
+		indirectHit=1.5;
+	};
 	class B_556x45_Ball;
 	class B_556x45_Ball_blue: B_556x45_Ball
 	{

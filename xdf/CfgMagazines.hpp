@@ -422,7 +422,7 @@ class CfgMagazines
 		author="Radium";
 		scope=2;
 		count=200;
-		ammo="B_65x39_Caseless_blue";
+		ammo="B_65x39_Minigun_Caseless_blue";
 		initSpeed=825;
 		maxLeadSpeed=36.111099;
 		tracersEvery=1;
@@ -435,7 +435,6 @@ class CfgMagazines
 		author="Radium";
 		scope=2;
 		count=2000;
-		ammo="B_65x39_Caseless_blue";
 	};
 
 	// infantry weapons
