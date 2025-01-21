@@ -21719,7 +21719,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Ocelot (ATGM)";
+		displayName = "XDF Ocelot AWC (ATGM)";
 		editorPreview="\xdf\previews\vehicles\XDF_Ocelot.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -21781,7 +21781,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Ocelot (Radar)";
+		displayName = "XDF Ocelot AWC (Radar)";
 		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Radar.jpg";
 		side = 1;
 		faction = "B_XDF";
@@ -21843,8 +21843,8 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Ocelot (AA)";
-		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Radar.jpg";
+		displayName = "XDF Ocelot AWC (AA)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_AA.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -21905,7 +21905,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Ocelot (Autocannon)";
+		displayName = "XDF Ocelot AWC (Autocannon)";
 		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Cannon.jpg";
 		side = 1;
 		faction = "B_XDF";
