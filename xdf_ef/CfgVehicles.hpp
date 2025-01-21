@@ -321,7 +321,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AAV-9 Barracuda";
-		editorPreview="\xdf\previews\vehicles\XDF_AAV9_Barracuda.jpg";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_AAV9_Barracuda.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -397,7 +397,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF AAV-9A1 Barracuda";
-		editorPreview="\xdf\previews\vehicles\XDF_AAV9_50mm_Barracuda.jpg";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_AAV9_50mm_Barracuda.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -472,8 +472,8 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Achelois Combat Boat (Unarmed)";
-		editorPreview="\xdf\previews\vehicles\XDF_Achelois_Unarmed.jpg";
+		displayName = "XDF Achelois (Unarmed)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Achelois_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -537,8 +537,8 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Achelois Combat Boat (HMG)";
-		editorPreview="\xdf\previews\vehicles\XDF_Achelois_HMG.jpg";
+		displayName = "XDF Achelois (HMG)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Achelois_HMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -602,8 +602,8 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Achelois Combat Boat (ATGM)";
-		editorPreview="\xdf\previews\vehicles\XDF_Achelois_ATGM.jpg";
+		displayName = "XDF Achelois (ATGM)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Achelois_ATGM.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
