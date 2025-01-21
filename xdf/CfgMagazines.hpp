@@ -417,6 +417,26 @@ class CfgMagazines
 		ammo="B_762x51_Ball_blue";
 		tracersEvery=1;
 	};
+	class 200Rnd_65x39_Belt_blue: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		count=200;
+		ammo="B_65x39_Caseless_blue";
+		initSpeed=825;
+		maxLeadSpeed=36.111099;
+		tracersEvery=1;
+		nameSound="mgun";
+		displayName="$STR_A3_CfgMagazines_200Rnd_65x39_Belt0";
+		descriptionShort="$STR_A3_CfgMagazines_200Rnd_65x39_Belt1";
+	};
+	class 2000Rnd_65x39_Belt_blue: 200Rnd_65x39_Belt_blue
+	{
+		author="Radium";
+		scope=2;
+		count=2000;
+		ammo="B_65x39_Caseless_blue";
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

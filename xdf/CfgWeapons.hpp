@@ -3029,26 +3029,10 @@ class cfgWeapons
 				effectName="MachineGun1";
 			};
 		};
-		magazines[]=
+		magazines[]+=
 		{
-			"200Rnd_65x39_Belt",
-			"200Rnd_65x39_Belt_Tracer_Red",
-			"200Rnd_65x39_Belt_Tracer_Green",
-			"200Rnd_65x39_Belt_Tracer_Yellow",
-			"2000Rnd_65x39_Belt",
-			"2000Rnd_65x39_Belt_Green",
-			"2000Rnd_65x39_Belt_Yellow",
-			"1000Rnd_65x39_Belt",
-			"1000Rnd_65x39_Belt_Green",
-			"1000Rnd_65x39_Belt_Yellow",
-			"2000Rnd_65x39_Belt_Tracer_Red",
-			"2000Rnd_65x39_Belt_Tracer_Green",
-			"2000Rnd_65x39_Belt_Tracer_Yellow",
-			"1000Rnd_65x39_Belt_Tracer_Red",
-			"1000Rnd_65x39_Belt_Tracer_Green",
-			"1000Rnd_65x39_Belt_Tracer_Yellow",
-			"2000Rnd_65x39_Belt_Tracer_Green_Splash",
-			"2000Rnd_65x39_Belt_Tracer_Yellow_Splash"
+			"200Rnd_65x39_Belt_blue",
+			"2000Rnd_65x39_Belt_blue"
 		};
 		class manual: MGun
 		{
