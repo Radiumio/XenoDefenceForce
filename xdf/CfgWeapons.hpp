@@ -3037,64 +3037,64 @@ class cfgWeapons
 		class manual: MGun
 		{
 			displayName="LMG AX Minigun";
-			sounds[]=
-			{
-				"StandardSound"
-			};
-			class StandardSound
-			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_01",
-					1,
-					1,
-					2000
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_02",
-					1,
-					1.1,
-					2000
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_03",
-					1,
-					0.89999998,
-					2000
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.34
-				};
-				closure1[]=
-				{
-					"A3\sounds_f\weapons\gatling\gatling_rotation_short_2",
-					0.31622776,
-					1,
-					20
-				};
-				closure2[]=
-				{
-					"A3\sounds_f\weapons\gatling\gatling_rotation_short_3",
-					0.31622776,
-					1,
-					20
-				};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
-			};
+			//sounds[]=
+			//{
+			//	"StandardSound"
+			//};
+			//class StandardSound
+			//{
+			//	begin1[]=
+			//	{
+			//		"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_01",
+			//		1,
+			//		1,
+			//		2000
+			//	};
+			//	begin2[]=
+			//	{
+			//		"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_02",
+			//		1,
+			//		1.1,
+			//		2000
+			//	};
+			//	begin3[]=
+			//	{
+			//		"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_03",
+			//		1,
+			//		0.89999998,
+			//		2000
+			//	};
+			//	soundBegin[]=
+			//	{
+			//		"begin1",
+			//		0.33000001,
+			//		"begin2",
+			//		0.33000001,
+			//		"begin3",
+			//		0.34
+			//	};
+			//	closure1[]=
+			//	{
+			//		"A3\sounds_f\weapons\gatling\gatling_rotation_short_2",
+			//		0.31622776,
+			//		1,
+			//		20
+			//	};
+			//	closure2[]=
+			//	{
+			//		"A3\sounds_f\weapons\gatling\gatling_rotation_short_3",
+			//		0.31622776,
+			//		1,
+			//		20
+			//	};
+			//	soundClosure[]=
+			//	{
+			//		"closure1",
+			//		0.5,
+			//		"closure2",
+			//		0.5
+			//	};
+			//};
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
@@ -3185,64 +3185,64 @@ class cfgWeapons
 		class manual: MGun
 		{
 			displayName="LMG AX Minigun";
-			sounds[]=
-			{
-				"StandardSound"
-			};
-			class StandardSound
-			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_01",
-					1,
-					1,
-					2000
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_02",
-					1,
-					1.1,
-					2000
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_03",
-					1,
-					0.89999998,
-					2000
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.34
-				};
-				closure1[]=
-				{
-					"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_01",
-					0.31622776,
-					1,
-					20
-				};
-				closure2[]=
-				{
-					"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_02",
-					0.31622776,
-					1,
-					20
-				};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
-			};
+			//sounds[]=
+			//{
+			//	"StandardSound"
+			//};
+			//class StandardSound
+			//{
+			//	begin1[]=
+			//	{
+			//		"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_01",
+			//		1,
+			//		1,
+			//		2000
+			//	};
+			//	begin2[]=
+			//	{
+			//		"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_02",
+			//		1,
+			//		1.1,
+			//		2000
+			//	};
+			//	begin3[]=
+			//	{
+			//		"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_03",
+			//		1,
+			//		0.89999998,
+			//		2000
+			//	};
+			//	soundBegin[]=
+			//	{
+			//		"begin1",
+			//		0.33000001,
+			//		"begin2",
+			//		0.33000001,
+			//		"begin3",
+			//		0.34
+			//	};
+			//	closure1[]=
+			//	{
+			//		"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_01",
+			//		0.31622776,
+			//		1,
+			//		20
+			//	};
+			//	closure2[]=
+			//	{
+			//		"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_02",
+			//		0.31622776,
+			//		1,
+			//		20
+			//	};
+			//	soundClosure[]=
+			//	{
+			//		"closure1",
+			//		0.5,
+			//		"closure2",
+			//		0.5
+			//	};
+			//};
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
