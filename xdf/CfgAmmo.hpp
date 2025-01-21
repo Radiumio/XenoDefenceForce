@@ -1,13 +1,3 @@
-class Components;
-class SensorTemplatePassiveRadar;
-class SensorTemplateAntiRadiation;
-class SensorTemplateActiveRadar;
-class SensorTemplateIR;
-class SensorTemplateVisual;
-class SensorTemplateMan;
-class SensorTemplateLaser;
-class SensorTemplateNV;
-class SensorTemplateDataLink;
 class CfgAmmo
 {
 	class M_Titan_AA;
@@ -113,7 +103,6 @@ class CfgAmmo
 		indirectHit=60;
 		indirectHitRange=8;
 	};
-	class R_TBG32V_F;
 	class R_TBG32V_FAE_XDF: R_TBG32V_F
 	{
 		hit=3500;
@@ -356,6 +345,12 @@ class CfgAmmo
 		hit=90; // default 60
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_20mm_AP;
+	class B_20mm_Tracer_AX_AP: B_20mm_AP
+	{
+		hit=90; // default 60
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 	class ammo_Gun35mmAABase;
 	class ammo_AAA_Gun35mm_AX: ammo_Gun35mmAABase
 	{
@@ -389,6 +384,19 @@ class CfgAmmo
 	{
 		hit = 400;
 		indirectHit = 120;
+		effectsMissile = "XDF_Missile3";
+	};
+	class B_127x99_Ball;
+	class B_127x99_Ball_Tracer_Blue: B_127x99_Ball
+	{
+		hit=60; // Default 30
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class M_127mm_Firefist_AT;
+	class M_127mm_Firefist_AT_AX: M_127mm_Firefist_AT
+	{
+		hit = 500;
+		indirectHit = 140;
 		effectsMissile = "XDF_Missile3";
 	};
 

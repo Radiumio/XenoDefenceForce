@@ -91,7 +91,6 @@ class CfgMagazines
 		displaynameshort="EXP-HE";
 		ammo="R_TBG32V_HE_XDF";
 	};
-	class RPG32_HE_F;
 	class RPG32_FAE_XDF: RPG32_HE_F
 	{
 		displayName="Hammer Experimental Thermobaric Round";
@@ -360,6 +359,63 @@ class CfgMagazines
 		displayName = "SAAMI-AX Missile";
 		displayNameShort = "AA-AX";
 		ammo = "M_70mm_SAAMI_AX";
+	};
+	class 100Rnd_127x99_mag;
+	class 100Rnd_127x99_mag_Tracer_Blue: 100Rnd_127x99_mag
+	{
+		author="Radium";
+		ammo="B_127x99_Ball_Tracer_Blue";
+		displayName="12.7 mm M2 HMG Tracer (Blue AX) Belt";
+		displaynameshort="AX Tracer";
+		tracersEvery=1;
+	};
+	class 2Rnd_127mm_Firefist_missiles;
+	class 2Rnd_127mm_Firefist_AX_missiles: 2Rnd_127mm_Firefist_missiles
+	{
+		author="Radium";
+		scope=2;
+		displayName="Inferno ATGM-AX Missile";
+		displayNameShort="AT-AX";
+		count=2;
+		ammo="M_127mm_Firefist_AT_AX";
+		initspeed=19;
+		maxLeadSpeed=55.555599;
+		nameSound="missiles";
+	};
+	class 60Rnd_20mm_HE_AX_shells: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="20 mm HE-AX Shells";
+		displayNameShort="HE-AX";
+		ammo="B_20mm_Tracer_AX";
+		count=60;
+		initSpeed=1044;
+		maxLeadSpeed=30.555599;
+		tracersEvery=1;
+		nameSound="cannon";
+		muzzleImpulseFactor[]={0.1,0.80000001};
+	};
+	class 60Rnd_20mm_AP_AX_shells: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="20 mm AP-AX Shells";
+		displayNameShort="AP-AX";
+		ammo="B_20mm_Tracer_AX_AP";
+		count=60;
+		initSpeed=1100;
+		maxLeadSpeed=30.555599;
+		tracersEvery=1;
+		nameSound="cannon";
+		muzzleImpulseFactor[]={0.1,0.80000001};
+	};
+	class 200Rnd_762x51_Belt;
+	class 200Rnd_762x51_Belt_Blue: 200Rnd_762x51_Belt
+	{
+		author="Radium";
+		ammo="B_762x51_Ball_blue";
+		tracersEvery=1;
 	};
 
 	// infantry weapons

@@ -3535,4 +3535,60 @@ class cfgWeapons
 			"magazine_Missile_mim145_AX_x4"
 		};
 	};
+	class HMG_127;
+	class HMG_127_AX: HMG_127
+	{
+		//displayName="";
+		magazines[]+=
+		{
+			"100Rnd_127x99_mag_Tracer_Blue"
+		};
+	};
+	class missiles_Firefist;
+	class missiles_Firefist_AX: missiles_Firefist
+	{
+		displayName="Inferno Missile Launcher";
+		magazines[]+=
+		{
+			"2Rnd_127mm_Firefist_AX_missiles"
+		};
+	};
+	class missiles_SAAMI;
+	class missiles_SAAMI_AX: missiles_SAAMI
+	{
+		displayName="Aegis ADS Launcher";
+		magazines[]+=
+		{
+			"4Rnd_70mm_SAAMI_AX_missiles"
+		};
+	};
+	class autocannon_Base_F;
+	class cannon_20mm;
+	class cannon_20mm_AX: cannon_20mm
+	{
+		class HE: cannon_20mm
+		{
+			displayName="AX Cannon 20mm";
+			magazines[]=
+			{
+				"60Rnd_20mm_HE_AX_shells"
+			};
+		};
+		class AP: cannon_20mm
+		{
+			displayName="AX Cannon 20mm";
+			magazines[]=
+			{
+				"60Rnd_20mm_AP_AX_shells"
+			};
+		};
+	};
+	class LMG_coax_ext;
+	class LMG_AX_coax_ext: LMG_coax_ext
+	{
+		magazines[]+=
+		{
+			"200Rnd_762x51_Belt_Blue"
+		};
+	};
 };

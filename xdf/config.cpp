@@ -1,5 +1,4 @@
 #include "CfgPatches.hpp"
-#include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
 #include "CfgEditorCategories.hpp"
 #include "CfgFactionClasses.hpp"
@@ -13,4 +12,5 @@
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgAmmo.hpp"
 #include "CfgWeapons.hpp"

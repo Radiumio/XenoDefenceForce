@@ -1,3 +1,4 @@
+class Components;
 class SensorTemplatePassiveRadar;
 class SensorTemplateAntiRadiation;
 class SensorTemplateActiveRadar;
@@ -21714,7 +21715,13 @@ class CfgVehicles
 		};
 	};
 	class I_LT_01_AT_F;
-	class XDF_Ocelot_ATGM: I_LT_01_AT_F
+	class I_LT_01_AT_F_OCimport_01: I_LT_01_AT_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_LT_01_AT_F_OCimport_02: I_LT_01_AT_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Ocelot_ATGM: I_LT_01_AT_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21773,6 +21780,47 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"SmokeLauncher",
+					"HMG_127_AX",
+					"missiles_Firefist_AX"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_Firefist_AX";
+			};
+			class Missiles_reloadMagazine
+			{
+				source="reloadMagazine";
+				weapon="missiles_Firefist_AX";
+			};
 		};
 	};
 	class I_LT_01_scout_F;
@@ -21838,7 +21886,13 @@ class CfgVehicles
 		};
 	};
 	class I_LT_01_AA_F;
-	class XDF_Ocelot_AA: I_LT_01_AA_F
+	class I_LT_01_AA_F_OCimport_01: I_LT_01_AA_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_LT_01_AA_F_OCimport_02: I_LT_01_AA_F_OCimport_01 {
+		class Turrets: Turrets { 
+			class MainTurret;
+		};
+	};
+	class XDF_Ocelot_AA: I_LT_01_AA_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21898,9 +21952,48 @@ class CfgVehicles
 			"XDF",
 			1
 		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"SmokeLauncher",
+					"missiles_SAAMI_AX",
+					"HMG_127_AX"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"4Rnd_70mm_SAAMI_AX_missiles",
+					"4Rnd_70mm_SAAMI_AX_missiles",
+					"4Rnd_70mm_SAAMI_AX_missiles",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_SAAMI_AX";
+			};
+		};
 	};
 	class I_LT_01_cannon_F;
-	class XDF_Ocelot_Cannon: I_LT_01_cannon_F
+	class I_LT_01_cannon_F_OCimport_01: I_LT_01_cannon_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_LT_01_cannon_F_OCimport_02: I_LT_01_cannon_F_OCimport_01 {
+		class Turrets : Turrets { 
+			class MainTurret;
+		};
+	};
+	class XDF_Ocelot_Cannon: I_LT_01_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -21959,6 +22052,49 @@ class CfgVehicles
 		{
 			"XDF",
 			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"SmokeLauncher",
+					"LMG_AX_coax_ext",
+					"cannon_20mm_AX"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_AP_AX_shells",
+					"60Rnd_20mm_AP_AX_shells",
+					"60Rnd_20mm_AP_AX_shells",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot
+			{
+				source="ammorandom";
+				weapon="cannon_20mm";
+			};
+			class muzzle_hide
+			{
+				source="reload";
+				weapon="cannon_20mm";
+			};
 		};
 	};
 	class B_Boat_Armed_01_minigun_F;
