@@ -141,7 +141,7 @@ class CfgWeapons
 		};
 	};
 	class lxWS_H_turban_03_black;
-	class H_XDF_Nanowrap: lxWS_H_turban_03_black
+	class H_XDF_Nanowrap_Full: lxWS_H_turban_03_black
 	{
 		author="Radium";
 		scope=2;
@@ -152,7 +152,7 @@ class CfgWeapons
 		};
 	};
 	class lxWS_H_turban_02_black;
-	class H_XDF_Nanowrap: lxWS_H_turban_02_black
+	class H_XDF_Nanowrap_Open: lxWS_H_turban_02_black
 	{
 		author="Radium";
 		scope=2;
