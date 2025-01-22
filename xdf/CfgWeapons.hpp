@@ -963,6 +963,28 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
 		};
 	};
+	class H_HelmetAggressor_F;
+	class H_XDF_Aggressor: H_HelmetAggressor_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
+	class H_HelmetAggressor_cover_F;
+	class H_XDF_Aggressor_cover: H_HelmetAggressor_cover_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Nanowrap Cover)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
 
 	// Retextured Weapons
 	// Rifles
