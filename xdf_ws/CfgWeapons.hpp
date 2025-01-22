@@ -13,11 +13,11 @@ class CfgWeapons
 	};
 	
 	class H_turban_02_mask_black_lxws;
-	class H_XDF_Ballistic_Mask_Plain_Shemagh: H_turban_02_mask_black_lxws
+	class H_XDF_Ballistic_Mask_Plain_Nanowrap: H_turban_02_mask_black_lxws
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Ballistic Mask (Plain, Shemagh)";
+		displayName="XDF Ballistic Mask (Plain, Nanowrap)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa",
@@ -37,11 +37,11 @@ class CfgWeapons
 	};
 	
 	class H_turban_02_mask_black_lxws;
-	class H_XDF_Ballistic_Mask_Shemagh: H_turban_02_mask_black_lxws
+	class H_XDF_Ballistic_Mask_Nanowrap: H_turban_02_mask_black_lxws
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Ballistic Mask (XDF, Shemagh)";
+		displayName="XDF Ballistic Mask (XDF, Nanowrap)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa",
@@ -60,11 +60,11 @@ class CfgWeapons
 		};
 	};
 	class H_turban_02_mask_black_lxws;
-	class H_XDF_Ballistic_Mask_Beast_Shemagh: H_turban_02_mask_black_lxws
+	class H_XDF_Ballistic_Mask_Beast_Nanowrap: H_turban_02_mask_black_lxws
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Ballistic Mask (Beast, Shemagh)";
+		displayName="XDF Ballistic Mask (Beast, Nanowrap)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa",
@@ -83,11 +83,11 @@ class CfgWeapons
 		};
 	};
 	class H_turban_02_mask_black_lxws;
-	class H_XDF_Ballistic_Mask_Marine_Shemagh: H_turban_02_mask_black_lxws
+	class H_XDF_Ballistic_Mask_Marine_Nanowrap: H_turban_02_mask_black_lxws
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Ballistic Mask (Marine, Shemagh)";
+		displayName="XDF Ballistic Mask (Marine, Nanowrap)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa",
@@ -106,11 +106,11 @@ class CfgWeapons
 		};
 	};
 	class H_turban_02_mask_black_lxws;
-	class H_XDF_Ballistic_Mask_Dots_Shemagh: H_turban_02_mask_black_lxws
+	class H_XDF_Ballistic_Mask_Dots_Nanowrap: H_turban_02_mask_black_lxws
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Ballistic Mask (Dots, Shemagh)";
+		displayName="XDF Ballistic Mask (Dots, Nanowrap)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa",
@@ -129,15 +129,37 @@ class CfgWeapons
 		};
 	};
 	class H_turban_02_mask_black_lxws;
-	class H_XDF_Ballistic_Mask_XDF_Dots_Shemagh: H_turban_02_mask_black_lxws
+	class H_XDF_Ballistic_Mask_XDF_Dots_Nanowrap: H_turban_02_mask_black_lxws
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Ballistic Mask (XDF Dots, Shemagh)";
+		displayName="XDF Ballistic Mask (XDF Dots, Nanowrap)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa",
 			"\xdf_ws\retextures\xdf_uniform\helmets\ballistic_mask_xdf_dots_co.paa"
+		};
+	};
+	class lxWS_H_turban_03_black;
+	class H_XDF_Nanowrap_Full: lxWS_H_turban_03_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Nanowrap (Full)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa"
+		};
+	};
+	class lxWS_H_turban_02_black;
+	class H_XDF_Nanowrap_Open: lxWS_H_turban_02_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Nanowrap (Open)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ws\retextures\xdf_uniform\helmets\turban_black_co.paa"
 		};
 	};
 };

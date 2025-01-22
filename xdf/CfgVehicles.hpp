@@ -1,3 +1,4 @@
+class Components;
 class SensorTemplatePassiveRadar;
 class SensorTemplateAntiRadiation;
 class SensorTemplateActiveRadar;
@@ -19398,10 +19399,10 @@ class CfgVehicles
 					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
 					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
 					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
@@ -19506,10 +19507,10 @@ class CfgVehicles
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
 					"2Rnd_GAT_missiles_O",
 					"2Rnd_GAT_missiles_O",
 					"2Rnd_GAT_missiles_O"
@@ -19722,10 +19723,10 @@ class CfgVehicles
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
 					"2Rnd_GAT_missiles",
 					"2Rnd_GAT_missiles",
 					"2Rnd_GAT_missiles"
@@ -19956,10 +19957,10 @@ class CfgVehicles
 					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
 					"12Rnd_120mm_HE_shells_Tracer_Red",
 					"12Rnd_120mm_HEAT_MP_T_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
@@ -20080,10 +20081,10 @@ class CfgVehicles
 					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
 					"12Rnd_120mm_HE_shells_Tracer_Red",
 					"12Rnd_120mm_HEAT_MP_T_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
@@ -20184,10 +20185,10 @@ class CfgVehicles
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
@@ -20317,10 +20318,10 @@ class CfgVehicles
 					"20Rnd_125mm_APFSDS_T_Green",
 					"12Rnd_125mm_HEAT_T_Green",
 					"12Rnd_125mm_HE_T_Green",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red",
-					"2000Rnd_65x39_Belt_Tracer_Red"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
@@ -21710,6 +21711,389 @@ class CfgVehicles
 			{
 				source="ammorandom";
 				weapon="cannon_AX_railgun";
+			};
+		};
+	};
+	class I_LT_01_AT_F;
+	class I_LT_01_AT_F_OCimport_01: I_LT_01_AT_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_LT_01_AT_F_OCimport_02: I_LT_01_AT_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Ocelot_ATGM: I_LT_01_AT_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot AWC (ATGM)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_ATGM.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"SmokeLauncher",
+					"HMG_127_AX",
+					"missiles_Firefist_AX"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"2Rnd_127mm_Firefist_AX_missiles",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_Firefist_AX";
+			};
+			class Missiles_reloadMagazine
+			{
+				source="reloadMagazine";
+				weapon="missiles_Firefist_AX";
+			};
+		};
+	};
+	class I_LT_01_scout_F;
+	class XDF_Ocelot_Radar: I_LT_01_scout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot AWC (Radar)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Radar.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_radar_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_radar_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_LT_01_AA_F;
+	class I_LT_01_AA_F_OCimport_01: I_LT_01_AA_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_LT_01_AA_F_OCimport_02: I_LT_01_AA_F_OCimport_01 {
+		class Turrets: Turrets { 
+			class MainTurret;
+		};
+	};
+	class XDF_Ocelot_AA: I_LT_01_AA_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot AWC (AA)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_AA.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"SmokeLauncher",
+					"missiles_SAAMI_AX",
+					"HMG_127_AX"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"4Rnd_70mm_SAAMI_AX_missiles",
+					"4Rnd_70mm_SAAMI_AX_missiles",
+					"4Rnd_70mm_SAAMI_AX_missiles",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue",
+					"100Rnd_127x99_mag_Tracer_Blue"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_SAAMI_AX";
+			};
+		};
+	};
+	class I_LT_01_cannon_F;
+	class I_LT_01_cannon_F_OCimport_01: I_LT_01_cannon_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_LT_01_cannon_F_OCimport_02: I_LT_01_cannon_F_OCimport_01 {
+		class Turrets : Turrets { 
+			class MainTurret;
+		};
+	};
+	class XDF_Ocelot_Cannon: I_LT_01_cannon_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Ocelot AWC (Autocannon)";
+		editorPreview="\xdf\previews\vehicles\XDF_Ocelot_Cannon.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 450; // Default 150
+		armorStructural = 7; // Default 5
+		maxSpeed = 100; // Default 84
+		fuelCapacity = 50; // Default 25
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+			"\xdf\retextures\ocelot\lt_01_cannon_xdf_co.paa",
+			"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+			"\xdf\retextures\ocelot\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
+					"\xdf\retextures\ocelot\lt_01_cannon_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"SmokeLauncher",
+					"LMG_AX_coax_ext",
+					"cannon_20mm_AX"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag",
+					"SmokeLauncherMag",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_HE_AX_shells",
+					"60Rnd_20mm_AP_AX_shells",
+					"60Rnd_20mm_AP_AX_shells",
+					"60Rnd_20mm_AP_AX_shells",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue",
+					"200Rnd_762x51_Belt_Blue"
+				};
+			};
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot
+			{
+				source="ammorandom";
+				weapon="cannon_20mm";
+			};
+			class muzzle_hide
+			{
+				source="reload";
+				weapon="cannon_20mm";
 			};
 		};
 	};

@@ -5,6 +5,7 @@ class CfgGlasses
 	class G_Combat;
 	class G_Bandanna_blk;
 	class G_Bandanna_sport;
+	class G_Bandanna_aviator;
 	class G_AirPurifyingRespirator_01_F;
 	class G_AirPurifyingRespirator_02_black_F;
 	class G_XDF_Balaclava_TI_Black: G_SSU_Balaclava_TI_base
@@ -31,6 +32,33 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Black.paa",
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_Black: G_SSU_Balaclava_TI_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Black.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_G_Black: G_SSU_Balaclava_TI_G_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Goggles)";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Black.paa",
 			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
 		};
 	};
@@ -86,6 +114,24 @@ class CfgGlasses
 			"\a3\characters_f\heads\glasses\data\sunglasses_sport_4_ca.paa"
 		};
 	};
+	class G_XDF_Bandana_Alien_Aviators: G_Bandanna_aviator
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Bandana (Alien, Aviators)";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Bandana_Alien.paa",
+			"\a3\characters_f\heads\glasses\data\glass_ca.paa"
+		};
+	};
 	class G_XDF_Bandana_Wolf: G_Bandanna_blk
 	{
 		author="Radium";
@@ -120,6 +166,24 @@ class CfgGlasses
 			"\a3\characters_f\heads\glasses\data\sunglasses_sport_4_ca.paa"
 		};
 	};
+	class G_XDF_Bandana_Wolf_Aviators: G_Bandanna_aviator
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Bandana (Wolf, Aviators)";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Bandana_Wolf.paa",
+			"\a3\characters_f\heads\glasses\data\glass_ca.paa"
+		};
+	};
 	class G_XDF_Bandana_Beast: G_Bandanna_blk
 	{
 		author="Radium";
@@ -152,6 +216,24 @@ class CfgGlasses
 		{
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Bandana_Beast.paa",
 			"\a3\characters_f\heads\glasses\data\sunglasses_sport_4_ca.paa"
+		};
+	};
+	class G_XDF_Bandana_Beast_Aviators: G_Bandanna_aviator
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Bandana (Beast, Aviators)";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Bandana_Beast.paa",
+			"\a3\characters_f\heads\glasses\data\glass_ca.paa"
 		};
 	};
 	class G_XDF_APR_A: G_AirPurifyingRespirator_01_F

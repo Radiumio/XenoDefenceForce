@@ -177,6 +177,28 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class EF_LPNVG;
+	class XDF_LPNVG: EF_LPNVG
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF LPNVG G3";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_co.paa"
+		};
+	};
+	class EF_LPNVG_T;
+	class XDF_LPNVG_T: EF_LPNVG_T
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF LPNVG-T G3";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_co.paa"
+		};
+	};
 
 	//////////////////// VEHICLES ////////////////////
 	class EF_autocannon_30mm_Hunter;

@@ -314,6 +314,511 @@ class CfgVehicles
 			};
 		};
 	};
+	class EF_B_AAV9_MJTF_Des;
+	class XDF_AAV9_Barracuda: EF_B_AAV9_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF AAV-9 Barracuda";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_AAV9_Barracuda.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 825; // Default 550
+		armorStructural = 7; // Default 6
+		fuelCapacity = 54; // Default 18
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camo8", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\mack\aav9_hull_1_co.paa", 
+		    "\xdf_ef\retextures\mack\aav9_hull_2_co.paa", 
+		    "\xdf_ef\retextures\mack\aav9_hull_3_co.paa", 
+		    "\xdf_ef\retextures\mack\aav9_hull_4_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_hull_5_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_turret_1_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_alpha_1_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_turret_2_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\mack\aav9_hull_1_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_2_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_3_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_4_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_hull_5_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_1_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_alpha_1_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_2_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_AAV9_50mm_MJTF_Des;
+	class XDF_AAV9_50mm_Barracuda: EF_B_AAV9_50mm_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF AAV-9A1 Barracuda";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_AAV9_50mm_Barracuda.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 825; // Default 550
+		armorStructural = 7; // Default 6
+		fuelCapacity = 54; // Default 18
+		damageResistance = 0.1; // Default 0.0038900001
+		engineMOI = 2;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 40.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camo8", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\mack\aav9_hull_1_co.paa", 
+		    "\xdf_ef\retextures\mack\aav9_hull_2_co.paa", 
+		    "\xdf_ef\retextures\mack\aav9_hull_3_co.paa", 
+		    "\xdf_ef\retextures\mack\aav9_hull_4_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_hull_5_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_turret_1_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_alpha_1_co.paa", 
+			"\xdf_ef\retextures\mack\aav9_turret_2_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\mack\aav9_hull_1_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_2_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_3_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_4_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_hull_5_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_1_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_alpha_1_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_2_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_CombatBoat_Unarmed_MJTF_Des;
+	class XDF_Achelois_Unarmed: EF_B_CombatBoat_Unarmed_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Achelois (Unarmed)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Achelois_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default ?
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"monitor_gps"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\achelois\combatboat_hull_1_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
+			"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+			"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+			"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\achelois\combatboat_hull_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_CombatBoat_HMG_MJTF_Des;
+	class XDF_Achelois_HMG: EF_B_CombatBoat_HMG_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Achelois (HMG)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Achelois_HMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default ?
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"monitor_gps"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\achelois\combatboat_hull_1_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
+			"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+			"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+			"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\achelois\combatboat_hull_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_CombatBoat_AT_MJTF_Des;
+	class XDF_Achelois_ATGM: EF_B_CombatBoat_AT_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Achelois (ATGM)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Achelois_ATGM.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 600; // Default ?
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"monitor_gps"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\achelois\combatboat_hull_1_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
+			"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+			"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+			"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+			"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\achelois\combatboat_hull_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_LCC_MJTF_Des;
+	class XDF_Bactrian_LCC: EF_B_LCC_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Bactrian LCC";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Bactrian_LCC.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		//armor = 600; // Default ?
+		fuelCapacity = 1000; // default 700
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"hullnumber1", 
+			"hullnumber2", 
+			"hullnumber3", 
+			"hullnumber4"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+					""
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_LCC_SideLoad_MJTF_Des;
+	class XDF_Bactrian_LCC_SideLoad: EF_B_LCC_SideLoad_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Bactrian LCC (Side Load)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Bactrian_LCC.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		//armor = 600; // Default ?
+		fuelCapacity = 1000; // default 700
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"hullnumber1", 
+			"hullnumber2", 
+			"hullnumber3", 
+			"hullnumber4"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+					""
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+
+	//////////////////// INFANTRY ////////////////////
 	class B_Soldier_base_F;
 	class B_XDF_Marine_Uniform: B_Soldier_base_F
 	{

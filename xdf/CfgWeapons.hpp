@@ -963,6 +963,28 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
 		};
 	};
+	class H_HelmetAggressor_F;
+	class H_XDF_Aggressor: H_HelmetAggressor_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
+	class H_HelmetAggressor_cover_F;
+	class H_XDF_Aggressor_cover: H_HelmetAggressor_cover_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Nanowrap Cover)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
 
 	// Retextured Weapons
 	// Rifles
@@ -3029,26 +3051,10 @@ class cfgWeapons
 				effectName="MachineGun1";
 			};
 		};
-		magazines[]=
+		magazines[]+=
 		{
-			"200Rnd_65x39_Belt",
-			"200Rnd_65x39_Belt_Tracer_Red",
-			"200Rnd_65x39_Belt_Tracer_Green",
-			"200Rnd_65x39_Belt_Tracer_Yellow",
-			"2000Rnd_65x39_Belt",
-			"2000Rnd_65x39_Belt_Green",
-			"2000Rnd_65x39_Belt_Yellow",
-			"1000Rnd_65x39_Belt",
-			"1000Rnd_65x39_Belt_Green",
-			"1000Rnd_65x39_Belt_Yellow",
-			"2000Rnd_65x39_Belt_Tracer_Red",
-			"2000Rnd_65x39_Belt_Tracer_Green",
-			"2000Rnd_65x39_Belt_Tracer_Yellow",
-			"1000Rnd_65x39_Belt_Tracer_Red",
-			"1000Rnd_65x39_Belt_Tracer_Green",
-			"1000Rnd_65x39_Belt_Tracer_Yellow",
-			"2000Rnd_65x39_Belt_Tracer_Green_Splash",
-			"2000Rnd_65x39_Belt_Tracer_Yellow_Splash"
+			"200Rnd_65x39_Belt_blue",
+			"2000Rnd_65x39_Belt_blue"
 		};
 		class manual: MGun
 		{
@@ -3533,6 +3539,62 @@ class cfgWeapons
 		magazines[]=
 		{
 			"magazine_Missile_mim145_AX_x4"
+		};
+	};
+	class HMG_127;
+	class HMG_127_AX: HMG_127
+	{
+		//displayName="";
+		magazines[]+=
+		{
+			"100Rnd_127x99_mag_Tracer_Blue"
+		};
+	};
+	class missiles_Firefist;
+	class missiles_Firefist_AX: missiles_Firefist
+	{
+		displayName="Inferno Missile Launcher";
+		magazines[]+=
+		{
+			"2Rnd_127mm_Firefist_AX_missiles"
+		};
+	};
+	class missiles_SAAMI;
+	class missiles_SAAMI_AX: missiles_SAAMI
+	{
+		displayName="Aegis ADS Launcher";
+		magazines[]+=
+		{
+			"4Rnd_70mm_SAAMI_AX_missiles"
+		};
+	};
+	class autocannon_Base_F;
+	class cannon_20mm;
+	class cannon_20mm_AX: cannon_20mm
+	{
+		class HE: cannon_20mm
+		{
+			displayName="AX Cannon 20mm";
+			magazines[]=
+			{
+				"60Rnd_20mm_HE_AX_shells"
+			};
+		};
+		class AP: cannon_20mm
+		{
+			displayName="AX Cannon 20mm";
+			magazines[]=
+			{
+				"60Rnd_20mm_AP_AX_shells"
+			};
+		};
+	};
+	class LMG_coax_ext;
+	class LMG_AX_coax_ext: LMG_coax_ext
+	{
+		magazines[]+=
+		{
+			"200Rnd_762x51_Belt_Blue"
 		};
 	};
 };
