@@ -194,7 +194,6 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF LPNVG-T G3";
-		thermalMode[] = {7};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_co.paa"
