@@ -746,7 +746,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Bactrian LCC (Side Load)";
-		editorPreview="\xdf_ef\previews\vehicles\XDF_Bactrian_LCC_SideLoad.jpg";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Bactrian_LCC.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
