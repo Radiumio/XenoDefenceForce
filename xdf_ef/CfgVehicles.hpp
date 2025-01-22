@@ -661,6 +661,162 @@ class CfgVehicles
 			1
 		};
 	};
+	class EF_B_LCC_MJTF_Des;
+	class XDF_Bactrian_LCC: EF_B_LCC_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Bactrian LCC";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Bactrian_LCC.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		//armor = 600; // Default ?
+		fuelCapacity = 1000; // default 700
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"hullnumber1", 
+			"hullnumber2", 
+			"hullnumber3", 
+			"hullnumber4"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+					""
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_B_LCC_SideLoad_MJTF_Des;
+	class XDF_Bactrian_LCC_SideLoad: EF_B_LCC_SideLoad_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Bactrian LCC (Side Load)";
+		editorPreview="\xdf_ef\previews\vehicles\XDF_Bactrian_LCC_SideLoad.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		//armor = 600; // Default ?
+		fuelCapacity = 1000; // default 700
+		damageResistance = 0.05; // Default 0.0048000002
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"hullnumber1", 
+			"hullnumber2", 
+			"hullnumber3", 
+			"hullnumber4"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+			"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+			"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+			""
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\bactrian\lcc_hull_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_2_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_3_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_hull_4_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_int_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_1_co.paa", 
+					"\xdf_ef\retextures\bactrian\lcc_cabin_2_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_01_co.paa", 
+					"A3\Boat_F_Destroyer\Destroyer_01\Data\Destroyer_01_N_07_co.paa", 
+					""
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 
 	//////////////////// INFANTRY ////////////////////
 	class B_Soldier_base_F;

@@ -20,6 +20,8 @@ class CfgPatches
 			"XDF_Achelois_Unarmed",
 			"XDF_Achelois_HMG",
 			"XDF_Achelois_ATGM",
+			"XDF_Bactrian_LCC",
+			"XDF_Bactrian_LCC_SideLoad",
 			"B_XDF_Marine_TL",
 			"B_XDF_Marine_Medic",
 			"B_XDF_Marine_JTAC",
