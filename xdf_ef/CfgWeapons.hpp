@@ -83,6 +83,19 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class EF_U_B_MarineCombatUniform_Diver_Des;
+	class U_XDF_Marine_Diver: EF_U_B_MarineCombatUniform_Diver_Des
+	{
+		displayName="XDF Marine Diver Uniform";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Marine_Diver";
+			containerClass="Supply40";
+			uniformType = "Neopren";
+			mass=40;
+		};
+	};
 	class EF_V_AAV_Black;
 	class V_XDF_AAV: EF_V_AAV_Black
 	{
@@ -175,6 +188,147 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			containerClass="Supply200";
+		};
+	};
+	class EF_V_AAV_Diver_Black;
+	class V_XDF_AAV_Diver: EF_V_AAV_Diver_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Diver)";
+		hiddenUnderwaterSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class EF_V_AAV_Diver_Black;
+	class V_XDF_AAV_Diver_Mask: EF_V_AAV_Diver_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Diver/Mask)";
+		hiddenUnderwaterSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+		};
+		hiddenUnderwaterSelections[]={"unhide"};
+		shownUnderwaterSelections[]={"hide"};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+			hiddenUnderwaterSelections[]={"unhide"};
+			shownUnderwaterSelections[]={"hide"};
+			hiddenUnderwaterSelectionsTextures[] = 
+			{
+				"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
+				"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+			};
+		};
+	};
+	class EF_V_AAV_Sailor_Black;
+	class V_XDF_AAV_Sailor: EF_V_AAV_Sailor_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Sailor)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class EF_V_CCR_Rifleman_Black;
+	class V_XDF_CCR_Rifleman: EF_V_CCR_Rifleman_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Commando Rig (Rifleman)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\ccr_pouches_black_CO.paa",
+		    "\xdf_ef\retextures\xdf_uniform\vests\ccr_black_CO.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class EF_V_CCR_Scout_Black;
+	class V_XDF_CCR_Scout: EF_V_CCR_Scout_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Commando Rig (Scout)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\ccr_pouches_black_CO.paa",
+		    "\xdf_ef\retextures\xdf_uniform\vests\ccr_black_CO.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class EF_V_CCR_Support_Black;
+	class V_XDF_CCR_Support: EF_V_CCR_Support_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Commando Rig (Support)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\ccr_pouches_black_CO.paa",
+		    "\xdf_ef\retextures\xdf_uniform\vests\ccr_black_CO.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class EF_V_CCR_TL_Black;
+	class V_XDF_CCR_TL: EF_V_CCR_TL_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Commando Rig (Team Leader)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\ccr_pouches_black_CO.paa",
+		    "\xdf_ef\retextures\xdf_uniform\vests\ccr_black_CO.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
 		};
 	};
 	class EF_LPNVG;

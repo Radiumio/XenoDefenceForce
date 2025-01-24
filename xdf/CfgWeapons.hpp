@@ -2355,7 +2355,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\hk121_reload.ogg",
-			4,
+			3,
 			1,
 			10
 		};
@@ -2379,7 +2379,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\lwmmg_reload.ogg",
-			4,
+			3,
 			1,
 			10
 		};
@@ -2403,7 +2403,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\m249_reload.ogg",
-			4,
+			3,
 			1,
 			10
 		};
@@ -2427,7 +2427,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\stoner_reload.ogg",
-			4,
+			3,
 			1,
 			10
 		};
@@ -2460,7 +2460,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\maaws_reload.ogg",
-			2,
+			4,
 			1,
 			10
 		};
@@ -2485,7 +2485,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\vorona_reload.ogg",
-			2,
+			4,
 			1,
 			10
 		};
@@ -2518,7 +2518,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\titan_reload.ogg",
-			2,
+			4,
 			1,
 			10
 		};
@@ -2554,7 +2554,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\titan_reload.ogg",
-			2,
+			4,
 			1,
 			10
 		};
@@ -2648,7 +2648,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\rpg32_reload.ogg",
-			2,
+			4,
 			1,
 			10
 		};
@@ -3458,9 +3458,9 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
-				5,
+				10,
 				1,
-				10
+				20
 			};
 			magazines[]=
 			{
@@ -3481,9 +3481,9 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
-				5,
+				10,
 				1,
-				10
+				20
 			};
 			magazines[]=
 			{

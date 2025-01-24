@@ -26333,7 +26333,7 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 1400; // Default 700
 		armorStructural = 10; // Default 6
-		maxSpeed = 140; // Default 70
+		maxSpeed = 105; // Default 70
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
 		engineMOI = 1; // 7
@@ -26466,7 +26466,7 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 1400; // Default 700
 		armorStructural = 10; // Default 6
-		maxSpeed = 140; // Default 70
+		maxSpeed = 105; // Default 70
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
 		engineMOI = 1; // 7
@@ -26594,12 +26594,8 @@ class CfgVehicles
 		crew = "B_XDF_Engineer";
 		armor = 800; // Default 500
 		armorStructural = 8; // Default 6
-		maxSpeed = 120; // Default 60
 		fuelCapacity = 36; // Default 18
 		damageResistance = 0.1; // Default 0.0071899998
-		engineMOI = 1; // 7
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 50.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Engineer"
@@ -27853,12 +27849,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -27956,12 +27948,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -28024,12 +28012,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -28125,12 +28109,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -32128,7 +32108,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32169,7 +32149,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Kitbag_Black";
@@ -32273,7 +32253,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32314,7 +32294,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Kitbag_Black";
@@ -32347,6 +32327,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
+		backpack = "B_XDF_Viper_Harness_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
 			"H_XDF_Enhanced_Combat_Helmet_Black",
@@ -32389,16 +32370,10 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32407,7 +32382,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32415,16 +32390,10 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32433,10 +32402,8 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
-
-		backpack = "B_XDF_Viper_Harness_Black";
 		items[]=
 		{
 			"FirstAidKit",
@@ -32508,16 +32475,10 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32526,7 +32487,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32534,16 +32495,10 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT_XDF",
 			"MRAWS_HE_F",
 			"MRAWS_HE_F",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32552,7 +32507,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Viper_Harness_Black";
@@ -32627,14 +32582,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AT_XDF",
 			"Titan_AT_XDF",
-			"Titan_AT_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32643,7 +32592,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32651,14 +32600,9 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AT_XDF",
 			"Titan_AT_XDF",
 			"Titan_AT_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32667,7 +32611,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Kitbag_Black";
@@ -32742,14 +32686,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AT_XDF",
 			"Titan_AT_XDF",
-			"Titan_AT_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32758,7 +32696,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32766,14 +32704,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AT_XDF",
 			"Titan_AT_XDF",
-			"Titan_AT_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32782,7 +32714,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Kitbag_Black";
@@ -32857,13 +32789,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AA_XDF",
 			"Titan_AA_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32872,7 +32799,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32880,13 +32807,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AA_XDF",
 			"Titan_AA_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32895,7 +32817,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Kitbag_Black";
@@ -32970,13 +32892,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AA_XDF",
 			"Titan_AA_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -32985,7 +32902,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -32993,13 +32910,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"Titan_AA_XDF",
 			"Titan_AA_XDF",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
-			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33008,7 +32920,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Kitbag_Black";
@@ -33402,13 +33314,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -33431,13 +33336,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -33531,13 +33429,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -33560,13 +33451,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -34849,7 +34733,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 		respawnMagazines[] = {
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
@@ -34875,7 +34759,7 @@ class CfgVehicles
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
-			"SmokeShell",
+			"SmokeShell"
 		};
 
 		backpack = "B_XDF_Viper_Harness_Black";
@@ -37120,6 +37004,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
+		backpack = "B_XDF_Viper_Harness_Black_med";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -37198,8 +37083,6 @@ class CfgVehicles
 			"SmokeShell",
 			"SmokeShell"
 		};
-
-		backpack = "B_XDF_Viper_Harness_Black_med";
 		items[]=
 		{
 			"Medikit",

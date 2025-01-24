@@ -903,6 +903,16 @@ class CfgVehicles
 	{
 		model="\ef\ef_marines\ef_u_frog_sl.p3d";
 	};
+	class EF_B_Marine_Diver_Des;
+	class B_XDF_Marine_Diver: EF_B_Marine_Diver_Des
+	{
+		model = "\ef\ef_marines\ef_u_frog_diver.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\uniforms\U_XDF_Marines_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+		};
+	};
 	class B_recon_F;
 	class B_XDF_Marine_TL : B_recon_F
 	{
