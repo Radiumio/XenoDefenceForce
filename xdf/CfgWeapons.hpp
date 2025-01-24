@@ -2355,7 +2355,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\hk121_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -2379,7 +2379,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\lwmmg_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -2403,7 +2403,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\m249_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -2427,7 +2427,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\stoner_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
