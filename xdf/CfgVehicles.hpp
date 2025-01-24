@@ -26594,12 +26594,8 @@ class CfgVehicles
 		crew = "B_XDF_Engineer";
 		armor = 800; // Default 500
 		armorStructural = 8; // Default 6
-		maxSpeed = 120; // Default 60
 		fuelCapacity = 36; // Default 18
 		damageResistance = 0.1; // Default 0.0071899998
-		engineMOI = 1; // 7
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 50.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Engineer"
