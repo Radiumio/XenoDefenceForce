@@ -3458,9 +3458,9 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
-				8,
+				10,
 				1,
-				10
+				20
 			};
 			magazines[]=
 			{
@@ -3481,9 +3481,9 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\5sec_beltFeedReload.ogg",
-				8,
+				10,
 				1,
-				10
+				20
 			};
 			magazines[]=
 			{
