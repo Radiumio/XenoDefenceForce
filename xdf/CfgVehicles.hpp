@@ -27853,12 +27853,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -27956,12 +27952,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -28024,12 +28016,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -28125,12 +28113,8 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 450; // Default 150
 		armorStructural = 7; // Default 5
-		maxSpeed = 100; // Default 84
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
-		engineMOI = 2;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 40.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
