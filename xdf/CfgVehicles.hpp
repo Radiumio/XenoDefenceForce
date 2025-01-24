@@ -26333,7 +26333,7 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 1400; // Default 700
 		armorStructural = 10; // Default 6
-		maxSpeed = 140; // Default 70
+		maxSpeed = 105; // Default 70
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
 		engineMOI = 1; // 7
@@ -26466,7 +26466,7 @@ class CfgVehicles
 		crew = "B_XDF_Crew";
 		armor = 1400; // Default 700
 		armorStructural = 10; // Default 6
-		maxSpeed = 140; // Default 70
+		maxSpeed = 105; // Default 70
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
 		engineMOI = 1; // 7
