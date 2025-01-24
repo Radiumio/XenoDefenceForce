@@ -83,7 +83,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class U_XDF_Marine_Diver: U_XDF_Marine_Uniform
+	class EF_U_B_MarineCombatUniform_Diver_Des;
+	class U_XDF_Marine_Diver: EF_U_B_MarineCombatUniform_Diver_Des
 	{
 		displayName="XDF Marine Diver Uniform";
 		class ItemInfo: UniformItem
@@ -197,13 +198,14 @@ class cfgWeapons
 		displayName="XDF Marine Vest (Diver)";
 		hiddenUnderwaterSelectionsTextures[] = 
 		{
-			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", "\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
 		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa",
-			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -218,21 +220,27 @@ class cfgWeapons
 		displayName="XDF Marine Vest (Diver/Mask)";
 		hiddenUnderwaterSelectionsTextures[] = 
 		{
-			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", "\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
 		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa",
-			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
+			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
 		};
-		hiddenUnderwaterSelections[]={};
-		shownUnderwaterSelections[]={};
+		hiddenUnderwaterSelections[]={"unhide"};
+		shownUnderwaterSelections[]={"hide"};
 		class ItemInfo: ItemInfo
 		{
 			containerClass="Supply200";
-			hiddenUnderwaterSelections[]={};
-			shownUnderwaterSelections[]={};
+			hiddenUnderwaterSelections[]={"unhide"};
+			shownUnderwaterSelections[]={"hide"};
+			hiddenUnderwaterSelectionsTextures[] = 
+			{
+				"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
+				"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa"
+			};
 		};
 	};
 	class EF_V_AAV_Sailor_Black;
