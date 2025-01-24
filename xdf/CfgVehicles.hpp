@@ -32327,6 +32327,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
+		backpack = "B_XDF_Viper_Harness_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
 			"H_XDF_Enhanced_Combat_Helmet_Black",
@@ -32403,8 +32404,6 @@ class CfgVehicles
 			"SmokeShell",
 			"SmokeShell"
 		};
-
-		backpack = "B_XDF_Viper_Harness_Black";
 		items[]=
 		{
 			"FirstAidKit",
@@ -37005,6 +37004,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_XE_F";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
+		backpack = "B_XDF_Viper_Harness_Black_med";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
@@ -37083,8 +37083,6 @@ class CfgVehicles
 			"SmokeShell",
 			"SmokeShell"
 		};
-
-		backpack = "B_XDF_Viper_Harness_Black_med";
 		items[]=
 		{
 			"Medikit",

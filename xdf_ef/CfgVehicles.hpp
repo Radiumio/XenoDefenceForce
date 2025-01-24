@@ -903,6 +903,10 @@ class CfgVehicles
 	{
 		model="\ef\ef_marines\ef_u_frog_sl.p3d";
 	};
+	class B_XDF_Marine_Diver: B_XDF_Marine_Uniform
+	{
+		model = "\ef\ef_marines\ef_suitpack_frog.p3d";
+	};
 	class B_recon_F;
 	class B_XDF_Marine_TL : B_recon_F
 	{
