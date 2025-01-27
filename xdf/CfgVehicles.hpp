@@ -17586,7 +17586,7 @@ class CfgVehicles
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF AW101 Merlin";
+		displayName = "XDF Merlin";
 		editorPreview="\xdf\previews\vehicles\XDF_Merlin.jpg";
 		side = 1;
 		faction = "B_XDF";
