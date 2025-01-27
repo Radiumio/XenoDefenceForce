@@ -17580,6 +17580,57 @@ class CfgVehicles
 			};
 		};
 	};
+	class I_Heli_Transport_02_F;
+	class XDF_Merlin: I_Heli_Transport_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Merlin";
+		editorPreview="\xdf\previews\vehicles\XDF_Merlin.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 300; // Default 300
+		fuelCapacity = 3000; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\merlin\heli_transport_02_1_xdf_co.paa",
+			"\xdf\retextures\merlin\heli_transport_02_2_xdf_co.paa",
+			"\xdf\retextures\merlin\heli_transport_02_3_xdf_co.paa",
+			"\xdf\retextures\merlin\heli_transport_02_int_02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\merlin\heli_transport_02_1_xdf_co.paa",
+					"\xdf\retextures\merlin\heli_transport_02_2_xdf_co.paa",
+					"\xdf\retextures\merlin\heli_transport_02_3_xdf_co.paa",
+					"\xdf\retextures\merlin\heli_transport_02_int_02_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_Heli_Light_01_F;
     class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class Components; };
     class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 

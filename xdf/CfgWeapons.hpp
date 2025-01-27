@@ -1711,7 +1711,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\trg_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1725,7 +1725,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF GTAR-21 EGLM";
+		displayName="XDF CTAR-21 EGLM";
 		baseWeapon="arifle_TRG21_GL_XDF";
 		hiddenSelections[]=
 		{
@@ -1751,7 +1751,7 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\trg_gl_reload.ogg",
-				4,
+				3,
 				1,
 				10
 			};
@@ -1759,7 +1759,107 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\trg_reload.ogg",
-			4,
+			2,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
+	class arifle_Mk20_F;
+	class arifle_Mk20_XDF: arifle_Mk20_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF F2000";
+		baseWeapon="arifle_Mk20_XDF";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\f2000\mk20_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\f2000_reload.ogg",
+			3,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
+	class arifle_Mk20_GL_F;
+	class arifle_Mk20_GL_XDF: arifle_Mk20_GL_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF F2000 EGLM";
+		baseWeapon="arifle_Mk20_GL_XDF";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\f2000\mk20_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\f2000\mk20_utilities_co.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\f2000_gl_reload.ogg",
+				3,
+				1,
+				10
+			};
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\f2000_reload.ogg",
+			3,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
+	class arifle_Mk20C_F;
+	class arifle_Mk20C_XDF: arifle_Mk20C_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF F2000 Tactical";
+		baseWeapon="arifle_Mk20C_XDF";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\f2000\mk20_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\f2000_reload.ogg",
+			3,
 			1,
 			10
 		};
