@@ -1786,7 +1786,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\f2000_reload.ogg",
-			2,
+			3,
 			1,
 			10
 		};
@@ -1832,7 +1832,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\f2000_reload.ogg",
-			2,
+			3,
 			1,
 			10
 		};
@@ -1859,7 +1859,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\f2000_reload.ogg",
-			2,
+			3,
 			1,
 			10
 		};
