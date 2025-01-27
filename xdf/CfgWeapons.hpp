@@ -1711,7 +1711,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\trg_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1725,7 +1725,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF GTAR-21 EGLM";
+		displayName="XDF CTAR-21 EGLM";
 		baseWeapon="arifle_TRG21_GL_XDF";
 		hiddenSelections[]=
 		{
@@ -1751,7 +1751,7 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\trg_gl_reload.ogg",
-				4,
+				3,
 				1,
 				10
 			};
@@ -1759,7 +1759,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\trg_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1786,7 +1786,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\f2000_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1824,7 +1824,7 @@ class cfgWeapons
 			reloadMagazineSound[]=
 			{
 				"\xdf\sounds\reloads\f2000_gl_reload.ogg",
-				4,
+				3,
 				1,
 				10
 			};
@@ -1832,7 +1832,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\f2000_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1859,7 +1859,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\f2000_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
