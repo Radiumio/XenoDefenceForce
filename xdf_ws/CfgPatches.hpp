@@ -12,7 +12,12 @@ class CfgPatches
 		version = "1.0";
 		units[] = 
 		{
-			"XDF_protoShield"
+			"XDF_protoShield",
+			"XDF_Mako_UP",
+			"XDF_Mako_UP_Unarmed",
+			"XDF_Commando_ATGM",
+			"XDF_Commando_CV",
+			"XDF_Commando_Mortar"
 		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;

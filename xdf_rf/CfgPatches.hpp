@@ -14,6 +14,8 @@ class CfgPatches
 			"XDF_Mamba",
 			"XDF_Mamba_Unarmed",
 			"XDF_Mamba_SOCAT",
+			"XDF_Lynx_ASW",
+			"XDF_Lynx_Navy_Unarmed",
 			"XDF_Marauder",
 			"XDF_Marauder_Fuel",
 			"XDF_Marauder_Repair",
