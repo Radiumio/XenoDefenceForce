@@ -191,7 +191,8 @@ class CfgVehicles
 			"camo2",
 			"camo3",
 			"CamoNet",
-			"CamoSlat"
+			"CamoSlat",
+			"camo4"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -300,7 +301,8 @@ class CfgVehicles
 			"camo2",
 			"camo3",
 			"CamoNet",
-			"CamoSlat"
+			"CamoSlat",
+			"camo4"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -367,7 +369,8 @@ class CfgVehicles
 			"camo2",
 			"camo3",
 			"CamoNet",
-			"CamoSlat"
+			"CamoSlat",
+			"camo4"
 		};
 		hiddenSelectionsTextures[]=
 		{
