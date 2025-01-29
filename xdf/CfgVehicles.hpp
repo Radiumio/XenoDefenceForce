@@ -26705,6 +26705,78 @@ class CfgVehicles
 			};
 		};
 	};
+	class I_APC_tracked_03_cannon_F;
+	class I_APC_tracked_03_cannon_F_OCimport_01: I_APC_tracked_03_cannon_F { scope = 0; class Turrets; };
+	class I_APC_tracked_03_cannon_F_OCimport_02: I_APC_tracked_03_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class O_APC_Wheeled_02_rcws_v2_F;
+	class XDF_Argus: O_APC_Wheeled_02_rcws_v2_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Argus";
+		editorPreview="\xdf\previews\vehicles\XDF_Argus.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 540; // Default 270
+		armorStructural = 6; // Default 5
+		maxSpeed = 120; // Default 105
+		fuelCapacity = 72; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\argus\apc_wheeled_02_ext_01_xdf_co.paa",
+			"\xdf\retextures\argus\apc_wheeled_02_ext_02_xdf_co.paa",
+			"\xdf\retextures\argus\turret_co.paa",
+			"\xdf\retextures\argus\camonet_nato_black_co.paa",
+			"\xdf\retextures\argus\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\champion\apc_tracked_03_ext_co.paa",
+					"\xdf\retextures\champion\apc_tracked_03_ext2_co.paa",
+					"\xdf\retextures\champion\camonet_nato_black_co.paa",
+					"\xdf\retextures\champion\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_MBT_04_cannon_F;
 	class O_MBT_04_cannon_F_OCimport_01 : O_MBT_04_cannon_F { scope = 0; class AnimationSources; class Turrets; };
 	class O_MBT_04_cannon_F_OCimport_02 : O_MBT_04_cannon_F_OCimport_01 {
