@@ -66,7 +66,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mako (UP)";
-		editorPreview="\xdf\previews\vehicles\XDF_Mako_UP.jpg";
+		editorPreview="\xdf_ws\previews\vehicles\XDF_Mako_UP.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -114,7 +114,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mako (UP, Unarmed)";
-		editorPreview="\xdf\previews\vehicles\XDF_Mako_UP_Unarmed.jpg";
+		editorPreview="\xdf_ws\previews\vehicles\XDF_Mako_UP_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -146,6 +146,256 @@ class CfgVehicles
 					"\xdf\retextures\mako\heli_light_02_ext_co.paa",
 				    "\a3\air_f\data\rockets_co.paa",
 					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_APC_Wheeled_01_atgm_lxWS;
+	class B_APC_Wheeled_01_atgm_lxWS_OCimport_01: B_APC_Wheeled_01_atgm_lxWS { scope = 0; class Turrets; };
+	class B_APC_Wheeled_01_atgm_lxWS_OCimport_02: B_APC_Wheeled_01_atgm_lxWS_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class XDF_Commando_ATGM: B_APC_Wheeled_01_atgm_lxWS_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Commando (ATGM)";
+		editorPreview="\xdf_ws\previews\vehicles\XDF_Commando_ATGM.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 640; // Default 320
+		armorStructural = 8; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 60; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 0.85; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 45.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+			"\xdf\retextures\commando\camonet_nato_black_co.paa",
+			"\xdf\retextures\commando\cage_black_co.paa",
+			"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+		};	
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_black_co.paa",
+					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"autocannon_40mm_CTWS",
+					"LMG_Minigun_AX",
+					"missiles_titan"
+				};
+				magazines[]=
+				{
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"60Rnd_40mm_GPR_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"4Rnd_GAT_missiles_lxWS",
+					"4Rnd_GAT_missiles_lxWS"
+				};
+			};
+		};
+	};
+	class B_APC_Wheeled_01_command_lxWS;
+	class XDF_Commando_CV: B_APC_Wheeled_01_command_lxWS
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Commando (CV)";
+		editorPreview="\xdf_ws\previews\vehicles\XDF_Commando_CV.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 640; // Default 320
+		armorStructural = 8; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 60; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 0.85; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 45.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+			"\xdf\retextures\commando\camonet_nato_black_co.paa",
+			"\xdf\retextures\commando\cage_black_co.paa",
+			"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+		};	
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_black_co.paa",
+					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_APC_Wheeled_01_mortar_lxWS;
+	class XDF_Commando_Mortar: B_APC_Wheeled_01_mortar_lxWS
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Commando (Mortar)";
+		editorPreview="\xdf_ws\previews\vehicles\XDF_Commando_Mortar.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 640; // Default 320
+		armorStructural = 8; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 60; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 0.85; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 45.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+			"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+			"\xdf\retextures\commando\camonet_nato_black_co.paa",
+			"\xdf\retextures\commando\cage_black_co.paa",
+			"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+		};	
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_black_co.paa",
+					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
 				};
 			};
 		};
