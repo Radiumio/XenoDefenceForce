@@ -17631,6 +17631,94 @@ class CfgVehicles
 			1
 		};
 	};
+	class O_Heli_Light_02_dynamicLoadout_F;
+	class XDF_Mako: O_Heli_Light_02_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Mako";
+		editorPreview="\xdf\previews\vehicles\XDF_Mako.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1200; // Default 800
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\mako\heli_light_02_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\mako\heli_light_02_ext_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_Heli_Light_02_unarmed_F;
+	class XDF_Mako_Unarmed: O_Heli_Light_02_unarmed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Mako (Unarmed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Mako_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1200; // Default 800
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\mako\heli_light_02_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\mako\heli_light_02_ext_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_Heli_Light_01_F;
     class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class Components; };
     class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 
@@ -25120,6 +25208,167 @@ class CfgVehicles
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
 					"\xdf\retextures\jackal\launcher_co.paa",
 			        "\xdf\retextures\jackal\tubem_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_LSV_02_unarmed_F;
+	class XDF_Stingray: O_LSV_02_unarmed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Stingray";
+		editorPreview="\xdf\previews\vehicles\XDF_Stingray.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 160; // Default 80
+		armorStructural = 5; // Default none
+		maxSpeed = 240; // Default 170
+		fuelCapacity = 40; // Default 20
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
+			"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
+			"\xdf\retextures\stingray\csat_lsv_03_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
+					"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
+					"\xdf\retextures\stingray\csat_lsv_03_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_LSV_02_armed_F;
+	class XDF_Stingray_Minigun: O_LSV_02_armed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Stingray (Minigun)";
+		editorPreview="\xdf\previews\vehicles\XDF_Stingray.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 160; // Default 80
+		armorStructural = 5; // Default none
+		maxSpeed = 240; // Default 170
+		fuelCapacity = 40; // Default 20
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
+			"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
+			"\xdf\retextures\stingray\csat_lsv_03_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
+					"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
+					"\xdf\retextures\stingray\csat_lsv_03_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class O_LSV_02_AT_F;
+	class XDF_Stingray_AT: O_LSV_02_AT_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Stingray (AT)";
+		editorPreview="\xdf\previews\vehicles\XDF_Stingray_AT.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 160; // Default 80
+		armorStructural = 5; // Default none
+		maxSpeed = 240; // Default 170
+		fuelCapacity = 40; // Default 20
+		damageResistance = 0.05; // Default 0
+		engineMOI = 0.6;
+		accelAidForceCoef = 3.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
+			"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
+			"\xdf\retextures\stingray\csat_lsv_03_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
+					"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
+					"\xdf\retextures\stingray\csat_lsv_03_black_co.paa",
+					"\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa",
+			        "\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa"
 				};
 				factions[]=
 				{

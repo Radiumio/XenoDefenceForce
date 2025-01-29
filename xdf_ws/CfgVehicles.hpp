@@ -59,4 +59,96 @@ class CfgVehicles
 			dissasembleTo[] = {"XDF_shield_backpack"};
 		};
 	};
+	class B_ION_Heli_Light_02_dynamicLoadout_lxWS;
+	class XDF_Mako_UP: B_ION_Heli_Light_02_dynamicLoadout_lxWS
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Mako (UP)";
+		editorPreview="\xdf\previews\vehicles\XDF_Mako_UP.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1200; // Default 800
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+				"\xdf\retextures\mako\heli_light_02_ext_co.paa",
+				"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\mako\heli_light_02_ext_co.paa",
+					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_ION_Heli_Light_02_unarmed_lxWS;
+	class XDF_Mako_UP_Unarmed: B_ION_Heli_Light_02_unarmed_lxWS
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Mako (UP, Unarmed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Mako_UP_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1200; // Default 800
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+				"\xdf\retextures\mako\heli_light_02_ext_co.paa",
+				"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\mako\heli_light_02_ext_co.paa",
+					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 };
