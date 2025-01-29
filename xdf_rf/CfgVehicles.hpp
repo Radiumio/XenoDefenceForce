@@ -162,6 +162,98 @@ class CfgVehicles
 			1
 		};
 	};
+	class B_Heli_light_03_dynamicLoadout_RF;
+	class XDF_Lynx_ASW: B_Heli_light_03_dynamicLoadout_RF
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Lynx (ASW)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Lynx_ASW.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1113; // Default 742
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\lynx\Heli_Light_03_base_black_CO.paa",
+			"\xdf_rf\retextures\lynx\wildcat_addons_navy_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_rf\retextures\lynx\Heli_Light_03_base_black_CO.paa",
+					"\xdf_rf\retextures\lynx\wildcat_addons_navy_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Heli_light_03_unarmed_RF;
+	class XDF_Lynx_Navy_Unarmed: B_Heli_light_03_unarmed_RF
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Lynx (Navy, Unarmed)";
+		editorPreview="\xdf_rf\previews\vehicles\XDF_Lynx_Navy_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1113; // Default 1250
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_rf\retextures\lynx\Heli_Light_03_base_black_CO.paa",
+			"\xdf_rf\retextures\lynx\wildcat_addons_navy_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_rf\retextures\lynx\Heli_Light_03_base_black_CO.paa",
+					"\xdf_rf\retextures\lynx\wildcat_addons_navy_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_ION_Pickup_rf;
 	class XDF_Marauder: B_ION_Pickup_rf
 	{

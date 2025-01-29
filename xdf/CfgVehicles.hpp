@@ -17719,6 +17719,98 @@ class CfgVehicles
 			1
 		};
 	};
+	class I_Heli_light_03_dynamicLoadout_F;
+	class XDF_Lynx: I_Heli_light_03_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Lynx";
+		editorPreview="\xdf\previews\vehicles\XDF_Lynx.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1113; // Default 742
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\lynx\heli_light_03_base_co.paa",
+			"a3\weapons_f\ammoboxes\data\ammobox_co.paa",
+			"a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\lynx\heli_light_03_base_co.paa",
+					"a3\weapons_f\ammoboxes\data\ammobox_co.paa",
+					"a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_Heli_light_03_unarmed_F;
+	class XDF_Lynx_Unarmed: I_Heli_light_03_unarmed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Lynx (Unarmed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Lynx_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 1113; // Default 742
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\lynx\heli_light_03_base_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\lynx\heli_light_03_base_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class B_Heli_Light_01_F;
     class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class Components; };
     class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 
