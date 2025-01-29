@@ -80,7 +80,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 				"\xdf\retextures\mako\heli_light_02_ext_co.paa",
-				"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+				"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_co.paa"
 		};
 		class TextureSources
 		{
@@ -95,7 +95,7 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\mako\heli_light_02_ext_co.paa",
-					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_co.paa"
 				};
 			};
 		};
@@ -126,7 +126,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 				"\xdf\retextures\mako\heli_light_02_ext_co.paa",
-				"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+				"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_co.paa"
 		};
 		class TextureSources
 		{
@@ -141,7 +141,7 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\mako\heli_light_02_ext_co.paa",
-					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_ion_co.paa"
+					"\xdf_ws\retextures\mako\lxws_heli_light_02_adds_co.paa"
 				};
 			};
 		};
