@@ -26760,10 +26760,11 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{			
-					"\xdf\retextures\champion\apc_tracked_03_ext_co.paa",
-					"\xdf\retextures\champion\apc_tracked_03_ext2_co.paa",
-					"\xdf\retextures\champion\camonet_nato_black_co.paa",
-					"\xdf\retextures\champion\cage_black_co.paa"
+					"\xdf\retextures\argus\apc_wheeled_02_ext_01_xdf_co.paa",
+					"\xdf\retextures\argus\apc_wheeled_02_ext_02_xdf_co.paa",
+					"\xdf\retextures\argus\turret_co.paa",
+					"\xdf\retextures\argus\camonet_nato_black_co.paa",
+					"\xdf\retextures\argus\cage_black_co.paa"
 				};
 				factions[]=
 				{
