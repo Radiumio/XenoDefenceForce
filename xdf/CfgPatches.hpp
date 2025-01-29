@@ -49,6 +49,8 @@ class CfgPatches
 			"XDF_Merlin",
 			"XDF_Mako",
 			"XDF_Mako_Unarmed",
+			"XDF_Lynx",
+			"XDF_Lynx_Unarmed",
 			"XDF_Hornet",
 			"XDF_Hornet_Armed",
 			"XDF_Wraith_IT",
