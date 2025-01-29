@@ -82,6 +82,7 @@ class CfgPatches
 			"XDF_Hurricane",
 			"XDF_Scoria",
 			"XDF_Champion",
+			"XDF_Argus",
 			"XDF_Commando",
 			"XDF_Scorpion",
 			"XDF_Huntress",

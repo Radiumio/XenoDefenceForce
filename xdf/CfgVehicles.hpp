@@ -26705,14 +26705,6 @@ class CfgVehicles
 			};
 		};
 	};
-	class I_APC_tracked_03_cannon_F;
-	class I_APC_tracked_03_cannon_F_OCimport_01: I_APC_tracked_03_cannon_F { scope = 0; class Turrets; };
-	class I_APC_tracked_03_cannon_F_OCimport_02: I_APC_tracked_03_cannon_F_OCimport_01 {
-		class Turrets : Turrets {
-			class MainTurret;
-			class CommanderOptics;
-		};
-	};
 	class O_APC_Wheeled_02_rcws_v2_F;
 	class XDF_Argus: O_APC_Wheeled_02_rcws_v2_F
 	{
