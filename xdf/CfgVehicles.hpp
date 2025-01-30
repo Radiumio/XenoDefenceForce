@@ -29631,6 +29631,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		uniformClass="U_XDF_SP_Suit";
+		modelSides[] = {1};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -29722,6 +29723,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		uniformClass="U_XDF_Female_SP_Suit";
+		modelSides[] = {1};
 		hiddenSelections[]=
 		{
 			"camo"
