@@ -13,9 +13,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class M_Titan_AT;
@@ -44,9 +44,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 		flightProfiles[]=
 		{
@@ -170,9 +170,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class R_MRAAWS_HEAT55_F;
@@ -309,9 +309,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class M_Air_AA;
@@ -325,9 +325,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class Missile_AGM_02_F;
@@ -340,9 +340,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class Gatling_30mm_HE_Plane_CAS_01_F;
@@ -423,9 +423,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class M_70mm_SAAMI;
@@ -437,9 +437,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 	class B_127x99_Ball;
@@ -457,9 +457,9 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			5,
+			7,
 			1,
-			500
+			1200
 		};
 	};
 
