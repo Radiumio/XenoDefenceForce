@@ -167,6 +167,13 @@ class CfgAmmo
 		maxSpeed=350;
 		submunitionAmmo="ammo_Penetrator_Vorona_XDF";
 		effectsMissile="XDF_Missile3";
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class R_MRAAWS_HEAT55_F;
 	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F
@@ -299,6 +306,13 @@ class CfgAmmo
 		thrust=350;
 		effectsMissile="XDF_Missile3";
 		manuevrability=36;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class M_Air_AA;
 	class M_Air_AA_AX: M_Air_AA
@@ -308,6 +322,13 @@ class CfgAmmo
 		thrust=280;
 		effectsMissile="XDF_Missile3";
 		manuevrability=32;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class Missile_AGM_02_F;
 	class ammo_Missile_AXGM_02_F: Missile_AGM_02_F
@@ -316,6 +337,13 @@ class CfgAmmo
 		maxSpeed=2100;
 		effectsMissile="XDF_Missile3";
 		manuevrability=30;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class Gatling_30mm_HE_Plane_CAS_01_F;
 	class Gatling_30mm_HE_AX_CAS_01_F: Gatling_30mm_HE_Plane_CAS_01_F
@@ -392,6 +420,13 @@ class CfgAmmo
 		maneuvrability=42;
 		thrust=500;
 		maxSpeed=4000;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class M_70mm_SAAMI;
 	class M_70mm_SAAMI_AX: M_70mm_SAAMI
@@ -399,6 +434,13 @@ class CfgAmmo
 		hit = 400;
 		indirectHit = 120;
 		effectsMissile = "XDF_Missile3";
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class B_127x99_Ball;
 	class B_127x99_Ball_Tracer_Blue: B_127x99_Ball
@@ -412,6 +454,13 @@ class CfgAmmo
 		hit = 500;
 		indirectHit = 140;
 		effectsMissile = "XDF_Missile3";
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 
 
