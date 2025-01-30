@@ -10,6 +10,13 @@ class CfgAmmo
 		maxSpeed=1050;
 		thrust=550;
 		effectsMissile="XDF_Missile3";
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 	};
 	class M_Titan_AT;
 	class M_Titan_AT_XDF: M_Titan_AT
@@ -34,6 +41,13 @@ class CfgAmmo
 		maxControlRange=2000;
 		weaponLockSystem="2 + 16";
 		cmImmunity=0.40000001;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			5,
+			1,
+			500
+		};
 		flightProfiles[]=
 		{
 			"Direct",
