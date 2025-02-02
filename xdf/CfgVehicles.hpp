@@ -33294,13 +33294,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
@@ -33397,13 +33397,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
