@@ -30108,6 +30108,70 @@ class CfgVehicles
 		};
 	};
 
+	// Hidden Unit Backpacks //
+	class B_XDF_Viper_Harness_Black_MAAWS : B_XDF_Viper_Harness_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class MRAAWS_HEAT_XDF
+			{
+				magazine = "MRAAWS_HEAT_XDF";
+				count = 2;
+			};
+			class MRAWS_HE_F
+			{
+				magazine = "MRAWS_HE_F";
+				count = 2;
+			};
+			class MRAAWS_HE_NUKE_XDF
+			{
+				magazine = "MRAAWS_HE_NUKE_XDF";
+				count = 1;
+			};
+		};
+		class TransportItems {};
+	};
+	class B_XDF_Viper_Harness_Black_METIS : B_XDF_Viper_Harness_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class Vorona_HEAT_XDF
+			{
+				magazine = "Vorona_HEAT_XDF";
+				count = 3;
+			};
+		};
+		class TransportItems {};
+	};
+	class B_XDF_Kitbag_Black_MS_AT : B_XDF_Kitbag_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class Titan_AT_XDF
+			{
+				magazine = "Titan_AT_XDF";
+				count = 3;
+			};
+		};
+		class TransportItems {};
+	};
+	class B_XDF_Kitbag_Black_MS_AA : B_XDF_Kitbag_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class Titan_AA_XDF
+			{
+				magazine = "Titan_AA_XDF";
+				count = 3;
+			};
+		};
+		class TransportItems {};
+	};
+
 	// Turret Backpacks
 	//class B_XDF_FUWT_Pack: B_SSU_TacticalPack_base
 	//{
@@ -32786,7 +32850,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
 			"H_XDF_Enhanced_Combat_Helmet_Black",
@@ -32969,7 +33033,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33073,7 +33137,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AT";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33176,7 +33240,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AT";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33279,7 +33343,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AA";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33382,7 +33446,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AA";
 		items[]=
 		{
 			"FirstAidKit",
@@ -35221,7 +35285,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -35340,7 +35404,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -36995,7 +37059,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_METIS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -37110,7 +37174,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_METIS";
 		items[]=
 		{
 			"FirstAidKit",

@@ -1627,7 +1627,7 @@ class CfgVehicles
 			"SmokeShell",
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
