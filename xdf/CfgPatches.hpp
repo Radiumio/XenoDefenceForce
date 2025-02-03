@@ -214,7 +214,21 @@ class CfgPatches
 			"B_XDF_Xenohunter",
 			"B_XDF_Xenohunter_Sharpshooter",
 			"B_XDF_Xenohunter_Exterminator",
-			"B_XDF_Xenohunter_Corpsman"
+			"B_XDF_Xenohunter_Corpsman",
+			"Flag_TaskForceLotus",
+			"Flag_TaskForceArtificer",
+			"Flag_TaskForceCeto",
+			"Flag_TaskForceDamocles",
+			"Flag_TaskForceIon",
+			"Flag_XenoDefenceForce",
+			"Banner_TaskForceLotus",
+			"Banner_TaskForceArtificer",
+			"Banner_TaskForceCeto",
+			"Banner_TaskForceDamocles",
+			"Banner_TaskForceIon",
+			"Banner_XenoDefenceForce",
+			"Land_XDF_IRMaskingCover_01",
+			"Land_XDF_IRMaskingCover_02"
 		};
 		weapons[] = 
 		{
