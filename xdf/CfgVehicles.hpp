@@ -37639,4 +37639,37 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
+
+	// Buildings/Structures/Props //
+
+	class Land_IRMaskingCover_01_F;
+	class Land_XDF_IRMaskingCover_01: Land_IRMaskingCover_01_F
+	{
+		author="Radium";
+		//displayName="";
+		editorCategory="XDF_Structures";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\irmaskingcover_01_f_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\retextures\structures\irmaskingcover_01.rvmat"
+		};
+	};
+	class Land_IRMaskingCover_02_F;
+	class Land_XDF_IRMaskingCover_02: Land_IRMaskingCover_02_F
+	{
+		author="Radium";
+		//displayName="";
+		editorCategory="XDF_Structures";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\irmaskingcover_01_f_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\retextures\structures\irmaskingcover_02.rvmat"
+		};
+	};
 };
