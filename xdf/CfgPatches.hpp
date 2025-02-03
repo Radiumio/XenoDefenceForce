@@ -228,7 +228,16 @@ class CfgPatches
 			"Banner_TaskForceIon",
 			"Banner_XenoDefenceForce",
 			"Land_XDF_IRMaskingCover_01",
-			"Land_XDF_IRMaskingCover_02"
+			"Land_XDF_IRMaskingCover_02",
+			"Land_DeconTent_01_XDF",
+			"Land_MedicalTent_01_XDF_Closed",
+			"Land_MedicalTent_01_XDF_generic_closed",
+			"Land_MedicalTent_01_XDF_generic_inner",
+			"Land_MedicalTent_01_XDF_generic_open",
+			"Land_MedicalTent_01_XDF_generic_outer",
+			"Land_ConnectorTent_01_XDF_closed",
+			"Land_ConnectorTent_01_XDF_cross",
+			"Land_ConnectorTent_01_XDF_open"
 		};
 		weapons[] = 
 		{

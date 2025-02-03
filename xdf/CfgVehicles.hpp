@@ -37686,4 +37686,112 @@ class CfgVehicles
 			"\xdf\retextures\structures\irtent\irmaskingcover_02.rvmat"
 		};
 	};
+	class Land_DeconTent_01_NATO_F;
+	class Land_DeconTent_01_XDF: Land_DeconTent_01_NATO_F
+	{
+		author="Radium";
+		displayName="Decon Tent [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_DeconTent_01_XDF.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_MTP_closed_F;
+	class Land_MedicalTent_01_XDF_Closed: Land_MedicalTent_01_MTP_closed_F
+	{
+		author="Radium";
+		displayName="Medical Tent [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_Closed.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_closed_F;
+	class Land_MedicalTent_01_XDF_generic_closed: Land_MedicalTent_01_white_generic_closed_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Closed)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_closed.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_inner_F;
+	class Land_MedicalTent_01_XDF_generic_inner: Land_MedicalTent_01_white_generic_inner_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Inner)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_inner.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_open_F;
+	class Land_MedicalTent_01_XDF_generic_open: Land_MedicalTent_01_white_generic_open_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Open)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_open.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_outer_F;
+	class Land_MedicalTent_01_XDF_generic_outer: Land_MedicalTent_01_white_generic_outer_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Outer)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_outer.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_ConnectorTent_01_NATO_closed_F;
+	class Land_ConnectorTent_01_XDF_closed: Land_ConnectorTent_01_NATO_closed_F
+	{
+		author="Radium";
+		displayName="Connector Tent (Closed) [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_closed.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_ConnectorTent_01_NATO_cross_F;
+	class Land_ConnectorTent_01_XDF_cross: Land_ConnectorTent_01_NATO_cross_F
+	{
+		author="Radium";
+		displayName="Connector Tent (Cross) [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_cross.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_ConnectorTent_01_NATO_open_F;
+	class Land_ConnectorTent_01_XDF_open: Land_ConnectorTent_01_NATO_open_F
+	{
+		author="Radium";
+		displayName="Connector Tent (Open) [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_open.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
 };
