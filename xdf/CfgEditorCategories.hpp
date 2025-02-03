@@ -29,3 +29,10 @@ class CfgEditorSubcategories
 		displayName = "Medusa Pods"
 	};
 };
+class CfgEditorCategories
+{
+	class XDF_Structures
+	{
+		displayName = "Structures (XDF)"
+	};
+};

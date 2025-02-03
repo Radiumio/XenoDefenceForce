@@ -13,7 +13,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Ripsaw UGV";
-		editorPreview="\xdf_rs\previews\vehicles\XDF_Ripsaw.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Ripsaw.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";

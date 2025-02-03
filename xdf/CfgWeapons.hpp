@@ -1027,7 +1027,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\spearhead_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1053,7 +1053,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\spearhead_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1097,7 +1097,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\spearhead_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};
@@ -1123,7 +1123,7 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\spearhead_reload.ogg",
-			4,
+			2,
 			1,
 			10
 		};

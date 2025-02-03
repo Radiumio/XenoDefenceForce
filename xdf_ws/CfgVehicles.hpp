@@ -66,7 +66,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mako (UP)";
-		editorPreview="\xdf_ws\previews\vehicles\XDF_Mako_UP.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Mako_UP.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -114,7 +114,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mako (UP, Unarmed)";
-		editorPreview="\xdf_ws\previews\vehicles\XDF_Mako_UP_Unarmed.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Mako_UP_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -169,7 +169,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Commando (ATGM)";
-		editorPreview="\xdf_ws\previews\vehicles\XDF_Commando_ATGM.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Commando_ATGM.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -279,7 +279,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Commando (CV)";
-		editorPreview="\xdf_ws\previews\vehicles\XDF_Commando_CV.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Commando_CV.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
@@ -347,7 +347,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Commando (Mortar)";
-		editorPreview="\xdf_ws\previews\vehicles\XDF_Commando_Mortar.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Commando_Mortar.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";

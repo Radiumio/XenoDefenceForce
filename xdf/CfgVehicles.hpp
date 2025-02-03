@@ -68,10 +68,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceLotus.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceLotus.jpg";
 		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Lotus)";
 		class EventHandlers
 		{
@@ -97,10 +98,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceArtificer.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceArtificer.jpg";
 		_generalMacro="Flag_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Artificer)";
 		class EventHandlers
 		{
@@ -126,10 +128,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceCeto.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceCeto.jpg";
 		_generalMacro="Flag_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Ceto)";
 		class EventHandlers
 		{
@@ -155,10 +158,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceDamocles.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceDamocles.jpg";
 		_generalMacro="Flag_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Damocles)";
 		class EventHandlers
 		{
@@ -184,10 +188,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceIon.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceIon.jpg";
 		_generalMacro="Flag_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Ion)";
 		class EventHandlers
 		{
@@ -213,10 +218,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_XenoDefenceForce.jpg";
+		editorPreview="\xdf\previews\structures\Flag_XenoDefenceForce.jpg";
 		_generalMacro="Flag_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (Xeno Defence Force)";
 		class EventHandlers
 		{
@@ -236,10 +242,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceLotus.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceLotus.jpg";
 		_generalMacro="Banner_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Lotus)";
 		hiddenSelectionsTextures[]=
 		{
@@ -258,10 +265,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceArtificer.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceArtificer.jpg";
 		_generalMacro="Banner_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Artificer)";
 		hiddenSelectionsTextures[]=
 		{
@@ -280,10 +288,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceCeto.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceCeto.jpg";
 		_generalMacro="Banner_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Ceto)";
 		hiddenSelectionsTextures[]=
 		{
@@ -302,10 +311,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceDamocles.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceDamocles.jpg";
 		_generalMacro="Banner_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Damocles)";
 		hiddenSelectionsTextures[]=
 		{
@@ -324,10 +334,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceIon.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceIon.jpg";
 		_generalMacro="Banner_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Ion)";
 		hiddenSelectionsTextures[]=
 		{
@@ -346,10 +357,11 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_XenoDefenceForce.jpg";
+		editorPreview="\xdf\previews\structures\Banner_XenoDefenceForce.jpg";
 		_generalMacro="Banner_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (Xeno Defence Force)";
 		hiddenSelectionsTextures[]=
 		{
@@ -29631,6 +29643,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		uniformClass="U_XDF_SP_Suit";
+		modelSides[] = {1};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -29722,6 +29735,7 @@ class CfgVehicles
 		scope=1;
 		scopeCurator=0;
 		uniformClass="U_XDF_Female_SP_Suit";
+		modelSides[] = {1};
 		hiddenSelections[]=
 		{
 			"camo"
@@ -30104,6 +30118,70 @@ class CfgVehicles
 			displayName="XDF LS-2 Sentinel Designator";
 			assembleTo="XDF_Sentinel";
 		};
+	};
+
+	// Hidden Unit Backpacks //
+	class B_XDF_Viper_Harness_Black_MAAWS : B_XDF_Viper_Harness_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class MRAAWS_HEAT_XDF
+			{
+				magazine = "MRAAWS_HEAT_XDF";
+				count = 2;
+			};
+			class MRAWS_HE_F
+			{
+				magazine = "MRAWS_HE_F";
+				count = 2;
+			};
+			class MRAAWS_HE_NUKE_XDF
+			{
+				magazine = "MRAAWS_HE_NUKE_XDF";
+				count = 1;
+			};
+		};
+		class TransportItems {};
+	};
+	class B_XDF_Viper_Harness_Black_METIS : B_XDF_Viper_Harness_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class Vorona_HEAT_XDF
+			{
+				magazine = "Vorona_HEAT_XDF";
+				count = 3;
+			};
+		};
+		class TransportItems {};
+	};
+	class B_XDF_Kitbag_Black_MS_AT : B_XDF_Kitbag_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class Titan_AT_XDF
+			{
+				magazine = "Titan_AT_XDF";
+				count = 3;
+			};
+		};
+		class TransportItems {};
+	};
+	class B_XDF_Kitbag_Black_MS_AA : B_XDF_Kitbag_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class Titan_AA_XDF
+			{
+				magazine = "Titan_AA_XDF";
+				count = 3;
+			};
+		};
+		class TransportItems {};
 	};
 
 	// Turret Backpacks
@@ -32784,7 +32862,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
 			"H_XDF_Enhanced_Combat_Helmet_Black",
@@ -32809,13 +32887,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
@@ -32914,13 +32992,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_MRAWS_black_F",
 			"Rangefinder"
@@ -32967,7 +33045,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33021,13 +33099,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
@@ -33071,7 +33149,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AT";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33125,13 +33203,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan_short_F",
 			"Rangefinder"
@@ -33174,7 +33252,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AT";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33228,13 +33306,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
@@ -33277,7 +33355,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AA";
 		items[]=
 		{
 			"FirstAidKit",
@@ -33331,13 +33409,13 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"arifle_MSBS65_GL_XDF_black_F",
+			"arifle_MSBS65_XDF_black_F",
 			"XDF_hgun_P07",
 			"XDF_launch_B_Titan",
 			"Rangefinder"
@@ -33380,7 +33458,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Kitbag_Black";
+		backpack = "B_XDF_Kitbag_Black_MS_AA";
 		items[]=
 		{
 			"FirstAidKit",
@@ -35219,7 +35297,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -35338,7 +35416,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -36993,7 +37071,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_METIS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -37108,7 +37186,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black";
+		backpack = "B_XDF_Viper_Harness_Black_METIS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -37571,6 +37649,149 @@ class CfgVehicles
 			"FirstAidKit",
 			"FirstAidKit",
 			"FirstAidKit"
+		};
+	};
+
+	// Buildings/Structures/Props //
+
+	class Land_IRMaskingCover_01_F;
+	class Land_XDF_IRMaskingCover_01: Land_IRMaskingCover_01_F
+	{
+		author="Radium";
+		displayName="IR Masking Tent (XDF, Large)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_XDF_IRMaskingCover_01.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\irtent\irmaskingcover_01_f_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\retextures\structures\irtent\irmaskingcover_01.rvmat"
+		};
+	};
+	class Land_IRMaskingCover_02_F;
+	class Land_XDF_IRMaskingCover_02: Land_IRMaskingCover_02_F
+	{
+		author="Radium";
+		displayName="IR Masking Tent (XDF, Small)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_XDF_IRMaskingCover_02.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\irtent\irmaskingcover_01_f_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\retextures\structures\irtent\irmaskingcover_02.rvmat"
+		};
+	};
+	class Land_DeconTent_01_NATO_F;
+	class Land_DeconTent_01_XDF: Land_DeconTent_01_NATO_F
+	{
+		author="Radium";
+		displayName="Decon Tent [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_DeconTent_01_XDF.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_MTP_closed_F;
+	class Land_MedicalTent_01_XDF_Closed: Land_MedicalTent_01_MTP_closed_F
+	{
+		author="Radium";
+		displayName="Medical Tent [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_Closed.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_closed_F;
+	class Land_MedicalTent_01_XDF_generic_closed: Land_MedicalTent_01_white_generic_closed_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Closed)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_closed.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_inner_F;
+	class Land_MedicalTent_01_XDF_generic_inner: Land_MedicalTent_01_white_generic_inner_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Inner)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_inner.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_open_F;
+	class Land_MedicalTent_01_XDF_generic_open: Land_MedicalTent_01_white_generic_open_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Open)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_open.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_MedicalTent_01_white_generic_outer_F;
+	class Land_MedicalTent_01_XDF_generic_outer: Land_MedicalTent_01_white_generic_outer_F
+	{
+		author="Radium";
+		displayName="XDF Tent (Shelter, Outer)";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_MedicalTent_01_XDF_generic_outer.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_ConnectorTent_01_NATO_closed_F;
+	class Land_ConnectorTent_01_XDF_closed: Land_ConnectorTent_01_NATO_closed_F
+	{
+		author="Radium";
+		displayName="Connector Tent (Closed) [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_closed.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_ConnectorTent_01_NATO_cross_F;
+	class Land_ConnectorTent_01_XDF_cross: Land_ConnectorTent_01_NATO_cross_F
+	{
+		author="Radium";
+		displayName="Connector Tent (Cross) [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_cross.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+		};
+	};
+	class Land_ConnectorTent_01_NATO_open_F;
+	class Land_ConnectorTent_01_XDF_open: Land_ConnectorTent_01_NATO_open_F
+	{
+		author="Radium";
+		displayName="Connector Tent (Open) [XDF]";
+		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_open.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
 		};
 	};
 };
