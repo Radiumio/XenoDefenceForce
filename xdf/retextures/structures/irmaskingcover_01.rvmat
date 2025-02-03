@@ -80,7 +80,7 @@ class Stage3
 
 {
 
-	texture = "xdf\retextures\irmaskingcover_01_f_mc.paa";
+	texture = "xdf\retextures\structures\irmaskingcover_01_f_mc.paa";
 
 	uvSource = "tex1";
 
