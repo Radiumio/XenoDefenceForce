@@ -72,6 +72,7 @@ class CfgVehicles
 		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Lotus)";
 		class EventHandlers
 		{
@@ -101,6 +102,7 @@ class CfgVehicles
 		_generalMacro="Flag_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Artificer)";
 		class EventHandlers
 		{
@@ -130,6 +132,7 @@ class CfgVehicles
 		_generalMacro="Flag_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Ceto)";
 		class EventHandlers
 		{
@@ -159,6 +162,7 @@ class CfgVehicles
 		_generalMacro="Flag_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Damocles)";
 		class EventHandlers
 		{
@@ -188,6 +192,7 @@ class CfgVehicles
 		_generalMacro="Flag_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (XDF - Task Force Ion)";
 		class EventHandlers
 		{
@@ -217,6 +222,7 @@ class CfgVehicles
 		_generalMacro="Flag_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Flag (Xeno Defence Force)";
 		class EventHandlers
 		{
@@ -240,6 +246,7 @@ class CfgVehicles
 		_generalMacro="Banner_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Lotus)";
 		hiddenSelectionsTextures[]=
 		{
@@ -262,6 +269,7 @@ class CfgVehicles
 		_generalMacro="Banner_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Artificer)";
 		hiddenSelectionsTextures[]=
 		{
@@ -284,6 +292,7 @@ class CfgVehicles
 		_generalMacro="Banner_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Ceto)";
 		hiddenSelectionsTextures[]=
 		{
@@ -306,6 +315,7 @@ class CfgVehicles
 		_generalMacro="Banner_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Damocles)";
 		hiddenSelectionsTextures[]=
 		{
@@ -328,6 +338,7 @@ class CfgVehicles
 		_generalMacro="Banner_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (XDF - Task Force Ion)";
 		hiddenSelectionsTextures[]=
 		{
@@ -350,6 +361,7 @@ class CfgVehicles
 		_generalMacro="Banner_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
+		editorCategory="XDF_Structures";
 		displayName="Banner (Xeno Defence Force)";
 		hiddenSelectionsTextures[]=
 		{
