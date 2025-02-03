@@ -37658,7 +37658,7 @@ class CfgVehicles
 	class Land_XDF_IRMaskingCover_01: Land_IRMaskingCover_01_F
 	{
 		author="Radium";
-		//displayName="";
+		displayName="IR Masking Tent (XDF, Large)";
 		editorCategory="XDF_Structures";
 		editorPreview="\xdf\previews\structures\Land_XDF_IRMaskingCover_01.jpg";
 		hiddenSelectionsTextures[]=
@@ -37674,7 +37674,7 @@ class CfgVehicles
 	class Land_XDF_IRMaskingCover_02: Land_IRMaskingCover_02_F
 	{
 		author="Radium";
-		//displayName="";
+		displayName="IR Masking Tent (XDF, Small)";
 		editorCategory="XDF_Structures";
 		editorPreview="\xdf\previews\structures\Land_XDF_IRMaskingCover_02.jpg";
 		hiddenSelectionsTextures[]=
