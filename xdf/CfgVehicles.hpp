@@ -68,7 +68,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceLotus.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceLotus.jpg";
 		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
@@ -98,7 +98,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceArtificer.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceArtificer.jpg";
 		_generalMacro="Flag_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
@@ -128,7 +128,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceCeto.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceCeto.jpg";
 		_generalMacro="Flag_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
@@ -158,7 +158,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceDamocles.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceDamocles.jpg";
 		_generalMacro="Flag_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
@@ -188,7 +188,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_TaskForceIon.jpg";
+		editorPreview="\xdf\previews\structures\Flag_TaskForceIon.jpg";
 		_generalMacro="Flag_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
@@ -218,7 +218,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Flag_XenoDefenceForce.jpg";
+		editorPreview="\xdf\previews\structures\Flag_XenoDefenceForce.jpg";
 		_generalMacro="Flag_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
@@ -242,7 +242,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceLotus.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceLotus.jpg";
 		_generalMacro="Banner_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
@@ -265,7 +265,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceArtificer.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceArtificer.jpg";
 		_generalMacro="Banner_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
@@ -288,7 +288,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceCeto.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceCeto.jpg";
 		_generalMacro="Banner_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
@@ -311,7 +311,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceDamocles.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceDamocles.jpg";
 		_generalMacro="Banner_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
@@ -334,7 +334,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_TaskForceIon.jpg";
+		editorPreview="\xdf\previews\structures\Banner_TaskForceIon.jpg";
 		_generalMacro="Banner_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
@@ -357,7 +357,7 @@ class CfgVehicles
 			verticalOffsetWorld=0;
 			init="''";
 		};
-		editorPreview="\xdf\previews\misc\Banner_XenoDefenceForce.jpg";
+		editorPreview="\xdf\previews\structures\Banner_XenoDefenceForce.jpg";
 		_generalMacro="Banner_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
@@ -37660,6 +37660,7 @@ class CfgVehicles
 		author="Radium";
 		//displayName="";
 		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_XDF_IRMaskingCover_01.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\structures\irtent\irmaskingcover_01_f_co.paa"
@@ -37675,6 +37676,7 @@ class CfgVehicles
 		author="Radium";
 		//displayName="";
 		editorCategory="XDF_Structures";
+		editorPreview="\xdf\previews\structures\Land_XDF_IRMaskingCover_02.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\structures\irtent\irmaskingcover_01_f_co.paa"

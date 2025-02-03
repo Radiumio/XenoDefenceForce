@@ -7,7 +7,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mamba";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Mamba.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Mamba.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -61,7 +61,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mamba (Unarmed)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Mamba_Unarmed.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Mamba_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -115,7 +115,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Mamba SOCAT";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Mamba_SOCAT.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Mamba_SOCAT.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -169,7 +169,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Lynx (ASW)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Lynx_ASW.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Lynx_ASW.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -215,7 +215,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Lynx (Navy, Unarmed)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Lynx_Navy_Unarmed.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Lynx_Navy_Unarmed.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
@@ -261,7 +261,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -320,7 +320,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup (Fuel)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_Fuel.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder_Fuel.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -379,7 +379,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup (Repair)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_Repair.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder_Repair.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -438,7 +438,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup (AA)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_AA.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder_AA.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -497,7 +497,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup (RCWS)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_RCWS.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder_RCWS.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -554,7 +554,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup (MMG)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_MMG.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder_MMG.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -613,7 +613,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Marauder Pickup (Comms)";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_Marauder_Comms.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_Marauder_Comms.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
@@ -672,7 +672,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Harbinger Mortar";
-		editorPreview="\xdf_rf\previews\vehicles\XDF_TwinMortar.jpg";
+		editorPreview="\xdf\previews\vehicles\XDF_TwinMortar.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_UAV_AI";
@@ -716,7 +716,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Scout";
-		editorPreview="\xdf_rf\previews\units\B_XDF_Scout.jpg";
+		editorPreview="\xdf\previews\units\B_XDF_Scout.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
@@ -810,7 +810,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Scout";
-		editorPreview="\xdf_rf\previews\units\B_XDF_Scout_F.jpg";
+		editorPreview="\xdf\previews\units\B_XDF_Scout_F.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
