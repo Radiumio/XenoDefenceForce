@@ -37650,11 +37650,11 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\irmaskingcover_01_f_co.paa"
+			"\xdf\retextures\structures\irtent\irmaskingcover_01_f_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\xdf\retextures\structures\irmaskingcover_01.rvmat"
+			"\xdf\retextures\structures\irtent\irmaskingcover_01.rvmat"
 		};
 	};
 	class Land_IRMaskingCover_02_F;
@@ -37665,11 +37665,11 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\irmaskingcover_01_f_co.paa"
+			"\xdf\retextures\structures\irtent\irmaskingcover_01_f_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\xdf\retextures\structures\irmaskingcover_02.rvmat"
+			"\xdf\retextures\structures\irtent\irmaskingcover_02.rvmat"
 		};
 	};
 };

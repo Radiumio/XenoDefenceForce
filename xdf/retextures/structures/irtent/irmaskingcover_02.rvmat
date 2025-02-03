@@ -24,15 +24,15 @@ specularPower = 50;
 
 PixelShaderID = "Super";
 
-renderFlags[] = {"noTIWrite"};
-
 VertexShaderID = "Super";
+
+renderFlags[] = {"noTIWrite"};
 
 class Stage1
 
 {
 
-	texture = "a3\props_f_exp\military\camps\data\irmaskingcover_01_f_nohq.paa";
+	texture = "a3\props_f_exp\military\camps\data\irmaskingcover_02_f_nohq.paa";
 
 	uvSource = "tex";
 
@@ -80,7 +80,7 @@ class Stage3
 
 {
 
-	texture = "xdf\retextures\structures\irmaskingcover_01_f_mc.paa";
+	texture = "xdf\retextures\structures\irtent\irmaskingcover_02_f_mc.paa";
 
 	uvSource = "tex1";
 
@@ -104,7 +104,7 @@ class Stage4
 
 {
 
-	texture = "a3\props_f_exp\military\camps\data\irmaskingcover_01_f_as.paa";
+	texture = "a3\props_f_exp\military\camps\data\irmaskingcover_02_f_as.paa";
 
 	uvSource = "tex1";
 
@@ -128,7 +128,7 @@ class Stage5
 
 {
 
-	texture = "a3\props_f_exp\military\camps\data\irmaskingcover_01_f_smdi.paa";
+	texture = "a3\props_f_exp\military\camps\data\irmaskingcover_02_f_smdi.paa";
 
 	uvSource = "tex";
 
