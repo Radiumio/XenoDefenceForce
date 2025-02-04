@@ -986,6 +986,71 @@ class cfgWeapons
 		};
 	};
 
+	// Infantry Items //
+	
+	class ItemGPS;
+	class ItemDatalinkDisplay: ItemGPS
+	{
+		author = "Radium";
+		scope = 2;
+		displayName = "Datalink Display";
+		descriptionUse = "<t color='#9cf953'>Use: </t>View Datalink";
+		simulation = "ItemGPS";
+		picture = "\xdf\retextures\xdf_uniform\gear_item_dd_ca.paa";
+		model = "\a3\Weapons_F\Ammo\mag_gps.p3d";
+		descriptionShort = "Allows ground units to tap into datalink intranet and receive target data, as well as access the GPS network.";
+		class ItemInfo
+		{
+			mass = 16;
+		};
+		class Components: Components
+		{
+			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+			{
+				class components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoMiniMap";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={200,400,800,1600,3200,6400};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
+			{
+				defaultDisplay="SensorDisplay";
+				class components
+				{
+					class EmptyDisplay
+					{
+						componentType="EmptyDisplayComponent";
+					};
+					class MinimapDisplay
+					{
+						componentType="MinimapDisplayComponent";
+						resource="RscCustomInfoMiniMap";
+					};
+					class SensorDisplay
+					{
+						componentType="SensorsDisplayComponent";
+						range[]={200,400,800,1600,3200,6400};
+						resource="RscCustomInfoSensors";
+					};
+				};
+			};
+		};
+	};
+
 	// Retextured Weapons
 	// Rifles
 	class arifle_MSBS65_base_black_F;
