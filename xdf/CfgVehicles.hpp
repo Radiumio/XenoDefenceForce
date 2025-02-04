@@ -10,11 +10,11 @@ class SensorTemplateNV;
 class SensorTemplateDataLink;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
-	class Components;
+	class Components{};
 };
 class DefaultVehicleSystemsDisplayManagerRight
 {
-	class Components;
+	class Components{};
 };
 class CfgVehicles
 {
