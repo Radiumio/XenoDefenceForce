@@ -1,4 +1,5 @@
 class ItemInfo;
+class GL_3GL_F;
 class cfgWeapons
 {
 	class ItemCore;
@@ -400,7 +401,7 @@ class cfgWeapons
 			1,
 			10
 		};
-		class GL_3GL_F
+		class GL_3GL_F: GL_3GL_F
 		{
 			reloadMagazineSound[]=
 			{
