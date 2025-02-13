@@ -353,6 +353,69 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_co.paa"
 		};
 	};
+	class ef_arifle_mxar;
+	class ef_arifle_MXAR_XDF: ef_arifle_mxar
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_Black_F";
+		scope=2;
+		displayName="XDF ACR-X4AR";
+		baseWeapon="ef_arifle_MXAR_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
+		};
+	};
+	class ef_arifle_mxar_gl;
+	class ef_arifle_MXAR_GL_XDF: ef_arifle_mxar_gl
+	{
+		author="Radium";
+		_generalMacro="arifle_MX_Black_F";
+		scope=2;
+		displayName="XDF ACR-X4AR 3GL";
+		baseWeapon="ef_arifle_MXAR_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\glx_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
+		};
+		class GL_3GL_F: GL_3GL_F
+		{
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
+		};
+	};
 
 	//////////////////// VEHICLES ////////////////////
 	class EF_autocannon_30mm_Hunter;
