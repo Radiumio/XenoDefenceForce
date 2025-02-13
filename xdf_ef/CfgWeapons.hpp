@@ -386,7 +386,7 @@ class cfgWeapons
 		_generalMacro="arifle_MX_Black_F";
 		scope=2;
 		displayName="XDF ACR-X4AR 3GL";
-		baseWeapon="ef_arifle_MXAR_XDF";
+		baseWeapon="ef_arifle_MXAR_GL_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
@@ -400,7 +400,7 @@ class cfgWeapons
 			1,
 			10
 		};
-		class GL_3GL_F: GL_3GL_F
+		class GL_3GL_F
 		{
 			reloadMagazineSound[]=
 			{
