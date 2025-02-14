@@ -28276,7 +28276,7 @@ class CfgVehicles
 		{
 			"\xdf\retextures\van\van_body_xdf_co.paa",
 			"\xdf\retextures\van\van_wheel_xdf_co.paa",
-			"\xdf\retextures\van\van_glass_utility_ca.paa",
+			"\xdf\retextures\van\van_glass_utility_co.paa",
 			"\xdf\retextures\van\van_body_xdf_co.paa"
 		};
 		class TextureSources
@@ -28289,7 +28289,7 @@ class CfgVehicles
 				{
 					"\xdf\retextures\van\van_body_xdf_co.paa",
 					"\xdf\retextures\van\van_wheel_xdf_co.paa",
-					"\xdf\retextures\van\van_glass_utility_ca.paa",
+					"\xdf\retextures\van\van_glass_utility_co.paa",
 					"\xdf\retextures\van\van_body_xdf_co.paa"
 				};
 				factions[]=
