@@ -998,7 +998,7 @@ class cfgWeapons
 		simulation = "ItemGPS";
 		picture = "\xdf\retextures\xdf_uniform\gear_item_dd_ca.paa";
 		model = "\a3\Weapons_F\Ammo\mag_gps.p3d";
-		descriptionShort = "Allows ground units to tap into datalink intranet and receive target data, as well as access the GPS network.";
+		descriptionShort = "Allows ground units to tap into datalink intranet and receive target data, as well as access GPS.";
 		class ItemInfo
 		{
 			mass = 16;
