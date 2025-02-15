@@ -38010,7 +38010,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_closed.jpg";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
 	class Land_ConnectorTent_01_NATO_cross_F;
@@ -38022,7 +38022,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_cross.jpg";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
 	class Land_ConnectorTent_01_NATO_open_F;
@@ -38034,7 +38034,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_open.jpg";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
 };
