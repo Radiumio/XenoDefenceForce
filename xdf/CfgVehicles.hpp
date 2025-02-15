@@ -10,11 +10,11 @@ class SensorTemplateNV;
 class SensorTemplateDataLink;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
-	class components;
+	class Components{};
 };
 class DefaultVehicleSystemsDisplayManagerRight
 {
-	class components;
+	class Components{};
 };
 class CfgVehicles
 {
@@ -28181,6 +28181,249 @@ class CfgVehicles
 			1
 		};
 	};
+	class C_IDAP_Van_02_medevac_F;
+	class XDF_Van_Ambulance: C_IDAP_Van_02_medevac_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Van (Ambulance)";
+		editorPreview="\xdf\previews\vehicles\XDF_Van_Ambulance.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 100; // Default 55
+		fuelCapacity = 36; // Default 18
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"monitors",
+			"emergency_lights"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\van\van_body_xdfambulance_co.paa",
+			"\xdf\retextures\van\van_wheel_med_xdf_co.paa",
+			"\xdf\retextures\van\van_glass_medevac_dirty_ca.paa",
+			"a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
+			"\xdf\retextures\van\van_body_xdfambulance_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\van\van_body_xdfambulance_co.paa",
+					"\xdf\retextures\van\van_wheel_med_xdf_co.paa",
+					"\xdf\retextures\van\van_glass_medevac_dirty_ca.paa",
+					"a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
+					"\xdf\retextures\van\van_body_xdfambulance_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class C_Van_02_vehicle_F;
+	class XDF_Van_Cargo: C_Van_02_vehicle_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Van (Cargo)";
+		editorPreview="\xdf\previews\vehicles\XDF_Van_Cargo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 100; // Default 55
+		fuelCapacity = 36; // Default 18
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"emergency_lights"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\van\van_body_xdf_co.paa",
+			"\xdf\retextures\van\van_wheel_xdf_co.paa",
+			"\xdf\retextures\van\van_glass_utility_co.paa",
+			"\xdf\retextures\van\van_body_xdf_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\van\van_body_xdf_co.paa",
+					"\xdf\retextures\van\van_wheel_xdf_co.paa",
+					"\xdf\retextures\van\van_glass_utility_co.paa",
+					"\xdf\retextures\van\van_body_xdf_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class C_Van_02_service_F;
+	class XDF_Van_Service: C_Van_02_service_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Van (Service)";
+		editorPreview="\xdf\previews\vehicles\XDF_Van_Cargo.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 100; // Default 55
+		fuelCapacity = 36; // Default 18
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"emergency_lights"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\van\van_body_xdfservice_co.paa",
+			"\xdf\retextures\van\van_wheel_xdf_co.paa",
+			"\xdf\retextures\van\van_glass_xdfservice_ca.paa",
+			"\xdf\retextures\van\van_body_xdfservice_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\van\van_body_xdfservice_co.paa",
+					"\xdf\retextures\van\van_wheel_xdf_co.paa",
+					"\xdf\retextures\van\van_glass_xdfservice_ca.paa",
+					"\xdf\retextures\van\van_body_xdfservice_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class C_Van_02_transport_F;
+	class XDF_Van_Transport: C_Van_02_transport_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Van (Transport)";
+		editorPreview="\xdf\previews\vehicles\XDF_Van_Transport.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Operative";
+		armor = 100; // Default 55
+		fuelCapacity = 36; // Default 18
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"B_XDF_Operative"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"emergency_lights"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\van\van_body_xdf_co.paa",
+			"\xdf\retextures\van\van_wheel_xdf_co.paa",
+			"\xdf\retextures\van\van_glass_transport_ca.paa",
+			"\xdf\retextures\van\van_body_xdf_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\van\van_body_xdf_co.paa",
+					"\xdf\retextures\van\van_wheel_xdf_co.paa",
+					"\xdf\retextures\van\van_glass_transport_ca.paa",
+					"\xdf\retextures\van\van_body_xdf_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
 	class O_MBT_02_railgun_F;
 	class O_MBT_02_railgun_F_OCimport_01 : O_MBT_02_railgun_F { scope = 0; class AnimationSources; class Turrets; };
 	class O_MBT_02_railgun_F_OCimport_02 : O_MBT_02_railgun_F_OCimport_01 {
@@ -37767,7 +38010,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_closed.jpg";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
 	class Land_ConnectorTent_01_NATO_cross_F;
@@ -37779,7 +38022,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_cross.jpg";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
 	class Land_ConnectorTent_01_NATO_open_F;
@@ -37791,7 +38034,7 @@ class CfgVehicles
 		editorPreview="\xdf\previews\structures\Land_ConnectorTent_01_XDF_open.jpg";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_f_co.paa"
+			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
 };
