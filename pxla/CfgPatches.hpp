@@ -1,6 +1,6 @@
 class CfgPatches 
 {
-	class xla
+	class pxla
 	{
 		requiredAddons[] = 
 		{

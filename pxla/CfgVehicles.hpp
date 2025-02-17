@@ -1,27 +1,322 @@
 class CfgVehicles
-{	// Uniforms
-	class O_R_Gorka_black_F;
-	class O_XLA_Uniform_Red: O_R_Gorka_black_F
+{	
+	class I_APC_Wheeled_03_cannon_F;
+	class PXLA_Dementer: I_APC_Wheeled_03_cannon_F
 	{
-		uniformClass="U_XLA_Uniform_Red";
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Hijacked Dementer";
+		editorPreview="\pxla\previews\vehicles\XLA_Dementer.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Grunt";
+		armor = 576; // Default 480
+		armorStructural = 6; // Default 5
+		maxSpeed = 220; // Default 110
+		fuelCapacity = 48; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\dementer\apc_wheeled_03_ext_co.paa",
+			"\pxla\retextures\dementer\apc_wheeled_03_ext2_co.paa",
+			"\pxla\retextures\dementer\rcws30_black_co.paa",
+			"\pxla\retextures\dementer\apc_wheeled_03_ext_alpha_co.paa",
+			"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+			"\xdf\retextures\dementer\cage_black_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{			
+					"\pxla\retextures\dementer\apc_wheeled_03_ext_co.paa",
+					"\pxla\retextures\dementer\apc_wheeled_03_ext2_co.paa",
+					"\pxla\retextures\dementer\rcws30_black_co.paa",
+					"\pxla\retextures\dementer\apc_wheeled_03_ext_alpha_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+					"\xdf\retextures\dementer\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class I_G_Offroad_01_F;
+	class PXLA_Offroad: I_G_Offroad_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Offroad";
+		editorPreview="\xdf\previews\vehicles\PXLA_Offroad.jpg";
+		side = 1;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xla\retextures\offroad\offroad_01_ext_co.paa",
+			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\xla\retextures\offroad\offroad_01_ext_co.paa",
+					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_G_Offroad_01_AT_F;
+	class PXLA_Offroad_AT: I_G_Offroad_01_AT_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Offroad (AT)";
+		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_AT.jpg";
+		side = 1;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xla\retextures\offroad\offroad_01_ext_co.paa",
+			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\xla\retextures\offroad\offroad_01_ext_co.paa",
+					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_G_Offroad_01_armed_F;
+	class PXLA_Offroad_HMG: I_G_Offroad_01_armed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Offroad (HMG)";
+		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_HMG.jpg";
+		side = 1;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xla\retextures\offroad\offroad_01_ext_co.paa",
+			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\xla\retextures\offroad\offroad_01_ext_co.paa",
+					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_G_Offroad_01_repair_F;
+	class PXLA_Offroad_Repair: I_G_Offroad_01_repair_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Offroad (Repair)";
+		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_Repair.jpg";
+		side = 1;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xla\retextures\offroad\offroad_01_ext_co.paa",
+			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\xla\retextures\offroad\offroad_01_ext_co.paa",
+					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+
+	// Uniforms
+	class O_R_Gorka_black_F;
+	class O_PXLA_Uniform_Red: O_R_Gorka_black_F
+	{
+		uniformClass="U_PXLA_Uniform_Red";
 		modelSides[]={0,3,2};
 		hiddenSelectionsTextures[]=
 		{
-			"\xla\retextures\xla_uniform\uniforms\gorka_01_red_co.paa"
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_co.paa"
 		};
 	};
 	class B_Soldier_F;
-	class O_XLA_Grunt: B_Soldier_F
+	class O_PXLA_Grunt: B_Soldier_F
 	{
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XLA Grunt";
+		displayName = "PXLA Grunt";
 		editorPreview="";
 		side = 0;
-		faction = "O_XLA";
+		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_Chestrig_blk",
 			"H_SSU_Cap_HS_Black",
@@ -95,17 +390,17 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
-	class O_XLA_Grenadier: B_Soldier_F
+	class O_PXLA_Grenadier: B_Soldier_F
 	{
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XLA Grenadier";
+		displayName = "PXLA Grenadier";
 		editorPreview="";
 		side = 0;
-		faction = "O_XLA";
+		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_PlateCarrier2_blk",
 			"H_PASGT_basic_black_F",
@@ -189,17 +484,17 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
-	class O_XLA_Machinegunner: B_Soldier_F
+	class O_PXLA_Machinegunner: B_Soldier_F
 	{
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XLA Machinegunner";
+		displayName = "PXLA Machinegunner";
 		editorPreview="";
 		side = 0;
-		faction = "O_XLA";
+		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_SSU_Tactical_Chest_Rig_Black",
 			"H_SSU_Boonie_HS_Black",
@@ -269,17 +564,17 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
-	class O_XLA_Marksman: B_Soldier_F
+	class O_PXLA_Marksman: B_Soldier_F
 	{
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XLA Marksman";
+		displayName = "PXLA Marksman";
 		editorPreview="";
 		side = 0;
-		faction = "O_XLA";
+		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_SSU_Tactical_Chest_Rig_Black",
 			"H_Beret_blk",
@@ -355,17 +650,17 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
-	class O_XLA_Medic: B_Soldier_F
+	class O_PXLA_Medic: B_Soldier_F
 	{
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XLA Medic";
+		displayName = "PXLA Medic";
 		editorPreview="";
 		side = 0;
-		faction = "O_XLA";
+		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_SSU_Tactical_Vest_Black",
 			"H_PASGT_basic_black_F",
@@ -442,17 +737,17 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
-	class O_XLA_Defector: B_Soldier_F
+	class O_PXLA_Defector: B_Soldier_F
 	{
 		author = "Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XLA Defector";
+		displayName = "PXLA Defector";
 		editorPreview="";
 		side = 0;
-		faction = "O_XLA";
+		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_XLA_Defector_Carrier_Lite_Red",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
