@@ -325,7 +325,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
 			"V_Chestrig_blk",
@@ -335,7 +335,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 
 		weapons[] = {
@@ -409,7 +409,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
 			"V_XLA_Defector_Carrier_Rig_Red",
@@ -419,7 +419,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 
 		weapons[] = {
@@ -503,7 +503,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
 			"V_SSU_Tactical_Chest_Rig_Black",
@@ -513,7 +513,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 
 		weapons[] = {
@@ -583,7 +583,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
 			"V_SSU_Tactical_Chest_Rig_Black",
@@ -593,7 +593,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 
 		weapons[] = {
@@ -669,7 +669,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
 			"V_SSU_Tactical_Vest_Black",
@@ -679,7 +679,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_Bandanna_RedFlame1"
+			"G_PXLA_Bandana_Sports"
 		};
 
 		weapons[] = {
@@ -749,24 +749,24 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_XLA_Defector_Carrier_Lite_Red",
+			"V_PXLA_Defector_Carrier_Lite_Red",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_XDF_Balaclava_TI_Nanowrap_G_Black"
+			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XLA_Defector_Carrier_Lite_Red",
+			"V_PXLA_Defector_Carrier_Lite_Red",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_XDF_Balaclava_TI_Nanowrap_G_Black"
+			"G_PXLA_Balaclava_TI_G_Black"
 		};
 
 		weapons[] = {
