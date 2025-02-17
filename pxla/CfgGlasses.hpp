@@ -47,4 +47,59 @@ class CfgGlasses
 			"\pxla\retextures\pxla_uniform\facegear\pxla_combat_goggles_red.paa"
 		};
 	};
+	class G_Bandanna_blk;
+	class G_PXLA_Bandana: G_Bandanna_blk
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="PXLA Bandana";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\facegear\G_PXLA_Bandana_Beast.paa"
+		};
+	};
+	class G_Bandanna_sport;
+	class G_PXLA_Bandana_Sports: G_Bandanna_sport
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="PXLA Bandana (Sports)";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\facegear\G_PXLA_Bandana_Beast.paa",
+			"\a3\characters_f\heads\glasses\data\sunglasses_sport_4_ca.paa"
+		};
+	};
+	class G_Bandanna_aviator;
+	class G_PXLA_Bandana_Aviators: G_Bandanna_aviator
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="PXLA Bandana (Aviators)";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\facegear\G_PXLA_Bandana_Beast.paa",
+			"\a3\characters_f\heads\glasses\data\glass_ca.paa"
+		};
+	};
 };
