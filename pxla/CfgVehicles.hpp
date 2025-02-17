@@ -564,6 +564,85 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
+	class O_PXLA_HeavyGunner: B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Heavy Gunner";
+		editorPreview="";
+		side = 0;
+		faction = "O_PXLA";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_PXLA_Uniform_Red";
+		linkedItems[] = {
+			"V_SSU_Tactical_Chest_Rig_Black",
+			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_SSU_Tactical_Chest_Rig_Black",
+			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"MMG_01_tan_F"
+		};
+		respawnWeapons[] = {
+			"MMG_01_tan_F"
+		};
+
+		magazines[] = {
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"150Rnd_93x64_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
 	class O_PXLA_Marksman: B_Soldier_F
 	{
 		author = "Radium";
@@ -804,6 +883,178 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class O_PXLA_Infiltrator: B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Infiltrator";
+		editorPreview="";
+		side = 0;
+		faction = "O_PXLA";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_PXLA_Uniform_Red";
+		linkedItems[] = {
+			"V_PXLA_Defector_Carrier_Lite_Red",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_PXLA_Defector_Carrier_Lite_Red",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_srifle_GM6_F"
+		};
+		respawnWeapons[] = {
+			"XDF_srifle_GM6_F"
+		};
+
+		magazines[] = {
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"5Rnd_127x108_APDS_Mag",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class O_PXLA_Rifleman: B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Rifleman";
+		editorPreview="";
+		side = 0;
+		faction = "O_PXLA";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_PXLA_Uniform_Red";
+		linkedItems[] = {
+			"V_PXLA_Defector_Carrier_Lite_Red",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_PXLA_Defector_Carrier_Lite_Red",
+			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"arifle_SPAR_01_blk_F"
+		};
+		respawnWeapons[] = {
+			"arifle_SPAR_01_blk_F"
+		};
+
+		magazines[] = {
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
