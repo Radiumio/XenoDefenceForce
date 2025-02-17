@@ -1081,19 +1081,19 @@ class CfgVehicles
 	class B_AssaultPack_blk_medic : B_AssaultPack_blk
 	{
 		scope = 1;
-		class TransportMagazines
-		{
+		class TransportMagazines{};
+		class TransportItems 
+		{	
 			class Medikit
 			{
-				magazine = "Medikit";
+				item = "Medikit";
 				count = 1;
 			};
 			class FirstAidKit
 			{
-				magazine = "FirstAidKit";
+				item = "FirstAidKit";
 				count = 10;
 			};
 		};
-		class TransportItems {};
 	};
 };
