@@ -650,7 +650,8 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
-	class O_PXLA_Medic: B_Soldier_F
+	class B_medic_F;
+	class O_PXLA_Medic: B_medic_F
 	{
 		author = "Radium";
 		scope = 2;
@@ -831,12 +832,12 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class x_Medkit
+			class Medikit
 			{
 				magazine = "Medikit";
 				count = 1;
 			};
-			class x_FirstAidKit
+			class FirstAidKit
 			{
 				magazine = "FirstAidKit";
 				count = 10;
