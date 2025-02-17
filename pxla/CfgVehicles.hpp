@@ -7,7 +7,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Hijacked Dementer";
-		editorPreview="\pxla\previews\vehicles\XLA_Dementer.jpg";
+		editorPreview="\pxla\previews\vehicles\pxla_Dementer.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
@@ -77,7 +77,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Offroad";
 		editorPreview="\xdf\previews\vehicles\PXLA_Offroad.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -99,8 +99,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xla\retextures\offroad\offroad_01_ext_co.paa",
-			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 		};
 		class TextureSources
 		{
@@ -110,8 +110,8 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xla\retextures\offroad\offroad_01_ext_co.paa",
-					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 				};
 				factions[]=
 				{
@@ -133,7 +133,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Offroad (AT)";
 		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_AT.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -155,8 +155,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xla\retextures\offroad\offroad_01_ext_co.paa",
-			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 		};
 		class TextureSources
 		{
@@ -166,8 +166,8 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xla\retextures\offroad\offroad_01_ext_co.paa",
-					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 				};
 				factions[]=
 				{
@@ -189,7 +189,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Offroad (HMG)";
 		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_HMG.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -211,8 +211,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xla\retextures\offroad\offroad_01_ext_co.paa",
-			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 		};
 		class TextureSources
 		{
@@ -222,8 +222,8 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xla\retextures\offroad\offroad_01_ext_co.paa",
-					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 				};
 				factions[]=
 				{
@@ -245,7 +245,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Offroad (Repair)";
 		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_Repair.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -267,8 +267,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xla\retextures\offroad\offroad_01_ext_co.paa",
-			"\xla\retextures\offroad\offroad_01_ext_co.paa"
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+			"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 		};
 		class TextureSources
 		{
@@ -278,8 +278,8 @@ class CfgVehicles
 				author="Radium";
 				textures[]=
 				{
-					"\xla\retextures\offroad\offroad_01_ext_co.paa",
-					"\xla\retextures\offroad\offroad_01_ext_co.paa"
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa",
+					"\pxla\retextures\offroad\offroad_01_ext_co.paa"
 				};
 				factions[]=
 				{
@@ -402,7 +402,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_PlateCarrier2_blk",
+			"V_XLA_Defector_Carrier_Rig_Red",
 			"H_PASGT_basic_black_F",
 			"ItemMap",
 			"ItemRadio",
@@ -412,7 +412,7 @@ class CfgVehicles
 			"G_Bandanna_RedFlame1"
 		};
 		respawnlinkedItems[] = {
-			"V_PlateCarrier2_blk",
+			"V_XLA_Defector_Carrier_Rig_Red",
 			"H_PASGT_basic_black_F",
 			"ItemMap",
 			"ItemRadio",
