@@ -808,13 +808,15 @@ class CfgVehicles
 		{
 			"FirstAidKit",
 			"FirstAidKit",
-			"FirstAidKit"
+			"FirstAidKit",
+			"Medikit"
 		};
 		respawnItems[]=
 		{
 			"FirstAidKit",
 			"FirstAidKit",
-			"FirstAidKit"
+			"FirstAidKit",
+			"Medikit"
 		};
 	};
 	class O_PXLA_Defector: B_Soldier_F
@@ -1077,23 +1079,4 @@ class CfgVehicles
 	};
 	
 	// Hidden Unit Backpacks
-	class B_AssaultPack_blk;
-	class B_AssaultPack_blk_medic : B_AssaultPack_blk
-	{
-		scope = 1;
-		class TransportMagazines{};
-		class TransportItems 
-		{	
-			class Medikit
-			{
-				item = "Medikit";
-				count = 1;
-			};
-			class FirstAidKit
-			{
-				item = "FirstAidKit";
-				count = 10;
-			};
-		};
-	};
 };
