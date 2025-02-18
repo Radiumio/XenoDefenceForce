@@ -7,7 +7,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Hijacked Dementer";
-		editorPreview="\pxla\previews\vehicles\pxla_Dementer.jpg";
+		editorPreview="\pxla\previews\vehicles\PXLA_Dementer.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
@@ -76,7 +76,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Offroad";
-		editorPreview="\xdf\previews\vehicles\PXLA_Offroad.jpg";
+		editorPreview="\pxla\previews\vehicles\PXLA_Offroad.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
@@ -132,7 +132,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Offroad (AT)";
-		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_AT.jpg";
+		editorPreview="\pxla\previews\vehicles\PXLA_Offroad_AT.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
@@ -188,63 +188,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Offroad (HMG)";
-		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_HMG.jpg";
-		side = 0;
-		faction = "O_PXLA";
-		editorSubcategory = "PXLA_HijackedVehicles";
-		crew = "O_PXLA_Grunt";
-		armor = 60; // Default 30
-		maxSpeed = 300; // Default 200
-		fuelCapacity = 32; // Default 16
-		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
-		typicalCargo[]=
-		{
-			"O_PXLA_Grunt"
-		};
-		hiddenSelections[]=
-		{
-			"Camo",
-			"Camo2"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\pxla\retextures\offroad\offroad_01_ext_co.paa",
-			"\pxla\retextures\offroad\offroad_01_ext_co.paa"
-		};
-		class TextureSources
-		{
-			class PXLA
-			{
-				displayName="Pro-Xeno Liberation Alliance";
-				author="Radium";
-				textures[]=
-				{
-					"\pxla\retextures\offroad\offroad_01_ext_co.paa",
-					"\pxla\retextures\offroad\offroad_01_ext_co.paa"
-				};
-				factions[]=
-				{
-					"O_PXLA"
-				};
-			};
-		};
-		textureList[]=
-		{
-			"PXLA",
-			1
-		};
-	};
-	class I_G_Offroad_01_repair_F;
-	class PXLA_Offroad_Repair: I_G_Offroad_01_repair_F
-	{
-		author="Radium";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "PXLA Offroad (Repair)";
-		editorPreview="\xdf\previews\vehicles\PXLA_Offroad_Repair.jpg";
+		editorPreview="\pxla\previews\vehicles\PXLA_Offroad_HMG.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
@@ -312,7 +256,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Grunt";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Grunt.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -396,7 +340,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Grenadier";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Grenadier.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -490,7 +434,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Machinegunner";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Machinegunner.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -570,7 +514,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Heavy Gunner";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_HeavyGunner.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -649,7 +593,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Marksman";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Marksman.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -736,7 +680,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Medic";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Medic.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -825,7 +769,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Defector";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Defector.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -911,7 +855,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Infiltrator";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Infiltrator.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
@@ -997,7 +941,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Rifleman";
-		editorPreview="";
+		editorPreview="\pxla\previews\units\O_PXLA_Rifleman.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
