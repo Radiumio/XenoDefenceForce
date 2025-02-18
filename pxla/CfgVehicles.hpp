@@ -11,7 +11,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
-		crew = "O_PXLA_Grunt";
+		crew = "O_PXLA_Crewman";
 		armor = 576; // Default 480
 		armorStructural = 6; // Default 5
 		maxSpeed = 220; // Default 110
@@ -22,7 +22,7 @@ class CfgVehicles
 		accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
-			"O_PXLA_Grunt"
+			"O_PXLA_Crewman"
 		};
 		hiddenSelections[]=
 		{
@@ -314,6 +314,91 @@ class CfgVehicles
 			"30Rnd_762x39_Mag_F",
 			"30Rnd_762x39_Mag_F",
 			"30Rnd_762x39_Mag_F",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_Soldier_F;
+	class O_PXLA_Crewman: B_Soldier_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Crewman";
+		editorPreview="\pxla\previews\units\O_PXLA_Crewman.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_PXLA_Uniform_Red";
+		linkedItems[] = {
+			"V_Chestrig_blk",
+			"H_Tank_eaf_F",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_Chestrig_blk",
+			"H_Tank_eaf_F",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"SMG_05_F"
+		};
+		respawnWeapons[] = {
+			"SMG_05_F"
+		};
+
+		magazines[] = {
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"HandGrenade",
+			"HandGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
+			"30Rnd_9x21_Mag_SMG_02",
 			"HandGrenade",
 			"HandGrenade",
 			"SmokeShellRed",
