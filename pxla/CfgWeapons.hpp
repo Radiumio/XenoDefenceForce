@@ -45,4 +45,23 @@ class cfgWeapons
 			"\pxla\retextures\pxla_uniform\vests\V_PXLA_Defector_Carrier_Rig_Black.paa"
 		};
 	};
+	class arifle_SPAR_01_blk_F;
+	class arifle_SPAR_01_blk_F_PXLA: arifle_SPAR_01_blk_F
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_DMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_M";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
 };
