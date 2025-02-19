@@ -2841,7 +2841,7 @@ class cfgWeapons
 				slot = "PointerSlot";
 			};
 		};
-	};	
+	};
 	class XDF_launch_B_Titan_short_F: XDF_launch_B_Titan_short // Spear with IR Laser
 	{
 		class linkedItems
