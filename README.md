@@ -1,10 +1,10 @@
 <p align="center"><img src="https://i.imgur.com/O2uGGNM.png" width="900"></p>
 
-*Publically, not much is known about the XDF - even their existence and size is a well-kept secret. Having operated for several decades, the XDF emerged at the same time as the alien threat, formed by a multinational coalition between the leaders of several powerful countries. Despite political tensions, the threat of alien invasion has forced those aware of the danger to set aside their differences, and work to stop our extraterrestrial enemy.
+*Publically, not much is known about the XDF - even their existence and size is a well-kept secret. Having operated for several decades, the XDF emerged at the same time as the alien threat, formed by a multinational coalition between the leaders of several powerful countries. Despite political tensions, the threat of alien invasion has forced those aware of the danger to set aside their differences, and work to stop our extraterrestrial enemy.*
 
-As is necessary for such an organisation, the XDF employs some of the world's brightest minds in order to study the alien threat. Many of the foreign technologies recovered in the field have been used to develop hybrid weapons and equipment used by XDF operators, and create powerful variants of modern aircraft and ground vehicles that are capable of standing up to their otherworldly opponents. It is believed that the XDF operates in independent cells, so as to avoid being toppled by evasive alien infiltrators or moles.
+*As is necessary for such an organisation, the XDF employs some of the world's brightest minds in order to study the alien threat. Many of the foreign technologies recovered in the field have been used to develop hybrid weapons and equipment used by XDF operators, and create powerful variants of modern aircraft and ground vehicles that are capable of standing up to their otherworldly opponents. It is believed that the XDF operates in independent cells, so as to avoid being toppled by evasive alien infiltrators or moles.*
 
-Despite this unlikely show of collaboration, the threat of alien invasion grows ever closer. Panic spreads throughout the world as localized alien incursions become more frequent. Tensions between global powers are increasing - all orchestrated by our extraterrestrial neighbours who aim to secure our planet. If nothing is done, humanity is certainly doomed to go extinct. The XDF must act.*
+*Despite this unlikely show of collaboration, the threat of alien invasion grows ever closer. Panic spreads throughout the world as localized alien incursions become more frequent. Tensions between global powers are increasing - all orchestrated by our extraterrestrial neighbours who aim to secure our planet. If nothing is done, humanity is certainly doomed to go extinct. The XDF must act.*
 
 <img src="https://i.imgur.com/41H2tgm.png" width="900"></p>
 Xeno Defence Force is a retexture mod heavily inspired by the Xenonauts video game, and focuses on a fictional organisation that undertakes clandestine operations and research to counter an extraterrestrial threat. On top of re-theming vanilla vehicles, several vehicles have also receiving changes to their handling, armor and more.
@@ -24,10 +24,10 @@ With the **Expeditionary Forces** or **Reaction Forces** CDLCs loaded, additiona
 
 <img src="https://i.imgur.com/VVPGhmS.png" width="900"></p>
 *These optional mods can be loaded alongside XDF to add additional vehicles and/or equipment.*
-**<a href="https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/">Reaction Forces CDLC</a>**
-**<a href="https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/">Expeditionary Forces CDLC</a>**
-**<a href="https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/">Western Sahara CDLC</a>**
-**<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>**
+- **<a href="https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/">Reaction Forces CDLC</a>**
+- **<a href="https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/">Expeditionary Forces CDLC</a>**
+- **<a href="https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/">Western Sahara CDLC</a>**
+- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>**
 
 <img src="https://i.imgur.com/ePSzqnC.png" width="900"></p>
 While anyone is welcome to interpret the XDF organization as they wish, official lore regarding the faction can be read here, and is being expanded gradually.
@@ -48,7 +48,6 @@ XDF is licensed under <a href="https://github.com/Radiumio/XenoDefenceForce/blob
 
 This mod will **only ever be** posted under the steam account **radiumio**.
 <img src="https://i.imgur.com/cOQpqYV.png" width="900"></p>
-[list]
 - Myself for doing all the texture edits and configuration work
 - Clasless for the Stealth Uniform textures provided by his <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2122147403">SSU</a> mod, which were used as a base for all XDF gear.
 - Taurus for the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2261045061">TCGM_Girls</a> mod, which enabled female variants of XDF soldiers to be made.
@@ -57,6 +56,5 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
-[/list]
 
 If you have any questions, please contact me either on Steam or Discord, via my handle **radiumio**. I hope you enjoy the mod!
