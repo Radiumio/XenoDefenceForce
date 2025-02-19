@@ -237,6 +237,168 @@ class CfgVehicles
 			1
 		};
 	};
+	class I_C_Offroad_02_unarmed_F;
+	class PXLA_Jeep: I_C_Offroad_02_unarmed_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Jeep";
+		editorPreview="\pxla\previews\vehicles\PXLA_Jeep.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+			"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+			"\pxla\retextures\jeep\offroad_02_int_black_co.paa",
+			"\pxla\retextures\jeep\offroad_02_int_black_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+					"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+					"\pxla\retextures\jeep\offroad_02_int_black_co.paa",
+					"\pxla\retextures\jeep\offroad_02_int_black_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_C_Offroad_02_LMG_F;
+	class PXLA_Jeep_LMG: I_C_Offroad_02_LMG_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Jeep (LMG)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Jeep_LMG.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+			"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+			"\pxla\retextures\jeep\offroad_02_int_black_co.paa",
+			"\pxla\retextures\jeep\offroad_02_int_black_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+					"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+					"\pxla\retextures\jeep\offroad_02_int_black_co.paa",
+					"\pxla\retextures\jeep\offroad_02_int_black_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_C_Offroad_02_AT_F;
+	class PXLA_Jeep_SPG: I_C_Offroad_02_AT_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Jeep (SPG)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Jeep_SPG.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		armor = 60; // Default 30
+		maxSpeed = 300; // Default 200
+		fuelCapacity = 32; // Default 16
+		damageResistance = 0.05; // Default 0.0048000002
+		engineMOI = 0.8;
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 30.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+			"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+			"\pxla\retextures\jeep\offroad_02_int_black_co.paa",
+			"\pxla\retextures\jeep\offroad_02_int_black_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+					"\pxla\retextures\jeep\offroad_02_ext_red_co.paa",
+					"\pxla\retextures\jeep\offroad_02_int_black_co.paa",
+					"\pxla\retextures\jeep\offroad_02_int_black_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
 
 	// Uniforms
 	class O_R_Gorka_black_F;
