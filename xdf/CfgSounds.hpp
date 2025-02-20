@@ -50,9 +50,6 @@ class CfgSoundShaders
 		range=100;
 		rangeCurve="closeShotCurve";
 	};
-};
-class CfgSoundShaders
-{
 	class XDF_GM6LynxRail_closeShot_SoundShader
 	{
 		samples[]=
