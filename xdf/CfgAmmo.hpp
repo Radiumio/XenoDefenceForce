@@ -585,8 +585,8 @@ class CfgAmmo
 			1,
 			1800
 		};
+		typicalSpeed=1100;
 		timeToLive=12;
-		typicalSpeed=1500;
 	};
 	class B_127x108_railshot_he_blue: B_127x108_APDS
 	{
@@ -606,8 +606,8 @@ class CfgAmmo
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";
+		typicalSpeed=1100;
 		timeToLive=12;
-		typicalSpeed=1500;
 	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
