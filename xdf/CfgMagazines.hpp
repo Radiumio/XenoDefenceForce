@@ -804,7 +804,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="12.7 mm 1Rnd Railgun Shot (APDS-AX)";
+		displayName="SABOT 1Rnd Railgun Shot (APDS-AX)";
 		displaynameshort="AX-RG";
 		ammo="B_127x108_railshot_blue";
 		count=1;
@@ -815,7 +815,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="12.7 mm 1Rnd Railgun Shot (APDSHE-AX)";
+		displayName="SABOT 1Rnd Railgun Shot (APDSHE-AX)";
 		displaynameshort="AXHE-RG";
 		ammo="B_127x108_railshot_he_blue";
 		count=1;
