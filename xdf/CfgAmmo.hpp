@@ -581,10 +581,11 @@ class CfgAmmo
 		soundFly[]=
 		{
 			"\xdf\sounds\shot\gm6\gm6_railfly",
-			7,
+			12,
 			1,
-			1200
+			1800
 		};
+		timeToLive=12;
 		typicalSpeed=1500;
 	};
 	class B_127x108_railshot_he_blue: B_127x108_APDS
@@ -598,13 +599,14 @@ class CfgAmmo
 		soundFly[]=
 		{
 			"\xdf\sounds\shot\gm6\gm6_railfly",
-			7,
+			12,
 			1,
-			1200
+			1800
 		};
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";
+		timeToLive=12;
 		typicalSpeed=1500;
 	};
 	class B_93x64_Ball;
