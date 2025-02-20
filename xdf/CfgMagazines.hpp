@@ -809,7 +809,7 @@ class CfgMagazines
 		ammo="B_127x108_railshot_blue";
 		count=1;
 		tracersEvery=1;
-		mass=15;
+		mass=12;
 	};
 	class 1Rnd_127x108_APDSHERG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
 	{
@@ -820,7 +820,7 @@ class CfgMagazines
 		ammo="B_127x108_railshot_he_blue";
 		count=1;
 		tracersEvery=1;
-		mass=15;
+		mass=12;
 	};
 
 	class 10Rnd_93x64_DMR_05_Mag;
