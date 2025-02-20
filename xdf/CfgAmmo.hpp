@@ -567,7 +567,7 @@ class CfgAmmo
 		indirectHit=8;
 		indirectHitRange=1;
 		warheadName="HE";
-		explosive=0.5;
+		explosive=0.8;
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";
