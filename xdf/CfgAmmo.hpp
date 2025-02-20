@@ -575,6 +575,8 @@ class CfgAmmo
 	class B_127x108_railshot_blue: B_127x108_APDS
 	{
 		hit=400; // default 60, AX munitions add 5
+		indirectHit=10;
+		indirectHitRange=1;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		soundFly[]=
 		{
@@ -589,9 +591,9 @@ class CfgAmmo
 	{
 		hit=400; // default 60, AX munitions add 5
 		indirectHit=20;
-		indirectHitRange=2;
+		indirectHitRange=4;
 		warheadName="HE";
-		explosive=0.2;
+		explosive=0.5;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		soundFly[]=
 		{
