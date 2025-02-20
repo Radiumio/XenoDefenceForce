@@ -560,6 +560,49 @@ class CfgAmmo
 		hit=65; // default 60, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_127x108_APDSHE_blue: B_127x108_APDS
+	{
+		hit=80; // default 60, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		indirectHit=8;
+		indirectHitRange=1;
+		warheadName="HE";
+		explosive=0.5;
+		explosionSoundEffect="DefaultExplosion";
+		CraterEffects="ExploAmmoCrater";
+		explosionEffects="ExploAmmoExplosion";
+	};
+	class B_127x108_railshot_blue: B_127x108_APDS
+	{
+		hit=400; // default 60, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\gm6\gm6_railfly",
+			7,
+			1,
+			1200
+		};
+	};
+	class B_127x108_railshot_he_blue: B_127x108_APDS
+	{
+		hit=400; // default 60, AX munitions add 5
+		indirectHit=20;
+		indirectHitRange=2;
+		warheadName="HE";
+		explosive=0.2;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\gm6\gm6_railfly",
+			7,
+			1,
+			1200
+		};
+		explosionSoundEffect="DefaultExplosion";
+		CraterEffects="ExploAmmoCrater";
+		explosionEffects="ExploAmmoExplosion";
+	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
 	{

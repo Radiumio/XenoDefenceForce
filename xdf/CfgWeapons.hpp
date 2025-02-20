@@ -2306,6 +2306,53 @@ class cfgWeapons
 			"GM6_127x108_XDF"
 		};
 	};
+	class XDF_srifle_GM6_railgun: srifle_GM6_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF X-HTI Caracal Railgun";
+		baseWeapon="XDF_srifle_GM6_railgun";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\gm6\gm6_rail_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\gm6_rail_reload.ogg",
+			4,
+			1,
+			10
+		};
+		class single: mode_semiauto
+		{
+			sounds[]=
+			{
+				"standardsound",
+				"silencedsound"
+			};
+			class basesoundmodetype;
+			class silencedsound: basesoundmodetype
+			{
+			};
+			class standardsound: basesoundmodetype
+			{
+				soundsetshot[]=
+				{
+					"XDF_GM6LynxRail_Shot_SoundSet",
+					"GM6Lynx_Tail_SoundSet",
+					"GM6Lynx_InteriorTail_SoundSet"
+				};
+			};
+		};
+		magazineWell[] =
+		{
+			"GM6Rail_127x108_XDF"
+		};
+	};
 	class XDF_srifle_DMR_05_blk: srifle_DMR_05_blk_F
 	{
 		author="Radium";

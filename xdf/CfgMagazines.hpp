@@ -791,6 +791,35 @@ class CfgMagazines
 		ammo="B_127x108_APDS_blue";
 		tracersEvery=1;
 	};
+	class 5Rnd_127x108_APDSHE_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 5Rnd Tracer Mag (APDSHE-AX)";
+		displaynameshort="AX-HE Tracer";
+		ammo="B_127x108_APDSHE_blue";
+		tracersEvery=1;
+	};
+	class 1Rnd_127x108_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 1Rnd Railgun Shot (APDS-AX)";
+		displaynameshort="AX-RG";
+		ammo="B_127x108_railshot_blue";
+		count=1;
+		tracersEvery=1;
+	};
+	class 1Rnd_127x108_APDSHERG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="12.7 mm 1Rnd Railgun Shot (APDSHE-AX)";
+		displaynameshort="AXHE-RG";
+		ammo="B_127x108_railshot_he_blue";
+		count=1;
+		tracersEvery=1;
+	};
 
 	class 10Rnd_93x64_DMR_05_Mag;
 	class 10Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag
