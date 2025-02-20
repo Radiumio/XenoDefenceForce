@@ -2312,6 +2312,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF HTI-X Caracal Railgun";
 		baseWeapon="XDF_srifle_GM6_railgun";
+		mass=310; // default 253
 		hiddenSelections[]=
 		{
 			"camo"
