@@ -2348,6 +2348,11 @@ class cfgWeapons
 				};
 			};
 		};
+		magazines[]=
+		{
+			"1Rnd_127x108_APDSRG_Mag_blue_tracer",
+			"1Rnd_127x108_APDSHERG_Mag_blue_tracer"
+		};
 		magazineWell[]=
 		{
 			"GM6Rail_127x108_XDF"
