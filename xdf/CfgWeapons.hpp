@@ -2310,7 +2310,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF X-HTI Caracal Railgun";
+		displayName="XDF HTI-X Caracal Railgun";
 		baseWeapon="XDF_srifle_GM6_railgun";
 		hiddenSelections[]=
 		{
@@ -2348,7 +2348,7 @@ class cfgWeapons
 				};
 			};
 		};
-		magazineWell[] =
+		magazineWell[]=
 		{
 			"GM6Rail_127x108_XDF"
 		};
