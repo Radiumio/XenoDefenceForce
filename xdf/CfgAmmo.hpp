@@ -587,6 +587,20 @@ class CfgAmmo
 		};
 		typicalSpeed=1100;
 		timeToLive=8;
+		class CamShakeFire
+		{
+			power = 1;
+			duration = 2.5;
+			frequency = 20;
+			distance = 10;
+		};
+		class CamShakePlayerFire
+		{
+			power = 2;
+			duration = 5;
+			frequency = 20;
+			distance = 1;
+		};
 	};
 	class B_127x108_railshot_he_blue: B_127x108_APDS
 	{
@@ -608,6 +622,19 @@ class CfgAmmo
 		explosionEffects="ExploAmmoExplosion";
 		typicalSpeed=1100;
 		timeToLive=8;
+		class CamShakeFire
+		{
+			power = 1;
+			duration = 2.5;
+			frequency = 10;
+			distance = 5;
+		};
+		class CamShakePlayerFire
+		{
+			power = 1.5;
+			duration = 6;
+			frequency = 10;
+		};
 	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
