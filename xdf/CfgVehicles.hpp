@@ -1,6 +1,7 @@
 #define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; }
 #define WEAP_XX(a,b) class _xx_##a { weapon = a; count = b; }
 #define ITEM_XX(a,b) class _xx_##a { name = a; count = b; }
+#define BACKPACK_XX(a,b) class _xx_##a { backpack = a; count = b; }
 
 class Components;
 class SensorTemplatePassiveRadar;
@@ -38259,6 +38260,10 @@ class CfgVehicles
 			WEAP_XX(XDF_launch_MRAWS_black,1);
 		};
 		class TransportItems {};
+		class TransportBackpacks
+		{
+			BACKPACK_XX(B_XDF_Kitbag_Black,3);
+		};
 	};
 	class Box_NATO_WpsSpecial_F;
 	class Box_XDF_WpsSpecial_F: Box_NATO_WpsSpecial_F
@@ -38414,31 +38419,34 @@ class CfgVehicles
 			ITEM_XX(V_XDF_Modular_Carrier_GL_Rig_Black,2);
 			ITEM_XX(V_XDF_Modular_Carrier_Lite_Black,2);
 			ITEM_XX(V_XDF_Tactical_Vest_Black,2);
-			ITEM_XX(B_XDF_Assault_Pack_Black,2);
-			ITEM_XX(B_XDF_Assault_Pack_Black_med,2);
-			ITEM_XX(B_XDF_Bergen,2);
-			ITEM_XX(B_XDF_CarryAll_Black,2);
-			ITEM_XX(B_XDF_CarryAll_Black_med,2);
-			ITEM_XX(B_XDF_CUR,2);
-			ITEM_XX(B_XDF_Sentinel_Backpack,2);
-			ITEM_XX(B_XDF_Field_Pack_Black,2);
-			ITEM_XX(B_XDF_Field_Pack_Black_med,2);
-			ITEM_XX(B_XDF_Kitbag_Black,2);
-			ITEM_XX(B_XDF_Kitbag_Black_med,2);
-			ITEM_XX(B_XDF_LegStrapBag_Black,2);
-			ITEM_XX(B_XDF_Messenger_Bag,2);
-			ITEM_XX(B_XDF_Messenger_Bag_med,2);
-			ITEM_XX(B_XDF_Patrol_Backpack,2);
-			ITEM_XX(B_XDF_Patrol_Backpack_med,2);
-			ITEM_XX(B_XDF_RadioBag_Black,2);
-			ITEM_XX(B_XDF_TacticalPack_Black,2);
-			ITEM_XX(B_XDF_TacticalPack_Black_med,2);
-			ITEM_XX(B_XDF_Travel_Pack,2);
-			ITEM_XX(B_XDF_Travel_Pack_med,2);
-			ITEM_XX(B_XDF_UAV_01_backpack_F,2);
-			ITEM_XX(B_XDF_Viper_Harness_Black,2);
-			ITEM_XX(B_XDF_Viper_Harness_Black_med,2);
-			ITEM_XX(B_XDF_Viper_Light_Harness_Black,2);
+		};
+		class TransportBackpacks
+		{
+			BACKPACK_XX(B_XDF_Assault_Pack_Black,2);
+			BACKPACK_XX(B_XDF_Assault_Pack_Black_med,2);
+			BACKPACK_XX(B_XDF_Bergen,2);
+			BACKPACK_XX(B_XDF_CarryAll_Black,2);
+			BACKPACK_XX(B_XDF_CarryAll_Black_med,2);
+			BACKPACK_XX(B_XDF_CUR,2);
+			BACKPACK_XX(B_XDF_Sentinel_Backpack,2);
+			BACKPACK_XX(B_XDF_Field_Pack_Black,2);
+			BACKPACK_XX(B_XDF_Field_Pack_Black_med,2);
+			BACKPACK_XX(B_XDF_Kitbag_Black,2);
+			BACKPACK_XX(B_XDF_Kitbag_Black_med,2);
+			BACKPACK_XX(B_XDF_LegStrapBag_Black,2);
+			BACKPACK_XX(B_XDF_Messenger_Bag,2);
+			BACKPACK_XX(B_XDF_Messenger_Bag_med,2);
+			BACKPACK_XX(B_XDF_Patrol_Backpack,2);
+			BACKPACK_XX(B_XDF_Patrol_Backpack_med,2);
+			BACKPACK_XX(B_XDF_RadioBag_Black,2);
+			BACKPACK_XX(B_XDF_TacticalPack_Black,2);
+			BACKPACK_XX(B_XDF_TacticalPack_Black_med,2);
+			BACKPACK_XX(B_XDF_Travel_Pack,2);
+			BACKPACK_XX(B_XDF_Travel_Pack_med,2);
+			BACKPACK_XX(B_XDF_UAV_01_backpack_F,2);
+			BACKPACK_XX(B_XDF_Viper_Harness_Black,2);
+			BACKPACK_XX(B_XDF_Viper_Harness_Black_med,2);
+			BACKPACK_XX(B_XDF_Viper_Light_Harness_Black,2);
 		};
 	};
 	class Box_NATO_AmmoVeh_F;
