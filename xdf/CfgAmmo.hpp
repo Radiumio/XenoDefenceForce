@@ -624,16 +624,16 @@ class CfgAmmo
 		timeToLive=8;
 		class CamShakeFire
 		{
-			power = 1;
+			power = 3.5;
 			duration = 2.5;
-			frequency = 10;
-			distance = 5;
+			frequency = 20;
+			distance = 7;
 		};
 		class CamShakePlayerFire
 		{
-			power = 1.5;
+			power = 2;
 			duration = 6;
-			frequency = 10;
+			frequency = 20;
 		};
 	};
 	class B_93x64_Ball;
