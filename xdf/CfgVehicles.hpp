@@ -38056,15 +38056,61 @@ class CfgVehicles
 		};
 		class TransportMagazines 
 		{
-
+			MAG_XX(30Rnd_65x39_caseless_msbs_mag_blue_tracer,20);
+			MAG_XX(30Rnd_65x39_caseless_black_mag_blue_tracer,20);
+			MAG_XX(11Rnd_45ACP_Mag_blue_tracer,30);
+			MAG_XX(100Rnd_65x39_caseless_mag_blue_tracer,10);
+			MAG_XX(20Rnd_762x51_Mag_blue_tracer,15);
+			MAG_XX(1Rnd_HE_Grenade_shell,20);
+			MAG_XX(3Rnd_HE_Grenade_shell,8);
+			MAG_XX(1Rnd_SmokeGreen_Grenade_shell,4);
+			MAG_XX(1Rnd_SmokeRed_Grenade_shell,4);
+			MAG_XX(HandGrenade,12);
+			MAG_XX(SmokeShell,15);
+			MAG_XX(SmokeShellOrange,6);
+			MAG_XX(SmokeShellRed,6);
+			MAG_XX(SmokeShellGreen,6);
+			MAG_XX(B_IR_Grenade,6);
+			MAG_XX(Laserbatteries,5);
+			MAG_XX(MRAAWS_HEAT_XDF,4);
+			MAG_XX(MRAAWS_HE_NUKE_XDF,2);
+			MAG_XX(Titan_AA_XDF,6);
+			MAG_XX(Titan_AT_XDF,6);
 		};
 		class TransportWeapons 
 		{
-
+			WEAP_XX(arifle_MSBS65_XDF_black,6);
+			WEAP_XX(arifle_MX_XDF,6);
+			WEAP_XX(arifle_MXM_XDF,2);
+			WEAP_XX(arifle_MXSW_XDF,1);
+			WEAP_XX(arifle_SPAR_03_XDF_F,1);
+			WEAP_XX(XDF_hgun_Pistol_heavy_01,10);
+			WEAP_XX(Rangefinder,4);
+			WEAP_XX(Laserdesignator,2);
+			WEAP_XX(XDF_launch_B_Titan_short,1);
+			WEAP_XX(XDF_launch_B_Titan,1);
+			WEAP_XX(XDF_launch_MRAWS_black,2);
 		};
 		class TransportItems 
 		{
-			
+			ITEM_XX(optic_tws,2);
+			ITEM_XX(optic_tws_mg,2);
+			ITEM_XX(optic_Hamr,8);
+			ITEM_XX(optic_Holosight_blk_F,4);
+			ITEM_XX(optic_AMS,4);
+			ITEM_XX(muzzle_snds_65_TI_blk_F,6);
+			ITEM_XX(muzzle_snds_B,6);
+			ITEM_XX(acc_pointer_IR,20);
+			ITEM_XX(Medikit,4);
+			ITEM_XX(Toolkit,4);
+			ITEM_XX(FirstAidKit,20);
+			ITEM_XX(APERSMine_Range_Mag,6);
+			ITEM_XX(NVGogglesB_SSU_blk,10);
+			ITEM_XX(ItemMap,8);
+			ITEM_XX(ItemDatalinkDisplay,4);
+			ITEM_XX(ItemRadio,8);
+			ITEM_XX(ItemCompass,8);
+			ITEM_XX(ItemWatch,8);
 		};
 	};
 	class Box_NATO_Ammo_F;
@@ -38078,7 +38124,16 @@ class CfgVehicles
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
 			"\xdf\retextures\structures\boxes\ammobox_co.paa"
 		};
-		class TransportMagazines {};
+		class TransportMagazines 
+		{
+			MAG_XX(30Rnd_65x39_caseless_msbs_mag_blue_tracer,20);
+			MAG_XX(30Rnd_65x39_caseless_black_mag_blue_tracer,20);
+			MAG_XX(30Rnd_556x45_stanag_blue_tracer,20);
+			MAG_XX(11Rnd_45ACP_Mag_blue_tracer,10);
+			MAG_XX(30Rnd_762x39_AK12_Mag_blue_tracer,15);
+			MAG_XX(16Rnd_9x21_Mag_blue_tracer,5);
+			MAG_XX(20Rnd_762x51_Mag_blue_tracer,10);
+		};
 		class TransportWeapons {};
 		class TransportItems {};
 	};
@@ -38093,8 +38148,27 @@ class CfgVehicles
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
 			"\xdf\retextures\structures\boxes\ammobox_co.paa"
 		};
-		class TransportMagazines {};
-		class TransportWeapons {};
+		class TransportMagazines 
+		{
+			MAG_XX(30Rnd_65x39_caseless_msbs_mag_blue_tracer,15);
+			MAG_XX(30Rnd_65x39_caseless_black_mag_blue_tracer,15);
+			MAG_XX(30Rnd_65x39_caseless_blue_tracer,10);
+			MAG_XX(50Rnd_570x28_SMG_03_blue_tracer,10);
+			MAG_XX(100Rnd_65x39_caseless_mag_blue_tracer,5);
+			MAG_XX(30Rnd_45acp_mag_smg_01_blue_tracer,5);
+		};
+		class TransportWeapons 
+		{
+			WEAP_XX(arifle_MSBS65_XDF_black,4);
+			WEAP_XX(arifle_MX_XDF,2);
+			WEAP_XX(arifle_Katiba_XDF,2);
+			WEAP_XX(arifle_MXC_XDF,1);
+			WEAP_XX(arifle_MXM_XDF,1);
+			WEAP_XX(arifle_MXSW_XDF,1);
+			WEAP_XX(XDF_SMG_01,1);
+			WEAP_XX(XDF_SMG_03C_TR_black,1);
+			WEAP_XX(arifle_MXGL_XDF,1);
+		};
 		class TransportItems {};
 	};
 	class Box_NATO_AmmoOrd_F;
