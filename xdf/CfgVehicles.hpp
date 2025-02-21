@@ -38054,9 +38054,18 @@ class CfgVehicles
 			"\xdf\retextures\structures\boxes\ammobox_co.paa",
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa"
 		};
-		class TransportMagazines {};
-		class TransportWeapons {};
-		class TransportItems {};
+		class TransportMagazines 
+		{
+
+		};
+		class TransportWeapons 
+		{
+
+		};
+		class TransportItems 
+		{
+			
+		};
 	};
 	class Box_NATO_Ammo_F;
 	class Box_XDF_Ammo_F: Box_NATO_Ammo_F

@@ -241,7 +241,18 @@ class CfgPatches
 			"Land_MedicalTent_01_XDF_generic_outer",
 			"Land_ConnectorTent_01_XDF_closed",
 			"Land_ConnectorTent_01_XDF_cross",
-			"Land_ConnectorTent_01_XDF_open"
+			"Land_ConnectorTent_01_XDF_open",
+			"B_CargoNet_XDF_ammo_F",
+			"Box_XDF_Ammo_F",
+			"Box_XDF_Wps_F",
+			"Box_XDF_AmmoOrd_F",
+			"Box_XDF_Grenades_F",
+			"Box_XDF_WpsLaunch_F",
+			"Box_XDF_WpsSpecial_F",
+			"Box_XDF_Support_F",
+			"Box_XDF_Uniforms_F",
+			"Box_XDF_Equip_F",
+			"Box_XDF_AmmoVeh_F"
 		};
 		weapons[] = 
 		{
