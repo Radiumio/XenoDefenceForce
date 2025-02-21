@@ -126,37 +126,12 @@ class CfgAmmo
 		ExplosionEffects="HeavyBombExplosion"
 		explosive=1;
 		fuseDistance=100;
-		soundHit1[]=
-		{
-			"\xdf\sounds\exp\maaws_thermobaric_1",
-			5,
-			1,
-			2200
-		};
-		soundHit2[]=
-		{
-			"\xdf\sounds\exp\maaws_thermobaric_2",
-			5,
-			1,
-			2200
-		};
-		soundHit3[]=
-		{
-			"\xdf\sounds\exp\maaws_thermobaric_3",
-			5,
-			1,
-			2200
-		};
-		multiSoundHit[]=
-		{
-			"soundHit1",
-			0.34,
-			"soundHit2",
-			0.33000001,
-			"soundHit3",
-			0.33000001
-		};
+		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
+		soundHit2[] = {"\xdf\sounds\exp\maaws_thermobaric_2", 5, 1, 2200};
+		soundHit3[] = {"\xdf\sounds\exp\maaws_thermobaric_3", 5, 1, 2200};
+		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33000001, "soundHit3", 0.33000001};
 		effectsMissile="XDF_Thermobaric";
+		SoundSetExplosion[] = {"FAE_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet"};
 	};
 	class M_Vorona_HEAT;
 	class M_Vorona_HEAT_XDF: M_Vorona_HEAT
@@ -191,37 +166,12 @@ class CfgAmmo
 		ExplosionEffects="HeavyBombExplosion"
 		explosive=1;
 		fuseDistance=100;
-		soundHit1[]=
-		{
-			"\xdf\sounds\exp\maaws_thermobaric_1",
-			5,
-			1,
-			2200
-		};
-		soundHit2[]=
-		{
-			"\xdf\sounds\exp\maaws_thermobaric_2",
-			5,
-			1,
-			2200
-		};
-		soundHit3[]=
-		{
-			"\xdf\sounds\exp\maaws_thermobaric_3",
-			5,
-			1,
-			2200
-		};
-		multiSoundHit[]=
-		{
-			"soundHit1",
-			0.34,
-			"soundHit2",
-			0.33000001,
-			"soundHit3",
-			0.33000001
-		};
+		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
+		soundHit2[] = {"\xdf\sounds\exp\maaws_thermobaric_2", 5, 1, 2200};
+		soundHit3[] = {"\xdf\sounds\exp\maaws_thermobaric_3", 5, 1, 2200};
+		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33000001, "soundHit3", 0.33000001};
 		effectsMissile="XDF_Thermobaric";
+		SoundSetExplosion[] = {"FAE_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet"};
 	};
 	class ammo_Penetrator_Base;
 	class ammo_Penetrator_Titan_AT_XDF: ammo_Penetrator_Base
