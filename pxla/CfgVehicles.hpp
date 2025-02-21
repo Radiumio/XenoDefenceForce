@@ -7954,6 +7954,28 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
+
+	// Backpacks //
+	class B_SSU_Kitbag_Black;
+	class B_Kitbag_PXLA: B_SSU_Kitbag_Black
+	{
+		author="Radium";
+		displayName="PXLA Kitbag";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\backpacks\B_XDF_Kitbag_PXLA.paa"
+		};
+	};
+	class B_AssaultPack_blk;
+	class B_AssaultPack_PXLA: B_AssaultPack_blk
+	{
+		author="Radium";
+		displayName="PXLA Assault Pack";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\backpacks\B_XDF_Assault_Pack_PXLA.paa"
+		};
+	};
 	
 	// Hidden Unit Backpacks
 	class B_AssaultPack_PXLA;
