@@ -1,3 +1,7 @@
+#define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; }
+#define WEAP_XX(a,b) class _xx_##a { weapon = a; count = b; }
+#define ITEM_XX(a,b) class _xx_##a { name = a; count = b; }
+
 class Components;
 class SensorTemplatePassiveRadar;
 class SensorTemplateAntiRadiation;
@@ -38036,5 +38040,172 @@ class CfgVehicles
 		{
 			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
+	};
+
+	// Ammoboxes/Containers //
+	class B_CargoNet_01_ammo_F;
+	class B_CargoNet_XDF_ammo_F: B_CargoNet_01_ammo_F
+	{
+		author = "Radium";
+		displayName = "Cargo Net [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_co.paa",
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Ammo_F;
+	class Box_XDF_Ammo_F: Box_NATO_Ammo_F
+	{
+		author = "Radium";
+		displayName = "Basic Ammo [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Wps_F;
+	class Box_XDF_Wps_F: Box_NATO_Wps_F
+	{
+		author = "Radium";
+		displayName = "Basic Weapons [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_AmmoOrd_F;
+	class Box_XDF_AmmoOrd_F: Box_NATO_AmmoOrd_F
+	{
+		author = "Radium";
+		displayName = "Explosives [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Grenades_F;
+	class Box_XDF_Grenades_F: Box_NATO_Grenades_F
+	{
+		author = "Radium";
+		displayName = "Grenades [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_WpsLaunch_F;
+	class Box_XDF_WpsLaunch_F: Box_NATO_WpsLaunch_F
+	{
+		author = "Radium";
+		displayName = "Launchers [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_WpsSpecial_F;
+	class Box_XDF_WpsSpecial_F: Box_NATO_WpsSpecial_F
+	{
+		author = "Radium";
+		displayName = "Special Weapons [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Support_F;
+	class Box_XDF_Support_F: Box_NATO_Support_F
+	{
+		author = "Radium";
+		displayName = "Support [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Uniforms_F;
+	class Box_XDF_Uniforms_F: Box_NATO_Uniforms_F
+	{
+		author = "Radium";
+		displayName = "Uniforms Box [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\uniforms_box_xdf_co.paa",
+			"\xdf\retextures\structures\boxes\equipment_box_xdf_ca.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Equip_F;
+	class Box_XDF_Equip_F: Box_NATO_Equip_F
+	{
+		author = "Radium";
+		displayName = "Equipment Box [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\equipment_box_xdf_co.paa",
+			"\xdf\retextures\structures\boxes\equipment_box_xdf_ca.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_AmmoVeh_F;
+	class Box_XDF_AmmoVeh_F: Box_NATO_AmmoVeh_F
+	{
+		author = "Radium";
+		displayName = "Vehicle Ammo [XDF]";
+		editorCategory="XDF_Supplies";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
 	};
 };

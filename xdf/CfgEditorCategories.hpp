@@ -35,4 +35,8 @@ class CfgEditorCategories
 	{
 		displayName = "Structures (XDF)"
 	};
+	class XDF_Supplies
+	{
+		displayName = "Supplies (XDF)";
+	};
 };
