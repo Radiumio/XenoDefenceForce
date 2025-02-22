@@ -38048,6 +38048,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Cargo Net [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\B_CargoNet_XDF_ammo_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_co.paa",
@@ -38118,6 +38119,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Basic Ammo [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Ammo_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38142,6 +38144,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Basic Weapons [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Wps_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38176,6 +38179,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Explosives [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_AmmoOrd_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38200,6 +38204,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Grenades [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Grenades_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38238,6 +38243,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Launchers [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_WpsLaunch_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38271,6 +38277,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Special Weapons [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_WpsSpecial_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38304,6 +38311,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Support [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Support_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
@@ -38341,6 +38349,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Uniforms Box [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Uniforms_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\uniforms_box_xdf_co.paa",
@@ -38375,6 +38384,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Equipment Box [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Equip_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\equipment_box_xdf_co.paa",
@@ -38455,6 +38465,7 @@ class CfgVehicles
 		author = "Radium";
 		displayName = "Vehicle Ammo [XDF]";
 		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_AmmoVeh_F.jpg";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
