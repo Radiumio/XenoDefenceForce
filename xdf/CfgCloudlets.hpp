@@ -112,26 +112,6 @@ class CfgLights
 			hardLimitEnd=200;
 		};
 	};
-	class XDF_ThermoLight
-	{
-		diffuse[]={0.8,0.2,0.2};
-		color[]={0.8,0.2,0.2};
-		ambient[]={0,0,0};
-		brightness="18 * fireIntensity";
-		size=1;
-		intensity=25000;
-		drawLight=0;
-		blinking=0;
-		class Attenuation
-		{
-			start=0;
-			constant=0;
-			linear=0;
-			quadratic=1;
-			hardLimitStart=100;
-			hardLimitEnd=200;
-		};
-	};
 };
 
 class XDF_Missile3
@@ -164,17 +144,5 @@ class XDF_Missile3
 		interval=1;
 		lifeTime=1;
 		qualityLevel=1;
-	};
-};
-class XDF_Thermobaric
-{
-	class Light1
-	{
-		simulation="light";
-		type="XDF_ThermoLight";
-		position[]={0,0,0};
-		intensity=0.01;
-		interval=1;
-		lifeTime=1;
 	};
 };
