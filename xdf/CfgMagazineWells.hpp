@@ -151,7 +151,16 @@ class CfgMagazineWells
 		XDF_Magazines[]=
 		{
 			"5Rnd_127x108_Mag_blue_tracer",
-			"5Rnd_127x108_APDS_Mag_blue_tracer"
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDSHE_Mag_blue_tracer"
+		};
+	};
+	class GM6Rail_127x108_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"1Rnd_127x108_APDSRG_Mag_blue_tracer",
+			"1Rnd_127x108_APDSHERG_Mag_blue_tracer"
 		};
 	};
 	class Cyrus_93_XDF

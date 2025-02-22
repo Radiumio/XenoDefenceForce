@@ -1,3 +1,8 @@
+#define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; }
+#define WEAP_XX(a,b) class _xx_##a { weapon = a; count = b; }
+#define ITEM_XX(a,b) class _xx_##a { name = a; count = b; }
+#define BACKPACK_XX(a,b) class _xx_##a { backpack = a; count = b; }
+
 class Components;
 class SensorTemplatePassiveRadar;
 class SensorTemplateAntiRadiation;
@@ -30300,7 +30305,6 @@ class CfgVehicles
 	{
 		author="Radium";
 		mapSize=0.60000002;
-		_generalMacro="B_UAV_01_backpack_F";
 		scope=2;
 		scopeCurator=2;
 		displayName="XDF Patrol Backpack";
@@ -30320,7 +30324,6 @@ class CfgVehicles
 	{
 		author="Radium";
 		mapSize=0.60000002;
-		_generalMacro="B_UAV_01_backpack_F";
 		scope=2;
 		scopeCurator=2;
 		displayName="XDF Patrol Backpack (Medical)";
@@ -38036,5 +38039,440 @@ class CfgVehicles
 		{
 			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
+	};
+
+	// Ammoboxes/Containers //
+	class B_CargoNet_01_ammo_F;
+	class B_CargoNet_XDF_ammo_F: B_CargoNet_01_ammo_F
+	{
+		author = "Radium";
+		displayName = "Cargo Net [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\B_CargoNet_XDF_ammo_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_co.paa",
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(30Rnd_65x39_caseless_msbs_mag_blue_tracer,20);
+			MAG_XX(30Rnd_65x39_caseless_black_mag_blue_tracer,20);
+			MAG_XX(11Rnd_45ACP_Mag_blue_tracer,30);
+			MAG_XX(100Rnd_65x39_caseless_mag_blue_tracer,10);
+			MAG_XX(20Rnd_762x51_Mag_blue_tracer,15);
+			MAG_XX(1Rnd_HE_Grenade_shell,20);
+			MAG_XX(3Rnd_HE_Grenade_shell,8);
+			MAG_XX(1Rnd_SmokeGreen_Grenade_shell,4);
+			MAG_XX(1Rnd_SmokeRed_Grenade_shell,4);
+			MAG_XX(HandGrenade,12);
+			MAG_XX(SmokeShell,15);
+			MAG_XX(SmokeShellOrange,6);
+			MAG_XX(SmokeShellRed,6);
+			MAG_XX(SmokeShellGreen,6);
+			MAG_XX(B_IR_Grenade,6);
+			MAG_XX(Laserbatteries,5);
+			MAG_XX(MRAAWS_HEAT_XDF,4);
+			MAG_XX(MRAAWS_HE_NUKE_XDF,2);
+			MAG_XX(Titan_AA_XDF,6);
+			MAG_XX(Titan_AT_XDF,6);
+			MAG_XX(APERSMine_Range_Mag,6);
+		};
+		class TransportWeapons 
+		{
+			WEAP_XX(arifle_MSBS65_XDF_black,6);
+			WEAP_XX(arifle_MX_XDF,6);
+			WEAP_XX(arifle_MXM_XDF,2);
+			WEAP_XX(arifle_MXSW_XDF,1);
+			WEAP_XX(arifle_SPAR_03_XDF_F,1);
+			WEAP_XX(XDF_hgun_Pistol_heavy_01,10);
+			WEAP_XX(Rangefinder,4);
+			WEAP_XX(Laserdesignator,2);
+			WEAP_XX(XDF_launch_B_Titan_short,1);
+			WEAP_XX(XDF_launch_B_Titan,1);
+			WEAP_XX(XDF_launch_MRAWS_black,2);
+		};
+		class TransportItems 
+		{
+			ITEM_XX(optic_tws,2);
+			ITEM_XX(optic_tws_mg,2);
+			ITEM_XX(optic_Hamr,8);
+			ITEM_XX(optic_Holosight_blk_F,4);
+			ITEM_XX(optic_AMS,4);
+			ITEM_XX(muzzle_snds_65_TI_blk_F,6);
+			ITEM_XX(muzzle_snds_B,6);
+			ITEM_XX(acc_pointer_IR,20);
+			ITEM_XX(Medikit,4);
+			ITEM_XX(Toolkit,4);
+			ITEM_XX(FirstAidKit,20);
+			ITEM_XX(NVGogglesB_SSU_blk,10);
+			ITEM_XX(ItemMap,8);
+			ITEM_XX(ItemDatalinkDisplay,4);
+			ITEM_XX(ItemRadio,8);
+			ITEM_XX(ItemCompass,8);
+			ITEM_XX(ItemWatch,8);
+		};
+	};
+	class Box_NATO_Ammo_F;
+	class Box_XDF_Ammo_F: Box_NATO_Ammo_F
+	{
+		author = "Radium";
+		displayName = "Basic Ammo [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Ammo_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(30Rnd_65x39_caseless_msbs_mag_blue_tracer,20);
+			MAG_XX(30Rnd_65x39_caseless_black_mag_blue_tracer,20);
+			MAG_XX(30Rnd_556x45_stanag_blue_tracer,20);
+			MAG_XX(11Rnd_45ACP_Mag_blue_tracer,10);
+			MAG_XX(30Rnd_762x39_AK12_Mag_blue_tracer,15);
+			MAG_XX(16Rnd_9x21_Mag_blue_tracer,5);
+			MAG_XX(20Rnd_762x51_Mag_blue_tracer,10);
+		};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Wps_F;
+	class Box_XDF_Wps_F: Box_NATO_Wps_F
+	{
+		author = "Radium";
+		displayName = "Basic Weapons [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Wps_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(30Rnd_65x39_caseless_msbs_mag_blue_tracer,15);
+			MAG_XX(30Rnd_65x39_caseless_black_mag_blue_tracer,15);
+			MAG_XX(30Rnd_65x39_caseless_blue_tracer,10);
+			MAG_XX(50Rnd_570x28_SMG_03_blue_tracer,10);
+			MAG_XX(100Rnd_65x39_caseless_mag_blue_tracer,5);
+			MAG_XX(30Rnd_45acp_mag_smg_01_blue_tracer,5);
+		};
+		class TransportWeapons 
+		{
+			WEAP_XX(arifle_MSBS65_XDF_black,4);
+			WEAP_XX(arifle_MX_XDF,2);
+			WEAP_XX(arifle_Katiba_XDF,2);
+			WEAP_XX(arifle_MXC_XDF,1);
+			WEAP_XX(arifle_MXM_XDF,1);
+			WEAP_XX(arifle_MXSW_XDF,1);
+			WEAP_XX(XDF_SMG_01,1);
+			WEAP_XX(XDF_SMG_03C_TR_black,1);
+			WEAP_XX(arifle_MXGL_XDF,1);
+		};
+		class TransportItems {};
+	};
+	class Box_NATO_AmmoOrd_F;
+	class Box_XDF_AmmoOrd_F: Box_NATO_AmmoOrd_F
+	{
+		author = "Radium";
+		displayName = "Explosives [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_AmmoOrd_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(DemoCharge_Remote_Mag,8);
+			MAG_XX(ATMine_Range_Mag,4);
+			MAG_XX(SatchelCharge_Remote_Mag,6);
+			MAG_XX(ClaymoreDirectionalMine_Remote_Mag,6);
+			MAG_XX(SLAMDirectionalMine_Wire_Mag,6);
+			MAG_XX(APERSTripMine_Wire_Mag,4);
+			MAG_XX(APERSMine_Range_Mag,4);
+		};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_Grenades_F;
+	class Box_XDF_Grenades_F: Box_NATO_Grenades_F
+	{
+		author = "Radium";
+		displayName = "Grenades [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Grenades_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(1Rnd_HE_Grenade_shell,3);
+			MAG_XX(3Rnd_HE_Grenade_shell,3);
+			MAG_XX(1Rnd_Smoke_Grenade_shell,2);
+			MAG_XX(1Rnd_SmokeGreen_Grenade_shell,2);
+			MAG_XX(1Rnd_SmokeRed_Grenade_shell,2);
+			MAG_XX(1Rnd_SmokeYellow_Grenade_shell,2);
+			MAG_XX(1Rnd_SmokePurple_Grenade_shell,2);
+			MAG_XX(1Rnd_SmokeBlue_Grenade_shell,2);
+			MAG_XX(1Rnd_SmokeOrange_Grenade_shell,2);
+			MAG_XX(HandGrenade,12);
+			MAG_XX(MiniGrenade,12);
+			MAG_XX(SmokeShell,2);
+			MAG_XX(SmokeShellRed,2);
+			MAG_XX(SmokeShellGreen,2);
+			MAG_XX(SmokeShellYellow,2);
+			MAG_XX(SmokeShellPurple,2);
+			MAG_XX(SmokeShellBlue,2);
+			MAG_XX(SmokeShellOrange,2);
+			MAG_XX(UGL_FlareWhite_F,2);
+			MAG_XX(UGL_FlareGreen_F,2);
+			MAG_XX(B_IR_Grenade,8);
+		};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+	class Box_NATO_WpsLaunch_F;
+	class Box_XDF_WpsLaunch_F: Box_NATO_WpsLaunch_F
+	{
+		author = "Radium";
+		displayName = "Launchers [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_WpsLaunch_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(Titan_AA_XDF,3);
+			MAG_XX(Titan_AT_XDF,3);
+			MAG_XX(Titan_AP,3);
+			MAG_XX(NLAW_F,3);
+			MAG_XX(MRAAWS_HEAT_XDF,3);
+			MAG_XX(MRAAWS_HE_NUKE_XDF,3);
+		};
+		class TransportWeapons 
+		{
+			WEAP_XX(XDF_launch_B_Titan,1);
+			WEAP_XX(XDF_launch_B_Titan_short,1);
+			WEAP_XX(launch_NLAW_F,1);
+			WEAP_XX(XDF_launch_MRAWS_black,1);
+		};
+		class TransportItems {};
+		class TransportBackpacks
+		{
+			BACKPACK_XX(B_XDF_Kitbag_Black,3);
+		};
+	};
+	class Box_NATO_WpsSpecial_F;
+	class Box_XDF_WpsSpecial_F: Box_NATO_WpsSpecial_F
+	{
+		author = "Radium";
+		displayName = "Special Weapons [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_WpsSpecial_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(1Rnd_127x108_APDSRG_Mag_blue_tracer,30);
+			MAG_XX(1Rnd_127x108_APDSHERG_Mag_blue_tracer,20);
+			MAG_XX(5Rnd_127x108_APDS_Mag_blue_tracer,30);
+			MAG_XX(5Rnd_127x108_APDSHE_Mag_blue_tracer,30);
+			MAG_XX(10Rnd_338_Mag_blue_tracer,15);
+			MAG_XX(7Rnd_408_Mag_blue_tracer,20);
+		};
+		class TransportWeapons 
+		{
+			WEAP_XX(XDF_srifle_GM6_railgun,1);
+			WEAP_XX(XDF_srifle_GM6_F,2);
+			WEAP_XX(XDF_srifle_DMR_02,1);
+			WEAP_XX(XDF_srifle_LRR,1);
+		};
+		class TransportItems 
+		{
+			ITEM_XX(optic_Nightstalker,3);
+			ITEM_XX(optic_AMS,2);
+		};
+	};
+	class Box_NATO_Support_F;
+	class Box_XDF_Support_F: Box_NATO_Support_F
+	{
+		author = "Radium";
+		displayName = "Support [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Support_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines 
+		{
+			MAG_XX(Laserbatteries,5);
+		};
+		class TransportWeapons {};
+		class TransportItems 
+		{
+			ITEM_XX(FirstAidKit,10);
+			ITEM_XX(Medikit,1);
+			ITEM_XX(ToolKit,1);
+			ITEM_XX(MineDetector,1);
+			ITEM_XX(ItemDatalinkDisplay,5);
+			ITEM_XX(acc_flashlight,5);
+			ITEM_XX(acc_pointer_IR,5);
+			ITEM_XX(muzzle_snds_acp,5);
+			ITEM_XX(muzzle_snds_L,5);
+			ITEM_XX(muzzle_snds_H,5);
+			ITEM_XX(muzzle_snds_b,5);
+			ITEM_XX(muzzle_snds_338_black,5);
+			ITEM_XX(Binocular,5);
+			ITEM_XX(Rangefinder,5);
+			ITEM_XX(Laserdesignator,5);
+			ITEM_XX(bipod_01_F_blk,6);
+			ITEM_XX(NVGogglesB_SSU_blk,10);
+		};
+	};
+	class Box_NATO_Uniforms_F;
+	class Box_XDF_Uniforms_F: Box_NATO_Uniforms_F
+	{
+		author = "Radium";
+		displayName = "Uniforms Box [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Uniforms_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\uniforms_box_xdf_co.paa",
+			"\xdf\retextures\structures\boxes\equipment_box_xdf_ca.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems 
+		{
+			ITEM_XX(U_XDF_CBRN_Suit,4);
+			ITEM_XX(U_XDF_Coveralls_Black,4);
+			ITEM_XX(U_XDF_Jet_Pilot_Suit,4);
+			ITEM_XX(U_XDF_Female_SP_Suit,4);
+			ITEM_XX(U_XDF_Female_Uniform_Black,4);
+			ITEM_XX(U_XDF_Female_Uniform_Black_Bra,4);
+			ITEM_XX(U_XDF_Female_Uniform_Black_Rolled,4);
+			ITEM_XX(U_XDF_Female_Survival_Suit,4);
+			ITEM_XX(U_XDF_Female_Wetsuit,4);
+			ITEM_XX(U_XDF_SP_Suit,4);
+			ITEM_XX(U_XDF_Uniform_Black,4);
+			ITEM_XX(U_XDF_Uniform_Ghillie_Black,4);
+			ITEM_XX(U_XDF_Uniform_Rolled_Black,4);
+			ITEM_XX(U_XDF_Uniform_Sleeved_Black,4);
+			ITEM_XX(U_XDF_Uniform_Tee_Black,4);
+			ITEM_XX(U_XDF_Survival_Suit,4);
+			ITEM_XX(U_XDF_Wetsuit,4);
+		};
+	};
+	class Box_NATO_Equip_F;
+	class Box_XDF_Equip_F: Box_NATO_Equip_F
+	{
+		author = "Radium";
+		displayName = "Equipment Box [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_Equip_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\equipment_box_xdf_co.paa",
+			"\xdf\retextures\structures\boxes\equipment_box_xdf_ca.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems 
+		{
+			ITEM_XX(H_XDF_Advanced_Modular_Helmet_HS_Black,2);
+			ITEM_XX(H_XDF_Advanced_Modular_Helmet_Chops_Black,2);
+			ITEM_XX(H_XDF_Advanced_Modular_Helmet_Ear_Black,2);
+			ITEM_XX(H_XDF_Aggressor,2);
+			ITEM_XX(H_XDF_Aggressor_cover,2);
+			ITEM_XX(H_XDF_Beret,2);
+			ITEM_XX(H_XDF_Beret_Wolf,2);
+			ITEM_XX(H_XDF_Boonie_HS_Black,2);
+			ITEM_XX(H_XDF_Cap_HS_Black,2);
+			ITEM_XX(H_XDF_Helmet_Crew_Black,2);
+			ITEM_XX(H_XDF_Jet_Pilot_Helmet,2);
+			ITEM_XX(H_XDF_Helmet_Heli_Crew_Black,2);
+			ITEM_XX(H_XDF_Helmet_Heli_Black,2);
+			ITEM_XX(H_XDF_Combat_Helmet_Black,2);
+			ITEM_XX(H_XDF_Camo_Combat_Helmet_Black,2);
+			ITEM_XX(H_XDF_Enhanced_Combat_Helmet_Black,2);
+			ITEM_XX(H_XDF_Light_Combat_Helmet_Black,2);
+			ITEM_XX(H_XDF_Mil_Cap,2);
+			ITEM_XX(H_XDF_Mil_Cap_Wolf,2);
+			ITEM_XX(H_XDF_Stealth_Combat_Helmet_Black_b,2);
+			ITEM_XX(H_XDF_Stealth_Combat_Helmet_Black,2);
+			ITEM_XX(H_XDF_Stealth_Combat_Helmet_NM_Black,2);
+			ITEM_XX(H_XDF_Stealth_Combat_Helmet_NM_Black_b,2);
+			ITEM_XX(H_XDF_Special_Purpose_Helmet_Black,2);
+			ITEM_XX(V_XDF_Carrier_GL_Rig_Black,2);
+			ITEM_XX(V_XDF_Carrier_Lite_Black,2);
+			ITEM_XX(V_XDF_Carrier_Rig_Black,2);
+			ITEM_XX(V_XDF_Carrier_Special_Rig_Black,2);
+			ITEM_XX(V_XDF_Rebreather,2);
+			ITEM_XX(V_XDF_Rebreather_Mask,2);
+			ITEM_XX(V_XDF_SmershVest_01_F,2);
+			ITEM_XX(V_XDF_SmershVest_01_radio_F,2);
+			ITEM_XX(V_XDF_Modular_Carrier_GL_Rig_Black,2);
+			ITEM_XX(V_XDF_Modular_Carrier_Lite_Black,2);
+			ITEM_XX(V_XDF_Tactical_Vest_Black,2);
+		};
+		class TransportBackpacks
+		{
+			BACKPACK_XX(B_XDF_Assault_Pack_Black,2);
+			BACKPACK_XX(B_XDF_Assault_Pack_Black_med,2);
+			BACKPACK_XX(B_XDF_Bergen,2);
+			BACKPACK_XX(B_XDF_CarryAll_Black,2);
+			BACKPACK_XX(B_XDF_CarryAll_Black_med,2);
+			BACKPACK_XX(B_XDF_CUR,2);
+			BACKPACK_XX(B_XDF_Sentinel_Backpack,2);
+			BACKPACK_XX(B_XDF_Field_Pack_Black,2);
+			BACKPACK_XX(B_XDF_Field_Pack_Black_med,2);
+			BACKPACK_XX(B_XDF_Kitbag_Black,2);
+			BACKPACK_XX(B_XDF_Kitbag_Black_med,2);
+			BACKPACK_XX(B_XDF_LegStrapBag_Black,2);
+			BACKPACK_XX(B_XDF_Messenger_Bag,2);
+			BACKPACK_XX(B_XDF_Messenger_Bag_med,2);
+			BACKPACK_XX(B_XDF_Patrol_Backpack,2);
+			BACKPACK_XX(B_XDF_Patrol_Backpack_med,2);
+			BACKPACK_XX(B_XDF_RadioBag_Black,2);
+			BACKPACK_XX(B_XDF_TacticalPack_Black,2);
+			BACKPACK_XX(B_XDF_TacticalPack_Black_med,2);
+			BACKPACK_XX(B_XDF_Travel_Pack,2);
+			BACKPACK_XX(B_XDF_Travel_Pack_med,2);
+			BACKPACK_XX(B_XDF_UAV_01_backpack_F,2);
+			BACKPACK_XX(B_XDF_Viper_Harness_Black,2);
+			BACKPACK_XX(B_XDF_Viper_Harness_Black_med,2);
+			BACKPACK_XX(B_XDF_Viper_Light_Harness_Black,2);
+		};
+	};
+	class Box_NATO_AmmoVeh_F;
+	class Box_XDF_AmmoVeh_F: Box_NATO_AmmoVeh_F
+	{
+		author = "Radium";
+		displayName = "Vehicle Ammo [XDF]";
+		editorCategory="XDF_Supplies";
+		editorPreview="\xdf\previews\structures\Box_XDF_AmmoVeh_F.jpg";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\structures\boxes\ammobox_signs_ca.paa",
+			"\xdf\retextures\structures\boxes\ammobox_co.paa"
+		};
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
 	};
 };

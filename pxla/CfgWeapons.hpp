@@ -45,6 +45,51 @@ class cfgWeapons
 			"\pxla\retextures\pxla_uniform\vests\V_PXLA_Defector_Carrier_Rig_Black.paa"
 		};
 	};
+	class H_PASGT_basic_black_F;
+	class H_PASGT_pxla_red_F: H_PASGT_basic_black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Basic Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\helmets\h_pasgt_black_co.paa"
+		};
+	};
+	class V_Chestrig_blk;
+	class V_Chestrig_pxla: V_Chestrig_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Chest Rig";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\vests\equip_chestrig_pxla_co.paa",
+			"\pxla\retextures\pxla_uniform\vests\vests_pxla_co.paa"
+		};
+	};
+	class V_TacVest_blk;
+	class V_TacVest_pxla: V_TacVest_blk
+	{
+		author="Radium";
+		displayName="PXLA Tactical Vest";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\vests\tacticalvest_pxla_co.paa"
+		};
+	};
+	class H_Booniehat_khk;
+	class H_Booniehat_pxla: H_Booniehat_khk
+	{
+		author="Radium";
+		displayName="PXLA Boonie Hat";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\helmets\booniehat_pxla_co.paa"
+		};
+	};
+
+	// Loadout Weapons //
 	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_blk_F_PXLA: arifle_SPAR_01_blk_F
 	{

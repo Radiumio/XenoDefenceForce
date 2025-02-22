@@ -6933,7 +6933,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_Chestrig_blk",
+			"V_Chestrig_pxla",
 			"H_SSU_Cap_HS_Black",
 			"ItemMap",
 			"ItemRadio",
@@ -6943,7 +6943,7 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_blk",
+			"V_Chestrig_pxla",
 			"H_SSU_Cap_HS_Black",
 			"ItemMap",
 			"ItemRadio",
@@ -7018,8 +7018,8 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_Chestrig_blk",
-			"H_PASGT_basic_black_F",
+			"V_Chestrig_pxla",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7028,8 +7028,8 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_blk",
-			"H_PASGT_basic_black_F",
+			"V_Chestrig_pxla",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7080,7 +7080,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack="B_SSU_Kitbag_Black_MAAWS";
+		backpack="B_Kitbag_PXLA_MAAWS";
 		items[]=
 		{
 			"FirstAidKit",
@@ -7107,8 +7107,8 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_Chestrig_blk",
-			"H_PASGT_basic_black_F",
+			"V_Chestrig_pxla",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7117,8 +7117,8 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_blk",
-			"H_PASGT_basic_black_F",
+			"V_Chestrig_pxla",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7169,7 +7169,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack="B_SSU_Kitbag_Black_TitanAA";
+		backpack="B_Kitbag_PXLA_TitanAA";
 		items[]=
 		{
 			"FirstAidKit",
@@ -7195,7 +7195,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_Chestrig_blk",
+			"V_Chestrig_pxla",
 			"H_Tank_eaf_F",
 			"ItemMap",
 			"ItemRadio",
@@ -7205,7 +7205,7 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_blk",
+			"V_Chestrig_pxla",
 			"H_Tank_eaf_F",
 			"ItemMap",
 			"ItemRadio",
@@ -7280,7 +7280,7 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_XLA_Defector_Carrier_Rig_Red",
-			"H_PASGT_basic_black_F",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7290,7 +7290,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_XLA_Defector_Carrier_Rig_Red",
-			"H_PASGT_basic_black_F",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7373,8 +7373,8 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_SSU_Tactical_Chest_Rig_Black",
-			"H_SSU_Boonie_HS_Black",
+			"V_TacVest_pxla",
+			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7383,8 +7383,8 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_SSU_Tactical_Chest_Rig_Black",
-			"H_SSU_Boonie_HS_Black",
+			"V_TacVest_pxla",
+			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7427,7 +7427,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_AssaultPack_blk";
+		backpack = "B_AssaultPack_PXLA";
 		items[]=
 		{
 			"FirstAidKit",
@@ -7453,7 +7453,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_SSU_Tactical_Chest_Rig_Black",
+			"V_TacVest_pxla",
 			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
 			"ItemMap",
 			"ItemRadio",
@@ -7463,7 +7463,7 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_SSU_Tactical_Chest_Rig_Black",
+			"V_TacVest_pxla",
 			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
 			"ItemMap",
 			"ItemRadio",
@@ -7532,8 +7532,8 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_SSU_Tactical_Chest_Rig_Black",
-			"H_Beret_blk",
+			"V_TacVest_pxla",
+			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7542,8 +7542,8 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_SSU_Tactical_Chest_Rig_Black",
-			"H_Beret_blk",
+			"V_TacVest_pxla",
+			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7619,8 +7619,8 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
-			"V_SSU_Tactical_Vest_Black",
-			"H_PASGT_basic_black_F",
+			"V_TacVest_pxla",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7629,8 +7629,8 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_SSU_Tactical_Vest_Black",
-			"H_PASGT_basic_black_F",
+			"V_TacVest_pxla",
+			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -7680,7 +7680,7 @@ class CfgVehicles
 			"SmokeShell",
 			"SmokeShell"
 		};
-		backpack = "B_AssaultPack_blk_medic";
+		backpack = "B_AssaultPack_PXLA_medic";
 		items[]=
 		{
 			"FirstAidKit",
@@ -7954,10 +7954,32 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
+
+	// Backpacks //
+	class B_SSU_Kitbag_Black;
+	class B_Kitbag_PXLA: B_SSU_Kitbag_Black
+	{
+		author="Radium";
+		displayName="PXLA Kitbag";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\backpacks\B_XDF_Kitbag_PXLA.paa"
+		};
+	};
+	class B_AssaultPack_blk;
+	class B_AssaultPack_PXLA: B_AssaultPack_blk
+	{
+		author="Radium";
+		displayName="PXLA Assault Pack";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\backpacks\B_XDF_Assault_Pack_PXLA.paa"
+		};
+	};
 	
 	// Hidden Unit Backpacks
-	class B_AssaultPack_blk;
-	class B_AssaultPack_blk_medic: B_AssaultPack_blk
+	class B_AssaultPack_PXLA;
+	class B_AssaultPack_PXLA_medic: B_AssaultPack_PXLA
 	{
 		scope = 1;
 		class TransportMagazines {};
@@ -7967,8 +7989,8 @@ class CfgVehicles
 			ITEM_XX(FirstAidKit, 10);
 		};
 	};
-	class B_SSU_Kitbag_Black;
-	class B_SSU_Kitbag_Black_MAAWS : B_SSU_Kitbag_Black
+	class B_Kitbag_PXLA;
+	class B_Kitbag_PXLA_MAAWS : B_Kitbag_PXLA
 	{
 		scope = 1;
 		class TransportMagazines
@@ -7978,7 +8000,7 @@ class CfgVehicles
 		};
 		class TransportItems {};
 	};
-	class B_SSU_Kitbag_Black_TitanAA : B_SSU_Kitbag_Black
+	class B_Kitbag_PXLA_TitanAA : B_Kitbag_PXLA
 	{
 		scope = 1;
 		class TransportMagazines
