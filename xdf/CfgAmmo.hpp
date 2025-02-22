@@ -123,7 +123,7 @@ class CfgAmmo
 		indirectHit=800;
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
-		ExplosionEffects="HeavyBombExplosion";
+		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
 		fuseDistance=100;
 		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
@@ -162,7 +162,7 @@ class CfgAmmo
 		indirectHit=800;
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
-		ExplosionEffects="HeavyBombExplosion";
+		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
 		fuseDistance=100;
 		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
