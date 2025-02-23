@@ -38112,6 +38112,10 @@ class CfgVehicles
 			ITEM_XX(ItemCompass,8);
 			ITEM_XX(ItemWatch,8);
 		};
+		class TransportBackpacks
+		{
+			BACKPACK_XX(B_XDF_Kitbag_Black,5);
+		};
 	};
 	class Box_NATO_Ammo_F;
 	class Box_XDF_Ammo_F: Box_NATO_Ammo_F
@@ -38137,6 +38141,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Wps_F;
 	class Box_XDF_Wps_F: Box_NATO_Wps_F
@@ -38172,6 +38177,7 @@ class CfgVehicles
 			WEAP_XX(arifle_MXGL_XDF,1);
 		};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_AmmoOrd_F;
 	class Box_XDF_AmmoOrd_F: Box_NATO_AmmoOrd_F
@@ -38197,6 +38203,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Grenades_F;
 	class Box_XDF_Grenades_F: Box_NATO_Grenades_F
@@ -38236,6 +38243,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_WpsLaunch_F;
 	class Box_XDF_WpsLaunch_F: Box_NATO_WpsLaunch_F
@@ -38304,6 +38312,7 @@ class CfgVehicles
 			ITEM_XX(optic_Nightstalker,3);
 			ITEM_XX(optic_AMS,2);
 		};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Support_F;
 	class Box_XDF_Support_F: Box_NATO_Support_F
@@ -38342,6 +38351,11 @@ class CfgVehicles
 			ITEM_XX(bipod_01_F_blk,6);
 			ITEM_XX(NVGogglesB_SSU_blk,10);
 		};
+		class TransportBackpacks 
+		{
+			BACKPACK_XX(B_XDF_CarryAll_Black,2);
+			BACKPACK_XX(B_XDF_RadioBag_Black,2);
+		};
 	};
 	class Box_NATO_Uniforms_F;
 	class Box_XDF_Uniforms_F: Box_NATO_Uniforms_F
@@ -38377,6 +38391,7 @@ class CfgVehicles
 			ITEM_XX(U_XDF_Survival_Suit,4);
 			ITEM_XX(U_XDF_Wetsuit,4);
 		};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Equip_F;
 	class Box_XDF_Equip_F: Box_NATO_Equip_F
@@ -38474,5 +38489,6 @@ class CfgVehicles
 		class TransportMagazines {};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 };
