@@ -618,12 +618,52 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
+		displayName=".45 ACP mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACP_Ball_blue";
+		count=30;
+		tracersEvery=1;
+	};
+	class 30rnd_45acpmax_mag_smg_01_blue_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP-MAX mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACPMAX_Ball_blue";
+		count=30;
+		tracersEvery=1;
+	};
+	class 30rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_45ACP_Ball_blue";
+		count=30;
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
+	class 25rnd_45acp_mag_smg_01_blue_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
 		displayName=".45 ACP mm 25Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_45ACP_Ball_blue";
 		tracersEvery=1;
 	};
-	class 30rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	class 25rnd_45acpmax_mag_smg_01_blue_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	{
+		author="Radium";
+		scope=2;
+		displayName=".45 ACP-MAX mm 25Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_45ACPMAX_Ball_blue";
+		tracersEvery=1;
+	};
+	class 25rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
 	{
 		author="Radium";
 		scope=2;
