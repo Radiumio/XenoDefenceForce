@@ -618,7 +618,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName=".45 ACP mm 30Rnd Tracer Mag (AX)";
+		displayName=".45 ACP 30Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_45ACP_Ball_blue";
 		count=30;
@@ -629,7 +629,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName=".45 ACP mm 30Rnd Reload Tracer Mag (AX)";
+		displayName=".45 ACP 30Rnd Reload Tracer Mag (AX)";
 		displaynameshort="AX R-Tracer";
 		ammo="B_45ACP_Ball_blue";
 		count=30;
@@ -637,25 +637,25 @@ class CfgMagazines
 		lastRoundsTracer=4;
 		mass=12;
 	};
-	class 60rnd_45acp_mag_smg_01_blue_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	class 50rnd_45acp_mag_smg_01_blue_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
 	{
 		author="Radium";
 		scope=2;
-		displayName=".45 ACP mm 60Rnd Tracer Mag (AX)";
+		displayName=".45 ACP 50Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_45ACP_Ball_blue";
-		count=60;
+		count=50;
 		tracersEvery=1;
 		mass=32;
 	};
-	class 60rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+	class 50rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
 	{
 		author="Radium";
 		scope=2;
-		displayName=".45 ACP mm 60Rnd Reload Tracer Mag (AX)";
+		displayName=".45 ACP 50Rnd Reload Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_45ACP_Ball_blue";
-		count=60;
+		count=50;
 		tracersEvery=4;
 		lastRoundsTracer=4;
 		mass=32;
