@@ -1946,6 +1946,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF KRISS Vector";
 		baseWeapon="XDF_SMG_01";
+		initSpeed=650;
 		hiddenSelections[]=
 		{
 			"camo1",
