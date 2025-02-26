@@ -30056,6 +30056,64 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
 		};
 	};
+	class I_E_Uniform_01_F;
+	class B_XDF_Temperate_Uniform: I_E_Uniform_01_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Temperate_Uniform";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
+	class I_E_Uniform_01_shortsleeve_F;
+	class B_XDF_Temperate_Uniform_Rolled: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Temperate_Uniform_Rolled";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa"
+		};
+	};
+	class TCGM_F_Soldier3_I;
+	class B_XDF_Female_Temperate_Uniform: TCGM_F_Soldier3_I
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Temperate_Uniform";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+	};
+	class TCGM_F_Soldier3_RollUp_I;
+	class B_XDF_Female_Temperate_Uniform_Rolled: TCGM_F_Soldier3_RollUp_I
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Temperate_Uniform";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+	};
+
 
 	// Backpacks
 	class B_SSU_Viper_Harness_base;

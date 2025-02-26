@@ -438,12 +438,93 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_tanktop_co.paa", 
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_camo_co.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Temperate_Uniform_TT";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_I_E_Uniform_01_F;
+	class U_XDF_Temperate_Uniform: U_I_E_Uniform_01_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Temperate Uniform";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Temperate_Uniform";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_I_E_Uniform_01_shortsleeve_F;
+	class U_XDF_Temperate_Uniform_Rolled: U_I_E_Uniform_01_shortsleeve_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Temperate Uniform (Rolled)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Temperate_Uniform_Rolled";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class TCGM_F_Soldier3;
+	class U_XDF_Female_Temperate_Uniform: TCGM_F_Soldier3
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Temperate Uniform";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Temperate_Uniform";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class TCGM_F_Soldier3_RollUp;
+	class U_XDF_Female_Temperate_Uniform_Rolled: TCGM_F_Soldier3_RollUp
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Temperate Uniform (Rolled)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Temperate_Uniform_Rolled";
 			containerClass="Supply40";
 			mass=40;
 		};
