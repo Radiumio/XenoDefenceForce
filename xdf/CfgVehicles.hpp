@@ -30027,6 +30027,35 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
+	class O_Soldier_F;
+	class B_XDF_Envirosuit_Black: O_Soldier_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Envirosuit_Black";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_tech_co.paa"
+		};
+	};
+	class I_E_Uniform_01_tanktop_F;
+	class B_XDF_Temperate_Uniform_TT: I_E_Uniform_01_tanktop_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Temperate_Uniform_TT";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_tanktop_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
 
 	// Backpacks
 	class B_SSU_Viper_Harness_base;
