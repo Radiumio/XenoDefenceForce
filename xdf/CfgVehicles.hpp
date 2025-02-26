@@ -30113,6 +30113,18 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
 		};
 	};
+	class I_E_Uniform_01_coveralls_F;
+	class B_XDF_Combat_Coveralls_Black: I_E_Uniform_01_coveralls_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Combat_Coveralls_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
 
 
 	// Backpacks
