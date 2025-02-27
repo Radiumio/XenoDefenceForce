@@ -538,7 +538,7 @@ class cfgWeapons
 		displayName="XDF Combat Coveralls";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Combat_Coveralls_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
 		};
@@ -546,6 +546,44 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Combat_Coveralls_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_B_CombatUniform_mcam;
+	class U_XDF_Basic_Uniform_Black: U_B_CombatUniform_mcam
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Basic Uniform";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Basic_Uniform_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_B_CombatUniform_mcam_vest;
+	class U_XDF_Basic_Uniform_Rolled_Black: U_B_CombatUniform_mcam_vest
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Basic Uniform (Rolled)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Basic_Uniform_Rolled_Black";
 			containerClass="Supply40";
 			mass=40;
 		};

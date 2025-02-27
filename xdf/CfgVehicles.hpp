@@ -30125,6 +30125,37 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
 		};
 	};
+	class B_Soldier_F;
+	class B_XDF_Basic_Uniform_Black: B_Soldier_F
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Basic_Uniform_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class B_XDF_Basic_Uniform_Tee_Black: B_Soldier_F
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Basic_Uniform_Tee_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class B_XDF_Basic_Uniform_Rolled_Black: B_Soldier_F
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Basic_Uniform_Rolled_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+	};
 
 
 	// Backpacks
