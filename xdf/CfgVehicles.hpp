@@ -30147,6 +30147,16 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
+	class O_R_Gorka_camo_F;
+	class B_XDF_Gorka_Black: O_R_Gorka_camo_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Gorka_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
+		};
+	};
 
 
 	// Backpacks

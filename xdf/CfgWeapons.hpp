@@ -588,6 +588,25 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_O_R_Gorka_01_camo_F;
+	class U_XDF_Gorka_Black: U_O_R_Gorka_01_camo_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Gorka-T";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Gorka_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 
 	class V_SSU_Tactical_Vest_base;
 	class V_SSU_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
@@ -611,6 +630,11 @@ class cfgWeapons
 	};
 	class V_SSU_Modular_Carrier_GL_Rig_base;
 	class V_SSU_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_base
+	{
+		class ItemInfo;
+	};
+	class V_CarrierRigKBT_01_base_F;
+	class V_CarrierRigKBT_01_Olive_F: V_CarrierRigKBT_01_base_F
 	{
 		class ItemInfo;
 	};
@@ -689,6 +713,22 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Modular Carrier Lite";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_CarrierRigKBT_01_Olive_F;
+	class V_XDF_Modular_Carrier_Vest_Black: V_CarrierRigKBT_01_Olive_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Vest";
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
