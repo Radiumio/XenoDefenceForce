@@ -30128,7 +30128,7 @@ class CfgVehicles
 	class B_Soldier_F;
 	class B_XDF_Basic_Uniform_Black: B_Soldier_F
 	{
-		author="Clasless & Radium";
+		author="Radium";
 		uniformClass="U_XDF_Basic_Uniform_Black";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -30136,19 +30136,10 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
-	class B_XDF_Basic_Uniform_Tee_Black: B_Soldier_F
+	class B_Soldier_SL_F;
+	class B_XDF_Basic_Uniform_Rolled_Black: B_Soldier_SL_F
 	{
-		author="Clasless & Radium";
-		uniformClass="U_XDF_Basic_Uniform_Tee_Black";
-		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
-		hiddenSelectionsTextures[]=
-		{
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
-		};
-	};
-	class B_XDF_Basic_Uniform_Rolled_Black: B_Soldier_F
-	{
-		author="Clasless & Radium";
+		author="Radium";
 		uniformClass="U_XDF_Basic_Uniform_Rolled_Black";
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
 		hiddenSelectionsTextures[]=
