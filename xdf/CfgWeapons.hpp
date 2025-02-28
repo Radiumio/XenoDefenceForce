@@ -2535,6 +2535,7 @@ class cfgWeapons
 		baseWeapon="XDF_srifle_GM6_railgun";
 		recoil="recoil_gm6_railgun";
 		mass=310; // default 253
+		initSpeed=2500;
 		hiddenSelections[]=
 		{
 			"camo"
