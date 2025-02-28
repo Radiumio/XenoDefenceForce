@@ -95,7 +95,9 @@ class CfgMagazineWells
 		XDF_Magazines[]=
 		{
 			"30rnd_45acp_mag_smg_01_blue_tracer",
-			"30rnd_45acp_mag_smg_01_blue_reload_tracer"
+			"30rnd_45acp_mag_smg_01_blue_reload_tracer",
+			"50rnd_45acp_mag_smg_01_blue_tracer",
+			"50rnd_45acp_mag_smg_01_blue_reload_tracer"
 		};
 	};
 	class P90_57_XDF

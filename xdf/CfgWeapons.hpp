@@ -408,6 +408,205 @@ class cfgWeapons
 			mass=32;
 		};
 	};
+	class U_O_CombatUniform_ocamo;
+	class U_XDF_Envirosuit_Black: U_O_CombatUniform_ocamo
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Envirosuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Envirosuit_Black";
+			containerClass="Supply40";
+			mass=80;
+		};
+	};
+	class U_I_E_Uniform_01_tanktop_F;
+	class U_XDF_Temperate_Uniform_TT: U_I_E_Uniform_01_tanktop_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Temperate Uniform (Tank Top)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_tanktop_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Temperate_Uniform_TT";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_I_E_Uniform_01_F;
+	class U_XDF_Temperate_Uniform: U_I_E_Uniform_01_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Temperate Uniform";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Temperate_Uniform";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_I_E_Uniform_01_shortsleeve_F;
+	class U_XDF_Temperate_Uniform_Rolled: U_I_E_Uniform_01_shortsleeve_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Temperate Uniform (Rolled)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Temperate_Uniform_Rolled";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class TCGM_F_Soldier3;
+	class U_XDF_Female_Temperate_Uniform: TCGM_F_Soldier3
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Temperate Uniform";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Temperate_Uniform";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class TCGM_F_Soldier3_RollUp;
+	class U_XDF_Female_Temperate_Uniform_Rolled: TCGM_F_Soldier3_RollUp
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Temperate Uniform (Rolled)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Temperate_Uniform_Rolled";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_I_E_Uniform_01_coveralls_F;
+	class U_XDF_Combat_Coveralls_Black: U_I_E_Uniform_01_coveralls_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Combat Coveralls";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Combat_Coveralls_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_B_CombatUniform_mcam;
+	class U_XDF_Basic_Uniform_Black: U_B_CombatUniform_mcam
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Basic Uniform";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Basic_Uniform_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_B_CombatUniform_mcam_vest;
+	class U_XDF_Basic_Uniform_Rolled_Black: U_B_CombatUniform_mcam_vest
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Basic Uniform (Rolled)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Basic_Uniform_Rolled_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_O_R_Gorka_01_camo_F;
+	class U_XDF_Gorka_Black: U_O_R_Gorka_01_camo_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Gorka-T";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Gorka_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 
 	class V_SSU_Tactical_Vest_base;
 	class V_SSU_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
@@ -431,6 +630,11 @@ class cfgWeapons
 	};
 	class V_SSU_Modular_Carrier_GL_Rig_base;
 	class V_SSU_Modular_Carrier_GL_Rig_Black: V_SSU_Modular_Carrier_GL_Rig_base
+	{
+		class ItemInfo;
+	};
+	class V_CarrierRigKBT_01_base_F;
+	class V_CarrierRigKBT_01_Olive_F: V_CarrierRigKBT_01_base_F
 	{
 		class ItemInfo;
 	};
@@ -509,6 +713,22 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Modular Carrier Lite";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_CarrierRigKBT_01_Olive_F;
+	class V_XDF_Modular_Carrier_Vest_Black: V_CarrierRigKBT_01_Olive_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Vest";
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1946,6 +2166,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF KRISS Vector";
 		baseWeapon="XDF_SMG_01";
+		initSpeed=650;
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -2314,6 +2535,7 @@ class cfgWeapons
 		baseWeapon="XDF_srifle_GM6_railgun";
 		recoil="recoil_gm6_railgun";
 		mass=310; // default 253
+		initSpeed=2500;
 		hiddenSelections[]=
 		{
 			"camo"

@@ -30027,6 +30027,137 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
+	class O_Soldier_F;
+	class B_XDF_Envirosuit_Black: O_Soldier_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Envirosuit_Black";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_tech_co.paa"
+		};
+	};
+	class I_E_Uniform_01_tanktop_F;
+	class B_XDF_Temperate_Uniform_TT: I_E_Uniform_01_tanktop_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Temperate_Uniform_TT";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_tanktop_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
+	class I_E_Uniform_01_F;
+	class B_XDF_Temperate_Uniform: I_E_Uniform_01_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Temperate_Uniform";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
+	class I_E_Uniform_01_shortsleeve_F;
+	class B_XDF_Temperate_Uniform_Rolled: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Temperate_Uniform_Rolled";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa"
+		};
+	};
+	class TCGM_F_Soldier3_I;
+	class B_XDF_Female_Temperate_Uniform: TCGM_F_Soldier3_I
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Temperate_Uniform";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+	};
+	class TCGM_F_Soldier3_RollUp_I;
+	class B_XDF_Female_Temperate_Uniform_Rolled: TCGM_F_Soldier3_RollUp_I
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Temperate_Uniform";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_sweater_co.paa"
+		};
+	};
+	class I_E_Uniform_01_coveralls_F;
+	class B_XDF_Combat_Coveralls_Black: I_E_Uniform_01_coveralls_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Combat_Coveralls_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
+	class B_Soldier_F;
+	class B_XDF_Basic_Uniform_Black: B_Soldier_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Basic_Uniform_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class B_Soldier_SL_F;
+	class B_XDF_Basic_Uniform_Rolled_Black: B_Soldier_SL_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Basic_Uniform_Rolled_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
+		};
+	};
+	class O_R_Gorka_camo_F;
+	class B_XDF_Gorka_Black: O_R_Gorka_camo_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Gorka_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
+		};
+	};
+
 
 	// Backpacks
 	class B_SSU_Viper_Harness_base;
@@ -38112,6 +38243,10 @@ class CfgVehicles
 			ITEM_XX(ItemCompass,8);
 			ITEM_XX(ItemWatch,8);
 		};
+		class TransportBackpacks
+		{
+			BACKPACK_XX(B_XDF_Kitbag_Black,5);
+		};
 	};
 	class Box_NATO_Ammo_F;
 	class Box_XDF_Ammo_F: Box_NATO_Ammo_F
@@ -38137,6 +38272,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Wps_F;
 	class Box_XDF_Wps_F: Box_NATO_Wps_F
@@ -38172,6 +38308,7 @@ class CfgVehicles
 			WEAP_XX(arifle_MXGL_XDF,1);
 		};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_AmmoOrd_F;
 	class Box_XDF_AmmoOrd_F: Box_NATO_AmmoOrd_F
@@ -38197,6 +38334,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Grenades_F;
 	class Box_XDF_Grenades_F: Box_NATO_Grenades_F
@@ -38236,6 +38374,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_WpsLaunch_F;
 	class Box_XDF_WpsLaunch_F: Box_NATO_WpsLaunch_F
@@ -38304,6 +38443,7 @@ class CfgVehicles
 			ITEM_XX(optic_Nightstalker,3);
 			ITEM_XX(optic_AMS,2);
 		};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Support_F;
 	class Box_XDF_Support_F: Box_NATO_Support_F
@@ -38342,6 +38482,11 @@ class CfgVehicles
 			ITEM_XX(bipod_01_F_blk,6);
 			ITEM_XX(NVGogglesB_SSU_blk,10);
 		};
+		class TransportBackpacks 
+		{
+			BACKPACK_XX(B_XDF_CarryAll_Black,2);
+			BACKPACK_XX(B_XDF_RadioBag_Black,2);
+		};
 	};
 	class Box_NATO_Uniforms_F;
 	class Box_XDF_Uniforms_F: Box_NATO_Uniforms_F
@@ -38377,6 +38522,7 @@ class CfgVehicles
 			ITEM_XX(U_XDF_Survival_Suit,4);
 			ITEM_XX(U_XDF_Wetsuit,4);
 		};
+		class TransportBackpacks {};
 	};
 	class Box_NATO_Equip_F;
 	class Box_XDF_Equip_F: Box_NATO_Equip_F
@@ -38474,5 +38620,6 @@ class CfgVehicles
 		class TransportMagazines {};
 		class TransportWeapons {};
 		class TransportItems {};
+		class TransportBackpacks {};
 	};
 };
