@@ -28926,12 +28926,12 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
 		armor = 600; // Default 400
-		maxSpeed = 150; // Default 75
+		//maxSpeed = 150; // Default 75
 		fuelCapacity = 50; // Default ?
 		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
+		//engineMOI = 0.8;
+		//accelAidForceCoef = 5.0;
+		//accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Operative"
@@ -28984,12 +28984,12 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
 		armor = 100; // Default 50
-		maxSpeed = 180; // Default 90
+		//maxSpeed = 180; // Default 90
 		fuelCapacity = 70; // Default ?
 		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
+		//engineMOI = 0.8;
+		//accelAidForceCoef = 5.0;
+		//accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Operative"
@@ -29039,12 +29039,12 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Combat_Diver";
 		armor = 80; // Default 30
-		maxSpeed = 80; // Default 30
+		//maxSpeed = 80; // Default 30
 		fuelCapacity = 240; // Default 120
 		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
+		//engineMOI = 0.8;
+		//accelAidForceCoef = 5.0;
+		//accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Combat_Diver"
