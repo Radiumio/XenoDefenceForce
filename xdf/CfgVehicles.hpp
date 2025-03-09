@@ -39234,6 +39234,96 @@ class CfgVehicles
 			"\xdf\signs\sign_danger.paa"
 		};
 	};
+	class Land_Sign_Mines_F;
+	class XDF_MiniSign_Danger: Land_Sign_Mines_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Danger)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Danger.jpg";
+		_generalMacro="XDF_MiniSign_Danger";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_danger.paa"
+		};
+	};
+	class Land_Sign_MinesTall_English_F;
+	class XDF_MiniSign_Danger_Tall: Land_Sign_MinesTall_English_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Danger - Tall)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Danger_Tall.jpg";
+		_generalMacro="XDF_MiniSign_Danger_Tall";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_danger.paa"
+		};
+	};
+	class XDF_MiniSign_Radioactive: Land_Sign_Mines_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Radioactive)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Radioactive.jpg";
+		_generalMacro="XDF_MiniSign_Radioactive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_radioactive.paa"
+		};
+	};
+	class XDF_MiniSign_Radioactive_Tall: Land_Sign_MinesTall_English_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Radioactive - Tall)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Radioactive_Tall.jpg";
+		_generalMacro="XDF_MiniSign_Radioactive_Tall";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_radioactive.paa"
+		};
+	};
 
 
 	// Ammoboxes/Containers //
