@@ -38701,6 +38701,28 @@ class CfgVehicles
 			"\xdf\signs\sign_danger_large.paa"
 		};
 	};
+	class XDF_Sign_Deployment_Area: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Deployment Area - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Deployment_Area.jpg";
+		_generalMacro="XDF_Sign_Deployment_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_deployment_area_large.paa"
+		};
+	};
 
 
 
@@ -39232,6 +39254,28 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_danger.paa"
+		};
+	};
+	class XDF_SignS_Deployment_Area: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Deployment Area - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Deployment_Area.jpg";
+		_generalMacro="XDF_SignS_Deployment_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_deployment_area.paa"
 		};
 	};
 	class Land_Sign_Mines_F;

@@ -252,6 +252,8 @@ class CfgPatches
 			"XDF_SignS_Command", 
 			"XDF_Sign_Danger", 
 			"XDF_SignS_Danger", 
+			"XDF_Sign_Deployment_Area",
+			"XDF_SignS_Deployment_Area",
 			"XDF_Sign_Elite_Wolf", 
 			"XDF_SignS_Elite_Wolf", 
 			"XDF_Sign_Entrance", 
