@@ -38657,6 +38657,50 @@ class CfgVehicles
 			"\xdf\signs\sign_command_large.paa"
 		};
 	};
+	class XDF_Sign_Radioactive: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Radioactive - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Radioactive.jpg";
+		_generalMacro="XDF_Sign_Radioactive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_radioactive_large.paa"
+		};
+	};
+	class XDF_Sign_Danger: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Danger - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Danger.jpg";
+		_generalMacro="XDF_Sign_Danger";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_danger_large.paa"
+		};
+	};
 
 
 
@@ -39144,6 +39188,50 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_command.paa"
+		};
+	};
+	class XDF_SignS_Radioactive: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Radioactive - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Radioactive.jpg";
+		_generalMacro="XDF_SignS_Radioactive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_radioactive.paa"
+		};
+	};
+	class XDF_SignS_Danger: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Danger - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Danger.jpg";
+		_generalMacro="XDF_SignS_Danger";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_danger.paa"
 		};
 	};
 
