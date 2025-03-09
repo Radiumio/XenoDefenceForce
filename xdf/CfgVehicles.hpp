@@ -38175,7 +38175,7 @@ class CfgVehicles
 	class Land_Sign_WarningNoWeapon_F;
 	class XDF_Sign_Armoury: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38197,7 +38197,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Medical: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38219,7 +38219,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Warning: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38241,7 +38241,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_RA_Warning: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38263,7 +38263,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Entrance: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38285,7 +38285,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Exit: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38307,7 +38307,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Evac_Zone: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38329,7 +38329,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Firing_Range: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38351,7 +38351,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Garage: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38373,7 +38373,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Live_Fire: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38395,7 +38395,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_PPE_Zone: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38417,7 +38417,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Research: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38439,7 +38439,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_TF_Artificer: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38461,7 +38461,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_TF_Ceto: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38483,7 +38483,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_TF_Damocles: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38505,7 +38505,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_TF_Ion: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38527,7 +38527,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_TF_Lotus: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38549,7 +38549,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_XDF: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38571,7 +38571,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Wolf: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38593,7 +38593,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Elite_Wolf: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38615,7 +38615,7 @@ class CfgVehicles
 	};
 	class XDF_Sign_Xenohunter: Land_Sign_WarningNoWeapon_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38635,6 +38635,28 @@ class CfgVehicles
 			"\xdf\signs\sign_xenohunter_large.paa"
 		};
 	};
+	class XDF_Sign_Command: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Command - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Command.jpg";
+		_generalMacro="XDF_Sign_Command";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_command_large.paa"
+		};
+	};
 
 
 
@@ -38642,7 +38664,7 @@ class CfgVehicles
 	class SignAd_SponsorS_F;
 	class XDF_SignS_Armoury: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38664,7 +38686,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Medical: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38686,7 +38708,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Warning: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38708,7 +38730,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_RA_Warning: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38730,7 +38752,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Entrance: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38752,7 +38774,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Exit: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38774,7 +38796,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Evac_Zone: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38796,7 +38818,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Firing_Range: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38818,7 +38840,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Garage: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38840,7 +38862,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Live_Fire: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38862,7 +38884,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_PPE_Zone: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38884,7 +38906,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Research: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38906,7 +38928,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_TF_Artificer: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38928,7 +38950,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_TF_Ceto: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38950,7 +38972,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_TF_Damocles: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38972,7 +38994,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_TF_Ion: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -38994,7 +39016,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_TF_Lotus: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -39016,7 +39038,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_XDF: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -39038,7 +39060,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Wolf: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -39060,7 +39082,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Elite_Wolf: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -39082,7 +39104,7 @@ class CfgVehicles
 	};
 	class XDF_SignS_Xenohunter: SignAd_SponsorS_F
 	{
-		author="Radium"
+		author="Radium";
 		class SimpleObject
 		{
 			eden=0;
@@ -39100,6 +39122,28 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_xenohunter.paa"
+		};
+	};
+	class XDF_SignS_Command: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Command - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Command.jpg";
+		_generalMacro="XDF_SignS_Command";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_command.paa"
 		};
 	};
 
