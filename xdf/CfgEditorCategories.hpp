@@ -28,6 +28,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Medusa Pods"
 	};
+    class XDF_Signs
+	{
+		displayName = "Signs"
+	};
 };
 class CfgEditorCategories
 {

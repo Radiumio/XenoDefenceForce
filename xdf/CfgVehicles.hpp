@@ -38171,6 +38171,142 @@ class CfgVehicles
 			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
+	// Large Signs //
+	class Land_Sign_WarningNoWeapon_F;
+	class XDF_Sign_Armoury: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium"
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Armoury - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Armoury.jpg";
+		_generalMacro="XDF_Sign_Armoury";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_armoury_large.paa"
+		};
+	};
+	class XDF_Sign_Medical: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium"
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Medical - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Medical.jpg";
+		_generalMacro="XDF_Sign_Medical";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_medical_large.paa"
+		};
+	};
+	class XDF_Sign_Warning: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium"
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Warning - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Warning.jpg";
+		_generalMacro="XDF_Sign_Warning";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_warning_large.paa"
+		};
+	};
+	// Small Signs //
+	class SignAd_SponsorS_F;
+	class XDF_SignS_Armoury: SignAd_SponsorS_F
+	{
+		author="Radium"
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Armoury - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Armoury.jpg";
+		_generalMacro="XDF_SignS_Armoury";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_armoury.paa"
+		};
+	};
+	class XDF_SignS_Medical: SignAd_SponsorS_F
+	{
+		author="Radium"
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Medical - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Medical.jpg";
+		_generalMacro="XDF_SignS_Medical";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_medical.paa"
+		};
+	};
+	class XDF_SignS_Warning: SignAd_SponsorS_F
+	{
+		author="Radium"
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Warning - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Warning.jpg";
+		_generalMacro="XDF_SignS_Warning";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_warning.paa"
+		};
+	};
 
 	// Ammoboxes/Containers //
 	class B_CargoNet_01_ammo_F;
