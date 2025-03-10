@@ -38723,6 +38723,50 @@ class CfgVehicles
 			"\xdf\signs\sign_deployment_area_large.paa"
 		};
 	};
+	class XDF_Sign_Service_Area: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Service Area - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Service_Area.jpg";
+		_generalMacro="XDF_Sign_Service_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_service_area_large.paa"
+		};
+	};
+	class XDF_Sign_Munition_Depot: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Munition Depot - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Munition_Depot.jpg";
+		_generalMacro="XDF_Sign_Munition_Depot";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_munition_depot_large.paa"
+		};
+	};
 
 
 
@@ -39278,6 +39322,52 @@ class CfgVehicles
 			"\xdf\signs\sign_deployment_area.paa"
 		};
 	};
+	class XDF_SignS_Service_Area: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Service Area - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Service_Area.jpg";
+		_generalMacro="XDF_SignS_Service_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_service_area.paa"
+		};
+	};
+	class XDF_SignS_Munition_Depot: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Munition Depot - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Munition_Depot.jpg";
+		_generalMacro="XDF_SignS_Munition_Depot";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_munition_depot.paa"
+		};
+	};
+
+	// Mini-Signs //
 	class Land_Sign_Mines_F;
 	class XDF_MiniSign_Danger: Land_Sign_Mines_F
 	{
