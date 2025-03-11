@@ -2940,7 +2940,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Lance";
+		displayName="XDF Lance AA";
 		baseWeapon="XDF_launch_B_Titan";
 		magazines[]=
 		{
@@ -2980,7 +2980,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Spear";
+		displayName="XDF Spear AT";
 		baseWeapon="XDF_launch_B_Titan_short";
 		magazines[]=
 		{

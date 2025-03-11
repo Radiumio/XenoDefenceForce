@@ -28926,12 +28926,12 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
 		armor = 600; // Default 400
-		maxSpeed = 150; // Default 75
+		//maxSpeed = 150; // Default 75
 		fuelCapacity = 50; // Default ?
 		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
+		//engineMOI = 0.8;
+		//accelAidForceCoef = 5.0;
+		//accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Operative"
@@ -28984,12 +28984,12 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Operative";
 		armor = 100; // Default 50
-		maxSpeed = 180; // Default 90
+		//maxSpeed = 180; // Default 90
 		fuelCapacity = 70; // Default ?
 		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
+		//engineMOI = 0.8;
+		//accelAidForceCoef = 5.0;
+		//accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Operative"
@@ -29039,12 +29039,12 @@ class CfgVehicles
 		faction = "B_XDF";
 		crew = "B_XDF_Combat_Diver";
 		armor = 80; // Default 30
-		maxSpeed = 80; // Default 30
+		//maxSpeed = 80; // Default 30
 		fuelCapacity = 240; // Default 120
 		damageResistance = 0.05; // Default 0.0048000002
-		engineMOI = 0.8;
-		accelAidForceCoef = 5.0;
-		accelAidForceSpd = 30.0;
+		//engineMOI = 0.8;
+		//accelAidForceCoef = 5.0;
+		//accelAidForceSpd = 30.0;
 		typicalCargo[]=
 		{
 			"B_XDF_Combat_Diver"
@@ -38171,6 +38171,1294 @@ class CfgVehicles
 			"\xdf\retextures\structures\decontent\medicaltent_01_xdf_nologo_f_co.paa"
 		};
 	};
+	// Large Signs //
+	class Land_Sign_WarningNoWeapon_F;
+	class XDF_Sign_Armoury: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Armoury - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Armoury.jpg";
+		_generalMacro="XDF_Sign_Armoury";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_armoury_large.paa"
+		};
+	};
+	class XDF_Sign_Medical: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Medical - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Medical.jpg";
+		_generalMacro="XDF_Sign_Medical";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_medical_large.paa"
+		};
+	};
+	class XDF_Sign_Warning: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Warning - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Warning.jpg";
+		_generalMacro="XDF_Sign_Warning";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_warning_large.paa"
+		};
+	};
+	class XDF_Sign_RA_Warning: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Restricted Area - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_RA_Warning.jpg";
+		_generalMacro="XDF_Sign_RA_Warning";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ra_warning_large.paa"
+		};
+	};
+	class XDF_Sign_Entrance: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Entrance - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Entrance.jpg";
+		_generalMacro="XDF_Sign_Entrance";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_entrance_large.paa"
+		};
+	};
+	class XDF_Sign_Exit: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Exit - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Exit.jpg";
+		_generalMacro="XDF_Sign_Exit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_exit_large.paa"
+		};
+	};
+	class XDF_Sign_Evac_Zone: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Evacuation Zone - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Evac_Zone.jpg";
+		_generalMacro="XDF_Sign_Evac_Zone";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_evac_zone_large.paa"
+		};
+	};
+	class XDF_Sign_Firing_Range: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Firing Range - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Firing_Range.jpg";
+		_generalMacro="XDF_Sign_Firing_Range";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_firing_range_large.paa"
+		};
+	};
+	class XDF_Sign_Garage: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Garage - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Garage.jpg";
+		_generalMacro="XDF_Sign_Garage";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_garage_large.paa"
+		};
+	};
+	class XDF_Sign_Live_Fire: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Live Fire - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Live_Fire.jpg";
+		_generalMacro="XDF_Sign_Live_Fire";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_live_fire_large.paa"
+		};
+	};
+	class XDF_Sign_PPE_Zone: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (PPE Zone - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_PPE_Zone.jpg";
+		_generalMacro="XDF_Sign_PPE_Zone";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ppe_zone_large.paa"
+		};
+	};
+	class XDF_Sign_Research: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Research - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Research.jpg";
+		_generalMacro="XDF_Sign_Research";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_research_large.paa"
+		};
+	};
+	class XDF_Sign_TF_Artificer: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Artificer - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Artificer.jpg";
+		_generalMacro="XDF_Sign_TF_Artificer";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfa_large.paa"
+		};
+	};
+	class XDF_Sign_TF_Ceto: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Ceto - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Ceto.jpg";
+		_generalMacro="XDF_Sign_TF_Ceto";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfc_large.paa"
+		};
+	};
+	class XDF_Sign_TF_Damocles: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Damocles - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Damocles.jpg";
+		_generalMacro="XDF_Sign_TF_Damocles";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfd_large.paa"
+		};
+	};
+	class XDF_Sign_TF_Ion: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Ion - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Ion.jpg";
+		_generalMacro="XDF_Sign_TF_Ion";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfi_large.paa"
+		};
+	};
+	class XDF_Sign_TF_Lotus: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Lotus - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Lotus.jpg";
+		_generalMacro="XDF_Sign_TF_Lotus";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfl_large.paa"
+		};
+	};
+	class XDF_Sign_XDF: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (XDF - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_XDF.jpg";
+		_generalMacro="XDF_Sign_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_xdf_large.paa"
+		};
+	};
+	class XDF_Sign_Wolf: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Wolf - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Wolf.jpg";
+		_generalMacro="XDF_Sign_Wolf";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_wolf_large.paa"
+		};
+	};
+	class XDF_Sign_Elite_Wolf: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Elite Wolf - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Elite_Wolf.jpg";
+		_generalMacro="XDF_Sign_Elite_Wolf";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_elite_wolf_large.paa"
+		};
+	};
+	class XDF_Sign_Xenohunter: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Xenohunter - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Xenohunter.jpg";
+		_generalMacro="XDF_Sign_Xenohunter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_xenohunter_large.paa"
+		};
+	};
+	class XDF_Sign_Command: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Command - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Command.jpg";
+		_generalMacro="XDF_Sign_Command";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_command_large.paa"
+		};
+	};
+	class XDF_Sign_Radioactive: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Radioactive - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Radioactive.jpg";
+		_generalMacro="XDF_Sign_Radioactive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_radioactive_large.paa"
+		};
+	};
+	class XDF_Sign_Danger: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Danger - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Danger.jpg";
+		_generalMacro="XDF_Sign_Danger";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_danger_large.paa"
+		};
+	};
+	class XDF_Sign_Deployment_Area: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Deployment Area - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Deployment_Area.jpg";
+		_generalMacro="XDF_Sign_Deployment_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_deployment_area_large.paa"
+		};
+	};
+	class XDF_Sign_Service_Area: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Service Area - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Service_Area.jpg";
+		_generalMacro="XDF_Sign_Service_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_service_area_large.paa"
+		};
+	};
+	class XDF_Sign_Munition_Depot: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Munition Depot - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Munition_Depot.jpg";
+		_generalMacro="XDF_Sign_Munition_Depot";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_munition_depot_large.paa"
+		};
+	};
+
+
+
+	// Small Signs //
+	class SignAd_SponsorS_F;
+	class XDF_SignS_Armoury: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Armoury - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Armoury.jpg";
+		_generalMacro="XDF_SignS_Armoury";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_armoury.paa"
+		};
+	};
+	class XDF_SignS_Medical: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Medical - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Medical.jpg";
+		_generalMacro="XDF_SignS_Medical";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_medical.paa"
+		};
+	};
+	class XDF_SignS_Warning: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Warning - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Warning.jpg";
+		_generalMacro="XDF_SignS_Warning";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_warning.paa"
+		};
+	};
+	class XDF_SignS_RA_Warning: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Restricted Area - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_RA_Warning.jpg";
+		_generalMacro="XDF_SignS_RA_Warning";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ra_warning.paa"
+		};
+	};
+	class XDF_SignS_Entrance: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Entrance - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Entrance.jpg";
+		_generalMacro="XDF_SignS_Entrance";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_entrance.paa"
+		};
+	};
+	class XDF_SignS_Exit: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Exit - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Exit.jpg";
+		_generalMacro="XDF_SignS_Exit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_exit.paa"
+		};
+	};
+	class XDF_SignS_Evac_Zone: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Evacuation Zone - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Evac_Zone.jpg";
+		_generalMacro="XDF_SignS_Evac_Zone";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_evac_zone.paa"
+		};
+	};
+	class XDF_SignS_Firing_Range: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Firing Range - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Firing_Range.jpg";
+		_generalMacro="XDF_SignS_Firing_Range";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_firing_range.paa"
+		};
+	};
+	class XDF_SignS_Garage: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Garage - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Garage.jpg";
+		_generalMacro="XDF_SignS_Garage";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_garage.paa"
+		};
+	};
+	class XDF_SignS_Live_Fire: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Live Fire - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Live_Fire.jpg";
+		_generalMacro="XDF_SignS_Live_Fire";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_live_fire.paa"
+		};
+	};
+	class XDF_SignS_PPE_Zone: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (PPE Zone - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_PPE_Zone.jpg";
+		_generalMacro="XDF_SignS_PPE_Zone";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ppe_zone.paa"
+		};
+	};
+	class XDF_SignS_Research: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Research - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Research.jpg";
+		_generalMacro="XDF_SignS_Research";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_research.paa"
+		};
+	};
+	class XDF_SignS_TF_Artificer: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Artificer - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Artificer.jpg";
+		_generalMacro="XDF_SignS_TF_Artificer";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfa.paa"
+		};
+	};
+	class XDF_SignS_TF_Ceto: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Ceto - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Ceto.jpg";
+		_generalMacro="XDF_SignS_TF_Ceto";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfc.paa"
+		};
+	};
+	class XDF_SignS_TF_Damocles: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Damocles - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Damocles.jpg";
+		_generalMacro="XDF_SignS_TF_Damocles";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfd.paa"
+		};
+	};
+	class XDF_SignS_TF_Ion: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Ion - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Ion.jpg";
+		_generalMacro="XDF_SignS_TF_Ion";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfi.paa"
+		};
+	};
+	class XDF_SignS_TF_Lotus: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (TF Lotus - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Lotus.jpg";
+		_generalMacro="XDF_SignS_TF_Lotus";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_tfl.paa"
+		};
+	};
+	class XDF_SignS_XDF: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (XDF - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_XDF.jpg";
+		_generalMacro="XDF_SignS_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_xdf.paa"
+		};
+	};
+	class XDF_SignS_Wolf: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Wolf - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Wolf.jpg";
+		_generalMacro="XDF_SignS_Wolf";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_wolf.paa"
+		};
+	};
+	class XDF_SignS_Elite_Wolf: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Elite Wolf - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Elite_Wolf.jpg";
+		_generalMacro="XDF_SignS_Elite_Wolf";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_elite_wolf.paa"
+		};
+	};
+	class XDF_SignS_Xenohunter: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Xenohunter - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Xenohunter.jpg";
+		_generalMacro="XDF_SignS_Xenohunter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_xenohunter.paa"
+		};
+	};
+	class XDF_SignS_Command: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Command - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Command.jpg";
+		_generalMacro="XDF_SignS_Command";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_command.paa"
+		};
+	};
+	class XDF_SignS_Radioactive: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Radioactive - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Radioactive.jpg";
+		_generalMacro="XDF_SignS_Radioactive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_radioactive.paa"
+		};
+	};
+	class XDF_SignS_Danger: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Danger - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Danger.jpg";
+		_generalMacro="XDF_SignS_Danger";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_danger.paa"
+		};
+	};
+	class XDF_SignS_Deployment_Area: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Deployment Area - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Deployment_Area.jpg";
+		_generalMacro="XDF_SignS_Deployment_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_deployment_area.paa"
+		};
+	};
+	class XDF_SignS_Service_Area: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Service Area - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Service_Area.jpg";
+		_generalMacro="XDF_SignS_Service_Area";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_service_area.paa"
+		};
+	};
+	class XDF_SignS_Munition_Depot: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Munition Depot - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Munition_Depot.jpg";
+		_generalMacro="XDF_SignS_Munition_Depot";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_munition_depot.paa"
+		};
+	};
+
+	// Mini-Signs //
+	class Land_Sign_Mines_F;
+	class XDF_MiniSign_Danger: Land_Sign_Mines_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Danger)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Danger.jpg";
+		_generalMacro="XDF_MiniSign_Danger";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_danger.paa"
+		};
+	};
+	class Land_Sign_MinesTall_English_F;
+	class XDF_MiniSign_Danger_Tall: Land_Sign_MinesTall_English_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Danger - Tall)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Danger_Tall.jpg";
+		_generalMacro="XDF_MiniSign_Danger_Tall";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_danger.paa"
+		};
+	};
+	class XDF_MiniSign_Radioactive: Land_Sign_Mines_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Radioactive)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Radioactive.jpg";
+		_generalMacro="XDF_MiniSign_Radioactive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_radioactive.paa"
+		};
+	};
+	class XDF_MiniSign_Radioactive_Tall: Land_Sign_MinesTall_English_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Mini Sign (Radioactive - Tall)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_MiniSign_Radioactive_Tall.jpg";
+		_generalMacro="XDF_MiniSign_Radioactive_Tall";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\small_sign_radioactive.paa"
+		};
+	};
+
 
 	// Ammoboxes/Containers //
 	class B_CargoNet_01_ammo_F;

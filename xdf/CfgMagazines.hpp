@@ -5,7 +5,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="127mm Experimental Lance Round";
+		displayName="127mm Experimental Lance AA Round";
 		displayNameShort="EXP-HE";
 		ammo="M_Titan_AA_XDF";
 		type="6 * 		256";
@@ -19,7 +19,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="127mm Experimental Spear Round";
+		displayName="127mm Experimental Spear AT Round";
 		displayNameShort="EXP-HEAT";
 		ammo="M_Titan_AT_XDF";
 		type="6 * 		256";
