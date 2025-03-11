@@ -38787,7 +38787,7 @@ class CfgVehicles
 		displayName="XDF Sign (Armoury - Small)";
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
-		editorPreview="\xdf\previews\structures\XDF_Sign_Armoury.jpg";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Armoury.jpg";
 		_generalMacro="XDF_SignS_Armoury";
 		hiddenSelectionsTextures[]=
 		{
