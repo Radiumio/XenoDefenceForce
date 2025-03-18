@@ -6920,6 +6920,33 @@ class CfgVehicles
 			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_co.paa"
 		};
 	};
+	class O_PXLA_Uniform_Red_Partial: O_R_Gorka_black_F
+	{
+		uniformClass="U_PXLA_Uniform_Red_Partial";
+		modelSides[]={0,3,2};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_part_co.paa"
+		};
+	};
+	class O_PXLA_Uniform_Red_Partialv2: O_R_Gorka_black_F
+	{
+		uniformClass="U_PXLA_Uniform_Red_Partialv2";
+		modelSides[]={0,3,2};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_partv2_co.paa"
+		};
+	};
+	class O_PXLA_Uniform_Red_Incomplete: O_R_Gorka_black_F
+	{
+		uniformClass="U_PXLA_Uniform_Red_Incomplete";
+		modelSides[]={0,3,2};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incomp_co.paa"
+		};
+	};
 	class B_Soldier_F;
 	class O_PXLA_Grunt: B_Soldier_F
 	{
