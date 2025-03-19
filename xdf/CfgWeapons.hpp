@@ -784,6 +784,21 @@ class cfgWeapons
 			containerClass="Supply250";
 		};
 	};
+	class V_XDF_Carrier_Special_Rig_Black_Rad: V_SSU_Carrier_Special_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Special Rig (Radium)";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
 	class V_XDF_SmershVest_01_F: V_SmershVest_01_F
 	{
 		author="Radium";
@@ -964,6 +979,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_Black_b_Rad: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible - Beast, Radium)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black_b.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b_Rad.paa"
 		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_NM_Black: H_SSU_Combat_Helmet_base

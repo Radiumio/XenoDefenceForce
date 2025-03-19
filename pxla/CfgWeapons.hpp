@@ -71,19 +71,40 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="PXLA Uniform (Incomplete)";
+		displayName="PXLA Uniform (Incomplete 1)";
 		hiddenSelections[]=
 		{
 			"camo"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_partv2_co.paa"
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incomp_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="O_PXLA_Uniform_Red_Incomplete";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_PXLA_Uniform_Red_Incompletev2: U_O_R_Gorka_01_black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Uniform (Incomplete 2)";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incompv2_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="O_PXLA_Uniform_Red_Incompletev2";
 			containerClass="Supply40";
 			mass=40;
 		};

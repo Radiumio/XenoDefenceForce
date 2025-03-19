@@ -6947,6 +6947,15 @@ class CfgVehicles
 			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incomp_co.paa"
 		};
 	};
+	class O_PXLA_Uniform_Red_Incompletev2: O_R_Gorka_black_F
+	{
+		uniformClass="U_PXLA_Uniform_Red_Incompletev2";
+		modelSides[]={0,3,2};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incompv2_co.paa"
+		};
+	};
 	class B_Soldier_F;
 	class O_PXLA_Grunt: B_Soldier_F
 	{
