@@ -112,6 +112,20 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_AAV_Core: EF_V_AAV_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Coremanite)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_core.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class EF_V_AAV_Rifleman_Black;
 	class V_XDF_AAV_Rifleman: EF_V_AAV_Rifleman_Black
 	{
