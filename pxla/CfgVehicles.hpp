@@ -6916,7 +6916,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Cyclone (Ammo)";
 		editorPreview="\pxla\previews\vehicles\PXLA_Cyclone_Ammo.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -6975,7 +6975,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Cyclone (Covered)";
 		editorPreview="\pxla\previews\vehicles\PXLA_Cyclone_Covered.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -7037,7 +7037,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Cyclone (Fuel)";
 		editorPreview="\pxla\previews\vehicles\PXLA_Cyclone_Fuel.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -7096,7 +7096,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Cyclone (Medical)";
 		editorPreview="\pxla\previews\vehicles\PXLA_Cyclone_Medical.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -7158,7 +7158,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Cyclone (Repair)";
 		editorPreview="\pxla\previews\vehicles\PXLA_Cyclone_Repair.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -7217,7 +7217,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA Cyclone";
 		editorPreview="\pxla\previews\vehicles\PXLA_Cyclone.jpg";
-		side = 1;
+		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Grunt";
@@ -7327,7 +7327,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
 		linkedItems[] = {
 			"V_Chestrig_pxla",
 			"H_SSU_Cap_HS_Black",
@@ -7412,7 +7412,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Incomplete";
 		linkedItems[] = {
 			"V_Chestrig_pxla",
 			"H_PASGT_pxla_red_F",
@@ -7501,7 +7501,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
 			"V_Chestrig_pxla",
 			"H_PASGT_pxla_red_F",
@@ -7589,7 +7589,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Partialv2";
 		linkedItems[] = {
 			"V_Chestrig_pxla",
 			"H_Tank_eaf_F",
@@ -7673,7 +7673,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Incomplete";
 		linkedItems[] = {
 			"V_XLA_Defector_Carrier_Rig_Red",
 			"H_PASGT_pxla_red_F",
@@ -7767,7 +7767,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
 			"V_TacVest_pxla",
 			"H_Booniehat_pxla",
@@ -7847,7 +7847,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Partialv2";
 		linkedItems[] = {
 			"V_TacVest_pxla",
 			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
@@ -7926,7 +7926,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
 		linkedItems[] = {
 			"V_TacVest_pxla",
 			"H_Booniehat_pxla",
@@ -8013,7 +8013,7 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
 			"V_TacVest_pxla",
 			"H_PASGT_pxla_red_F",
