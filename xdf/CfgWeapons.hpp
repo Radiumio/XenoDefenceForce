@@ -970,6 +970,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Rad: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible, Radium)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad.paa"
+		};
+	};
 	class H_XDF_Stealth_Combat_Helmet_Black_b: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
