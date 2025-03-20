@@ -112,6 +112,20 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_AAV_Core: EF_V_AAV_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Coremanite)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_core.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class EF_V_AAV_Rifleman_Black;
 	class V_XDF_AAV_Rifleman: EF_V_AAV_Rifleman_Black
 	{
@@ -144,6 +158,21 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_AAV_Scout_Maple: EF_V_AAV_Scout_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Scout, Maple)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_Maple.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class EF_V_AAV_Scout_Black;
 	class V_XDF_AAV_Medic: EF_V_AAV_Scout_Black
 	{
@@ -169,6 +198,20 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_AAV_Support_Shieldmaiden: EF_V_AAV_Support_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Support, Shieldmaiden)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_Shieldmaiden.paa"
 		};
 		class ItemInfo: ItemInfo
 		{

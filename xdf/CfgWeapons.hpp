@@ -754,6 +754,21 @@ class cfgWeapons
 			containerClass="Supply300";
 		};
 	};
+	class V_XDF_Modular_Carrier_GL_Rig_Black_Kao: V_SSU_Modular_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier GL Rig (Kao)";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
 	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -778,6 +793,21 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_Carrier_Special_Rig_Black_Rad: V_SSU_Carrier_Special_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Special Rig (Radium)";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -955,6 +985,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Rad: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible, Radium)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad.paa"
+		};
+	};
 	class H_XDF_Stealth_Combat_Helmet_Black_b: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1010,6 +1051,28 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_core: H_SSU_Enhanced_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_core.paa"
+		};
+	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Kao: H_SSU_Enhanced_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Infantry Combat Helmet (Enhanced, Kao)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Kao.paa"
+		};
+	};
 	class H_XDF_Camo_Combat_Helmet_Black: H_SSU_Camo_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1042,6 +1105,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Maple: H_SSU_Advanced_Modular_Helmet_HS_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Advanced Modular Helmet (Maple)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Maple.paa"
 		};
 	};
 	class H_XDF_Advanced_Modular_Helmet_Ear_Black: H_SSU_Advanced_Modular_Helmet_Ear_base
@@ -1181,6 +1255,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
+		};
+	};
+	class H_XDF_Helmet_Crew_Black_Shieldmaiden: H_HelmetCrew_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Crew Helmet (Shieldmaiden)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Shieldmaiden.paa"
 		};
 	};
 	class H_HelmetAggressor_F;
@@ -2197,6 +2281,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF P90";
 		baseWeapon="XDF_SMG_03C_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"
@@ -2223,6 +2308,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF P90 TR";
 		baseWeapon="XDF_SMG_03C_TR_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"
@@ -2249,6 +2335,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF PS90";
 		baseWeapon="XDF_SMG_03_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"
@@ -2275,6 +2362,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF PS90 TR";
 		baseWeapon="XDF_SMG_03_TR_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"

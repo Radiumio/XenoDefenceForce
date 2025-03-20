@@ -473,7 +473,7 @@ class CfgAmmo
 	class B_570x28_Ball;
 	class B_570x28_Ball_blue: B_570x28_Ball
 	{
-		hit=13; // default 8, AX munitions add 5
+		hit=16; // default 8, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		nvgOnly=0;
 	};

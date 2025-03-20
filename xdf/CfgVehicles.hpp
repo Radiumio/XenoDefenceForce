@@ -30263,6 +30263,7 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_LegStrapBag_Black.paa"
 		};
+		maximumLoad=120;
 	};
 	class B_XDF_TacticalPack_Black: B_SSU_TacticalPack_base
 	{
