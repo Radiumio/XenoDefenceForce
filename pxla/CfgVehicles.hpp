@@ -7625,6 +7625,51 @@ class CfgVehicles
 			1
 		};
 	};
+	class O_G_Mortar_01_F;
+	class PXLA_Mk6_Mortar: O_G_Mortar_01_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Mk6 Mortar";
+		editorPreview="\pxla\previews\vehicles\PXLA_Mk6_Mortar.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\turrets\mortar\mortar_01_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\turrets\mortar\mortar_01_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
 
 
 	// Uniforms

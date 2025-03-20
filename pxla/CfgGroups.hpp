@@ -46,7 +46,7 @@ class CfgGroups {
 					class Object2	{side = 0; vehicle = "O_PXLA_AT_Grunt"; rank = "PRIVATE"; position[] = {5,-5,0.00143909}; dir = 0;};
 					class Object3	{side = 0; vehicle = "O_PXLA_Medic"; rank = "PRIVATE"; position[] = {10,-10,0.00143909}; dir = 0;};
 				};
-				class PXLA_Anti_Armor
+				class PXLA_Anti_Air
 				{
 					name="PXLA Anti-Air Team";
 					side=0;
