@@ -754,6 +754,21 @@ class cfgWeapons
 			containerClass="Supply300";
 		};
 	};
+	class V_XDF_Modular_Carrier_GL_Rig_Black_Kao: V_SSU_Modular_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier GL Rig (Kao)";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
 	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -1045,6 +1060,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_core.paa"
+		};
+	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Kao: H_SSU_Enhanced_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Infantry Combat Helmet (Enhanced, Kao)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Kao.paa"
 		};
 	};
 	class H_XDF_Camo_Combat_Helmet_Black: H_SSU_Camo_Combat_Helmet_base
