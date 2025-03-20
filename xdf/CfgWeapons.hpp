@@ -1081,6 +1081,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Maple: H_SSU_Advanced_Modular_Helmet_HS_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Advanced Modular Helmet (Maple)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Maple.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_Ear_Black: H_SSU_Advanced_Modular_Helmet_Ear_base
 	{
 		author="Clasless & Radium";
