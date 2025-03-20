@@ -7268,6 +7268,364 @@ class CfgVehicles
 			1
 		};
 	};
+	class I_Truck_02_ammo_F;
+	class PXLA_Zamak_Ammo: I_Truck_02_ammo_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak (Ammo)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_Ammo.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_repair_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_repair_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_Truck_02_fuel_F;
+	class PXLA_Zamak_Fuel: I_Truck_02_fuel_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak (Fuel)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_Fuel.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_fuel_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_fuel_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_Truck_02_medical_F;
+	class PXLA_Zamak_Medical: I_Truck_02_medical_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak (Medical)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_Medical.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_kuz_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_kuz_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_Truck_02_box_F;
+	class PXLA_Zamak_Repair: I_Truck_02_box_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak (Repair)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_Repair.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_repair_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_repair_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_Truck_02_transport_F;
+	class PXLA_Zamak_Transport: I_Truck_02_transport_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak Transport";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_Transport.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_kuz_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_kuz_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_Truck_02_covered_F;
+	class PXLA_Zamak_Transport_Covered: I_Truck_02_covered_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak Transport (Covered)";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_Transport_Covered.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_kuz_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_kuz_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class I_Truck_02_MRL_F;
+	class PXLA_Zamak_MRL: I_Truck_02_MRL_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Zamak MRL";
+		editorPreview="\pxla\previews\vehicles\PXLA_Zamak_MRL.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Grunt";
+		typicalCargo[]=
+		{
+			"O_PXLA_Grunt"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\zamak\truck_02_kab_co.paa",
+			"\pxla\retextures\zamak\truck_02_int_co.paa",
+			"\pxla\retextures\zamak\truck_02_mrl_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\zamak\truck_02_kab_co.paa",
+					"\pxla\retextures\zamak\truck_02_int_co.paa",
+					"\pxla\retextures\zamak\truck_02_mrl_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+
 
 	// Uniforms
 	class O_R_Gorka_black_F;
