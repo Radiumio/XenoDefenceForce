@@ -1220,6 +1220,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
 		};
 	};
+	class H_XDF_Helmet_Crew_Black_Shieldmaiden: H_HelmetCrew_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Crew Helmet (Shieldmaiden)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Shieldmaiden.paa"
+		};
+	};
 	class H_HelmetAggressor_F;
 	class H_XDF_Aggressor: H_HelmetAggressor_F
 	{
@@ -2234,6 +2244,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF P90";
 		baseWeapon="XDF_SMG_03C_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"
@@ -2260,6 +2271,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF P90 TR";
 		baseWeapon="XDF_SMG_03C_TR_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"
@@ -2286,6 +2298,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF PS90";
 		baseWeapon="XDF_SMG_03_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"
@@ -2312,6 +2325,7 @@ class cfgWeapons
 		scope=2;
 		displayName="XDF PS90 TR";
 		baseWeapon="XDF_SMG_03_TR_black";
+		initSpeed=933;
 		hiddenSelections[]=
 		{
 			"camo"

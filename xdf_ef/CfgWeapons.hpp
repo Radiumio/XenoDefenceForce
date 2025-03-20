@@ -189,6 +189,20 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_AAV_Support_Shieldmaiden: EF_V_AAV_Support_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Support, Shieldmaiden)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_Shieldmaiden.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class EF_V_AAV_TL_Black;
 	class V_XDF_AAV_TL: EF_V_AAV_TL_Black
 	{
