@@ -253,6 +253,7 @@ class CfgVehicles
 					"4Rnd_70mm_SAAMI_AX_missiles"
 				};
 			};
+			class CommanderTurret: CommanderTurret {};
 		};
 	};
 	class EF_B_AH99J_NATO;
