@@ -187,6 +187,7 @@ class CfgVehicles
 	class EF_B_MRAP_01_LAAD_NATO_OCimport_02: EF_B_MRAP_01_LAAD_NATO_OCimport_01 {
 		class Turrets: Turrets {
 			class MainTurret;
+			class CommanderTurret;
 		};
 	};
 	class XDF_Boar_LAAD: EF_B_MRAP_01_LAAD_NATO_OCimport_02
