@@ -114,6 +114,24 @@ class cfgWeapons
 			uniformClass="B_XDF_Coveralls_Black";
 		};
 	};
+	class U_XDF_Research_Coveralls_Black: U_SSU_Coveralls_base
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Research Coveralls";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Research_Coveralls_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_research.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Research_Coveralls_Black_gloves.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Research_Coveralls_Black";
+		};
+	};
 	class U_XDF_Uniform_Ghillie_Black: U_SSU_Stealth_Uniform_Ghillie_Black
 	{
 		author="Clasless & Radium";
@@ -1199,6 +1217,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Cap_HS_Black.paa"
 		};
 	};
+	class H_XDF_Research_Cap_HS_Black: H_SSU_Cap_HS_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Research Cap";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Research_Cap_HS_Black.paa"
+		};
+	};
 	class H_XDF_Mil_Cap: H_MilCap_blue
 	{
 		author="Radium";
@@ -1221,6 +1250,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
 		};
 	};
+	class H_XDF_Mil_Cap_Research: H_MilCap_blue
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Military Cap (Research)";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Research.paa"
+		};
+	};
 	class H_XDF_Beret: H_Beret_02
 	{
 		author="Radium";
@@ -1241,6 +1281,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Wolf.paa"
+		};
+	};
+	class H_XDF_Beret_Research: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Research)";
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Research_Beret.paa"
 		};
 	};
 	class H_XDF_Jet_Pilot_Helmet: H_PilotHelmetFighter_B

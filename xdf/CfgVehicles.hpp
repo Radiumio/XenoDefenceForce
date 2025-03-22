@@ -29827,6 +29827,18 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_gloves.paa"
 		};
 	};
+	class B_XDF_Science_Coveralls_Black: B_SSU_Coveralls_base
+	{
+		author="Radium";
+		uniformClass="U_XDF_Science_Coveralls_Black";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Science_Coveralls_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_science.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Science_Coveralls_Black_gloves.paa"
+		};
+	};
 	class B_XDF_Uniform_Ghillie_Black: B_SSU_Stealth_Uniform_Ghillie_base
 	{
 		author="Clasless & Radium";
