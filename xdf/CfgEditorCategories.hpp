@@ -24,6 +24,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Crew"
 	};
+    class XDF_BCKLINE_M
+	{
+		displayName = "Backline Units"
+	};
     class XDF_Medusa_Pods
 	{
 		displayName = "Medusa Pods"
