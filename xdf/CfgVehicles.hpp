@@ -30509,10 +30509,10 @@ class CfgVehicles
 				magazine = "MRAAWS_HEAT_XDF";
 				count = 2;
 			};
-			class MRAWS_HE_F
+			class MRAAWS_HEAT55_XDF
 			{
-				magazine = "MRAWS_HE_F";
-				count = 2;
+				magazine = "MRAAWS_HEAT55_XDF";
+				count = 1;
 			};
 			class MRAAWS_HE_NUKE_XDF
 			{
@@ -30530,7 +30530,7 @@ class CfgVehicles
 			class Vorona_HEAT_XDF
 			{
 				magazine = "Vorona_HEAT_XDF";
-				count = 3;
+				count = 1;
 			};
 		};
 		class TransportItems {};
@@ -33283,10 +33283,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33303,10 +33299,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33388,10 +33380,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33495,8 +33483,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AT_XDF",
-			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33513,9 +33499,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AT_XDF",
-			"Titan_AT_XDF",
-			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33599,8 +33582,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AT_XDF",
-			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33617,8 +33598,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AT_XDF",
-			"Titan_AT_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33702,8 +33681,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AA_XDF",
-			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33720,8 +33697,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AA_XDF",
-			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33805,8 +33780,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AA_XDF",
-			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -33823,8 +33796,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Titan_AA_XDF",
-			"Titan_AA_XDF",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
 			"16Rnd_9x21_Mag_blue_reload_tracer",
@@ -35587,7 +35558,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
-			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Carrier_Lite_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black",
 			"ItemMap",
 			"ItemGPS",
@@ -35598,7 +35569,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Carrier_Lite_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black",
 			"ItemMap",
 			"ItemGPS",
@@ -35631,11 +35602,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -35657,11 +35623,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -35706,7 +35667,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
 		uniformClass = "U_XDF_Female_Uniform_Black";
 		linkedItems[] = {
-			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Carrier_Lite_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black",
 			"ItemMap",
 			"ItemGPS",
@@ -35717,7 +35678,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Rig_Black",
+			"V_XDF_Carrier_Lite_Black",
 			"H_XDF_Stealth_Combat_Helmet_Black",
 			"ItemMap",
 			"ItemGPS",
@@ -35750,11 +35711,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -35776,11 +35732,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -37363,9 +37314,9 @@ class CfgVehicles
 		icon="iconManAT";
 		role="MissileSpecialist";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemGPS",
@@ -37376,7 +37327,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemGPS",
@@ -37409,9 +37360,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -37433,9 +37381,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -37478,9 +37423,9 @@ class CfgVehicles
 		icon="iconManAT";
 		role="MissileSpecialist";
 		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
-		uniformClass = "U_XDF_Female_Uniform_Black";
+		uniformClass = "U_XDF_Female_SP_Suit";
 		linkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemGPS",
@@ -37491,7 +37436,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"ItemGPS",
@@ -37524,9 +37469,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -37548,9 +37490,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
-			"Vorona_HEAT_XDF",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
