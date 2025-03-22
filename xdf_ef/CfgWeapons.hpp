@@ -408,7 +408,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
-			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_lmg_co.paa"
 		};
 		reloadMagazineSound[]=
 		{
@@ -435,7 +435,7 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mx\glx_co.paa",
-			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_long_co.paa"
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_lmg_co.paa"
 		};
 		reloadMagazineSound[]=
 		{
