@@ -36586,9 +36586,9 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_XDF_Uniform_Black";
+		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"B_UavTerminal",
@@ -36599,7 +36599,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"B_UavTerminal",
@@ -36631,15 +36631,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -36673,15 +36664,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -36733,9 +36715,9 @@ class CfgVehicles
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_F";
 		identityTypes[] = {"Head_TCGM_Girls_White","Head_TCGM_Girls_Asian","Head_TCGM_Girls_Afro"};
-		uniformClass = "U_XDF_Female_Uniform_Black";
+		uniformClass = "U_XDF_Female_SP_Suit";
 		linkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"B_UavTerminal",
@@ -36746,7 +36728,7 @@ class CfgVehicles
 			"G_XDF_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XDF_Carrier_Special_Rig_Black",
+			"V_XDF_SmershVest_01_radio_F",
 			"H_XDF_Stealth_Combat_Helmet_Black_b",
 			"ItemMap",
 			"B_UavTerminal",
@@ -36778,15 +36760,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -36820,15 +36793,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
-			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
 			"6Rnd_12Gauge_Pellets",
@@ -36923,9 +36887,6 @@ class CfgVehicles
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -36940,9 +36901,6 @@ class CfgVehicles
 			"150Rnd_93x64_Mag_blue_reload_tracer",
 			"150Rnd_93x64_Mag_blue_reload_tracer",
 			"150Rnd_93x64_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -37034,9 +36992,6 @@ class CfgVehicles
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"HandGrenade",
 			"HandGrenade",
 			"HandGrenade",
@@ -37051,9 +37006,6 @@ class CfgVehicles
 			"150Rnd_93x64_Mag_blue_reload_tracer",
 			"150Rnd_93x64_Mag_blue_reload_tracer",
 			"150Rnd_93x64_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
-			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",

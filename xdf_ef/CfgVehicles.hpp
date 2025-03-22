@@ -1582,9 +1582,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -1598,9 +1595,6 @@ class CfgVehicles
 			"SmokeShell",
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
