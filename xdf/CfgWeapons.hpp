@@ -723,6 +723,21 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Modular_Carrier_Lite_Black_Cybern: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Cybern)";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Cybern.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_CarrierRigKBT_01_Olive_F;
 	class V_XDF_Modular_Carrier_Vest_Black: V_CarrierRigKBT_01_Olive_F
 	{
@@ -1138,6 +1153,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern: H_SSU_Advanced_Modular_Helmet_Chops_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Advanced Modular Helmet (Chops, Cybern)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Chops_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
 		};
 	};
 	class H_XDF_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
