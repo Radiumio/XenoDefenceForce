@@ -30543,7 +30543,7 @@ class CfgVehicles
 			class Titan_AT_XDF
 			{
 				magazine = "Titan_AT_XDF";
-				count = 3;
+				count = 2;
 			};
 		};
 		class TransportItems {};
@@ -30556,7 +30556,7 @@ class CfgVehicles
 			class Titan_AA_XDF
 			{
 				magazine = "Titan_AA_XDF";
-				count = 3;
+				count = 2;
 			};
 		};
 		class TransportItems {};
