@@ -187,6 +187,7 @@ class CfgVehicles
 	class EF_B_MRAP_01_LAAD_NATO_OCimport_02: EF_B_MRAP_01_LAAD_NATO_OCimport_01 {
 		class Turrets: Turrets {
 			class MainTurret;
+			class CommanderTurret;
 		};
 	};
 	class XDF_Boar_LAAD: EF_B_MRAP_01_LAAD_NATO_OCimport_02
@@ -252,6 +253,7 @@ class CfgVehicles
 					"4Rnd_70mm_SAAMI_AX_missiles"
 				};
 			};
+			class CommanderTurret: CommanderTurret {};
 		};
 	};
 	class EF_B_AH99J_NATO;
@@ -1580,14 +1582,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -1606,14 +1600,6 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
 			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"30Rnd_65x39_caseless_msbs_mag_blue_reload_tracer",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAAWS_HEAT_XDF",
-			"MRAWS_HE_F",
-			"MRAWS_HE_F",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",

@@ -114,6 +114,24 @@ class cfgWeapons
 			uniformClass="B_XDF_Coveralls_Black";
 		};
 	};
+	class U_XDF_Research_Coveralls_Black: U_SSU_Coveralls_base
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Research Coveralls";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Research_Coveralls_Black.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_research.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Research_Coveralls_Black_gloves.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Research_Coveralls_Black";
+		};
+	};
 	class U_XDF_Uniform_Ghillie_Black: U_SSU_Stealth_Uniform_Ghillie_Black
 	{
 		author="Clasless & Radium";
@@ -195,6 +213,28 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_CBRN_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_CBRN_Research_Suit: U_B_CBRN_Suit_01_MTP_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF CBRN Research Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Research_Suit_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_CBRN_Research_Suit";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -678,6 +718,21 @@ class cfgWeapons
 			containerClass="Supply120";
 		};
 	};
+	class V_XDF_Research_Vest_Black: V_SSU_Tactical_Vest_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Research Vest";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Tactical_Vest_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Research_Vest_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+		};
+	};
 	class V_XDF_Carrier_Lite_Black: V_SSU_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
@@ -717,6 +772,21 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Lite_Black_Cybern: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Cybern)";
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Cybern.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1096,6 +1166,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Light_Research_Helmet_Black: H_SSU_Light_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Light Research Helmet";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Light_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Research_Helmet_Black.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_HS_Black: H_SSU_Advanced_Modular_Helmet_HS_base
 	{
 		author="Clasless & Radium";
@@ -1140,6 +1221,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern: H_SSU_Advanced_Modular_Helmet_Chops_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Advanced Modular Helmet (Chops, Cybern)";
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Chops_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
+		};
+	};
 	class H_XDF_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1173,6 +1265,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Cap_HS_Black.paa"
 		};
 	};
+	class H_XDF_Research_Cap_HS_Black: H_SSU_Cap_HS_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Research Cap";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Research_Cap_HS_Black.paa"
+		};
+	};
 	class H_XDF_Mil_Cap: H_MilCap_blue
 	{
 		author="Radium";
@@ -1195,6 +1298,17 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Wolf.paa"
 		};
 	};
+	class H_XDF_Mil_Cap_Research: H_MilCap_blue
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Military Cap (Research)";
+		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Mil_Cap_Research.paa"
+		};
+	};
 	class H_XDF_Beret: H_Beret_02
 	{
 		author="Radium";
@@ -1215,6 +1329,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Wolf.paa"
+		};
+	};
+	class H_XDF_Beret_Research: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Research)";
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Research_Beret.paa"
 		};
 	};
 	class H_XDF_Jet_Pilot_Helmet: H_PilotHelmetFighter_B
