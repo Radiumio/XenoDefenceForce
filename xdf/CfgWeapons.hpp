@@ -1284,7 +1284,12 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
 		};
 	};
-	class H_XDF_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
+	class H_SSU_Special_Purpose_Helmet_base;
+	class H_SSU_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
+	{
+		class ItemInfo;
+	};
+	class H_XDF_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
@@ -1293,6 +1298,18 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 20;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class H_XDF_Boonie_HS_Black: H_SSU_Boonie_HS_base
@@ -1484,7 +1501,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF ASH Helmet (Single P.R.I.S.M)";
-		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has one P.R.I.S.M Heads-Up Display unit deployed.";
+		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has one P.R.I.S.M Heads-Up Display unit deployed, enabling advanced imaging.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
@@ -1509,7 +1526,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF ASH Helmet (Dual P.R.I.S.M)";
-		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has both P.R.I.S.M Heads-Up Display units deployed.";
+		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has both P.R.I.S.M Heads-Up Display units deployed, enabling advanced imaging.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
