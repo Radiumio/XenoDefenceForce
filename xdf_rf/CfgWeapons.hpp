@@ -76,7 +76,7 @@ class CfgWeapons
 		scope=2;
 		displayName="XDF ASh-12 GL";
 		descriptionShort = "AX Scout Rifle<br/>Light-weight XDF precision scout rifle, chambering 5.56 AX.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
-		baseWeapon="XDF_arifle_ash12_blk_RF";
+		baseWeapon="XDF_arifle_ash12_GL_blk_RF";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_01_co.paa",
@@ -95,7 +95,7 @@ class CfgWeapons
 		scope=2;
 		displayName="XDF ASh-12 LR";
 		descriptionShort = "AX Battle Rifle<br/>Deadly close-quarters heavy-hitter chambering subsonic 12.7.<br/>Caliber: 12.7x55 mm - Experimental AX Chamber Upgrade";
-		baseWeapon="XDF_arifle_ash12_blk_RF";
+		baseWeapon="XDF_arifle_ash12_LR_blk_RF";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_01_co.paa",
