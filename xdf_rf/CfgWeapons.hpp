@@ -32,4 +32,23 @@ class CfgWeapons
 			"\xdf_rf\retextures\xdf_uniform\weapons\psrl\launch_PSRL1_02_xdf_CO.paa"
 		};	
 	};
+	class srifle_h6_blk_rf;
+	class XDF_srifle_h6_blk_rf: srifle_h6_blk_rf
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF HERA H6";
+		descriptionShort = "AX Scout Rifle<br/>Light-weight XDF precision scout rifle, chambering 5.56 AX.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_srifle_h6_blk_rf";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\h6\h6_01_blk_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\h6\h6_01_blk_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\h6\h6_03_co.paa"
+		};	
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
 };
