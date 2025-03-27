@@ -134,9 +134,9 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
-	
-	class 17Rnd_9x19_Mag_RF;
-	class 17Rnd_9x19_Mag_RF_AX_Tracer: 17Rnd_9x19_Mag_RF
+
+	class 17Rnd_9x19_yellow_Mag_RF;
+	class 17Rnd_9x19_Mag_RF_AX_Tracer: 17Rnd_9x19_yellow_Mag_RF
 	{
 		author="Radium";
 		scope=2;
@@ -145,7 +145,7 @@ class CfgMagazines
 		ammo="B_9x19_Ball_RF_AX";
 		tracersEvery=1;
 	};
-	class 17Rnd_9x19_Mag_RF_AX_Reload_Tracer: 17Rnd_9x19_Mag_RF
+	class 17Rnd_9x19_Mag_RF_AX_Reload_Tracer: 17Rnd_9x19_yellow_Mag_RF
 	{
 		author="Radium";
 		scope=2;
@@ -155,8 +155,8 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
-	class 33Rnd_9x19_Mag_RF;
-	class 33Rnd_9x19_Mag_RF_AX_Tracer: 33Rnd_9x19_Mag_RF
+	class 33Rnd_9x19_Yellow_Mag_RF;
+	class 33Rnd_9x19_Mag_RF_AX_Tracer: 33Rnd_9x19_Yellow_Mag_RF
 	{
 		author="Radium";
 		scope=2;
@@ -165,7 +165,7 @@ class CfgMagazines
 		ammo="B_9x19_Ball_RF_AX";
 		tracersEvery=1;
 	};
-	class 33Rnd_9x19_Mag_RF_AX_Reload_Tracer: 33Rnd_9x19_Mag_RF
+	class 33Rnd_9x19_Mag_RF_AX_Reload_Tracer: 33Rnd_9x19_Yellow_Mag_RF
 	{
 		author="Radium";
 		scope=2;
@@ -175,8 +175,8 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
-	class 65Rnd_9x19_Mag_RF;
-	class 65Rnd_9x19_Mag_RF_AX_Tracer: 65Rnd_9x19_Mag_RF
+	class 65Rnd_9x19_Yellow_Mag_RF;
+	class 65Rnd_9x19_Mag_RF_AX_Tracer: 65Rnd_9x19_Yellow_Mag_RF
 	{
 		author="Radium";
 		scope=2;
@@ -185,7 +185,7 @@ class CfgMagazines
 		ammo="B_9x19_Ball_RF_AX";
 		tracersEvery=1;
 	};
-	class 65Rnd_9x19_Mag_RF_AX_Reload_Tracer: 65Rnd_9x19_Mag_RF
+	class 65Rnd_9x19_Mag_RF_AX_Reload_Tracer: 65Rnd_9x19_Yellow_Mag_RF
 	{
 		author="Radium";
 		scope=2;
