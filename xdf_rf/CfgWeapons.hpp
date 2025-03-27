@@ -51,4 +51,112 @@ class CfgWeapons
 			"STANAG_556x45_XDF"
 		};
 	};
+	class arifle_ash12_blk_RF;
+	class XDF_arifle_ash12_blk_RF: arifle_ash12_blk_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASh-12";
+		descriptionShort = "AX Scout Rifle<br/>Light-weight XDF precision scout rifle, chambering 5.56 AX.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_arifle_ash12_blk_RF";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_01_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_02_co.paa"
+		};		
+		magazineWell[] +=
+		{
+			"ASH12_127x55_RF_XDF"
+		};
+	};
+	class arifle_ash12_GL_blk_RF;
+	class XDF_arifle_ash12_GL_blk_RF: arifle_ash12_GL_blk_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASh-12 GL";
+		descriptionShort = "AX Scout Rifle<br/>Light-weight XDF precision scout rifle, chambering 5.56 AX.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_arifle_ash12_blk_RF";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_01_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_02_co.paa",
+			"a3\weapons_f\data\gl_holo_co.paa"
+		};		
+		magazineWell[] +=
+		{
+			"ASH12_127x55_RF_XDF"
+		};
+	};
+	class arifle_ash12_LR_blk_RF;
+	class XDF_arifle_ash12_LR_blk_RF: arifle_ash12_LR_blk_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASh-12 LR";
+		descriptionShort = "AX Battle Rifle<br/>Deadly close-quarters heavy-hitter chambering subsonic 12.7.<br/>Caliber: 12.7x55 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_arifle_ash12_blk_RF";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_01_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\ash12\ash12_02_co.paa"
+		};	
+		magazineWell[] +=
+		{
+			"ASH12_127x55_RF_XDF"
+		};
+	};
+
+	class hgun_DEagle_RF;
+	class XDF_hgun_DEagle_RF: hgun_DEagle_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Desert Eagle Mark XIX L5";
+		descriptionShort = "AX Heavy Pistol<br/>Powerful back-up sidearm chambered in .50 AE.<br/>Caliber: .50 AE - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_hgun_DEagle_RF";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\deagle\deagle_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\weapons\deagle\deagle_co.paa"
+		};	
+		magazineWell[] +=
+		{
+			"Pistol_DEagle_RF_XDF"
+		};
+	};
+	class hgun_Glock19_RF;
+	class XDF_hgun_Glock19_RF: hgun_Glock19_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Glock 19X";
+		descriptionShort = "AX Pistol<br/>Reliable back-up sidearm chambered in 9 mm.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_hgun_Glock19_RF";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\glock\glock_co.paa"
+		};	
+		magazineWell[] +=
+		{
+			"Pistol_9x19_RF_XDF"
+		};
+	};
+	class hgun_Glock19_auto_RF;
+	class XDF_hgun_Glock19_auto_RF: hgun_Glock19_auto_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Glock 19X Auto";
+		descriptionShort = "AX Pistol<br/>Reliable back-up sidearm chambered in 9 mm, with a full-auto switch.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_hgun_Glock19_auto_RF";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_rf\retextures\xdf_uniform\weapons\glock\glock_co.paa"
+		};	
+		magazineWell[] +=
+		{
+			"Pistol_9x19_RF_XDF"
+		};
+	};
 };
