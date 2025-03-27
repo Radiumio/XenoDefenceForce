@@ -1554,7 +1554,7 @@ class cfgWeapons
 		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has both P.R.I.S.M Heads-Up Display units retracted.";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_PRISM_Off.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
