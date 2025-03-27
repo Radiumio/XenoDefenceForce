@@ -37948,6 +37948,369 @@ class CfgVehicles
 		};
 	};
 
+	// Backline Units
+	class B_officer_F;
+	class B_XDF_Officer: B_officer_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Officer";
+		editorPreview="\xdf\previews\units\B_XDF_Officer.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Uniform_Tee_Black";
+		backpack = "";
+		linkedItems[] = {
+			"V_XDF_Modular_Carrier_Vest_Black",
+			"H_XDF_Beret",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Bandana_Alien_Aviators"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Modular_Carrier_Vest_Black",
+			"H_XDF_Beret",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Bandana_Alien_Aviators"
+		};
+
+		weapons[] = {
+			"arifle_MXC_XDF_F",
+			"XDF_hgun_ACPC2"
+		};
+		respawnWeapons[] = {
+			"arifle_MXC_XDF_F",
+			"XDF_hgun_ACPC2"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_Soldier_unarmed_F;
+	class B_XDF_Researcher: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Researcher";
+		editorPreview="\xdf\previews\units\B_XDF_Researcher.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Research_Coveralls_Black";
+		backpack = "";
+		linkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Research_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Research_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+
+		weapons[] = {};
+		respawnWeapons[] = {};
+
+		magazines[] = {};
+		respawnMagazines[] = {};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Research_Operative: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF CORE Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Research_Operative.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Research_Coveralls_Black";
+		backpack = "B_XDF_CUR";
+		linkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+
+		weapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+		respawnWeapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+
+		magazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		respawnMagazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Research_Operative_CBRN: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF CORE Operative (CBRN)";
+		editorPreview="\xdf\previews\units\B_XDF_Research_Operative_CBRN.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_CBRN_Research_Suit";
+		backpack = "B_XDF_CUR";
+		linkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+
+		weapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+		respawnWeapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+
+		magazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		respawnMagazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Unarmed_M: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Unarmed Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Uniform_Black";
+		backpack = "";
+		linkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Goggles"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Goggles"
+		};
+
+		weapons[] = {};
+		respawnWeapons[] = {};
+
+		magazines[] = {};
+		respawnMagazines[] = {};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+
+
 	// Buildings/Structures/Props //
 
 	class Land_IRMaskingCover_01_F;

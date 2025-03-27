@@ -3466,6 +3466,24 @@ class cfgWeapons
 			};
 		};
 	};
+	class arifle_MX_XDF_F: arifle_MX_XDF // ACR-X2
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Hamr";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_65_TI_blk_F";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
 	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_XDF_black // Promet AX (Suppressed)
 	{
 		class linkedItems
@@ -3485,6 +3503,16 @@ class cfgWeapons
 		};
 	};
 	class arifle_MSBS65_CRW_XDF_black_F: arifle_MSBS65_XDF_black // Promet Crew
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Aco";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class arifle_MXC_XDF_F: arifle_MXC_XDF // ACR-X2 Carbine
 	{
 		class linkedItems
 		{
