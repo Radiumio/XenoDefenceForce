@@ -15,6 +15,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Stealth Balaclava";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures.";
 		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -28,6 +29,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Stealth Balaclava (Goggles)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures.<br/>Includes SIC goggles.";
 		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -42,6 +44,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Nanowrap Balaclava";
+		descriptionShort = "No Armor<br/>XDF nanowrap covering provides insulation and protection from shrapnel or environmental elements.";
 		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -55,6 +58,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Nanowrap Balaclava (Goggles)";
+		descriptionShort = "No Armor<br/>XDF nanowrap covering provides insulation and protection from shrapnel or environmental elements.<br/>Includes SIC goggles.";
 		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -69,6 +73,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF SIC Goggles";
+		descriptionShort = "XDF Standard Infantry Combat goggles, shielding an operator's eyes from shrapnel or particles.";
 		picture="\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
 		model="\A3\characters_f_beta\heads\glasses\g_combat";
 		hiddenSelections[]=
@@ -87,6 +92,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Alien)";
+		descriptionShort = "A non-standard XDF bandana.";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -103,6 +109,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Alien, Sports)";
+		descriptionShort = "A non-standard XDF bandana with Sports shades.";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -121,6 +128,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Alien, Aviators)";
+		descriptionShort = "A non-standard XDF bandana with Aviators.";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -139,6 +147,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Wolf)";
+		descriptionShort = "A non-standard XDF bandana.";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -155,6 +164,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Wolf, Sports)";
+		descriptionShort = "A non-standard XDF bandana with Sports shades.";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -173,6 +183,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Wolf, Aviators)";
+		descriptionShort = "A non-standard XDF bandana with Aviators.";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -191,6 +202,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Beast)";
+		descriptionShort = "A non-standard XDF bandana.";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -207,6 +219,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Beast, Sports)";
+		descriptionShort = "A non-standard XDF bandana with Sports shades.";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -225,6 +238,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF Bandana (Beast, Aviators)";
+		descriptionShort = "A non-standard XDF bandana with Aviators.";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -243,6 +257,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF APR Alpha";
+		descriptionShort = "An Air Purifying Respirator compatible with western helmets and filters.";
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
 		hiddenSelections[]=
 		{
@@ -260,6 +275,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF APR Alpha (No Filter)";
+		descriptionShort = "An Air Purifying Respirator compatible with western helmets and filters.<br/>Filter removed to make space for a combination respirator.";
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
 		hiddenSelections[]=
 		{
@@ -278,6 +294,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF APR Bravo";
+		descriptionShort = "An Air Purifying Respirator compatible with eastern helmets and filters.";
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
 		hiddenSelections[]=
 		{
@@ -295,6 +312,7 @@ class CfgGlasses
 		scopeArsenal=2;
 		scopeCurator=2;
 		displayName="XDF APR Bravo (No Filter)";
+		descriptionShort = "An Air Purifying Respirator compatible with eastern helmets and filters.<br/>Filter removed to make space for a combination respirator.";
 		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
 		hiddenSelections[]=
 		{

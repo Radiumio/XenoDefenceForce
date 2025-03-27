@@ -6,6 +6,7 @@ class CfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Shapebreaker Helmet";
+		descriptionShort = "Armor Level II<br/>Although camouflage and silhouette distortion is not very effective against the xeno-threat, Shapebreaker helmets typically denote scout or infiltration units.";
 		hiddenSelections[] = 
 		{
 			"camo", 
@@ -23,6 +24,7 @@ class CfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF PSRL-1 PWS";
+		descriptionShort = "RPG Launcher<br/>Standard-issue frontline anti-vehicle weapon. Not designed for anti-xeno use at this time.";
 		baseWeapon="launch_PSRL1_PWS_xdf_RF";
 		hiddenSelectionsTextures[] = 
 		{
