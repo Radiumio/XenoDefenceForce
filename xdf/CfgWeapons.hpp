@@ -1466,6 +1466,103 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
 		};
 	};
+	class H_HelmetB;
+	class H_HelmetO_ocamo: H_HelmetB
+	{ 
+		class ItemInfo; 
+	};
+	class H_HelmetSpecO_ocamo: H_HelmetO_ocamo
+	{ 
+		class ItemInfo; 
+	};
+	class H_HelmetLeaderO_ocamo: H_HelmetO_ocamo
+	{ 
+		class ItemInfo; 
+	};
+	class H_XDF_ASH_Assassin: H_HelmetSpecO_ocamo
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASH Helmet (Single P.R.I.S.M)";
+		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has one P.R.I.S.M Heads-Up Display unit deployed.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
+		};
+		subItems[] = {"XDF_Integrated_NV_TI"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 65;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 15;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_ASH_Defender: H_HelmetLeaderO_ocamo
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASH Helmet (Dual P.R.I.S.M)";
+		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has both P.R.I.S.M Heads-Up Display units deployed.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
+		};
+		subItems[] = {"XDF_Integrated_NV_TI"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 15;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_ASH_Protector: H_HelmetO_ocamo
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASH Helmet (Retracted P.R.I.S.M)";
+		descriptionShort = "Armor Level IV - The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection. This model has both P.R.I.S.M Heads-Up Display units retracted.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 15;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+
+	// Thermals //
+	class NVGoggles;
+	class XDF_Integrated_NV_TI: NVGoggles
+	{
+		scope = 1;
+		visionMode[] = {"Normal", "NVG", "TI"};
+		thermalMode[] = {2};
+		modelOptics = "";
+	};
 
 	// Infantry Items //
 	
