@@ -2591,6 +2591,33 @@ class cfgWeapons
 			"Pistol_9x21_XDF"
 		};
 	};
+	class hgun_Rook40_F;
+	class XDF_hgun_Rook40_F: hgun_Rook40_F // 16Rnd_9x21_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MP-443 Grach";
+		baseWeapon="XDF_hgun_Rook40_F";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\rook40\rook40_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Pistol_9x21_XDF"
+		};
+	};
 	class XDF_hgun_ACPC2: hgun_ACPC2_F // 9Rnd_45ACP_Mag
 	{
 		author="Radium";
