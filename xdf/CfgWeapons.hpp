@@ -54,6 +54,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -70,6 +71,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Rolled)";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish - now with rolled sleeves."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Rolled_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -86,6 +88,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Sleeved)";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish.<br/>Sleeved variant."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Sleeved_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -102,6 +105,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Crew Coveralls";
+		descriptionShort="Standard-issue XDF crew coveralls designed for vehicular operations or engineering field work."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -120,6 +124,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Research Coveralls";
+		descriptionShort="Special XDF research coveralls coated in a thin but highly durable polymeric layer<br/>designed to resist chemicals or other hazardous substances."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -138,6 +143,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Ghillie)";
+		descriptionShort="Standard-issue XDF uniform covered in a night operations ghillie."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -155,6 +161,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Tee)";
+		descriptionShort="Standard-issue XDF uniform, without the thermal resistant shirt."
 		hiddenSelections[]=
 		{
 			"camo",
@@ -179,6 +186,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Experimental Jet Suit";
+		descriptionShort="Experimental XDF jet suit designed to maximise pilot survival when operating aircraft capable of higher-than-normal G-load."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -201,6 +209,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF CBRN Suit";
+		descriptionShort="Experimental XDF CBRN suit for handling alien substances and other highly hazardous materials."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -223,6 +232,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF CBRN Research Suit";
+		descriptionShort="Experimental XDF CBRN suit for handling alien substances and other highly hazardous materials, further reinforced with a innovative polymeric coating."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -245,6 +255,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Special Purpose Suit";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
@@ -268,6 +279,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Wetsuit";
+		descriptionShort="XDF wetsuit for maritime operations."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -288,6 +300,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Wetsuit";
+		descriptionShort="XDF female wetsuit for maritime operations."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -308,6 +321,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Wetsuit (Short)";
+		descriptionShort="XDF female wetsuit for maritime operations. The operator has chosen to shed 'extraneous' parts."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -328,6 +342,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Survival Suit";
+		descriptionShort="Standard-issue XDF uniform with neoprene undersuit for impromptu maritime operations."
 		hiddenSelections[]=
 		{
 			"camo",
@@ -355,6 +370,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Survival Suit";
+		descriptionShort="Standard-issue XDF female uniform with neoprene undersuit for impromptu maritime operations."
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\Characters_F\Common\Data\basicbody_black_co.paa",
@@ -375,6 +391,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Special Purpose Suit";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
@@ -398,6 +415,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform";
+		descriptionShort="The standard XDF female uniform - insulated, thermal-resistant, and stylish."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -417,6 +435,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform (Rolled)";
+		descriptionShort="The standard XDF female uniform - insulated, thermal-resistant, and stylish - now with rolled sleeves."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -435,6 +454,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform (Bra)";
+		descriptionShort="Standard-issue XDF female uniform, without the thermal resistant shirt."
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\Characters_F\common\data\basicbody_green_co.paa",
@@ -455,6 +475,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Envirosuit";
+		descriptionShort="Specialised XDF suit designed for operation in environments with extreme cold or heat."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_co.paa"
@@ -474,6 +495,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Temperate Uniform (Tank Top)";
+		descriptionShort="Temperate XDF uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_tanktop_co.paa", 
@@ -495,6 +517,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Temperate Uniform";
+		descriptionShort="Temperate XDF uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
@@ -516,6 +539,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Temperate Uniform (Rolled)";
+		descriptionShort="Temperate XDF uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
@@ -536,6 +560,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Temperate Uniform";
+		descriptionShort="Temperate XDF female uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
@@ -556,6 +581,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Temperate Uniform (Rolled)";
+		descriptionShort="Temperate XDF female uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
@@ -576,6 +602,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Combat Coveralls";
+		descriptionShort="XDF crew coveralls adapted for combat usage by applying distinct temperate-based camo. Designed to be used with heavy weapon units."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
@@ -597,6 +624,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Basic Uniform";
+		descriptionShort="Basic XDF uniform with insulation, but no thermal-resistant material."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -616,6 +644,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Basic Uniform (Rolled)";
+		descriptionShort="Basic XDF uniform with insulation, but no thermal-resistant material. Rolled sleeves."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -635,6 +664,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Gorka-T";
+		descriptionShort="Specialised XDF uniform designed for use in tundra or other harsh environments."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
@@ -1836,6 +1866,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_black_X_CA.paa";
 		displayName="XDF ACR-X2";
+		descriptionShort = "AX Assault Rifle<br />Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MX_XDF";
 		hiddenSelectionsTextures[]=
 		{
