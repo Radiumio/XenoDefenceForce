@@ -12,8 +12,8 @@ class CfgAmmo
 		hit=15; //default 10
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
-	class B_9x19_Ball_RF;
-	class B_9x19_Ball_RF_AX: B_9x19_Ball_RF
+	class B_9x19_Ball_Tracer_Green_RF;
+	class B_9x19_Ball_RF_AX: B_9x19_Ball_Tracer_Green_RF
 	{
 		hit=10; //default 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
