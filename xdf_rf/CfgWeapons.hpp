@@ -163,6 +163,13 @@ class CfgWeapons
 		{
 			"Pistol_DEagle_RF_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\deagle_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class hgun_Glock19_RF;
 	class XDF_hgun_Glock19_RF: hgun_Glock19_RF
@@ -180,6 +187,13 @@ class CfgWeapons
 		{
 			"Pistol_9x19_RF_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class hgun_Glock19_auto_RF;
 	class XDF_hgun_Glock19_auto_RF: hgun_Glock19_auto_RF
@@ -196,6 +210,13 @@ class CfgWeapons
 		magazineWell[] +=
 		{
 			"Pistol_9x19_RF_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 
