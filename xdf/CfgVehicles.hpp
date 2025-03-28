@@ -38261,7 +38261,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "XDF Unarmed Operative";
-		editorPreview="\xdf\previews\units\B_XDF_Unarmed.jpg";
+		editorPreview="\xdf\previews\units\B_XDF_Unarmed_M.jpg";
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_BCKLINE_M";
