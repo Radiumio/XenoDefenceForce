@@ -53,6 +53,7 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - Taurus for the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2261045061">TCGM_Girls</a> mod, which enabled female variants of XDF soldiers to be made.
 - The textures from JustAndFriendly's <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1283439288">Y-32 Xi'an Recolors</a> mod that were used to speed up creating the texture for the **XDF Wraith** [i](XDF Xi'an equivalent)[/i].
 - Thank you to **Quiggs**, the creator of <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>, who gave me permission to retexture the Ripsaw for the XDF!
+- Thank you to **Rotators Collective** and **Tiny Gecko Studios** for providing the samples for their respective CDLCs, and in some cases providing extra textures!
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
