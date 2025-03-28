@@ -530,18 +530,22 @@ class CfgMagazines
 		tracersEvery=1;
 	};
 	
-	class 30Rnd_556x45_Stanag_Tracer_Green;
-	class 30rnd_556x45_stanag_blue_tracer: 30Rnd_556x45_Stanag_Tracer_Green
+	class 30Rnd_556x45_Stanag_Sand_green;
+	class 30rnd_556x45_stanag_blue_tracer: 30Rnd_556x45_Stanag_Sand_green
 	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_CA.paa";
 		author="Radium";
 		scope=2;
 		displayName="5.56 mm 30rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=1;
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"};
 	};
-	class 30rnd_556x45_stanag_blue_reload_tracer: 30Rnd_556x45_Stanag_Tracer_Green
+	class 30rnd_556x45_stanag_blue_reload_tracer: 30Rnd_556x45_Stanag_Sand_green
 	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_CA.paa";
 		author="Radium";
 		scope=2;
 		displayName="5.56 mm 30rnd Reload Tracer Mag (AX)";
@@ -549,6 +553,8 @@ class CfgMagazines
 		ammo="B_556x45_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\xdf\retextures\xdf_uniform\weapons\hk416\arifle_spar_01_blk_f_01_co.paa"};
 	};
 
 	class 150Rnd_556x45_Drum_Mag_Tracer_F;

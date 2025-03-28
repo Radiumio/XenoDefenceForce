@@ -30837,7 +30837,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Sleeved_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -31055,7 +31055,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Tee_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Lite_Black",
@@ -31241,7 +31241,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Survival_Suit";
 		linkedItems[] = {
 			"V_XDF_Rebreather_Mask",
@@ -31427,7 +31427,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -31609,7 +31609,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -31819,7 +31819,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Ghillie_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -31924,7 +31924,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_F";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Female_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -32029,7 +32029,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -32283,7 +32283,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_GL_Rig_Black",
@@ -32497,7 +32497,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -32755,7 +32755,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Tee_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -32973,7 +32973,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_FO_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_GL_Rig_Black",
@@ -33265,7 +33265,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_FO_M";
 		icon="iconManAT";
 		role="MissileSpecialist";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		backpack = "B_XDF_Viper_Harness_Black_MAAWS";
 		linkedItems[] = {
@@ -33466,7 +33466,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_FO_M";
 		icon="iconManAT";
 		role="MissileSpecialist";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -33664,7 +33664,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_FO_M";
 		icon="iconManAT";
 		role="MissileSpecialist";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -33860,7 +33860,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Lite_Black",
@@ -33941,7 +33941,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
 			"V_XDF_Tactical_Vest_Black",
@@ -34022,7 +34022,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Coveralls_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Lite_Black",
@@ -34103,7 +34103,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_CRW_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Jet_Pilot_Suit";
 		linkedItems[] = {
 			"H_XDF_Jet_Pilot_Helmet",
@@ -34180,7 +34180,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -34410,7 +34410,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Lite_Black",
@@ -34664,7 +34664,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -34922,7 +34922,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -35140,7 +35140,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Modular_Carrier_Lite_Black",
@@ -35362,7 +35362,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Rig_Black",
@@ -35582,7 +35582,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_AX_M";
 		icon="iconManAT";
 		role="MissileSpecialist";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Lite_Black",
@@ -35798,7 +35798,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -36100,7 +36100,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Rolled_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -36354,7 +36354,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -36612,7 +36612,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_SmershVest_01_radio_F",
@@ -36870,7 +36870,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_GL_Rig_Black",
@@ -37080,7 +37080,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_AX_M";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_Uniform_Black";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -37292,7 +37292,7 @@ class CfgVehicles
 		editorSubcategory = "XDF_AX_M";
 		icon="iconManAT";
 		role="MissileSpecialist";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_SmershVest_01_radio_F",
@@ -37508,7 +37508,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -37629,7 +37629,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_Special_Rig_Black",
@@ -37734,7 +37734,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
 		linkedItems[] = {
 			"V_XDF_Carrier_GL_Rig_Black",
@@ -37833,7 +37833,7 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		editorSubcategory = "XDF_XE_F";
-		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_XDF_SP_Suit";
 		backpack = "B_XDF_Viper_Harness_Black_med";
 		linkedItems[] = {
@@ -37947,6 +37947,369 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
+
+	// Backline Units
+	class B_officer_F;
+	class B_XDF_Officer: B_officer_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Officer";
+		editorPreview="\xdf\previews\units\B_XDF_Officer.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Uniform_Tee_Black";
+		backpack = "";
+		linkedItems[] = {
+			"V_XDF_Modular_Carrier_Vest_Black",
+			"H_XDF_Beret",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Bandana_Alien_Aviators"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Modular_Carrier_Vest_Black",
+			"H_XDF_Beret",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Bandana_Alien_Aviators"
+		};
+
+		weapons[] = {
+			"arifle_MXC_XDF_F",
+			"XDF_hgun_ACPC2"
+		};
+		respawnWeapons[] = {
+			"arifle_MXC_XDF_F",
+			"XDF_hgun_ACPC2"
+		};
+
+		magazines[] = {
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer"
+		};
+		respawnMagazines[] = {
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer",
+			"9Rnd_45ACP_Mag_blue_tracer"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_Soldier_unarmed_F;
+	class B_XDF_Researcher: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Researcher";
+		editorPreview="\xdf\previews\units\B_XDF_Researcher.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Research_Coveralls_Black";
+		backpack = "";
+		linkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Research_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Research_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+
+		weapons[] = {};
+		respawnWeapons[] = {};
+
+		magazines[] = {};
+		respawnMagazines[] = {};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Research_Operative: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF CORE Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Research_Operative.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Research_Coveralls_Black";
+		backpack = "B_XDF_CUR";
+		linkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+
+		weapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+		respawnWeapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+
+		magazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		respawnMagazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Research_Operative_CBRN: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF CORE Operative (CBRN)";
+		editorPreview="\xdf\previews\units\B_XDF_Research_Operative_CBRN.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_CBRN_Research_Suit";
+		backpack = "B_XDF_CUR";
+		linkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Research_Vest_Black",
+			"H_XDF_Light_Research_Helmet_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_APR_A_NoFilter"
+		};
+
+		weapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+		respawnWeapons[] = 
+		{
+			"arifle_MX_XDF_F",
+			"XDF_hgun_Rook40_F"
+		};
+
+		magazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		respawnMagazines[] = 
+		{
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer",
+			"16Rnd_9x21_Mag_blue_tracer"
+		};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class B_XDF_Unarmed_M: B_Soldier_unarmed_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Unarmed Operative";
+		editorPreview="\xdf\previews\units\B_XDF_Unarmed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		editorSubcategory = "XDF_BCKLINE_M";
+		identityTypes[] = {"Head_NATO","Head_Greek","Head_African","Head_Euro","Head_Asian","Head_Russian","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_XDF_Uniform_Black";
+		backpack = "";
+		linkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Goggles"
+		};
+		respawnlinkedItems[] = {
+			"V_XDF_Carrier_Lite_Black",
+			"H_XDF_Cap_HS_Black",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"G_XDF_Goggles"
+		};
+
+		weapons[] = {};
+		respawnWeapons[] = {};
+
+		magazines[] = {};
+		respawnMagazines[] = {};
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+
 
 	// Buildings/Structures/Props //
 

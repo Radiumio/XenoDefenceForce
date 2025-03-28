@@ -13,6 +13,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Marine Combat Uniform";
+		descriptionShort = "Standard marine uniform for maritime combat operations.";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -32,6 +33,7 @@ class cfgWeapons
 	class U_XDF_Marine_Uniform_Gloved: U_XDF_Marine_Uniform
 	{
 		displayName="XDF Marine Combat Uniform (Gloves)";
+		descriptionShort = "Standard marine uniform for maritime combat operations. Gloves variant.";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -43,6 +45,7 @@ class cfgWeapons
 	class U_XDF_Marine_Uniform_Gloved_Pads: U_XDF_Marine_Uniform
 	{
 		displayName="XDF Marine Combat Uniform (Gloves/Pads)";
+		descriptionShort = "Standard marine uniform for maritime combat operations. Gloves and kneepads variant.";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -54,6 +57,7 @@ class cfgWeapons
 	class U_XDF_Marine_Uniform_Gloved_Rolled: U_XDF_Marine_Uniform
 	{
 		displayName="XDF Marine Combat Uniform (Gloves/Rolled)";
+		descriptionShort = "Standard marine uniform for maritime combat operations. Gloves and rolled sleeves variant.";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -65,6 +69,7 @@ class cfgWeapons
 	class U_XDF_Marine_Uniform_Gloved_Rolled_Pads: U_XDF_Marine_Uniform
 	{
 		displayName="XDF Marine Combat Uniform (Gloves/Rolled/Pads)";
+		descriptionShort = "Standard marine uniform for maritime combat operations. Gloves, rolled sleeves, and kneepads variant.";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -76,6 +81,7 @@ class cfgWeapons
 	class U_XDF_Marine_Uniform_Rolled: U_XDF_Marine_Uniform
 	{
 		displayName="XDF Marine Combat Uniform (Rolled)";
+		descriptionShort = "Standard marine uniform for maritime combat operations. Rolled sleeves variant.";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -88,6 +94,7 @@ class cfgWeapons
 	class U_XDF_Marine_Diver: EF_U_B_MarineCombatUniform_Diver_Des
 	{
 		displayName="XDF Marine Diver Uniform";
+		descriptionShort = "Standard marine neoprene uniform for naval operations.";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -103,6 +110,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
@@ -117,6 +125,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Coremanite)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch.<br/>Personalised for Operative Coremanite.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_core.paa"
@@ -132,6 +141,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Rifleman)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Rifleman variant.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -148,6 +158,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Scout)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -163,6 +174,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Scout, Maple)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant.<br/>Personalised for Operative Maple.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_Maple.paa",
@@ -179,6 +191,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Medic)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_co.paa",
@@ -195,6 +208,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Support)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa"
@@ -209,6 +223,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Support, Shieldmaiden)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.<br/>Personalised for Operative Shieldmaiden.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_Shieldmaiden.paa"
@@ -224,6 +239,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Team Leader)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Team Leader variant.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -240,6 +256,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Diver)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Diver variant.";
 		hiddenUnderwaterSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
@@ -262,6 +279,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Diver/Mask)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Diver variant.<br/>This variant has the mask always deployed.";
 		hiddenUnderwaterSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\diving_gear_co.paa", 
@@ -293,6 +311,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Sailor)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Sailor variant.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -309,6 +328,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Commando Rig (Rifleman)";
+		descriptionShort = "No Armor<br/>Load-bearing chest rig slim plate carrier for operatives of the spooky kind. Rifleman variant.";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -327,6 +347,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Commando Rig (Scout)";
+		descriptionShort = "No Armor<br/>Load-bearing chest rig slim plate carrier for operatives of the spooky kind. Scout variant.";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -345,6 +366,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Commando Rig (Support)";
+		descriptionShort = "No Armor<br/>Load-bearing chest rig slim plate carrier for operatives of the spooky kind. Support variant.";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -363,6 +385,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Commando Rig (Team Leader)";
+		descriptionShort = "No Armor<br/>Load-bearing chest rig slim plate carrier for operatives of the spooky kind. Team Leader variant.";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co.paa",
@@ -381,6 +404,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF LPNVG G3";
+		descriptionShort = "Advanced, light-weight night-vision device.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_co.paa"
@@ -392,6 +416,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF LPNVG-T G3";
+		descriptionShort = "Advanced, light-weight night-vision device with thermal imaging module.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_co.paa"
@@ -404,6 +429,7 @@ class cfgWeapons
 		_generalMacro="arifle_MX_Black_F";
 		scope=2;
 		displayName="XDF ACR-X4AR";
+		descriptionShort = "AX Assault Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series. The X4AR sub-variants sport a heavier barrel and stock for better accuracy and range.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="ef_arifle_MXAR_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -430,6 +456,7 @@ class cfgWeapons
 		_generalMacro="arifle_MX_Black_F";
 		scope=2;
 		displayName="XDF ACR-X4AR 3GL";
+		descriptionShort = "AX Assault Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series. The X4AR sub-variants sport a heavier barrel and stock for better accuracy and range.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="ef_arifle_MXAR_GL_XDF";
 		hiddenSelectionsTextures[]=
 		{

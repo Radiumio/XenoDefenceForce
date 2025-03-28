@@ -54,6 +54,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -70,6 +71,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Rolled)";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish - now with rolled sleeves."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Rolled_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -86,6 +88,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Sleeved)";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish.<br/>Sleeved variant."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Sleeved_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -102,6 +105,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Crew Coveralls";
+		descriptionShort="Standard-issue XDF crew coveralls designed for vehicular operations or engineering field work."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -120,6 +124,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Research Coveralls";
+		descriptionShort="Special XDF research coveralls coated in a thin but highly durable polymeric layer<br/>designed to resist chemicals or other hazardous substances."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -138,6 +143,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Ghillie)";
+		descriptionShort="Standard-issue XDF uniform covered in a night operations ghillie."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -155,6 +161,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Standard Uniform (Tee)";
+		descriptionShort="Standard-issue XDF uniform, without the thermal resistant shirt."
 		hiddenSelections[]=
 		{
 			"camo",
@@ -179,6 +186,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Experimental Jet Suit";
+		descriptionShort="Experimental XDF jet suit designed to maximise pilot survival when operating aircraft capable of higher-than-normal G-load."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -201,6 +209,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF CBRN Suit";
+		descriptionShort="Experimental XDF CBRN suit for handling alien substances and other highly hazardous materials."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -223,6 +232,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF CBRN Research Suit";
+		descriptionShort="Experimental XDF CBRN suit for handling alien substances and other highly hazardous materials, further reinforced with a innovative polymeric coating."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -245,6 +255,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Special Purpose Suit";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
@@ -268,6 +279,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Wetsuit";
+		descriptionShort="XDF wetsuit for maritime operations."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -288,6 +300,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Wetsuit";
+		descriptionShort="XDF female wetsuit for maritime operations."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -308,6 +321,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Wetsuit (Short)";
+		descriptionShort="XDF female wetsuit for maritime operations. The operator has chosen to shed 'extraneous' parts."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -328,6 +342,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Survival Suit";
+		descriptionShort="Standard-issue XDF uniform with neoprene undersuit for impromptu maritime operations."
 		hiddenSelections[]=
 		{
 			"camo",
@@ -355,6 +370,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Survival Suit";
+		descriptionShort="Standard-issue XDF female uniform with neoprene undersuit for impromptu maritime operations."
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\Characters_F\Common\Data\basicbody_black_co.paa",
@@ -375,6 +391,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Special Purpose Suit";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelections[]=
 		{
@@ -398,6 +415,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform";
+		descriptionShort="The standard XDF female uniform - insulated, thermal-resistant, and stylish."
 		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -417,6 +435,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform (Rolled)";
+		descriptionShort="The standard XDF female uniform - insulated, thermal-resistant, and stylish - now with rolled sleeves."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -435,6 +454,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Standard Uniform (Bra)";
+		descriptionShort="Standard-issue XDF female uniform, without the thermal resistant shirt."
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\Characters_F\common\data\basicbody_green_co.paa",
@@ -455,6 +475,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Envirosuit";
+		descriptionShort="Specialised XDF suit designed for operation in environments with extreme cold or heat."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_co.paa"
@@ -474,6 +495,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Temperate Uniform (Tank Top)";
+		descriptionShort="Temperate XDF uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_tanktop_co.paa", 
@@ -495,6 +517,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Temperate Uniform";
+		descriptionShort="Temperate XDF uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
@@ -516,6 +539,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Temperate Uniform (Rolled)";
+		descriptionShort="Temperate XDF uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_co.paa", 
@@ -536,6 +560,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Temperate Uniform";
+		descriptionShort="Temperate XDF female uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
@@ -556,6 +581,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Female Temperate Uniform (Rolled)";
+		descriptionShort="Temperate XDF female uniform designed for arid environments."
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
@@ -576,6 +602,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Combat Coveralls";
+		descriptionShort="XDF crew coveralls adapted for combat usage by applying distinct temperate-based camo. Designed to be used with heavy weapon units."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
@@ -597,6 +624,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Basic Uniform";
+		descriptionShort="Basic XDF uniform with insulation, but no thermal-resistant material."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -616,6 +644,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Basic Uniform (Rolled)";
+		descriptionShort="Basic XDF uniform with insulation, but no thermal-resistant material. Rolled sleeves."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
@@ -635,6 +664,7 @@ class cfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Gorka-T";
+		descriptionShort="Specialised XDF uniform designed for use in tundra or other harsh environments."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
@@ -708,6 +738,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Tactical Vest";
+		descriptionShort="Armor Level II<br/>It's a tactical vest."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Tactical_Vest_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -723,6 +754,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Research Vest";
+		descriptionShort="Armor Level II<br/>It's a tactical vest (but this time sciencey)."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Tactical_Vest_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -738,7 +770,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Carrier Lite";
-		picture="\SSU_Black_Vests\UI\Icon_SSU_Tactical_Vest_Black.paa";
+		descriptionShort="Armor Level III<br/>Standard-issue XDF plate carrier with no frills."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
@@ -753,6 +785,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Carrier Rig";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF plate carrier with a hydration panel and additional ballistic inserts."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -768,6 +801,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Modular Carrier Lite";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -783,6 +817,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Modular Carrier Lite (Cybern)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills.<br/>Personalised for Operative Cybern."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -799,6 +834,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Modular Carrier Vest";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills - and no pouches."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -814,6 +850,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Modular Carrier GL Rig";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts and explosive-resistant padding."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -855,6 +892,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Modular Carrier GL Rig (Kao)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts and explosive-resistant padding.<br/>Personalised for Operative Kao."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -896,6 +934,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Carrier GL Rig";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -911,6 +950,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Carrier Special Rig";
+		descriptionShort="Armor Level IV<br/>Heavy-duty anti-xeno plate carrier. Heavy, but one of the few vests rated for combat against the xeno-threat.<br/>This vest will keep you alive. Also likely to survive munitions that the user would not."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -926,6 +966,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Carrier Special Rig (Radium)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty anti-xeno plate carrier. Heavy, but one of the few vests rated for combat against the xeno-threat.<br/>This vest will keep you alive. Also likely to survive munitions that the user would not.<br/>Personalised for Operative Radium."
 		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -941,6 +982,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Light Recon Vest";
+		descriptionShort="No Armor<br/>Sacrifice all semblance of armor for load-bearing capacity."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
@@ -956,6 +998,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Light Recon Vest (Tactical Radio)";
+		descriptionShort="No Armor<br/>Sacrifice all semblance of armor for load-bearing capacity."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
@@ -971,6 +1014,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Combat Rebreather";
+		descriptionShort="Armor Level III<br/>A combat-rated rebreather for maritime operations. Offers similar protection to a plate carrier, with compartments and a modular belt for load-bearing."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
@@ -1025,6 +1069,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Combat Rebreather (Mask)";
+		descriptionShort="Armor Level III<br/>A combat-rated rebreather for maritime operations. Offers similar protection to a plate carrier, with compartments and a modular belt for load-bearing.<br/>The mask is always deployed on this variant."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa",
@@ -1101,6 +1146,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible)";
+		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1112,6 +1158,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible, Radium)";
+		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible. Personalised for Operative Radium."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1123,6 +1170,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible - Beast)";
+		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black_b.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1134,6 +1182,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (No Mandible)";
+		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with no protective mandible."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1145,6 +1194,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (No Mandible, Red)";
+		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with no protective mandible."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1156,6 +1206,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Infantry Combat Helmet";
+		descriptionShort="Armor Level II<br/>Standard-issue XDF infantry combat helmet."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1167,6 +1218,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Infantry Combat Helmet (Enhanced)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1178,6 +1230,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection.<br/>Personalised for Operative Coremanite."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1189,6 +1242,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Infantry Combat Helmet (Enhanced, Kao)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection.<br/>Personalised for Operative Kao."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1200,6 +1254,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Infantry Combat Helmet (Camo)";
+		descriptionShort="Armor Level II<br/>Standard-issue XDF infantry combat helmet with camo netting."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Camo_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1212,6 +1267,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Light Infantry Helmet";
+		descriptionShort="Armor Level I<br/>Lightweight XDF infantry helmet. Better than nothing - even though the protection offered is practically nothing."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Light_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1223,6 +1279,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Light Research Helmet";
+		descriptionShort="Armor Level I<br/>Lightweight XDF research helmet. Better than nothing - even though the protection offered is practically nothing."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Light_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1234,6 +1291,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Advanced Modular Helmet";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1245,6 +1303,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Advanced Modular Helmet (Maple)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet.<br/>Personalised for Operative Maple."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1256,6 +1315,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Advanced Modular Helmet (Ear Protectors)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with ear protectors."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Ear_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1267,6 +1327,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Advanced Modular Helmet (Chops)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Chops_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1278,21 +1339,40 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Advanced Modular Helmet (Chops, Cybern)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops.<br/>Personalised for Operative Cybern."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Chops_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
 		};
 	};
-	class H_XDF_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
+	class H_SSU_Special_Purpose_Helmet_base;
+	class H_SSU_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
+	{
+		class ItemInfo;
+	};
+	class H_XDF_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_Black
 	{
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF SPH 'Xenohunter'";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum, but often used with open air filters."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Special_Purpose_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 20;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class H_XDF_Boonie_HS_Black: H_SSU_Boonie_HS_base
@@ -1300,6 +1380,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Booniehat";
+		descriptionShort="No Armor<br/>It's an XDF booniehat. Go look cool and don't get shot."
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Boonie_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1311,6 +1392,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Cap";
+		descriptionShort="No Armor<br/>Do not put it on in reverse."
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1322,6 +1404,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Research Cap";
+		descriptionShort="No Armor<br/>Do not put it on in reverse."
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1333,6 +1416,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Military Cap";
+		descriptionShort="No Armor<br/>XDF military cap."
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1344,6 +1428,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Military Cap (Wolf)";
+		descriptionShort="No Armor<br/>XDF military cap with Wolf insignia."
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1355,6 +1440,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Military Cap (Research)";
+		descriptionShort="No Armor<br/>XDF research military cap."
 		picture="\SSU_Black_Hats\UI\Icon_SSU_Cap_HS_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1366,6 +1452,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Beret";
+		descriptionShort="No Armor<br/>XDF military cap."
 		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1377,6 +1464,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Beret (Wolf)";
+		descriptionShort="No Armor<br/>XDF Beret with Wolf insignia."
 		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1388,6 +1476,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Beret (Research)";
+		descriptionShort="No Armor<br/>XDF Beret with Research insignia."
 		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1399,6 +1488,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Experimental Jet Helmet";
+		descriptionShort="Armor Level III<br/>Experimental XDF jet helmet designed to be paired with aircraft AR interfaces, providing superior visiblity and performance."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Jet_Pilot_Helmet_co.paa"
@@ -1409,6 +1499,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Helicopter Pilot Helmet";
+		descriptionShort="Armor Level II<br/>Protective helmet for helicopter pilots."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
@@ -1419,6 +1510,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Helicopter Crew Helmet";
+		descriptionShort="Armor Level II<br/>Protective helmet for helicopter crews."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
@@ -1429,6 +1521,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Crew Helmet";
+		descriptionShort="Armor Level III<br/>Protective helmet for vehicle crews."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
@@ -1439,6 +1532,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Crew Helmet (Shieldmaiden)";
+		descriptionShort="Armor Level III<br/>Protective helmet for vehicle crews.<br/>Personalised for Operative Shieldmaiden."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Shieldmaiden.paa"
@@ -1450,6 +1544,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Aggressor Helmet";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
@@ -1461,10 +1556,108 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Aggressor Helmet (Nanowrap Cover)";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams, covered with protective nanowrap."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
 		};
+	};
+	class H_HelmetB;
+	class H_HelmetO_ocamo: H_HelmetB
+	{ 
+		class ItemInfo; 
+	};
+	class H_HelmetSpecO_ocamo: H_HelmetO_ocamo
+	{ 
+		class ItemInfo; 
+	};
+	class H_HelmetLeaderO_ocamo: H_HelmetO_ocamo
+	{ 
+		class ItemInfo; 
+	};
+	class H_XDF_ASH_Assassin: H_HelmetSpecO_ocamo
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASH Helmet (Single P.R.I.S.M)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has one P.R.I.S.M Heads-Up Display unit deployed, enabling advanced imaging.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
+		};
+		subItems[] = {"XDF_Integrated_NV_TI"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 65;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 15;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_ASH_Defender: H_HelmetLeaderO_ocamo
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASH Helmet (Dual P.R.I.S.M)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has both P.R.I.S.M Heads-Up Display units deployed, enabling advanced imaging.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black.paa"
+		};
+		subItems[] = {"XDF_Integrated_NV_TI"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 15;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_ASH_Protector: H_HelmetO_ocamo
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ASH Helmet (Retracted P.R.I.S.M)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has both P.R.I.S.M Heads-Up Display units retracted.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_PRISM_Off.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 15;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+
+	// Thermals //
+	class NVGoggles;
+	class XDF_Integrated_NV_TI: NVGoggles
+	{
+		scope = 1;
+		visionMode[] = {"Normal", "NVG", "TI"};
+		thermalMode[] = {2};
+		modelOptics = "";
 	};
 
 	// Infantry Items //
@@ -1563,6 +1756,7 @@ class cfgWeapons
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_black_F_ca.paa";
 		displayName="XDF Spearhead";
+		descriptionShort = "AX Assault Rifle<br/>The XDF's faithful service rifle.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MSBS65_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1589,6 +1783,7 @@ class cfgWeapons
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_GL_black_F_ca.paa";
 		displayName="XDF Spearhead GL";
+		descriptionShort = "AX Assault Rifle<br/>The XDF's faithful service rifle.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_MSBS65_GL_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1633,6 +1828,7 @@ class cfgWeapons
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_UBS_black_F_ca.paa";
 		displayName="XDF Spearhead UBS";
+		descriptionShort = "AX Assault Rifle<br/>The XDF's faithful service rifle - with an underbarrel shotgun for putting down xenos with prejudice.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MSBS65_UBS_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1659,6 +1855,7 @@ class cfgWeapons
 		scope=2;
 		picture="a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_Mark_black_F_ca.paa";
 		displayName="XDF Spearhead MR";
+		descriptionShort = "AX Marksman Rifle<br/>The XDF's faithful service rifle with an extended barrel.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MSBS65_Mark_XDF_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -1683,6 +1880,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF EXH-WS 'Type 115'";
+		descriptionShort = "AX Experimental Assault Rifle<br/>An experimental XDF weapon, the Type 115 chambers the standard 6.5 AX round while packing a serious punch with its underbarrel .50 BW.<br/>Caliber: 6.5x39 mm / .50 BW - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_arifle_ARX_blk";
 		hiddenSelectionsTextures[]=
 		{
@@ -1722,6 +1920,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_black_X_CA.paa";
 		displayName="XDF ACR-X2";
+		descriptionShort = "AX Assault Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MX_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1748,6 +1947,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_cqc_black_X_CA.paa";
 		displayName="XDF ACR-X2 Carbine";
+		descriptionShort = "AX Carbine<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MXC_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1773,6 +1973,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_rifle_gl_black_X_CA.paa";
 		displayName="XDF ACR-X2 3GL";
+		descriptionShort = "AX Assault Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_MXGL_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1809,6 +2010,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_lmg_black_X_CA.paa";
 		displayName="XDF ACR-X2 Support";
+		descriptionShort = "AX Light Machinegun<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MXSW_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1834,6 +2036,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_dmr_black_X_CA.paa";
 		displayName="XDF ACR-X2 Marksman";
+		descriptionShort = "AX Marksman Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_MXM_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -1858,6 +2061,7 @@ class cfgWeapons
 		_generalMacro="arifle_SPAR_01_blk_F";
 		scope=2;
 		displayName="XDF HK416";
+		descriptionShort = "AX Assault Rifle<br/>Modular and reliable.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_SPAR_01_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1883,6 +2087,7 @@ class cfgWeapons
 		_generalMacro="arifle_SPAR_02_blk_F";
 		scope=2;
 		displayName="XDF HK416 Support";
+		descriptionShort = "AX Light Machinegun<br/>Modular and reliable.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_SPAR_02_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1908,6 +2113,7 @@ class cfgWeapons
 		_generalMacro="arifle_SPAR_01_GL_blk_F";
 		scope=2;
 		displayName="XDF HK416 EGLM";
+		descriptionShort = "AX Assault Rifle<br/>Modular and reliable.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_SPAR_01_GL_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1951,6 +2157,7 @@ class cfgWeapons
 		_generalMacro="arifle_CTAR_blk_F";
 		scope=2;
 		displayName="XDF Komodo";
+		descriptionShort = "AX Assault Rifle<br/>A gift from the XDF's eastern partners - though don't tell them it doesn't quite rival the Spearhead.<br/>Caliber: 5.8x42 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_CTAR_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -1976,6 +2183,7 @@ class cfgWeapons
 		_generalMacro="arifle_CTAR_GL_blk_F";
 		scope=2;
 		displayName="XDF Komodo GL";
+		descriptionShort = "AX Assault Rifle<br/>A gift from the XDF's eastern partners - though don't tell them it doesn't quite rival the Spearhead.<br/>Caliber: 5.8x42 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_CTAR_GL_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2019,6 +2227,7 @@ class cfgWeapons
 		_generalMacro="arifle_CTARS_blk_F";
 		scope=2;
 		displayName="XDF Komodo LSW";
+		descriptionShort = "AX Light Machinegun<br/>A gift from the XDF's eastern partners - though don't tell them it doesn't quite rival the Spearhead.<br/>Caliber: 5.8x42 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_CTARS_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2044,6 +2253,7 @@ class cfgWeapons
 		_generalMacro="arifle_AK12_F";
 		scope=2;
 		displayName="XDF AK-12";
+		descriptionShort = "AX Assault Rifle<br/>A modernised AK platform to get the job done.<br/>Caliber: 7.62x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_AK12_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2068,6 +2278,7 @@ class cfgWeapons
 		_generalMacro="arifle_AK12_GL_F";
 		scope=2;
 		displayName="XDF AK-12 GL";
+		descriptionShort = "AX Assault Rifle<br/>A modernised AK platform to get the job done.<br/>Caliber: 7.62x39 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_AK12_GL_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2103,6 +2314,7 @@ class cfgWeapons
 		_generalMacro="arifle_AK12U_F";
 		scope=2;
 		displayName="XDF AK-12U";
+		descriptionShort = "AX Carbine<br/>A modernised AK platform to get the job done.<br/>Caliber: 7.62x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_AK12U_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2128,6 +2340,7 @@ class cfgWeapons
 		_generalMacro="arifle_RPK12_F";
 		scope=2;
 		displayName="XDF RPK-12";
+		descriptionShort = "AX Light Machinegun<br/>A modernised AK platform to get the job done.<br/>Caliber: 7.62x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_RPK12_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -2154,6 +2367,7 @@ class cfgWeapons
 		_generalMacro="arifle_Katiba_F";
 		scope=2;
 		displayName="XDF Khaybar";
+		descriptionShort = "AX Assault Rifle<br/>A compact bullpup, though with contentious reliability.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_Katiba_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -2179,6 +2393,7 @@ class cfgWeapons
 		_generalMacro="arifle_Katiba_GL_F";
 		scope=2;
 		displayName="XDF Khaybar KGL";
+		descriptionShort = "AX Assault Rifle<br/>A compact bullpup, though with contentious reliability.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_Katiba_GL_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -2221,6 +2436,7 @@ class cfgWeapons
 		_generalMacro="arifle_Katiba_C_F";
 		scope=2;
 		displayName="XDF Khaybar Carbine";
+		descriptionShort = "AX Carbine<br/>A compact bullpup, though with contentious reliability.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_Katiba_C_XDF";
 		hiddenSelectionsTextures[]=
 		{
@@ -2245,6 +2461,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF CTAR-21";
+		descriptionShort = "AX Assault Rifle<br/>A proven platform - it is only fitting that this rifle find itself alongside weapons such as the Spearhead.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_TRG20_XDF";
 		hiddenSelections[]=
 		{
@@ -2272,6 +2489,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF CTAR-21 EGLM";
+		descriptionShort = "AX Assault Rifle<br/>A proven platform - it is only fitting that this rifle find itself alongside weapons such as the Spearhead.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_TRG21_GL_XDF";
 		hiddenSelections[]=
 		{
@@ -2320,6 +2538,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF F2000";
+		descriptionShort = "AX Assault Rifle<br/>A modular classic, this rifle is one of the older surplus variants in the XDF arsenal.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_Mk20_XDF";
 		hiddenSelections[]=
 		{
@@ -2347,6 +2566,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF F2000 EGLM";
+		descriptionShort = "AX Assault Rifle<br/>A modular classic, this rifle is one of the older surplus variants in the XDF arsenal.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="arifle_Mk20_GL_XDF";
 		hiddenSelections[]=
 		{
@@ -2393,6 +2613,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF F2000 Tactical";
+		descriptionShort = "AX Carbine<br/>A modular classic, this rifle is one of the older surplus variants in the XDF arsenal.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_Mk20C_XDF";
 		hiddenSelections[]=
 		{
@@ -2426,6 +2647,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF KRISS Vector";
+		descriptionShort = "AX Submachinegun<br/>Notorious lead-spitter, name-taker, and nemesis of all close encounters of the third kind.<br/>Caliber: 45 ACP - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_SMG_01";
 		initSpeed=650;
 		hiddenSelections[]=
@@ -2457,6 +2679,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF P90";
+		descriptionShort = "AX Submachinegun<br/>The famed innovative P90, now ticking off killing aliens on its list.<br/>Caliber: 5.7x28 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_SMG_03C_black";
 		initSpeed=933;
 		hiddenSelections[]=
@@ -2484,6 +2707,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF P90 TR";
+		descriptionShort = "AX Submachinegun<br/>The famed innovative P90, now ticking off killing aliens on its list.<br/>Caliber: 5.7x28 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_SMG_03C_TR_black";
 		initSpeed=933;
 		hiddenSelections[]=
@@ -2511,6 +2735,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF PS90";
+		descriptionShort = "AX Submachinegun<br/>Despite being the semi-auto civilian variant of the P90, the PS90 still finds itself in welcome hands of XDF military police.<br/>Caliber: 5.7x28 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_SMG_03_black";
 		initSpeed=933;
 		hiddenSelections[]=
@@ -2538,6 +2763,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF PS90 TR";
+		descriptionShort = "AX Submachinegun<br/>Despite being the semi-auto civilian variant of the P90, the PS90 still finds itself in welcome hands of XDF military police.<br/>Caliber: 5.7x28 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_SMG_03_TR_black";
 		initSpeed=933;
 		hiddenSelections[]=
@@ -2570,6 +2796,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Walther P99";
+		descriptionShort = "AX Pistol<br/>In the light of the escalating xeno-threat, sidearms are nothing more than comfort pieces in the modern age. But, it does look cool.<br/>Caliber: 9 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_hgun_P07";
 		hiddenSelections[]=
 		{
@@ -2591,11 +2818,40 @@ class cfgWeapons
 			"Pistol_9x21_XDF"
 		};
 	};
+	class hgun_Rook40_F;
+	class XDF_hgun_Rook40_F: hgun_Rook40_F // 16Rnd_9x21_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MP-443 Grach";
+		descriptionShort = "AX Pistol<br/>In the light of the escalating xeno-threat, sidearms are nothing more than comfort pieces in the modern age. But, it does look cool.<br/>Caliber: 9 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_hgun_Rook40_F";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\rook40\rook40_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"Pistol_9x21_XDF"
+		};
+	};
 	class XDF_hgun_ACPC2: hgun_ACPC2_F // 9Rnd_45ACP_Mag
 	{
 		author="Radium";
 		scope=2;
 		displayName="XDF Custom Covert II";
+		descriptionShort = "AX Pistol<br/>A modified variant of an iconic firearm - adding an intergalactic war to its list.<br/>Caliber: 45 ACP - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_hgun_ACPC2";
 		hiddenSelections[]=
 		{
@@ -2622,6 +2878,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF FNX-45 Tactical";
+		descriptionShort = "AX Pistol<br/>Standard-issue XDF infantry pistol.<br/>Caliber: 45 ACP - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_hgun_Pistol_heavy_01";
 		hiddenSelections[]=
 		{
@@ -2649,6 +2906,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Nemesis";
+		descriptionShort = "AX Revolver<br/>Research And Development decided self-loading pistols were so 21st century, and cooked up this deadly alien killer. Watch the heavy recoil and the slow reload, though.<br/>Caliber: 45 ACP - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_hgun_Pistol_heavy_02_F";
 		recoil="recoil_pistol_nemesis";
 		hiddenSelections[]=
@@ -2694,6 +2952,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marauder";
+		descriptionShort = "AX Marksman Rifle<br/>A lighter marksman rifle marketing itself as a capable infantry weapon in close and medium ranges.<br/>Caliber: 7.62x51 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_DMR_03";
 		hiddenSelections[]=
 		{
@@ -2722,6 +2981,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Bad News";
+		descriptionShort = "AX Marksman Rifle<br/>As this rifle's name suggests - bad news lies ahead for anyone on the receiving end of this .338 sharpshooter.<br/>Caliber: .338 Lapua Magnum - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_DMR_02";
 		hiddenSelections[]=
 		{
@@ -2750,6 +3010,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF HTI Caracal";
+		descriptionShort = "AX Sniper Rifle<br/>Who knew a hard target interceptor would be so good at hunting aliens?<br/>Caliber: 12.7x108 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_GM6";
 		hiddenSelections[]=
 		{
@@ -2797,6 +3058,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF HTI-X Caracal Railgun";
+		descriptionShort = "AX Railgun<br/>A truly impressive invention by XDF RD - a total conversion of the standard HTI Caracal into possibly the deadliest handheld infantry weapon in the XDF arsenal.<br/>The Caracal Railgun chambers a 20 mm sabot containing a solid metal slug made out of heavy alien alloy.<br/>This round can be optionally tipped with the same semi-liquid mixture used in anti-xeno missiles, though in significantly smaller amounts.<br/>An advanced electromagnetic rail system uses an exotic nanobattery stored in the weapon's stock for charging, and is capable of propelling the shot at 2,500m/s.<br/>Charging starts immediately upon loading a round and is held via graphene capacitors, ensuring instantaneous firing, while the reciprocating barrel forces some kinetic energy back into the system.<br/>The exotic nanobattery houses enough energy for prolonged engagements, and often exceeds the amount of ammo an operator could carry.<br/>Needless to say, even glancing blows with this weapon are extremely destructive.<br/>Caliber: 20mm SABOT / 12 mm slug - Electromagnetic Rail";
 		baseWeapon="XDF_srifle_GM6_railgun";
 		recoil="recoil_gm6_railgun";
 		mass=310; // default 253
@@ -2852,6 +3114,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Nova";
+		descriptionShort = "AX Marksman Rifle<br/>Chambered in the same caliber as the HK121, this high caliber rifle puts threats down with purpose.<br/>Caliber: 9.3x64 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_DMR_05_blk";
 		hiddenSelections[]=
 		{
@@ -2880,6 +3143,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF AKINA";
+		descriptionShort = "AX Marksman Rifle<br/>While subsonic rifles are not that useful against the xeno-threat, it is not rare that the XDF finds itself up against a conventional, near-peer enemy.<br/>Caliber: 12.7x54 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_DMR_04";
 		hiddenSelections[]=
 		{
@@ -2908,6 +3172,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Arbitrator";
+		descriptionShort = "AX Sniper Rifle<br/>While not intended for use against alien forces, AX ammunition proves significantly useful against hostile human forces too.<br/>Caliber: .408 - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_LRR";
 		hiddenSelections[]=
 		{
@@ -2934,6 +3199,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF VS-121";
+		descriptionShort = "AX Assault Rifle<br/>As XDF RD proves itself a consistent fan of bullpups, this eastern rifle was suggested to bridge the gap between assault and marksman rifles in theaters where it is more easily acquired.<br/>Caliber: 7.62x54 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_DMR_01";
 		hiddenSelections[]=
 		{
@@ -2962,6 +3228,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF MK-21 EBR";
+		descriptionShort = "AX Battle Rifle<br/>A modernised battle rifle enhanced with an AX munition-compatible chamber.<br/>Caliber: 7.62x51 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_EBR_F";
 		hiddenSelections[]=
 		{
@@ -2991,6 +3258,7 @@ class cfgWeapons
 		_generalMacro="arifle_SPAR_03_XDF_F";
 		scope=2;
 		displayName="XDF HK417 Marksman";
+		descriptionShort = "AX Marksman Rifle<br/>While predominantly a marksman rifle, the HK417's familiar controls and ergonomics make it an effective - albeit not very ideal - choice in close quarters.<br/>Caliber: 7.62x51 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="arifle_SPAR_03_XDF_F";
 		hiddenSelectionsTextures[]=
 		{
@@ -3015,6 +3283,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Tempest";
+		descriptionShort = "AX Marksman Rifle<br/>An eastern rifle, with capabilities often better surpassed by newer XDF weapons.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_DMR_07_blk_F";
 		hiddenSelections[]=
 		{
@@ -3051,6 +3320,7 @@ class cfgWeapons
 		scope=2;
 		picture="\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\UI\gear_MMG_01_tan_X_co.paa";
 		displayName="XDF HK121";
+		descriptionShort = "AX Medium Machinegun<br/>Chambered in the same round as the Nova, this machinegun - albeit heavy - is deadly when deployed correctly by XDF assault forces.<br/>Caliber: 9.3x64 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_MMG_01_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -3075,6 +3345,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF LWMMG";
+		descriptionShort = "AX Medium Machinegun<br/>With tighter accuracy tolerances, more controllable firerate than the HK121, and similar punch, this machinegun is often preferred by XDF overwatch teams.<br/>Caliber: .338 Norma Magnum - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_MMG_02_black";
 		hiddenSelectionsTextures[]=
 		{
@@ -3099,6 +3370,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF M249 SAW";
+		descriptionShort = "AX Light Machinegun<br/>A light 5.56 machinegun favored for its portability, accuracy, and reliability.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_LMG_03";
 		hiddenSelectionsTextures[]=
 		{
@@ -3123,6 +3395,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Stoner 99";
+		descriptionShort = "AX Light Machinegun<br/>The Stoner 99 is a light machinegun better suited for close-quarters combat.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_LMG_Mk200";
 		hiddenSelectionsTextures[]=
 		{
@@ -3153,6 +3426,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF M4 MAAWS";
+		descriptionShort = "AX Recoilless Rifle<br/>Anti-xeno recoilless rifle with the necessary changes to fire experimental rounds.<br/>Caliber: 84 mm MAAWS Rounds - Experimental AX Upgrade<br/>Thermobaric Round Capable";
 		baseWeapon="XDF_launch_MRAWS_black";
 		magazines[]=
 		{
@@ -3181,6 +3455,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Metis-M";
+		descriptionShort = "AX Missile Launcher<br/>Heavy anti-armor, wire-guided launcher used by special AT teams.<br/>Caliber: 130 mm Metis Missiles - Experimental AX Upgrade";
 		baseWeapon="XDF_launch_O_Vorona_black";
 		magazines[]=
 		{
@@ -3206,6 +3481,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Lance AA";
+		descriptionShort = "AX Anti-Air Launcher<br/>Man-portable anti-xeno air defense launcher.<br/>Caliber: 127 mm Lance Missiles - Experimental AX Upgrade";
 		baseWeapon="XDF_launch_B_Titan";
 		magazines[]=
 		{
@@ -3246,6 +3522,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Spear AT";
+		descriptionShort = "AX Anti-Tank Launcher<br/>Man-portable anti-xeno, anti-tank launcher.<br/>Caliber: 127 mm Spear Missiles - Experimental AX Upgrade";
 		baseWeapon="XDF_launch_B_Titan_short";
 		magazines[]=
 		{
@@ -3344,6 +3621,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Hammer";
+		descriptionShort = "AX Recoilless Rifle<br/>Anti-xeno recoilless rifle with the necessary changes to fire experimental rounds.<br/>Caliber: 105 mm Hammer Rounds - Experimental AX Upgrade<br/>Thermobaric Round Capable";
 		baseWeapon="XDF_launch_RPG32";
 		magazines[]+=
 		{
@@ -3439,6 +3717,24 @@ class cfgWeapons
 			};
 		};
 	};
+	class arifle_MX_XDF_F: arifle_MX_XDF // ACR-X2
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Hamr";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_65_TI_blk_F";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
 	class arifle_MSBS65_AX_XDF_black_F: arifle_MSBS65_XDF_black // Promet AX (Suppressed)
 	{
 		class linkedItems
@@ -3458,6 +3754,16 @@ class cfgWeapons
 		};
 	};
 	class arifle_MSBS65_CRW_XDF_black_F: arifle_MSBS65_XDF_black // Promet Crew
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Aco";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class arifle_MXC_XDF_F: arifle_MXC_XDF // ACR-X2 Carbine
 	{
 		class linkedItems
 		{
