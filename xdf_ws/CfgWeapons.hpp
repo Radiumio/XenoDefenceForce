@@ -212,6 +212,13 @@ class CfgWeapons
 		{
 			"SLR_762x51_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\slr_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class arifle_Velko_lxWS;
 	class XDF_arifle_Velko_lxWS: arifle_Velko_lxWS

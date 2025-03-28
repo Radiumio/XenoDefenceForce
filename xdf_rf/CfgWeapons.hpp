@@ -166,7 +166,7 @@ class CfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\deagle_reload.ogg",
-			2,
+			4,
 			1,
 			10
 		};
