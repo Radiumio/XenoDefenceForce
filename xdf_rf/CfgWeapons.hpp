@@ -1,3 +1,4 @@
+class EGLM;
 class CfgWeapons
 {
 	class H_HelmetB_plain_sb_mtp_RF;
@@ -68,6 +69,13 @@ class CfgWeapons
 		{
 			"ASH12_127x55_RF_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ash12_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class arifle_ash12_GL_blk_RF;
 	class XDF_arifle_ash12_GL_blk_RF: arifle_ash12_GL_blk_RF
@@ -87,6 +95,30 @@ class CfgWeapons
 		{
 			"ASH12_127x55_RF_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ash12_reload.ogg",
+			2,
+			1,
+			10
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mx_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
 	};
 	class arifle_ash12_LR_blk_RF;
 	class XDF_arifle_ash12_LR_blk_RF: arifle_ash12_LR_blk_RF
@@ -104,6 +136,13 @@ class CfgWeapons
 		magazineWell[] +=
 		{
 			"ASH12_127x55_RF_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ash12_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 
@@ -124,6 +163,13 @@ class CfgWeapons
 		{
 			"Pistol_DEagle_RF_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\deagle_reload.ogg",
+			4,
+			1,
+			10
+		};
 	};
 	class hgun_Glock19_RF;
 	class XDF_hgun_Glock19_RF: hgun_Glock19_RF
@@ -141,6 +187,13 @@ class CfgWeapons
 		{
 			"Pistol_9x19_RF_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class hgun_Glock19_auto_RF;
 	class XDF_hgun_Glock19_auto_RF: hgun_Glock19_auto_RF
@@ -157,6 +210,13 @@ class CfgWeapons
 		magazineWell[] +=
 		{
 			"Pistol_9x19_RF_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p07_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 

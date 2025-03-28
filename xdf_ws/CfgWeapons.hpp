@@ -1,3 +1,5 @@
+class GL203_lxWS;
+class UGL_lxWS;
 class CfgWeapons
 {
 	class lxWS_H_bmask_base;
@@ -212,6 +214,13 @@ class CfgWeapons
 		{
 			"SLR_762x51_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\slr_reload.ogg",
+			4,
+			1,
+			10
+		};
 	};
 	class arifle_Velko_lxWS;
 	class XDF_arifle_Velko_lxWS: arifle_Velko_lxWS
@@ -229,6 +238,13 @@ class CfgWeapons
 		magazineWell[] +=
 		{
 			"556x45_Velko_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\velko_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 	class arifle_VelkoR5_lxWS;
@@ -248,6 +264,13 @@ class CfgWeapons
 		magazineWell[] +=
 		{
 			"556x45_Velko_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\velko_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 	class arifle_VelkoR5_GL_lxWS;
@@ -270,6 +293,30 @@ class CfgWeapons
 		{
 			"556x45_Velko_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\velko_reload.ogg",
+			2,
+			1,
+			10
+		};
+		class GL203_lxWS: GL203_lxWS
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\trg_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
 	};
 	class LMG_S77_lxWS;
 	class XDF_LMG_S77_lxWS: LMG_S77_lxWS
@@ -289,6 +336,13 @@ class CfgWeapons
 		magazineWell[] +=
 		{
 			"S77_762x51_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ss77_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 	class LMG_S77_Compact_lxWS;
@@ -311,6 +365,13 @@ class CfgWeapons
 		{
 			"S77_762x51_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\ss77_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class arifle_XMS_lxWS;
 	class XDF_arifle_XMS_lxWS: arifle_XMS_lxWS
@@ -329,6 +390,13 @@ class CfgWeapons
 		{
 			"STANAG_556x45_XDF",
 			"XMS_556x45_Large_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\xms_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 	class arifle_XMS_GL_lxWS;
@@ -350,6 +418,30 @@ class CfgWeapons
 			"STANAG_556x45_XDF",
 			"XMS_556x45_Large_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\xms_reload.ogg",
+			2,
+			1,
+			10
+		};
+		class UGL_lxWS: UGL_lxWS
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
 	};
 	class arifle_XMS_Shot_lxWS;
 	class XDF_arifle_XMS_Shot_lxWS: arifle_XMS_Shot_lxWS
@@ -369,6 +461,13 @@ class CfgWeapons
 			"STANAG_556x45_XDF",
 			"XMS_556x45_Large_XDF"
 		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\xms_reload.ogg",
+			2,
+			1,
+			10
+		};
 	};
 	class arifle_XMS_M_lxWS;
 	class XDF_arifle_XMS_M_lxWS: arifle_XMS_M_lxWS
@@ -387,6 +486,13 @@ class CfgWeapons
 		{
 			"STANAG_556x45_XDF",
 			"XMS_556x45_Large_XDF"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\xms_reload.ogg",
+			2,
+			1,
+			10
 		};
 	};
 	class glaunch_GLX_lxWS;
