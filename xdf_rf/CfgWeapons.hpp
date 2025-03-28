@@ -159,4 +159,17 @@ class CfgWeapons
 			"Pistol_9x19_RF_XDF"
 		};
 	};
+
+	class TiGoggles_RF;
+	class XDF_TiGoggles_RF: TiGoggles_RF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF TNVG-B";
+		hiddenSelectionsTextures[] = 
+		{
+			"a3\characters_f\common\data\nvg_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\headgear\tnvg_black_rf_co.paa"
+		};	
+	};
 };
