@@ -11,6 +11,7 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="XDF Templar Undersuit";
+		picture="\xdf_rtk\templarIcon.paa";
 		descriptionShort = "Undersuit designed to be used with the prototype Templar protective exoskeleton.";
 		hiddenSelections[]=
 		{
@@ -46,6 +47,7 @@ class CfgWeapons
 		author="Moose & Radium";
 		scope=2;
 		displayName="XDF Templar Exoskeleton";
+		picture="\xdf_rtk\templarIcon.paa";
 		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection while granting the operator exceptional load-bearing capability.";
 		hiddenSelectionsTextures[]=
 		{
@@ -66,6 +68,7 @@ class CfgWeapons
 		author="Moose & Radium";
 		scope=2;
 		displayName="XDF Templar Exoskeleton (Attachments)";
+		picture="\xdf_rtk\templarIcon.paa";
 		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection while granting the operator exceptional load-bearing capability.";
 		hiddenSelectionsTextures[]=
 		{
@@ -89,6 +92,7 @@ class CfgWeapons
 		author="Moose & Radium";
 		scope=2;
 		displayName="XDF Templar Exoskeleton (Attachments, No Shoulders)";
+		picture="\xdf_rtk\templarIcon.paa";
 		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection while granting the operator exceptional load-bearing capability.";
 		hiddenSelectionsTextures[]=
 		{
@@ -110,6 +114,7 @@ class CfgWeapons
 	class H_XDF_Templar_Helmet: Ratnik_HelmetBlack
 	{
 		displayName = "XDF Templar Helmet";
+		picture="\xdf_rtk\templarIcon.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_rtk\retextures\xdf_uniform\helmets\H_XDF_Templar_Helmet.paa"

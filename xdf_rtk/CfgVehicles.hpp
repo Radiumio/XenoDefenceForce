@@ -17,6 +17,7 @@ class CfgVehicles
 		author="Radium";
 		scope=2;
 		displayName="XDF Templar Backpack";
+		picture="\xdf_rtk\templarIcon.paa";
 		descriptionShort="Load-bearing backpack designed to be paired with the prototype Templar exoskeleton.";
 		hiddenSelectionsTextures[]=
 		{
