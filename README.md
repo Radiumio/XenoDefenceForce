@@ -28,6 +28,7 @@ With the **Expeditionary Forces** or **Reaction Forces** CDLCs loaded, additiona
 - **<a href="https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/">Expeditionary Forces CDLC</a>**
 - **<a href="https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/">Western Sahara CDLC</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>**
+- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a>**
 
 <img src="https://i.imgur.com/ePSzqnC.png" width="900"></p>
 While anyone is welcome to interpret the XDF organization as they wish, official lore regarding the faction can be read here, and is being expanded gradually.
@@ -54,6 +55,7 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - The textures from JustAndFriendly's <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1283439288">Y-32 Xi'an Recolors</a> mod that were used to speed up creating the texture for the **XDF Wraith** [i](XDF Xi'an equivalent)[/i].
 - Thank you to **Quiggs**, the creator of <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>, who gave me permission to retexture the Ripsaw for the XDF!
 - Thank you to **Rotators Collective** and **Tiny Gecko Studios** for providing the samples for their respective CDLCs, and in some cases providing extra textures!
+- Thank you to **Moose (Outworld Studios)** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a> mod and allowing it to be retextured.
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
