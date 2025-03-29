@@ -48,7 +48,7 @@ class CfgWeapons
 		scope=2;
 		displayName="XDF Templar Exoskeleton";
 		picture="\xdf_rtk\templarIcon.paa";
-		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection while granting the operator exceptional load-bearing capability.";
+		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection, though some load-bearing capacity is sacrificed to support the weight of the armor.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Armor.paa",
@@ -69,7 +69,7 @@ class CfgWeapons
 		scope=2;
 		displayName="XDF Templar Exoskeleton (Attachments)";
 		picture="\xdf_rtk\templarIcon.paa";
-		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection while granting the operator exceptional load-bearing capability.";
+		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection, though some load-bearing capacity is sacrificed to support the weight of the armor.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Armor.paa",
@@ -93,7 +93,7 @@ class CfgWeapons
 		scope=2;
 		displayName="XDF Templar Exoskeleton (Attachments, No Shoulders)";
 		picture="\xdf_rtk\templarIcon.paa";
-		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection while granting the operator exceptional load-bearing capability.";
+		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype exoskeleton. Offers impressive ballistic protection, though some load-bearing capacity is sacrificed to support the weight of the armor.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Armor.paa",
@@ -114,6 +114,7 @@ class CfgWeapons
 	class H_XDF_Templar_Helmet: Ratnik_HelmetBlack
 	{
 		displayName = "XDF Templar Helmet";
+		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype helmet, designed to be paired with the Templar exoskeleton. Visor offers real-time target highlighting, with night-vision and thermal imaging integration.";
 		picture="\xdf_rtk\templarIcon.paa";
 		hiddenSelectionsTextures[] = 
 		{
