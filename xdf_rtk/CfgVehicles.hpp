@@ -17,7 +17,7 @@ class CfgVehicles
 		author="Radium";
 		scope=2;
 		displayName="XDF Templar Backpack";
-		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch.";
+		descriptionShort="Load-bearing backpack designed to be paired with the prototype Templar exoskeleton.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Attach.paa"
