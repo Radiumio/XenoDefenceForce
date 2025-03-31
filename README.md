@@ -45,7 +45,7 @@ If you'd like to support the mod and throw me a bone, consider donating to my Ko
 <a href="https://ko-fi.com/radiumio">Radium's Ko-Fi</a>
 
 <img src="https://i.imgur.com/ROnqErr.png" width="900"></p>
-XDF is licensed under <a href="https://github.com/Radiumio/XenoDefenceForce/blob/main/LICENSE">GPLv3</a>. You may **not** redistribute and reupload the mod in modpacks, please use the ArmA launcher's preset export to **include** XDF in your modlist.
+XDF is licensed under <a href="https://www.bohemia.net/community/licenses/arma-public-license-share-alike">APL-SA</a>. You may **not** redistribute and reupload the mod in modpacks, please use the ArmA launcher's preset export to **include** XDF in your modlist.
 
 This mod will **only ever be** posted under the steam account **radiumio**.
 <img src="https://i.imgur.com/cOQpqYV.png" width="900"></p>
