@@ -1,6 +1,6 @@
 class CfgPatches 
 {
-	class xdf_ef
+	class xdf_rtk
 	{
 		addonRootClass = "xdf";
 		requiredAddons[] = 
