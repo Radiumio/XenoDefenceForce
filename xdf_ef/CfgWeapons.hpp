@@ -398,6 +398,71 @@ class cfgWeapons
 			containerClass="Supply300";
 		};
 	};
+	class EF_H_MCH;
+	class H_XDF_MCH: EF_H_MCH
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Combat Helmet";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_co.paa"
+		};
+	};
+	class EF_H_MCH_Basic;
+	class H_XDF_MCH_Basic: EF_H_MCH_Basic
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Combat Helmet (ComTacs)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_co.paa"
+		};
+	};
+	class EF_H_MCH_BasicNet_Black;
+	class H_XDF_MCH_BasicNet: EF_H_MCH_BasicNet_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Combat Helmet (ComTacs/Cover)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac and Cover variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_co.paa"
+		};
+	};
+	class EF_H_MCH_Full;
+	class H_XDF_MCH_Full: EF_H_MCH_Full
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Combat Helmet (Full, ComTacs)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_co.paa"
+		};
+	};
+	class EF_H_MCH_FullCamo_Black;
+	class H_XDF_MCH_FullNet: EF_H_MCH_FullCamo_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Combat Helmet (Full, ComTacs/Cover)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_co.paa"
+		};
+	};
 	class EF_LPNVG;
 	class XDF_LPNVG: EF_LPNVG
 	{
