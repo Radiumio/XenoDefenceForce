@@ -1150,7 +1150,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible)";
-		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible."
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1163,7 +1163,7 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
+					armor = 12;
 					passThrough = 0.5;
 				};
 			};
@@ -1174,7 +1174,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible, Radium)";
-		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible. Personalised for Operative Radium."
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible. Personalised for Operative Radium."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1187,7 +1187,7 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
+					armor = 12;
 					passThrough = 0.5;
 				};
 			};
@@ -1198,7 +1198,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible - Beast)";
-		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black_b.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1211,7 +1211,7 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
+					armor = 12;
 					passThrough = 0.5;
 				};
 			};
