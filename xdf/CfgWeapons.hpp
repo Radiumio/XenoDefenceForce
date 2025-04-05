@@ -1124,7 +1124,11 @@ class cfgWeapons
 		};
 	};
 
-	class H_SSU_Stealth_Combat_Helmet_base;
+	class H_HelmetB_TI_tna_F;
+	class H_SSU_Stealth_Combat_Helmet_base: H_HelmetB_TI_tna_F
+	{ 
+		class ItemInfo; 
+	};
 	class H_SSU_Combat_Helmet_base;
 	class H_SSU_Enhanced_Combat_Helmet_base;
 	class H_SSU_Camo_Combat_Helmet_base;
@@ -1152,6 +1156,18 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
+				};
+			};
+		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_Black_Rad: H_SSU_Stealth_Combat_Helmet_base
 	{
@@ -1164,6 +1180,18 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad.paa"
 		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
+				};
+			};
+		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_Black_b: H_SSU_Stealth_Combat_Helmet_base
 	{
@@ -1175,6 +1203,18 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_NM_Black: H_SSU_Combat_Helmet_base
