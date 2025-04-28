@@ -3687,6 +3687,26 @@ class cfgWeapons
 		};
 	};
 
+	// Custom Weapons
+	class XDF_Mantis: arifle_MX_Black_F
+	{
+		author="Radium";
+		baseWeapon="XDF_Mantis";
+		scope=2;
+		displayName="XDF R-31 Mantis";
+		descriptionShort="Experimental Railgun";
+		model="\xdf\weapons\mantis\r31_railgun.p3d";
+		class GunParticles
+		{
+			class FirstEffect
+			{
+				directionName="Konec hlavne";
+				effectName="RifleAssaultCloud";
+				positionName="Usti hlavne";
+			};
+		};
+	};
+
 	// Loadouts
 	class arifle_MSBS65_black_F;
 	class arifle_MSBS65_UBS_black_F;
