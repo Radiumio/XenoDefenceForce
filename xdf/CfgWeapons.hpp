@@ -3696,7 +3696,7 @@ class cfgWeapons
 		displayName="XDF R-31 Mantis";
 		descriptionShort="Experimental Railgun";
 		model="\xdf\weapons\mantis\r31_railgun.p3d";
-		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun-handanim.rtm"};
+		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
 		class GunParticles
 		{
 			class FirstEffect
