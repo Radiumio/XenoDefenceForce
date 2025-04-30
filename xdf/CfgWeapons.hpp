@@ -3697,6 +3697,8 @@ class cfgWeapons
 		descriptionShort="Experimental Railgun";
 		model="\xdf\weapons\mantis\r31_railgun.p3d";
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
+		selectionFireAnim = "muzzleFlash";
+		reloadAction = "GestureReloadXDFMantis";
 		class GunParticles
 		{
 			class FirstEffect
@@ -3707,6 +3709,7 @@ class cfgWeapons
 			};
 		};
 	};
+
 
 	// Loadouts
 	class arifle_MSBS65_black_F;
