@@ -37,7 +37,7 @@ class CfgGesturesMale
 		{
 			file = "\xdf\weapons\mantis\railgun_reload.rtm";
 			looped = 0;
-			speed = 0.25;
+			speed = 0.22;
 			mask = "handsWeapon";
 			headBobStrength = 0.200000;
 			headBobMode = 2;
