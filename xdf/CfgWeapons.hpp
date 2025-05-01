@@ -3702,7 +3702,7 @@ class cfgWeapons
 		reloadAction = "GestureReloadXDFMantis";
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\rpg32_reload.ogg",
+			"\xdf\sounds\reloads\mantis_reload.ogg",
 			4,
 			1,
 			10
