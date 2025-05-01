@@ -52,7 +52,7 @@ class CfgSoundSets
     };
     class Mantis_tail_SoundSet {
         soundShaders[] = { "Mantis_tailForest_SoundShader", "Mantis_tailHouses_SoundShader", "Mantis_tailMeadows_SoundShader", "Mantis_tailTrees_SoundShader" };
-        volumeFactor = 1;
+        volumeFactor = 0.7;
         volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 100;
         stereoRadius = 50;
@@ -156,14 +156,14 @@ class CfgSoundShaders
 	class Mantis_midShot_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\mantis\mantis_midshot_01.ogg",1},{"\xdf\sounds\shot\mantis\mantis_midshot_02.ogg",1},{"\xdf\sounds\shot\mantis\mantis_midshot_03.ogg",1}};
-		volume = 0.4;
+		volume = 0.7;
 		range = 1800;
 		rangeCurve[] = {{0,0.2},{100,1},{300,0},{1800,0}};
 	};
 	class Mantis_distShot_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\mantis\mantis_distshot_01.ogg",1},{"\xdf\sounds\shot\mantis\mantis_distshot_02.ogg",1},{"\xdf\sounds\shot\mantis\mantis_distshot_03.ogg",1}};
-		volume = 1.7;
+		volume = 2.2;
 		range = 1800;
 		rangeCurve[] = {{0,0},{100,0},{300,1},{1800,1}};
 	};
