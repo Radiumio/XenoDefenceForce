@@ -35,7 +35,7 @@ class CfgSoundSets
 		distanceFilter = "explosionDistanceFreqAttenuationFilter";
 	};
     class Mantis_shot_SoundSet {
-        soundShaders[] = { "Mantis_closeShot_SoundShader", "Mantis_midShot_SoundShader", "Mantis_distShot_SoundShader", "Mantis_closure_SoundShader","Mantis_tailInterior_SoundShader" };
+        soundShaders[] = { "Mantis_closeShot_SoundShader", "Mantis_midShot_SoundShader", "Mantis_distShot_SoundShader", "Mantis_closure_SoundShader" };
         volumeFactor = 1.2;
         volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 8;
@@ -51,7 +51,7 @@ class CfgSoundSets
         loop = 0;
     };
     class Mantis_tail_SoundSet {
-        soundShaders[] = { "Mantis_tailForest_SoundShader", "Mantis_tailHouses_SoundShader", "Mantis_tailMeadows_SoundShader", "Mantis_tailTrees_SoundShader" };
+        soundShaders[] = { "Mantis_tailForest_SoundShader", "Mantis_tailHouses_SoundShader", "Mantis_tailMeadows_SoundShader", "Mantis_tailTrees_SoundShader", "Mantis_tailInterior_SoundShader" };
         volumeFactor = 0.5;
         volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 100;
@@ -170,10 +170,10 @@ class CfgSoundShaders
 	class Mantis_tailInterior_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\mantis\mantis_tailinterior.ogg",1}};
-		volume="0.7 * interior";
+        volume = "1.5*((interior)*0.65)";
 		range = 500;
-		rangeCurve[] = {{0,0},{600,1},{1500,1}};
-		limitable = 1;
+		rangeCurve[] = {{0,0.7},{250,0}};
+		limitation = 1;
 	};
 	class Mantis_tailForest_SoundShader
 	{
@@ -181,7 +181,7 @@ class CfgSoundShaders
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1500;
 		rangeCurve[] = {{0,1},{1500,0.3}};
-		limitable = 1;
+		limitation = 1;
 	};
 	class Mantis_tailHouses_SoundShader
 	{
@@ -189,7 +189,7 @@ class CfgSoundShaders
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {{0,1},{200,0.5},{800,0.3},{1500,0}};
-		limitable = 1;
+		limitation = 1;
 	};
 	class Mantis_tailMeadows_SoundShader
 	{
@@ -197,7 +197,7 @@ class CfgSoundShaders
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 1500;
 		rangeCurve[] = {{0,1},{1500,0.3}};
-		limitable = 1;
+		limitation = 1;
 	};
 	class Mantis_tailTrees_SoundShader
 	{
@@ -205,6 +205,6 @@ class CfgSoundShaders
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1500;
 		rangeCurve[] = {{0,1},{1500,0.3}};
-		limitable = 1;
+		limitation = 1;
 	};
 };
