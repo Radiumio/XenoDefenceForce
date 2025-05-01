@@ -2,6 +2,9 @@
 class mode_semiauto;
 class mode_burst;
 class mode_fullauto;
+class WeaponSlotsInfo;
+class CowsSlot_Rail;
+class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
 class cfgWeapons
@@ -3700,6 +3703,12 @@ class cfgWeapons
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
+		initSpeed=1100;
+		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
+		magazineWell[]=
+		{
+			"Mantis_10mm"
+		};
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\mantis_reload.ogg",
@@ -3796,6 +3805,26 @@ class cfgWeapons
 			maxRangeProbab = 0.05;
 			aiRateOfFire = 8;
 			aiRateOfFireDistance = 700;
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 110;
+			class MuzzleSlot
+			{
+			};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.37, 0.24};
+				iconScale = 0.2;
+			};
+			class PointerSlot: PointerSlot_Rail
+			{
+				iconPosition[] = {0.21, 0.38};
+				iconScale = 0.2;
+			};
+			class UnderBarrelSlot
+			{
+			};
 		};
 	};
 

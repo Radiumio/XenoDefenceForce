@@ -584,6 +584,29 @@ class CfgAmmo
 			frequency = 20;
 		};
 	};
+	class B_10mm_railshot: B_127x108_railshot_blue
+	{
+		hit=60; // default 60
+		cartridge = "";
+		indirectHit=0;
+		indirectHitRange=0;
+		typicalSpeed=1100;
+		timeToLive=8;
+		class CamShakeFire
+		{
+			power = 0.3;
+			duration = 2.5;
+			frequency = 20;
+			distance = 10;
+		};
+		class CamShakePlayerFire
+		{
+			power = 0.8;
+			duration = 5;
+			frequency = 20;
+			distance = 1;
+		};
+	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
 	{

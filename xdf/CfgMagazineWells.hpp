@@ -165,6 +165,13 @@ class CfgMagazineWells
 			"1Rnd_127x108_APDSHERG_Mag_blue_tracer"
 		};
 	};
+	class Mantis_10mm
+	{
+		XDF_Magazines[]=
+		{
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer"
+		};
+	};
 	class Cyrus_93_XDF
 	{
 		XDF_Magazines[]=

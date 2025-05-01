@@ -855,6 +855,17 @@ class CfgMagazines
 		tracersEvery=1;
 		mass=12;
 	};
+	class 50Rnd_10mm_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="SABOT 50Rnd Railgun Magazine (APDS-AX)";
+		displaynameshort="10mm AX-RG";
+		ammo="B_10mm_railshot";
+		count=50;
+		tracersEvery=1;
+		mass=16;
+	};
 
 	class 10Rnd_93x64_DMR_05_Mag;
 	class 10Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag
