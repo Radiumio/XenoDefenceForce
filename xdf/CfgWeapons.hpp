@@ -3688,7 +3688,8 @@ class cfgWeapons
 	};
 
 	// Custom Weapons
-	class XDF_Mantis: arifle_MX_Black_F
+	class arifle_MX_Base_F;
+	class XDF_Mantis: arifle_MX_Base_F
 	{
 		author="Radium";
 		baseWeapon="XDF_Mantis";
@@ -3699,6 +3700,20 @@ class cfgWeapons
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\rpg32_reload.ogg",
+			4,
+			1,
+			10
+		};
+		drySound[]=
+		{
+			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
+			0.56234133,
+			1,
+			10
+		};
 		class GunParticles
 		{
 			class FirstEffect
@@ -3707,6 +3722,80 @@ class cfgWeapons
 				effectName="RifleAssaultCloud";
 				positionName="Usti hlavne";
 			};
+		};
+		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		class Single: Mode_SemiAuto
+		{
+			reloadTime = 0.12;
+			recoil = "recoil_single_mx";
+			recoilProne = "recoil_single_prone_mx";
+			dispersion = 0.0005;
+			minRange = 2;
+			minRangeProbab = 0.5;
+			midRange = 200;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.3;
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			reloadTime = 0.12;
+			dispersion = 0.00087;
+			recoil = "recoil_auto_mx";
+			recoilProne = "recoil_auto_prone_mx";
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 15;
+			midRangeProbab = 0.7;
+			maxRange = 30;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 1e-06;
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			minRange = 2;
+			minRangeProbab = 0.2;
+			midRange = 450;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
+		};
+		class single_far_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			showToPlayer = 0;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 500;
+			midRangeProbab = 0.6;
+			maxRange = 700;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 8;
+			aiRateOfFireDistance = 700;
 		};
 	};
 
