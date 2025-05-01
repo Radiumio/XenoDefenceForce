@@ -35,7 +35,7 @@ class CfgSoundSets
 		distanceFilter = "explosionDistanceFreqAttenuationFilter";
 	};
     class Mantis_shot_SoundSet {
-        soundShaders[] = { "Mantis_closeShot_SoundShader", "Mantis_midShot_SoundShader", "Mantis_distShot_SoundShader", "Mantis_closure_SoundShader" };
+        soundShaders[] = { "Mantis_closeShot_SoundShader", "Mantis_midShot_SoundShader", "Mantis_distShot_SoundShader", "Mantis_closure_SoundShader","Mantis_tailInterior_SoundShader" };
         volumeFactor = 1.2;
         volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 8;
@@ -167,14 +167,14 @@ class CfgSoundShaders
 		range = 1800;
 		rangeCurve[] = {{0,0},{100,0},{300,1},{1800,1}};
 	};
-	//class Mantis_tailDistant_SoundShader
-	//{
-	//	samples[] = {{"\xdf\sounds\shot\mantis\mantis_midshot_01.ogg",1}};
-	//	volume = 1.4125376;
-	//	range = 1500;
-	//	rangeCurve[] = {{0,0},{600,1},{1500,1}};
-	//	limitable = 1;
-	//};
+	class Mantis_tailInterior_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\mantis\mantis_tailinterior.ogg",1}};
+		volume="0.7 * interior";
+		range = 500;
+		rangeCurve[] = {{0,0},{600,1},{1500,1}};
+		limitable = 1;
+	};
 	class Mantis_tailForest_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\mantis\mantis_tailforest.ogg",1}};
