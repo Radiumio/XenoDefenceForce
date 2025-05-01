@@ -3703,14 +3703,14 @@ class cfgWeapons
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\mantis_reload.ogg",
-			4,
+			4.5,
 			1,
 			10
 		};
 		drySound[]=
 		{
 			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
-			0.56234133,
+			0.6,
 			1,
 			10
 		};
