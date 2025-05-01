@@ -1,32 +1,22 @@
 class CfgMovesBasic
 {
-	class DefaultDie;
+	class Default;
 	class ManActions
 	{
-		GestureReloadXDFMantis[] = {"GestureReloadXDFMantis","Gesture"};
+		GestureReloadXDFMantis = "GestureReloadXDFMantis";
 	};
-    //class Actions
-    //{
-    //    class RifleBaseStandActions;
-    //    class RifleProneActions: RifleBaseStandActions
-    //    {
-    //        GestureReloadXDFMantis = "GestureReloadXDFMantisProne";
-    //    };
-    //};
+    class Actions
+    {
+		class NoActions : ManActions {
+			GestureReloadXDFMantis[] = {"GestureReloadXDFMantis", "Gesture"};
+		};
+		class RifleBaseLowStandActions: NoActions {};
+        class RifleBaseStandActions: RifleBaseLowStandActions {};
+        class RifleProneActions: RifleBaseStandActions {
+            GestureReloadXDFMantis[] = {"GestureReloadXDFMantisProne", "Gesture"};
+        };
+    };
 };
-
-//class CfgMovesMaleSdr: CfgMovesBasic
-//{
-//    class States
-//    {
-//        class RifleReloadProneMX: RifleReloadProneBase
-//        {
-//            file = "a3\anims_f\data\anim\sdr\gst\gesturereloadmxprone.rtm";
-//            speed = 0.37;
-//            leftHandIKCurve[] = {0.012,1,0.041,0,0.941,0,0.982,1};
-//        };
-//    };
-//};
 
 class CfgGesturesMale
 {
@@ -44,6 +34,12 @@ class CfgGesturesMale
 			rightHandIKBeg = 1;
 			rightHandIKEnd = 1;
 			leftHandIKCurve[] = { 0, 1, 0.050000, 0, 0.950000, 0, 1, 1 };
+		};
+		class GestureReloadXDFMantisProne : GestureReloadXDFMantis
+		{
+			mask = "BodyFull";
+			file = "a3\anims_f\data\anim\sdr\gst\gesturereloadm200prone.rtm";
+			speed=0.2;
 		};
 	};
 };
