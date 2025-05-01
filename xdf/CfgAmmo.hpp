@@ -592,6 +592,7 @@ class CfgAmmo
 		indirectHitRange=0;
 		typicalSpeed=1100;
 		timeToLive=8;
+		soundFly[]={};
 		class CamShakeFire
 		{
 			power = 0.3;
