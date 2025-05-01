@@ -3704,6 +3704,10 @@ class cfgWeapons
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
 		initSpeed=1100;
+		fireLightDuration = 0.1;
+		fireLightIntensity = 0.3;
+		fireLightDiffuse[] = {0.2, 0.2, 0.8};
+		fireLightAmbient[] = {0, 0, 0};
 		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
 		magazineWell[]=
 		{
