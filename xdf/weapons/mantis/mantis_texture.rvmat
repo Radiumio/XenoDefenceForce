@@ -2,8 +2,8 @@
 	Generated on https://jdtools.dev/
 	Made by John Doe
 */
-ambient[] = { 1, 1, 1, 1 };
-diffuse[] = { 1, 1, 1, 1 };
+ambient[] = { 0.8, 0.8, 0.8, 1 };
+diffuse[] = { 0.8, 0.8, 0.8, 1 };
 forcedDiffuse[] = { 0, 0, 0, 1 };
 emmisive[] = { 0, 0, 0, 1 };
 specular[] = { 0.1, 0.1, 0.1, 1 };
