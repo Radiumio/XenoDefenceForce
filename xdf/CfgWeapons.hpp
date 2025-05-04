@@ -3698,7 +3698,7 @@ class cfgWeapons
 		baseWeapon="XDF_Mantis";
 		scope=2;
 		displayName="XDF R-31 Mantis";
-		descriptionShort="Experimental Railgun";
+		descriptionShort="Prototype Assault Railgun<br/>The Mantis is a cutting-edge XDF prototype weapon, designed to be the next generation of standard-issue infantry portable weapon for XDF operatives.<br/>Dubbed an 'assault railgun', the Mantis uses a rapid-charging electromagnetic rail to deliver solid 10mm slugs at 1100m/s, while a 50 round magazine and complex internal delivery and loading mechanism gives it an edge over other handheld railguns.<br/>Unfortunately, the Mantis is unwieldly and bulky - mainly due to the reinforced design required to house the bulky battery and charging mechanism derived from alien technology.<br/>On top of that, the Mantis project is exceptionally expensive. While many of these assault railguns are continuing to be produced, the costs involved sadly make the Mantis fall short of becoming standard-issue.";
 		model="\xdf\weapons\mantis\r31_railgun.p3d";
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
 		selectionFireAnim = "muzzleFlash";
