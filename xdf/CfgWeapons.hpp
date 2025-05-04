@@ -3698,7 +3698,7 @@ class cfgWeapons
 		baseWeapon="XDF_Mantis";
 		scope=2;
 		displayName="XDF R-31 Mantis";
-		descriptionShort="Prototype Assault Railgun<br/>The Mantis is a cutting-edge XDF prototype weapon, designed to be the next generation of standard-issue infantry portable weapon for XDF operatives.<br/>Designated as an 'assault railgun', the Mantis uses a rapid-charging electromagnetic rail to deliver solid 10mm slugs at 1100m/s, while a 50 round magazine with its complex internal delivery and loading mechanism gives it an edge over other handheld railguns in terms of sustained firerate.<br/>Unfortunately, the Mantis is unwieldly and bulky - mainly due to the reinforced design required to house the bulky battery and charging mechanism derived from alien technology.<br/>On top of that, the Mantis project is exceptionally expensive. While many of these assault railguns are continuing to be produced, the costs involved sadly make the Mantis fall short of becoming standard-issue.<br/>Yet, this railgun's usefulness in combat against the xeno-threat cannot be understated, and remains vital in anti-xeno hunter groups.";
+		descriptionShort="Prototype Assault Railgun<br/>The Mantis is a cutting-edge XDF prototype weapon, designed to be the next generation of standard-issue infantry portable weapon for XDF operatives.<br/>Designated as an 'assault railgun', the Mantis uses a rapid-charging electromagnetic rail to deliver solid 10mm slugs at 1100m/s,<br/>while a 50 round magazine with its complex internal delivery and loading mechanism gives it an edge over other handheld railguns in terms of sustained firerate.<br/>Unfortunately, the Mantis is unwieldly and bulky - mainly due to the reinforced design required to house the bulky battery and charging mechanism derived from alien technology.<br/>On top of that, the Mantis project is exceptionally expensive. While many of these assault railguns are continuing to be produced, the costs involved sadly make the Mantis fall short of becoming standard-issue.<br/>Yet, this railgun's usefulness in combat against the xeno-threat cannot be understated, and remains vital in anti-xeno hunter groups.";
 		model="\xdf\weapons\mantis\r31_railgun.p3d";
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
 		selectionFireAnim = "muzzleFlash";
@@ -3744,7 +3744,7 @@ class cfgWeapons
 			reloadTime = 0.12;
 			recoil = "recoil_single_mx";
 			recoilProne = "recoil_single_prone_mx";
-			dispersion = 0.0005;
+			dispersion = 0.00005;
 			minRange = 2;
 			minRangeProbab = 0.5;
 			midRange = 200;
@@ -3765,7 +3765,7 @@ class cfgWeapons
 		class FullAuto: Mode_FullAuto
 		{
 			reloadTime = 0.12;
-			dispersion = 0.00087;
+			dispersion = 0.00005;
 			recoil = "recoil_auto_mx";
 			recoilProne = "recoil_auto_prone_mx";
 			minRange = 0;
@@ -3814,7 +3814,7 @@ class cfgWeapons
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 240;
+			mass = 353;
 			class MuzzleSlot
 			{
 			};
