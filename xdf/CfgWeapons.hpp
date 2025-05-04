@@ -3744,7 +3744,7 @@ class cfgWeapons
 			reloadTime = 0.12;
 			recoil = "recoil_single_mx";
 			recoilProne = "recoil_single_prone_mx";
-			dispersion = 0.0002;
+			dispersion = 0.0001;
 			minRange = 2;
 			minRangeProbab = 0.5;
 			midRange = 200;
@@ -3765,7 +3765,7 @@ class cfgWeapons
 		class FullAuto: Mode_FullAuto
 		{
 			reloadTime = 0.12;
-			dispersion = 0.0002;
+			dispersion = 0.0001;
 			recoil = "recoil_auto_mx";
 			recoilProne = "recoil_auto_prone_mx";
 			minRange = 0;
