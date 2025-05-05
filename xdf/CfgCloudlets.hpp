@@ -326,38 +326,38 @@ class CfgCloudlets
 	};
 	class Mantis_Muzzle_Sparks: Default
 	{
-		interval = 0.02;
+		interval = 0.005;
 		circleRadius = 0;
 		circleVelocity[] = {0,0,0};
 		particleFSNtieth = 16;
 		particleFSIndex = 13;
 		particleFSFrameCount = 2;
 		particleFSLoop = 0;
-		angleVar = 90;
+		angleVar = 45;
 		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
 		particleType = "Billboard";
 		timerPeriod = 1;
-		lifeTime = 1.5;
-		moveVelocity[] = {0,"directionLocalY",0};
+		lifeTime = 1;
+		moveVelocity[] = {0,"-5*directionLocalY",0};
 		rotationVelocity = 1;
 		weight = 0.2;
 		volume = 0.005;
-		friction = 0.0005;
-		size[] = {0.08,0.1,0.15};
+		friction = 0.002;
+		size[] = {0.06,0.08,0.15};
 		color[] =
 		{
 				{0,0,1,1},
-				{0,0.3,1,-6},
-				{0,0.3,1,-5.5},
-				{0,0.3,1,-4.5}
+				{0,0.2,1,1},
+				{0,0,1,1},
+				{0,0.2,1,1}
 		};
 		emissive[] = {0,0.441468,1,1};
-		animationSpeed[] = {500};
+		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.35;
 		randomDirectionIntensity = 2.5;
 		onTimerScript = "";
 		beforeDestroyScript = "";
-		lifeTimeVar = 2.5;
+		lifeTimeVar = 1.5;
 		position[] = {"positionX","positionY","positionZ"};
 		positionVar[] = {0,0,0};
 		moveVelocityVar[] = {0.2,1,0.2};
@@ -365,7 +365,7 @@ class CfgCloudlets
 		sizeVar = 0.08;
 		randomDirectionPeriodVar = 0.2;
 		randomDirectionIntensityVar = 0.3;
-		angle = 90;
+		angle = 0;
 	};
 	class MantisRefractUp: Default
 	{
