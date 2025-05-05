@@ -333,12 +333,12 @@ class CfgCloudlets
 		particleFSIndex = 13;
 		particleFSFrameCount = 2;
 		particleFSLoop = 0;
-		angleVar = 360;
+		angleVar = 90;
 		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
 		particleType = "Billboard";
 		timerPeriod = 1;
 		lifeTime = 1.5;
-		moveVelocity[] = {0,0.2,0};
+		moveVelocity[] = {0, "0.2*directionY", 0};
 		rotationVelocity = 1;
 		weight = 1.05;
 		volume = 1;
@@ -347,9 +347,9 @@ class CfgCloudlets
 		color[] =
 		{
 				{0,0,1,1},
-				{1,0.3,0.3,-6},
-				{1,0.3,0.3,-5.5},
-				{1,0.3,0.3,-4.5}
+				{0,0.3,1,-6},
+				{0,0.3,1,-5.5},
+				{0,0.3,1,-4.5}
 		};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.5;
@@ -357,21 +357,18 @@ class CfgCloudlets
 		onTimerScript = "";
 		beforeDestroyScript = "";
 		lifeTimeVar = 2;
-		positionVar[] = {0,0.2,0};
+		position[] = {"positionX","positionY","positionZ"};
+		positionVar[] = {0,0,0};
 		moveVelocityVar[] = {0.2,1,0.2};
 		rotationVelocityVar = 6;
 		sizeVar = 0.08;
 		colorVar[] = {0,0.441468,1,0};
+		emissiveVar[] = {0,0.441468,1,0};
 		randomDirectionPeriodVar = 0.2;
 		randomDirectionIntensityVar = 0.3;
-		coreIntensity = 0;
-		coreDistance = 0;
-		damageTime = 0;
-		damageType = "";
-		angle = 0;
-		position[] = {0,0,0};
+		angle = 90;
 	};
-	class Refract: Default
+	class MantisRefractUp: Default
 	{
 		interval = 0.1;
 		circleRadius = 0;
@@ -381,12 +378,12 @@ class CfgCloudlets
 		particleFSIndex = 0;
 		particleFSFrameCount = 1;
 		particleFSLoop = 0;
-		angleVar = 1;
+		angleVar = 90;
 		animationName = "";
 		particleType = "Billboard";
 		timerPeriod = 1;
 		lifeTime = 2;
-		moveVelocity[] = {0, 0.6, 0};
+		moveVelocity[] = {0, 0, "0.6*directionZ"};
 		rotationVelocity = 0;
 		weight = 0.05;
 		volume = 0.04;
@@ -403,7 +400,7 @@ class CfgCloudlets
 		beforeDestroyScript = "";
 		blockAIVisibility = 0;
 		lifeTimeVar = 0.3;
-		position[] = {0, 0, 0};
+		position[] = {"positionX","positionY","positionZ"};
 		positionVar[] = {0.1, 0.2, 0.1};
 		MoveVelocityVar[] = {0.05, 0.5, 0.05};
 		rotationVelocityVar = 0;
@@ -411,6 +408,11 @@ class CfgCloudlets
 		colorVar[] = {0, 0, 0, 0.1};
 		randomDirectionPeriodVar = 0.2;
 		randomDirectionIntensityVar = 0.05;
+	};
+	class MantisRefractDown: MantisRefractUp
+	{
+		moveVelocity[] = {0, 0, "-0.6*directionZ"};
+		position[] = {"positionX","positionY","positionZ"};
 	};
 };
 
@@ -550,22 +552,37 @@ class XDF_Mantis_Muzzle_Sparks
 	{
 		simulation="particles";
 		type="Mantis_Muzzle_Sparks";
+		position[]={0,0,0};
 		intensity=1;
+		interval=1;
+		lifeTime=0.5;
+		qualityLevel=2;
+	};
+};
+
+class XDF_Mantis_Shroud_Heat_Down
+{
+	class ShroudHeat1
+	{
+		simulation="particles";
+		type="MantisRefractDown";
+		position[]={0,0,0};
+		intensity=0.2;
 		interval=1;
 		lifeTime=1;
 		qualityLevel=2;
 	};
 };
-
-class XDF_Mantis_Shroud_Heat
+class XDF_Mantis_Shroud_Heat_Up
 {
-	class MuzzleSparks1
+	class ShroudHeat2
 	{
 		simulation="particles";
-		type="Refract";
+		type="MantisRefractUp";
+		position[]={0,0,0};
 		intensity=0.2;
 		interval=1;
-		lifeTime=2;
+		lifeTime=1;
 		qualityLevel=2;
 	};
 };

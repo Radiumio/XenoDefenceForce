@@ -3717,6 +3717,27 @@ class cfgWeapons
 		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
 		inertia = 1.5;
 		dexterity = 0.7;
+		class GunParticles
+		{
+			class FirstEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Down";
+				positionName = "hv1pos";
+				directionName = "hv1dir";
+			};
+			class SecondEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Up";
+				positionName = "hv2pos";
+				directionName = "hv2dir";
+			};
+			class ThirdEffect
+			{
+				effectName = "XDF_Mantis_Muzzle_Sparks";
+				positionName = "ms1pos";
+				directionName = "ms1dir";
+			};
+		};
 		magazineWell[]=
 		{
 			"Mantis_10mm"
@@ -3734,27 +3755,6 @@ class cfgWeapons
 			0.6,
 			1,
 			10
-		};
-		class GunParticles
-		{
-			class effect1
-			{
-				positionName="heatVentUpPos";
-				directionName="heatVentUpDir";
-				effectName="XDF_Mantis_Shroud_Heat";
-			};
-			class effect2
-			{
-				positionName="heatVentDownPos";
-				directionName="heatVentDownDir";
-				effectName="XDF_Mantis_Shroud_Heat";
-			};
-			class effect3
-			{
-				positionName="muzzleSparks";
-				directionName="muzzleSparksDir";
-				effectName="XDF_Mantis_Muzzle_Sparks";
-			};
 		};
 		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
 		class Single: Mode_SemiAuto
