@@ -47,4 +47,8 @@ class CfgEditorCategories
 	{
 		displayName = "Supplies (XDF)";
 	};
+	class XDF_Weapons
+	{
+		displayName = "Weapons (XDF)";
+	};
 };

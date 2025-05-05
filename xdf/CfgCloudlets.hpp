@@ -338,7 +338,7 @@ class CfgCloudlets
 		particleType = "Billboard";
 		timerPeriod = 1;
 		lifeTime = 1;
-		moveVelocity[] = {0,"-5*directionLocalY",0};
+		moveVelocity[] = {"3*directionLocalY","3*directionLocalY","3*directionLocalY"};
 		rotationVelocity = 1;
 		weight = 0.2;
 		volume = 0.005;
@@ -346,12 +346,15 @@ class CfgCloudlets
 		size[] = {0.06,0.08,0.15};
 		color[] =
 		{
-				{0,0,1,1},
-				{0,0.2,1,1},
-				{0,0,1,1},
-				{0,0.2,1,1}
+				{0,0.1,1,-1},
+				{0,0.2,1,-1},
+				{0,0.3,1,-1},
+				{0,0.4,1,-1}
 		};
-		emissive[] = {0,0.441468,1,1};
+		emissive[] = 
+		{
+			0,0.4,1,-1
+		};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.35;
 		randomDirectionIntensity = 2.5;
@@ -554,7 +557,7 @@ class XDF_Mantis_Muzzle_Sparks
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
-		lifeTime=0.5;
+		lifeTime=0.2;
 		qualityLevel=2;
 	};
 };
