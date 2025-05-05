@@ -23,5 +23,6 @@ class CfgVehicles
 		{
 			"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Attach.paa"
 		};
+		maximumLoad=350;
 	};
 };

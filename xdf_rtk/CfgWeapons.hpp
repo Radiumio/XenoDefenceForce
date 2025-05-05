@@ -56,6 +56,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+			containerClass="Supply350";
 			hiddenSelectionsTextures[]=
 			{
 				"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Armor.paa",
@@ -78,6 +79,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+			containerClass="Supply350";
 			hiddenSelectionsTextures[]=
 			{
 				"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Armor.paa",
@@ -102,6 +104,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+			containerClass="Supply350";
 			hiddenSelectionsTextures[]=
 			{
 				"\xdf_rtk\retextures\xdf_uniform\vests\V_XDF_Templar_Armor.paa",
