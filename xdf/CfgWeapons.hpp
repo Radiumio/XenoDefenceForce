@@ -3137,7 +3137,7 @@ class cfgWeapons
 				soundsetshot[]=
 				{
 					"XDF_GM6LynxRail_Shot_SoundSet",
-					"GM6Lynx_Tail_SoundSet",
+					"Mantis_tail_SoundSet",
 					"GM6Lynx_InteriorTail_SoundSet"
 				};
 			};
