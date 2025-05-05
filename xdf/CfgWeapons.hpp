@@ -3737,6 +3737,18 @@ class cfgWeapons
 				positionName = "ms1pos";
 				directionName = "ms1dir";
 			};
+			//class FourthEffect
+			//{
+			//	effectName = "XDF_Mantis_Muzzle_Sparks";
+			//	positionName = "hv1pos";
+			//	directionName = "hv1dir";
+			//};
+			//class FifthEffect
+			//{
+			//	effectName = "XDF_Mantis_Muzzle_Sparks";
+			//	positionName = "hv2pos";
+			//	directionName = "hv2dir";
+			//};
 		};
 		magazineWell[]=
 		{

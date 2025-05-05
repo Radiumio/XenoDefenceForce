@@ -338,12 +338,12 @@ class CfgCloudlets
 		particleType = "Billboard";
 		timerPeriod = 1;
 		lifeTime = 1.5;
-		moveVelocity[] = {0, "0.2*directionY", 0};
+		moveVelocity[] = {0,"directionLocalY",0};
 		rotationVelocity = 1;
-		weight = 1.05;
-		volume = 1;
-		rubbing = 0.17;
-		size[] = {0.1,0.1,0.1,0.1,0.1,0.08,0.08,0.08,0.08,0};
+		weight = 0.2;
+		volume = 0.005;
+		friction = 0.0005;
+		size[] = {0.08,0.1,0.15};
 		color[] =
 		{
 				{0,0,1,1},
@@ -351,19 +351,18 @@ class CfgCloudlets
 				{0,0.3,1,-5.5},
 				{0,0.3,1,-4.5}
 		};
-		animationSpeed[] = {1000};
-		randomDirectionPeriod = 0.5;
-		randomDirectionIntensity = 0.55;
+		emissive[] = {0,0.441468,1,1};
+		animationSpeed[] = {500};
+		randomDirectionPeriod = 0.35;
+		randomDirectionIntensity = 2.5;
 		onTimerScript = "";
 		beforeDestroyScript = "";
-		lifeTimeVar = 2;
+		lifeTimeVar = 2.5;
 		position[] = {"positionX","positionY","positionZ"};
 		positionVar[] = {0,0,0};
 		moveVelocityVar[] = {0.2,1,0.2};
 		rotationVelocityVar = 6;
 		sizeVar = 0.08;
-		colorVar[] = {0,0.441468,1,0};
-		emissiveVar[] = {0,0.441468,1,0};
 		randomDirectionPeriodVar = 0.2;
 		randomDirectionIntensityVar = 0.3;
 		angle = 90;
