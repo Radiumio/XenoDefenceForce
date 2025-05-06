@@ -862,6 +862,7 @@ class CfgMagazines
 		displayName="SABOT 50Rnd Railgun Magazine (APDS-AX)";
 		displaynameshort="10mm AX-RG";
 		descriptionShort="Caliber: 10mm SABOT AX Slug<br/>Rounds: 50<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag.paa";
 		ammo="B_10mm_railshot";
 		count=50;
 		tracersEvery=1;
