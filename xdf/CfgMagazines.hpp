@@ -865,7 +865,7 @@ class CfgMagazines
 		ammo="B_10mm_railshot";
 		count=50;
 		tracersEvery=1;
-		mass=72;
+		mass=68;
 	};
 
 	class 10Rnd_93x64_DMR_05_Mag;
