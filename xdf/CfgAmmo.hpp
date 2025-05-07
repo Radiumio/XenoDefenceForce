@@ -586,7 +586,7 @@ class CfgAmmo
 	};
 	class B_10mm_railshot: B_127x108_railshot_blue
 	{
-		hit=20; // default 60
+		hit=35; // default 20
 		cartridge = "";
 		indirectHit=0;
 		indirectHitRange=0;
