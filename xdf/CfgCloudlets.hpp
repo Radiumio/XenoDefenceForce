@@ -324,7 +324,100 @@ class CfgCloudlets
 		angle = 0;
 		position[] = {0,0,0};
 	};
+	class Mantis_Muzzle_Sparks: Default
+	{
+		interval = 0.005;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 13;
+		particleFSFrameCount = 2;
+		particleFSLoop = 0;
+		angleVar = 45;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 1;
+		moveVelocity[] = {"3*directionLocalY","3*directionLocalY","3*directionLocalY"};
+		rotationVelocity = 1;
+		weight = 0.2;
+		volume = 0.005;
+		friction = 0.002;
+		size[] = {0.06,0.08,0.15};
+		color[] =
+		{
+				{0,0.1,1,-1},
+				{0,0.2,1,-1},
+				{0,0.3,1,-1},
+				{0,0.4,1,-1}
+		};
+		emissive[] = 
+		{
+			0,0.4,1,-1
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.35;
+		randomDirectionIntensity = 2.5;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 1.5;
+		position[] = {"positionX","positionY","positionZ"};
+		positionVar[] = {0,0,0};
+		moveVelocityVar[] = {0.2,1,0.2};
+		rotationVelocityVar = 6;
+		sizeVar = 0.08;
+		randomDirectionPeriodVar = 0.2;
+		randomDirectionIntensityVar = 0.3;
+		angle = 0;
+	};
+	class MantisRefractUp: Default
+	{
+		interval = 0.1;
+		circleRadius = 0;
+		circleVelocity[] = {0, 0, 0};
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Refract";
+		particleFSNtieth = 1;
+		particleFSIndex = 0;
+		particleFSFrameCount = 1;
+		particleFSLoop = 0;
+		angleVar = 90;
+		animationName = "";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 2;
+		moveVelocity[] = {0, 0, "0.6*directionZ"};
+		rotationVelocity = 0;
+		weight = 0.05;
+		volume = 0.04;
+		rubbing = 0.05;
+		size[] = {0.2, 0.8, 2.6};
+		sizeCoef = 1;
+		color[] = {{0.6, 0.6, 0.6, 0.2}, {0.7, 0.7, 0.7, 0.2}, {0.8, 0.8, 0.8, 0.1}, {1, 1, 1, 0}};
+		colorCoef[] = {1, 1, 1, 1};
+		animationSpeed[] = {1.5, 0.5};
+		animationSpeedCoef = 1;
+		randomDirectionPeriod = 0.4;
+		randomDirectionIntensity = 0.09;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		blockAIVisibility = 0;
+		lifeTimeVar = 0.3;
+		position[] = {"positionX","positionY","positionZ"};
+		positionVar[] = {0.1, 0.2, 0.1};
+		MoveVelocityVar[] = {0.05, 0.5, 0.05};
+		rotationVelocityVar = 0;
+		sizeVar = 0.3;
+		colorVar[] = {0, 0, 0, 0.1};
+		randomDirectionPeriodVar = 0.2;
+		randomDirectionIntensityVar = 0.05;
+	};
+	class MantisRefractDown: MantisRefractUp
+	{
+		moveVelocity[] = {0, 0, "-0.6*directionZ"};
+		position[] = {"positionX","positionY","positionZ"};
+	};
 };
+
 class CfgLights
 {
 	class XDF_RocketLight
@@ -451,6 +544,47 @@ class XDF_ThermobaricHit
 		intensity=1;
 		interval=1;
 		lifeTime=3;
+		qualityLevel=2;
+	};
+};
+
+class XDF_Mantis_Muzzle_Sparks
+{
+	class MuzzleSparks1
+	{
+		simulation="particles";
+		type="Mantis_Muzzle_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=0.2;
+		qualityLevel=2;
+	};
+};
+
+class XDF_Mantis_Shroud_Heat_Down
+{
+	class ShroudHeat1
+	{
+		simulation="particles";
+		type="MantisRefractDown";
+		position[]={0,0,0};
+		intensity=0.2;
+		interval=1;
+		lifeTime=1;
+		qualityLevel=2;
+	};
+};
+class XDF_Mantis_Shroud_Heat_Up
+{
+	class ShroudHeat2
+	{
+		simulation="particles";
+		type="MantisRefractUp";
+		position[]={0,0,0};
+		intensity=0.2;
+		interval=1;
+		lifeTime=1;
 		qualityLevel=2;
 	};
 };

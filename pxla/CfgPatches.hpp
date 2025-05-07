@@ -56,5 +56,4 @@ class CfgPatches
 			"V_XLA_Defector_Carrier_Rig_Red"
 		};
 	};
-
 };

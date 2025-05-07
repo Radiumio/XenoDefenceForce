@@ -40192,4 +40192,33 @@ class CfgVehicles
 		class TransportItems {};
 		class TransportBackpacks {};
 	};
+
+	// Weapon Holders //
+	class Weapon_Base_F;
+	class Weapon_XDF_Mantis: Weapon_Base_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF R-31 Mantis";
+		author = "Radium";
+		editorCategory = "XDF_Weapons";
+		editorSubcategory = "EdSubcat_AssaultRifles";
+		vehicleClass = "WeaponsPrimary";
+		class TransportWeapons
+		{
+			class XDF_Mantis
+			{
+				weapon = "XDF_Mantis";
+				count = 1;
+			};
+		};
+		class TransportMagazines
+		{
+			class 50Rnd_10mm_APDSRG_Mag_blue_tracer
+			{
+				magazine = "50Rnd_10mm_APDSRG_Mag_blue_tracer";
+				count = 1;
+			};
+		};
+	};
 };

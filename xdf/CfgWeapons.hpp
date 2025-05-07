@@ -2,6 +2,9 @@
 class mode_semiauto;
 class mode_burst;
 class mode_fullauto;
+class WeaponSlotsInfo;
+class CowsSlot_Rail;
+class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
 class cfgWeapons
@@ -1124,7 +1127,11 @@ class cfgWeapons
 		};
 	};
 
-	class H_SSU_Stealth_Combat_Helmet_base;
+	class H_HelmetB_TI_tna_F;
+	class H_SSU_Stealth_Combat_Helmet_base: H_HelmetB_TI_tna_F
+	{ 
+		class ItemInfo; 
+	};
 	class H_SSU_Combat_Helmet_base;
 	class H_SSU_Enhanced_Combat_Helmet_base;
 	class H_SSU_Camo_Combat_Helmet_base;
@@ -1146,11 +1153,23 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible)";
-		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible."
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_Black_Rad: H_SSU_Stealth_Combat_Helmet_base
@@ -1158,11 +1177,23 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible, Radium)";
-		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible. Personalised for Operative Radium."
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible. Personalised for Operative Radium."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_Black_b: H_SSU_Stealth_Combat_Helmet_base
@@ -1170,11 +1201,23 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF Spec-Ops Helmet (Mandible - Beast)";
-		descriptionShort="Armor Level II<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black_b.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class H_XDF_Stealth_Combat_Helmet_NM_Black: H_SSU_Combat_Helmet_base
@@ -3094,7 +3137,7 @@ class cfgWeapons
 				soundsetshot[]=
 				{
 					"XDF_GM6LynxRail_Shot_SoundSet",
-					"GM6Lynx_Tail_SoundSet",
+					"Mantis_tail_SoundSet",
 					"GM6Lynx_InteriorTail_SoundSet"
 				};
 			};
@@ -3647,6 +3690,181 @@ class cfgWeapons
 		};
 	};
 
+	// Custom Weapons
+	class arifle_MX_Base_F;
+	class XDF_Mantis: arifle_MX_Base_F
+	{
+		author="Radium";
+		baseWeapon="XDF_Mantis";
+		scope=2;
+		displayName="XDF R-31 Mantis";
+		descriptionShort="Prototype Assault Railgun<br/>The Mantis is a cutting-edge XDF prototype weapon, designed to be the next generation of standard-issue infantry portable weapon for XDF operatives.<br/>Designated as an 'assault railgun', the Mantis uses a rapid-charging electromagnetic rail to deliver solid 10mm slugs at 1100m/s,<br/>while a 50 round magazine with its complex internal delivery and loading mechanism gives it an edge over other handheld railguns in terms of sustained firerate.<br/>Unfortunately, the Mantis is unwieldly and bulky - mainly due to the reinforced design required to house the solid-state battery and charging mechanism derived from alien technology.<br/>On top of that, the Mantis project is exceptionally expensive. While many of these assault railguns are continuing to be produced, the costs involved sadly make the Mantis fall short of becoming standard-issue.<br/>Yet, this railgun's usefulness in combat against the xeno-threat cannot be understated, and remains vital in anti-xeno hunter groups.";
+		model="\xdf\weapons\mantis\r31_railgun.p3d";
+		picture="\xdf\weapons\mantis\gear_mantis_invl.paa";
+		UiPicture = "\A3\weapons_f\data\UI\icon_mg_ca.paa";
+		class Library
+		{
+				libTextDesc = "The Mantis is a cutting-edge XDF prototype weapon, designed to be the next generation of standard-issue infantry portable weapon for XDF operatives. Designated as an 'assault railgun', the Mantis uses a rapid-charging electromagnetic rail to deliver solid 10mm slugs at 1100m/s, while a 50 round magazine with its complex internal delivery and loading mechanism gives it an edge over other handheld railguns in terms of sustained firerate. Unfortunately, the Mantis is unwieldly and bulky - mainly due to the reinforced design required to house the solid-state battery and charging mechanism derived from alien technology. On top of that, the Mantis project is exceptionally expensive. While many of these assault railguns are continuing to be produced, the costs involved sadly make the Mantis fall short of becoming standard-issue. Yet, this railgun's usefulness in combat against the xeno-threat cannot be understated, and remains vital in anti-xeno hunter groups.";
+		};
+		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
+		selectionFireAnim = "muzzleFlash";
+		reloadAction = "GestureReloadXDFMantis";
+		initSpeed=1100;
+		fireLightDuration = 0.05;
+		fireLightIntensity = 0.5;
+		fireLightDiffuse[] = {0, 0.2, 1};
+		fireLightAmbient[] = {0, 0, 0};
+		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
+		inertia = 1.5;
+		dexterity = 0.7;
+		class GunParticles
+		{
+			class FirstEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Down";
+				positionName = "hv1pos";
+				directionName = "hv1dir";
+			};
+			class SecondEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Up";
+				positionName = "hv2pos";
+				directionName = "hv2dir";
+			};
+			class ThirdEffect
+			{
+				effectName = "XDF_Mantis_Muzzle_Sparks";
+				positionName = "ms1pos";
+				directionName = "ms1dir";
+			};
+			//class FourthEffect
+			//{
+			//	effectName = "XDF_Mantis_Muzzle_Sparks";
+			//	positionName = "hv1pos";
+			//	directionName = "hv1dir";
+			//};
+			//class FifthEffect
+			//{
+			//	effectName = "XDF_Mantis_Muzzle_Sparks";
+			//	positionName = "hv2pos";
+			//	directionName = "hv2dir";
+			//};
+		};
+		magazineWell[]=
+		{
+			"Mantis_10mm"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\mantis_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		drySound[]=
+		{
+			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
+			0.6,
+			1,
+			10
+		};
+		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		class Single: Mode_SemiAuto
+		{
+			reloadTime = 0.12;
+			recoil = "recoil_single_mx";
+			recoilProne = "recoil_single_prone_mx";
+			dispersion = 0.00015;
+			minRange = 2;
+			minRangeProbab = 0.5;
+			midRange = 200;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.3;
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			reloadTime = 0.12;
+			dispersion = 0.00015;
+			recoil = "recoil_auto_mx";
+			recoilProne = "recoil_auto_prone_mx";
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 15;
+			midRangeProbab = 0.7;
+			maxRange = 30;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 1e-06;
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			minRange = 2;
+			minRangeProbab = 0.2;
+			midRange = 450;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
+		};
+		class single_far_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			showToPlayer = 0;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 500;
+			midRangeProbab = 0.6;
+			maxRange = 700;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 8;
+			aiRateOfFireDistance = 700;
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 353;
+			class MuzzleSlot
+			{
+			};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.37, 0.24};
+				iconScale = 0.2;
+			};
+			class PointerSlot: PointerSlot_Rail
+			{
+				iconPosition[] = {0.21, 0.38};
+				iconScale = 0.2;
+			};
+			class UnderBarrelSlot
+			{
+			};
+		};
+	};
+
+
 	// Loadouts
 	class arifle_MSBS65_black_F;
 	class arifle_MSBS65_UBS_black_F;
@@ -4133,7 +4351,7 @@ class cfgWeapons
 			soundBurst=0;
 			multiplier=3;
 			reloadTime=0.033333302;
-			dispersion=0.0115;
+			dispersion=0.0015;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;
 			minRange=0;
