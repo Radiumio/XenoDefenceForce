@@ -29,6 +29,7 @@ class CfgPatches
 			"XDF_Tusk",
 			"XDF_Caiman",
 			"XDF_Comanche",
+			"XDF_Comanche_Pylons",
 			"XDF_Medusa",
 			"XDF_Medusa_Ammo",
 			"XDF_Medusa_Bench",
