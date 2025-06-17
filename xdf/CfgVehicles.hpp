@@ -17659,8 +17659,8 @@ class CfgVehicles
 			{ 
 				gunnerType = "B_XDF_Pilot"; 
 			};
-			class CargoTurret_01 {};
-			class CargoTurret_02 {};
+			class CargoTurret_01: CargoTurret_01 {};
+			class CargoTurret_02: CargoTurret_02 {};
 		};
 		class TextureSources
 		{
