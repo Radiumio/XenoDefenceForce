@@ -17496,6 +17496,27 @@ class CfgVehicles
 				};
 			};
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 	};
 	class B_Heli_Attack_01_pylons_dynamicLoadout_F;
 	class B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_01 : B_Heli_Attack_01_pylons_dynamicLoadout_F { scope = 0; class AnimationSources; class Turrets; };
@@ -17555,6 +17576,27 @@ class CfgVehicles
 				};
 			};
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 	};
 	class B_Heli_Transport_03_base_F;
     class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
@@ -17605,6 +17647,28 @@ class CfgVehicles
 			{ 
 				gunnerType = "B_XDF_Heli_Crew"; 
 			};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_black_CO.paa",
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
 		};
 	};
 	class B_Heli_Transport_01_F;
