@@ -17497,6 +17497,65 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_Heli_Attack_01_pylons_dynamicLoadout_F;
+	class B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_01 : B_Heli_Attack_01_pylons_dynamicLoadout_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_02 : B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_01 {
+		class AnimationSources;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Comanche_Pylons: B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Comanche (Pylons)";
+		editorPreview="\xdf\previews\vehicles\XDF_Comanche_Pylons.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\comanche\heli_attack_01_co.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling 
+			{
+				source="revolving";
+				weapon="AX_gatling_20mm";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="AX_gatling_20mm";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_gatling_20mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"1500Rnd_20mm_AX_shells",
+					"Laserbatteries"
+				};
+			};
+		};
+	};
 	class B_Heli_Transport_03_base_F;
     class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
     class B_Heli_Transport_03_base_F_OCimport_02 : B_Heli_Transport_03_base_F_OCimport_01 { 
