@@ -17496,6 +17496,107 @@ class CfgVehicles
 				};
 			};
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Heli_Attack_01_pylons_dynamicLoadout_F;
+	class B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_01 : B_Heli_Attack_01_pylons_dynamicLoadout_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_02 : B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_01 {
+		class AnimationSources;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Comanche_Pylons: B_Heli_Attack_01_pylons_dynamicLoadout_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Comanche (Pylons)";
+		editorPreview="\xdf\previews\vehicles\XDF_Comanche_Pylons.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		fuelCapacity = 3750; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\comanche\heli_attack_01_co.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Gatling 
+			{
+				source="revolving";
+				weapon="AX_gatling_20mm";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="AX_gatling_20mm";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"AX_gatling_20mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"1500Rnd_20mm_AX_shells",
+					"Laserbatteries"
+				};
+			};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 	};
 	class B_Heli_Transport_03_base_F;
     class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
@@ -17547,6 +17648,28 @@ class CfgVehicles
 				gunnerType = "B_XDF_Heli_Crew"; 
 			};
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_black_CO.paa",
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 	};
 	class B_Heli_Transport_01_F;
     class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
@@ -17595,6 +17718,95 @@ class CfgVehicles
 			{ 
 				gunnerType = "B_XDF_Heli_Crew"; 
 			};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Heli_Transport_01_pylons_F;
+    class B_Heli_Transport_01_pylons_F_OCimport_01 : B_Heli_Transport_01_pylons_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_pylons_F_OCimport_02 : B_Heli_Transport_01_pylons_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+			class CopilotTurret;
+			class CargoTurret_01;
+			class CargoTurret_02;
+        };
+    };
+	class XDF_Dragonfly_Pylons: B_Heli_Transport_01_pylons_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dragonfly (Pylons)";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly_Pylons.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 300; // Default 300
+		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+		};
+		class Turrets : Turrets
+		{
+			class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+			class CargoTurret_01: CargoTurret_01 {};
+			class CargoTurret_02: CargoTurret_02 {};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
 		};
 	};
 	class I_Heli_Transport_02_F;
