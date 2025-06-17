@@ -17688,13 +17688,13 @@ class CfgVehicles
 			class CargoTurret_02;
         };
     };
-	class XDF_Dragonfly_Armed: B_Heli_Transport_01_pylons_F_OCimport_02
+	class XDF_Dragonfly_Pylons: B_Heli_Transport_01_pylons_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "XDF Dragonfly (Armed)";
-		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly_Armed.jpg";
+		displayName = "XDF Dragonfly (Pylons)";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly_Pylons.jpg";
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Pilot";
