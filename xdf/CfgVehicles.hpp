@@ -17596,6 +17596,95 @@ class CfgVehicles
 				gunnerType = "B_XDF_Heli_Crew"; 
 			};
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_Heli_Transport_01_pylons_F;
+    class B_Heli_Transport_01_pylons_F_OCimport_01 : B_Heli_Transport_01_pylons_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_pylons_F_OCimport_02 : B_Heli_Transport_01_pylons_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+			class CopilotTurret;
+			class CargoTurret_01;
+			class CargoTurret_02;
+        };
+    };
+	class XDF_Dragonfly_Armed: B_Heli_Transport_01_pylons_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dragonfly (Armed)";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly_Armed.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 300; // Default 300
+		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+		};
+		class Turrets : Turrets
+		{
+			class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+			class CargoTurret_01 {};
+			class CargoTurret_02 {};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 	};
 	class I_Heli_Transport_02_F;
 	class XDF_Merlin: I_Heli_Transport_02_F

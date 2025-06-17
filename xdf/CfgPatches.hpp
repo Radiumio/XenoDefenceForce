@@ -46,6 +46,7 @@ class CfgPatches
 			"XDF_Medusa_Repair_Pod",
 			"XDF_Skyhawk",
 			"XDF_Dragonfly",
+			"XDF_Dragonfly_Armed",
 			"XDF_Merlin",
 			"XDF_Mako",
 			"XDF_Mako_Unarmed",
