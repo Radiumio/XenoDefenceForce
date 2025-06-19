@@ -3761,6 +3761,13 @@ class cfgWeapons
 			1,
 			10
 		};
+		changeFiremodeSound[] = 
+		{
+			"\xdf\sounds\shot\mantis\mantis_firemode.ogg", 
+			0.7, 
+			1, 
+			5
+		};
 		drySound[]=
 		{
 			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
