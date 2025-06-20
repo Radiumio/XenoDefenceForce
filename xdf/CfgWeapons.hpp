@@ -4837,7 +4837,7 @@ class cfgWeapons
 
 	// Attachments
 	class optic_Nightstalker;
-	class XDF_Mantis_Scope: optic_Nightstalker
+	class optic_Mantis_Scope: optic_Nightstalker
 	{
 		author="Radium";
 		displayName="R-31 Mantis Experimental Optic"
