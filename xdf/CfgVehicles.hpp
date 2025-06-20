@@ -17821,7 +17821,7 @@ class CfgVehicles
 						maxTrackableSpeed=80;
 						angleRangeHorizontal=75;
 						angleRangeVertical=60;
-						animDirection="mainGun";
+						animDirection="";
 						aimDown=-0.2;
 					};
 				};
