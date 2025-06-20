@@ -4870,14 +4870,14 @@ class cfgWeapons
 					distanceZoomMin=100;
 					distanceZoomMax=2000;
 					memoryPointCamera="opticView";
-					modelOptics[]={"\xdf\weapons\mantis\mantis_tharsisHCOoptic"};
+					modelOptics[]={"\xdf\weapons\mantis\mantis_tharsisHCSoptic"};
 					visionMode[]=
 					{
 						"Normal",
 						"NVG",
 						"Ti"
 					};
-					thermalMode[]={5,6};
+					thermalMode[]={7};
 					opticsFlare=1;
 					opticsDisablePeripherialVision=1;
 					cameraDir="";
