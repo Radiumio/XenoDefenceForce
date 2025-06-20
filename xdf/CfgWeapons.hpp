@@ -10,6 +10,7 @@ class EGLM;
 class cfgWeapons
 {
 	class ItemCore;
+	class InventoryOpticsItem_Base_F;
 	class UniformItem;
 	class Uniform_Base;
 	class U_B_CTRG_Soldier_F;
@@ -4840,8 +4841,68 @@ class cfgWeapons
 	class optic_Mantis_Scope: optic_Nightstalker
 	{
 		author="Radium";
-		displayName="R-31 Mantis Experimental Optic"
+		displayName="Tharsis Hybrid Combat Scope (w/ Iris HCC)"
 		descriptionShort="Placeholder description"
 		model="\xdf\weapons\mantis\mantis_scope.p3d";
+		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+		class ItemInfo: InventoryOpticsItem_Base_F
+		{
+			mass=14;
+			opticType=1;
+			optics=1;
+			modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+			class OpticsModes
+			{
+				class Tharsis_ScopeView
+				{
+					opticsID=1;
+					useModelOptics=1;
+					opticsPPEffects[]=
+					{
+						"OpticsCHAbera1",
+						"OpticsBlur1"
+					};
+					opticsZoomMin=0.0001;
+					opticsZoomMax=0.25;
+					opticsZoomInit=0.25;
+					discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+					discreteDistanceInitIndex=1;
+					distanceZoomMin=100;
+					distanceZoomMax=2000;
+					memoryPointCamera="opticView";
+					modelOptics[]={"\xdf\weapons\mantis\mantis_tharsisHCOoptic"};
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"Ti"
+					};
+					thermalMode[]={5,6};
+					opticsFlare=1;
+					opticsDisablePeripherialVision=1;
+					cameraDir="";
+				};
+				class Iron: Tharsis_ScopeView
+				{
+					opticsID=2;
+					useModelOptics=0;
+					opticsPPEffects[]=
+					{
+						"",
+						""
+					};
+					opticsFlare=0;
+					opticsDisablePeripherialVision=0;
+					discreteDistance[]={50};
+					discreteDistanceInitIndex=0;
+					opticsZoomMin=0.25;
+					opticsZoomMax=1.25;
+					opticsZoomInit=0.75;
+					memoryPointCamera="eye";
+					visionMode[]={};
+				};
+			};
+		};
+		inertia=0.2;
 	};
 };
