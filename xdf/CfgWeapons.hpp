@@ -4877,7 +4877,7 @@ class cfgWeapons
 						"NVG",
 						"Ti"
 					};
-					thermalMode[]={7};
+					thermalMode[]={2};
 					opticsFlare=1;
 					opticsDisablePeripherialVision=1;
 					cameraDir="";
