@@ -17727,46 +17727,6 @@ class CfgVehicles
 				gunnerType = "B_XDF_Heli_Crew"; 
 			};
 		};
-		class Components: Components
-		{
-			class SensorsManagerComponent
-			{
-				class Components
-				{
-					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
-					{
-					};
-					class IRSensorComponent: SensorTemplateIR
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=4000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=20;
-							maxRange=2500;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=80;
-						angleRangeHorizontal=75;
-						angleRangeVertical=60;
-						animDirection="mainGun";
-						aimDown=-0.2;
-					};
-				};
-			};
-			class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftPilot
-			{
-			};
-			class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightPilot
-			{
-			};
-		};
 		class TextureSources
 		{
 			class XDF
@@ -17832,6 +17792,46 @@ class CfgVehicles
 			};
 			class CargoTurret_01: CargoTurret_01 {};
 			class CargoTurret_02: CargoTurret_02 {};
+		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
+					{
+					};
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=0;
+							maxRange=4000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=20;
+							maxRange=2500;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=80;
+						angleRangeHorizontal=75;
+						angleRangeVertical=60;
+						animDirection="mainGun";
+						aimDown=-0.2;
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftPilot
+			{
+			};
+			class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightPilot
+			{
+			};
 		};
 		class TextureSources
 		{
