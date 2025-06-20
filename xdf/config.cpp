@@ -15,3 +15,19 @@
 #include "CfgVehicles.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgWeapons.hpp"
+
+class SlotInfo;
+class CowsSlot: SlotInfo
+{
+	compatibleItems[] += 
+    {
+        "XDF_Mantis_Scope"
+    };
+};
+class CowsSlot_Rail: CowsSlot
+{
+	class compatibleItems
+	{
+		XDF_Mantis_Scope = 1;
+	};
+};

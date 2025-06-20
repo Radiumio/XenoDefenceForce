@@ -3764,7 +3764,7 @@ class cfgWeapons
 		changeFiremodeSound[] = 
 		{
 			"\xdf\sounds\shot\mantis\mantis_firemode.ogg", 
-			0.7, 
+			0.9, 
 			1, 
 			5
 		};
@@ -4833,5 +4833,15 @@ class cfgWeapons
 		{
 			"200Rnd_762x51_Belt_Blue"
 		};
+	};
+
+	// Attachments
+	class optic_Nightstalker;
+	class XDF_Mantis_Scope: optic_Nightstalker
+	{
+		author="Radium";
+		displayName="R-31 Mantis Experimental Optic"
+		descriptionShort="Placeholder description"
+		model="\xdf\weapons\mantis\mantis_scope.p3d";
 	};
 };
