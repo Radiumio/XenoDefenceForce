@@ -60,8 +60,8 @@ class RscInGameUI
     				shadow=1;
     				font="LCD14";
     				text="- - - -";
-    				x="33.5 * 		(0.01875 * SafezoneH)";
-    				y="11 * 		(0.025 * SafezoneH)";
+    				x="38 * 		(0.01875 * SafezoneH)";
+    				y="19.1 * 		(0.025 * SafezoneH)";
     				w="5.6 * 		(0.01875 * SafezoneH)";
     				h="2 * 		(0.025 * SafezoneH)";
     			};
@@ -74,8 +74,8 @@ class RscInGameUI
     				shadow=1;
     				font="LCD14";
     				text="VIS";
-    				x="2 * 		    (0.01875 * SafezoneH)";
-    				y="11 * 		(0.025 * SafezoneH)";
+    				x="10.5 * 		(0.01875 * SafezoneH)";
+    				y="19.1 * 		(0.025 * SafezoneH)";
     				w="5 * 		(0.01875 * SafezoneH)";
     				h="2 * 		(0.025 * SafezoneH)";
     			};
