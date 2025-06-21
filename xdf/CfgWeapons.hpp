@@ -3718,6 +3718,7 @@ class cfgWeapons
 		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
 		inertia = 1.5;
 		dexterity = 0.7;
+		maxZeroing = 2000;
 		class GunParticles
 		{
 			class FirstEffect
@@ -4841,7 +4842,7 @@ class cfgWeapons
 	class optic_Mantis_Scope: optic_Nightstalker
 	{
 		author="Radium";
-		displayName="Tharsis Hybrid Combat Scope (w/ Iris HCC)"
+		displayName="Tharsis Hybrid Combat Scope (Iris HCC)"
 		descriptionShort="Placeholder description"
 		model="\xdf\weapons\mantis\mantis_scope.p3d";
 		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";

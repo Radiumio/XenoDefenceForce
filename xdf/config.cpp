@@ -57,13 +57,13 @@ class RscInGameUI
     				style=0;
     				sizeEx="0.045*SafezoneH";
     				colorText[]={1,0.1,0.1,0.8};
-    				shadow=1;
+    				shadow=0;
     				font="LCD14";
     				text="- - - -";
-    				x="38 * 		(0.01875 * SafezoneH)";
-    				y="19.1 * 		(0.025 * SafezoneH)";
-    				w="5.6 * 		(0.01875 * SafezoneH)";
-    				h="2 * 		(0.025 * SafezoneH)";
+					x="39 * 		(0.01875 * SafezoneH)";
+					y="18.95 * 		(0.025 * SafezoneH)";
+					w="5.6 * 		(0.01875 * SafezoneH)";
+					h="2 * 		(0.025 * SafezoneH)";
     			};
     			class CA_VisionMode: RscText
     			{
@@ -71,13 +71,13 @@ class RscInGameUI
     				style=0;
     				sizeEx="0.045*SafezoneH";
     				colorText[]={1,0.1,0.1,0.8};
-    				shadow=1;
+    				shadow=0;
     				font="LCD14";
     				text="VIS";
-    				x="10.5 * 		(0.01875 * SafezoneH)";
-    				y="19.1 * 		(0.025 * SafezoneH)";
-    				w="5 * 		(0.01875 * SafezoneH)";
-    				h="2 * 		(0.025 * SafezoneH)";
+					x="11.5 * 		(0.01875 * SafezoneH)";
+					y="18.95 * 		(0.025 * SafezoneH)";
+					w="5 * 		(0.01875 * SafezoneH)";
+					h="2 * 		(0.025 * SafezoneH)";
     			};
     			class CA_OpticsZoom: RscText
     			{
@@ -85,20 +85,20 @@ class RscInGameUI
     				style=1;
     				sizeEx="0.028*SafezoneH";
     				colorText[]={1,0.1,0.1,0.8};
-    				shadow=1;
+    				shadow=0;
     				font="LCD14";
     				text="5.5";
-    				x="38.8 * 		(0.01875 * SafezoneH)";
-    				y="20.8 * 		(0.025 * SafezoneH)";
-    				w="4 * 		(0.01875 * SafezoneH)";
-    				h="1.5 * 		(0.025 * SafezoneH)";
+					x="39 * 		(0.01875 * SafezoneH)";
+					y="20.25 * 		(0.025 * SafezoneH)";
+					w="4 * 		(0.01875 * SafezoneH)";
+					h="1.5 * 		(0.025 * SafezoneH)";
     			};
     			class CA_Bracket: RscText
     			{
     				idc=181;
     				style="0x30 + 0x800";
     				sizeEx="0.035*SafezoneH";
-    				shadow=1;
+    				shadow=0;
     				font="EtelkaMonospacePro";
     				text="\xdf\weapons\mantis\tharsis_brackets_ca.paa";
     				x="16.5 * 		(0.01875 * SafezoneH)";
