@@ -36,7 +36,7 @@ class RscInGameUI
     	};
     	class CA_IGUI_elements_group: RscControlsGroup
     	{
-    		idc=200;
+    		idc=170;
     		class VScrollbar: VScrollbar
     		{
     			width=0;
@@ -53,7 +53,7 @@ class RscInGameUI
     		{
     			class CA_Distance: RscText
     			{
-    				idc=189;
+    				idc=198;
     				style=0;
     				sizeEx="0.045*SafezoneH";
     				colorText[]={1,0.1,0.1,0.8};
@@ -67,7 +67,7 @@ class RscInGameUI
     			};
     			class CA_VisionMode: RscText
     			{
-    				idc=197;
+    				idc=179;
     				style=0;
     				sizeEx="0.045*SafezoneH";
     				colorText[]={1,0.1,0.1,0.8};
@@ -81,7 +81,7 @@ class RscInGameUI
     			};
     			class CA_OpticsZoom: RscText
     			{
-    				idc=108;
+    				idc=180;
     				style=1;
     				sizeEx="0.028*SafezoneH";
     				colorText[]={1,0.1,0.1,0.8};
@@ -95,7 +95,7 @@ class RscInGameUI
     			};
     			class CA_Bracket: RscText
     			{
-    				idc=118;
+    				idc=181;
     				style="0x30 + 0x800";
     				sizeEx="0.035*SafezoneH";
     				shadow=1;
