@@ -4845,9 +4845,10 @@ class cfgWeapons
 		descriptionShort="Placeholder description"
 		model="\xdf\weapons\mantis\mantis_scope.p3d";
 		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+		weaponInfoType="RscOptics_TharsisScope";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
-			mass=14;
+			mass=18;
 			opticType=1;
 			optics=1;
 			modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
@@ -4866,7 +4867,7 @@ class cfgWeapons
 					opticsZoomMax=0.25;
 					opticsZoomInit=0.25;
 					discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
-					discreteDistanceInitIndex=1;
+					discreteDistanceInitIndex=2;
 					distanceZoomMin=100;
 					distanceZoomMax=2000;
 					memoryPointCamera="opticView";
