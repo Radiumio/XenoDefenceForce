@@ -737,6 +737,11 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
+	class Vest_NoCamo_Base;
+	class V_Rangemaster_belt: Vest_NoCamo_Base
+	{
+		class ItemInfo;
+	};
 	class V_XDF_Tactical_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Clasless & Radium";
@@ -1125,6 +1130,27 @@ class cfgWeapons
 					passThrough=0.6;
 				};
 			};
+		};
+	};
+	class V_Rangemaster_belt_XDF: V_Rangemaster_belt
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Battle Belt";
+		model="\A3\Characters_F\BLUFOR\equip_b_belt";
+		picture="\A3\Characters_F\data\ui\icon_V_Belt_CA.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = {"camo"};
+			containerClass="Supply100";
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
 		};
 	};
 
@@ -4865,7 +4891,7 @@ class cfgWeapons
 						"OpticsCHAbera1",
 						"OpticsBlur1"
 					};
-					opticsZoomMin=0.0001;
+					opticsZoomMin=0.001;
 					opticsZoomMax=0.25;
 					opticsZoomInit=0.25;
 					discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
