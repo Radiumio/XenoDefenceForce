@@ -30787,6 +30787,24 @@ class CfgVehicles
 			assembleTo="XDF_Sentinel";
 		};
 	};
+	class B_Rangemaster_belt_XDF: Bag_Base
+	{
+		author="Radium";
+		scope=2;
+		model="\A3\Characters_F\BLUFOR\equip_b_belt";
+		displayname = "XDF Battle Belt (Backpack)";
+		picture = "\A3\Characters_F\data\ui\icon_V_FChestrig_oli_CA.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
+		};
+		maximumLoad = 100;
+		mass = 5;
+	};
 
 	// Hidden Unit Backpacks //
 	class B_XDF_Viper_Harness_Black_MAAWS : B_XDF_Viper_Harness_Black
