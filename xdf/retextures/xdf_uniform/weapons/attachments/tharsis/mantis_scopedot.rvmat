@@ -1,10 +1,10 @@
-ambient[]={5,5,5,1};
+ambient[]={2,2,2,1};
 diffuse[]={0,0,0,1};
-forcedDiffuse[]={1,1,1,1};
-emmisive[]={370,330,350,0};
+forcedDiffuse[]={0.7,0.4,0.4,1};
+emmisive[]={170,230,150,0};
 specular[]={0,0,0,1};
 specularPower=8;
-PixelShaderID="Collimator";
+PixelShaderID="Normal";
 VertexShaderID="Basic";
 RenderFlags[]=
 {
@@ -14,5 +14,5 @@ RenderFlags[]=
 };
 class Stage0
 {
-	uvSource="texCollimator";
+	uvSource="tex";
 };
