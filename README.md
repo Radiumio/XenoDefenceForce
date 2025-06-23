@@ -59,7 +59,7 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - Myself for doing all the texture edits and configuration work
 - Clasless for the Stealth Uniform textures provided by his <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2122147403">SSU</a> mod, which were used as a base for all XDF gear.
 - Taurus for the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2261045061">TCGM_Girls</a> mod, which enabled female variants of XDF soldiers to be made.
-- The textures from JustAndFriendly's <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1283439288">Y-32 Xi'an Recolors</a> mod that were used to speed up creating the texture for the **XDF Wraith** [i](XDF Xi'an equivalent)[/i].
+- The textures from JustAndFriendly's <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1283439288">Y-32 Xi'an Recolors</a> mod that were used to speed up creating the texture for the **XDF Wraith** *(XDF Xi'an equivalent)*.
 - Thank you to **Quiggs**, the creator of <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>, who gave me permission to retexture the Ripsaw for the XDF!
 - Thank you to **Rotators Collective** and **Tiny Gecko Studios** for providing the samples for their respective CDLCs, and in some cases providing extra textures!
 - Thank you to **Moose (Outworld Studios)** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a> mod and allowing it to be retextured.
