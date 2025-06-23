@@ -22,7 +22,7 @@ As of the current release, the project includes:
 
 - On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there is a fully custom infantry weapon **(the Mantis railgun)** and a fully custom scope **(the Tharsis)** to fit the high-tech needs of the XDF.
 
-All units and vehicles can be found under the **Xeno Defence Force** faction in **BLUFOR**. The mod only includes [u]one[/u] small OPFOR faction, the **Pro-Xeno Liberation Alliance**, which serve as rivals to the XDF. The PXLA may receive more gear in future updates, but for alien factions to fight against, __XDF relies on being paired with other mods to fill those gaps.__
+All units and vehicles can be found under the **Xeno Defence Force** faction in **BLUFOR**. The mod only includes __one__ small OPFOR faction, the **Pro-Xeno Liberation Alliance**, which serve as rivals to the XDF. The PXLA may receive more gear in future updates, but for alien factions to fight against, __XDF relies on being paired with other mods to fill those gaps.__
 
 Mods listed as dependencies are **required** in order for **XDF** to load properly. The listed Arma DLCs are not necessarily required, but beneficial to avoid DLC watermarks when flying DLC craft or using DLC weapons.
 
