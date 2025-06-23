@@ -7,7 +7,7 @@
 *Despite this unlikely show of collaboration, the threat of alien invasion grows ever closer. Panic spreads throughout the world as localized alien incursions become more frequent. Tensions between global powers are increasing - all orchestrated by our extraterrestrial neighbours who aim to secure our planet. If nothing is done, humanity is certainly doomed to go extinct. The XDF must act.*
 
 <img src="https://i.imgur.com/41H2tgm.png" width="900"></p>
-Xeno Defence Force is a retexture mod heavily inspired by the Xenonauts video game, and focuses on a fictional organisation that undertakes clandestine operations and research to counter an extraterrestrial threat. On top of re-theming vanilla vehicles, several vehicles have also receiving changes to their handling, armor and more.
+Xeno Defence Force is a faction and gear mod heavily inspired by the Xenonauts video game, and focuses on a fictional organisation that undertakes clandestine operations and research to counter an extraterrestrial threat. On top of re-theming vanilla vehicles, several vehicles have also receiving changes to their handling, armor and more.
 
 As of the current release, the project includes:
 - **50+ vehicle retextures**, with many variants covered. Many vehicles have also had their armor, speed and handling values changed - representing faster and stronger vehicles infused with alien technology - such as the XDF Gemini which is capable of insane maneuvers.
