@@ -11,10 +11,16 @@ Xeno Defence Force is a retexture mod heavily inspired by the Xenonauts video ga
 
 As of the current release, the project includes:
 - **50+ vehicle retextures**, with many variants covered. Many vehicles have also had their armor, speed and handling values changed - representing faster and stronger vehicles infused with alien technology - such as the XDF Gemini which is capable of insane maneuvers.
+
 - **A plethora of retextured weapons, uniforms, vests, helmets** and **facewear** to match the XDF theme. All weapons have new reload sounds included in the mod, and infantry get anti-xeno munitions to boost damage slightly while sporting cool blue tracers.
+
  - **Special anti-xeno munitions** for certain vehicles give the XDF a necessary edge in armored combat. Powerful anti-xeno missiles using unstable warheads can destroy even the most powerful vehicles, while special thermobaric rounds can be fired by portable launchers to decimate hostile infantry on the ground.
+
  - **XDF insignias** and **flags** to represent the various divisions and groups.
+
  - A **fully configured faction** with 30+ units, groups and crewed vehicles for use in missions.
+
+- On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there is a fully custom infantry weapon **(the Mantis railgun)** and a fully custom scope **(the Tharsis)** to fit the high-tech needs of the XDF.
 
 All units and vehicles can be found under the **Xeno Defence Force** faction in **BLUFOR**. The mod only includes [u]one[/u] small OPFOR faction, the **Pro-Xeno Liberation Alliance**, which serve as rivals to the XDF. The PXLA may receive more gear in future updates, but for alien factions to fight against, __XDF relies on being paired with other mods to fill those gaps.__
 
