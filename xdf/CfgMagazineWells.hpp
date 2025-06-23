@@ -116,6 +116,14 @@ class CfgMagazineWells
 			"16Rnd_9x21_Mag_blue_reload_tracer"
 		};
 	};
+	class SMG_9x21_XDF
+	{
+		XDF_Magazines[]=
+		{
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_reload_tracer"
+		};
+	};
 	class ACPC2_45ACP_XDF
 	{
 		XDF_Magazines[]=

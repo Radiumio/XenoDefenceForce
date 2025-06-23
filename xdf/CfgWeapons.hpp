@@ -2712,6 +2712,7 @@ class cfgWeapons
 	class SMG_03C_TR_black;
 	class SMG_03_black;
 	class SMG_03_TR_black;
+	class SMG_05_F;
 	class XDF_SMG_01: SMG_01_F
 	{
 		author="Radium";
@@ -2854,6 +2855,36 @@ class cfgWeapons
 		magazineWell[] +=
 		{
 			"P90_57_XDF"
+		};
+	};
+	class XDF_SMG_05_F: SMG_05_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MP5K";
+		descriptionShort = "AX Submachinegun<br/>Although not the most powerful weapon in the XDF arsenal, this compact SMG finds popularity with XDF crew or clandestine spooks.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_SMG_05_F";
+		initSpeed=456;
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\p90_reload.ogg",
+			2,
+			1,
+			10
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mp5k\smg_05_f_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mp5k\smg_05_f_acc_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"SMG_9x21_XDF"
 		};
 	};
 
