@@ -2872,7 +2872,7 @@ class cfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\p90_reload.ogg",
+			"\xdf\sounds\reloads\mp5k_reload.ogg",
 			2,
 			1,
 			10
