@@ -205,7 +205,8 @@ class CfgWeapons
 		baseWeapon="XDF_hgun_Glock19_auto_RF";
 		hiddenSelectionsTextures[] = 
 		{
-			"\xdf_rf\retextures\xdf_uniform\weapons\glock\glock_co.paa"
+			"\xdf_rf\retextures\xdf_uniform\weapons\glock\glock_co.paa",
+			"\lxRF\weapons_rf\Pistols\Glock\data\mag_30_co.paa"
 		};	
 		magazineWell[] +=
 		{
