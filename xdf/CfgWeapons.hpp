@@ -2712,6 +2712,7 @@ class cfgWeapons
 	class SMG_03C_TR_black;
 	class SMG_03_black;
 	class SMG_03_TR_black;
+	class SMG_05_F;
 	class XDF_SMG_01: SMG_01_F
 	{
 		author="Radium";
@@ -2854,6 +2855,93 @@ class cfgWeapons
 		magazineWell[] +=
 		{
 			"P90_57_XDF"
+		};
+	};
+	class XDF_SMG_05_F: SMG_05_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MP5K";
+		descriptionShort = "AX Submachinegun<br/>Although not the most powerful weapon in the XDF arsenal, this compact SMG finds popularity with XDF crew or clandestine spooks.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_SMG_05_F";
+		initSpeed=456;
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\mp5k_reload.ogg",
+			2,
+			1,
+			10
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mp5k\smg_05_f_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mp5k\smg_05_f_acc_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"SMG_9x21_XDF"
+		};
+	};
+	class hgun_PDW2000_F;
+	class XDF_hgun_PDW2000_black: hgun_PDW2000_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF CPW";
+		descriptionShort = "AX Submachinegun<br/>A compact personal defense weapon used by XDF military security.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_hgun_PDW2000_black";
+		initSpeed=477;
+		hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\pdw2000_reload.ogg",
+			2,
+			1,
+			10
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\weapons\pdw2000\battlesight_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_handle_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\pdw2000\pdw2000_ammo_ca.paa",
+			"\xdf\retextures\xdf_uniform\weapons\pdw2000\pdw2000_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"SMG_9x21_XDF"
+		};
+	};
+	class SMG_02_F;
+	class XDF_SMG_02: SMG_02_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Scorpion Evo 3 A1";
+		descriptionShort = "AX Submachinegun<br/>A lightweight submachinegun, used by XDF helicopter crews or close-quarters teams as an alternative to the Vector.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_SMG_02";
+		initSpeed=510;
+		hiddenSelections[] = {"camo", "camo1"};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\scorpion_reload.ogg",
+			2,
+			1,
+			10
+		};
+			
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\weapons\scorpion\smg_02_CO.paa",
+			"\xdf\retextures\xdf_uniform\weapons\scorpion\smg_02_ammo_CA.paa"
+		};
+		magazineWell[] +=
+		{
+			"SMG_9x21_XDF"
 		};
 	};
 
@@ -4324,63 +4412,16 @@ class cfgWeapons
 		class manual: MGun
 		{
 			displayName="LMG AX Minigun";
-			sounds[]=
-			{
-				"StandardSound"
-			};
 			class StandardSound
 			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_01",
-					1,
-					1,
-					2000
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_02",
-					1,
-					1.1,
-					2000
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\LMG_Minigun_65mm\LMG_minigun_65mm_03",
-					1,
-					0.89999998,
-					2000
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.34
-				};
-				closure1[]=
-				{
-					"A3\sounds_f\weapons\gatling\gatling_rotation_short_2",
-					0.31622776,
-					1,
-					20
-				};
-				closure2[]=
-				{
-					"A3\sounds_f\weapons\gatling\gatling_rotation_short_3",
-					0.31622776,
-					1,
-					20
-				};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
+				//begin1[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot1.ogg", 1, //1, 2000};
+				//begin2[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot2.ogg", 1, //1.1, 2000};
+				//begin3[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot3.ogg", 1, //0.9, 2000};
+				//soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
+				//closure1[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_spin1.ogg", 0.//316228, 1, 20};
+				//closure2[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_spin2.ogg", 0.//316228, 1, 20};
+				//soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+				soundsetshot[] = {"AX_Minigun_Shot_SoundSet", "AX_Minigun_Tail_SoundSet"};
 			};
 			soundContinuous=0;
 			soundBurst=0;
@@ -4472,63 +4513,17 @@ class cfgWeapons
 		class manual: MGun
 		{
 			displayName="LMG AX Minigun";
-			sounds[]=
-			{
-				"StandardSound"
-			};
+			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_01",
-					1,
-					1,
-					2000
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_02",
-					1,
-					1.1,
-					2000
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons_vehicles\hmg_050\hmg_050_03",
-					1,
-					0.89999998,
-					2000
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.34
-				};
-				closure1[]=
-				{
-					"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_01",
-					0.31622776,
-					1,
-					20
-				};
-				closure2[]=
-				{
-					"A3\sounds_f\arsenal\weapons_vehicles\hmg_050\hmg050_closure_02",
-					0.31622776,
-					1,
-					20
-				};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
+				begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
+				begin2[] = {"\xdf\sounds\shot\axminigun\axminigun_shot2.ogg", 1, 1.1, 2000};
+				begin3[] = {"\xdf\sounds\shot\axminigun\axminigun_shot3.ogg", 1, 0.9, 2000};
+				soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
+				closure1[] = {"\xdf\sounds\shot\axminigun\axminigun_spin1.ogg", 0.316228, 1, 20};
+				closure2[] = {"\xdf\sounds\shot\axminigun\axminigun_spin2.ogg", 0.316228, 1, 20};
+				soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+				soundsetshot[] = {"AX_Minigun_Shot_SoundSet", "AX_Minigun_Tail_SoundSet"};
 			};
 			soundContinuous=0;
 			soundBurst=0;

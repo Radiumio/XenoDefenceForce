@@ -708,6 +708,26 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=4;
 	};
+	class 30Rnd_9x21_Mag_SMG_02;
+	class 30Rnd_9x21_Mag_blue_tracer: 30Rnd_9x21_Mag_SMG_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 30Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=1;
+	};
+	class 30Rnd_9x21_Mag_blue_reload_tracer: 30Rnd_9x21_Mag_SMG_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 30Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 
 	class 9Rnd_45ACP_Mag;
 	class 9Rnd_45ACP_Mag_blue_tracer: 9Rnd_45ACP_Mag
