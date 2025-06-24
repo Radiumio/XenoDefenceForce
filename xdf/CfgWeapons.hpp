@@ -2887,6 +2887,63 @@ class cfgWeapons
 			"SMG_9x21_XDF"
 		};
 	};
+	class hgun_PDW2000_F;
+	class XDF_hgun_PDW2000_black: hgun_PDW2000_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF CPW";
+		descriptionShort = "AX Submachinegun<br/>A compact personal defense weapon used by XDF military security.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_hgun_PDW2000_black";
+		initSpeed=477;
+		hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\pdw2000_reload.ogg",
+			2,
+			1,
+			10
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\weapons\pdw2000\battlesight_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_handle_co.paa",
+			"\xdf\retextures\xdf_uniform\weapons\pdw2000\pdw2000_ammo_ca.paa",
+			"\xdf\retextures\xdf_uniform\weapons\pdw2000\pdw2000_co.paa"
+		};
+		magazineWell[] +=
+		{
+			"SMG_9x21_XDF"
+		};
+	};
+	class SMG_02_F;
+	class XDF_SMG_02: SMG_02_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Scorpion Evo 3 A1";
+		descriptionShort = "AX Submachinegun<br/>A lightweight submachinegun, used by XDF helicopter crews or close-quarters teams as an alternative to the Vector.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="XDF_SMG_02";
+		initSpeed=510;
+		hiddenSelections[] = {"camo", "camo1"};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\scorpion_reload.ogg",
+			2,
+			1,
+			10
+		};
+			
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\weapons\scorpion\smg_02_CO.paa",
+			"\xdf\retextures\xdf_uniform\weapons\scorpion\smg_02_ammo_CA.paa"
+		};
+		magazineWell[] +=
+		{
+			"SMG_9x21_XDF"
+		};
+	};
 
 	// Pistols
 	class hgun_P07_F;
