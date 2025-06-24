@@ -4414,13 +4414,13 @@ class cfgWeapons
 			displayName="LMG AX Minigun";
 			class StandardSound
 			{
-				begin1[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot1.ogg", 1, 1, 2000};
-				begin2[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot2.ogg", 1, 1.1, 2000};
-				begin3[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot3.ogg", 1, 0.9, 2000};
-				soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
-				closure1[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_spin1.ogg", 0.316228, 1, 20};
-				closure2[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_spin2.ogg", 0.316228, 1, 20};
-				soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+				//begin1[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot1.ogg", 1, //1, 2000};
+				//begin2[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot2.ogg", 1, //1.1, 2000};
+				//begin3[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_shot3.ogg", 1, //0.9, 2000};
+				//soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
+				//closure1[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_spin1.ogg", 0.//316228, 1, 20};
+				//closure2[] = {"\xdf\sounds\shot\axminigun\AX_Minigun_spin2.ogg", 0.//316228, 1, 20};
+				//soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
 				soundsetshot[] = {"AX_Minigun_Shot_SoundSet", "AX_Minigun_Tail_SoundSet"};
 			};
 			soundContinuous=0;
