@@ -67,6 +67,46 @@ class CfgSoundSets
         loop = 0;
         soundShadersLimit = 2;
     };
+	class AX_Minigun_Shot_SoundSet
+	{
+		soundShaders[] = 
+		{ 
+			"AX_Minigun_closeShot_SoundShader", 
+			"AX_Minigun_midShot_SoundShader", 
+			"AX_Minigun_distShot_SoundShader", 
+			"AX_Minigun_Closure_SoundShader"
+		};
+		volumeFactor = 1.2;
+		volumeCurve = "InverseSquare2Curve";
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
+		occlusionFactor = 0.5;
+		obstructionFactor = 0.3;
+	};
+	class AX_Minigun_Tail_SoundSet
+	{
+		soundShaders[] = 
+		{
+			"AX_Minigun_tailDistant_SoundShader", 
+			"AX_Minigun_tailForest_SoundShader", 
+			"AX_Minigun_tailHouses_SoundShader", 
+			"AX_Minigun_tailMeadows_SoundShader", 
+			"AX_Minigun_tailTrees_SoundShader"
+		};
+		volumeFactor = 1;
+		volumeCurve = "InverseSquare2Curve";
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		soundShadersLimit = 3;
+		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+		distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
+		occlusionFactor = 0.3;
+		obstructionFactor = 0;
+	};
 };
 class CfgSoundShaders
 {
@@ -206,5 +246,73 @@ class CfgSoundShaders
 		range = 1500;
 		rangeCurve[] = {{0,1},{1500,0.3}};
 		limitation = 1;
+	};
+	class AX_Minigun_Closure_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_spin1.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_spin2.ogg", 1}};
+		volume = 0.251189;
+		range = 10;
+		rangeCurve[] = {{0, 1}, {10, 0}};
+	};
+	class AX_Minigun_closeShot_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_closeShot_01.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_closeShot_02.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_closeShot_03.ogg", 1}};
+		volume = 1;
+		range = 100;
+		rangeCurve = "closeShotCurve";
+	};
+	class AX_Minigun_midShot_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_midShot_01.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_midShot_02.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_midShot_03.ogg", 1}};
+		volume = 1;
+		range = 1800;
+		rangeCurve[] = {{0, 0.2}, {100, 1}, {300, 0}, {1800, 0}};
+	};
+	class AX_Minigun_distShot_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_distShot_01.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_distShot_02.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_distShot_03.ogg", 1}};
+		volume = 1.77828;
+		range = 1800;
+		rangeCurve[] = {{0, 0}, {100, 0}, {300, 1}, {1800, 1}};
+	};
+	class AX_Minigun_tailDistant_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_taildistant.ogg", 1}};
+		volume = 1.41254;
+		range = 1500;
+		rangeCurve[] = {{0, 0}, {600, 1}, {1500, 1}};
+		limitable = 1;
+	};
+	class AX_Minigun_tailForest_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_tailforest.ogg", 1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 1500;
+		rangeCurve[] = {{0, 1}, {1500, 0.3}};
+		limitable = 1;
+	};
+	class AX_Minigun_tailHouses_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_tailhouses.ogg", 1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 1500;
+		rangeCurve[] = {{0, 1}, {200, 0.5}, {800, 0.3}, {1500, 0}};
+		limitable = 1;
+	};
+	class AX_Minigun_tailMeadows_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_tailmeadows.ogg", 1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 1500;
+		rangeCurve[] = {{0, 1}, {1500, 0.3}};
+		limitable = 1;
+	};
+	class AX_Minigun_tailTrees_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_tailtrees.ogg", 1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 1500;
+		rangeCurve[] = {{0, 1}, {1500, 0.3}};
+		limitable = 1;
 	};
 };
