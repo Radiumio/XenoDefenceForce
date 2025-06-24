@@ -255,19 +255,19 @@ class CfgSoundShaders
 		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_interiorSpin1.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_interiorSpin2.ogg", 1}};
 		volume = "0.7*(1 - camPos)";
 		range = 10;
-		rangecurve[] = {{0,1},{2,1}};
+		rangecurve[] = {{0,1},{2,0.5},{4,0}};
 	};
 	class AX_Minigun_ClosureExt_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_spin1.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_spin2.ogg", 1}};
 		volume = "1*camPos";
 		range = 15;
-		rangecurve[] = {{0,0},{2,0},{15,0}};
+		rangecurve[] = {{0,0},{2,1},{15,1}};
 	};
 	class AX_Minigun_vehicleShot_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\axminigun\AX_Minigun_interiorShot01.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_interiorShot02.ogg", 1}, {"\xdf\sounds\shot\axminigun\AX_Minigun_interiorShot03.ogg", 1}};
-		volume = "1*(1 - campos)";
+		volume = "0.7*(1 - campos)";
 		range = 10;
 		rangecurve[] = {{0,1},{10,1}};
 	};
