@@ -26685,8 +26685,8 @@ class CfgVehicles
 					"20Rnd_120mm_APFSDS_shells_Tracer_Yellow",
 					"12Rnd_120mm_HE_shells_Tracer_Yellow",
 					"12Rnd_120mm_HEAT_MP_T_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Yellow"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
