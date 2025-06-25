@@ -4506,6 +4506,24 @@ class cfgWeapons
 			maxRangeProbab=0.050000001;
 		};
 	};
+	class LMG_Minigun_AX2: LMG_Minigun
+	{
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName="machinegun2_eject_pos";
+				directionName="machinegun2_eject_dir";
+				effectName="MachineGunCartridgeShort1";
+			};
+			class effect2
+			{
+				positionName="machinegun2_end";
+				directionName="machinegun2_beg";
+				effectName="MachineGun1";
+			};
+		};
+	};
 	class LMG_Minigun_AX_HE: LMG_Minigun_AX
 	{
 		displayName="LMG AX Minigun HE";
@@ -4606,6 +4624,24 @@ class cfgWeapons
 			midRangeProbab=0.30000001;
 			maxRange=1500;
 			maxRangeProbab=0.050000001;
+		};
+	};
+	class LMG_Minigun_AX_HE2: LMG_Minigun_AX_HE
+	{
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName="machinegun2_eject_pos";
+				directionName="machinegun2_eject_dir";
+				effectName="MachineGunCartridgeShort1";
+			};
+			class effect2
+			{
+				positionName="machinegun2_end";
+				directionName="machinegun2_beg";
+				effectName="MachineGun1";
+			};
 		};
 	};
 	class weapon_AMRAAMLauncher;

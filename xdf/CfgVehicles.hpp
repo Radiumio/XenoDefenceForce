@@ -17657,12 +17657,12 @@ class CfgVehicles
 			class Minigun2
 			{
 				source="revolving";
-				weapon="LMG_Minigun_AX_HE";
+				weapon="LMG_Minigun_AX_HE2";
 			};
 			class Muzzle_flash2
 			{
 				source="ammorandom";
-				weapon="LMG_Minigun_AX_HE";
+				weapon="LMG_Minigun_AX_HE2";
 			};
 		};
 		class Turrets : Turrets
@@ -17689,7 +17689,7 @@ class CfgVehicles
 				gunnerType = "B_XDF_Heli_Crew";  
 				weapons[]=
 				{
-					"LMG_Minigun_AX_HE"
+					"LMG_Minigun_AX_HE2"
 				};
 				magazines[]=
 				{
@@ -17770,12 +17770,12 @@ class CfgVehicles
 			class Minigun2
 			{
 				source="revolving";
-				weapon="LMG_Minigun_AX_HE";
+				weapon="LMG_Minigun_AX_HE2";
 			};
 			class Muzzle_flash2
 			{
 				source="ammorandom";
-				weapon="LMG_Minigun_AX_HE";
+				weapon="LMG_Minigun_AX_HE2";
 			};
 		};
 		class Turrets : Turrets
@@ -17802,7 +17802,7 @@ class CfgVehicles
 				gunnerType = "B_XDF_Heli_Crew";  
 				weapons[]=
 				{
-					"LMG_Minigun_AX_HE"
+					"LMG_Minigun_AX_HE2"
 				};
 				magazines[]=
 				{
