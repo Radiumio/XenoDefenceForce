@@ -4386,7 +4386,10 @@ class cfgWeapons
 	{
 		displayName="LMG AX Minigun";
 		magazineReloadTime=15;
-		ballisticsComputer=2;
+		ballisticsComputer = "2 + 16";
+		FCSMaxLeadSpeed = 0;
+		FCSZeroingDelay = 1;
+		maxZeroing = 1800;
 		aiDispersionCoefY=0.5;
 		aiDispersionCoefX=0.5;
 		class gunParticles
@@ -4516,13 +4519,13 @@ class cfgWeapons
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
-				begin2[] = {"\xdf\sounds\shot\axminigun\axminigun_shot2.ogg", 1, 1.1, 2000};
-				begin3[] = {"\xdf\sounds\shot\axminigun\axminigun_shot3.ogg", 1, 0.9, 2000};
-				soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
-				closure1[] = {"\xdf\sounds\shot\axminigun\axminigun_spin1.ogg", 0.316228, 1, 20};
-				closure2[] = {"\xdf\sounds\shot\axminigun\axminigun_spin2.ogg", 0.316228, 1, 20};
-				soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+				//begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
+				//begin2[] = {"\xdf\sounds\shot\axminigun\axminigun_shot2.ogg", 1, 1.1, 2000};
+				//begin3[] = {"\xdf\sounds\shot\axminigun\axminigun_shot3.ogg", 1, 0.9, 2000};
+				//soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
+				//closure1[] = {"\xdf\sounds\shot\axminigun\axminigun_spin1.ogg", 0.316228, 1, 20};
+				//closure2[] = {"\xdf\sounds\shot\axminigun\axminigun_spin2.ogg", 0.316228, 1, 20};
+				//soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
 				soundsetshot[] = {"AX_Minigun_Shot_SoundSet", "AX_Minigun_Tail_SoundSet"};
 			};
 			soundContinuous=0;

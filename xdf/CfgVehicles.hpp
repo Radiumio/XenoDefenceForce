@@ -17649,11 +17649,29 @@ class CfgVehicles
 			};
             class MainTurret : MainTurret 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
 		};
 		class TextureSources
@@ -17721,10 +17739,28 @@ class CfgVehicles
             class MainTurret : MainTurret 
 			{ 
 				gunnerType = "B_XDF_Heli_Crew"; 
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
 		};
 		class TextureSources
