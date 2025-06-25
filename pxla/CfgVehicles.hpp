@@ -22,8 +22,16 @@ class DefaultVehicleSystemsDisplayManagerRight
 };
 class CfgVehicles
 {	
+	
 	class I_APC_Wheeled_03_cannon_F;
-	class PXLA_Dementer: I_APC_Wheeled_03_cannon_F
+	class I_APC_Wheeled_03_cannon_F_OCimport_01 : I_APC_Wheeled_03_cannon_F { scope = 0; class Turrets; };
+	class I_APC_Wheeled_03_cannon_F_OCimport_02 : I_APC_Wheeled_03_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class PXLA_Dementer: I_APC_Wheeled_03_cannon_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -89,6 +97,45 @@ class CfgVehicles
 		{
 			"PXLA",
 			1
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"autocannon_30mm_CTWS",
+					"LMG_Minigun_AX",
+					"missiles_titan"
+				};
+				magazines[]=
+				{
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"140Rnd_30mm_MP_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2Rnd_GAT_missiles",
+					"2Rnd_GAT_missiles",
+					"2Rnd_GAT_missiles"
+				};
+			};
 		};
 	};
 	class I_G_Offroad_01_F;
