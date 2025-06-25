@@ -4386,7 +4386,10 @@ class cfgWeapons
 	{
 		displayName="LMG AX Minigun";
 		magazineReloadTime=15;
-		ballisticsComputer=2;
+		ballisticsComputer = "2 + 16";
+		FCSMaxLeadSpeed = 0;
+		FCSZeroingDelay = 1;
+		maxZeroing = 1800;
 		aiDispersionCoefY=0.5;
 		aiDispersionCoefX=0.5;
 		class gunParticles
@@ -4503,6 +4506,24 @@ class cfgWeapons
 			maxRangeProbab=0.050000001;
 		};
 	};
+	class LMG_Minigun_AX2: LMG_Minigun
+	{
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName="machinegun2_eject_pos";
+				directionName="machinegun2_eject_dir";
+				effectName="MachineGunCartridgeShort1";
+			};
+			class effect2
+			{
+				positionName="machinegun2_end";
+				directionName="machinegun2_beg";
+				effectName="MachineGun1";
+			};
+		};
+	};
 	class LMG_Minigun_AX_HE: LMG_Minigun_AX
 	{
 		displayName="LMG AX Minigun HE";
@@ -4516,13 +4537,13 @@ class cfgWeapons
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
-				begin2[] = {"\xdf\sounds\shot\axminigun\axminigun_shot2.ogg", 1, 1.1, 2000};
-				begin3[] = {"\xdf\sounds\shot\axminigun\axminigun_shot3.ogg", 1, 0.9, 2000};
-				soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
-				closure1[] = {"\xdf\sounds\shot\axminigun\axminigun_spin1.ogg", 0.316228, 1, 20};
-				closure2[] = {"\xdf\sounds\shot\axminigun\axminigun_spin2.ogg", 0.316228, 1, 20};
-				soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+				//begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
+				//begin2[] = {"\xdf\sounds\shot\axminigun\axminigun_shot2.ogg", 1, 1.1, 2000};
+				//begin3[] = {"\xdf\sounds\shot\axminigun\axminigun_shot3.ogg", 1, 0.9, 2000};
+				//soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
+				//closure1[] = {"\xdf\sounds\shot\axminigun\axminigun_spin1.ogg", 0.316228, 1, 20};
+				//closure2[] = {"\xdf\sounds\shot\axminigun\axminigun_spin2.ogg", 0.316228, 1, 20};
+				//soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
 				soundsetshot[] = {"AX_Minigun_Shot_SoundSet", "AX_Minigun_Tail_SoundSet"};
 			};
 			soundContinuous=0;
@@ -4603,6 +4624,24 @@ class cfgWeapons
 			midRangeProbab=0.30000001;
 			maxRange=1500;
 			maxRangeProbab=0.050000001;
+		};
+	};
+	class LMG_Minigun_AX_HE2: LMG_Minigun_AX_HE
+	{
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName="machinegun2_eject_pos";
+				directionName="machinegun2_eject_dir";
+				effectName="MachineGunCartridgeShort1";
+			};
+			class effect2
+			{
+				positionName="machinegun2_end";
+				directionName="machinegun2_beg";
+				effectName="MachineGun1";
+			};
 		};
 	};
 	class weapon_AMRAAMLauncher;

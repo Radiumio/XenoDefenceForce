@@ -17607,9 +17607,10 @@ class CfgVehicles
 		};
 	};
 	class B_Heli_Transport_03_base_F;
-    class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class AnimationSources; class EventHandlers; class Turrets; };
     class B_Heli_Transport_03_base_F_OCimport_02 : B_Heli_Transport_03_base_F_OCimport_01 { 
-        class EventHandlers; 
+        class AnimationSources;
+		class EventHandlers; 
         class Turrets : Turrets {
             class CopilotTurret;
             class MainTurret;
@@ -17641,6 +17642,29 @@ class CfgVehicles
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_black_CO.paa",
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
 		};
+		class AnimationSources: AnimationSources
+		{	
+			class Minigun
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Minigun2
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE2";
+			};
+			class Muzzle_flash2
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE2";
+			};
+		};
 		class Turrets : Turrets
 		{
             class CopilotTurret : CopilotTurret 
@@ -17649,11 +17673,29 @@ class CfgVehicles
 			};
             class MainTurret : MainTurret 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE2"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
 		};
 		class TextureSources
@@ -17680,9 +17722,10 @@ class CfgVehicles
 		};
 	};
 	class B_Heli_Transport_01_F;
-    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class AnimationSources; class EventHandlers; class Turrets; };
     class B_Heli_Transport_01_F_OCimport_02 : B_Heli_Transport_01_F_OCimport_01 { 
-        class EventHandlers; 
+        class AnimationSources;
+		class EventHandlers; 
         class Turrets : Turrets {
 			class CopilotTurret;
             class MainTurret;
@@ -17712,6 +17755,29 @@ class CfgVehicles
 			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
 		};
+		class AnimationSources: AnimationSources
+		{	
+			class Minigun
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Minigun2
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE2";
+			};
+			class Muzzle_flash2
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE2";
+			};
+		};
 		class Turrets : Turrets
 		{
 			class CopilotTurret : CopilotTurret 
@@ -17721,10 +17787,28 @@ class CfgVehicles
             class MainTurret : MainTurret 
 			{ 
 				gunnerType = "B_XDF_Heli_Crew"; 
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
             class RightDoorGun : RightDoorGun 
 			{ 
-				gunnerType = "B_XDF_Heli_Crew"; 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE2"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
 			};
 		};
 		class TextureSources
@@ -26649,8 +26733,8 @@ class CfgVehicles
 					"20Rnd_120mm_APFSDS_shells_Tracer_Yellow",
 					"12Rnd_120mm_HE_shells_Tracer_Yellow",
 					"12Rnd_120mm_HEAT_MP_T_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Yellow",
-					"2000Rnd_65x39_Belt_Tracer_Yellow"
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
 				};
 			};
 		};
