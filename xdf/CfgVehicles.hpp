@@ -17607,9 +17607,10 @@ class CfgVehicles
 		};
 	};
 	class B_Heli_Transport_03_base_F;
-    class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_03_base_F_OCimport_01 : B_Heli_Transport_03_base_F { scope = 0; class AnimationSources; class EventHandlers; class Turrets; };
     class B_Heli_Transport_03_base_F_OCimport_02 : B_Heli_Transport_03_base_F_OCimport_01 { 
-        class EventHandlers; 
+        class AnimationSources;
+		class EventHandlers; 
         class Turrets : Turrets {
             class CopilotTurret;
             class MainTurret;
@@ -17640,6 +17641,29 @@ class CfgVehicles
 		{
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_black_CO.paa",
 			"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
+		};
+		class AnimationSources: AnimationSources
+		{	
+			class Minigun
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Minigun2
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash2
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
 		};
 		class Turrets : Turrets
 		{
@@ -17698,9 +17722,10 @@ class CfgVehicles
 		};
 	};
 	class B_Heli_Transport_01_F;
-    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Transport_01_F_OCimport_01 : B_Heli_Transport_01_F { scope = 0; class AnimationSources; class EventHandlers; class Turrets; };
     class B_Heli_Transport_01_F_OCimport_02 : B_Heli_Transport_01_F_OCimport_01 { 
-        class EventHandlers; 
+        class AnimationSources;
+		class EventHandlers; 
         class Turrets : Turrets {
 			class CopilotTurret;
             class MainTurret;
@@ -17729,6 +17754,29 @@ class CfgVehicles
 		{
 			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
+		};
+		class AnimationSources: AnimationSources
+		{	
+			class Minigun
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Minigun2
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash2
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
 		};
 		class Turrets : Turrets
 		{
