@@ -30637,7 +30637,7 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_LegStrapBag_Black.paa"
 		};
-		maximumLoad=120;
+		maximumLoad=200;
 	};
 	class B_XDF_TacticalPack_Black: B_SSU_TacticalPack_base
 	{
@@ -30886,7 +30886,7 @@ class CfgVehicles
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
 		};
-		maximumLoad = 100;
+		maximumLoad = 200;
 		mass = 5;
 	};
 
