@@ -1632,7 +1632,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
 		};
 	};
-	class H_XDF_Aggressor_cover: H_HelmetAggressor_cover_F
+	class H_XDF_Aggressor_Temperate_cover: H_HelmetAggressor_cover_F
 	{
 		author="Radium";
 		scope=2;
