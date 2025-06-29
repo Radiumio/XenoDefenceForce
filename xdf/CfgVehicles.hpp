@@ -16371,6 +16371,42 @@ class CfgVehicles
 			"\xdf\retextures\caiman\Heli_Attack_02_body1_black_CO.paa",
 			"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\caiman\Heli_Attack_02_body1_black_CO.paa",
+					"\xdf\retextures\caiman\Heli_Attack_02_body2_black_CO.paa"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\caiman\Heli_Attack_02_body1_temperate_CO.paa",
+					"\xdf\retextures\caiman\Heli_Attack_02_body2_temperate_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 		class AnimationSources: AnimationSources
 		{
 			class Gatling
@@ -17519,6 +17555,32 @@ class CfgVehicles
 					"\xdf\retextures\comanche\heli_attack_01_co.paa"
 				};
 			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_temperate_co.paa"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_honeycomb_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -17597,6 +17659,32 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\comanche\heli_attack_01_co.paa"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_temperate_co.paa"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_honeycomb_co.paa"
 				};
 			};
 		};
