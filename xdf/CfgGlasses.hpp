@@ -344,6 +344,43 @@ class CfgGlasses
 			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_a.paa"
 		};
 	};
+	class G_XDF_APR_A_Orange: G_AirPurifyingRespirator_01_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Alpha (Orange)";
+		descriptionShort = "An Air Purifying Respirator compatible with western helmets and filters. Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_a_orange.paa"
+		};
+	};
+	class G_XDF_APR_A_NoFilter_Orange: G_AirPurifyingRespirator_01_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Alpha (Orange, No Filter)";
+		descriptionShort = "An Air Purifying Respirator compatible with western helmets and filters.<br/>Filter removed to make space for a combination respirator.<br/>Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"filter"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_a_orange.paa"
+		};
+	};
 	class G_XDF_APR_B: G_AirPurifyingRespirator_02_black_F
 	{
 		author="Radium";
@@ -379,6 +416,43 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_b.paa"
+		};
+	};
+	class G_XDF_APR_B_Orange: G_AirPurifyingRespirator_02_black_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Bravo (Orange)";
+		descriptionShort = "An Air Purifying Respirator compatible with eastern helmets and filters. Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_b_orange.paa"
+		};
+	};
+	class G_XDF_APR_B_NoFilter_Orange: G_AirPurifyingRespirator_02_black_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Bravo (Orange, No Filter)";
+		descriptionShort = "An Air Purifying Respirator compatible with eastern helmets and filters.<br/>Filter removed to make space for a combination respirator.<br/>Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"filter"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_b_orange.paa"
 		};
 	};
 };
