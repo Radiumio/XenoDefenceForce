@@ -1146,7 +1146,7 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo"};
-			containerClass="Supply100";
+			containerClass="Supply200";
 		};
 		hiddenSelectionsTextures[] = 
 		{
@@ -1630,6 +1630,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
+	class H_XDF_Aggressor_Temperate_cover: H_HelmetAggressor_cover_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Temperate Cover)";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams, covered with protective nanowrap in a temperate camo scheme."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Temperate_co.paa"
 		};
 	};
 	class H_HelmetB;

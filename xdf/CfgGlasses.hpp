@@ -21,6 +21,19 @@ class CfgGlasses
 		{
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Black.paa"
 		};
+	};class G_XDF_Balaclava_TI_Temperate: G_SSU_Balaclava_TI_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Stealth Balaclava (Temperate)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures. Temperate camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Temperate.paa"
+		};
 	};
 	class G_XDF_Balaclava_TI_G_Black: G_SSU_Balaclava_TI_G_base
 	{
@@ -34,6 +47,21 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Black.paa",
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_G_Temperate: G_SSU_Balaclava_TI_G_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Stealth Balaclava (Temperate, Goggles)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures.<br/>Includes SIC goggles and a temperate camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Temperate.paa",
 			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
 		};
 	};
@@ -51,6 +79,20 @@ class CfgGlasses
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Black.paa"
 		};
 	};
+	class G_XDF_Balaclava_TI_Nanowrap_Temperate: G_SSU_Balaclava_TI_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Temperate)";
+		descriptionShort = "No Armor<br/>XDF nanowrap covering provides insulation and protection from shrapnel or environmental elements. Temperate camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Temperate.paa"
+		};
+	};
 	class G_XDF_Balaclava_TI_Nanowrap_G_Black: G_SSU_Balaclava_TI_G_base
 	{
 		author="Clasless & Radium";
@@ -63,6 +105,21 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Black.paa",
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_G_Temperate: G_SSU_Balaclava_TI_G_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Temperate, Goggles)";
+		descriptionShort = "No Armor<br/>XDF nanowrap covering provides insulation and protection from shrapnel or environmental elements.<br/>Includes SIC goggles and temperate camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Temperate.paa",
 			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
 		};
 	};
@@ -287,6 +344,43 @@ class CfgGlasses
 			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_a.paa"
 		};
 	};
+	class G_XDF_APR_A_Orange: G_AirPurifyingRespirator_01_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Alpha (Orange)";
+		descriptionShort = "An Air Purifying Respirator compatible with western helmets and filters. Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_a_orange.paa"
+		};
+	};
+	class G_XDF_APR_A_NoFilter_Orange: G_AirPurifyingRespirator_01_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Alpha (Orange, No Filter)";
+		descriptionShort = "An Air Purifying Respirator compatible with western helmets and filters.<br/>Filter removed to make space for a combination respirator.<br/>Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_01_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"filter"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_a_orange.paa"
+		};
+	};
 	class G_XDF_APR_B: G_AirPurifyingRespirator_02_black_F
 	{
 		author="Radium";
@@ -322,6 +416,43 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_b.paa"
+		};
+	};
+	class G_XDF_APR_B_Orange: G_AirPurifyingRespirator_02_black_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Bravo (Orange)";
+		descriptionShort = "An Air Purifying Respirator compatible with eastern helmets and filters. Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_b_orange.paa"
+		};
+	};
+	class G_XDF_APR_B_NoFilter_Orange: G_AirPurifyingRespirator_02_black_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF APR Bravo (Orange, No Filter)";
+		descriptionShort = "An Air Purifying Respirator compatible with eastern helmets and filters.<br/>Filter removed to make space for a combination respirator.<br/>Research color scheme changed to standard orange.";
+		picture="\A3\Characters_F_Enoch\Facewear\Data\UI\icon_G_AirPurifyingRespirator_02_black_F_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"filter"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_apr_b_orange.paa"
 		};
 	};
 };
