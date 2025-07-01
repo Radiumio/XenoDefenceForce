@@ -12,9 +12,11 @@ Xeno Defence Force is a faction and gear mod heavily inspired by the Xenonauts v
 As of the current release, the project includes:
 - **50+ vehicle retextures**, with many variants covered. Many vehicles have also had their armor, speed and handling values changed - representing faster and stronger vehicles infused with alien technology - such as the XDF Gemini which is capable of insane maneuvers.
 
-- **A plethora of retextured weapons, uniforms, vests, helmets** and **facewear** to match the XDF theme. All weapons have new reload sounds included in the mod, and infantry get anti-xeno munitions to boost damage slightly while sporting cool blue tracers.
+- **A plethora of retextured weapons, uniforms, vests, helmets** and **facewear** to match the XDF theme.
 
- - **Special anti-xeno munitions** for certain vehicles give the XDF a necessary edge in armored combat. Powerful anti-xeno missiles using unstable warheads can destroy even the most powerful vehicles, while special thermobaric rounds can be fired by portable launchers to decimate hostile infantry on the ground.
+- **All XDF weapons** have new reload sounds specifically for them, for a punchier feel when paired with sound mods like JSRS.
+
+ - **Special anti-xeno munitions** for certain XDF vehicles - APFSDS-AX rounds for tanks, AX missiles, new AX vehicle-mounted miniguns, and AX magazines for all XDF weapons. All AX rounds have blue tracers.
 
  - **XDF insignias** and **flags** to represent the various divisions and groups.
 
