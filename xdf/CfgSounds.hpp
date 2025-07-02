@@ -27,6 +27,8 @@ class CfgSoundSets
 	{
 		soundShaders[] = {"FAE_closeExp_SoundShader", "FAE_midExp_SoundShader","FAE_distExp_SoundShader"};
 		volumeFactor = 2;
+        stereoStartDistance = 100;
+        stereoRadius = 50;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -34,6 +36,24 @@ class CfgSoundSets
 		sound3DProcessingType = "ExplosionLight3DProcessingType";
 		distanceFilter = "explosionDistanceFreqAttenuationFilter";
 	};
+    class FAE_Tail_SoundSet 
+	{
+        soundShaders[] = {"FAE_tail_SoundShader"};
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        stereoStartDistance = 100;
+        stereoRadius = 50;
+        sound3DProcessingType = "ExplosionMedium3DProcessingType";
+        distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+    };
 	class FAE_Big_Exp_SoundSet
 	{
 		soundShaders[] = {"FAE_Big_closeExp_SoundShader", "FAE_Big_midExp_SoundShader","FAE_Big_distExp_SoundShader"};
@@ -54,7 +74,7 @@ class CfgSoundSets
         volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 100;
         stereoRadius = 50;
-        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        sound3DProcessingType = "ExplosionMedium3DProcessingType";
         distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -233,6 +253,14 @@ class CfgSoundShaders
 		volume = 1;
 		range = 3000;
 		rangeCurve[] = {{0, 0}, {100, 0}, {250, 1}, {3000, 0.5}};
+	};
+	class FAE_tail_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\thermobaric_tail.ogg", 1}};
+		volume = 2;
+		range = 2200;
+		rangecurve[] = {{1,0},{2200,1}};
+		limitable = 1;
 	};
 	class FAE_Big_tail_SoundShader
 	{
