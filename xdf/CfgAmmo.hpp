@@ -160,7 +160,7 @@ class CfgAmmo
 	{
 		hit=3500;
 		indirectHit=800;
-		indirectHitRange=20;
+		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
@@ -175,8 +175,8 @@ class CfgAmmo
 	class ammo_XDF_Missile_Cruise_Thermobaric_01: ammo_Missile_Cruise_01
 	{
 		hit=12000;
-		indirectHit=4500;
-		indirectHitRange=250;
+		indirectHit=12000;
+		indirectHitRange=100;
 		cameraViewAvailable=1;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
@@ -186,9 +186,44 @@ class CfgAmmo
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
-			7,
+			4,
 			1,
 			1200
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			4,
+			1,
+			1200
+		};
+		class CamShakeExplode
+		{
+			power=20;
+			duration=7;
+			frequency=50;
+			distance=1500;
+		};
+		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
+	};
+	class Bomb_03_F;
+	class XDF_Thermobaric_Bomb: Bomb_03_F
+	{
+		model="\A3\Weapons_F_EPC\Ammo\Bomb_03_F.p3d";
+		proxyShape="\A3\Weapons_F_EPC\Ammo\Bomb_03_F.p3d";
+		maverickWeaponIndexOffset=6;
+		hit=1200;
+		indirectHit=12000;
+		indirectHitRange=100;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="XDF_ThermobaricBigHit";
+		effectsMissile="XDF_Missile3";
+		class CamShakeExplode
+		{
+			power=20;
+			duration=7;
+			frequency=50;
+			distance=1500;
 		};
 		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
 	};

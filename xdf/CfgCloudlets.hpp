@@ -118,6 +118,10 @@ class CfgCloudlets
 				{1,1,1,-6},
 				{1,1,1,-2}
 		};
+		emissive[] = 
+		{
+			0.8,0,0,0
+		};
 		animationSpeed[] = {0.25};
 		randomDirectionPeriod = 0.2;
 		randomDirectionIntensity = 0.1;
@@ -166,6 +170,10 @@ class CfgCloudlets
 				{1,1,1,-10},
 				{1,1,1,-6},
 				{1,1,1,-2}
+		};
+		emissive[] = 
+		{
+			0.8,0,0,0
 		};
 		animationSpeed[] = {0.25};
 		randomDirectionPeriod = 0.2;
@@ -430,7 +438,7 @@ class CfgCloudlets
 
 	class XDF_fae_big_sparks: Default
 	{
-		interval = 0.02;
+		interval = 0.002;
 		circleRadius = 10;
 		circleVelocity[] = {8,10,5};
 		particleFSNtieth = 16;
@@ -441,12 +449,12 @@ class CfgCloudlets
 		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
 		particleType = "Billboard";
 		timerPeriod = 1;
-		lifeTime = 8;
-		moveVelocity[] = {0,25,0};
+		lifeTime = 20;
+		moveVelocity[] = {0,80,0};
 		rotationVelocity = 1;
-		weight = 1.05;
+		weight = 0.5;
 		volume = 1;
-		rubbing = 0.17;
+		rubbing = 0.05;
 		size[] = {1.8,0.1,0.1,0.1,0.1,0.08,0.08,0.08,0.08,0};
 		color[] =
 		{
@@ -454,6 +462,10 @@ class CfgCloudlets
 				{1,0.3,0.3,-6},
 				{1,0.3,0.3,-5.5},
 				{1,0.3,0.3,-4.5}
+		};
+		emissive[] = 
+		{
+			0.8,0,0,0
 		};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.5;

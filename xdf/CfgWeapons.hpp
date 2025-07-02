@@ -4916,6 +4916,7 @@ class cfgWeapons
 	{
 		displayName="VENATOR VLS";
 		magazineReloadTime=30;
+		reloadTime=4;
 		magazines[]=
 		{
 			"magazine_XDF_Missile_Cruise_Thermobaric_01_x18",
@@ -4927,6 +4928,24 @@ class cfgWeapons
 		class EventHandlers
 		{
 			fired="_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
+		};
+	};
+	class weapon_LGBLauncherBase;
+	class Bomb_04_Plane_CAS_01_F: weapon_LGBLauncherBase
+	{
+		class LoalAltitude;
+	};
+	class Bomb_04_Plane_XDF_01_F: Bomb_04_Plane_CAS_01_F
+	{
+		displayName="$STR_A3_CFGMAGAZINES_GBU120";
+		magazines[]+=
+		{
+			"magazine_1Rnd_Bomb_Thermobaric_F"
+		};
+		holdsterAnimValue=6;
+		class LoalAltitude: LoalAltitude
+		{
+			displayName="$STR_A3_CFGMAGAZINES_GBU120";
 		};
 	};
 

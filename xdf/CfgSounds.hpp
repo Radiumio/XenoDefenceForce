@@ -225,7 +225,7 @@ class CfgSoundShaders
 		samples[] = {{"\xdf\sounds\exp\big_thermobaric_1.ogg", 1}, {"\xdf\sounds\exp\big_thermobaric_2.ogg", 1}};
 		volume = 1.5;
 		range = 2200;
-		rangeCurve[] = {{0, 1}, {100, 1}, {500, 0}, {2200, 0}};
+		rangeCurve[] = {{0, 1}, {100, 1}, {500, 0.5}, {2200, 0}};
 	};
 	class FAE_Big_distExp_SoundShader
 	{

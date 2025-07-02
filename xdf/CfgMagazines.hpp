@@ -247,6 +247,21 @@ class CfgMagazines
 		mirrorMissilesIndexes[]={2,1,3};
 		ejectSpeed[]={1,0,0};
 	};
+	class PylonMissile_1Rnd_Bomb_04_F;
+	class magazine_1Rnd_Bomb_Thermobaric_F: PylonMissile_1Rnd_Bomb_04_F
+	{
+		displayName="GPX-FAE500";
+		count=1;
+		model="\A3\Weapons_F\DynamicLoadout\PylonMissile_1x_Bomb_04_F.p3d";
+		descriptionShort="Desc Short";
+		ammo="XDF_Thermobaric_Bomb";
+		hardpoints[]=
+		{
+			"B_BOMB_PYLON"
+		};
+		pylonWeapon="Bomb_04_Plane_XDF_01_F";
+		mass=230;
+	};
 	class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
 	class 1000Rnd_Gatling_30mm_AX_CAS_01_F: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
 	{
