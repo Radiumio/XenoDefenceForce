@@ -4937,7 +4937,7 @@ class cfgWeapons
 	};
 	class Bomb_04_Plane_XDF_01_F: Bomb_04_Plane_CAS_01_F
 	{
-		displayName="$STR_A3_CFGMAGAZINES_GBU120";
+		displayName="GPX-FAE500";
 		magazines[]+=
 		{
 			"magazine_1Rnd_Bomb_Thermobaric_F"
@@ -4945,7 +4945,7 @@ class cfgWeapons
 		holdsterAnimValue=6;
 		class LoalAltitude: LoalAltitude
 		{
-			displayName="$STR_A3_CFGMAGAZINES_GBU120";
+			displayName="GPX-FAE500";
 		};
 	};
 

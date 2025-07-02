@@ -250,14 +250,23 @@ class CfgMagazines
 	class PylonMissile_1Rnd_Bomb_04_F;
 	class magazine_1Rnd_Bomb_Thermobaric_F: PylonMissile_1Rnd_Bomb_04_F
 	{
-		displayName="GPX-FAE500";
+		displayName="GPX-FAE500 x1";
 		count=1;
+		displayNameShort="EXP-FAE";
 		model="\A3\Weapons_F\DynamicLoadout\PylonMissile_1x_Bomb_04_F.p3d";
-		descriptionShort="Desc Short";
+		descriptionShort="An experimental thermobaric bomb with an estimated 300 to 400 meter kill radius - extremely dangerous but highly effective against ground targets.";
 		ammo="XDF_Thermobaric_Bomb";
 		hardpoints[]=
 		{
-			"B_BOMB_PYLON"
+			"B_BOMB_PYLON",
+			"B_AMRAAM_D",
+			"B_AMRAAM_D_RAIL",
+			"O_KH25",
+			"B_MISSILE_PYLON",
+			"O_MISSILE_PYLON",
+			"O_KH25_INT",
+			"O_BOMB_PYLON",
+			"O_BOMB_PYLON_HELI"
 		};
 		pylonWeapon="Bomb_04_Plane_XDF_01_F";
 		mass=230;

@@ -176,7 +176,7 @@ class CfgAmmo
 	{
 		hit=12000;
 		indirectHit=12000;
-		indirectHitRange=100;
+		indirectHitRange=75;
 		cameraViewAvailable=1;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
@@ -214,7 +214,7 @@ class CfgAmmo
 		maverickWeaponIndexOffset=6;
 		hit=1200;
 		indirectHit=12000;
-		indirectHitRange=100;
+		indirectHitRange=75;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
 		effectsMissile="XDF_Missile3";
