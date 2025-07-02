@@ -225,7 +225,6 @@ class CfgMagazines
 			"O_KH25",
 			"B_MISSILE_PYLON",
 			"O_MISSILE_PYLON",
-			"TITAN_NLOS_2RND",
 			"O_KH25_INT",
 			"UNI_SCALPEL"
 		};
@@ -243,8 +242,7 @@ class CfgMagazines
 		count=3;
 		hardpoints[]=
 		{
-			"B_MISSILE_PYLON",
-			"TITAN_NLOS_2RND"
+			"B_MISSILE_PYLON"
 		};
 		pylonWeapon="weapon_AXGMLauncher";
 		mirrorMissilesIndexes[]={2,1,3};
