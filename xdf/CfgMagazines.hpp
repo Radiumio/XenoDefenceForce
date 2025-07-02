@@ -266,6 +266,7 @@ class CfgMagazines
 			"O_MISSILE_PYLON",
 			"O_KH25_INT",
 			"O_BOMB_PYLON",
+			"TITAN_NLOS_2RND",
 			"O_BOMB_PYLON_HELI"
 		};
 		pylonWeapon="Bomb_04_Plane_XDF_01_F";
@@ -464,9 +465,9 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="Thermobaric Cruise Missile";
-		displayNameShort="Thermobaric Cruise Missile";
-		descriptionShort="EXP-FAE";
+		displayName="Cruise Missile FAE";
+		displayNameShort="VCM FAE";
+		descriptionShort="An experimental and highly dangerous cruise missile packed with a thermobaric warhead. Sports extreme damage and large kill radius.";
 		ammo="ammo_XDF_Missile_Cruise_Thermobaric_01";
 		initSpeed=12;
 		maxLeadSpeed=1.38889;
