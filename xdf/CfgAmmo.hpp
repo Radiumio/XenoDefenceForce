@@ -126,6 +126,13 @@ class CfgAmmo
 		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
 		fuseDistance=100;
+		class CamShakeExplode
+		{
+			power=20;
+			duration=7;
+			frequency=50;
+			distance=2200;
+		};
 		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
 		soundHit2[] = {"\xdf\sounds\exp\maaws_thermobaric_2", 5, 1, 2200};
 		soundHit3[] = {"\xdf\sounds\exp\maaws_thermobaric_3", 5, 1, 2200};
@@ -165,6 +172,13 @@ class CfgAmmo
 		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
 		fuseDistance=100;
+		class CamShakeExplode
+		{
+			power=20;
+			duration=7;
+			frequency=50;
+			distance=2200;
+		};
 		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
 		soundHit2[] = {"\xdf\sounds\exp\maaws_thermobaric_2", 5, 1, 2200};
 		soundHit3[] = {"\xdf\sounds\exp\maaws_thermobaric_3", 5, 1, 2200};
@@ -202,7 +216,7 @@ class CfgAmmo
 			power=20;
 			duration=7;
 			frequency=50;
-			distance=1500;
+			distance=3000;
 		};
 		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
 	};

@@ -39,7 +39,7 @@ class CfgSoundSets
     class FAE_Tail_SoundSet 
 	{
         soundShaders[] = {"FAE_tail_SoundShader"};
-        volumeFactor = 1;
+        volumeFactor = 2;
         volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 100;
         stereoRadius = 50;
