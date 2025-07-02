@@ -183,6 +183,7 @@ class CfgMagazines
 			"B_AMRAAM_D_RAIL",
 			"B_AMRAAM_D",
 			"B_AMRAAM_D_INT",
+			"TITAN_NLOS_2RND",
 			"O_R73",
 			"O_R77",
 			"O_R77_INT"
@@ -224,6 +225,7 @@ class CfgMagazines
 			"O_KH25",
 			"B_MISSILE_PYLON",
 			"O_MISSILE_PYLON",
+			"TITAN_NLOS_2RND",
 			"O_KH25_INT",
 			"UNI_SCALPEL"
 		};
@@ -241,7 +243,8 @@ class CfgMagazines
 		count=3;
 		hardpoints[]=
 		{
-			"B_MISSILE_PYLON"
+			"B_MISSILE_PYLON",
+			"TITAN_NLOS_2RND"
 		};
 		pylonWeapon="weapon_AXGMLauncher";
 		mirrorMissilesIndexes[]={2,1,3};
