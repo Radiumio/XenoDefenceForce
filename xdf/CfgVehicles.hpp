@@ -25816,7 +25816,14 @@ class CfgVehicles
 		};
 	};
 	class O_LSV_02_armed_F;
-	class XDF_Stingray_Minigun: O_LSV_02_armed_F
+	class O_LSV_02_armed_F_OCimport_01 : O_LSV_02_armed_F { scope = 0; class AnimationSources; class Turrets; };
+	class O_LSV_02_armed_F_OCimport_02 : O_LSV_02_armed_F_OCimport_01 {
+		class AnimationSources;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Stingray_Minigun: O_LSV_02_armed_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -25843,6 +25850,39 @@ class CfgVehicles
 			"\xdf\retextures\stingray\csat_lsv_01_black_co.paa",
 			"\xdf\retextures\stingray\csat_lsv_02_black_co.paa",
 			"\xdf\retextures\stingray\csat_lsv_03_black_co.paa"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class Minigun
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_rot
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_hide
+			{
+				source="reload";
+				weapon="LMG_Minigun_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"LMG_Minigun_AX"
+				};
+				magazines[]=
+				{
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
+				};
+			};
 		};
 		class TextureSources
 		{
