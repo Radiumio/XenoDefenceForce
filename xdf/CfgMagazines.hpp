@@ -436,6 +436,19 @@ class CfgMagazines
 		scope=2;
 		count=2000;
 	};
+	class magazine_XDF_Missile_Cruise_Thermobaric_01_x18: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="Thermobaric Cruise Missile";
+		displayNameShort="Thermobaric Cruise Missile";
+		descriptionShort="EXP-FAE";
+		ammo="ammo_XDF_Missile_Cruise_Thermobaric_01";
+		initSpeed=12;
+		maxLeadSpeed=1.38889;
+		count=18;
+		nameSound="missiles";
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

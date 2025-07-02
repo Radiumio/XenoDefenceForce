@@ -29770,7 +29770,13 @@ class CfgVehicles
 		};
 	};
 	class B_Ship_MRLS_01_F;
-	class XDF_Typhon_VLS: B_Ship_MRLS_01_F
+	class B_Ship_MRLS_01_F_OCimport_01: B_Ship_MRLS_01_F { scope = 0; class AnimationSources; class Turrets; };
+	class B_Ship_MRLS_01_F_OCimport_02: B_Ship_MRLS_01_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
+	class XDF_Typhon_VLS: B_Ship_MRLS_01_F_OCimport_02
 	{
 		author="Radium";
 		scope = 2;
@@ -29794,6 +29800,30 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\turrets\typhon\ship_mrls_01_co.paa",
+		};
+		class AnimationSources
+		{
+			class Missiles_revolving
+			{
+				source="ammo";
+				weapon="weapon_VLS_XDF_01";
+				animPeriod=0.001;
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"weapon_VLS_XDF_01"
+				};
+				magazines[]=
+				{
+					"magazine_XDF_Missile_Cruise_Thermobaric_01_x18",
+					"magazine_Missiles_Cruise_01_x18"
+				};
+			};
 		};
 		class TextureSources
 		{

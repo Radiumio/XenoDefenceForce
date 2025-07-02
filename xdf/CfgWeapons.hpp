@@ -4907,6 +4907,28 @@ class cfgWeapons
 			"200Rnd_762x51_Belt_Blue"
 		};
 	};
+	class weapon_VLSBase;
+	class weapon_VLS_01: weapon_VLSBase
+	{
+		class Cruise;
+	};
+	class weapon_VLS_XDF_01: weapon_VLS_01
+	{
+		displayName="VENATOR VLS";
+		magazineReloadTime=30;
+		magazines[]=
+		{
+			"magazine_XDF_Missile_Cruise_Thermobaric_01_x18",
+			"magazine_Missiles_Cruise_01_x18"
+		};
+		class Cruise: Cruise
+		{
+		};
+		class EventHandlers
+		{
+			fired="_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
+		};
+	};
 
 	// Attachments
 	class optic_Nightstalker;

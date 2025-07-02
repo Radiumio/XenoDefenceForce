@@ -160,7 +160,7 @@ class CfgAmmo
 	{
 		hit=3500;
 		indirectHit=800;
-		indirectHitRange=15;
+		indirectHitRange=20;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
@@ -170,6 +170,27 @@ class CfgAmmo
 		soundHit3[] = {"\xdf\sounds\exp\maaws_thermobaric_3", 5, 1, 2200};
 		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33000001, "soundHit3", 0.33000001};
 		SoundSetExplosion[] = {"FAE_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet"};
+	};
+	class ammo_Missile_Cruise_01;
+	class ammo_XDF_Missile_Cruise_Thermobaric_01: ammo_Missile_Cruise_01
+	{
+		hit=12000;
+		indirectHit=4500;
+		indirectHitRange=250;
+		cameraViewAvailable=1;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="XDF_ThermobaricBigHit";
+		effectsMissile="XDF_Missile3";
+		model="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
+		proxyShape="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			7,
+			1,
+			1200
+		};
+		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet"};
 	};
 	class ammo_Penetrator_Base;
 	class ammo_Penetrator_Titan_AT_XDF: ammo_Penetrator_Base

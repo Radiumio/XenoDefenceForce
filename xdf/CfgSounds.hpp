@@ -34,6 +34,17 @@ class CfgSoundSets
 		sound3DProcessingType = "ExplosionLight3DProcessingType";
 		distanceFilter = "explosionDistanceFreqAttenuationFilter";
 	};
+	class FAE_Big_Exp_SoundSet
+	{
+		soundShaders[] = {"FAE_Big_closeExp_SoundShader", "FAE_Big_midExp_SoundShader","FAE_Big_distExp_SoundShader"};
+		volumeFactor = 4;
+		volumeCurve = "InverseSquare2Curve";
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		sound3DProcessingType = "ExplosionLight3DProcessingType";
+		distanceFilter = "explosionDistanceFreqAttenuationFilter";
+	};
     class Mantis_shot_SoundSet {
         soundShaders[] = { "Mantis_closeShot_SoundShader", "Mantis_midShot_SoundShader", "Mantis_distShot_SoundShader", "Mantis_closure_SoundShader" };
         volumeFactor = 1.2;
@@ -181,6 +192,27 @@ class CfgSoundShaders
 		volume = 1;
 		range = 2200;
 		rangeCurve[] = {{0, 0}, {100, 0}, {250, 1}, {2200, 1}};
+	};
+	class FAE_Big_closeExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\big_thermobaric_1.ogg", 1}, {"\xdf\sounds\exp\big_thermobaric_2.ogg", 1}};
+		volume = 2;
+		range = 150;
+		rangeCurve[] = {{0, 1}, {50, 0.75}, {70, 0}};
+	};
+	class FAE_Big_midExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\big_thermobaric_1.ogg", 1}, {"\xdf\sounds\exp\big_thermobaric_2.ogg", 1}};
+		volume = 1.5;
+		range = 2200;
+		rangeCurve[] = {{0, 1}, {100, 1}, {500, 0}, {2200, 0}};
+	};
+	class FAE_Big_distExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\big_thermobaric_1.ogg", 1}, {"\xdf\sounds\exp\big_thermobaric_2.ogg", 1}};
+		volume = 1;
+		range = 3000;
+		rangeCurve[] = {{0, 0}, {100, 0}, {250, 1}, {3000, 0.5}};
 	};
 	class Mantis_closure_SoundShader
 	{
