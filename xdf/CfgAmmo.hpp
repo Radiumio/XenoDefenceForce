@@ -128,7 +128,7 @@ class CfgAmmo
 		fuseDistance=100;
 		class CamShakeExplode
 		{
-			power=20;
+			power=5;
 			duration=7;
 			frequency=50;
 			distance=2200;
@@ -174,7 +174,7 @@ class CfgAmmo
 		fuseDistance=100;
 		class CamShakeExplode
 		{
-			power=20;
+			power=5;
 			duration=7;
 			frequency=50;
 			distance=2200;
