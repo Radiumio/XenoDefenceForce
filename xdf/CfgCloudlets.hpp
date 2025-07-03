@@ -752,11 +752,11 @@ class CfgLights
 		flareMaxDistance = 2600;
 		class Attenuation
 		{
-			start = 0;
-			constant = 0;
-			linear = 0;
-			quadratic = 1;
-			hardLimitStart = 100;
+			start = 50;
+			constant = 20;
+			linear = 0.01;
+			quadratic = 0.02;
+			hardLimitStart = 0;
 			hardLimitEnd = 200;
 		};
 	};
