@@ -194,7 +194,7 @@ class CfgAmmo
 		cameraViewAvailable=1;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
-		effectsMissile="XDF_Missile3";
+		effectsMissile="XDF_CruiseMissile";
 		model="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
 		proxyShape="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
 		soundEngine[]=

@@ -4916,7 +4916,7 @@ class cfgWeapons
 	{
 		displayName="VENATOR VLS";
 		magazineReloadTime=30;
-		reloadTime=4;
+		reloadTime=5;
 		magazines[]=
 		{
 			"magazine_XDF_Missile_Cruise_Thermobaric_01_x18",
@@ -4924,6 +4924,7 @@ class cfgWeapons
 		};
 		class Cruise: Cruise
 		{
+			reloadTime=5;
 		};
 		class EventHandlers
 		{

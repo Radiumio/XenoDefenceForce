@@ -57,7 +57,7 @@ class CfgSoundSets
 	class FAE_Big_Exp_SoundSet
 	{
 		soundShaders[] = {"FAE_Big_closeExp_SoundShader", "FAE_Big_midExp_SoundShader","FAE_Big_distExp_SoundShader"};
-		volumeFactor = 4;
+		volumeFactor = 2;
         stereoStartDistance = 100;
         stereoRadius = 50;
 		volumeCurve = "InverseSquare2Curve";
