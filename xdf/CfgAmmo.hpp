@@ -239,6 +239,13 @@ class CfgAmmo
 			frequency=50;
 			distance=1500;
 		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1200
+		};
 		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
 	};
 	class ammo_Penetrator_Base;
