@@ -90,6 +90,96 @@ class CfgCloudlets
 		randomDirectionIntensityVar=0;
 	};
 
+	class XDF_CruiseMissile: Default
+	{
+		interval = 0.001;
+		circleRadius = 0;
+		circleVelocity[] = {0, 0, 0};
+		angleVar = 1;
+		particleFSLoop = 0;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal";
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 8;
+		animationName = "";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 10;
+		moveVelocity[] = {0, 0, 0};
+		rotationVelocity = 1;
+		weight = 1;
+		volume = 1.2;
+		rubbing = 0.5;
+		size[] = {2, 6, 8.8};
+		color[]=
+		{
+			{0.2,0.8,1.0,0.07},
+			{0.3,0.9,1.0,0.02},
+			{0.4,0.9,1.0,0.0099999998},
+			{0.5,0.8,1.0,0.0049999999},
+			{0.6,0.9,1.0,0.003}
+		};
+		animationSpeed[] = {5};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 0.1;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		blockAIVisibility = 0;
+		lifeTimeVar = 5.2;
+		positionVar[] = {0.3, 0.3, 0.3};
+		MoveVelocityVar[] = {1.8, 1.8, 1.8};
+		rotationVelocityVar = 20;
+		sizeVar = 0.15;
+		colorVar[] = {0, 0, 0, 0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+	};
+
+	class XDF_CruiseMissileMed: Default
+	{
+		interval = 0.003;
+		circleRadius = 0;
+		circleVelocity[] = {0, 0, 0};
+		angleVar = 1;
+		particleFSLoop = 0;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal";
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 8;
+		animationName = "";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 6;
+		moveVelocity[] = {0, 0, 0};
+		rotationVelocity = 1;
+		weight = 1;
+		volume = 0.8;
+		rubbing = 0.5;
+		size[] = {2, 4, 6.8};
+		color[]=
+		{
+			{0.5,0.1,0.1,0.07},
+			{0.4,0.2,0.3,0.02},
+			{0.3,0.3,0.2,0.0099999998},
+			{0.2,0.3,0.2,0.0049999999},
+			{0.5,0.2,0.3,0.003}
+		};
+		animationSpeed[] = {5};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 0.1;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		blockAIVisibility = 0;
+		lifeTimeVar = 5.2;
+		positionVar[] = {0.3, 0.3, 0.3};
+		MoveVelocityVar[] = {0.4, 0.4, 0.4};
+		rotationVelocityVar = 20;
+		sizeVar = 0.15;
+		colorVar[] = {0, 0, 0, 0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+	};
+
 	class XDF_fae_explosion: Default
 	{
 		interval = 0.01;
@@ -117,6 +207,63 @@ class CfgCloudlets
 				{1,1,1,-10},
 				{1,1,1,-6},
 				{1,1,1,-2}
+		};
+		emissive[] = 
+		{
+			0.8,0,0,0
+		};
+		animationSpeed[] = {0.25};
+		randomDirectionPeriod = 0.2;
+		randomDirectionIntensity = 0.1;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.3;
+		positionVar[] = {5,6,5};
+		moveVelocityVar[] = {2,2,2};
+		rotationVelocityVar = 25;
+		sizeVar = 2;
+		colorVar[] = {0,0,0,0.3};
+		randomDirectionPeriodVar = 0.2;
+		randomDirectionIntensityVar = 0.05;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_fae_big_explosion: Default
+	{
+		interval = 0.01;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 2;
+		particleFSFrameCount = 80;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 2;
+		moveVelocity[] = {0,2.5,0};
+		rotationVelocity = 0;
+		weight = 2;
+		volume = 1;
+		rubbing = 0.1;
+		size[] = {12,20};
+		color[] =
+		{
+				{1,1,1,-20},
+				{1,1,1,-15},
+				{1,1,1,-10},
+				{1,1,1,-6},
+				{1,1,1,-2}
+		};
+		emissive[] = 
+		{
+			0.8,0,0,0
 		};
 		animationSpeed[] = {0.25};
 		randomDirectionPeriod = 0.2;
@@ -189,6 +336,56 @@ class CfgCloudlets
 		position[] = {0,0,0};
 	};
 
+	class XDF_dirt_big_eject: Default
+	{
+		interval = 0.001;
+		circleRadius = 20;
+		circleVelocity[] = {0.8,0,20};
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 13;
+		particleFSLoop = 0;
+		angleVar = 0;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 12;
+		moveVelocity[] = {0,10,0};
+		rotationVelocity = 0;
+		weight = 0.053;
+		volume = 0.04;
+		rubbing = 0.05;
+		size[] = {100,17};
+		color[] =
+		{
+				{0.4,0.3,0.2,0.1},
+				{0.4,0.3,0.2,0.07},
+				{0.4,0.3,0.2,0.04},
+				{0.4,0.3,0.2,0.02},
+				{0.4,0.3,0.2,0.01},
+				{0.4,0.3,0.2,0.001}
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 1.4;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 8;
+		positionVar[] = {10,1,10};
+		moveVelocityVar[] = {0.5,0.5,0.5};
+		rotationVelocityVar = 20;
+		sizeVar = 0.2;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,15};
+	};
+
 	class XDF_dirt_eject2: Default
 	{
 		interval = 0.02;
@@ -235,6 +432,52 @@ class CfgCloudlets
 		position[] = {0,0,0};
 	};
 
+	class XDF_dirt_big_eject2: Default
+	{
+		interval = 0.02;
+		circleRadius = 5;
+		circleVelocity[] = {1.5,1,3};
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 9;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 8;
+		moveVelocity[] = {0,30,0};
+		rotationVelocity = 0;
+		weight = 150;
+		volume = 0.01;
+		rubbing = 0;
+		size[] = {30};
+		color[] =
+		{
+				{0.2,0.2,0.2,1},
+				{0.2,0.2,0.2,0}
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 8;
+		randomDirectionIntensity = 8;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 4;
+		positionVar[] = {0.1,0,0.1};
+		moveVelocityVar[] = {2,12,2};
+		rotationVelocityVar = 5;
+		sizeVar = 0;
+		colorVar[] = {0.1,0.1,0.1,0.1};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
 	class XDF_fae_sparks: Default
 	{
 		interval = 0.02;
@@ -261,6 +504,58 @@ class CfgCloudlets
 				{1,0.3,0.3,-6},
 				{1,0.3,0.3,-5.5},
 				{1,0.3,0.3,-4.5}
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.5;
+		randomDirectionIntensity = 2;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 15;
+		positionVar[] = {0,0.2,0};
+		moveVelocityVar[] = {0.2,1,0.2};
+		rotationVelocityVar = 2;
+		sizeVar = 2.1;
+		colorVar[] = {0,0.15,0.15,0};
+		randomDirectionPeriodVar = 0.3;
+		randomDirectionIntensityVar = 0.15;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_fae_big_sparks: Default
+	{
+		interval = 0.002;
+		circleRadius = 10;
+		circleVelocity[] = {8,10,5};
+		particleFSNtieth = 16;
+		particleFSIndex = 13;
+		particleFSFrameCount = 2;
+		particleFSLoop = 0;
+		angleVar = 360;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 20;
+		moveVelocity[] = {0,80,0};
+		rotationVelocity = 1;
+		weight = 0.5;
+		volume = 1;
+		rubbing = 0.05;
+		size[] = {1.8,0.1,0.1,0.1,0.1,0.08,0.08,0.08,0.08,0};
+		color[] =
+		{
+				{1,0.3,0.3,-6.5},
+				{1,0.3,0.3,-6},
+				{1,0.3,0.3,-5.5},
+				{1,0.3,0.3,-4.5}
+		};
+		emissive[] = 
+		{
+			0.8,0,0,0
 		};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.5;
@@ -440,6 +735,31 @@ class CfgLights
 			hardLimitEnd=200;
 		};
 	};
+	
+	class XDF_CruiseMissileLight
+	{
+		diffuse[] = {0.2, 0.8, 1.0};
+		color[] = {0.2, 0.8, 1.0};
+		ambient[] = {0, 0, 0};
+		brightness = "18 * fireIntensity";
+		size = 1;
+		intensity = 25000;
+		drawLight = 1;
+		blinking = 0;
+		dayLight = 1;
+		useFlare = 1;
+		flareSize = 1.5;
+		flareMaxDistance = 2600;
+		class Attenuation
+		{
+			start = 50;
+			constant = 20;
+			linear = 0.01;
+			quadratic = 0.02;
+			hardLimitStart = 0;
+			hardLimitEnd = 200;
+		};
+	};
 
 	class XDF_Fae_Light
 	{
@@ -460,6 +780,27 @@ class CfgLights
 			hardlimitEnd = 2000;
 		};
 		brightness = 100;
+	};
+	
+	class XDF_Fae_Big_Light
+	{
+		color[] = {1,0.357803,0.297369};
+		ambient[] = {1,0.357803,0.297369};
+		intensity = 150000;
+		useflare = 1;
+		flaresize = 1200;
+		flaremaxdist = 2000;
+		daylight = 1;
+		class Attenuation
+		{
+			start = 300;
+			constant = 3;
+			linear = 0.01;
+			quadratic = 0.002;
+			hardlimitStart = 1000;
+			hardlimitEnd = 3000;
+		};
+		brightness = 300;
 	};
 };
 
@@ -547,6 +888,57 @@ class XDF_ThermobaricHit
 		qualityLevel=2;
 	};
 };
+class XDF_ThermobaricBigHit
+{
+	class XDF_Fae_Light
+	{
+		simulation="light";
+		type="XDF_Fae_Big_Light";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1;
+	}
+	class thermohit
+	{
+		simulation="particles";
+		type="XDF_fae_big_explosion";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1;
+	};
+	class thermo_dust
+	{
+		simulation="particles";
+		type="XDF_dirt_big_eject";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+	class thermo_dust2
+	{
+		simulation="particles";
+		type="XDF_dirt_big_eject2";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+	class thermo_sparks
+	{
+		simulation="particles";
+		type="XDF_fae_big_sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+};
 
 class XDF_Mantis_Muzzle_Sparks
 {
@@ -586,5 +978,38 @@ class XDF_Mantis_Shroud_Heat_Up
 		interval=1;
 		lifeTime=1;
 		qualityLevel=2;
+	};
+};
+
+class XDF_CruiseMissile
+{
+	class Light1
+	{
+		simulation = "light";
+		type = "XDF_CruiseMissileLight";
+		position[] = {0, 0, -2};
+		intensity = 0.01;
+		interval = 1;
+		lifeTime = 1;
+	};
+	class Missile3
+	{
+		simulation = "particles";
+		type = "XDF_CruiseMissile";
+		position[] = {0, 0, -2};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 1;
+		qualityLevel = 2;
+	};
+	class Missile3Med
+	{
+		simulation = "particles";
+		type = "XDF_CruiseMissileMed";
+		position[] = {0, 0, -2};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 1;
+		qualityLevel = 1;
 	};
 };

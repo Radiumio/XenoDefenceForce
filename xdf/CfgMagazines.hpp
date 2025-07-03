@@ -183,6 +183,7 @@ class CfgMagazines
 			"B_AMRAAM_D_RAIL",
 			"B_AMRAAM_D",
 			"B_AMRAAM_D_INT",
+			"TITAN_NLOS_2RND",
 			"O_R73",
 			"O_R77",
 			"O_R77_INT"
@@ -246,6 +247,31 @@ class CfgMagazines
 		pylonWeapon="weapon_AXGMLauncher";
 		mirrorMissilesIndexes[]={2,1,3};
 		ejectSpeed[]={1,0,0};
+	};
+	class PylonMissile_1Rnd_Bomb_04_F;
+	class magazine_1Rnd_Bomb_Thermobaric_F: PylonMissile_1Rnd_Bomb_04_F
+	{
+		displayName="GPX-FAE500 x1";
+		count=1;
+		displayNameShort="EXP-FAE";
+		model="\A3\Weapons_F\DynamicLoadout\PylonMissile_1x_Bomb_04_F.p3d";
+		descriptionShort="An experimental thermobaric bomb with an estimated 300 to 400 meter kill radius - extremely dangerous but highly effective against ground targets.";
+		ammo="XDF_Thermobaric_Bomb";
+		hardpoints[]=
+		{
+			"B_BOMB_PYLON",
+			"B_AMRAAM_D",
+			"B_AMRAAM_D_RAIL",
+			"O_KH25",
+			"B_MISSILE_PYLON",
+			"O_MISSILE_PYLON",
+			"O_KH25_INT",
+			"O_BOMB_PYLON",
+			"TITAN_NLOS_2RND",
+			"O_BOMB_PYLON_HELI"
+		};
+		pylonWeapon="Bomb_04_Plane_XDF_01_F";
+		mass=230;
 	};
 	class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
 	class 1000Rnd_Gatling_30mm_AX_CAS_01_F: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
@@ -435,6 +461,19 @@ class CfgMagazines
 		author="Radium";
 		scope=2;
 		count=2000;
+	};
+	class magazine_XDF_Missile_Cruise_Thermobaric_01_x18: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="Cruise Missile FAE";
+		displayNameShort="VCM FAE";
+		descriptionShort="An experimental and highly dangerous cruise missile packed with a thermobaric warhead. Sports extreme damage and large kill radius.";
+		ammo="ammo_XDF_Missile_Cruise_Thermobaric_01";
+		initSpeed=12;
+		maxLeadSpeed=1.38889;
+		count=18;
+		nameSound="missiles";
 	};
 
 	// infantry weapons
