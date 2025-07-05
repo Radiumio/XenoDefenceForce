@@ -1178,7 +1178,7 @@ class CfgMagazines
 		mass=15;
 		scope=2;
 		value=1;
-		displayName="XDF XPG-25 'Warden'";
+		displayName="XDF XPG-25 'Fury'";
 		picture="\xdf\weapons\protogrenade\xdf_protogrenade_ui.paa";
 		model="\xdf\weapons\protogrenade\xdf_protogrenade";
 		type=256;
@@ -1187,7 +1187,7 @@ class CfgMagazines
 		initSpeed=15; // 18
 		nameSound="handgrenade";
 		maxLeadSpeed=6.9444399;
-		descriptionShort="Defensive Grenade</br/>A prototype grenade using an experimental explosive. An unstable semi-liquid mixture is allowed to blend with a catalyst at fuse expiry, similar to anti-xeno warheads in XDF missiles.<br/>The resulting explosion surpasses that of conventional infantry grenades, with the shell of the grenade scattering thousands of razor-sharp pieces of shrapnel over a<br/> 40 meter kill radius - but often the severe rupturing of internal organs when close to the blast proves more fatal.<br/>The weight of the Warden and overall bulky shape makes it better for defensive use.";
+		descriptionShort="Defensive Grenade</br/>A prototype grenade using an experimental explosive. An unstable semi-liquid mixture is allowed to blend with a catalyst at fuse expiry, similar to anti-xeno warheads in XDF missiles.<br/>The resulting explosion surpasses that of conventional infantry grenades, with the shell of the grenade scattering thousands of razor-sharp pieces of shrapnel over a<br/> 40 meter kill radius - but often the severe rupturing of internal organs when close to the blast proves more fatal.<br/>The weight of the Fury and overall bulky shape makes it better for defensive use.";
 		displayNameShort="XPG-25";
 	};
 };
