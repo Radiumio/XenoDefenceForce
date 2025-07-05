@@ -315,7 +315,7 @@ class CfgSoundShaders
 	class ProtoGrenade_Tail_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\exp\protogrenade_tail.ogg", 1}};
-		volume = 2;
+		volume = 1;
 		range = 1200;
 		rangecurve[] = {{0,0},{1200,1}};
 		limitable = 1;

@@ -380,7 +380,7 @@ class CfgCloudlets
 	{
 		interval = 0.001;
 		circleRadius = 1;
-		circleVelocity[] = {1,0,1};
+		circleVelocity[] = {1,1,0};
 		particleFSNtieth = 16;
 		particleFSIndex = 12;
 		particleFSFrameCount = 13;
@@ -398,12 +398,12 @@ class CfgCloudlets
 		size[] = {1.6,3.5};
 		color[] =
 		{
-				{0.393491,0.109451,0.87092,0.0369299},
-				{0.109451,0.121537,0.686596,0.0550599},
-				{0.145711,0,0.931354,0.106429},
-				{0.0550599,0.0429733,0.583858,0.05},
-				{0.115494,0.103407,0.3,0.0187995},
-				{0.124559,0.0882988,0.4,0}
+				{0.5,0.7,0.9,0.323992},
+				{0.910202,0.121537,0.151755,0.133624},
+				{0.81653,0,0.175928,0.106429},
+				{0,0,0.756096,0.05},
+				{1,0,0,0.0187995},
+				{0,0,0.4,0}
 		};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.1;
@@ -425,7 +425,6 @@ class CfgCloudlets
 		angle = 0;
 		position[] = {0,0,0};
 	};
-
 
 	class XDF_dirt_eject: Default
 	{
@@ -1058,9 +1057,9 @@ class XDF_ProtoGrenade_ExplosionEff
 		simulation="light";
 		type="XDF_ProtoGrenade_Light";
 		position[]={0,0,0};
-		intensity=0.0099999998;
+		intensity=0.1;
 		interval=1;
-		lifeTime=1.5;
+		lifeTime=2;
 	}
 	class XDF_ProtoGrenade_Explosion
 	{
@@ -1078,7 +1077,7 @@ class XDF_ProtoGrenade_ExplosionEff
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
-		lifeTime=3;
+		lifeTime=6;
 		qualityLevel=2;
 	};
 	class XDF_ProtoGrenade_Sparks

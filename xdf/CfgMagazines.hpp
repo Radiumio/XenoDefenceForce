@@ -1178,7 +1178,7 @@ class CfgMagazines
 		mass=15;
 		scope=2;
 		value=1;
-		displayName="XDF XPG-25 'Fury'";
+		displayName="XPG-25 'Fury'";
 		picture="\xdf\weapons\protogrenade\xdf_protogrenade_ui.paa";
 		model="\xdf\weapons\protogrenade\xdf_protogrenade";
 		type=256;
