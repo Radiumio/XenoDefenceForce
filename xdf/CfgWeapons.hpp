@@ -5037,4 +5037,18 @@ class cfgWeapons
 		};
 		inertia=0.2;
 	};
+
+	// Grenades //
+    class GrenadeLauncher;
+    class Throw : GrenadeLauncher
+    {
+        muzzles[] += {"XDF_ProtoGrenadeMuzzle"};
+
+        class ThrowMuzzle;
+        class XDF_ProtoGrenadeMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_ProtoGrenade"};
+			displayName="XPG-25";
+        };
+    };
 };

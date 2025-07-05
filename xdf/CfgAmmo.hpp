@@ -721,4 +721,24 @@ class CfgAmmo
 		hit=13; // default 8, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+
+	// Grenades //
+	class Grenade;
+	class XDF_ProtoGrenade_Ammo: Grenade
+	{
+		model="\xdf\weapons\protogrenade\xdf_protogrenade_throw";
+		hit=25;
+		indirectHit=18;
+		indirectHitRange=8; // default 6 (ihr is 4x)
+		explosionTime=5;
+		timeToLive=6;
+		explosionEffects="GrenadeExplosion";
+		class CamShakeExplode
+		{
+			power=6;
+			duration=4;
+			frequency=30;
+			distance=100;
+		};
+	};
 };
