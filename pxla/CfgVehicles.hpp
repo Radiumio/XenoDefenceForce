@@ -138,6 +138,105 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_MBT_01_cannon_F;
+	class B_MBT_01_cannon_F_OCimport_01 : B_MBT_01_cannon_F { scope = 0; class Turrets; };
+	class B_MBT_01_cannon_F_OCimport_02 : B_MBT_01_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class PXLA_Basilisk: B_MBT_01_cannon_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Basilisk";
+		editorPreview="\pxla\previews\vehicles\PXLA_Basilisk.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Crewman";
+		armor = 1000; // Default 900
+		armorStructural = 8; // Default 6
+		maxSpeed = 120; // Default 65
+		fuelCapacity = 60; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Crewman"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\basilisk\mbt_01_body_co.paa",
+			"\pxla\retextures\basilisk\mbt_01_tow_co.paa",
+			"\pxla\retextures\dementer\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{			
+					"\pxla\retextures\basilisk\mbt_01_body_co.paa",
+					"\pxla\retextures\basilisk\mbt_01_tow_co.paa",
+					"\pxla\retextures\dementer\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+		
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_120mm",
+					"LMG_Minigun_AX",
+				};
+				magazines[]=
+				{
+					"24Rnd_120mm_APFSDS_shells_Tracer_Red",
+					"12Rnd_120mm_HE_shells_Tracer_Red",
+					"12Rnd_120mm_HEAT_MP_T_Red",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
+				};
+			};
+		};
+	};
 	class I_G_Offroad_01_F;
 	class PXLA_Offroad: I_G_Offroad_01_F
 	{
