@@ -766,9 +766,9 @@ class CfgAmmo
 		soundFly[]=
 		{
 			"\xdf\sounds\exp\csg_prime.ogg",
-			2,
+			1.2,
 			1,
-			80
+			50
 		};
 		SmokeShellSoundHit1[]=
 		{
