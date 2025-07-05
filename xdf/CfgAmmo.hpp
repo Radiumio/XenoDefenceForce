@@ -760,7 +760,7 @@ class CfgAmmo
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(1,1,1,0.5,ca)",
+			"#(argb,8,8,3)color(1,1,1,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		soundFly[]=
@@ -773,28 +773,28 @@ class CfgAmmo
 		SmokeShellSoundHit1[]=
 		{
 			"xdf\sounds\exp\csg_pop_1.ogg",
-			1.2,
+			2,
 			1,
 			100
 		};
 		SmokeShellSoundHit2[]=
 		{
 			"xdf\sounds\exp\csg_pop_1.ogg",
-			1.2,
+			2,
 			1,
 			100
 		};
 		SmokeShellSoundLoop1[]=
 		{
 			"xdf\sounds\exp\csg_smokeloop_1.ogg",
-			0.5,
+			0.8,
 			1,
 			110
 		};
 		SmokeShellSoundLoop2[]=
 		{
 			"xdf\sounds\exp\csg_smokeloop_2.ogg",
-			0.5,
+			0.8,
 			1,
 			110
 		};
@@ -819,7 +819,7 @@ class CfgAmmo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(0.8,0.1,0.1,0.5,ca)",
+			"#(argb,8,8,3)color(0.8,0.1,0.1,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		smokeColor[]={0.8,0.1,0.1,1};
@@ -829,7 +829,7 @@ class CfgAmmo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(0.2,0.6,0.4,0.5,ca)",
+			"#(argb,8,8,3)color(0.2,0.6,0.4,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		smokeColor[]={0.2,0.6,0.4,1};
@@ -839,7 +839,7 @@ class CfgAmmo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(0.9,0.8,0,0.5,ca)",
+			"#(argb,8,8,3)color(0.9,0.8,0,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		smokeColor[]={0.9,0.8,0,1};
@@ -849,7 +849,7 @@ class CfgAmmo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(0.4,0.1,0.4,0.5,ca)",
+			"#(argb,8,8,3)color(0.4,0.1,0.4,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		smokeColor[]={0.4,0.1,0.4,1};
@@ -859,7 +859,7 @@ class CfgAmmo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(0.1,0.1,1,0.5,ca)",
+			"#(argb,8,8,3)color(0.1,0.1,1,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		smokeColor[]={0.1,0.1,1,1};
@@ -869,7 +869,7 @@ class CfgAmmo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(1,0.6,0,0.5,ca)",
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)",
 			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
 		};
 		smokeColor[]={1,0.6,0,1};
