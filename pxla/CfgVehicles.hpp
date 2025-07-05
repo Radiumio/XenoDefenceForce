@@ -385,7 +385,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "PXLA Odin";
-		editorPreview="\pxla\previews\vehicles\XDF_Odin.jpg";
+		editorPreview="\pxla\previews\vehicles\PXLA_Odin.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		editorSubcategory = "PXLA_HijackedVehicles";

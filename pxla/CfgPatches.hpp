@@ -26,6 +26,7 @@ class CfgPatches
 			"PXLA_Hornet_Armed",
 			"PXLA_Comanche",
 			"PXLA_Merlin",
+			"PXLA_Vulture",
 			"PXLA_Cyclone_Ammo",
 			"PXLA_Cyclone_Covered",
 			"PXLA_Cyclone_Fuel",
