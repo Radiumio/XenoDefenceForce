@@ -1175,7 +1175,7 @@ class CfgMagazines
 	class XDF_ProtoGrenade: CA_Magazine
 	{
 		author="Radium";
-		mass=15;
+		mass=12;
 		scope=2;
 		value=1;
 		displayName="AXPG-25 'Fury'";
