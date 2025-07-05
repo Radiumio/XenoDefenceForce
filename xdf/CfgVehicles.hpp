@@ -30689,6 +30689,26 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
 		};
 	};
+	class B_Protagonist_VR_F;
+	class B_XDF_Sleek_Suit: B_Protagonist_VR_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Sleek_Suit";
+		hiddenSelections[]=
+		{
+			"camo_stripes",
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,0.6,0,0.2,ca)",
+			"\xdf\retextures\xdf_uniform\uniforms\vrsuit_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\vrsuit_02_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\vrarmor_co.paa"
+		};
+	};
 
 
 	// Backpacks
