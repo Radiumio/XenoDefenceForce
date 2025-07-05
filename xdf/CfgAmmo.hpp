@@ -732,13 +732,21 @@ class CfgAmmo
 		indirectHitRange=8; // default 6 (ihr is 4x)
 		explosionTime=5;
 		timeToLive=6;
-		explosionEffects="GrenadeExplosion";
+		explosionEffects="XDF_ProtoGrenade_ExplosionEff";
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\protogrenade_alarm.ogg",
+			1,
+			1,
+			80
+		};
+		SoundSetExplosion[] = {"ProtoGrenade_Exp_SoundSet","ProtoGrenade_Tail_SoundSet"};
 		class CamShakeExplode
 		{
-			power=6;
+			power=8;
 			duration=4;
-			frequency=30;
-			distance=100;
+			frequency=40;
+			distance=150;
 		};
 	};
 };
