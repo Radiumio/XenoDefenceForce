@@ -739,7 +739,7 @@ class CfgAmmo
 			1,
 			1,
 			80
-		};y
+		};
 		SoundSetExplosion[] = {"ProtoGrenade_Exp_SoundSet","ProtoGrenade_Tail_SoundSet"};
 		class CamShakeExplode
 		{
