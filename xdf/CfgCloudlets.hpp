@@ -305,7 +305,7 @@ class CfgCloudlets
 		weight = 50;
 		volume = 5;
 		rubbing = 0.1;
-		size[] = {1,2,3,1};
+		size[] = {3,3,3,3};
 		color[] =
 		{
 				{0.172907,0.169885,1,-10},
@@ -353,8 +353,8 @@ class CfgCloudlets
 		weight = 24;
 		volume = 8;
 		rubbing = 0.4;
-		size[] = {0.08,0.05,0.05,0.05,0.05,0.04,0.04,0.04,0.04,0};
-		color[] = {{<null><null><null><null><null><null><null><null><null><null><null><null><null><null><null><null>}};
+		size[] = {0.2,0.5,0.8,0.8,0.8,0.8,0.6,0.4,0.2,0};
+		color[] = {{0.4,0.7,0.9,1}};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0;
 		randomDirectionIntensity = 0;
@@ -380,7 +380,7 @@ class CfgCloudlets
 	{
 		interval = 0.001;
 		circleRadius = 1;
-		circleVelocity[] = {1,1,0};
+		circleVelocity[] = {1,0,1};
 		particleFSNtieth = 16;
 		particleFSIndex = 12;
 		particleFSFrameCount = 13;
@@ -425,6 +425,7 @@ class CfgCloudlets
 		angle = 0;
 		position[] = {0,0,0};
 	};
+
 
 	class XDF_dirt_eject: Default
 	{
@@ -1049,6 +1050,49 @@ class XDF_ThermobaricHit
 		qualityLevel=2;
 	};
 };
+
+class XDF_ProtoGrenade_ExplosionEff
+{
+	class XDF_ProtoGrenade_Light
+	{
+		simulation="light";
+		type="XDF_ProtoGrenade_Light";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1.5;
+	}
+	class XDF_ProtoGrenade_Explosion
+	{
+		simulation="particles";
+		type="XDF_ProtoGrenade_Explosion";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1;
+	};
+	class XDF_ProtoGrenade_Dust
+	{
+		simulation="particles";
+		type="XDF_ProtoGrenade_Dust";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+	class XDF_ProtoGrenade_Sparks
+	{
+		simulation="particles";
+		type="XDF_ProtoGrenade_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+};
+
 class XDF_ThermobaricBigHit
 {
 	class XDF_Fae_Light
@@ -1171,49 +1215,6 @@ class XDF_CruiseMissile
 		intensity = 1;
 		interval = 1;
 		lifeTime = 1;
-		qualityLevel = 1;
-	};
-};
-
-class XDF_ProtoGrenade_ExplosionEff
-{
-	class XDF_ProtoGrenade_Light
-	{
-		simulation = "light";
-		type = "XDF_ProtoGrenade_Light";
-		position[] = {0, 0, 0};
-		intensity = 0.01;
-		interval = 1;
-		lifeTime = 1;
-	};
-	class XDF_ProtoGrenade_Explosion
-	{
-		simulation = "particles";
-		type = "XDF_ProtoGrenade_Explosion";
-		position[] = {0, 0, 0};
-		intensity = 1;
-		interval = 1;
-		lifeTime = 1;
-		qualityLevel = 2;
-	};
-	class XDF_ProtoGrenade_Sparks
-	{
-		simulation = "particles";
-		type = "XDF_ProtoGrenade_Sparks";
-		position[] = {0, 0, 0};
-		intensity = 1;
-		interval = 2;
-		lifeTime = 1;
-		qualityLevel = 1;
-	};
-	class XDF_ProtoGrenade_Dust
-	{
-		simulation = "particles";
-		type = "XDF_ProtoGrenade_Dust";
-		position[] = {0, 0, 0};
-		intensity = 1;
-		interval = 1;
-		lifeTime = 3;
 		qualityLevel = 1;
 	};
 };
