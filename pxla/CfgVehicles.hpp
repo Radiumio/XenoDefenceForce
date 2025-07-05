@@ -285,7 +285,7 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class XDF
+			class PXLA
 			{
 				displayName="Pro-Xeno Liberation Alliance";
 				author="Radium";
@@ -369,6 +369,129 @@ class CfgVehicles
 					"2000Rnd_65x39_Belt_blue"
 				};
 			};
+		};
+	};
+	class B_AFV_Wheeled_01_up_cannon_F;
+	class B_AFV_Wheeled_01_up_cannon_F_OCimport_01: B_AFV_Wheeled_01_up_cannon_F { scope = 0; class Turrets; class AnimationSources; };
+	class B_AFV_Wheeled_01_up_cannon_F_OCimport_02: B_AFV_Wheeled_01_up_cannon_F_OCimport_01 {
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+		class AnimationSources;
+	};
+	class PXLA_Odin: B_AFV_Wheeled_01_up_cannon_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Odin";
+		editorPreview="\pxla\previews\vehicles\XDF_Odin.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Crewman";
+		armor = 960; // Default 480
+		armorStructural = 7; // Default 5
+		maxSpeed = 240; // Default 120
+		fuelCapacity = 48; // Default 24
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 50.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Crewman"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_HMG
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class cannon_120mm_revolving
+			{
+				source="revolving";
+				weapon="cannon_120mm_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]=
+				{
+					"cannon_120mm_AX",
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"18Rnd_120mm_APFSDS_T_Blue_AX",
+					"12Rnd_120mm_APFSDS_shells_Tracer_Red",
+					"8Rnd_120mm_HE_shells_Tracer_Red",
+					"8Rnd_120mm_HEAT_MP_T_Red",
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells",
+					"4Rnd_120mm_LG_cannon_missiles"
+				};
+			};
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"CamoNet",
+			"CamoSlat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\odin\afv_wheeled_01_ext1_co.paa",
+			"\pxla\retextures\odin\afv_wheeled_01_ext2_co.paa",
+			"\pxla\retextures\odin\afv_wheeled_01_wheel_co.paa",
+			"\pxla\retextures\odin\afv_wheeled_01_ext3_co.paa",
+			"\pxla\retextures\odin\afv_commander_tow_co.paa",
+			"\pxla\retextures\dementer\camonet_nato_black_co.paa",
+			"\pxla\retextures\odin\afv_wheeled_01_ext3_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{
+					"\pxla\retextures\odin\afv_wheeled_01_ext1_co.paa",
+					"\pxla\retextures\odin\afv_wheeled_01_ext2_co.paa",
+					"\pxla\retextures\odin\afv_wheeled_01_wheel_co.paa",
+					"\pxla\retextures\odin\afv_wheeled_01_ext3_co.paa",
+					"\pxla\retextures\odin\afv_commander_tow_co.paa",
+					"\pxla\retextures\dementer\camonet_nato_black_co.paa",
+					"\pxla\retextures\odin\afv_wheeled_01_ext3_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
 		};
 	};
 	class I_G_Offroad_01_F;
@@ -7186,6 +7309,82 @@ class CfgVehicles
 					"Laserbatteries"
 				};
 			};
+		};
+	};
+	class I_Heli_Transport_02_F;
+	class PXLA_Merlin: I_Heli_Transport_02_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Merlin";
+		editorSubcategory = "PXLA_HijackedAirVehicles";
+		editorPreview="\pxla\previews\vehicles\PXLA_Merlin.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Crewman";
+		armor = 120; // Default 40
+		maxSpeed = 300; // Default 300
+		fuelCapacity = 3000; // Default 2500
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"O_PXLA_Crewman"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\merlin\heli_transport_02_1_xdf_co.paa",
+			"\pxla\retextures\merlin\heli_transport_02_2_xdf_co.paa",
+			"\pxla\retextures\merlin\heli_transport_02_3_xdf_co.paa",
+			"\xdf\retextures\merlin\heli_transport_02_int_02_co.paa"
+		};
+		class TextureSources
+		{
+			class PXLA
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\pxla\retextures\merlin\heli_transport_02_1_xdf_co.paa",
+					"\pxla\retextures\merlin\heli_transport_02_2_xdf_co.paa",
+					"\pxla\retextures\merlin\heli_transport_02_3_xdf_co.paa",
+					"\xdf\retextures\merlin\heli_transport_02_int_02_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+	};
+	class O_Plane_CAS_02_dynamicLoadout_F;
+	class PXLA_Vulture: O_Plane_CAS_02_dynamicLoadout_F
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA A-33 Vulture";
+		editorSubcategory = "PXLA_HijackedAirVehicles";
+		editorPreview="\xdf\previews\vehicles\PXLA_Vulture.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		crew = "O_PXLA_Crewman";
+		armor = 160; // Default 80
+		damageResistance = 0.02; // Default 0
+		typicalCargo[]=
+		{
+			"O_PXLA_Crewman"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\vulture\fighter02_ext01_co.paa",
+			"\pxla\retextures\vulture\fighter02_ext02_co.paa"
 		};
 	};
 	class O_Truck_03_ammo_F;
