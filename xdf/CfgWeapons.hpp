@@ -5042,13 +5042,58 @@ class cfgWeapons
     class GrenadeLauncher;
     class Throw : GrenadeLauncher
     {
-        muzzles[] += {"XDF_ProtoGrenadeMuzzle"};
+        muzzles[] += 
+		{
+			"XDF_ProtoGrenadeMuzzle",
+			"XDF_CompactSmokeShellMuzzle",
+			"XDF_CompactSmokeShellRedMuzzle",
+			"XDF_CompactSmokeShellGreenMuzzle",
+			"XDF_CompactSmokeShellYellowMuzzle",
+			"XDF_CompactSmokeShellPurpleMuzzle",
+			"XDF_CompactSmokeShellBlueMuzzle",
+			"XDF_CompactSmokeShellOrangeMuzzle"
+		};
 
         class ThrowMuzzle;
         class XDF_ProtoGrenadeMuzzle : ThrowMuzzle
         {
             magazines[] = {"XDF_ProtoGrenade"};
 			displayName="XPG-25";
+        };
+        class XDF_CompactSmokeShellMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShell"};
+			displayName="CSG-02 White";
+        };
+        class XDF_CompactSmokeShellRedMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellRed"};
+			displayName="CSG-02 Red";
+        };
+        class XDF_CompactSmokeShellGreenMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellGreen"};
+			displayName="CSG-02 Green";
+        };
+        class XDF_CompactSmokeShellYellowMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellYellow"};
+			displayName="CSG-02 Yellow";
+        };
+        class XDF_CompactSmokeShellPurpleMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellPurple"};
+			displayName="CSG-02 Purple";
+        };
+        class XDF_CompactSmokeShellBlueMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellBlue"};
+			displayName="CSG-02 Blue";
+        };
+        class XDF_CompactSmokeShellOrangeMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellOrange"};
+			displayName="CSG-02 Orange";
         };
     };
 };
