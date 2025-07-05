@@ -7371,7 +7371,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "PXLA A-33 Vulture";
 		editorSubcategory = "PXLA_HijackedAirVehicles";
-		editorPreview="\xdf\previews\vehicles\PXLA_Vulture.jpg";
+		editorPreview="\pxla\previews\vehicles\PXLA_Vulture.jpg";
 		side = 0;
 		faction = "O_PXLA";
 		crew = "O_PXLA_Crewman";
