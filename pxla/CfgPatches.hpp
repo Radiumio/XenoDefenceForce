@@ -13,6 +13,8 @@ class CfgPatches
 		units[] = 
 		{
 			"PXLA_Dementer",
+			"PXLA_Basilisk",
+			"PXLA_Kodiak",
 			"PXLA_Offroad",
 			"PXLA_Offroad_AT",
 			"PXLA_Offroad_HMG",

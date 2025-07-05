@@ -155,6 +155,7 @@ class CfgVehicles
 		editorPreview="\pxla\previews\vehicles\PXLA_Basilisk.jpg";
 		side = 0;
 		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
 		crew = "O_PXLA_Crewman";
 		armor = 1000; // Default 900
 		armorStructural = 8; // Default 6
@@ -231,6 +232,139 @@ class CfgVehicles
 					"12Rnd_120mm_HEAT_MP_T_Red",
 					"2000Rnd_65x39_Belt_blue",
 					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue",
+					"2000Rnd_65x39_Belt_blue"
+				};
+			};
+		};
+	};
+	class I_MBT_03_cannon_F;
+	class I_MBT_03_cannon_F_OCimport_01: I_MBT_03_cannon_F { scope = 0; class AnimationSources; class Turrets; };
+	class I_MBT_03_cannon_F_OCimport_02: I_MBT_03_cannon_F_OCimport_01 {
+		class Turrets: Turrets {
+			class MainTurret;
+			class CommanderOptics;
+		};
+	};
+	class PXLA_Kodiak: I_MBT_03_cannon_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Kodiak";
+		editorPreview="\pxla\previews\vehicles\PXLA_Kodiak.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		editorSubcategory = "PXLA_HijackedVehicles";
+		crew = "O_PXLA_Crewman";
+		armor = 1200; // Default 800
+		armorStructural = 8; // Default 6
+		maxSpeed = 130; // Default 65
+		fuelCapacity = 40; // Default 20
+		damageResistance = 0.1; // Default 0.0071899998
+		engineMOI = 1; // 7
+		accelAidForceCoef = 5.0;
+		accelAidForceSpd = 60.0;
+		typicalCargo[]=
+		{
+			"O_PXLA_Crewman"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\kodiak\mbt_03_ext01_co.paa",
+			"\pxla\retextures\kodiak\mbt_03_ext02_co.paa",
+			"\pxla\retextures\kodiak\mbt_03_rcws_co.paa",
+			"\pxla\retextures\dementer\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Pro-Xeno Liberation Alliance";
+				author="Radium";
+				textures[]=
+				{			
+					"\pxla\retextures\kodiak\mbt_03_ext01_co.paa",
+					"\pxla\retextures\kodiak\mbt_03_ext02_co.paa",
+					"\pxla\retextures\kodiak\mbt_03_rcws_co.paa",
+					"\pxla\retextures\dementer\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"O_PXLA"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"PXLA",
+			1
+		};
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_cannon
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_rot_coax
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX";
+			};
+			class muzzle_rot_hmg
+			{
+				source="ammorandom";
+				weapon="cannon_120mm_AX";
+			};
+			class muzzle_hide_coax
+			{
+				source="reload";
+				weapon="LMG_Minigun_AX";
+			};
+			class recoil_source
+			{
+				source="reload";
+				weapon="cannon_120mm_AX";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						magazines[]=
+						{
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"200Rnd_127x99_mag_Tracer_Yellow",
+							"SmokeLauncherMag",
+							"SmokeLauncherMag"
+						};
+					};
+				};
+				weapons[]=
+				{
+					"cannon_120mm_AX",
+					"LMG_Minigun_AX",
+				};
+				magazines[]=
+				{
+					"8Rnd_120mm_APFSDS_T_Blue_AX",
+					"20Rnd_120mm_APFSDS_shells_Tracer_Yellow",
+					"12Rnd_120mm_HE_shells_Tracer_Yellow",
+					"12Rnd_120mm_HEAT_MP_T_Yellow",
 					"2000Rnd_65x39_Belt_blue",
 					"2000Rnd_65x39_Belt_blue"
 				};
