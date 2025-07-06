@@ -30703,10 +30703,19 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"#(argb,8,8,3)color(1,0.6,0,0.2,ca)",
+			"#(argb,8,8,3)color(1,0.6,0,0.1,ca)",
 			"\xdf\retextures\xdf_uniform\uniforms\vrsuit_01_co.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\vrsuit_02_co.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\vrarmor_co.paa"
+		};
+	};
+	class B_XDF_Sleek_Suit_NoGlow: B_XDF_Sleek_Suit
+	{
+		author="Radium";
+		uniformClass="U_XDF_Sleek_Suit_NoGlow";
+		hiddenSelectionsMaterials[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\vrarmornoemmisive.rvmat"
 		};
 	};
 

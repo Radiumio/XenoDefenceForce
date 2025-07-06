@@ -697,6 +697,21 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Sleek_Suit_NoGlow: U_XDF_Sleek_Suit
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Sleek Suit (No Glow)";
+		descriptionShort="Specialised slim XDF suit designed for experimental vehicle crews or exosuit operators. Emissive stripes removed."
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Sleek_Suit_NoGlow";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 
 	class V_SSU_Tactical_Vest_base;
 	class V_SSU_Tactical_Vest_Black: V_SSU_Tactical_Vest_base

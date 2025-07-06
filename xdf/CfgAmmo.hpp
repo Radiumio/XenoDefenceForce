@@ -787,14 +787,14 @@ class CfgAmmo
 		SmokeShellSoundLoop1[]=
 		{
 			"xdf\sounds\exp\csg_smokeloop_1.ogg",
-			0.8,
+			0.4,
 			1,
 			110
 		};
 		SmokeShellSoundLoop2[]=
 		{
 			"xdf\sounds\exp\csg_smokeloop_2.ogg",
-			0.8,
+			0.4,
 			1,
 			110
 		};
