@@ -30689,6 +30689,35 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_co.paa"
 		};
 	};
+	class B_Protagonist_VR_F;
+	class B_XDF_Sleek_Suit: B_Protagonist_VR_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Sleek_Suit";
+		hiddenSelections[]=
+		{
+			"camo_stripes",
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,0.6,0,0.1,ca)",
+			"\xdf\retextures\xdf_uniform\uniforms\vrsuit_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\vrsuit_02_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\vrarmor_co.paa"
+		};
+	};
+	class B_XDF_Sleek_Suit_NoGlow: B_XDF_Sleek_Suit
+	{
+		author="Radium";
+		uniformClass="U_XDF_Sleek_Suit_NoGlow";
+		hiddenSelectionsMaterials[] = 
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\vrarmornoemmisive.rvmat"
+		};
+	};
 
 
 	// Backpacks
@@ -39550,6 +39579,28 @@ class CfgVehicles
 			"\xdf\signs\sign_service_area_large.paa"
 		};
 	};
+	class XDF_Sign_Supply_Depot: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Supply Depot - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_Supply_Depot.jpg";
+		_generalMacro="XDF_Sign_Supply_Depot";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_supply_depot_large.paa"
+		};
+	};
 	class XDF_Sign_Munition_Depot: Land_Sign_WarningNoWeapon_F
 	{
 		author="Radium";
@@ -40147,6 +40198,28 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_service_area.paa"
+		};
+	};
+	class XDF_SignS_Supply_Depot: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (Supply Depot - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_Supply_Depot.jpg";
+		_generalMacro="XDF_SignS_Supply_Depot";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_supply_depot.paa"
 		};
 	};
 	class XDF_SignS_Munition_Depot: SignAd_SponsorS_F

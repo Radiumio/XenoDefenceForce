@@ -721,4 +721,158 @@ class CfgAmmo
 		hit=13; // default 8, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+
+	// Grenades //
+	class Grenade;
+	class XDF_ProtoGrenade_Ammo: Grenade
+	{
+		model="\xdf\weapons\protogrenade\xdf_protogrenade_throw";
+		hit=25;
+		indirectHit=18;
+		indirectHitRange=8; // default 6 (ihr is 4x)
+		explosionTime=5;
+		timeToLive=6;
+		explosionEffects="XDF_ProtoGrenade_ExplosionEff";
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\protogrenade_alarm.ogg",
+			1,
+			1,
+			80
+		};
+		SoundSetExplosion[] = {"ProtoGrenade_Exp_SoundSet","ProtoGrenade_Tail_SoundSet"};
+		class CamShakeExplode
+		{
+			power=8;
+			duration=4;
+			frequency=40;
+			distance=150;
+		};
+	};
+	class SmokeShell;
+	class XDF_CompactSmokeShell_Ammo: SmokeShell
+	{
+		model="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade";
+		hiddenSelections[]=
+		{
+			"stripes",
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,1,1,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\csg_prime.ogg",
+			1.2,
+			1,
+			50
+		};
+		SmokeShellSoundHit1[]=
+		{
+			"xdf\sounds\exp\csg_pop_1.ogg",
+			2,
+			1,
+			100
+		};
+		SmokeShellSoundHit2[]=
+		{
+			"xdf\sounds\exp\csg_pop_1.ogg",
+			2,
+			1,
+			100
+		};
+		SmokeShellSoundLoop1[]=
+		{
+			"xdf\sounds\exp\csg_smokeloop_1.ogg",
+			0.4,
+			1,
+			110
+		};
+		SmokeShellSoundLoop2[]=
+		{
+			"xdf\sounds\exp\csg_smokeloop_2.ogg",
+			0.4,
+			1,
+			110
+		};
+		grenadeFireSound[]=
+		{
+			"SmokeShellSoundHit1",
+			0.25,
+			"SmokeShellSoundHit2",
+			0.25
+		};
+		grenadeBurningSound[]=
+		{
+			"SmokeShellSoundLoop1",
+			0.5,
+			"SmokeShellSoundLoop2",
+			0.5
+		};
+		smokeColor[]={1,1,1,1};
+		effectsSmoke="SmokeShellWhiteEffect";
+	};
+	class XDF_CompactSmokeShellRed_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.8,0.1,0.1,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={0.8,0.1,0.1,1};
+		effectsSmoke="SmokeShellRedEffect";
+	};
+	class XDF_CompactSmokeShellGreen_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.2,0.6,0.4,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={0.2,0.6,0.4,1};
+		effectsSmoke="SmokeShellGreenEffect";
+	};
+	class XDF_CompactSmokeShellYellow_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.9,0.8,0,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={0.9,0.8,0,1};
+		effectsSmoke="SmokeShellYellowEffect";
+	};
+	class XDF_CompactSmokeShellPurple_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.4,0.1,0.4,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={0.4,0.1,0.4,1};
+		effectsSmoke="SmokeShellPurpleEffect";
+	};
+	class XDF_CompactSmokeShellBlue_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.1,0.1,1,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={0.1,0.1,1,1};
+		effectsSmoke="SmokeShellBlueEffect";
+	};
+	class XDF_CompactSmokeShellOrange_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={1,0.6,0,1};
+		effectsSmoke="SmokeShellOrangeEffect";
+	};
 };

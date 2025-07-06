@@ -1169,4 +1169,123 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=10;
 	};
+
+	// Grenades //
+	class CA_Magazine;
+	class XDF_ProtoGrenade: CA_Magazine
+	{
+		author="Radium";
+		mass=12;
+		scope=2;
+		value=1;
+		displayName="AXPG-25 'Fury'";
+		picture="\xdf\weapons\protogrenade\xdf_protogrenade_ui.paa";
+		model="\xdf\weapons\protogrenade\xdf_protogrenade";
+		type=256;
+		ammo="XDF_ProtoGrenade_Ammo";
+		count=1;
+		initSpeed=15; // 18
+		nameSound="handgrenade";
+		maxLeadSpeed=6.9444399;
+		descriptionShort="Defensive Grenade<br/>A prototype grenade using an experimental explosive. An unstable semi-liquid mixture is allowed to blend with a catalyst at fuse expiry, similar to anti-xeno warheads in XDF missiles.<br/>The resulting explosion surpasses that of conventional infantry grenades, with the shell of the grenade scattering thousands of razor-sharp pieces of shrapnel over a 40 meter kill radius,<br/>but often the severe rupturing of internal organs when close to the blast proves more fatal.<br/>The weight of the Fury and overall bulky shape makes it better for defensive use.";
+		displayNameShort="XPG-25";
+	};
+	class SmokeShell;
+	class XDF_CompactSmokeShell: SmokeShell
+	{
+		author="Radium";
+		displayName="CSG-02 White";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_white.paa";
+		model="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade";
+		hiddenSelections[]=
+		{
+			"stripes",
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,1,1,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		value=2;
+		ammo="XDF_CompactSmokeShell_Ammo";
+		nameSoundWeapon="smokeshell";
+		nameSound="smokeshell";
+		descriptionShort="Compact Smoke Grenade<br/>A lightweight, compact smoke grenade used by the XDF. Principally designed to be as light as possible, advancements in smokescreen technology<br/>have allowed this grenade to be far smaller and simpler than standard smoke grenades, with no loss in efficiency and smoke coverage.";
+		displayNameShort="CSG-02 White";
+		mass=2;
+		initSpeed=22;
+	};
+	class XDF_CompactSmokeShellRed: XDF_CompactSmokeShell
+	{
+		displayName="CSG-02 Red";
+		displayNameShort="CSG-02 Red";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_red.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.8,0.1,0.1,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		ammo="XDF_CompactSmokeShellRed_Ammo";
+	};
+	class XDF_CompactSmokeShellGreen: XDF_CompactSmokeShell
+	{
+		displayName="CSG-02 Green";
+		displayNameShort="CSG-02 Green";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_green.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.2,0.6,0.4,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		ammo="XDF_CompactSmokeShellGreen_Ammo";
+	};
+	class XDF_CompactSmokeShellYellow: XDF_CompactSmokeShell
+	{
+		displayName="CSG-02 Yellow";
+		displayNameShort="CSG-02 Yellow";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_yellow.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.9,0.8,0,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		ammo="XDF_CompactSmokeShellYellow_Ammo";
+	};
+	class XDF_CompactSmokeShellPurple: XDF_CompactSmokeShell
+	{
+		displayName="CSG-02 Purple";
+		displayNameShort="CSG-02 Purple";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_purple.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.4,0.1,0.4,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		ammo="XDF_CompactSmokeShellPurple_Ammo";
+	};
+	class XDF_CompactSmokeShellBlue: XDF_CompactSmokeShell
+	{
+		displayName="CSG-02 Blue";
+		displayNameShort="CSG-02 Blue";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_blue.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(0.1,0.1,1,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		ammo="XDF_CompactSmokeShellBlue_Ammo";
+	};
+	class XDF_CompactSmokeShellOrange: XDF_CompactSmokeShell
+	{
+		displayName="CSG-02 Orange";
+		displayNameShort="CSG-02 Orange";
+		picture="\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_ui_orange.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		ammo="XDF_CompactSmokeShellOrange_Ammo";
+	};
 };

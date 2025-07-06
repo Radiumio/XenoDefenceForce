@@ -119,6 +119,7 @@ class CfgWeapons
 		displayName = "XDF Templar Helmet";
 		descriptionShort = "Armor Level X<br/>Advanced next-generation XDF prototype helmet, designed to be paired with the Templar exoskeleton. Visor offers real-time target highlighting, with night-vision and thermal imaging integration.";
 		picture="\xdf_rtk\templarIcon.paa";
+		subItems[] = {"XDF_Integrated_NV_TI"};
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_rtk\retextures\xdf_uniform\helmets\H_XDF_Templar_Helmet.paa"

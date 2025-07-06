@@ -681,6 +681,37 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_B_Protagonist_VR;
+	class U_XDF_Sleek_Suit: U_B_Protagonist_VR
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Sleek Suit";
+		descriptionShort="Specialised slim XDF suit designed for experimental vehicle crews or exosuit operators."
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Sleek_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Sleek_Suit_NoGlow: U_XDF_Sleek_Suit
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Sleek Suit (No Glow)";
+		descriptionShort="Specialised slim XDF suit designed for experimental vehicle crews or exosuit operators. Emissive stripes removed."
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Sleek_Suit_NoGlow";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 
 	class V_SSU_Tactical_Vest_base;
 	class V_SSU_Tactical_Vest_Black: V_SSU_Tactical_Vest_base
@@ -4704,7 +4735,7 @@ class cfgWeapons
 		magazines[]=
 		{
 			"magazine_Missile_AXGM_02_F",
-			"magazine_Missile_AXGMx2_02_F"
+			"magazine_Missile_AXGMx3_02_F"
 		};
 		lockingTargetSound[]=
 		{
@@ -5021,4 +5052,63 @@ class cfgWeapons
 		};
 		inertia=0.2;
 	};
+
+	// Grenades //
+    class GrenadeLauncher;
+    class Throw : GrenadeLauncher
+    {
+        muzzles[] += 
+		{
+			"XDF_ProtoGrenadeMuzzle",
+			"XDF_CompactSmokeShellMuzzle",
+			"XDF_CompactSmokeShellRedMuzzle",
+			"XDF_CompactSmokeShellGreenMuzzle",
+			"XDF_CompactSmokeShellYellowMuzzle",
+			"XDF_CompactSmokeShellPurpleMuzzle",
+			"XDF_CompactSmokeShellBlueMuzzle",
+			"XDF_CompactSmokeShellOrangeMuzzle"
+		};
+
+        class ThrowMuzzle;
+        class XDF_ProtoGrenadeMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_ProtoGrenade"};
+			displayName="XPG-25";
+        };
+        class XDF_CompactSmokeShellMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShell"};
+			displayName="CSG-02 White";
+        };
+        class XDF_CompactSmokeShellRedMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellRed"};
+			displayName="CSG-02 Red";
+        };
+        class XDF_CompactSmokeShellGreenMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellGreen"};
+			displayName="CSG-02 Green";
+        };
+        class XDF_CompactSmokeShellYellowMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellYellow"};
+			displayName="CSG-02 Yellow";
+        };
+        class XDF_CompactSmokeShellPurpleMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellPurple"};
+			displayName="CSG-02 Purple";
+        };
+        class XDF_CompactSmokeShellBlueMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellBlue"};
+			displayName="CSG-02 Blue";
+        };
+        class XDF_CompactSmokeShellOrangeMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_CompactSmokeShellOrange"};
+			displayName="CSG-02 Orange";
+        };
+    };
 };

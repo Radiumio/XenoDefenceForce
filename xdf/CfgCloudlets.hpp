@@ -286,6 +286,146 @@ class CfgCloudlets
 		position[] = {0,0,0};
 	};
 
+	class XDF_ProtoGrenade_Explosion: Default
+	{
+		interval = 0.01;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 0;
+		particleFSFrameCount = 32;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 2;
+		moveVelocity[] = {0,1,0};
+		rotationVelocity = 0;
+		weight = 50;
+		volume = 5;
+		rubbing = 0.1;
+		size[] = {3,3,3,3};
+		color[] =
+		{
+				{0.172907,0.169885,1,-10},
+				{0.469034,0.103407,1,-28.9301},
+				{0.336079,0,1,0},
+				{0.254492,0,1,1}
+		};
+		animationSpeed[] = {1};
+		randomDirectionPeriod = 0.2;
+		randomDirectionIntensity = 0.5;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0;
+		positionVar[] = {1,1,1};
+		moveVelocityVar[] = {2,6,2};
+		rotationVelocityVar = 15;
+		sizeVar = 0.5;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_ProtoGrenade_Sparks: Default
+	{
+		interval = 0.003;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 13;
+		particleFSFrameCount = 2;
+		particleFSLoop = 0;
+		angleVar = 360;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 2;
+		moveVelocity[] = {0,6,0};
+		rotationVelocity = 1;
+		weight = 24;
+		volume = 8;
+		rubbing = 0.4;
+		size[] = {0.2,0.5,0.8,0.8,0.8,0.8,0.6,0.4,0.2,0};
+		color[] = {{0.4,0.7,0.9,1}};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0;
+		randomDirectionIntensity = 0;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.6;
+		positionVar[] = {0.3,0.2,0.3};
+		moveVelocityVar[] = {10,3,10};
+		rotationVelocityVar = 2;
+		sizeVar = 0;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_ProtoGrenade_Dust: Default
+	{
+		interval = 0.001;
+		circleRadius = 1;
+		circleVelocity[] = {1,1,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 13;
+		particleFSLoop = 0;
+		angleVar = 0;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 4;
+		moveVelocity[] = {0,0.2,0};
+		rotationVelocity = 0;
+		weight = 0.0525;
+		volume = 0.04;
+		rubbing = 0.05;
+		size[] = {1.6,3.5};
+		color[] =
+		{
+				{0.5,0.7,0.9,0.323992},
+				{0.910202,0.121537,0.151755,0.133624},
+				{0.81653,0,0.175928,0.106429},
+				{0,0,0.756096,0.05},
+				{1,0,0,0.0187995},
+				{0,0,0.4,0}
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 0.05;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 1;
+		positionVar[] = {2,0.2,2};
+		moveVelocityVar[] = {3,0.15,3};
+		rotationVelocityVar = 20;
+		sizeVar = 0.2;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
 	class XDF_dirt_eject: Default
 	{
 		interval = 0.001;
@@ -802,6 +942,27 @@ class CfgLights
 		};
 		brightness = 300;
 	};
+
+	class XDF_ProtoGrenade_Light
+	{
+		color[] = {0.33363,0,1};
+		ambient[] = {0.318521,0,1};
+		intensity = 2000;
+		useflare = 1;
+		flaresize = 10;
+		flaremaxdist = 300;
+		daylight = 1;
+		class Attenuation
+		{
+			start = 5;
+			constant = 2;
+			linear = 0;
+			quadratic = 0.2;
+			hardlimitStart = 2;
+			hardlimitEnd = 50;
+		};
+		brightness = 0.666667;
+	};
 };
 
 class XDF_Missile3
@@ -888,6 +1049,49 @@ class XDF_ThermobaricHit
 		qualityLevel=2;
 	};
 };
+
+class XDF_ProtoGrenade_ExplosionEff
+{
+	class XDF_ProtoGrenade_Light
+	{
+		simulation="light";
+		type="XDF_ProtoGrenade_Light";
+		position[]={0,0,0};
+		intensity=0.1;
+		interval=1;
+		lifeTime=2;
+	}
+	class XDF_ProtoGrenade_Explosion
+	{
+		simulation="particles";
+		type="XDF_ProtoGrenade_Explosion";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1;
+	};
+	class XDF_ProtoGrenade_Dust
+	{
+		simulation="particles";
+		type="XDF_ProtoGrenade_Dust";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=6;
+		qualityLevel=2;
+	};
+	class XDF_ProtoGrenade_Sparks
+	{
+		simulation="particles";
+		type="XDF_ProtoGrenade_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+};
+
 class XDF_ThermobaricBigHit
 {
 	class XDF_Fae_Light

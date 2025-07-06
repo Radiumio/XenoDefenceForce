@@ -36,6 +36,35 @@ class CfgSoundSets
 		sound3DProcessingType = "ExplosionLight3DProcessingType";
 		distanceFilter = "explosionDistanceFreqAttenuationFilter";
 	};
+	class ProtoGrenade_Exp_SoundSet
+	{
+		soundShaders[] = {"ProtoGrenade_closeExp_SoundShader", "ProtoGrenade_midExp_SoundShader","ProtoGrenade_distExp_SoundShader"};
+		volumeFactor = 1;
+		volumeCurve = "InverseSquare2Curve";
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		sound3DProcessingType = "ExplosionLight3DProcessingType";
+		distanceFilter = "explosionDistanceFreqAttenuationFilter";
+	};
+    class ProtoGrenade_Tail_SoundSet
+	{
+        soundShaders[] = {"ProtoGrenade_Tail_SoundShader"};
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        stereoStartDistance = 100;
+        stereoRadius = 50;
+        sound3DProcessingType = "ExplosionMedium3DProcessingType";
+        distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+    };
     class FAE_Tail_SoundSet 
 	{
         soundShaders[] = {"FAE_tail_SoundShader"};
@@ -233,6 +262,27 @@ class CfgSoundShaders
 		range = 2200;
 		rangeCurve[] = {{0, 0}, {100, 0}, {250, 1}, {2200, 1}};
 	};
+	class ProtoGrenade_closeExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\protogrenade_explosion_1.ogg", 1}};
+		volume = 1;
+		range = 70;
+		rangeCurve[] = {{0, 1}, {50, 0.75}, {70, 0}};
+	};
+	class ProtoGrenade_midExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\protogrenade_explosion_1.ogg", 1}};
+		volume = 1;
+		range = 400;
+		rangeCurve[] = {{0, 1}, {100, 0.4}, {200, 0.2}, {400, 0}};
+	};
+	class ProtoGrenade_distExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\protogrenade_explosion_1.ogg", 1}};
+		volume = 1;
+		range = 1200;
+		rangeCurve[] = {{0, 0}, {100, 0}, {400, 0.2}, {1200, 0}};
+	};
 	class FAE_Big_closeExp_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\exp\big_thermobaric_1.ogg", 1}, {"\xdf\sounds\exp\big_thermobaric_2.ogg", 1}};
@@ -260,6 +310,14 @@ class CfgSoundShaders
 		volume = 2;
 		range = 2200;
 		rangecurve[] = {{1,0},{2200,1}};
+		limitable = 1;
+	};
+	class ProtoGrenade_Tail_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\protogrenade_tail.ogg", 1}};
+		volume = 1;
+		range = 1200;
+		rangecurve[] = {{0,0},{1200,1}};
 		limitable = 1;
 	};
 	class FAE_Big_tail_SoundShader
