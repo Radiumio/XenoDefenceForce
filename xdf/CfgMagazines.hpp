@@ -815,9 +815,9 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName=".45 ACP 6Rnd Cylinder (NEMESIS-AX)";
-		displaynameshort="NEMESIS-AX";
-		ammo="B_45ACP_Nemesis_blue";
+		displayName=".45 ACP 6Rnd Cylinder (JURY-AX)";
+		displaynameshort="JURY-AX";
+		ammo="B_45ACP_Jury_blue";
 		tracersEvery=1;
 	};
 
