@@ -3105,10 +3105,10 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Nemesis";
+		displayName="XDF Judge";
 		descriptionShort = "AX Revolver<br/>Research And Development decided self-loading pistols were so 21st century, and cooked up this deadly alien killer. Watch the heavy recoil and the slow reload, though.<br/>Caliber: 45 ACP - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_hgun_Pistol_heavy_02_F";
-		recoil="recoil_pistol_nemesis";
+		recoil="recoil_pistol_judge";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -3116,7 +3116,7 @@ class cfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\nemesis_reload.ogg",
+			"\xdf\sounds\reloads\judge_reload.ogg",
 			2,
 			1,
 			10
