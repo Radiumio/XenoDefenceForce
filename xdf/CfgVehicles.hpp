@@ -24938,6 +24938,213 @@ class CfgVehicles
 			1
 		};
 	};
+
+	///////////////////////////
+	///////// NEMESIS /////////
+	///////////////////////////
+
+	class Helicopter;
+	class XDF_Nemesis: Helicopter
+	{
+		author="Radium";
+		scope=2;
+		model="\xdf\vehicles\nemesis\ex25nemesis.p3d";
+		_generalMacro="XDF_Nemesis";
+		displayName="XDF EX-25 Nemesis"
+		accuracy=0.1;
+		side=1;
+		faction="B_XDF";
+		crew="B_XDF_Pilot";
+		armor=2500;
+		armorStructural=200;
+		maxSpeed=250;
+		damageEffect="AirDestructionEffects";
+		altFullForce=8000;
+		altNoForce=12000;
+		mainBladeRadius=0.1;
+		washDownStrength="1.0f";
+		washDownDiameter="40.0f";
+		minSmokeDamage=0.30000001;
+		maxSmokeDamage=0.99000001;
+		class HitPoints
+		{
+			class HitHull
+			{
+				armor=1;
+				material=51;
+				name="NEtrup";
+				visual="trup";
+				passThrough=1;
+			};
+			class HitEngine
+			{
+				armor=0.25;
+				material=51;
+				name="motor";
+				visual="motor";
+				passThrough=1;
+			};
+			class HitEngine1: HitEngine
+			{
+				name="engine_1_hit";
+				convexComponent="engine_1_hit";
+			};
+			class HitEngine2: HitEngine
+			{
+				name="engine_2_hit";
+				convexComponent="engine_2_hit";
+			};
+			class HitEngine3: HitEngine
+			{
+				name="engine_3_hit";
+				convexComponent="engine_3_hit";
+			};
+			class HitAvionics
+			{
+				armor=0.15000001;
+				material=51;
+				name="elektronika";
+				visual="elektronika";
+				passThrough=1;
+			};
+			class HitVRotor
+			{
+				armor=0.30000001;
+				material=51;
+				name="mala vrtule";
+				visual="mala vrtule staticka";
+				passThrough=0.30000001;
+			};
+			class HitHRotor
+			{
+				armor=0.2;
+				material=51;
+				name="velka vrtule";
+				visual="velka vrtule staticka";
+				passThrough=0.1;
+			};
+			class HitMissiles
+			{
+				armor=0.1;
+				material=51;
+				name="munice";
+				visual="munice";
+				passThrough=0.5;
+			};
+			class HitWinch
+			{
+				armor=-40;
+				material=51;
+				name="slingLoad0";
+				visual="";
+				passThrough=0;
+				radius=0.1;
+				class DestructionEffects
+				{
+					ammoExplosionEffect="";
+					class Explo
+					{
+						simulation="particles";
+						type="WinchDestructionExplo";
+						position="slingLoad0";
+						intensity=1;
+						interval=1;
+						lifeTime=0.059999999;
+					};
+					class Sparks
+					{
+						simulation="particles";
+						type="WinchDestructionSparks";
+						position="slingLoad0";
+						intensity=1;
+						interval=1;
+						lifeTime=0.1;
+					};
+				};
+			};
+			class HitTransmission
+			{
+				armor=0.80000001;
+				material=-1;
+				name="transmission";
+				passThrough=0.80000001;
+			};
+			class HitGlass1
+			{
+				armor=12;
+				material=-1;
+				name="glass1";
+				convexComponent="glass1";
+				visual="glass1";
+				passThrough=0;
+			};
+			class HitGlass2: HitGlass1
+			{
+				name="glass2";
+				convexComponent="glass2";
+				visual="glass2";
+			};
+			class HitGlass3: HitGlass1
+			{
+				name="glass3";
+				convexComponent="glass3";
+				visual="glass3";
+			};
+			class HitGlass4: HitGlass1
+			{
+				name="glass4";
+				convexComponent="glass4";
+				visual="glass4";
+			};
+			class HitGlass5: HitGlass1
+			{
+				name="glass5";
+				convexComponent="glass5";
+				visual="glass5";
+			};
+			class HitGlass6: HitGlass1
+			{
+				name="glass6";
+				convexComponent="glass6";
+				visual="glass6";
+			};
+			class HitGear
+			{
+				armor=0.89999998;
+				material=-1;
+				name="gear";
+				passThrough=0;
+			};
+			class HitFuel
+			{
+				armor=0.40000001;
+				material=-1;
+				name="fuel tanks";
+				passThrough=0.5;
+			};
+			class HitHStabilizerL1
+			{
+				armor=0.80000001;
+				material=-1;
+				name="HStabilizerL1";
+				passThrough=1;
+			};
+			class HitHStabilizerR1
+			{
+				armor=0.80000001;
+				material=-1;
+				name="HStabilizerR1";
+				passThrough=0;
+			};
+			class HitVStabilizer1
+			{
+				armor=0.80000001;
+				material=-1;
+				name="VStabilizer1";
+				passThrough=1;
+			};
+		};
+	};
 	class B_UGV_01_rcws_F;
 	class XDF_Mars: B_UGV_01_rcws_F
 	{
