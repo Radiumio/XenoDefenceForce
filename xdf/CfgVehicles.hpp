@@ -24966,6 +24966,8 @@ class CfgVehicles
 		washDownDiameter="40.0f";
 		minSmokeDamage=0.30000001;
 		maxSmokeDamage=0.99000001;
+		memoryPointsGetInDriver="pos pilot";
+		memoryPointsGetInDriverDir="pos pilot dir";
 		class HitPoints
 		{
 			class HitHull
@@ -25108,6 +25110,42 @@ class CfgVehicles
 				convexComponent="glass6";
 				visual="glass6";
 			};
+			class HitGlass7: HitGlass1
+			{
+				name="glass7";
+				convexComponent="glass7";
+				visual="glass7";
+			};
+			class HitGlass8: HitGlass1
+			{
+				name="glass8";
+				convexComponent="glass8";
+				visual="glass8";
+			};
+			class HitGlass9: HitGlass1
+			{
+				name="glass9";
+				convexComponent="glass9";
+				visual="glass9";
+			};
+			class HitGlass10: HitGlass1
+			{
+				name="glass10";
+				convexComponent="glass10";
+				visual="glass10";
+			};
+			class HitGlass11: HitGlass1
+			{
+				name="glass11";
+				convexComponent="glass11";
+				visual="glass11";
+			};
+			class HitGlass12: HitGlass1
+			{
+				name="glass12";
+				convexComponent="glass12";
+				visual="glass12";
+			};
 			class HitGear
 			{
 				armor=0.89999998;
@@ -25121,27 +25159,6 @@ class CfgVehicles
 				material=-1;
 				name="fuel tanks";
 				passThrough=0.5;
-			};
-			class HitHStabilizerL1
-			{
-				armor=0.80000001;
-				material=-1;
-				name="HStabilizerL1";
-				passThrough=1;
-			};
-			class HitHStabilizerR1
-			{
-				armor=0.80000001;
-				material=-1;
-				name="HStabilizerR1";
-				passThrough=0;
-			};
-			class HitVStabilizer1
-			{
-				armor=0.80000001;
-				material=-1;
-				name="VStabilizer1";
-				passThrough=1;
 			};
 		};
 	};
