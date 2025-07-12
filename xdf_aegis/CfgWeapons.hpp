@@ -344,4 +344,75 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa"
 		};
 	};
+	class Aegis_H_Helmet_FASTMT_blk_F;
+	class Aegis_H_Helmet_FASTMT_XDF_F: Aegis_H_Helmet_FASTMT_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_FASTMT_Cover_blk_F;
+	class Aegis_H_Helmet_FASTMT_Cover_XDF_F: Aegis_H_Helmet_FASTMT_Cover_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Cover)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_Cover_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_FASTMT_Headset_blk_F;
+	class Aegis_H_Helmet_FASTMT_Headset_XDF_F: Aegis_H_Helmet_FASTMT_Headset_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Headset)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_black_F;
+	class H_HelmetSpecter_XDF_F: H_HelmetSpecter_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Raven Helmet";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_grn_F;
+	class H_HelmetSpecter_cover_XDF_F: H_HelmetSpecter_cover_grn_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Raven Helmet (Cover)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_black_headset_F;
+	class H_HelmetSpecter_XDF_headset_F: H_HelmetSpecter_black_headset_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Raven Helmet (Headset)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_CO.paa"
+		};
+	};
 };
