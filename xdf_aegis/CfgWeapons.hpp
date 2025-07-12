@@ -61,6 +61,8 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m110\arifle_SR25_02_black_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m110\arifle_sr25_03_black_co.paa"
 		};
+		magazines[] = {"Aegis_20Rnd_762x51_SMAG_XDF_Reload_Tracer"};
+		magazineWell[] += {"Aegis_SR25_762x51_XDF"};
 	};
 	class Aegis_arifle_SR25_blk_F;
 	class Aegis_arifle_SR25_XDF_F: Aegis_arifle_SR25_blk_F
@@ -74,6 +76,8 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m110\arifle_SR25_01_black_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m110\arifle_SR25_02_black_CO.paa"
 		};
+		magazines[] = {"Aegis_20Rnd_762x51_SMAG_XDF_Reload_Tracer"};
+		magazineWell[] += {"Aegis_SR25_762x51_XDF"};
 	};
 	class Aegis_arifle_M4A1_F;
 	class Aegis_arifle_M4A1_XDF_F: Aegis_arifle_M4A1_F
@@ -208,6 +212,8 @@ class CfgWeapons
 		{
 			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa"
 		};
+		magazines[] += {"20Rnd_762x51_Mag_blue_tracer"};
+		magazineWell[] += {"M14_762x51_XDF"};
 	};
 	class arifle_SCAR_grip_black_F;
 	class arifle_SCAR_grip_XDF_F: arifle_SCAR_grip_black_F
@@ -220,6 +226,8 @@ class CfgWeapons
 		{
 			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa"
 		};
+		magazines[] += {"20Rnd_762x51_Mag_blue_tracer"};
+		magazineWell[] += {"M14_762x51_XDF"};
 	};
 	class arifle_SCAR_short_black_F;
 	class arifle_SCAR_short_XDF_F: arifle_SCAR_short_black_F
@@ -232,6 +240,8 @@ class CfgWeapons
 		{
 			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa"
 		};
+		magazines[] += {"20Rnd_762x51_Mag_blue_tracer"};
+		magazineWell[] += {"M14_762x51_XDF"};
 	};
 	class arifle_SCAR_GL_black_F;
 	class arifle_SCAR_GL_XDF_F: arifle_SCAR_GL_black_F
@@ -245,6 +255,8 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\weapons\sa80\SA80_F_GL_CO.paa"
 		};
+		magazines[] += {"20Rnd_762x51_Mag_blue_tracer"};
+		magazineWell[] += {"M14_762x51_XDF"};
 	};
 	class Aegis_MMG_FNMAG_F;
 	class Aegis_MMG_FNMAG_XDF_F: Aegis_MMG_FNMAG_F
