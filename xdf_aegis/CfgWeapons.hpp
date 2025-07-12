@@ -415,4 +415,18 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_CO.paa"
 		};
 	};
+
+	// NVG //
+	class Aegis_NVG_IVAS_01_blk_F;
+	class Aegis_NVG_IVAS_01_blk_F: Aegis_NVG_IVAS_01_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF IVAS";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_CO.paa"
+		};
+	};
 };
