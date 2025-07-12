@@ -292,4 +292,56 @@ class CfgWeapons
 		magazines[] = {"Aegis_200Rnd_762x51_MAG_AX_Tracer_F"};
 		magazineWell[] += {"Aegis_FNMAG_XDF"};
 	};
+
+	// Headgear //
+	class Aegis_H_Helmet_Virtus_Scrim_wdl_F;
+	class Aegis_H_Helmet_Virtus_Scrim_XDF_F: Aegis_H_Helmet_Virtus_Scrim_wdl_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Scrim)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_Cover_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\ghillie2_baf_XDF_co.paa"
+		};
+	};
+	class Aegis_H_Helmet_Virtus_Cover_wdl_F;
+	class Aegis_H_Helmet_Virtus_Cover_XDF_F: Aegis_H_Helmet_Virtus_Cover_wdl_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Cover)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_Cover_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_Virtus_Headset_rgr_F;
+	class Aegis_H_Helmet_Virtus_Headset_XDF_F: Aegis_H_Helmet_Virtus_Headset_rgr_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Headset)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_Virtus_rgr_F;
+	class Aegis_H_Helmet_Virtus_XDF_F: Aegis_H_Helmet_Virtus_rgr_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa"
+		};
+	};
 };
