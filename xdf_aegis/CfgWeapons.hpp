@@ -385,7 +385,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		scope = 2;
-		displayName = "XDF Raven Helmet";
+		displayName = "XDF Specter Helmet";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa"
@@ -396,7 +396,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		scope = 2;
-		displayName = "XDF Raven Helmet (Cover)";
+		displayName = "XDF Specter Helmet (Cover)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa",
@@ -408,7 +408,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		scope = 2;
-		displayName = "XDF Raven Helmet (Headset)";
+		displayName = "XDF Specter Helmet (Headset)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa",
