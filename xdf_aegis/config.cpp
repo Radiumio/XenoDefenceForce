@@ -1,3 +1,5 @@
 #include "CfgPatches.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgMagazineWells"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

@@ -246,4 +246,38 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\weapons\sa80\SA80_F_GL_CO.paa"
 		};
 	};
+	class Aegis_MMG_FNMAG_F;
+	class Aegis_MMG_FNMAG_XDF_F: Aegis_MMG_FNMAG_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF GPMG";
+		baseWeapon = "Aegis_MMG_FNMAG_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_1_co.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_2_co.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_int_co.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_fnmag_co.paa"
+		};
+		magazines[] = {"Aegis_200Rnd_762x51_MAG_AX_Tracer_F"};
+		magazineWell[] += {"Aegis_FNMAG_XDF"};
+	};
+	class Aegis_MMG_FNMAG_240_F;
+	class Aegis_MMG_FNMAG_240_XDF_F: Aegis_MMG_FNMAG_240_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF LWM-240";
+		baseWeapon = "Aegis_MMG_FNMAG_240_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_1_co.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_2_co.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_int_co.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\gpmg\m240_fnmag_co.paa"
+		};
+		magazines[] = {"Aegis_200Rnd_762x51_MAG_AX_Tracer_F"};
+		magazineWell[] += {"Aegis_FNMAG_XDF"};
+	};
 };
