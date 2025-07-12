@@ -418,7 +418,7 @@ class CfgWeapons
 
 	// NVG //
 	class Aegis_NVG_IVAS_01_blk_F;
-	class Aegis_NVG_IVAS_01_blk_F: Aegis_NVG_IVAS_01_blk_F
+	class Aegis_NVG_IVAS_01_XDF_F: Aegis_NVG_IVAS_01_blk_F
 	{
 		author = "Aegis Team & Radium";
 		scope = 2;
@@ -427,6 +427,39 @@ class CfgWeapons
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_CO.paa"
+		};
+	};
+	class Aegis_NV_G_scrimNet_olive_F;
+	class Aegis_NV_G_scrimNet_black_F: Aegis_NV_G_scrimNet_olive_F
+	{
+		class ItemInfo;
+	};
+	class Aegis_NV_G_scrimNet_XDF_F: Aegis_NV_G_scrimNet_black_F
+	{
+		author = "Aegis Team & Radium";
+		displayName = "XDF Scrim Net";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"};
+		};
+	};
+	class Aegis_NV_G_scrimNet_under_olive_F;
+	class Aegis_NV_G_scrimNet_under_black_F: Aegis_NV_G_scrimNet_under_olive_F
+	{
+		class ItemInfo;
+	};
+	class Aegis_NV_G_scrimNet_under_XDF_F: Aegis_NV_G_scrimNet_under_black_F
+	{
+		author = "Aegis Team & Radium";
+		displayName = "XDF Scrim Net (Under Helmet)";
+		hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"};
 		};
 	};
 };
