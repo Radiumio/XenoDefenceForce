@@ -140,4 +140,110 @@ class CfgWeapons
 		magazines[] = {"30rnd_556x45_stanag_blue_tracer"};
 		magazineWell[] += {"STANAG_556x45_XDF","STANAG_556x45_Large_XDF"};
 	};
+	class arifle_SCAR_L_black_F;
+	class arifle_SCAR_L_XDF_F: arifle_SCAR_L_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK16";
+		baseWeapon = "arifle_SCAR_L_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_02_black_CO.paa"
+		};
+		magazines[] = {"30rnd_556x45_stanag_blue_tracer"};
+		magazineWell[] += {"STANAG_556x45_XDF","STANAG_556x45_Large_XDF"};
+	};
+	class arifle_SCAR_L_grip_black_F;
+	class arifle_SCAR_L_grip_XDF_F: arifle_SCAR_L_grip_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK16 Foregrip";
+		baseWeapon = "arifle_SCAR_L_grip_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_01_black_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_02_black_CO.paa"
+		};
+		magazines[] = {"30rnd_556x45_stanag_blue_tracer"};
+		magazineWell[] += {"STANAG_556x45_XDF","STANAG_556x45_Large_XDF"};
+	};
+	class arifle_SCAR_L_short_black_F;
+	class arifle_SCAR_L_short_XDF_F: arifle_SCAR_L_short_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK16 Carbine";
+		baseWeapon = "arifle_SCAR_L_short_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_02_black_CO.paa"
+		};
+		magazines[] = {"30rnd_556x45_stanag_blue_tracer"};
+		magazineWell[] += {"STANAG_556x45_XDF","STANAG_556x45_Large_XDF"};
+	};
+	class arifle_SCAR_L_GL_black_F;
+	class arifle_SCAR_L_GL_XDF_F: arifle_SCAR_L_GL_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK16 GL";
+		baseWeapon = "arifle_SCAR_L_GL_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_L_02_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\sa80\SA80_F_GL_CO.paa"
+		};
+		magazines[] = {"30rnd_556x45_stanag_blue_tracer"};
+		magazineWell[] += {"STANAG_556x45_XDF","STANAG_556x45_Large_XDF"};
+	};
+	class arifle_SCAR_black_F;
+	class arifle_SCAR_XDF_F: arifle_SCAR_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK17";
+		baseWeapon = "arifle_SCAR_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa"
+		};
+	};
+	class arifle_SCAR_grip_black_F;
+	class arifle_SCAR_grip_XDF_F: arifle_SCAR_grip_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK17 Foregrip";
+		baseWeapon = "arifle_SCAR_grip_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa"
+		};
+	};
+	class arifle_SCAR_short_black_F;
+	class arifle_SCAR_short_XDF_F: arifle_SCAR_short_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK17 Carbine";
+		baseWeapon = "arifle_SCAR_short_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa"
+		};
+	};
+	class arifle_SCAR_GL_black_F;
+	class arifle_SCAR_GL_XDF_F: arifle_SCAR_GL_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF MK17 GL";
+		baseWeapon = "arifle_SCAR_GL_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_01_black_CO.paa","\xdf_aegis\retextures\xdf_uniform\weapons\scar\SCAR_02_black_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\weapons\sa80\SA80_F_GL_CO.paa"
+		};
+	};
 };
