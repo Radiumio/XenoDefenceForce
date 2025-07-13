@@ -64,10 +64,11 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - Clasless for the Stealth Uniform textures provided by his <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2122147403">SSU</a> mod, which were used as a base for all XDF gear.
 - Taurus for the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2261045061">TCGM_Girls</a> mod, which enabled female variants of XDF soldiers to be made.
 - The textures from JustAndFriendly's <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1283439288">Y-32 Xi'an Recolors</a> mod that were used to speed up creating the texture for the **XDF Wraith** *(XDF Xi'an equivalent)*.
-- Thank you to **Quiggs**, the creator of <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>, who gave me permission to retexture the Ripsaw for the XDF!
 - Thank you to **Rotators Collective** and **Tiny Gecko Studios** for providing the samples for their respective CDLCs, and in some cases providing extra textures!
+- Thank you to **Quiggs** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a> and <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3355618886">QAV - AbramsX</a> mods and allowing it to be retextured.
 - Thank you to **Moose (Outworld Studios)** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a> mod and allowing it to be retextured.
 - Thank you to **OokamiJamie** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a> mod and allowing it to be retextured.
+- Thank you to **the team behind Aegis** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=949252631">Arma 3 Aegis</a> mod and allowing it to be retextured.
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
