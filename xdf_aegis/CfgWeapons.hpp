@@ -274,7 +274,7 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\hk416_reload.ogg",
+			"\xdf\sounds\reloads\hk417_reload.ogg",
 			2,
 			1,
 			10
@@ -295,7 +295,7 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\hk416_reload.ogg",
+			"\xdf\sounds\reloads\hk417_reload.ogg",
 			2,
 			1,
 			10
@@ -316,7 +316,7 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\hk416_reload.ogg",
+			"\xdf\sounds\reloads\hk417_reload.ogg",
 			2,
 			1,
 			10
@@ -338,7 +338,7 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\hk416_reload.ogg",
+			"\xdf\sounds\reloads\hk417_reload.ogg",
 			2,
 			1,
 			10
