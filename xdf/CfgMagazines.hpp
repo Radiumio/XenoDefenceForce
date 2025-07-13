@@ -815,9 +815,9 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName=".45 ACP 6Rnd Cylinder (NEMESIS-AX)";
-		displaynameshort="NEMESIS-AX";
-		ammo="B_45ACP_Nemesis_blue";
+		displayName=".45 ACP 6Rnd Cylinder (JURY-AX)";
+		displaynameshort="JURY-AX";
+		ammo="B_45ACP_Jury_blue";
 		tracersEvery=1;
 	};
 
@@ -1063,6 +1063,17 @@ class CfgMagazines
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=10;
+	};
+	class 200Rnd_338_Mag_blue_tracer: 130Rnd_338_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".338 NM 200Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=1;
+		count=200;
+		lastRoundsTracer=200;
 	};
 
 	class 200Rnd_556x45_Box_Tracer_F;
