@@ -35,9 +35,11 @@ With the **Expeditionary Forces** or **Reaction Forces** CDLCs loaded, additiona
 - **<a href="https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/">Reaction Forces CDLC</a>**
 - **<a href="https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/">Expeditionary Forces CDLC</a>**
 - **<a href="https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/">Western Sahara CDLC</a>**
+- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=949252631">Arma 3 Aegis</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a>**
+- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3355618886">QAV - AbramsX</a>**
 
 <img src="https://i.imgur.com/ePSzqnC.png" width="900"></p>
 While anyone is welcome to interpret the XDF organization as they wish, official lore regarding the faction can be read here, and is being expanded gradually.
