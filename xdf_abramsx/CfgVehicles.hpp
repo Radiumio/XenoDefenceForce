@@ -18,9 +18,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 1900;
+		armor = 1500;
 		armorLights = 0.1;
-		armorStructural = 11;
+		armorStructural = 6;
 		fuelCapacity = 60;
 		typicalCargo[]=
 		{
@@ -119,9 +119,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 1900;
+		armor = 1500;
 		armorLights = 0.1;
-		armorStructural = 11;
+		armorStructural = 6;
 		fuelCapacity = 60;
 		typicalCargo[]=
 		{
@@ -225,9 +225,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 1900;
+		armor = 1500;
 		armorLights = 0.1;
-		armorStructural = 11;
+		armorStructural = 6;
 		fuelCapacity = 60;
 		typicalCargo[]=
 		{
@@ -326,9 +326,9 @@ class CfgVehicles
 		side = 1;
 		faction = "B_XDF";
 		crew = "B_XDF_Crew";
-		armor = 1900;
+		armor = 1500;
 		armorLights = 0.1;
-		armorStructural = 11;
+		armorStructural = 6;
 		fuelCapacity = 45;
 		typicalCargo[]=
 		{
