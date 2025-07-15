@@ -348,7 +348,8 @@ class CfgPatches
 			"H_XDF_Advanced_Modular_Helmet_Chops_Black",
 			"H_XDF_Special_Purpose_Helmet_Black",
 			"H_XDF_Boonie_HS_Black",
-			"H_XDF_Cap_HS_Black"
+			"H_XDF_Cap_HS_Black",
+			"XDF_launch_MRAWS_black"
 		};
 	};
 
