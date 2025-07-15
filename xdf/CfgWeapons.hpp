@@ -4184,7 +4184,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class XDF_SMG_02_F: XDF_SMG_02
+	class XDF_SMG_02_F: XDF_SMG_02 // Scorpion Evo
 	{
 		class linkedItems
 		{
