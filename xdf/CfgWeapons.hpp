@@ -4298,6 +4298,28 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_srifle_EBR_FA: XDF_srifle_EBR_F // MK-21 EBR
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_DMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_B";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
 	class XDF_MMG_01_black_F: XDF_MMG_01_black // Navid
 	{
 		class linkedItems
