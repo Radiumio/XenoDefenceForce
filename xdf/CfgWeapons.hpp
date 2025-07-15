@@ -4184,8 +4184,26 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_XDF_black // Promet Elite AX Shotgun
+	class XDF_SMG_02_F: XDF_SMG_02
+	{
+		class linkedItems
 		{
+			class LinkedItemsOptic {
+				item = "optic_MRCO";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_L";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_XDF_black // Promet Elite AX Shotgun
+	{
 		class linkedItems
 		{
 			class LinkedItemsOptic {

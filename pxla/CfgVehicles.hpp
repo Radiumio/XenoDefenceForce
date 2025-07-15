@@ -8374,6 +8374,95 @@ class CfgVehicles
 			"FirstAidKit"
 		};
 	};
+	class O_PXLA_AT_Specialist: B_soldier_AT_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Anti-Tank Specialist";
+		editorPreview="\pxla\previews\units\O_PXLA_AT_Specialist.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
+		linkedItems[] = {
+			"V_XLA_Defector_Carrier_Rig_Red",
+			"H_PASGT_pxla_red_F",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XLA_Defector_Carrier_Rig_Red",
+			"H_PASGT_pxla_red_F",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_SMG_02_F",
+			"XDF_launch_B_Titan_short"
+		};
+		respawnWeapons[] = {
+			"XDF_SMG_02_F",
+			"XDF_launch_B_Titan_short"
+		};
+
+		magazines[] = {
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack="B_Kitbag_PXLA_TitanAT";
+
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
 	class B_soldier_AA_F;
 	class O_PXLA_AA_Grunt: B_soldier_AA_F
 	{
