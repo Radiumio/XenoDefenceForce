@@ -1064,6 +1064,17 @@ class CfgMagazines
 		tracersEvery=4;
 		lastRoundsTracer=10;
 	};
+	class 200Rnd_338_Mag_blue_tracer: 130Rnd_338_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".338 NM 200Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_93x64_Ball_blue";
+		tracersEvery=1;
+		count=200;
+		lastRoundsTracer=200;
+	};
 
 	class 200Rnd_556x45_Box_Tracer_F;
 	class 200Rnd_556x45_Box_Tracer_blue_tracer: 200Rnd_556x45_Box_Tracer_F

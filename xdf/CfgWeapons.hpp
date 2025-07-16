@@ -2567,6 +2567,34 @@ class cfgWeapons
 			"Katiba_65x39_XDF"
 		};
 	};
+	class arifle_TRG21_F;
+	class arifle_TRG21_XDF: arifle_TRG21_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF TAR-21";
+		descriptionShort = "AX Assault Rifle<br/>A proven platform - it is only fitting that this rifle find itself alongside weapons such as the Spearhead.<br/>Caliber: 5.56x45 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="arifle_TRG21_XDF";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\trg\tar21_base_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\trg_reload.ogg",
+			2,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"STANAG_556x45_XDF"
+		};
+	};
 	class arifle_TRG20_F;
 	class arifle_TRG20_XDF: arifle_TRG20_F
 	{
