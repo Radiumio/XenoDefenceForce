@@ -3647,8 +3647,8 @@ class cfgWeapons
 	// Launchers
 	class launch_MRAWS_green_F;
 	class launch_O_Vorona_green_F;
-	class launch_B_Titan_F;
-	class launch_B_Titan_short_F;
+	class launch_Titan_base;
+	class launch_Titan_short_base;
 	class XDF_launch_MRAWS_black: launch_MRAWS_green_F
 	{
 		author="Radium";
@@ -3704,7 +3704,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa"
 		};
 	};
-	class XDF_launch_B_Titan: launch_B_Titan_F
+	class XDF_launch_B_Titan: launch_Titan_base
 	{
 		author="Radium";
 		scope=2;
@@ -3745,7 +3745,7 @@ class cfgWeapons
 			2.5
 		};
 	};
-	class XDF_launch_B_Titan_short: launch_B_Titan_short_F
+	class XDF_launch_B_Titan_short: launch_Titan_short_base
 	{
 		author="Radium";
 		scope=2;
@@ -4184,8 +4184,26 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_XDF_black // Promet Elite AX Shotgun
+	class XDF_SMG_02_F: XDF_SMG_02 // Scorpion Evo
+	{
+		class linkedItems
 		{
+			class LinkedItemsOptic {
+				item = "optic_MRCO";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_L";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_XDF_black // Promet Elite AX Shotgun
+	{
 		class linkedItems
 		{
 			class LinkedItemsOptic {
@@ -4290,6 +4308,28 @@ class cfgWeapons
 			};
 			class LinkedItemsMuzzle {
 				item = "muzzle_snds_93mmg";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class XDF_srifle_EBR_FA: XDF_srifle_EBR_F // MK-21 EBR
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_DMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_B";
 				slot = "MuzzleSlot";
 			};
 			class LinkedItemsUnder {

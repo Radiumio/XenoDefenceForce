@@ -8198,6 +8198,8 @@ class CfgVehicles
 			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incompv2_co.paa"
 		};
 	};
+	
+	// Units //
 	class B_Soldier_F;
 	class O_PXLA_Grunt: B_Soldier_F
 	{
@@ -8232,39 +8234,39 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_AKM_F"
+			"arifle_MX_XDF_F"
 		};
 		respawnWeapons[] = {
-			"arifle_AKM_F"
+			"arifle_MX_XDF_F"
 		};
 
 		magazines[] = {
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8317,41 +8319,41 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_AKM_F",
-			"launch_MRAWS_green_rail_F"
+			"arifle_MX_XDF_F",
+			"XDF_launch_MRAWS_black_F"
 		};
 		respawnWeapons[] = {
-			"arifle_AKM_F",
-			"launch_MRAWS_green_rail_F"
+			"arifle_MX_XDF_F",
+			"XDF_launch_MRAWS_black_F"
 		};
 
 		magazines[] = {
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8359,6 +8361,95 @@ class CfgVehicles
 		};
 
 		backpack="B_Kitbag_PXLA_MAAWS";
+		items[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit",
+			"FirstAidKit",
+			"FirstAidKit"
+		};
+	};
+	class O_PXLA_AT_Specialist: B_soldier_AT_F
+	{
+		author = "Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "PXLA Anti-Tank Specialist";
+		editorPreview="\pxla\previews\units\O_PXLA_AT_Specialist.jpg";
+		side = 0;
+		faction = "O_PXLA";
+		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
+		linkedItems[] = {
+			"V_XLA_Defector_Carrier_Rig_Red",
+			"H_PASGT_pxla_red_F",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+		respawnlinkedItems[] = {
+			"V_XLA_Defector_Carrier_Rig_Red",
+			"H_PASGT_pxla_red_F",
+			"ItemMap",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch",
+			"NVGoggles_OPFOR",
+			"G_PXLA_Balaclava_TI_G_Black"
+		};
+
+		weapons[] = {
+			"XDF_SMG_02_F",
+			"XDF_launch_B_Titan_short"
+		};
+		respawnWeapons[] = {
+			"XDF_SMG_02_F",
+			"XDF_launch_B_Titan_short"
+		};
+
+		magazines[] = {
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = {
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
+			"SmokeShellRed",
+			"SmokeShellBlue",
+			"SmokeShell",
+			"SmokeShell"
+		};
+
+		backpack="B_Kitbag_PXLA_TitanAT";
+
 		items[]=
 		{
 			"FirstAidKit",
@@ -8406,41 +8497,41 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_AKM_F",
-			"launch_B_Titan_olive_F"
+			"arifle_MX_XDF_F",
+			"XDF_launch_B_Titan"
 		};
 		respawnWeapons[] = {
-			"arifle_AKM_F",
-			"launch_B_Titan_olive_F"
+			"arifle_MX_XDF_F",
+			"XDF_launch_B_Titan"
 		};
 
 		magazines[] = {
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"30Rnd_762x39_Mag_F",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"30Rnd_65x39_caseless_black_mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8494,39 +8585,39 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"SMG_05_F"
+			"XDF_SMG_05_F"
 		};
 		respawnWeapons[] = {
-			"SMG_05_F"
+			"XDF_SMG_05_F"
 		};
 
 		magazines[] = {
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"30Rnd_9x21_Mag_SMG_02",
-			"HandGrenade",
-			"HandGrenade",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"30Rnd_9x21_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8578,49 +8669,49 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"arifle_Katiba_GL_F"
+			"arifle_Katiba_GL_XDF"
 		};
 		respawnWeapons[] = {
-			"arifle_Katiba_GL_F"
+			"arifle_Katiba_GL_XDF"
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
-			"HandGrenade",
-			"HandGrenade",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
+			"30Rnd_65x39_caseless_blue_tracer",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
 			"1Rnd_HE_Grenade_shell",
-			"HandGrenade",
-			"HandGrenade",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8672,33 +8763,33 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"LMG_03_F"
+			"XDF_LMG_03"
 		};
 		respawnWeapons[] = {
-			"LMG_03_F"
+			"XDF_LMG_03"
 		};
 
 		magazines[] = {
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"HandGrenade",
-			"HandGrenade",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"200Rnd_556x45_Box_F",
-			"HandGrenade",
-			"HandGrenade",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"200Rnd_556x45_Box_Tracer_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8752,33 +8843,33 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"MMG_01_tan_F"
+			"XDF_MMG_01_black_F"
 		};
 		respawnWeapons[] = {
-			"MMG_01_tan_F"
+			"XDF_MMG_01_black_F"
 		};
 
 		magazines[] = {
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"HandGrenade",
-			"HandGrenade",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"150Rnd_93x64_Mag",
-			"HandGrenade",
-			"HandGrenade",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"150Rnd_93x64_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8831,41 +8922,41 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"srifle_DMR_06_hunter_F"
+			"XDF_srifle_EBR_FA"
 		};
 		respawnWeapons[] = {
-			"srifle_DMR_06_hunter_F"
+			"XDF_srifle_EBR_FA"
 		};
 
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"HandGrenade",
-			"HandGrenade",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"HandGrenade",
-			"HandGrenade",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"20Rnd_762x51_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -8918,41 +9009,41 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"SMG_01_F"
+			"XDF_SMG_01"
 		};
 		respawnWeapons[] = {
-			"SMG_01_F"
+			"XDF_SMG_01"
 		};
 
 		magazines[] = {
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"HandGrenade",
-			"HandGrenade",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"HandGrenade",
-			"HandGrenade",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"30rnd_45acp_mag_smg_01_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -9023,8 +9114,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
-			"HandGrenade",
-			"HandGrenade",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -9040,8 +9131,8 @@ class CfgVehicles
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
 			"30Rnd_65x39_caseless_msbs_mag_Tracer",
-			"HandGrenade",
-			"HandGrenade",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -9100,34 +9191,34 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"HandGrenade",
-			"HandGrenade",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"5Rnd_127x108_APDS_Mag",
-			"HandGrenade",
-			"HandGrenade",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"5Rnd_127x108_APDS_Mag_blue_tracer",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -9195,8 +9286,8 @@ class CfgVehicles
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"HandGrenade",
-			"HandGrenade",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -9212,8 +9303,8 @@ class CfgVehicles
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"HandGrenade",
-			"HandGrenade",
+			"XDF_ProtoGrenade",
+			"XDF_ProtoGrenade",
 			"SmokeShellRed",
 			"SmokeShellBlue",
 			"SmokeShell",
@@ -9273,8 +9364,16 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			MAG_XX(MRAWS_HEAT_F, 3);
-			MAG_XX(MRAWS_HE_F, 2);
+			MAG_XX(MRAAWS_HEAT_XDF, 4);
+		};
+		class TransportItems {};
+	};
+	class B_Kitbag_PXLA_TitanAT : B_Kitbag_PXLA
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			MAG_XX(Titan_AT_XDF, 2);
 		};
 		class TransportItems {};
 	};
@@ -9283,7 +9382,7 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			MAG_XX(Titan_AA, 3);
+			MAG_XX(Titan_AA_XDF, 3);
 		};
 		class TransportItems {};
 	};
