@@ -8198,6 +8198,23 @@ class CfgVehicles
 			"\pxla\retextures\pxla_uniform\uniforms\gorka_01_red_incompv2_co.paa"
 		};
 	};
+	class O_V_Soldier_Viper_hex_F;
+	class O_PXLA_SP_Suit: O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_PXLA_SP_Suit";
+		modelSides[] = {0};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\U_PXLA_SP_Suit.paa"
+		};
+	};
 	
 	// Units //
 	class B_Soldier_F;
@@ -8213,7 +8230,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
 		linkedItems[] = {
-			"V_Chestrig_pxla",
+			"V_PlateCarrierIA1_PXLA",
 			"H_SSU_Cap_HS_Black",
 			"ItemMap",
 			"ItemRadio",
@@ -8223,7 +8240,7 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_pxla",
+			"V_PlateCarrierIA1_PXLA",
 			"H_SSU_Cap_HS_Black",
 			"ItemMap",
 			"ItemRadio",
@@ -8298,7 +8315,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Incomplete";
 		linkedItems[] = {
-			"V_Chestrig_pxla",
+			"V_PlateCarrierIA1_PXLA",
 			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
@@ -8308,7 +8325,7 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_pxla",
+			"V_PlateCarrierIA1_PXLA",
 			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
@@ -8386,7 +8403,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
 		linkedItems[] = {
-			"V_XLA_Defector_Carrier_Rig_Red",
+			"V_PlateCarrierIAGL_PXLA",
 			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
@@ -8396,7 +8413,7 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_XLA_Defector_Carrier_Rig_Red",
+			"V_PlateCarrierIAGL_PXLA",
 			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
@@ -8476,7 +8493,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
-			"V_Chestrig_pxla",
+			"V_PlateCarrierIA2_PXLA",
 			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
@@ -8486,7 +8503,7 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_Chestrig_pxla",
+			"V_PlateCarrierIA2_PXLA",
 			"H_PASGT_pxla_red_F",
 			"ItemMap",
 			"ItemRadio",
@@ -8742,7 +8759,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
-			"V_TacVest_pxla",
+			"V_PlateCarrierIAGL_PXLA",
 			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
@@ -8752,7 +8769,7 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_TacVest_pxla",
+			"V_PlateCarrierIAGL_PXLA",
 			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
@@ -8822,7 +8839,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Partialv2";
 		linkedItems[] = {
-			"V_TacVest_pxla",
+			"V_PlateCarrierIAGL_PXLA",
 			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
 			"ItemMap",
 			"ItemRadio",
@@ -8832,7 +8849,7 @@ class CfgVehicles
 			"G_PXLA_Balaclava_TI_G_Black"
 		};
 		respawnlinkedItems[] = {
-			"V_TacVest_pxla",
+			"V_PlateCarrierIAGL_PXLA",
 			"H_XDF_Stealth_Combat_Helmet_NM_Black_b",
 			"ItemMap",
 			"ItemRadio",
@@ -8901,7 +8918,7 @@ class CfgVehicles
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
 		linkedItems[] = {
-			"V_TacVest_pxla",
+			"V_PlateCarrierIA1_PXLA",
 			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
@@ -8911,7 +8928,7 @@ class CfgVehicles
 			"G_PXLA_Bandana_Sports"
 		};
 		respawnlinkedItems[] = {
-			"V_TacVest_pxla",
+			"V_PlateCarrierIA1_PXLA",
 			"H_Booniehat_pxla",
 			"ItemMap",
 			"ItemRadio",
