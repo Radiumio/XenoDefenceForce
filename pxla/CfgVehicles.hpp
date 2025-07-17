@@ -8231,23 +8231,23 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
 		linkedItems[] = {
 			"V_PlateCarrierIA1_PXLA",
-			"H_SSU_Cap_HS_Black",
+			"H_PXLA_Enhanced_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_PXLA_Bandana_Sports"
+			"G_PXLA_Balaclava_TI_Black"
 		};
 		respawnlinkedItems[] = {
 			"V_PlateCarrierIA1_PXLA",
-			"H_SSU_Cap_HS_Black",
+			"H_PXLA_Enhanced_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
 			"ItemWatch",
 			"NVGoggles_OPFOR",
-			"G_PXLA_Bandana_Sports"
+			"G_PXLA_Balaclava_TI_Black"
 		};
 
 		weapons[] = {
@@ -8316,7 +8316,7 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red_Incomplete";
 		linkedItems[] = {
 			"V_PlateCarrierIA1_PXLA",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Enhanced_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8326,7 +8326,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PlateCarrierIA1_PXLA",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Enhanced_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8401,10 +8401,10 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red_Incompletev2";
+		uniformClass = "U_PXLA_SP_Suit";
 		linkedItems[] = {
 			"V_PlateCarrierIAGL_PXLA",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8414,7 +8414,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PlateCarrierIAGL_PXLA",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8494,7 +8494,7 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
 			"V_PlateCarrierIA2_PXLA",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Light_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8504,7 +8504,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PlateCarrierIA2_PXLA",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Light_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8666,7 +8666,7 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red_Incomplete";
 		linkedItems[] = {
 			"V_XLA_Defector_Carrier_Rig_Red",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8676,7 +8676,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_XLA_Defector_Carrier_Rig_Red",
-			"H_PASGT_pxla_red_F",
+			"H_PXLA_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8760,7 +8760,7 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red_Partial";
 		linkedItems[] = {
 			"V_PlateCarrierIAGL_PXLA",
-			"H_Booniehat_pxla",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -8770,7 +8770,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PlateCarrierIAGL_PXLA",
-			"H_Booniehat_pxla",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9092,10 +9092,10 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_SP_Suit";
 		linkedItems[] = {
 			"V_PXLA_Defector_Carrier_Lite_Red",
-			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9105,7 +9105,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PXLA_Defector_Carrier_Lite_Red",
-			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9178,10 +9178,10 @@ class CfgVehicles
 		side = 0;
 		faction = "O_PXLA";
 		identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
-		uniformClass = "U_PXLA_Uniform_Red";
+		uniformClass = "U_PXLA_SP_Suit";
 		linkedItems[] = {
 			"V_PXLA_Defector_Carrier_Lite_Red",
-			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9191,7 +9191,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PXLA_Defector_Carrier_Lite_Red",
-			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9267,7 +9267,7 @@ class CfgVehicles
 		uniformClass = "U_PXLA_Uniform_Red";
 		linkedItems[] = {
 			"V_PXLA_Defector_Carrier_Lite_Red",
-			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9277,7 +9277,7 @@ class CfgVehicles
 		};
 		respawnlinkedItems[] = {
 			"V_PXLA_Defector_Carrier_Lite_Red",
-			"H_XDF_Stealth_Combat_Helmet_Black_b",
+			"H_PXLA_Stealth_Combat_Helmet",
 			"ItemMap",
 			"ItemRadio",
 			"ItemCompass",
@@ -9294,15 +9294,15 @@ class CfgVehicles
 		};
 
 		magazines[] = {
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
 			"XDF_ProtoGrenade",
 			"XDF_ProtoGrenade",
 			"SmokeShellRed",
@@ -9311,15 +9311,15 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
+			"30rnd_556x45_stanag_blue_tracer",
 			"XDF_ProtoGrenade",
 			"XDF_ProtoGrenade",
 			"SmokeShellRed",

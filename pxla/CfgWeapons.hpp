@@ -285,8 +285,8 @@ class cfgWeapons
 	};
 
 	// Loadout Weapons //
-	class arifle_SPAR_01_blk_F;
-	class arifle_SPAR_01_blk_F_PXLA: arifle_SPAR_01_blk_F
+	class arifle_SPAR_01_XDF_F;
+	class arifle_SPAR_01_blk_F_PXLA: arifle_SPAR_01_XDF_F
 	{
 		class linkedItems
 		{
