@@ -26119,12 +26119,11 @@ class CfgVehicles
 				magazines[]=
 				{
 					"18Rnd_120mm_APFSDS_T_Blue_AX",
-					"12Rnd_120mm_APFSDS_shells_Tracer_Red",
-					"8Rnd_120mm_HE_shells_Tracer_Red",
-					"8Rnd_120mm_HEAT_MP_T_Red",
+					"4Rnd_120mm_Thermobaric_AX",
+					"8Rnd_120mm_HEAT_AX_T_Blue",
 					"1000Rnd_20mm_GPR_shells",
 					"1000Rnd_20mm_GPR_shells",
-					"4Rnd_120mm_LG_cannon_missiles"
+					"4Rnd_120mm_cannon_AX_missiles"
 				};
 			};
 		};
@@ -27383,9 +27382,9 @@ class CfgVehicles
 				magazines[]=
 				{
 					"12Rnd_125mm_APFSDS_T_Blue_AX",
-					"20Rnd_125mm_APFSDS_T_Green",
-					"12Rnd_125mm_HEAT_T_Green",
-					"12Rnd_125mm_HE_T_Green",
+					"8Rnd_125mm_HEAT_AX_T_Blue",
+					"4Rnd_125mm_Thermobaric_AX",
+					"4Rnd_125mm_cannon_AX_missiles",
 					"2000Rnd_65x39_Belt_blue",
 					"2000Rnd_65x39_Belt_blue",
 					"2000Rnd_65x39_Belt_blue",
@@ -27521,9 +27520,9 @@ class CfgVehicles
 				magazines[]=
 				{
 					"12Rnd_125mm_APFSDS_T_Blue_AX",
-					"20Rnd_125mm_APFSDS_T_Green",
-					"12Rnd_125mm_HEAT_T_Green",
-					"12Rnd_125mm_HE_T_Green",
+					"8Rnd_125mm_HEAT_AX_T_Blue",
+					"4Rnd_125mm_Thermobaric_AX",
+					"4Rnd_125mm_cannon_AX_missiles",
 					"1000Rnd_20mm_GPR_shells"
 				};
 			};

@@ -81,10 +81,10 @@ class CfgVehicles
 				magazines[] = 
 				{	
 					"18Rnd_120mm_APFSDS_T_Blue_AX",
-					"32Rnd_120mm_APFSDS_shells_Tracer_Red",
-					"20Rnd_120mm_HEAT_MP_T_Red",
-					"4Rnd_120mm_LG_cannon_missiles",
-					"4Rnd_120mm_LG_cannon_missiles",
+					"12Rnd_120mm_HEAT_AX_T_Blue",
+					"4Rnd_120mm_Thermobaric_AX",
+					"4Rnd_120mm_cannon_AX_missiles",
+					"4Rnd_120mm_cannon_AX_missiles",
 					"200Rnd_338_Mag_blue_tracer",
 					"200Rnd_338_Mag_blue_tracer",
 					"200Rnd_338_Mag_blue_tracer",
@@ -185,10 +185,10 @@ class CfgVehicles
 				magazines[] = 
 				{	
 					"18Rnd_120mm_APFSDS_T_Blue_AX",
-					"32Rnd_120mm_APFSDS_shells_Tracer_Red",
-					"20Rnd_120mm_HEAT_MP_T_Red",
-					"4Rnd_120mm_LG_cannon_missiles",
-					"4Rnd_120mm_LG_cannon_missiles",
+					"12Rnd_120mm_HEAT_AX_T_Blue",
+					"4Rnd_120mm_Thermobaric_AX",
+					"4Rnd_120mm_cannon_AX_missiles",
+					"4Rnd_120mm_cannon_AX_missiles",
 					"qav_100Rnd_30mm_MP_shells_Tracer_AX",
 					"qav_100Rnd_30mm_MP_shells_Tracer_AX",
 					"200Rnd_338_Mag_blue_tracer",
@@ -288,10 +288,10 @@ class CfgVehicles
 				magazines[] = 
 				{	
 					"18Rnd_120mm_APFSDS_T_Blue_AX",
-					"32Rnd_120mm_APFSDS_shells_Tracer_Red",
-					"20Rnd_120mm_HEAT_MP_T_Red",
-					"4Rnd_120mm_LG_cannon_missiles",
-					"4Rnd_120mm_LG_cannon_missiles",
+					"12Rnd_120mm_HEAT_AX_T_Blue",
+					"4Rnd_120mm_Thermobaric_AX",
+					"4Rnd_120mm_cannon_AX_missiles",
+					"4Rnd_120mm_cannon_AX_missiles",
 					"qav_200Rnd_127x99_AX_mag",
 					"qav_200Rnd_127x99_AX_mag",
 					"qav_200Rnd_127x99_AX_mag",
