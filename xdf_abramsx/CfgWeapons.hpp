@@ -20,7 +20,7 @@ class CfgWeapons
 	class cannon_120mm_long;
 	class cannon_120mm_M360: cannon_120mm_long
 	{
-		magazines[] += {"18Rnd_120mm_APFSDS_T_Blue_AX"};
+		magazines[] += {"18Rnd_120mm_APFSDS_T_Blue_AX","12Rnd_120mm_HEAT_AX_T_Blue","4Rnd_120mm_Thermobaric_AX","4Rnd_120mm_cannon_AX_missiles"};
 	};
 	class MMG_02_coax;
 	class qav_abrams_coax: MMG_02_coax

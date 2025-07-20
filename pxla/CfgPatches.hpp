@@ -43,6 +43,7 @@ class CfgPatches
 			"PXLA_Mk6_Mortar",
 			"O_PXLA_Grunt",
 			"O_PXLA_AT_Grunt",
+			"O_PXLA_AT_Specialist",
 			"O_PXLA_AA_Grunt",
 			"O_PXLA_Crewman",
 			"O_PXLA_Grenadier",

@@ -3647,8 +3647,8 @@ class cfgWeapons
 	// Launchers
 	class launch_MRAWS_green_F;
 	class launch_O_Vorona_green_F;
-	class launch_B_Titan_F;
-	class launch_B_Titan_short_F;
+	class launch_Titan_base;
+	class launch_Titan_short_base;
 	class XDF_launch_MRAWS_black: launch_MRAWS_green_F
 	{
 		author="Radium";
@@ -3704,7 +3704,7 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\weapons\vorona\vorona_f_co.paa"
 		};
 	};
-	class XDF_launch_B_Titan: launch_B_Titan_F
+	class XDF_launch_B_Titan: launch_Titan_base
 	{
 		author="Radium";
 		scope=2;
@@ -3745,7 +3745,7 @@ class cfgWeapons
 			2.5
 		};
 	};
-	class XDF_launch_B_Titan_short: launch_B_Titan_short_F
+	class XDF_launch_B_Titan_short: launch_Titan_short_base
 	{
 		author="Radium";
 		scope=2;
@@ -4184,8 +4184,26 @@ class cfgWeapons
 			};
 		};
 	};
-	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_XDF_black // Promet Elite AX Shotgun
+	class XDF_SMG_02_F: XDF_SMG_02 // Scorpion Evo
+	{
+		class linkedItems
 		{
+			class LinkedItemsOptic {
+				item = "optic_MRCO";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_L";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class arifle_MSBS65_UBS_XDF_black_F: arifle_MSBS65_UBS_XDF_black // Promet Elite AX Shotgun
+	{
 		class linkedItems
 		{
 			class LinkedItemsOptic {
@@ -4298,6 +4316,28 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_srifle_EBR_FA: XDF_srifle_EBR_F // MK-21 EBR
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_DMS";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "muzzle_snds_B";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsUnder {
+				item = "bipod_01_F_blk";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
 	class XDF_MMG_01_black_F: XDF_MMG_01_black // Navid
 	{
 		class linkedItems
@@ -4386,34 +4426,12 @@ class cfgWeapons
 	class cannon_125mm_advanced;
 	class cannon_125mm_advanced_AX: cannon_125mm_advanced
 	{
-		magazines[]=
+		magazines[]+=
 		{
 			"12Rnd_125mm_APFSDS_T_Blue_AX",
-			"24Rnd_125mm_APFSDS",
-			"24Rnd_125mm_APFSDS_T_Red",
-			"24Rnd_125mm_APFSDS_T_Green",
-			"24Rnd_125mm_APFSDS_T_Yellow",
-			"20Rnd_125mm_APFSDS",
-			"20Rnd_125mm_APFSDS_T_Red",
-			"20Rnd_125mm_APFSDS_T_Green",
-			"20Rnd_125mm_APFSDS_T_Yellow",
-			"16Rnd_125mm_APFSDS",
-			"16Rnd_125mm_APFSDS_T_Red",
-			"16Rnd_125mm_APFSDS_T_Green",
-			"16Rnd_125mm_APFSDS_T_Yellow",
-			"12Rnd_125mm_HEAT",
-			"12Rnd_125mm_HEAT_T_Red",
-			"12Rnd_125mm_HEAT_T_Green",
-			"12Rnd_125mm_HEAT_T_Yellow",
-			"12Rnd_125mm_HE",
-			"12Rnd_125mm_HE_T_Red",
-			"12Rnd_125mm_HE_T_Green",
-			"12Rnd_125mm_HE_T_Yellow",
-			"8Rnd_125mm_HE",
-			"8Rnd_125mm_HE_T_Red",
-			"8Rnd_125mm_HE_T_Green",
-			"8Rnd_125mm_HE_T_Yellow",
-			"4Rnd_125mm_cannon_missiles"
+			"4Rnd_125mm_Thermobaric_AX",
+			"8Rnd_125mm_HEAT_AX_T_Blue",
+			"4Rnd_125mm_cannon_AX_missiles"
 		};
 	};
 	class cannon_120mm;
@@ -4422,7 +4440,10 @@ class cfgWeapons
 		magazines[]+=
 		{
 			"18Rnd_120mm_APFSDS_T_Blue_AX",
-			"8Rnd_120mm_APFSDS_T_Blue_AX"
+			"8Rnd_120mm_APFSDS_T_Blue_AX",
+			"4Rnd_120mm_Thermobaric_AX",
+			"8Rnd_120mm_HEAT_AX_T_Blue",
+			"4Rnd_120mm_cannon_AX_missiles"
 		};
 	};
 	class cannon_railgun;

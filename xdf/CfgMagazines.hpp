@@ -111,6 +111,7 @@ class CfgMagazines
 		ammo="Sh_125mm_APFSDS_T_Blue_XDF";
 		count=12;
 		tracersEvery=1;
+		muzzleImpulseFactor[] = {1, 5};
 	};
 	class 12Rnd_120mm_APFSDS_shells_Tracer_Red;
 	class 18Rnd_120mm_APFSDS_T_Blue_AX: 12Rnd_120mm_APFSDS_shells_Tracer_Red
@@ -122,7 +123,8 @@ class CfgMagazines
 		count=18;
 		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
 		tracersEvery=1;
-		initSpeed=1670;
+		initSpeed=2100;
+		muzzleImpulseFactor[] = {1, 5};
 	};
 	class 8Rnd_120mm_APFSDS_T_Blue_AX: 18Rnd_120mm_APFSDS_T_Blue_AX
 	{
@@ -133,7 +135,65 @@ class CfgMagazines
 		count=8;
 		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
 		tracersEvery=1;
-		initSpeed=1670;
+		initSpeed=2100;
+		muzzleImpulseFactor[] = {1, 5};
+	};
+	class 8Rnd_120mm_HE_shells_Tracer_Red;
+	class 4Rnd_120mm_Thermobaric_AX: 8Rnd_120mm_HE_shells_Tracer_Red
+	{
+		author = "Radium";
+		displayName="120mm EXP-FAE";
+		displaynameshort="EXP-FAE";
+		displayNameMFDFormat="FAE";
+		count = 4;
+		ammo = "Sh_120mm_Thermobaric_AX";
+		initSpeed = 1680;
+		muzzleImpulseFactor[] = {0.3, 1.5};
+	};
+	class 4Rnd_125mm_Thermobaric_AX: 4Rnd_120mm_Thermobaric_AX
+	{
+		author = "Radium";
+		displayName="125mm EXP-FAE";
+	};
+	class 8Rnd_120mm_HEAT_MP_T_Red;
+	class 8Rnd_120mm_HEAT_AX_T_Blue: 8Rnd_120mm_HEAT_MP_T_Red
+	{
+		author = "Radium";
+		displayName="120mm HEAT-AX";
+		displaynameshort="HEAT-AX";
+		displayNameMFDFormat="HEAT-AX";
+		count = 8;
+		ammo = "Sh_120mm_HEAT_AX_T_Blue";
+		initSpeed = 1680;
+		muzzleImpulseFactor[] = {5, 30};
+	};
+	class 12Rnd_120mm_HEAT_AX_T_Blue: 8Rnd_120mm_HEAT_AX_T_Blue
+	{
+		count = 12;
+	};
+	class 8Rnd_125mm_HEAT_AX_T_Blue: 8Rnd_120mm_HEAT_AX_T_Blue
+	{
+		author = "Radium";
+		displayName="125mm HEAT-AX";
+	};
+	class 4Rnd_125mm_cannon_missiles;
+	class 4Rnd_125mm_cannon_AX_missiles: 4Rnd_125mm_cannon_missiles
+	{
+		author = "Radium";
+		displayName = "125mm ATGM-AX";
+		displaynameshort="ATGM-AX";
+		displayNameMFDFormat="ATGM-AX";
+		count = 4;
+		ammo = "M_125mm_cannon_ATGM_AX";
+		muzzleImpulseFactor[] = {0.2, 0.5};
+	};
+	class 4Rnd_120mm_cannon_AX_missiles: 4Rnd_125mm_cannon_AX_missiles
+	{
+		author = "Radium";
+		displayName = "120mm ATGM-AX";
+		count = 4;
+		ammo = "M_120mm_cannon_ATGM_AX";
+		muzzleImpulseFactor[] = {0.2, 0.5};
 	};
 	class 1000Rnd_20mm_GPR_shells: VehicleMagazine
 	{

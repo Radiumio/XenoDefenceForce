@@ -109,6 +109,29 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_O_V_Soldier_Viper_hex_F;
+	class U_PXLA_SP_Suit: U_O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="PXLA Special Purpose Suit";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\uniforms\U_PXLA_SP_Suit.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="O_PXLA_SP_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class V_XDF_Carrier_Lite_Black;
 	class V_PXLA_Defector_Carrier_Lite_Red: V_XDF_Carrier_Lite_Black
 	{
@@ -162,6 +185,50 @@ class cfgWeapons
 			"\pxla\retextures\pxla_uniform\vests\tacticalvest_pxla_co.paa"
 		};
 	};
+	class V_PlateCarrierIAGL_dgtl;
+	class V_PlateCarrierIAGL_PXLA: V_PlateCarrierIAGL_dgtl
+	{
+		author="Radium";
+		displayName="PXLA GA Carrier GL Rig";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\vests\equip_pxla_vest01_co.paa",
+			"\pxla\retextures\pxla_uniform\vests\ga_carrier_gl_rig_pxla_co.paa"
+		};
+	};
+	class V_PlateCarrierIA1_dgtl;
+	class V_PlateCarrierIA1_PXLA: V_PlateCarrierIA1_dgtl
+	{
+		author="Radium";
+		displayName="PXLA GA Carrier Lite";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\vests\equip_pxla_vest01_co.paa"
+		};
+	};
+	class V_PlateCarrierIA2_dgtl;
+	class V_PlateCarrierIA2_PXLA: V_PlateCarrierIA2_dgtl
+	{
+		author="Radium";
+		displayName="PXLA GA Carrier Rig";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\vests\equip_pxla_vest01_co.paa"
+		};
+	};
 	class H_Booniehat_khk;
 	class H_Booniehat_pxla: H_Booniehat_khk
 	{
@@ -172,10 +239,54 @@ class cfgWeapons
 			"\pxla\retextures\pxla_uniform\helmets\booniehat_pxla_co.paa"
 		};
 	};
+	class H_HelmetSpecB_blk;
+	class H_PXLA_Enhanced_Combat_Helmet: H_HelmetSpecB_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Enhanced Combat Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\helmets\H_PXLA_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_HelmetB_black;
+	class H_PXLA_Combat_Helmet: H_HelmetB_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Combat Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\helmets\H_PXLA_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_HelmetB_light_black;
+	class H_PXLA_Light_Combat_Helmet: H_HelmetB_light_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Light Combat Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\helmets\H_PXLA_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_HelmetB_TI_arid_F;
+	class H_PXLA_Stealth_Combat_Helmet: H_HelmetB_TI_arid_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="PXLA Stealth Combat Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"\pxla\retextures\pxla_uniform\helmets\H_PXLA_Stealth_Combat_Helmet_Black.paa"
+		};
+	};
 
 	// Loadout Weapons //
-	class arifle_SPAR_01_blk_F;
-	class arifle_SPAR_01_blk_F_PXLA: arifle_SPAR_01_blk_F
+	class arifle_SPAR_01_XDF_F;
+	class arifle_SPAR_01_blk_F_PXLA: arifle_SPAR_01_XDF_F
 	{
 		class linkedItems
 		{
