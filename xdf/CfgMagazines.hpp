@@ -111,6 +111,7 @@ class CfgMagazines
 		ammo="Sh_125mm_APFSDS_T_Blue_XDF";
 		count=12;
 		tracersEvery=1;
+		muzzleImpulseFactor[] = {0.3, 1.5};
 	};
 	class 12Rnd_120mm_APFSDS_shells_Tracer_Red;
 	class 18Rnd_120mm_APFSDS_T_Blue_AX: 12Rnd_120mm_APFSDS_shells_Tracer_Red
@@ -123,6 +124,7 @@ class CfgMagazines
 		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
 		tracersEvery=1;
 		initSpeed=2100;
+		muzzleImpulseFactor[] = {0.3, 1.5};
 	};
 	class 8Rnd_120mm_APFSDS_T_Blue_AX: 18Rnd_120mm_APFSDS_T_Blue_AX
 	{
@@ -134,6 +136,7 @@ class CfgMagazines
 		ammo="Sh_120mm_APFSDS_T_Blue_XDF";
 		tracersEvery=1;
 		initSpeed=2100;
+		muzzleImpulseFactor[] = {0.3, 1.5};
 	};
 	class 8Rnd_120mm_HE_shells_Tracer_Red;
 	class 4Rnd_120mm_Thermobaric_AX: 8Rnd_120mm_HE_shells_Tracer_Red
@@ -145,6 +148,7 @@ class CfgMagazines
 		count = 4;
 		ammo = "Sh_120mm_Thermobaric_AX";
 		initSpeed = 1680;
+		muzzleImpulseFactor[] = {0.3, 1.5};
 	};
 	class 4Rnd_125mm_Thermobaric_AX: 4Rnd_120mm_Thermobaric_AX
 	{
@@ -161,6 +165,7 @@ class CfgMagazines
 		count = 8;
 		ammo = "Sh_120mm_HEAT_AX_T_Blue";
 		initSpeed = 1680;
+		muzzleImpulseFactor[] = {0.3, 1.5};
 	};
 	class 12Rnd_120mm_HEAT_AX_T_Blue: 8Rnd_120mm_HEAT_AX_T_Blue
 	{
@@ -176,8 +181,11 @@ class CfgMagazines
 	{
 		author = "Radium";
 		displayName = "125mm ATGM-AX";
+		displaynameshort="ATGM-AX";
+		displayNameMFDFormat="ATGM-AX";
 		count = 4;
 		ammo = "M_125mm_cannon_ATGM_AX";
+		muzzleImpulseFactor[] = {0.2, 0.5};
 	};
 	class 4Rnd_120mm_cannon_AX_missiles: 4Rnd_125mm_cannon_AX_missiles
 	{
@@ -185,6 +193,7 @@ class CfgMagazines
 		displayName = "120mm ATGM-AX";
 		count = 4;
 		ammo = "M_120mm_cannon_ATGM_AX";
+		muzzleImpulseFactor[] = {0.2, 0.5};
 	};
 	class 1000Rnd_20mm_GPR_shells: VehicleMagazine
 	{
