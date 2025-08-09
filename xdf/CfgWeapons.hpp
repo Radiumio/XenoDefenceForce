@@ -1056,6 +1056,22 @@ class cfgWeapons
 			containerClass="Supply120";
 		};
 	};
+	class V_XDF_Tactical_Vest_Black_Winter: V_SSU_Tactical_Vest_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Vest (Winter)";
+		descriptionShort="Armor Level II<br/>It's a tactical vest - but in snazzy winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Tactical_Vest_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Tactical_Vest_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+		};
+	};
 	class V_XDF_Research_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Radium";
@@ -1150,6 +1166,22 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Modular_Carrier_Lite_Black_Winter: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_XDF_Modular_Carrier_Lite_Black_Cybern: V_SSU_Modular_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
@@ -1160,6 +1192,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Cybern.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Lite_Black_Winter_Cybern: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Cybern, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills. Winter camo.<br/>Personalised for Operative Cybern."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Cybern.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1177,6 +1225,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Vest_Black_Winter: V_CarrierRigKBT_01_Olive_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Vest (Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills - and no pouches. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1225,6 +1289,18 @@ class cfgWeapons
 			};
 		};
 	};
+	class V_XDF_Modular_Carrier_GL_Rig_Black_Winter: V_XDF_Modular_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier GL Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts and explosive-resistant padding. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+	};
 	class V_XDF_Modular_Carrier_GL_Rig_Black_Kao: V_SSU_Modular_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -1265,6 +1341,18 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
+		};
+	};
+	class V_XDF_Modular_Carrier_GL_Rig_Black_Winter_Kao: V_XDF_Modular_Carrier_GL_Rig_Black_Kao
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier GL Rig (Kao, Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts and explosive-resistant padding. Winter camo.<br/>Personalised for Operative Kao."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Kao.paa"
 		};
 	};
 	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
@@ -1617,6 +1705,18 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
+		};
+	};
+	class V_Rangemaster_belt_Winter_XDF: V_Rangemaster_belt_XDF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Battle Belt (Winter)";
+		model="\A3\Characters_F\BLUFOR\equip_b_belt";
+		picture="\A3\Characters_F\data\ui\icon_V_Belt_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
 		};
 	};
 
