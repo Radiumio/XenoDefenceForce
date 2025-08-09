@@ -19,6 +19,17 @@ class CfgWeapons
 			"\xdf_rf\retextures\xdf_uniform\helmets\mitznefet_xdf_co.paa"
 		};
 	};
+	class H_XDF_Shapebreaker_Helmet_Winter: H_XDF_Shapebreaker_Helmet
+	{
+		author="Radium";
+		displayName="XDF Shapebreaker Helmet (Winter)";
+		descriptionShort = "Armor Level II<br/>Although camouflage and silhouette distortion is not very effective against the xeno-threat, Shapebreaker helmets typically denote scout or infiltration units. Winter camo.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa",
+			"\xdf_rf\retextures\xdf_uniform\helmets\mitznefet_xdf_winter_co.paa"
+		};
+	};
 	class launch_PSRL1_PWS_black_RF;
 	class launch_PSRL1_PWS_xdf_RF: launch_PSRL1_PWS_black_RF
 	{
@@ -231,6 +242,26 @@ class CfgWeapons
 		{
 			"a3\characters_f\common\data\nvg_co.paa",
 			"\xdf_rf\retextures\xdf_uniform\headgear\tnvg_black_rf_co.paa"
+		};	
+	};
+	class XDF_TiGoggles_White_RF: XDF_TiGoggles_RF
+	{
+		author="Radium";
+		displayName="XDF TNVG-B (White)";
+		hiddenSelectionsTextures[] = 
+		{
+			"a3\characters_f\common\data\nvg_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\headgear\tnvg_white_rf_co.paa"
+		};	
+	};
+	class XDF_TiGoggles_Winter_RF: XDF_TiGoggles_RF
+	{
+		author="Radium";
+		displayName="XDF TNVG-B (Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"a3\characters_f\common\data\nvg_co.paa",
+			"\xdf_rf\retextures\xdf_uniform\headgear\tnvg_winter_rf_co.paa"
 		};	
 	};
 };
