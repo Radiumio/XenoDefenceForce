@@ -942,6 +942,10 @@ class CfgVehicles
 	class B_XDF_Marine_Uniform_Gloved_Winter: B_XDF_Marine_Uniform
 	{
 		model="\ef\ef_marines\ef_u_frog_gl.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\uniforms\U_XDF_Marines_winter_co.paa"
+		};
 	};
 	class B_XDF_Marine_Uniform_Gloved_Pads: B_XDF_Marine_Uniform
 	{
@@ -950,6 +954,10 @@ class CfgVehicles
 	class B_XDF_Marine_Uniform_Gloved_Pads_Winter: B_XDF_Marine_Uniform
 	{
 		model="\ef\ef_marines\ef_u_frog_gl_kp.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\uniforms\U_XDF_Marines_winter_co.paa"
+		};
 	};
 	class B_XDF_Marine_Uniform_Gloved_Rolled: B_XDF_Marine_Uniform
 	{
