@@ -30558,12 +30558,12 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
 		};
 	};
-	class B_XDF_Female_Wetsuit_Short: TCGM_F_DiverShort_B
+	class B_XDF_Female_Wetsuit_Short_Winter: TCGM_F_DiverShort_B
 	{
 		author="Radium";
 		scope=1;
 		scopeCurator=0;
-		uniformClass="B_XDF_Female_Wetsuit_Short";
+		uniformClass="B_XDF_Female_Wetsuit_Short_winter";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
@@ -30944,6 +30944,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black.paa"
 		};
 	};
+	class B_XDF_Assault_Pack_Black_Winter: B_SSU_Assault_Pack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Assault Pack (Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Assault_Pack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_Winter.paa"
+		};
+	};
 	class B_XDF_Assault_Pack_Black_med: B_SSU_Assault_Pack_base
 	{
 		author="Clasless & Radium";
@@ -30953,6 +30964,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_med.paa"
+		};
+	};
+	class B_XDF_Assault_Pack_Black_Winter_med: B_SSU_Assault_Pack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Assault Pack (Medical, Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Assault_Pack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Assault_Pack_Black_Winter_med.paa"
 		};
 	};
 	class B_XDF_Field_Pack_Black: B_FieldPack_blk
@@ -30965,6 +30987,16 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black.paa"
 		};
 	};
+	class B_XDF_Field_Pack_Black_Winter: B_FieldPack_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Field Pack (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black_Winter.paa"
+		};
+	};
 	class B_XDF_Field_Pack_Black_med: B_FieldPack_blk
 	{
 		author="Radium";
@@ -30973,6 +31005,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black_med.paa"
+		};
+	};
+	class B_XDF_Field_Pack_Black_med_Winter: B_FieldPack_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Field Pack (Medical, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Field_Pack_Black_med_Winter.paa"
 		};
 	};
 	class B_XDF_LegStrapBag_Black: B_SSU_LegStrapBag_base
@@ -30987,6 +31029,18 @@ class CfgVehicles
 		};
 		maximumLoad=200;
 	};
+	class B_XDF_LegStrapBag_Black_Winter: B_SSU_LegStrapBag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Leg Strap Bag (Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_LegStrapBag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_LegStrapBag_Black_Winter.paa"
+		};
+		maximumLoad=200;
+	};
 	class B_XDF_TacticalPack_Black: B_SSU_TacticalPack_base
 	{
 		author="Clasless & Radium";
@@ -30996,6 +31050,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black.paa"
+		};
+	};
+	class B_XDF_TacticalPack_Black_Winter: B_SSU_TacticalPack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Backpack (Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black_Winter.paa"
 		};
 	};
 	class B_XDF_TacticalPack_Black_med: B_SSU_TacticalPack_base
@@ -31009,6 +31074,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black_med.paa"
 		};
 	};
+	class B_XDF_TacticalPack_Black_Winter_med: B_SSU_TacticalPack_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Backpack (Medical, Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_TacticalPack_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_TacticalPack_Black_Winter_med.paa"
+		};
+	};
 	class B_XDF_Kitbag_Black: B_SSU_Kitbag_base
 	{
 		author="Clasless & Radium";
@@ -31018,6 +31094,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black.paa"
+		};
+	};
+	class B_XDF_Kitbag_Black_Winter: B_SSU_Kitbag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Kitbag (Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Kitbag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black_Winter.paa"
 		};
 	};
 	class B_XDF_Kitbag_Black_med: B_SSU_Kitbag_base
@@ -31031,6 +31118,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black_med.paa"
 		};
 	};
+	class B_XDF_Kitbag_Black_Winter_med: B_SSU_Kitbag_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Kitbag (Medical, Winter)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Kitbag_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Kitbag_Black_Winter_med.paa"
+		};
+	};
 	class B_XDF_CarryAll_Black: B_Carryall_blk
 	{
 		author="Radium";
@@ -31040,6 +31138,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black.paa"
+		};
+	};
+	class B_XDF_CarryAll_Black_Winter: B_Carryall_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Carryall (Winter)";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_Winter.paa"
 		};
 	};
 	class B_XDF_CarryAll_Black_med: B_Carryall_blk
@@ -31053,6 +31162,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_med.paa"
 		};
 	};
+	class B_XDF_CarryAll_black_Winter_med: B_Carryall_blk
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Carryall (Medical, Winter)";
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_CarryAll_black_Winter_med.paa"
+		};
+	};
 	class B_XDF_Messenger_Bag: B_Messenger_Black_F
 	{
 		author="Radium";
@@ -31061,6 +31181,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Messenger_Bag.paa"
+		};
+	};
+	class B_XDF_Messenger_Bag_Winter: B_Messenger_Black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Messenger Bag (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Messenger_Bag_Winter.paa"
 		};
 	};
 	class B_XDF_Messenger_Bag_med: B_Messenger_Black_F
@@ -31073,6 +31203,16 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Messenger_Bag_med.paa"
 		};
 	};
+	class B_XDF_Messenger_Bag_Winter_med: B_Messenger_Black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Messenger Bag (Medical, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Messenger_Bag_Winter_med.paa"
+		};
+	};
 	class B_XDF_Travel_Pack: B_CivilianBackpack_01_Everyday_Black_F
 	{
 		author="Radium";
@@ -31081,6 +31221,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Travel_Pack.paa"
+		};
+	};
+	class B_XDF_Travel_Pack_Winter: B_CivilianBackpack_01_Everyday_Black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Travel Pack (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Travel_Pack_Winter.paa"
 		};
 	};
 	class B_XDF_Travel_Pack_med: B_CivilianBackpack_01_Everyday_Black_F
@@ -31093,6 +31243,16 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Travel_Pack_med.paa"
 		};
 	};
+	class B_XDF_Travel_Pack_Winter_med: B_CivilianBackpack_01_Everyday_Black_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Travel Pack (Medical, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Travel_Pack_Winter_med.paa"
+		};
+	};
 	class B_XDF_Bergen: B_Bergen_mcamo_F
 	{
 		author="Radium";
@@ -31101,6 +31261,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Bergen.paa"
+		};
+	};
+	class B_XDF_Bergen_Winter: B_Bergen_mcamo_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Bergen Backpack (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Bergen_Winter.paa"
 		};
 	};
 	class B_XDF_CUR: B_CombinationUnitRespirator_01_F
@@ -31129,6 +31299,15 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Black.paa"
 		};
 	};
+	class B_XDF_RadioBag_Winter: B_XDF_RadioBag_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Radio Pack (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Winter.paa"
+		};
+	};
 	class B_XDF_UAV_01_backpack_F: Weapon_Bag_Base
 	{
 		author="Radium";
@@ -31155,6 +31334,15 @@ class CfgVehicles
 			assembleTo="XDF_Mosquito";
 		};
 	};
+	class B_XDF_UAV_01_backpack_winter_F: B_XDF_UAV_01_backpack_F
+	{
+		author="Radium";
+		displayName="XDF UAV Bag (AR-5 Mosquito, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\xdf_uav_01_backpack_winter_co.paa"
+		};
+	};
 	class B_Kitbag_Base;
 	class B_XDF_Patrol_Backpack: B_Kitbag_Base
 	{
@@ -31174,6 +31362,17 @@ class CfgVehicles
 		maximumLoad=400;
 		mass=75;
 	};
+	class B_XDF_Patrol_Backpack_Winter: B_XDF_Patrol_Backpack
+	{
+		author="Radium";
+		displayName="XDF Patrol Backpack (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Patrol_Backpack_Winter.paa"
+		};
+		maximumLoad=400;
+		mass=75;
+	};
 	class B_XDF_Patrol_Backpack_med: B_XDF_Patrol_Backpack
 	{
 		author="Radium";
@@ -31181,6 +31380,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Patrol_Backpack_med.paa"
+		};
+	};
+	class B_XDF_Patrol_Backpack_Winter_med: B_XDF_Patrol_Backpack
+	{
+		author="Radium";
+		displayName="XDF Patrol Backpack (Medical, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Patrol_Backpack_Winter_med.paa"
 		};
 	};
 	class B_XDF_Sentinel_Backpack: Weapon_Bag_Base
@@ -31209,6 +31417,15 @@ class CfgVehicles
 			assembleTo="XDF_Sentinel";
 		};
 	};
+	class B_XDF_Sentinel_Backpack_Winter: B_XDF_Sentinel_Backpack
+	{
+		author="Radium";
+		displayName="XDF Designator Bag (LS-2 Sentinel, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Sentinel_Backpack_Winter.paa"
+		};
+	};
 	class B_Rangemaster_belt_XDF: Bag_Base
 	{
 		author="Radium";
@@ -31226,6 +31443,15 @@ class CfgVehicles
 		};
 		maximumLoad = 200;
 		mass = 5;
+	};
+	class B_Rangemaster_belt_Winter_XDF: B_Rangemaster_belt_XDF
+	{
+		author="Radium";
+		displayname = "XDF Battle Belt (Backpack, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
+		};
 	};
 
 	// Hidden Unit Backpacks //
