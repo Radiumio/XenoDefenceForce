@@ -30510,12 +30510,48 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
 		};
 	};
+	class B_XDF_Wetsuit_Winter: B_diver_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Wetsuit_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+	};
 	class B_XDF_Female_Wetsuit: TCGM_F_Diver_B
 	{
 		author="Radium";
 		scope=1;
 		scopeCurator=0;
 		uniformClass="B_XDF_Female_Wetsuit";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+		};
+	};
+	class B_XDF_Female_Wetsuit_Winter: TCGM_F_Diver_B
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="B_XDF_Female_Wetsuit_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+	};
+	class B_XDF_Female_Wetsuit_Short: TCGM_F_DiverShort_B
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="B_XDF_Female_Wetsuit_Short";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
@@ -30530,8 +30566,8 @@ class CfgVehicles
 		uniformClass="B_XDF_Female_Wetsuit_Short";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_co.paa",
-			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_co.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
 		};
 	};
 	class B_XDF_Survival_Suit: b_soldier_survival_F

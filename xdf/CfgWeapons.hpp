@@ -399,6 +399,27 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Wetsuit_Winter: U_B_Wetsuit
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Wetsuit (Winter)";
+		descriptionShort="XDF wetsuit for maritime operations in winter regions."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Wetsuit_Winter";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
 	class U_XDF_Female_Wetsuit: TCGM_F_Wetsuit_B
 	{
 		author="Radium";
@@ -420,6 +441,27 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Female_Wetsuit_Winter: TCGM_F_Wetsuit_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit (Winter)";
+		descriptionShort="XDF female wetsuit for maritime operations in winter regions."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit_Winter";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
 	class U_XDF_Female_Wetsuit_Short: TCGM_F_WetsuitShort_B
 	{
 		author="Radium";
@@ -436,6 +478,27 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Female_Wetsuit_Short";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Wetsuit_Short_Winter: TCGM_F_WetsuitShort_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit (Short, Winter)";
+		descriptionShort="XDF female wetsuit for maritime operations. The operator has chosen to shed 'extraneous' parts. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit_Short_Winter";
 			containerClass="Supply80";
 			uniformType="Neopren";
 			mass=40;
@@ -1348,6 +1411,22 @@ class cfgWeapons
 			containerClass="Supply250";
 		};
 	};
+	class V_XDF_SmershVest_01_Winter_F: V_SmershVest_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest (Winter)";
+		descriptionShort="No Armor<br/>Sacrifice all semblance of armor for load-bearing capacity. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
 	class V_XDF_SmershVest_01_radio_F: V_SmershVest_01_radio_F
 	{
 		author="Radium";
@@ -1358,6 +1437,22 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_SmershVest_01_radio_Winter_F: V_SmershVest_01_radio_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest (Tactical Radio, Winter)";
+		descriptionShort="No Armor<br/>Sacrifice all semblance of armor for load-bearing capacity. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_misc_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1419,6 +1514,18 @@ class cfgWeapons
 			};
 		};
 	};
+	class V_XDF_Rebreather_Winter: V_XDF_Rebreather
+	{
+		author="Radium";
+		displayName="XDF Combat Rebreather (Winter)";
+		descriptionShort="Armor Level III<br/>A combat-rated rebreather for maritime operations. Offers similar protection to a plate carrier, with compartments and a modular belt for load-bearing. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+	};
 	class V_XDF_Rebreather_Mask: V_RebreatherB
 	{
 		author="Radium";
@@ -1476,6 +1583,19 @@ class cfgWeapons
 					passThrough=0.6;
 				};
 			};
+		};
+	};
+	class V_XDF_Rebreather_Winter_Mask: V_XDF_Rebreather_Mask
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combat Rebreather (Mask, Winter)";
+		descriptionShort="Armor Level III<br/>A combat-rated rebreather for maritime operations. Offers similar protection to a plate carrier, with compartments and a modular belt for load-bearing. Winter camo.<br/>The mask is always deployed on this variant."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
 		};
 	};
 	class V_Rangemaster_belt_XDF: V_Rangemaster_belt
