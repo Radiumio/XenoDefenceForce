@@ -195,6 +195,24 @@ class cfgWeapons
 			uniformClass="B_XDF_Uniform_Ghillie_Black";
 		};
 	};
+	class U_XDF_Uniform_Ghillie_Winter: U_SSU_Stealth_Uniform_Ghillie_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Standard Uniform (Ghillie, Winter)";
+		descriptionShort="Standard-issue XDF uniform covered in a winter operations ghillie."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_ghillie_winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Uniform_Ghillie_Winter";
+		};
+	};
 	class U_XDF_Uniform_Tee_Black: U_B_CTRG_Soldier_2_F
 	{
 		author="Radium";
@@ -309,6 +327,30 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_SP_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_SP_Suit_Winter: U_O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Special Purpose Suit (Winter)";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit_Winter.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_SP_Suit_Winter";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -445,6 +487,30 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Female_SP_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_SP_Suit_Winter: TCGM_F_Viper_GHex
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Special Purpose Suit (Winter)";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit_Winter.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_SP_Suit_Winter";
 			containerClass="Supply40";
 			mass=40;
 		};

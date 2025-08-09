@@ -30378,6 +30378,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\xdf_ghillie_black.paa"
 		};
 	};
+	class B_XDF_Uniform_Ghillie_Winter: B_SSU_Stealth_Uniform_Ghillie_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Uniform_Ghillie_Winter";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Ghillie_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_ghillie_winter.paa"
+		};
+	};
 	class B_XDF_Uniform_Tee_Black: B_CTRG_Soldier_2_F
 	{
 		author="Radium";
@@ -30454,6 +30465,22 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+	};
+	class B_XDF_SP_Suit_Winter: O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_SP_Suit_Winter";
+		modelSides[] = {1};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit_Winter.paa"
 		};
 	};
 	class B_XDF_Wetsuit: B_diver_F
@@ -30546,6 +30573,22 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit.paa"
+		};
+	};
+	class B_XDF_Female_SP_Suit_Winter: TCGM_Viper_O_AHex_Soldier
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_SP_Suit_Winter";
+		modelSides[] = {1};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit_Winter.paa"
 		};
 	};
 	class U_XDF_Female_Uniform_Black: TCGM_Stealth_B_CTRG_Soldier_arid
