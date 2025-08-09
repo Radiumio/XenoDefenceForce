@@ -30436,6 +30436,21 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_co.paa"
 		};
 	};
+	class B_XDF_CBRN_Suit_Winter: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_CBRN_Suit_Winter";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_Winter_co.paa"
+		};
+	};
 	class B_XDF_CBRN_Research_Suit: B_CBRN_Man_Oversuit_01_MTP_F
 	{
 		author="Radium";
@@ -30659,8 +30674,8 @@ class CfgVehicles
 		modelSides[] = {1};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_Winter_co.paa",
-			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_tech_Winter_co.paa"
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_winter_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_tech_winter_co.paa"
 		};
 	};
 	class I_E_Uniform_01_tanktop_F;

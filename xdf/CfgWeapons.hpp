@@ -284,6 +284,29 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_CBRN_Suit_Winter: U_B_CBRN_Suit_01_MTP_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF CBRN Suit (Winter)";
+		descriptionShort="Experimental XDF CBRN suit for handling alien substances and other highly hazardous materials. Winter camo."
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_CBRN_Suit_Winter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_XDF_CBRN_Research_Suit: U_B_CBRN_Suit_01_MTP_F
 	{
 		author="Radium";
