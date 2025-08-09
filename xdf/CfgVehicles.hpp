@@ -30650,6 +30650,19 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_tech_co.paa"
 		};
 	};
+	class B_XDF_Envirosuit_Winter: O_Soldier_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Envirosuit_Winter";
+		modelSides[] = {1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_tech_Winter_co.paa"
+		};
+	};
 	class I_E_Uniform_01_tanktop_F;
 	class B_XDF_Temperate_Uniform_TT: I_E_Uniform_01_tanktop_F
 	{

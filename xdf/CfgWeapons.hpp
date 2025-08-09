@@ -614,6 +614,25 @@ class cfgWeapons
 			mass=80;
 		};
 	};
+	class U_XDF_Envirosuit_Winter: U_O_CombatUniform_ocamo
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Envirosuit (Winter)";
+		descriptionShort="Specialised XDF suit designed for operation in environments with extreme cold or heat. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Envirosuit_Winter";
+			containerClass="Supply40";
+			mass=80;
+		};
+	};
 	class U_I_E_Uniform_01_tanktop_F;
 	class U_XDF_Temperate_Uniform_TT: U_I_E_Uniform_01_tanktop_F
 	{
