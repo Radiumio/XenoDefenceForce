@@ -31352,7 +31352,7 @@ class CfgVehicles
 		displayName="XDF Radio Pack (Winter)";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Winter.paa"
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_RadioBag_Black_Winter.paa"
 		};
 	};
 	class B_XDF_UAV_01_backpack_F: Weapon_Bag_Base
