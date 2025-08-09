@@ -2006,6 +2006,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Winter: H_XDF_Advanced_Modular_Helmet_HS_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_HS_Black_Maple: H_SSU_Advanced_Modular_Helmet_HS_base
 	{
 		author="Clasless & Radium";
@@ -2016,6 +2026,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Maple.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Winter_Maple: H_XDF_Advanced_Modular_Helmet_HS_Black_Maple
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Maple, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet. Winter camo.<br/>Personalised for Operative Maple."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter_Maple.paa"
 		};
 	};
 	class H_XDF_Advanced_Modular_Helmet_Ear_Black: H_SSU_Advanced_Modular_Helmet_Ear_base
@@ -2030,6 +2050,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_Ear_Black_Winter: H_XDF_Advanced_Modular_Helmet_Ear_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Ear Protectors, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with ear protectors. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_Chops_Black: H_SSU_Advanced_Modular_Helmet_Chops_base
 	{
 		author="Clasless & Radium";
@@ -2042,6 +2072,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Winter: H_XDF_Advanced_Modular_Helmet_Chops_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Chops, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern: H_SSU_Advanced_Modular_Helmet_Chops_base
 	{
 		author="Clasless & Radium";
@@ -2052,6 +2092,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Winter_Cybern: H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Chops, Cybern, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops. Winter camo.<br/>Personalised for Operative Cybern."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter_Cybern.paa"
 		};
 	};
 	class H_SSU_Special_Purpose_Helmet_base;
@@ -2213,6 +2263,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
 		};
 	};
+	class H_XDF_Helmet_Heli_Black_Winter: H_XDF_Helmet_Heli_Black
+	{
+		author="Radium";
+		displayName="XDF Helicopter Pilot Helmet (Winter)";
+		descriptionShort="Armor Level II<br/>Protective helmet for helicopter pilots. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_Winter_co.paa"
+		};
+	};
 	class H_XDF_Helmet_Heli_Crew_Black: H_CrewHelmetHeli_B
 	{
 		author="Radium";
@@ -2222,6 +2282,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
+		};
+	};
+	class H_XDF_Helmet_Heli_Crew_Black_Winter: H_XDF_Helmet_Heli_Crew_Black
+	{
+		author="Radium";
+		displayName="XDF Helicopter Crew Helmet (Winter)";
+		descriptionShort="Armor Level II<br/>Protective helmet for helicopter crews. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_Winter_co.paa"
 		};
 	};
 	class H_XDF_Helmet_Crew_Black: H_HelmetCrew_B
@@ -2235,6 +2305,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
 		};
 	};
+	class H_XDF_Helmet_Crew_Black_Winter: H_XDF_Helmet_Crew_Black
+	{
+		author="Radium";
+		displayName="XDF Crew Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Protective helmet for vehicle crews. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Helmet_Crew_Black_Shieldmaiden: H_HelmetCrew_B
 	{
 		author="Radium";
@@ -2244,6 +2324,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Shieldmaiden.paa"
+		};
+	};
+	class H_XDF_Helmet_Crew_Black_Winter_Shieldmaiden: H_XDF_Helmet_Crew_Black_Shieldmaiden
+	{
+		author="Radium";
+		displayName="XDF Crew Helmet (Shieldmaiden, Winter)";
+		descriptionShort="Armor Level III<br/>Protective helmet for vehicle crews.<br/>Personalised for Operative Shieldmaiden. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Winter_Shieldmaiden.paa"
 		};
 	};
 	class H_HelmetAggressor_F;
@@ -2256,6 +2346,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
+	class H_XDF_Aggressor_Winter: H_HelmetAggressor_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Winter_co.paa"
 		};
 	};
 	class H_HelmetAggressor_cover_F;
@@ -2279,6 +2380,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Temperate_co.paa"
+		};
+	};
+	class H_XDF_Aggressor_Winter_cover: H_HelmetAggressor_cover_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Winter Cover)";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams, covered with protective nanowrap in a winter camo scheme."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Winter_co.paa"
 		};
 	};
 	class H_HelmetB;
@@ -2319,6 +2431,16 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_ASH_Assassin_Winter: H_XDF_ASH_Assassin
+	{
+		author="Radium";
+		displayName="XDF ASH Helmet (Single P.R.I.S.M, Winter)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has one P.R.I.S.M Heads-Up Display unit deployed, enabling advanced imaging. Winter camo.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_ASH_Defender: H_HelmetLeaderO_ocamo
 	{
 		author="Radium";
@@ -2344,6 +2466,16 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_ASH_Defender_Winter: H_XDF_ASH_Defender
+	{
+		author="Radium";
+		displayName="XDF ASH Helmet (Dual P.R.I.S.M, Winter)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has both P.R.I.S.M Heads-Up Display units deployed, enabling advanced imaging. Winter camo.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_ASH_Protector: H_HelmetO_ocamo
 	{
 		author="Radium";
@@ -2366,6 +2498,16 @@ class cfgWeapons
 					passThrough = 0.5;
 				};
 			};
+		};
+	};
+	class H_XDF_ASH_Protector_Winter: H_XDF_ASH_Protector
+	{
+		author="Radium";
+		displayName="XDF ASH Helmet (Retracted P.R.I.S.M, Winter)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has both P.R.I.S.M Heads-Up Display units retracted. Winter camo.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_Winter_PRISM_Off.paa"
 		};
 	};
 
