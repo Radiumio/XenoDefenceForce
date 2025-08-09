@@ -172,6 +172,25 @@ class CfgGlasses
 			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_black.paa"
 		};
 	};
+	class G_XDF_Goggles_Winter: G_Combat
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF SIC Goggles (Winter)";
+		descriptionShort = "XDF Standard Infantry Combat goggles, shielding an operator's eyes from shrapnel or particles. Winter camo.";
+		picture="\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
+		model="\A3\characters_f_beta\heads\glasses\g_combat";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_winter.paa"
+		};
+	};
 	class G_XDF_Bandana_Alien: G_Bandanna_blk
 	{
 		author="Radium";
