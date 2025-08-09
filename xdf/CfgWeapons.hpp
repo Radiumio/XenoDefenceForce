@@ -820,6 +820,21 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Carrier_Lite_Winter: V_SSU_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Lite (Winter)";
+		descriptionShort="Armor Level III<br/>Standard-issue XDF plate carrier with no frills - winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_XDF_Carrier_Rig_Black: V_SSU_Carrier_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -830,6 +845,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Carrier_Rig_Winter: V_SSU_Carrier_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF plate carrier with a hydration panel and additional ballistic inserts - winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1240,6 +1271,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Rad_Winter: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible, Radium, Winter)";
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible - winter camo. Personalised for Operative Radium."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
