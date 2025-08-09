@@ -30301,6 +30301,16 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
+	class B_XDF_Uniform_Black_Winter: B_SSU_Stealth_Uniform_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Uniform_Black_Winter";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa"
+		};
+	};
 	class B_XDF_Uniform_Rolled_Black: B_SSU_Stealth_Uniform_Rolled_base
 	{
 		author="Clasless & Radium";
@@ -30331,6 +30341,18 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_gloves.paa"
+		};
+	};
+	class B_XDF_Coveralls_Black_Winter: B_SSU_Coveralls_base
+	{
+		author="Clasless & Radium";
+		uniformClass="U_XDF_Coveralls_Black_Winter";
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black_winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter_gloves.paa"
 		};
 	};
 	class B_XDF_Research_Coveralls_Black: B_SSU_Coveralls_base
@@ -30537,6 +30559,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black.paa"
 		};
 	};
+	class U_XDF_Female_Uniform_Black_Winter: TCGM_Stealth_B_CTRG_Soldier_arid
+	{
+		author="TCGM & Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Female_Uniform_Black_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa"
+		};
+	};
 	class U_XDF_Female_Uniform_Black_Rolled: TCGM_RollUp_B_CTRG_Soldier
 	{
 		author="TCGM & Radium";
@@ -30656,6 +30689,17 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_01_coveralls_01_co.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_pants_co.paa",
 			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Temperate_Uniform_TT_gloves_black_co.paa"
+		};
+	};
+	class B_XDF_Combat_Coveralls_Black_Winter: I_E_Uniform_01_coveralls_F
+	{
+		author="Radium";
+		uniformClass="U_XDF_Combat_Coveralls_Black_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Winter_Uniform_TT_01_coveralls_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black_winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter_gloves.paa"
 		};
 	};
 	class B_Soldier_F;

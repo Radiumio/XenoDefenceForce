@@ -69,6 +69,23 @@ class cfgWeapons
 			uniformClass="B_XDF_Uniform_Black";
 		};
 	};
+	class U_XDF_Uniform_Black_Winter: U_SSU_Stealth_Uniform_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Standard Uniform (Winter)";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Uniform_Black_Winter";
+		};
+	};
 	class U_XDF_Uniform_Rolled_Black: U_SSU_Stealth_Uniform_Rolled_base
 	{
 		author="Clasless & Radium";
@@ -120,6 +137,25 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="B_XDF_Coveralls_Black";
+		};
+	};
+	class U_XDF_Coveralls_Black_Winter: U_SSU_Coveralls_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Crew Coveralls (Winter)";
+		descriptionShort="Standard-issue XDF crew coveralls designed for vehicular operations or engineering field work. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black_winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter_gloves.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Coveralls_Black_Winter";
 		};
 	};
 	class U_XDF_Research_Coveralls_Black: U_SSU_Coveralls_base
@@ -433,6 +469,26 @@ class cfgWeapons
 			mass=32;
 		};
 	};
+	class U_XDF_Female_Uniform_Black_Winter: TCGM_CombatUniform_CTRG_Stealth_arid
+	{
+		author="TCGM & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Standard Uniform (Winter)";
+		descriptionShort="The standard XDF female uniform - insulated, thermal-resistant, and stylish. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="U_XDF_Female_Uniform_Black_Winter";
+			containerClass="Supply40";
+			mass=32;
+		};
+	};
 	class U_XDF_Female_Uniform_Black_Rolled: TCGM_CombatUniform_CTRG_RollUp
 	{
 		author="TCGM & Radium";
@@ -617,6 +673,27 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Combat_Coveralls_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Combat_Coveralls_Black_Winter: U_I_E_Uniform_01_coveralls_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Combat Coveralls (Winter)";
+		descriptionShort="XDF crew coveralls adapted for combat usage by applying distinct winter-based camo. Designed to be used with heavy weapon units."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Winter_Uniform_TT_01_coveralls_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black_winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter_gloves.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Combat_Coveralls_Black_Winter";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1016,6 +1093,54 @@ class cfgWeapons
 			containerClass="Supply300";
 		};
 	};
+	class V_XDF_Carrier_GL_Rig_Black_Rad: V_SSU_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier GL Rig (Radium)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier.<br/>Personalised for Operative Radium."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class V_XDF_Carrier_GL_Rig_Black_Winter: V_SSU_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier GL Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class V_XDF_Carrier_GL_Rig_Black_Rad_Winter: V_SSU_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier GL Rig (Radium, Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier. Winter camo.<br/>Personalised for Operative Radium."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
 	class V_XDF_Carrier_Special_Rig_Black: V_SSU_Carrier_Special_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -1032,6 +1157,22 @@ class cfgWeapons
 			containerClass="Supply250";
 		};
 	};
+	class V_XDF_Carrier_Special_Rig_Black_Winter: V_SSU_Carrier_Special_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Special Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty anti-xeno plate carrier. Heavy, but one of the few vests rated for combat against the xeno-threat.<br/>This vest will keep you alive. Also likely to survive munitions that the user would not. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
 	class V_XDF_Carrier_Special_Rig_Black_Rad: V_SSU_Carrier_Special_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -1042,6 +1183,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_Carrier_Special_Rig_Black_Rad_Winter: V_SSU_Carrier_Special_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Special Rig (Radium, Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty anti-xeno plate carrier. Heavy, but one of the few vests rated for combat against the xeno-threat.<br/>This vest will keep you alive. Also likely to survive munitions that the user would not. Winter camo.<br/>Personalised for Operative Radium."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
