@@ -1261,6 +1261,30 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Winter: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible, Winter)";
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible. Winter camo."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
 	class H_XDF_Stealth_Combat_Helmet_Black_Rad: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1319,6 +1343,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Winter_b: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible - Beast, Winter)";
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black_b.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Winter_b.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
