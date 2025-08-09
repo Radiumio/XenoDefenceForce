@@ -30911,6 +30911,15 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black.paa"
 		};
 	};
+	class B_XDF_Viper_Harness_Winter: B_XDF_Viper_Harness_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Viper Harness (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_Winter.paa"
+		};
+	};
 	class B_XDF_Viper_Harness_Black_med: B_SSU_Viper_Harness_base
 	{
 		author="Clasless & Radium";
@@ -30922,6 +30931,15 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_med.paa"
 		};
 	};
+	class B_XDF_Viper_Harness_Black_Winter_med: B_XDF_Viper_Harness_Black_med
+	{
+		author="Clasless & Radium";
+		displayName="XDF Viper Harness (Medical, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_Winter_med.paa"
+		};
+	};
 	class B_XDF_Viper_Light_Harness_Black: B_SSU_Viper_Light_Harness_base
 	{
 		author="Clasless & Radium";
@@ -30931,6 +30949,35 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black.paa"
+		};
+	};
+	class B_XDF_Viper_Light_Harness_Black_Winter: B_XDF_Viper_Light_Harness_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Viper Light Harness (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_Winter.paa"
+		};
+	};
+	class B_XDF_Viper_Light_Harness_Black_med: B_SSU_Viper_Light_Harness_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Viper Light Harness (Medical)";
+		picture="\SSU_Black_Backpacks\UI\Icon_SSU_Viper_Light_Harness_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_med.paa"
+		};
+	};
+	class B_XDF_Viper_Light_Harness_Black_Winter_med: B_XDF_Viper_Light_Harness_Black_Med
+	{
+		author="Clasless & Radium";
+		displayName="XDF Viper Light Harness (Medical, Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\backpacks\B_XDF_Viper_Harness_Black_Winter_med.paa"
 		};
 	};
 	class B_XDF_Assault_Pack_Black: B_SSU_Assault_Pack_base
