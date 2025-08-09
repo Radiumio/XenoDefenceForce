@@ -824,6 +824,25 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Gorka_Black_Winter: U_O_R_Gorka_01_camo_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Gorka-W";
+		descriptionShort="Specialised XDF uniform designed for use in alpine or other cold environments. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Gorka_Black_Winter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_B_Protagonist_VR;
 	class U_XDF_Sleek_Suit: U_B_Protagonist_VR
 	{
