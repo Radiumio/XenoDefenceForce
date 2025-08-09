@@ -1921,6 +1921,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Combat_Helmet_Black_Winter: H_XDF_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Winter)";
+		descriptionShort="Armor Level II<br/>Standard-issue XDF infantry combat helmet. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Enhanced_Combat_Helmet_Black: H_SSU_Enhanced_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1931,6 +1941,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Winter: H_XDF_Enhanced_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Enhanced, Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Enhanced_Combat_Helmet_Black_core: H_SSU_Enhanced_Combat_Helmet_base
@@ -1945,6 +1965,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_core.paa"
 		};
 	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_core: H_XDF_Enhanced_Combat_Helmet_Black_core
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite, Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Coremanite."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter_core.paa"
+		};
+	};
 	class H_XDF_Enhanced_Combat_Helmet_Black_Kao: H_SSU_Enhanced_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1955,6 +1985,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Kao.paa"
+		};
+	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_Kao: H_XDF_Enhanced_Combat_Helmet_Black_Kao
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Enhanced, Kao, Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Kao."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter_Kao.paa"
 		};
 	};
 	class H_XDF_Camo_Combat_Helmet_Black: H_SSU_Camo_Combat_Helmet_base
@@ -1970,6 +2010,17 @@ class cfgWeapons
 			"\SSU_@Core\Data\Helmets\helmet_ghille_black.paa"
 		};
 	};
+	class H_XDF_Camo_Combat_Helmet_Black_Winter: H_XDF_Camo_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Camo, Winter)";
+		descriptionShort="Armor Level II<br/>Standard-issue XDF infantry combat helmet with winter camo netting."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa",
+			"\SSU_@Core\Data\Helmets\helmet_ghille_snow.paa"
+		};
+	};
 	class H_XDF_Light_Combat_Helmet_Black: H_SSU_Light_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1980,6 +2031,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Light_Combat_Helmet_Black_Winter: H_XDF_Light_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Light Infantry Helmet (Winter)";
+		descriptionShort="Armor Level I<br/>Lightweight XDF infantry helmet. Better than nothing - even though the protection offered is practically nothing. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Light_Research_Helmet_Black: H_SSU_Light_Combat_Helmet_base
@@ -2114,7 +2175,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF SPH 'Xenohunter'";
-		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum, but often used with open air filters."
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Special_Purpose_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -2131,6 +2192,16 @@ class cfgWeapons
 					passThrough = 0.5;
 				};
 			};
+		};
+	};
+	class H_XDF_Special_Purpose_Helmet_Black_Winter: H_XDF_Special_Purpose_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF SPH 'Xenohunter' (Winter)";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Boonie_HS_Black: H_SSU_Boonie_HS_base

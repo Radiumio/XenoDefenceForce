@@ -939,7 +939,15 @@ class CfgVehicles
 	{
 		model="\ef\ef_marines\ef_u_frog_gl.p3d";
 	};
+	class B_XDF_Marine_Uniform_Gloved_Winter: B_XDF_Marine_Uniform
+	{
+		model="\ef\ef_marines\ef_u_frog_gl.p3d";
+	};
 	class B_XDF_Marine_Uniform_Gloved_Pads: B_XDF_Marine_Uniform
+	{
+		model="\ef\ef_marines\ef_u_frog_gl_kp.p3d";
+	};
+	class B_XDF_Marine_Uniform_Gloved_Pads_Winter: B_XDF_Marine_Uniform
 	{
 		model="\ef\ef_marines\ef_u_frog_gl_kp.p3d";
 	};
