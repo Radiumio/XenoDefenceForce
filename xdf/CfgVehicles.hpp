@@ -24968,6 +24968,17 @@ class CfgVehicles
 		maxSmokeDamage=0.99000001;
 		memoryPointsGetInDriver="pos pilot";
 		memoryPointsGetInDriverDir="pos pilot dir";
+		hiddenSelections[] =
+		{
+			"camo",
+			"camo_engines",
+			"camo_cockpit",
+			"camo_gear",
+			"camo_bay"
+		};
+
+		#include "nemesis_test_sounds.hpp"
+
 		class HitPoints
 		{
 			class HitHull
@@ -25161,6 +25172,10 @@ class CfgVehicles
 				passThrough=0.5;
 			};
 		};
+		precisegetinout = 1;
+		gearRetracting = true;
+		gearUpTime = 7;
+		gearDownTime = 7;
 	};
 	class B_UGV_01_rcws_F;
 	class XDF_Mars: B_UGV_01_rcws_F
