@@ -369,7 +369,7 @@ class cfgWeapons
 	class V_XDF_AAV_TL_Winter: V_XDF_AAV_TL
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Team Leader)";
+		displayName="XDF Marine Vest (Team Leader, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Team Leader variant. Winter camo.";
 		hiddenSelectionsTextures[]=
 		{
