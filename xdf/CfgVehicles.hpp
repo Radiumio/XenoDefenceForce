@@ -24948,7 +24948,7 @@ class CfgVehicles
 	{
 		author="Radium";
 		scope=2;
-		model="\xdf\vehicles\nemesis\ex25nemesis.p3d";
+		model="\xdf\vehicles\nemesis\xdf_nemesis.p3d";
 		_generalMacro="XDF_Nemesis";
 		displayName="XDF EX-25 Nemesis"
 		accuracy=0.1;

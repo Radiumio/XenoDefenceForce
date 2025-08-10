@@ -60,6 +60,7 @@ class CfgPatches
 			"XDF_Albatross_IT",
 			"XDF_Albatross_VT",
 			"XDF_Retributor",
+			"XDF_Nemesis",
 			"XDF_Mars",
 			"XDF_Mosquito",
 			"XDF_Sentinel",
