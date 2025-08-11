@@ -24961,11 +24961,17 @@ class CfgVehicles
 		damageEffect="AirDestructionEffects";
 		altFullForce=8000;
 		altNoForce=12000;
-		mainBladeRadius=0.1;
+		liftForceCoef = 1.1;	
+		bodyFrictionCoef = 2.5;	
+		cyclicAsideForceCoef = 2.0;
+		cyclicForwardForceCoef = 2.0;
+		backRotorForceCoef = 1.5;	
+		mainBladeRadius=3;
 		washDownStrength="1.0f";
 		washDownDiameter="40.0f";
 		minSmokeDamage=0.30000001;
 		maxSmokeDamage=0.99000001;
+		driverAction="Pilot_Plane_Fighter_01";
 		memoryPointsGetInDriver="pos pilot";
 		memoryPointsGetInDriverDir="pos pilot dir";
 		hiddenSelections[] =
@@ -24976,7 +24982,14 @@ class CfgVehicles
 			"camo_gear",
 			"camo_bay"
 		};
-
+		hiddenSelectionsTextures[] = 
+		{
+			"#(argb,8,8,3)color(0.2,0,0,1)",
+			"#(argb,8,8,3)color(0,0.2,0,1)",
+			"#(argb,8,8,3)color(0,0,0.2,1)",
+			"#(argb,8,8,3)color(0.2,0.2,0,1)",
+			"#(argb,8,8,3)color(0.2,0.2,0.2,1)"	
+		};
 		#include "nemesis_test_sounds.hpp"
 
 		class HitPoints

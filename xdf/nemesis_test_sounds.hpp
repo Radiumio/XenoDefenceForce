@@ -25,7 +25,7 @@
 		soundGetIn[]={"A3\Sounds_F\vehicles\air\Heli_Light_02\open",db-5,1};
 		soundGetOut[]={"A3\Sounds_F\vehicles\air\Heli_Light_02\close",db0,1, 50};
 		soundEngineOnInt[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_int_start_v2", db-8, 1.0};
-		soundEngineOnExt[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_ext_start_v2", db-2, 1.0, 600};
+		soundEngineOnExt[] = {"\xdf\sounds\vehicles\nemesis\nemesis_startup.ogg", db-2, 1.0, 600};
 		soundEngineOffInt[] =  {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_int_stop_v2", db-8, 1.0};
 		soundEngineOffExt[] =  {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_ext_stop_v2", db-2, 1.0, 600};
 		soundLocked[] = {"\A3\Sounds_F\weapons\Rockets\opfor_lock_1", db0, 1};
