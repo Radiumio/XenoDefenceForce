@@ -413,6 +413,19 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\ghillie2_baf_XDF_co.paa"
 		};
 	};
+	class Aegis_H_Helmet_Virtus_Scrim_Winter_XDF_F: Aegis_H_Helmet_Virtus_Scrim_wdl_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Scrim, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_Cover_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\ghillie2_baf_XDF_winter_co.paa"
+		};
+	};
 	class Aegis_H_Helmet_Virtus_Cover_wdl_F;
 	class Aegis_H_Helmet_Virtus_Cover_XDF_F: Aegis_H_Helmet_Virtus_Cover_wdl_F
 	{
@@ -424,6 +437,18 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_Cover_XDF_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_Virtus_Cover_Winter_XDF_F: Aegis_H_Helmet_Virtus_Cover_wdl_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Cover, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_Cover_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_Winter_CO.paa"
 		};
 	};
 	class Aegis_H_Helmet_Virtus_Headset_rgr_F;
@@ -438,6 +463,17 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
 		};
 	};
+	class Aegis_H_Helmet_Virtus_Headset_Winter_XDF_F: Aegis_H_Helmet_Virtus_Headset_rgr_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Headset, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_Winter_CO.paa"
+		};
+	};
 	class Aegis_H_Helmet_Virtus_rgr_F;
 	class Aegis_H_Helmet_Virtus_XDF_F: Aegis_H_Helmet_Virtus_rgr_F
 	{
@@ -449,6 +485,16 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_CO.paa"
 		};
 	};
+	class Aegis_H_Helmet_Virtus_Winter_XDF_F: Aegis_H_Helmet_Virtus_rgr_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Fortis Helmet (Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetVirtus_XDF_Winter_CO.paa"
+		};
+	};
 	class Aegis_H_Helmet_FASTMT_blk_F;
 	class Aegis_H_Helmet_FASTMT_XDF_F: Aegis_H_Helmet_FASTMT_blk_F
 	{
@@ -458,6 +504,16 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_FASTMT_Winter_XDF_F: Aegis_H_Helmet_FASTMT_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_Winter_CO.paa"
 		};
 	};
 	class Aegis_H_Helmet_FASTMT_Cover_blk_F;
@@ -473,6 +529,18 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
 		};
 	};
+	class Aegis_H_Helmet_FASTMT_Cover_Winter_XDF_F: Aegis_H_Helmet_FASTMT_Cover_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Cover, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_Cover_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_Winter_CO.paa"
+		};
+	};
 	class Aegis_H_Helmet_FASTMT_Headset_blk_F;
 	class Aegis_H_Helmet_FASTMT_Headset_XDF_F: Aegis_H_Helmet_FASTMT_Headset_blk_F
 	{
@@ -485,6 +553,17 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_CO.paa"
 		};
 	};
+	class Aegis_H_Helmet_FASTMT_Headset_Winter_XDF_F: Aegis_H_Helmet_FASTMT_Headset_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Headset, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_Winter_CO.paa"
+		};
+	};
 	class H_HelmetSpecter_black_F;
 	class H_HelmetSpecter_XDF_F: H_HelmetSpecter_black_F
 	{
@@ -494,6 +573,16 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_Winter_XDF_F: H_HelmetSpecter_black_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Specter Helmet (Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_Winter_CO.paa"
 		};
 	};
 	class H_HelmetSpecter_cover_grn_F;
@@ -508,6 +597,17 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_CO.paa"
 		};
 	};
+	class H_HelmetSpecter_cover_Winter_XDF_F: H_HelmetSpecter_cover_grn_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Specter Helmet (Cover, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_Winter_CO.paa"
+		};
+	};
 	class H_HelmetSpecter_black_headset_F;
 	class H_HelmetSpecter_XDF_headset_F: H_HelmetSpecter_black_headset_F
 	{
@@ -518,6 +618,17 @@ class CfgWeapons
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_Winter_XDF_headset_F: H_HelmetSpecter_black_headset_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Specter Helmet (Headset, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_01_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetSpecter_cover_XDF_Winter_CO.paa"
 		};
 	};
 
@@ -532,6 +643,28 @@ class CfgWeapons
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_CO.paa"
+		};
+	};
+	class Aegis_NVG_IVAS_01_White_XDF_F: Aegis_NVG_IVAS_01_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF IVAS (White)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_White_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_White_CO.paa"
+		};
+	};
+	class Aegis_NVG_IVAS_01_Winter_XDF_F: Aegis_NVG_IVAS_01_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF IVAS (Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_Winter_CO.paa",
+			"\xdf_aegis\retextures\xdf_uniform\headgear\IVAS_XDF_Winter_CO.paa"
 		};
 	};
 	class Aegis_NV_G_scrimNet_olive_F;
@@ -552,6 +685,19 @@ class CfgWeapons
 			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"};
 		};
 	};
+	class Aegis_NV_G_scrimNet_Winter_XDF_F: Aegis_NV_G_scrimNet_black_F
+	{
+		author = "Aegis Team & Radium";
+		displayName = "XDF Scrim Net (Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"};
+		};
+	};
 	class Aegis_NV_G_scrimNet_under_olive_F;
 	class Aegis_NV_G_scrimNet_under_black_F: Aegis_NV_G_scrimNet_under_olive_F
 	{
@@ -565,6 +711,16 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"};
+		};
+	};
+	class Aegis_NV_G_scrimNet_under_Winter_XDF_F: Aegis_NV_G_scrimNet_under_black_F
+	{
+		author = "Aegis Team & Radium";
+		displayName = "XDF Scrim Net (Under Helmet, Winter)";
+		hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"};
 		};
 	};
 };

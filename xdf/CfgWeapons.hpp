@@ -69,6 +69,23 @@ class cfgWeapons
 			uniformClass="B_XDF_Uniform_Black";
 		};
 	};
+	class U_XDF_Uniform_Black_Winter: U_SSU_Stealth_Uniform_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Standard Uniform (Winter)";
+		descriptionShort="The standard XDF uniform - insulated, thermal-resistant, and stylish. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Stealth_Uniform_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Uniform_Black_Winter";
+		};
+	};
 	class U_XDF_Uniform_Rolled_Black: U_SSU_Stealth_Uniform_Rolled_base
 	{
 		author="Clasless & Radium";
@@ -122,6 +139,25 @@ class cfgWeapons
 			uniformClass="B_XDF_Coveralls_Black";
 		};
 	};
+	class U_XDF_Coveralls_Black_Winter: U_SSU_Coveralls_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Crew Coveralls (Winter)";
+		descriptionShort="Standard-issue XDF crew coveralls designed for vehicular operations or engineering field work. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black_winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter_gloves.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Coveralls_Black_Winter";
+		};
+	};
 	class U_XDF_Research_Coveralls_Black: U_SSU_Coveralls_base
 	{
 		author="Radium";
@@ -157,6 +193,24 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="B_XDF_Uniform_Ghillie_Black";
+		};
+	};
+	class U_XDF_Uniform_Ghillie_Winter: U_SSU_Stealth_Uniform_Ghillie_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Standard Uniform (Ghillie, Winter)";
+		descriptionShort="Standard-issue XDF uniform covered in a winter operations ghillie."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Coveralls_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_ghillie_winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="B_XDF_Uniform_Ghillie_Winter";
 		};
 	};
 	class U_XDF_Uniform_Tee_Black: U_B_CTRG_Soldier_2_F
@@ -230,6 +284,29 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_CBRN_Suit_Winter: U_B_CBRN_Suit_01_MTP_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF CBRN Suit (Winter)";
+		descriptionShort="Experimental XDF CBRN suit for handling alien substances and other highly hazardous materials. Winter camo."
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_CBRN_Suit_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_CBRN_Suit_Winter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_XDF_CBRN_Research_Suit: U_B_CBRN_Suit_01_MTP_F
 	{
 		author="Radium";
@@ -277,6 +354,30 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_SP_Suit_Winter: U_O_V_Soldier_Viper_hex_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Special Purpose Suit (Winter)";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit_Winter.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_SP_Suit_Winter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_XDF_Wetsuit: U_B_Wetsuit
 	{
 		author="Radium";
@@ -293,6 +394,27 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Wetsuit";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Wetsuit_Winter: U_B_Wetsuit
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Wetsuit (Winter)";
+		descriptionShort="XDF wetsuit for maritime operations in winter regions."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Wetsuit_Winter";
 			containerClass="Supply80";
 			uniformType="Neopren";
 			mass=40;
@@ -319,6 +441,27 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Female_Wetsuit_Winter: TCGM_F_Wetsuit_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit (Winter)";
+		descriptionShort="XDF female wetsuit for maritime operations in winter regions."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit_Winter";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
 	class U_XDF_Female_Wetsuit_Short: TCGM_F_WetsuitShort_B
 	{
 		author="Radium";
@@ -335,6 +478,27 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Female_Wetsuit_Short";
+			containerClass="Supply80";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};
+	class U_XDF_Female_Wetsuit_Short_Winter: TCGM_F_WetsuitShort_B
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Wetsuit (Short, Winter)";
+		descriptionShort="XDF female wetsuit for maritime operations. The operator has chosen to shed 'extraneous' parts. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Wetsuit_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_Wetsuit_Short_Winter";
 			containerClass="Supply80";
 			uniformType="Neopren";
 			mass=40;
@@ -413,6 +577,30 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Female_SP_Suit_Winter: TCGM_F_Viper_GHex
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Special Purpose Suit (Winter)";
+		descriptionShort="Highly effective - and expensive - XDF suit for special operations.<br/>With the right supporting equipment, an operator wearing the SPS can operate in any environment - even in a vacuum. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_SP_Suit_Winter.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Female_SP_Suit_Winter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_XDF_Female_Uniform_Black: TCGM_CombatUniform_CTRG_Stealth_arid
 	{
 		author="TCGM & Radium";
@@ -429,6 +617,26 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="U_XDF_Female_Uniform_Black";
+			containerClass="Supply40";
+			mass=32;
+		};
+	};
+	class U_XDF_Female_Uniform_Black_Winter: TCGM_CombatUniform_CTRG_Stealth_arid
+	{
+		author="TCGM & Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Female Standard Uniform (Winter)";
+		descriptionShort="The standard XDF female uniform - insulated, thermal-resistant, and stylish. Winter camo."
+		picture="\SSU_Black_Uniforms\UI\Icon_SSU_Special_Purpose_Suit_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Uniform_Black_Winter.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="U_XDF_Female_Uniform_Black_Winter";
 			containerClass="Supply40";
 			mass=32;
 		};
@@ -488,6 +696,25 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Envirosuit_Black";
+			containerClass="Supply40";
+			mass=80;
+		};
+	};
+	class U_XDF_Envirosuit_Winter: U_O_CombatUniform_ocamo
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Envirosuit (Winter)";
+		descriptionShort="Specialised XDF suit designed for operation in environments with extreme cold or heat. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Envirosuit_winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Envirosuit_Winter";
 			containerClass="Supply40";
 			mass=80;
 		};
@@ -621,6 +848,27 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_XDF_Combat_Coveralls_Black_Winter: U_I_E_Uniform_01_coveralls_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Combat Coveralls (Winter)";
+		descriptionShort="XDF crew coveralls adapted for combat usage by applying distinct winter-based camo. Designed to be used with heavy weapon units."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Winter_Uniform_TT_01_coveralls_01_co.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\xdf_boots_black_winter.paa",
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Coveralls_Black_Winter_gloves.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Combat_Coveralls_Black_Winter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_B_CombatUniform_mcam;
 	class U_XDF_Basic_Uniform_Black: U_B_CombatUniform_mcam
 	{
@@ -677,6 +925,25 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Gorka_Black";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Gorka_Black_Winter: U_O_R_Gorka_01_camo_F
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Gorka-W";
+		descriptionShort="Specialised XDF uniform designed for use in alpine or other cold environments. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\U_XDF_Gorka_Black_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Gorka_Black_Winter";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -789,6 +1056,22 @@ class cfgWeapons
 			containerClass="Supply120";
 		};
 	};
+	class V_XDF_Tactical_Vest_Black_Winter: V_SSU_Tactical_Vest_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Tactical Vest (Winter)";
+		descriptionShort="Armor Level II<br/>It's a tactical vest - but in snazzy winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Tactical_Vest_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Tactical_Vest_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+		};
+	};
 	class V_XDF_Research_Vest_Black: V_SSU_Tactical_Vest_Black
 	{
 		author="Radium";
@@ -820,6 +1103,21 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Carrier_Lite_Winter: V_SSU_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Lite (Winter)";
+		descriptionShort="Armor Level III<br/>Standard-issue XDF plate carrier with no frills - winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_XDF_Carrier_Rig_Black: V_SSU_Carrier_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -830,6 +1128,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Carrier_Rig_Winter: V_SSU_Carrier_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF plate carrier with a hydration panel and additional ballistic inserts - winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -852,6 +1166,22 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Modular_Carrier_Lite_Black_Winter: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_XDF_Modular_Carrier_Lite_Black_Cybern: V_SSU_Modular_Carrier_Lite_Black
 	{
 		author="Clasless & Radium";
@@ -862,6 +1192,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Cybern.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Lite_Black_Winter_Cybern: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Cybern, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills. Winter camo.<br/>Personalised for Operative Cybern."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Cybern.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -879,6 +1225,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Vest_Black_Winter: V_CarrierRigKBT_01_Olive_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Vest (Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills - and no pouches. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -927,6 +1289,18 @@ class cfgWeapons
 			};
 		};
 	};
+	class V_XDF_Modular_Carrier_GL_Rig_Black_Winter: V_XDF_Modular_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier GL Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts and explosive-resistant padding. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+	};
 	class V_XDF_Modular_Carrier_GL_Rig_Black_Kao: V_SSU_Modular_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -969,6 +1343,18 @@ class cfgWeapons
 			};
 		};
 	};
+	class V_XDF_Modular_Carrier_GL_Rig_Black_Winter_Kao: V_XDF_Modular_Carrier_GL_Rig_Black_Kao
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier GL Rig (Kao, Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts and explosive-resistant padding. Winter camo.<br/>Personalised for Operative Kao."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Kao.paa"
+		};
+	};
 	class V_XDF_Carrier_GL_Rig_Black: V_SSU_Carrier_GL_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -979,6 +1365,54 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class V_XDF_Carrier_GL_Rig_Black_Rad: V_SSU_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier GL Rig (Radium)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier.<br/>Personalised for Operative Radium."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class V_XDF_Carrier_GL_Rig_Black_Winter: V_SSU_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier GL Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class V_XDF_Carrier_GL_Rig_Black_Rad_Winter: V_SSU_Carrier_GL_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier GL Rig (Radium, Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty explosive-resistant plate carrier. Winter camo.<br/>Personalised for Operative Radium."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_GL_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1001,6 +1435,22 @@ class cfgWeapons
 			containerClass="Supply250";
 		};
 	};
+	class V_XDF_Carrier_Special_Rig_Black_Winter: V_SSU_Carrier_Special_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Special Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty anti-xeno plate carrier. Heavy, but one of the few vests rated for combat against the xeno-threat.<br/>This vest will keep you alive. Also likely to survive munitions that the user would not. Winter camo."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
 	class V_XDF_Carrier_Special_Rig_Black_Rad: V_SSU_Carrier_Special_Rig_Black
 	{
 		author="Clasless & Radium";
@@ -1011,6 +1461,22 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_Carrier_Special_Rig_Black_Rad_Winter: V_SSU_Carrier_Special_Rig_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Carrier Special Rig (Radium, Winter)";
+		descriptionShort="Armor Level IV<br/>Heavy-duty anti-xeno plate carrier. Heavy, but one of the few vests rated for combat against the xeno-threat.<br/>This vest will keep you alive. Also likely to survive munitions that the user would not. Winter camo.<br/>Personalised for Operative Radium."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Carrier_Special_Rig_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_GL_Rig_Black_Rad_Winter.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1033,6 +1499,22 @@ class cfgWeapons
 			containerClass="Supply250";
 		};
 	};
+	class V_XDF_SmershVest_01_Winter_F: V_SmershVest_01_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest (Winter)";
+		descriptionShort="No Armor<br/>Sacrifice all semblance of armor for load-bearing capacity. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
 	class V_XDF_SmershVest_01_radio_F: V_SmershVest_01_radio_F
 	{
 		author="Radium";
@@ -1043,6 +1525,22 @@ class cfgWeapons
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_co.paa",
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_misc_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_SmershVest_01_radio_Winter_F: V_SmershVest_01_radio_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Light Recon Vest (Tactical Radio, Winter)";
+		descriptionShort="No Armor<br/>Sacrifice all semblance of armor for load-bearing capacity. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_SmershVest_Winter_misc_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1104,6 +1602,18 @@ class cfgWeapons
 			};
 		};
 	};
+	class V_XDF_Rebreather_Winter: V_XDF_Rebreather
+	{
+		author="Radium";
+		displayName="XDF Combat Rebreather (Winter)";
+		descriptionShort="Armor Level III<br/>A combat-rated rebreather for maritime operations. Offers similar protection to a plate carrier, with compartments and a modular belt for load-bearing. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+	};
 	class V_XDF_Rebreather_Mask: V_RebreatherB
 	{
 		author="Radium";
@@ -1163,6 +1673,19 @@ class cfgWeapons
 			};
 		};
 	};
+	class V_XDF_Rebreather_Winter_Mask: V_XDF_Rebreather_Mask
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Combat Rebreather (Mask, Winter)";
+		descriptionShort="Armor Level III<br/>A combat-rated rebreather for maritime operations. Offers similar protection to a plate carrier, with compartments and a modular belt for load-bearing. Winter camo.<br/>The mask is always deployed on this variant."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Rebreather_Winter_co.paa",
+            "\A3\characters_f\data\visors_ca.paa"
+		};
+	};
 	class V_Rangemaster_belt_XDF: V_Rangemaster_belt
 	{
 		author="Radium";
@@ -1182,6 +1705,18 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Black.paa"
+		};
+	};
+	class V_Rangemaster_belt_Winter_XDF: V_Rangemaster_belt_XDF
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Battle Belt (Winter)";
+		model="\A3\Characters_F\BLUFOR\equip_b_belt";
+		picture="\A3\Characters_F\data\ui\icon_V_Belt_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Carrier_Rig_Winter.paa"
 		};
 	};
 
@@ -1230,6 +1765,30 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Winter: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible, Winter)";
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible. Winter camo."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
 	class H_XDF_Stealth_Combat_Helmet_Black_Rad: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1254,6 +1813,30 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Rad_Winter: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible, Radium, Winter)";
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible - winter camo. Personalised for Operative Radium."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Rad_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
 	class H_XDF_Stealth_Combat_Helmet_Black_b: H_SSU_Stealth_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1264,6 +1847,30 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_b.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 12;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class H_XDF_Stealth_Combat_Helmet_Black_Winter_b: H_SSU_Stealth_Combat_Helmet_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Spec-Ops Helmet (Mandible - Beast, Winter)";
+		descriptionShort="Armor Level IV<br/>Special operations anti-xeno helmet with protective mandible, with additional fear-inducing detailing."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Stealth_Combat_Helmet_Black_b.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Stealth_Combat_Helmet_Black_Winter_b.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -1314,6 +1921,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Combat_Helmet_Black_Winter: H_XDF_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Winter)";
+		descriptionShort="Armor Level II<br/>Standard-issue XDF infantry combat helmet. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Enhanced_Combat_Helmet_Black: H_SSU_Enhanced_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1324,6 +1941,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Winter: H_XDF_Enhanced_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Enhanced, Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Enhanced_Combat_Helmet_Black_core: H_SSU_Enhanced_Combat_Helmet_base
@@ -1338,6 +1965,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_core.paa"
 		};
 	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_core: H_XDF_Enhanced_Combat_Helmet_Black_core
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite, Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Coremanite."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter_core.paa"
+		};
+	};
 	class H_XDF_Enhanced_Combat_Helmet_Black_Kao: H_SSU_Enhanced_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1348,6 +1985,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Kao.paa"
+		};
+	};
+	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_Kao: H_XDF_Enhanced_Combat_Helmet_Black_Kao
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Enhanced, Kao, Winter)";
+		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Kao."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter_Kao.paa"
 		};
 	};
 	class H_XDF_Camo_Combat_Helmet_Black: H_SSU_Camo_Combat_Helmet_base
@@ -1363,6 +2010,17 @@ class cfgWeapons
 			"\SSU_@Core\Data\Helmets\helmet_ghille_black.paa"
 		};
 	};
+	class H_XDF_Camo_Combat_Helmet_Black_Winter: H_XDF_Camo_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Infantry Combat Helmet (Camo, Winter)";
+		descriptionShort="Armor Level II<br/>Standard-issue XDF infantry combat helmet with winter camo netting."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa",
+			"\SSU_@Core\Data\Helmets\helmet_ghille_snow.paa"
+		};
+	};
 	class H_XDF_Light_Combat_Helmet_Black: H_SSU_Light_Combat_Helmet_base
 	{
 		author="Clasless & Radium";
@@ -1373,6 +2031,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Light_Combat_Helmet_Black_Winter: H_XDF_Light_Combat_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Light Infantry Helmet (Winter)";
+		descriptionShort="Armor Level I<br/>Lightweight XDF infantry helmet. Better than nothing - even though the protection offered is practically nothing. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Combat_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Light_Research_Helmet_Black: H_SSU_Light_Combat_Helmet_base
@@ -1399,6 +2067,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Winter: H_XDF_Advanced_Modular_Helmet_HS_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_HS_Black_Maple: H_SSU_Advanced_Modular_Helmet_HS_base
 	{
 		author="Clasless & Radium";
@@ -1409,6 +2087,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Maple.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Winter_Maple: H_XDF_Advanced_Modular_Helmet_HS_Black_Maple
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Maple, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet. Winter camo.<br/>Personalised for Operative Maple."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter_Maple.paa"
 		};
 	};
 	class H_XDF_Advanced_Modular_Helmet_Ear_Black: H_SSU_Advanced_Modular_Helmet_Ear_base
@@ -1423,6 +2111,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_Ear_Black_Winter: H_XDF_Advanced_Modular_Helmet_Ear_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Ear Protectors, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with ear protectors. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_Chops_Black: H_SSU_Advanced_Modular_Helmet_Chops_base
 	{
 		author="Clasless & Radium";
@@ -1433,6 +2131,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Winter: H_XDF_Advanced_Modular_Helmet_Chops_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Chops, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern: H_SSU_Advanced_Modular_Helmet_Chops_base
@@ -1447,6 +2155,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Winter_Cybern: H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Chops, Cybern, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops. Winter camo.<br/>Personalised for Operative Cybern."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter_Cybern.paa"
+		};
+	};
 	class H_SSU_Special_Purpose_Helmet_base;
 	class H_SSU_Special_Purpose_Helmet_Black: H_SSU_Special_Purpose_Helmet_base
 	{
@@ -1457,7 +2175,7 @@ class cfgWeapons
 		author="Clasless & Radium";
 		scope=2;
 		displayName="XDF SPH 'Xenohunter'";
-		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum, but often used with open air filters."
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Special_Purpose_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1474,6 +2192,16 @@ class cfgWeapons
 					passThrough = 0.5;
 				};
 			};
+		};
+	};
+	class H_XDF_Special_Purpose_Helmet_Black_Winter: H_XDF_Special_Purpose_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF SPH 'Xenohunter' (Winter)";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black_Winter.paa"
 		};
 	};
 	class H_XDF_Boonie_HS_Black: H_SSU_Boonie_HS_base
@@ -1606,6 +2334,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
 		};
 	};
+	class H_XDF_Helmet_Heli_Black_Winter: H_XDF_Helmet_Heli_Black
+	{
+		author="Radium";
+		displayName="XDF Helicopter Pilot Helmet (Winter)";
+		descriptionShort="Armor Level II<br/>Protective helmet for helicopter pilots. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_Winter_co.paa"
+		};
+	};
 	class H_XDF_Helmet_Heli_Crew_Black: H_CrewHelmetHeli_B
 	{
 		author="Radium";
@@ -1615,6 +2353,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_co.paa"
+		};
+	};
+	class H_XDF_Helmet_Heli_Crew_Black_Winter: H_XDF_Helmet_Heli_Crew_Black
+	{
+		author="Radium";
+		displayName="XDF Helicopter Crew Helmet (Winter)";
+		descriptionShort="Armor Level II<br/>Protective helmet for helicopter crews. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Heli_Black_Winter_co.paa"
 		};
 	};
 	class H_XDF_Helmet_Crew_Black: H_HelmetCrew_B
@@ -1628,6 +2376,16 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black.paa"
 		};
 	};
+	class H_XDF_Helmet_Crew_Black_Winter: H_XDF_Helmet_Crew_Black
+	{
+		author="Radium";
+		displayName="XDF Crew Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Protective helmet for vehicle crews. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Winter.paa"
+		};
+	};
 	class H_XDF_Helmet_Crew_Black_Shieldmaiden: H_HelmetCrew_B
 	{
 		author="Radium";
@@ -1637,6 +2395,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Shieldmaiden.paa"
+		};
+	};
+	class H_XDF_Helmet_Crew_Black_Winter_Shieldmaiden: H_XDF_Helmet_Crew_Black_Shieldmaiden
+	{
+		author="Radium";
+		displayName="XDF Crew Helmet (Shieldmaiden, Winter)";
+		descriptionShort="Armor Level III<br/>Protective helmet for vehicle crews.<br/>Personalised for Operative Shieldmaiden. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Helmet_Crew_Black_Winter_Shieldmaiden.paa"
 		};
 	};
 	class H_HelmetAggressor_F;
@@ -1649,6 +2417,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_co.paa"
+		};
+	};
+	class H_XDF_Aggressor_Winter: H_HelmetAggressor_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Winter_co.paa"
 		};
 	};
 	class H_HelmetAggressor_cover_F;
@@ -1672,6 +2451,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Temperate_co.paa"
+		};
+	};
+	class H_XDF_Aggressor_Winter_cover: H_HelmetAggressor_cover_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Aggressor Helmet (Winter Cover)";
+		descriptionShort="Armor Level III<br/>Specialised offensive XDF helmet for rapid response or raid teams, covered with protective nanowrap in a winter camo scheme."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Aggressor_Winter_co.paa"
 		};
 	};
 	class H_HelmetB;
@@ -1712,6 +2502,16 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_ASH_Assassin_Winter: H_XDF_ASH_Assassin
+	{
+		author="Radium";
+		displayName="XDF ASH Helmet (Single P.R.I.S.M, Winter)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has one P.R.I.S.M Heads-Up Display unit deployed, enabling advanced imaging. Winter camo.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_ASH_Defender: H_HelmetLeaderO_ocamo
 	{
 		author="Radium";
@@ -1737,6 +2537,16 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_ASH_Defender_Winter: H_XDF_ASH_Defender
+	{
+		author="Radium";
+		displayName="XDF ASH Helmet (Dual P.R.I.S.M, Winter)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has both P.R.I.S.M Heads-Up Display units deployed, enabling advanced imaging. Winter camo.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_Winter.paa"
+		};
+	};
 	class H_XDF_ASH_Protector: H_HelmetO_ocamo
 	{
 		author="Radium";
@@ -1759,6 +2569,16 @@ class cfgWeapons
 					passThrough = 0.5;
 				};
 			};
+		};
+	};
+	class H_XDF_ASH_Protector_Winter: H_XDF_ASH_Protector
+	{
+		author="Radium";
+		displayName="XDF ASH Helmet (Retracted P.R.I.S.M, Winter)";
+		descriptionShort = "Armor Level IV<br/>The ASH is an advanced, bleeding-edge XDF helmet using special composites for superior protection.<br/>This model has both P.R.I.S.M Heads-Up Display units retracted. Winter camo.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_ASH_Combat_Helmet_Black_Winter_PRISM_Off.paa"
 		};
 	};
 
