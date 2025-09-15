@@ -50,6 +50,48 @@ class CfgGlasses
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Winter.paa"
 		};
 	};
+	class G_XDF_Balaclava_TI_Winter_Alt: G_SSU_Balaclava_TI_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Stealth Balaclava (Winter Alt)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures. Winter camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Winter_Alt.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_Winter: G_SSU_Balaclava_TI_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Winter)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures. Winter nanowrap camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Winter.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_Winter_Alt: G_SSU_Balaclava_TI_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Winter Alt)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures. Winter nanowrap camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Winter_Alt.paa"
+		};
+	};
 	class G_XDF_Balaclava_TI_G_Black: G_SSU_Balaclava_TI_G_base
 	{
 		author="Clasless & Radium";
@@ -92,6 +134,51 @@ class CfgGlasses
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Winter.paa",
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_winter.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_G_Winter_Alt: G_SSU_Balaclava_TI_G_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Stealth Balaclava (Winter Alt, Goggles)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures.<br/>Includes SIC goggles and a winter camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Winter_Alt.paa",
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_winter.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_G_Winter: G_SSU_Balaclava_TI_G_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Winter, Goggles)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures.<br/>Includes SIC goggles and a winter nanowrap camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Winter.paa",
+			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_winter.paa"
+		};
+	};
+	class G_XDF_Balaclava_TI_Nanowrap_G_Winter_Alt: G_SSU_Balaclava_TI_G_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		displayName="XDF Nanowrap Balaclava (Winter Alt, Goggles)";
+		descriptionShort = "XDF thermal-resistant balaclava designed to obscure an operator's identity or shield them from environmental temperatures.<br/>Includes SIC goggles and a winter nanowrap camo scheme.";
+		picture="\SSU_Black_Facegear\UI\Icon_SSU_Balaclava_TI_G_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\facegear\G_XDF_Balaclava_TI_Nanowrap_Winter_Alt.paa",
 			"\xdf\retextures\xdf_uniform\facegear\xdf_combat_goggles_winter.paa"
 		};
 	};
