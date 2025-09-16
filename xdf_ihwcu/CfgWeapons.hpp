@@ -18,6 +18,19 @@ class CfgWeapons
 			mass = 40;
 		};
 	};
+	class U_XDF_Winter_Weather_Fatigues: JAM_U_B_ECWCS_ldf_F
+	{
+		author="OokamiJamie & Radium";
+		scope=2;
+		displayName = "XDF Multi-Weather Fatigues (Winter)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "B_XDF_Winter_Weather_Fatigues";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
 	class JAM_U_B_IHWCU_combat_ldf_F;
 	class U_XDF_Light_Combat_Fatigues: JAM_U_B_IHWCU_combat_ldf_F
 	{

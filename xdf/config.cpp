@@ -61,7 +61,7 @@ class RscInGameUI
     				font="LCD14";
     				text="- - - -";
 					x="39 * 		(0.01875 * SafezoneH)";
-					y="18.95 * 		(0.025 * SafezoneH)";
+					y="19.35 * 		(0.025 * SafezoneH)";
 					w="5.6 * 		(0.01875 * SafezoneH)";
 					h="2 * 		(0.025 * SafezoneH)";
     			};
@@ -75,7 +75,7 @@ class RscInGameUI
     				font="LCD14";
     				text="VIS";
 					x="11.5 * 		(0.01875 * SafezoneH)";
-					y="18.95 * 		(0.025 * SafezoneH)";
+					y="19.35 * 		(0.025 * SafezoneH)";
 					w="5 * 		(0.01875 * SafezoneH)";
 					h="2 * 		(0.025 * SafezoneH)";
     			};
@@ -89,7 +89,7 @@ class RscInGameUI
     				font="LCD14";
     				text="5.5";
 					x="39 * 		(0.01875 * SafezoneH)";
-					y="20.25 * 		(0.025 * SafezoneH)";
+					y="20.65 * 		(0.025 * SafezoneH)"; // +1,3 to be below distance HUD element
 					w="4 * 		(0.01875 * SafezoneH)";
 					h="1.5 * 		(0.025 * SafezoneH)";
     			};

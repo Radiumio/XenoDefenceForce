@@ -125,7 +125,7 @@ class CfgAmmo
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
-		fuseDistance=100;
+		fuseDistance=70;
 		class CamShakeExplode
 		{
 			power=5;
@@ -171,7 +171,7 @@ class CfgAmmo
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
 		explosive=1;
-		fuseDistance=100;
+		fuseDistance=70;
 		class CamShakeExplode
 		{
 			power=5;
@@ -285,7 +285,7 @@ class CfgAmmo
 		hit=1500;
 		indirectHit=500;
 		indirectHitRange=2;
-		typicalSpeed=2600;
+		typicalSpeed=2100;
 		caliber=35;
 		deflecting=15;
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
@@ -296,10 +296,94 @@ class CfgAmmo
 		hit=1250;
 		indirectHit=450;
 		indirectHitRange=2;
-		typicalSpeed=2800;
+		typicalSpeed=2100;
 		caliber=35;
 		deflecting=15;
 		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+	};
+	class Sh_120mm_HEAT_MP_T_Red;
+	class Sh_120mm_HEAT_AX_T_Blue: Sh_120mm_HEAT_MP_T_Red
+	{
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+		hit = 145; // default 95+50
+		indirectHit = 80; // default 30+50
+		typicalSpeed=1680; // default 1400
+		indirectHitRange = 4; // total kill radius 16m 
+	};
+	class M_125mm_cannon_ATGM;
+	class M_125mm_cannon_ATGM_AX: M_125mm_cannon_ATGM
+	{
+		hit = 950;
+		submunitionAmmo = "ammo_Penetrator_Vorona_XDF";
+		manuevrability=28;
+		maxSpeed=250;
+		thrust=150;
+		effectsMissile="XDF_Missile3";
+		indirectHit = 20;
+		timeToLive = 20;
+		thrustTime = 5;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			7,
+			1,
+			1200
+		};
+	};
+	class M_120mm_cannon_ATGM;
+	class M_120mm_cannon_ATGM_AX: M_120mm_cannon_ATGM
+	{
+		hit = 950;
+		submunitionAmmo = "ammo_Penetrator_Vorona_XDF";
+		manuevrability=28;
+		maxSpeed=250;
+		thrust=150;
+		effectsMissile="XDF_Missile3";
+		indirectHit = 20;
+		timeToLive = 20;
+		thrustTime = 5;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			7,
+			1,
+			1200
+		};
+	};
+	class Sh_120mm_HE_Tracer_Red;
+	class Sh_120mm_Thermobaric_AX: Sh_120mm_HE_Tracer_Red
+	{
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+		hit=3500;
+		indirectHit=800;
+		indirectHitRange=15;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="XDF_ThermobaricHit";
+		explosive=1;
+		fuseDistance=70;
+		typicalSpeed=1680; // default 1400
+		class CamShakeExplode
+		{
+			power=5;
+			duration=7;
+			frequency=50;
+			distance=2200;
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1200
+		};
+		soundEngine[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1200
+		};
+		SoundSetExplosion[] = {"FAE_Exp_SoundSet", "FAE_Tail_SoundSet", "Explosion_Debris_SoundSet"};
 	};
 	class Sh_75mm_Railgun_APFSDS;
 	class Sh_75mm_Railgun_APFSDS_AX: Sh_75mm_Railgun_APFSDS
