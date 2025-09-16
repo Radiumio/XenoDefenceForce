@@ -25,7 +25,7 @@
 		soundGetIn[]={"A3\Sounds_F\vehicles\air\Heli_Light_02\open",db-5,1};
 		soundGetOut[]={"A3\Sounds_F\vehicles\air\Heli_Light_02\close",db0,1, 50};
 		soundEngineOnInt[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_int_start_v2", db-8, 1.0};
-		soundEngineOnExt[] = {"\xdf\sounds\vehicles\nemesis\nemesis_startup.ogg", db-2, 1.0, 600};
+		soundEngineOnExt[] = {"\xdf\sounds\vehicles\nemesis\nemesis_startup.ogg", db10, 1.0, 600};
 		soundEngineOffInt[] =  {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_int_stop_v2", db-8, 1.0};
 		soundEngineOffExt[] =  {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_ext_stop_v2", db-2, 1.0, 600};
 		soundLocked[] = {"\A3\Sounds_F\weapons\Rockets\opfor_lock_1", db0, 1};
@@ -69,20 +69,20 @@
 			// BASIC EXTERNAL SAMPLES
 			class EngineExt
 			{
-				sound[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_ext_engine_v2", db5, 1.0, 700};
+				sound[] = {"\xdf\sounds\vehicles\nemesis\nemesis_ext_engine.ogg", db10, 1.0, 1500};
 				frequency = "rotorSpeed";
 				volume = "camPos*((rotorSpeed-0.72)*4)";
 			};
 			class RotorExt
 			{
-				sound[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\Heli_Light_02_ext_rotor_normal", db3, 1.0, 1500};
+				sound[] = {"\xdf\sounds\vehicles\nemesis\nemesis_ext_rotor.ogg", db8, 1.0, 4500};
 				frequency = "rotorSpeed * (1-rotorThrust/5)";
 				volume = "camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
 				cone[] = {1.6,3.14, 1.6, 0.95};
 			};
 			class RotorNoiseExt
 			{
-				sound[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\rotor_swist", db0, 1, 400};
+				sound[] = {"A3\Sounds_F\vehicles\air\Heli_Light_02\rotor_swist", db0, 1, 0};
 				frequency = 1;
 				volume = "(camPos*(rotorThrust factor [0.6, 1]))";
 				cone[] = {0.7, 1.3, 1.0, 0}; //directional sound cone - a=angle direction of the sound b=angle fade (border of the external fade) x=volume in the inner cone  y=volume on the other hand, the direction of sound
