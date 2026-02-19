@@ -5340,7 +5340,7 @@ class cfgWeapons
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
-			reloadTime=0.033333302;
+			reloadTime=0.039999999;
 			dispersion=0.0015;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;
@@ -5460,7 +5460,7 @@ class cfgWeapons
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
-			reloadTime=0.033333302;
+			reloadTime=0.039999999;
 			dispersion=0.0115;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;
@@ -5553,6 +5553,36 @@ class cfgWeapons
 				directionName="machinegun2_beg";
 				effectName="MachineGun1";
 			};
+		};
+	};
+	class Nemesis_AX_Minigun: LMG_Minigun_AX_HE
+	{
+		displayName="RAPTOR Rotary 20mm Minigun";
+		magazines[]=
+		{
+			"1000Rnd_20mm_GPR_shells",
+		};
+	};
+	class autocannon_40mm_CTWS;
+	class Nemesis_AX_Autocannon: autocannon_40mm_CTWS
+	{
+		displayName="CHIMERA 40mm Autocannon";
+		burst=3;
+		reloadTime=0.2;
+		class player: Mode_FullAuto
+		{
+			soundContinuous=0;
+			reloadTime=0.2;
+			burst=3;
+			dispersion=0.00089999998;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=10;
+			minRange=0;
+			minRangeProbab=0.0099999998;
+			midRange=1;
+			midRangeProbab=0.0099999998;
+			maxRange=2;
+			maxRangeProbab=0.0099999998;
 		};
 	};
 	class weapon_AMRAAMLauncher;
