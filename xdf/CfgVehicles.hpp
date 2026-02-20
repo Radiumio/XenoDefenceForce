@@ -29426,7 +29426,7 @@ class CfgVehicles
 				memoryPointsGetInGunnerDir="pos gunner dir";
 				memoryPointGun="minigun_FlashAxis";
 				memoryPointGunnerOptics="gimbalCamera_eye";
-				selectionFireAnim="minigun_Flash";
+				selectionFireAnim="autocannon_Flash";
 				stabilizedInAxes = 3;
 				castGunnerShadow=1;
 				viewGunnerShadow=1;
@@ -29461,22 +29461,22 @@ class CfgVehicles
 					"1000Rnd_20mm_GPR_shells",
 					"1000Rnd_20mm_GPR_shells",
 					"1000Rnd_20mm_GPR_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"60Rnd_40mm_GPR_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells",
-					"40Rnd_40mm_APFSDS_Tracer_Red_shells"
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"60Rnd_40mm_GPR_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells",
+					"40Rnd_40mm_APFSDS_AX_shells"
 				};
 				class HitPoints
 				{
@@ -29509,36 +29509,16 @@ class CfgVehicles
 				animPeriod = 1;		/// how long does it take to change value from 0 to 1 (or vice versa)
 				initPhase = 0;		/// what value does it have while creating the vehicle
 			};
-			class Nemesis_Minigun
+			class muzzle_hide
 			{
-				source = "revolving";			/// returns bullets left in magazine of said weapon
+				source = "reload";
 				weapon = "Nemesis_AX_Minigun";	/// this is the said weapon
 			};
-			class Nemesis_Minigun_Flash
+			class muzzle_rot
 			{
 				source = "ammorandom";			/// this source returns some random value changine each time ammo is spent from this weapon - used for muzzle flashes
 				weapon = "Nemesis_AX_Minigun";	/// this is the said weapon
 			};	
-			class Nemesis_Minigun_Hide
-			{
-				source = "reload";			/// this source returns some random value changine each time ammo is spent from this weapon - used for muzzle flashes
-				weapon = "Nemesis_AX_Minigun";	/// this is the said weapon
-			};	
-			class Nemesis_Autocannon
-			{
-				source = "revolving";			/// returns bullets left in magazine of said weapon
-				weapon = "Nemesis_AX_Autocannon";	/// this is the said weapon
-			};
-			class Nemesis_Autocannon_Flash
-			{
-				source = "ammorandom";			/// this source returns some random value changine each time ammo is spent from this weapon - used for muzzle flashes
-				weapon = "Nemesis_AX_Autocannon";	/// this is the said weapon
-			};		
-			class Nemesis_Autocannon_Hide
-			{
-				source = "reload";			/// this source returns some random value changine each time ammo is spent from this weapon - used for muzzle flashes
-				weapon = "Nemesis_AX_Autocannon";	/// this is the said weapon
-			};					
 		};	
 		
 		class UserActions /// actions available for player to interact with vehicle via action menu running scripts

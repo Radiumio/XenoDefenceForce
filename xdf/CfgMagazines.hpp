@@ -210,6 +210,31 @@ class CfgMagazines
 		tracersEvery=1;
 		muzzleImpulseFactor[]={1,6};
 	};
+	class 40Rnd_40mm_APFSDS_shells;
+	class 40Rnd_40mm_APFSDS_AX_shells: 40Rnd_40mm_APFSDS_shells
+	{
+		author="Radium";
+		displayName="40mm AX-AP Shells";
+		displayNameShort="APFSDS-AX";
+		ammo="B_40mm_APFSDS_AX";
+		initSpeed=1600;
+		count=40;
+		muzzleImpulseFactor[]={0.5,2};
+	};
+	class 60Rnd_40mm_GPR_AX_shells: VehicleMagazine
+	{
+		author="Radium";
+		scope=2;
+		displayName="40mm AX-HE Shells";
+		displayNameShort="AX-HE";
+		ammo="B_40mm_GPR_AX";
+		count=60;
+		initSpeed=1035;
+		maxLeadSpeed=83.333298;
+		nameSound="cannon";
+		tracersEvery=1;
+		muzzleImpulseFactor[]={1,6};
+	};
 	class 60Rnd_75mm_RailGun_APFSDS_mag;
 	class 45Rnd_75mm_RailGun_APFSDS_AX_mag: 60Rnd_75mm_RailGun_APFSDS_mag
 	{

@@ -5563,12 +5563,33 @@ class cfgWeapons
 			"1000Rnd_20mm_GPR_shells",
 		};
 	};
-	class autocannon_40mm_CTWS;
-	class Nemesis_AX_Autocannon: autocannon_40mm_CTWS
+	class autocannon_Base_F;
+	class Nemesis_AX_Autocannon: autocannon_Base_F
 	{
 		displayName="CHIMERA 40mm Autocannon";
 		burst=3;
 		reloadTime=0.2;
+		muzzles[]=
+		{
+			"HE",
+			"AP"
+		};
+		class HE: autocannon_Base_F
+		{
+			displayName="CHIMERA 40mm Autocannon [HE]";
+			magazines[]=
+			{
+				"60Rnd_40mm_GPR_AX_shells"
+			};
+		};
+		class AP: autocannon_Base_F
+		{
+			displayName="CHIMERA 40mm Autocannon [AP]";
+			magazines[]=
+			{
+				"40Rnd_40mm_APFSDS_AX_shells"
+			};
+		};
 		class player: Mode_FullAuto
 		{
 			soundContinuous=0;

@@ -407,6 +407,19 @@ class CfgAmmo
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_40mm_APFSDS;
+	class B_40mm_APFSDS_AX: B_40mm_APFSDS
+	{
+		hit=200;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_40mm_GPR;
+	class B_40mm_GPR_AX: B_40mm_GPR
+	{
+		hit=80;
+		indirectHit=16;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 	class ammo_Missile_AMRAAM_D;
 	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
 	{
