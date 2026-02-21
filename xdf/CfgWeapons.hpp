@@ -5567,7 +5567,7 @@ class cfgWeapons
 	class Nemesis_AX_Autocannon: autocannon_Base_F
 	{
 		displayName="CHIMERA 40mm Autocannon";
-		reloadTime=0.15;
+		reloadTime=0.1;
 		muzzles[]=
 		{
 			"HE",
@@ -5592,8 +5592,9 @@ class cfgWeapons
 		class player: Mode_FullAuto
 		{
 			soundContinuous=0;
-			reloadTime=0.15;
+			reloadTime=0.1;
 			burst=3;
+			autoFire=1;
 			dispersion=0.00089999998;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;

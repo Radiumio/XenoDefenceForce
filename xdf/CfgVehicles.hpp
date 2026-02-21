@@ -29509,6 +29509,16 @@ class CfgVehicles
 				animPeriod = 5;		/// how long does it take to change value from 0 to 1 (or vice versa)
 				initPhase = 0;		/// what value does it have while creating the vehicle
 			};
+			class minigun_FlashSource
+			{
+				source = "ammorandom";
+				weapon = "Nemesis_AX_Minigun";
+			};
+			class autocannon_FlashSource
+			{
+				source = "ammorandom";
+				weapon = "Nemesis_AX_Autocannon";
+			};
 			class muzzle_hide
 			{
 				source = "reload";
@@ -29518,7 +29528,7 @@ class CfgVehicles
 			{
 				source = "ammorandom";			/// this source returns some random value changine each time ammo is spent from this weapon - used for muzzle flashes
 				weapon = "Nemesis_AX_Autocannon";	/// this is the said weapon
-			};	
+			};
 		};	
 		
 		class UserActions /// actions available for player to interact with vehicle via action menu running scripts
