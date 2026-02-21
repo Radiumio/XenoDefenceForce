@@ -5567,8 +5567,7 @@ class cfgWeapons
 	class Nemesis_AX_Autocannon: autocannon_Base_F
 	{
 		displayName="CHIMERA 40mm Autocannon";
-		burst=3;
-		reloadTime=0.2;
+		reloadTime=0.15;
 		muzzles[]=
 		{
 			"HE",
@@ -5593,7 +5592,7 @@ class cfgWeapons
 		class player: Mode_FullAuto
 		{
 			soundContinuous=0;
-			reloadTime=0.2;
+			reloadTime=0.15;
 			burst=3;
 			dispersion=0.00089999998;
 			aiRateOfFire=1;
@@ -5604,6 +5603,70 @@ class cfgWeapons
 			midRangeProbab=0.0099999998;
 			maxRange=2;
 			maxRangeProbab=0.0099999998;
+		};
+		class close: player
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=3;
+			burstRangeMax=0;
+			aiRateOfFire=1;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=200;
+			minRange=0;
+			minRangeProbab=0.1;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=800;
+			maxRangeProbab=0.80000001;
+		};
+		class short: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=3;
+			burstRangeMax=0;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=600;
+			minRange=600;
+			minRangeProbab=0.75;
+			midRange=800;
+			midRangeProbab=0.80000001;
+			maxRange=1200;
+			maxRangeProbab=0.80000001;
+		};
+		class medium: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=3;
+			burstRangeMax=0;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=3;
+			aiRateOfFireDistance=1000;
+			minRange=1000;
+			minRangeProbab=0.80000001;
+			midRange=1500;
+			midRangeProbab=0.80000001;
+			maxRange=2000;
+			maxRangeProbab=0.69999999;
+		};
+		class far: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=3;
+			burstRangeMax=0;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=4;
+			aiRateOfFireDistance=1800;
+			minRange=1800;
+			minRangeProbab=0.74000001;
+			midRange=2400;
+			midRangeProbab=0.64999998;
+			maxRange=3000;
+			maxRangeProbab=0.050000001;
 		};
 	};
 	class weapon_AMRAAMLauncher;

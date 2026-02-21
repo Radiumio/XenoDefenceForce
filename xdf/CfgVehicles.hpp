@@ -25154,11 +25154,11 @@ class CfgVehicles
 					class Wide
 					{
 						initAngleX=0;
-						minAngleX=-360;
-						maxAngleX=360;
+						minAngleX=-30;
+						maxAngleX=30;
 						initAngleY=0;
-						minAngleY=-90;
-						maxAngleY=9;
+						minAngleY=-100;
+						maxAngleY=100;
 						initFov=0.46599999;
 						minFov=0.46599999;
 						maxFov=0.46599999;
@@ -25198,10 +25198,10 @@ class CfgVehicles
 						maxFov=1.25;
 						initAngleX=0;
 						initAngleY=0;
-						minAngleX=-360;
-						maxAngleX=360;
-						minAngleY=-0;
-						maxAngleY=-90;
+						minAngleX=-65;
+						maxAngleX=85;
+						minAngleY=-150;
+						maxAngleY=150;
 						minMoveX=-0.2;
 						maxMoveX=0.2;
 						minMoveY=-0.1;
@@ -29506,18 +29506,18 @@ class CfgVehicles
 			class Doors				/// the class name is later used in model.cfg
 			{
 				source = door;		/// door source means it is used by animateDoor script command
-				animPeriod = 1;		/// how long does it take to change value from 0 to 1 (or vice versa)
+				animPeriod = 5;		/// how long does it take to change value from 0 to 1 (or vice versa)
 				initPhase = 0;		/// what value does it have while creating the vehicle
 			};
 			class muzzle_hide
 			{
 				source = "reload";
-				weapon = "Nemesis_AX_Minigun";	/// this is the said weapon
+				weapon = "Nemesis_AX_Autocannon";	/// this is the said weapon
 			};
 			class muzzle_rot
 			{
 				source = "ammorandom";			/// this source returns some random value changine each time ammo is spent from this weapon - used for muzzle flashes
-				weapon = "Nemesis_AX_Minigun";	/// this is the said weapon
+				weapon = "Nemesis_AX_Autocannon";	/// this is the said weapon
 			};	
 		};	
 		
@@ -29526,7 +29526,7 @@ class CfgVehicles
 			class Door_Open
 			{
 				userActionID 		= 60;				/// ID for some scripts
-				displayName 		= "Open door";		/// what is displayed in action menu
+				displayName 		= "Open Cargo Ramp";		/// what is displayed in action menu
 				displayNameDefault 	= "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />"; /// what is displayed under the cursor (icon in this case)
 				position 			= "";				/// start of radius where action is available
 				condition 			= "this doorPhase ""Doors"" < 0.5 AND Alive(this) AND (player in crew this)"; /// only openable from inside and when closed
@@ -29541,8 +29541,8 @@ class CfgVehicles
 			class Door_Close: Door_Open
 			{
 				userActionID 		= 61;
-				displayName 		= "Close door";
-				textToolTip 		= "Close door";
+				displayName 		= "Close Cargo Ramp";
+				textToolTip 		= "Close Cargo Ramp";
 				condition	 		= "this doorPhase ""Doors"" > 0.5 AND Alive(this) AND (player in crew this)";
 				statement 			= "this animateDoor ['Doors', 0]";
 			};
