@@ -24994,6 +24994,7 @@ class CfgVehicles
 		driverAction="Pilot_Plane_Fighter_01";
 		memoryPointsGetInDriver="pos pilot";
 		memoryPointsGetInDriverDir="pos pilot dir";
+		extCameraPosition[] = { 0, 6, -50 };
 		hiddenSelections[] =
 		{
 			"camo",
