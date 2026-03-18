@@ -769,6 +769,33 @@ class CfgAmmo
 			distance = 1;
 		};
 	};
+	class B_10mm_railshot_heap: B_10mm_railshot
+	{
+		hit=45;
+		indirectHit=5;
+		indirectHitRange=2;
+		warheadName="HEAT";
+		explosive=0.2;
+	};
+	class B_6mm_railshot: B_10mm_railshot
+	{
+		hit=12;
+	};
+	class B_10mm_railshot_lg: B_10mm_railshot
+	{
+		hit=60;
+		indirectHit=6;
+		indirectHitRange=2;
+		warheadName="HE";
+		explosive=0.8;
+		laserLock=1;
+		autoSeekTarget=1;
+		maneuvrability=6;
+		manualControl=1;
+		missileLockCone=40;
+		missileKeepLockedCone=40;
+		timeToLive=20;
+	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
 	{

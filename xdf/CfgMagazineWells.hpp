@@ -177,7 +177,9 @@ class CfgMagazineWells
 	{
 		XDF_Magazines[]=
 		{
-			"50Rnd_10mm_APDSRG_Mag_blue_tracer"
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_HEAPRG_Mag_blue_tracer",
+			"85Rnd_6mm_APDSRG_Mag_blue_tracer"
 		};
 	};
 	class Cyrus_93_XDF

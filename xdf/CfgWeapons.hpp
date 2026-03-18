@@ -4719,7 +4719,7 @@ class cfgWeapons
 		fireLightIntensity = 0.5;
 		fireLightDiffuse[] = {0, 0.2, 1};
 		fireLightAmbient[] = {0, 0, 0};
-		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
+		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_HEAPRG_Mag_blue_tracer","85Rnd_6mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_LG_APDSRG_Mag_blue_tracer"};
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
@@ -5340,7 +5340,7 @@ class cfgWeapons
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
-			reloadTime=0.033333302;
+			reloadTime=0.039999999;
 			dispersion=0.0015;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;
@@ -5460,7 +5460,7 @@ class cfgWeapons
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
-			reloadTime=0.033333302;
+			reloadTime=0.039999999;
 			dispersion=0.0115;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;

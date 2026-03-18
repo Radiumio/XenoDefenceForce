@@ -978,7 +978,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="SABOT 50Rnd Railgun Magazine (APDS-AX)";
+		displayName="10mm 50Rnd Railgun Magazine (APDS-AX)";
 		displaynameshort="10mm AX-RG";
 		descriptionShort="Caliber: 10mm SABOT AX Slug<br/>Rounds: 50<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag.paa";
@@ -986,6 +986,45 @@ class CfgMagazines
 		count=50;
 		tracersEvery=1;
 		mass=68;
+	};
+	class 25Rnd_10mm_HEAPRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="10mm 50Rnd Railgun Magazine (HEAP-AX)";
+		displaynameshort="10mm HE-AP";
+		descriptionShort="Caliber: 10mm SABOT HE-AP<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag_heap.paa";
+		ammo="B_10mm_railshot_heap";
+		count=25;
+		tracersEvery=1;
+		mass=48;
+	};
+	class 85Rnd_6mm_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="6mm 85Rnd Railgun Magazine (6MM)";
+		displaynameshort="6mm AX-RG";
+		descriptionShort="Caliber: 6mm SABOT AX Slug<br/>Rounds: 85<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag_6mm.paa";
+		ammo="B_6mm_railshot";
+		count=85;
+		tracersEvery=1;
+		mass=56;
+	};
+	class 25Rnd_10mm_LG_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="10mm 25Rnd Railgun Magazine (LG HE-AX)";
+		displaynameshort="10mm LG HE-RG";
+		descriptionShort="Caliber: 10mm SABOT AX Laser-Guided Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag_lg.paa";
+		ammo="B_10mm_railshot_lg";
+		count=25;
+		tracersEvery=1;
+		mass=56;
 	};
 
 	class 10Rnd_93x64_DMR_05_Mag;
