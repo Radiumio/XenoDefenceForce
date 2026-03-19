@@ -518,6 +518,358 @@ class CfgVehicles
 			1
 		};
 	};
+	
+	class EF_O_Gyra_OPF_T;
+	class XDF_Serval: EF_O_Gyra_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_HMG_OPF_T;
+	class XDF_Serval_HMG: EF_O_Gyra_HMG_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_HMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_Armed_OPF_T;
+	class XDF_Serval_IFV: EF_O_Gyra_Armed_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (IFV)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_IFV.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_Mortar_OPF_T;
+	class XDF_Serval_Mortar: EF_O_Gyra_Mortar_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (Mortar)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_Mortar.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_Antiair_OPF_T;
+	class XDF_Serval_AA: EF_O_Gyra_Antiair_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (AA)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_AA.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+
 	class EF_B_CombatBoat_Unarmed_MJTF_Des;
 	class XDF_Achelois_Unarmed: EF_B_CombatBoat_Unarmed_MJTF_Des
 	{
