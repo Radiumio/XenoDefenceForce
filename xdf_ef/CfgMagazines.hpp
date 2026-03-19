@@ -76,4 +76,24 @@ class CfgMagazines
 		pylonWeapon = "EF_weapon_SidearmAXLauncher";
 		mass = 125;
 	};
+	class EF_Diplomat_25Rnd_9x19_Mag;
+	class XDF_Diplomat_25Rnd_blue_tracer_9x19_Mag: EF_Diplomat_25Rnd_9x19_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 25Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=1;
+	};
+	class XDF_Diplomat_25Rnd_blue_reload_tracer_9x19_Mag: EF_Diplomat_25Rnd_9x19_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 25Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };
