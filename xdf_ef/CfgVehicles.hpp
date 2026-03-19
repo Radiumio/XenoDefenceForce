@@ -366,6 +366,96 @@ class CfgVehicles
 			};
 		};
 	};
+
+	class EF_QAV80_Stealth_MJTF_Des;
+	class XDF_Eagle_Stealth: EF_QAV80_Stealth_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Eagle (Stealth)";
+		editorPreview="\xdf\previews\vehicles\XDF_Eagle_Stealth.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 130; // Default 50
+		fuelCapacity = 2000; // Default 1000
+		damageResistance = 0.02; // Default 0.004
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\harpy\qav80_CO.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_QAV80_MJTF_Des;
+	class XDF_Eagle: EF_QAV80_MJTF_Des
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Eagle";
+		editorPreview="\xdf\previews\vehicles\XDF_Eagle.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 130; // Default 50
+		fuelCapacity = 2000; // Default 1000
+		damageResistance = 0.02; // Default 0.004
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\harpy\qav80_CO.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+
 	class EF_B_AAV9_MJTF_Des;
 	class XDF_AAV9_Barracuda: EF_B_AAV9_MJTF_Des
 	{
