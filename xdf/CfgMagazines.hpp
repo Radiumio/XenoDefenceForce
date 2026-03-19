@@ -991,7 +991,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="10mm 50Rnd Railgun Magazine (HEAP-AX)";
+		displayName="10mm 25Rnd Railgun Magazine (HEAP-AX)";
 		displaynameshort="10mm HE-AP";
 		descriptionShort="Caliber: 10mm SABOT HE-AP<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag_heap.paa";

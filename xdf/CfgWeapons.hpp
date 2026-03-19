@@ -4723,6 +4723,7 @@ class cfgWeapons
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
+		canLock=1;
 		class GunParticles
 		{
 			class FirstEffect

@@ -773,9 +773,12 @@ class CfgAmmo
 	{
 		hit=45;
 		indirectHit=5;
-		indirectHitRange=2;
+		indirectHitRange=1;
 		warheadName="HEAT";
 		explosive=0.2;
+		explosionSoundEffect="DefaultExplosion";
+		CraterEffects="ExploAmmoCrater";
+		explosionEffects="ExploAmmoExplosion";
 	};
 	class B_6mm_railshot: B_10mm_railshot
 	{
@@ -788,13 +791,12 @@ class CfgAmmo
 		indirectHitRange=2;
 		warheadName="HE";
 		explosive=0.8;
-		laserLock=1;
-		autoSeekTarget=1;
-		maneuvrability=6;
-		manualControl=1;
-		missileLockCone=40;
-		missileKeepLockedCone=40;
-		timeToLive=20;
+		//// guided ////
+		/// code here //
+		////////////////
+		explosionSoundEffect="DefaultExplosion";
+		CraterEffects="ExploAmmoCrater";
+		explosionEffects="ExploAmmoExplosion";
 	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
