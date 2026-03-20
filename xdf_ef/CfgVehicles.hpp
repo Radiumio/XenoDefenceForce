@@ -648,7 +648,7 @@ class CfgVehicles
 			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -665,7 +665,47 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -742,6 +782,46 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -806,6 +886,46 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -882,6 +1002,46 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -946,6 +1106,46 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
