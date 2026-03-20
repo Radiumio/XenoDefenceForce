@@ -407,6 +407,16 @@ class CfgAmmo
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_25mm;
+	class B_25mm_AX: B_25mm
+	{
+		hit=120;
+		indirectHit=6;
+		indirectHitRange=1;
+		warheadName="HEAT";
+		nvgOnly=0;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 	class ammo_Missile_AMRAAM_D;
 	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
 	{
@@ -415,6 +425,22 @@ class CfgAmmo
 		thrust=350;
 		effectsMissile="XDF_Missile3";
 		manuevrability=36;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			7,
+			1,
+			1200
+		};
+	};
+	class Missile_AA_03_F;
+	class Missile_AA_03_XDF_F: Missile_AA_03_F
+	{
+		hit=2200;
+		maxSpeed=1520;
+		thrust=280;
+		effectsMissile="XDF_Missile3";
+		manuevrability=32;
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",

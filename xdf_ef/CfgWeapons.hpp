@@ -940,4 +940,34 @@ class cfgWeapons
 			2.5
 		};
 	};
+	class EF_gatling_25mm_QAV80;
+	class EF_gatling_25mm_QAV80_XDF: EF_gatling_25mm_QAV80
+	{
+		displayname = "GAU-12 Stinger 25mm";
+		magazines[] +=
+		{
+			"EF_600Rnd_25mm_shells_QAV80_XDF"
+		};
+	};
+	class Missile_AA_04_Plane_CAS_01_F;
+	class Missile_AA_04_Plane_CAS_XDF_01_F: Missile_AA_04_Plane_CAS_01_F
+	{
+		displayName = "AXIM-39 Reaper";
+		magazines[] +=
+		{
+			"PylonRack_1Rnd_Missile_AA_XDF_04_F"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+	};
 };

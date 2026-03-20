@@ -367,8 +367,8 @@ class CfgVehicles
 		};
 	};
 
-	class EF_QAV80_Stealth_MJTF_Des;
-	class XDF_Eagle_Stealth: EF_QAV80_Stealth_MJTF_Des
+	class EF_QAV80_Stealth_Base;
+	class XDF_Eagle_Stealth: EF_QAV80_Stealth_Base
 	{
 		author="Radium";
 		scope = 2;
@@ -387,7 +387,20 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf_ef\retextures\harpy\qav80_CO.paa"
+			"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+		};
+		weapons[] = 
+		{
+			"EF_gatling_25mm_QAV80_XDF",
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera"
+		};
+		magazines[] = 
+		{
+			"EF_600Rnd_25mm_shells_QAV80_XDF",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"Laserbatteries"
 		};
 		class TextureSources
 		{
@@ -401,7 +414,59 @@ class CfgVehicles
 				};
 				textures[]=
 				{
-					"\xdf_ef\retextures\harpy\qav80_CO.paa"
+					"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_HONEY_CO.paa"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_TEMPR_CO.paa"
+				};
+			};
+			class XDF_Dazzle
+			{
+				displayName="Xeno Defence Force - Dazzle";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_DAZZLE_CO.paa"
+				};
+			};
+			class XDF_Splotch
+			{
+				displayName="Xeno Defence Force - Red Splotch";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_SPLOTCH_CO.paa"
 				};
 			};
 		};
@@ -411,8 +476,8 @@ class CfgVehicles
 			1
 		};
 	};
-	class EF_QAV80_MJTF_Des;
-	class XDF_Eagle: EF_QAV80_MJTF_Des
+	class EF_QAV80_Base;
+	class XDF_Eagle: EF_QAV80_Base
 	{
 		author="Radium";
 		scope = 2;
@@ -431,7 +496,20 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf_ef\retextures\harpy\qav80_CO.paa"
+			"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+		};
+		weapons[] = 
+		{
+			"EF_gatling_25mm_QAV80_XDF",
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera"
+		};
+		magazines[] = 
+		{
+			"EF_600Rnd_25mm_shells_QAV80_XDF",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"Laserbatteries"
 		};
 		class TextureSources
 		{
@@ -445,7 +523,59 @@ class CfgVehicles
 				};
 				textures[]=
 				{
-					"\xdf_ef\retextures\harpy\qav80_CO.paa"
+					"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_HONEY_CO.paa"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_TEMPR_CO.paa"
+				};
+			};
+			class XDF_Dazzle
+			{
+				displayName="Xeno Defence Force - Dazzle";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_DAZZLE_CO.paa"
+				};
+			};
+			class XDF_Splotch
+			{
+				displayName="Xeno Defence Force - Red Splotch";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_SPLOTCH_CO.paa"
 				};
 			};
 		};
@@ -758,7 +888,7 @@ class CfgVehicles
 			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -775,7 +905,7 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -868,7 +998,7 @@ class CfgVehicles
 			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -885,7 +1015,7 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -978,7 +1108,7 @@ class CfgVehicles
 			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -995,7 +1125,7 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -1088,7 +1218,7 @@ class CfgVehicles
 			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-			"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 		};
 		class TextureSources
 		{
@@ -1105,7 +1235,7 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
-					"\xdf_ef\retextures\gyra\camonet_nato_black_co.paa"
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
