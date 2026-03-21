@@ -1,6 +1,7 @@
 
 class mode_semiauto;
 class mode_burst;
+class burst;
 class mode_fullauto;
 class WeaponSlotsInfo;
 class CowsSlot_Rail;
@@ -4723,7 +4724,20 @@ class cfgWeapons
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
-		canLock=1;
+		canLock=2;
+		weaponLockDelay=0.1;
+		//lockingTargetSound[]=
+		//{
+		//	"\xdf\sounds\lock\xdf_locking.ogg",
+		//	1,
+		//	1
+		//};
+		//lockedTargetSound[]=
+		//{
+		//	"\xdf\sounds\lock\xdf_locked.ogg",
+		//	1,
+		//	2.5
+		//};
 		class GunParticles
 		{
 			class FirstEffect
@@ -4782,18 +4796,18 @@ class cfgWeapons
 			1,
 			10
 		};
-		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		modes[] = {"Single", "FullAuto", "TopDown", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
 		class Single: Mode_SemiAuto
 		{
 			reloadTime = 0.12;
 			recoil = "recoil_single_mx";
 			recoilProne = "recoil_single_prone_mx";
 			dispersion = 0.00015;
-			minRange = 2;
+			minRange = 0;
 			minRangeProbab = 0.5;
-			midRange = 200;
+			midRange = 500;
 			midRangeProbab = 0.7;
-			maxRange = 400;
+			maxRange = 1000;
 			maxRangeProbab = 0.3;
 			sounds[] = {"StandardSound"};
 			class BaseSoundModeType
@@ -4814,9 +4828,9 @@ class cfgWeapons
 			recoilProne = "recoil_auto_prone_mx";
 			minRange = 0;
 			minRangeProbab = 0.9;
-			midRange = 15;
+			midRange = 250;
 			midRangeProbab = 0.7;
-			maxRange = 30;
+			maxRange = 500;
 			maxRangeProbab = 0.1;
 			aiRateOfFire = 1e-06;
 			sounds[] = {"StandardSound"};
@@ -4829,6 +4843,19 @@ class cfgWeapons
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
+		};
+		class TopDown: Single
+		{
+			textureType="topDown";
+			displayName="Top-down Attack";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=150;
+			minRangeProbab=0.80000001;
+			midRange=500;
+			midRangeProbab=0.94999999;
+			maxRange=2000;
+			maxRangeProbab=0.94999999;
 		};
 		class single_medium_optics1: Single
 		{

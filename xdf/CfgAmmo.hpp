@@ -805,24 +805,193 @@ class CfgAmmo
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";
+		class CamShakeExplode
+		{
+			power=4;
+			duration=0.8;
+			frequency=20;
+			distance=40;
+		};
 	};
 	class B_6mm_railshot: B_10mm_railshot
 	{
 		hit=12;
 	};
+	class B_10mm_railshot;
 	class B_10mm_railshot_lg: B_10mm_railshot
 	{
+		//hit=60;
+		//indirectHit=6;
+		//indirectHitRange=2;
+		//warheadName="HE";
+		//explosive=0.8;
+		hit=0;
+		indirectHit=0;
+		indirectHitRange=0;
+		timeToLive=0.1;
+		triggerOnImpact=0;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		submunitionAmmo="ammo_Railshot_LG_Sub";
+		submunitionDirectionType="SubmunitionModelDirection";
+		submunitionInitSpeed=200;
+		submunitionParentSpeedCoef=0;
+		triggerTime=0.0001;
+		triggerDistance=0.0001;
+		autoSeekTarget=1;
+		lockSeekRadius=1000;
+		cmImmunity=1;
+		irLock=1;
+		airLock=1;
+		laserLock=1;
+		nvLock=1;
+		deleteParentWhenTriggered=1;
+		//soundFly[]=
+		//{
+		//	"A3\Sounds_F\weapons\Rockets\rocket_fly_2",
+		//	0.56234133,
+		//	1.1,
+		//	700
+		//};
+		class CamShakeFire
+		{
+			power = 0.3;
+			duration = 2.5;
+			frequency = 20;
+			distance = 10;
+		};
+		class CamShakePlayerFire
+		{
+			power = 0.8;
+			duration = 5;
+			frequency = 20;
+			distance = 1;
+		};
+	};
+	class MissileBase;
+	class ammo_Railshot_LG_Sub: MissileBase
+	{
+		simulation="shotMissile";
 		hit=60;
 		indirectHit=6;
 		indirectHitRange=2;
 		warheadName="HE";
 		explosive=0.8;
-		//// guided ////
-		/// code here //
-		////////////////
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		effectsMissile="XDF_GuidedSlug_Trail";
+
+		weaponLockSystem="1+2+4+8+16";
+		cmImmunity=1;
+		irLock=1;
+		airLock=1;
+		laserLock=1;
+		nvLock=1;
+
+		manualControl=0;
+		maxControlRange=1000;
+
+		autoSeekTarget=1;
+		lockSeekRadius=1000;
+		initTime=0.05;
+		trackOversteer=0.2;
+		trackLead=0.85;
+		timeToLive=22;
+		maneuvrability=10;
+		simulationStep=0.002;
+		airFriction=0.065;
+		sideAirFriction=0.3;
+		maxSpeed=180;
+		typicalSpeed=160;
+		thrustTime=14;
+		thrust=30;
+		fuseDistance=10;
+		
+		missileManualControlCone	= 90;
+		missileLockCone				= 140;
+		missileKeepLockedCone		= 180;
+		missileLockMaxDistance		= 1000;
+		missileLockMinDistance		= 60;
+		missileLockMaxSpeed			= 200;
+
+		flightProfiles[] =
+		{
+			Direct,
+			TopDown,
+			LOALDistance
+		};
+		class Direct {
+
+			missileManualControlCone	= 30;
+			missileLockCone				= 24;
+			missileKeepLockedCone		= 110;
+			missileLockMaxDistance		= 4000;
+			missileLockMinDistance		= 60;
+			missileLockMaxSpeed			= 735;
+		};
+		class TopDown
+		{
+			ascendHeight	= 150.0;
+			descendDistance	= 200.0;
+			minDistance		= 150.0;
+			ascendAngle		= 70.0;
+		};
+		class LOALDistance
+		{
+			lockSeekDistanceFromParent = 300;
+		};
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class NVSensorComponent : SensorTemplateNV
+					{
+						SENS_RANGES_WVR(1000,1000)
+						maxTrackableSpeed = 530;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent : SensorTemplateLaser
+					{
+						SENS_RANGES_BVR(1000,1000)
+						maxTrackableSpeed = 530;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(1000,1000)
+						maxTrackableSpeed = 515;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(1000,1000)
+						maxTrackableSpeed = 515;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						SENS_RANGES_WVR(1000,1000)
+						maxTrackableSpeed = 515;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+				};
+			};
+		};
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";
+		class CamShakeExplode
+		{
+			power=4;
+			duration=0.8;
+			frequency=20;
+			distance=40;
+		};
 	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball

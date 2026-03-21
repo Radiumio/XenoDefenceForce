@@ -1,3 +1,46 @@
+///////////////////////////////////////////////////////////////////////////
+/// Sensor defines
+///	* https://confluence.bistudio.com/display/ARMA3/Targeting+-+Sensors
+///	* https://confluence.bistudio.com/display/ARMA3/Targeting+-+Assets
+///////////////////////////////////////////////////////////////////////////
+/// Thanks to ouqei and reyhard on the A3 discord for sharing this!
+//---Sensor Range Defines---//
+
+#define SENS_RANGES_BVR(RANGEA,RANGEG)        \
+class AirTarget                               \
+{                                             \
+	minRange = RANGEA;                        \
+	maxRange = RANGEA;                        \
+	objectDistanceLimitCoef = -1;             \
+	viewDistanceLimitCoef = -1;               \
+};                                            \
+											  \
+class GroundTarget                            \
+{                                             \
+	minRange = RANGEG;                        \
+	maxRange = RANGEG;                        \
+	objectDistanceLimitCoef = -1;             \
+	viewDistanceLimitCoef = -1;               \
+};											  \
+
+
+#define SENS_RANGES_WVR(RANGEA,RANGEG)        \
+class AirTarget                               \
+{                                             \
+	minRange = 500;                            \
+	maxRange = RANGEA;                        \
+	objectDistanceLimitCoef = -1;             \
+	viewDistanceLimitCoef = 1;                \
+};                                            \
+											  \
+class GroundTarget                            \
+{                                             \
+	minRange = 500;                            \
+	maxRange = RANGEG;                        \
+	objectDistanceLimitCoef = 1;              \
+	viewDistanceLimitCoef = 1;                \
+};                                            \
+
 class asdg_OpticRail;
 class asdg_OpticRail1913: asdg_OpticRail {
     class compatibleItems {

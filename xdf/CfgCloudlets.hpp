@@ -851,6 +851,58 @@ class CfgCloudlets
 		moveVelocity[] = {0, 0, "-0.6*directionZ"};
 		position[] = {"positionX","positionY","positionZ"};
 	};
+	class XDF_GuidedSlug_TrailEffect: Default
+	{
+		interval = 0.0002;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 15;
+		particleFSFrameCount = 8;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 0.3;
+		moveVelocity[] = {0,0,0};
+		rotationVelocity = 1;
+		weight = 1;
+		volume = 0.8;
+		rubbing = 0.2;
+		size[] = {0.1};
+		color[] =
+		{
+				{0.5,0.5,0.8,-1},
+				{0.5,0.5,0.8,-1},
+				{0.5,0.5,0.8,-1},
+				{0.5,0.5,0.8,-1}
+		};
+		emissive[] = 
+		{
+			0,0.4,1,1
+		};
+		animationSpeed[] = {2};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 0.1;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.01;
+		positionVar[] = {0.3,0.3,0.3};
+		moveVelocityVar[] = {0.4,0.4,0.4};
+		rotationVelocityVar = 20;
+		sizeVar = 0.15;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+	
 };
 
 class CfgLights
@@ -962,6 +1014,27 @@ class CfgLights
 			hardlimitEnd = 50;
 		};
 		brightness = 0.666667;
+	};
+
+	class XDF_GuidedSlug_LightEffect
+	{
+		color[] = {0,0.4,1};
+		ambient[] = {0,0.4,1};
+		intensity = 500;
+		useflare = 1;
+		flaresize = 0.5;
+		flaremaxdist = 1500;
+		daylight = 1;
+		class Attenuation
+		{
+			start = 0.2;
+			constant = 0.2;
+			linear = 0;
+			quadratic = 20;
+			hardlimitStart = 2;
+			hardlimitEnd = 1500;
+		};
+		brightness = 0.166667;
 	};
 };
 
@@ -1156,6 +1229,29 @@ class XDF_Mantis_Muzzle_Sparks
 		lifeTime=0.2;
 		qualityLevel=2;
 	};
+};
+
+class XDF_GuidedSlug_Trail
+{
+	class SlugTrail1
+	{
+		simulation="particles";
+		type="XDF_GuidedSlug_TrailEffect";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=0.3;
+		qualityLevel=2;
+	};
+	class LightEffect1
+	{
+		simulation="light";
+		type="XDF_GuidedSlug_LightEffect";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1;
+	}
 };
 
 class XDF_Mantis_Shroud_Heat_Down
