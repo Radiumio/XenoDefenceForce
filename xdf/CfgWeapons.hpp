@@ -4724,20 +4724,6 @@ class cfgWeapons
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
-		canLock=2;
-		weaponLockDelay=0.1;
-		//lockingTargetSound[]=
-		//{
-		//	"\xdf\sounds\lock\xdf_locking.ogg",
-		//	1,
-		//	1
-		//};
-		//lockedTargetSound[]=
-		//{
-		//	"\xdf\sounds\lock\xdf_locked.ogg",
-		//	1,
-		//	2.5
-		//};
 		class GunParticles
 		{
 			class FirstEffect
@@ -4796,7 +4782,7 @@ class cfgWeapons
 			1,
 			10
 		};
-		modes[] = {"Single", "FullAuto", "TopDown", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		modes[] = {"Single", "FullAuto", "LOALDistance"};
 		class Single: Mode_SemiAuto
 		{
 			reloadTime = 0.12;
@@ -4844,10 +4830,10 @@ class cfgWeapons
 			soundContinuous = 0;
 			soundBurst = 0;
 		};
-		class TopDown: Single
+		class LOALDistance: Single
 		{
-			textureType="topDown";
-			displayName="Top-down Attack";
+			textureType="LOAL";
+			displayName="LOAL";
 			aiRateOfFire=7;
 			aiRateOfFireDistance=1500;
 			minRange=150;
@@ -4857,32 +4843,32 @@ class cfgWeapons
 			maxRange=2000;
 			maxRangeProbab=0.94999999;
 		};
-		class single_medium_optics1: Single
-		{
-			requiredOpticType = 1;
-			showToPlayer = 0;
-			minRange = 2;
-			minRangeProbab = 0.2;
-			midRange = 450;
-			midRangeProbab = 0.7;
-			maxRange = 600;
-			maxRangeProbab = 0.2;
-			aiRateOfFire = 6;
-			aiRateOfFireDistance = 600;
-		};
-		class single_far_optics2: single_medium_optics1
-		{
-			requiredOpticType = 2;
-			showToPlayer = 0;
-			minRange = 100;
-			minRangeProbab = 0.1;
-			midRange = 500;
-			midRangeProbab = 0.6;
-			maxRange = 700;
-			maxRangeProbab = 0.05;
-			aiRateOfFire = 8;
-			aiRateOfFireDistance = 700;
-		};
+		//class single_medium_optics1: Single
+		//{
+		//	requiredOpticType = 1;
+		//	showToPlayer = 0;
+		//	minRange = 2;
+		//	minRangeProbab = 0.2;
+		//	midRange = 450;
+		//	midRangeProbab = 0.7;
+		//	maxRange = 600;
+		//	maxRangeProbab = 0.2;
+		//	aiRateOfFire = 6;
+		//	aiRateOfFireDistance = 600;
+		//};
+		//class single_far_optics2: single_medium_optics1
+		//{
+		//	requiredOpticType = 2;
+		//	showToPlayer = 0;
+		//	minRange = 100;
+		//	minRangeProbab = 0.1;
+		//	midRange = 500;
+		//	midRangeProbab = 0.6;
+		//	maxRange = 700;
+		//	maxRangeProbab = 0.05;
+		//	aiRateOfFire = 8;
+		//	aiRateOfFireDistance = 700;
+		//};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 353;

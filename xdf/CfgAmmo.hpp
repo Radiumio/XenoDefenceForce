@@ -820,11 +820,6 @@ class CfgAmmo
 	class B_10mm_railshot;
 	class B_10mm_railshot_lg: B_10mm_railshot
 	{
-		//hit=60;
-		//indirectHit=6;
-		//indirectHitRange=2;
-		//warheadName="HE";
-		//explosive=0.8;
 		hit=0;
 		indirectHit=0;
 		indirectHitRange=0;
@@ -845,13 +840,6 @@ class CfgAmmo
 		laserLock=1;
 		nvLock=1;
 		deleteParentWhenTriggered=1;
-		//soundFly[]=
-		//{
-		//	"A3\Sounds_F\weapons\Rockets\rocket_fly_2",
-		//	0.56234133,
-		//	1.1,
-		//	700
-		//};
 		class CamShakeFire
 		{
 			power = 0.3;
@@ -870,11 +858,9 @@ class CfgAmmo
 	class MissileBase;
 	class ammo_Railshot_LG_Sub: MissileBase
 	{
-		simulation="shotMissile";
 		hit=60;
 		indirectHit=6;
 		indirectHitRange=2;
-		warheadName="HE";
 		explosive=0.8;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		effectsMissile="XDF_GuidedSlug_Trail";
@@ -886,7 +872,7 @@ class CfgAmmo
 		laserLock=1;
 		nvLock=1;
 
-		manualControl=0;
+		manualControl=1;
 		maxControlRange=1000;
 
 		autoSeekTarget=1;
@@ -909,34 +895,26 @@ class CfgAmmo
 		missileLockCone				= 140;
 		missileKeepLockedCone		= 180;
 		missileLockMaxDistance		= 1000;
-		missileLockMinDistance		= 60;
+		missileLockMinDistance		= 10;
 		missileLockMaxSpeed			= 200;
+
+		lockSeekDistanceFromParent = 10;
+
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			150
+		};
 
 		flightProfiles[] =
 		{
-			Direct,
-			TopDown,
 			LOALDistance
-		};
-		class Direct {
-
-			missileManualControlCone	= 30;
-			missileLockCone				= 24;
-			missileKeepLockedCone		= 110;
-			missileLockMaxDistance		= 4000;
-			missileLockMinDistance		= 60;
-			missileLockMaxSpeed			= 735;
-		};
-		class TopDown
-		{
-			ascendHeight	= 150.0;
-			descendDistance	= 200.0;
-			minDistance		= 150.0;
-			ascendAngle		= 70.0;
 		};
 		class LOALDistance
 		{
-			lockSeekDistanceFromParent = 300;
+			lockSeekDistanceFromParent = 10;
 		};
 		class Components
 		{
