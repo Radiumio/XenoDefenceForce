@@ -1026,6 +1026,16 @@ class CfgMagazines
 		tracersEvery=1;
 		mass=72;
 	};
+	class Object_02_Cluster_Autoseek_Mag: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="Cluster Autoseek";
+		displaynameshort="AX Tracer";
+		ammo="Object_02_Cluster_Autoseek_Ammo_F";
+		tracersEvery=1;
+		count=100;
+	};
 
 	class 10Rnd_93x64_DMR_05_Mag;
 	class 10Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag
