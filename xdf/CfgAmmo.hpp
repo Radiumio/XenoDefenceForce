@@ -840,6 +840,16 @@ class CfgAmmo
 		laserLock=1;
 		nvLock=1;
 		deleteParentWhenTriggered=1;
+		
+		flightProfiles[] =
+		{
+			"LoalDistance"
+		};
+		class LoalDistance
+		{
+			lockSeekDistanceFromParent = 10;
+		};
+
 		class CamShakeFire
 		{
 			power = 0.3;
@@ -855,7 +865,11 @@ class CfgAmmo
 			distance = 1;
 		};
 	};
-	class MissileBase;
+	class MissileCore;
+	class MissileBase : MissileCore
+	{
+		class Components;
+	};
 	class ammo_Railshot_LG_Sub: MissileBase
 	{
 		hit=60;
@@ -865,31 +879,31 @@ class CfgAmmo
 		model="xdf\weapons\tracer_blue\tracer_blue";
 		effectsMissile="XDF_GuidedSlug_Trail";
 
-		weaponLockSystem="1+2+4+8+16";
+		weaponLockSystem=16;
 		cmImmunity=1;
 		irLock=1;
 		airLock=1;
 		laserLock=1;
 		nvLock=1;
 
-		manualControl=1;
+		manualControl=0;
 		maxControlRange=1000;
 
 		autoSeekTarget=1;
-		lockSeekRadius=1000;
-		initTime=0.05;
+		lockSeekRadius=0;
+		initTime=0;
 		trackOversteer=0.2;
 		trackLead=0.85;
 		timeToLive=22;
 		maneuvrability=10;
 		simulationStep=0.002;
 		airFriction=0.065;
-		sideAirFriction=0.3;
+		sideAirFriction=0.03;
 		maxSpeed=180;
 		typicalSpeed=160;
 		thrustTime=14;
 		thrust=30;
-		fuseDistance=10;
+		fuseDistance=0;
 		
 		missileManualControlCone	= 90;
 		missileLockCone				= 140;
@@ -910,13 +924,14 @@ class CfgAmmo
 
 		flightProfiles[] =
 		{
-			LOALDistance
+			"LoalDistance"
 		};
-		class LOALDistance
+		class LoalDistance
 		{
 			lockSeekDistanceFromParent = 10;
 		};
-		class Components
+
+		class Components: Components
 		{
 			class SensorsManagerComponent
 			{
@@ -925,35 +940,49 @@ class CfgAmmo
 					class NVSensorComponent : SensorTemplateNV
 					{
 						SENS_RANGES_WVR(1000,1000)
-						maxTrackableSpeed = 530;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class LaserSensorComponent : SensorTemplateLaser
 					{
 						SENS_RANGES_BVR(1000,1000)
-						maxTrackableSpeed = 530;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class ManSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(1000,1000)
-						maxTrackableSpeed = 515;
+						class AirTarget
+						{
+							minRange=500;
+							maxRange=1000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=500;
+							maxRange=1000;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						//SENS_RANGES_WVR(1000,1000)
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class IRSensorComponent : SensorTemplateMan
 					{
 						SENS_RANGES_WVR(1000,1000)
-						maxTrackableSpeed = 515;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class VisualSensorComponent : SensorTemplateVisual
 					{
 						SENS_RANGES_WVR(1000,1000)
-						maxTrackableSpeed = 515;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};

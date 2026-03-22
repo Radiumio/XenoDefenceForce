@@ -4724,6 +4724,11 @@ class cfgWeapons
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
+
+		canLock=2;
+		weaponLockSystem = 12;
+		lockAcquire = 1;
+
 		class GunParticles
 		{
 			class FirstEffect
@@ -4830,7 +4835,7 @@ class cfgWeapons
 			soundContinuous = 0;
 			soundBurst = 0;
 		};
-		class LOALDistance: Single
+		class LoalDistance: Single
 		{
 			textureType="LOAL";
 			displayName="LOAL";

@@ -169,5 +169,5 @@ class RscInGameUI
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"
-#include "CfgAmmo.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgAmmo.hpp"
