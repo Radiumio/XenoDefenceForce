@@ -831,15 +831,29 @@ class CfgAmmo
 		indirectHitRange=0;
 		timeToLive=5;
 		triggerOnImpact=0;
-		//model="xdf\weapons\tracer_blue\tracer_blue";
-		submunitionAmmo="ammo_Railshot_LG_Sub";
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		submunitionAmmo="ammo_Railshot_LG_Sub1";
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			80
+		};
+
+		airFriction = -0.01;
 
 		autoSeekTarget 					= 1;
-		triggerTime 					= 0.01;
-		triggerSpeedCoef[] 				= {1};
+		triggerTime 					= 0.001;
+		triggerDistance 				= 200;
+		triggerSpeedCoef[] 				= {0.001};
+		submunitionParentSpeedCoef = 0;
+		submunitionInitSpeed = 120;
 		submunitionConeAngle 			= 1;
 		submunitionConeType[] 			= {"randomcenter",1}; // amount of units
 
+		manualControl = 1;
+		maxControlRange = 2000;
 		// once it's locked you are fucked up
 		cmImmunity				= 1;
 		irLock 					= 1;
@@ -847,10 +861,10 @@ class CfgAmmo
 		laserLock				= 1;
 		nvLock					= 1;
 
-		missileLockCone			= 24;
+		missileLockCone			= 140;
 		missileKeepLockedCone	= 180;
 		missileLockMaxDistance 	= 4000;
-		missileLockMinDistance	= 60;
+		missileLockMinDistance	= 1;
 		missileLockMaxSpeed		= 35;
 
 		class Components
@@ -906,13 +920,20 @@ class CfgAmmo
 		indirectHit=6;
 		indirectHitRange=0.5;
 		explosive=0.5;
-		model="xdf\weapons\tracer_blue\tracer_blue";
+		//model="xdf\weapons\tracer_blue\tracer_blue";
 		effectsMissile="XDF_GuidedSlug_Trail";
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			80
+		};
 
-		submunitionAmmo="ammo_Railshot_LG_Sub1";
+		//submunitionAmmo="ammo_Railshot_LG_Sub1";
 		triggerDistance 				= 2;
 		submunitionConeAngle 			= 55;
-		triggerSpeedCoef[] 				= {0.01,0.55};
+		triggerSpeedCoef[] 				= {0.01};
 
 		weaponLockSystem		= "1+2+4+8+16";
 		// once it's locked you are fucked up
@@ -931,15 +952,15 @@ class CfgAmmo
 		lockSeekRadius	= 500;
 
 		initTime			= 0.25;
-		trackOversteer		= 0.1;
-		trackLead			= 0.85;
+		trackOversteer		= 0.05;
+		trackLead			= 0.9;
 		timeToLive			= 30;
-		maneuvrability		= 12.8;	// Smaller velocity needs less maneuverability to succeed.
-		simulationStep		= 0.002;
+		maneuvrability		= 4;	// Smaller velocity needs less maneuverability to succeed.
+		simulationStep		= 0.02;
 		airFriction			= 0.65;
 		sideAirFriction		= 0.3;
-		maxSpeed			= 180;
-		typicalSpeed		= 160;
+		maxSpeed			= 80;
+		typicalSpeed		= 60;
 		thrustTime			= 16;
 		thrust				= 6;
 		fuseDistance		= 200;
@@ -950,7 +971,7 @@ class CfgAmmo
 		missileKeepLockedCone		= 180;
 		missileLockMaxDistance		= 4000;
 		missileLockMinDistance		= 10;
-		missileLockMaxSpeed			= 180;
+		missileLockMaxSpeed			= 80;
 
 		cost 				= 10;
 		aiAmmoUsageFlags	= AIAmmoUsageOffensiveInf + AIAmmoUsageOffensiveVeh + AIAmmoUsageOffensiveAir + AIAmmoUsageOffensiveArmour;
@@ -969,7 +990,7 @@ class CfgAmmo
 			missileKeepLockedCone		= 180;
 			missileLockMaxDistance		= 4000;
 			missileLockMinDistance		= 60;
-			missileLockMaxSpeed			= 180;
+			missileLockMaxSpeed			= 80;
 		};
 		class TopDown
 		{
@@ -1043,10 +1064,19 @@ class CfgAmmo
 		indirectHit=6;
 		indirectHitRange=0.5;
 		explosive=0.5;
+		//model="xdf\weapons\tracer_blue\tracer_blue";
+		model = "\A3\weapons_f\ammo\UGL_slug";
 		lockSeekRadius				= 700;
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			80
+		};
 
-		missileLockCone			= 140;
-		missileKeepLockedCone	= 180;
+		//submunitionInitSpeed = 60;
+		//submunitionParentSpeedCoef = 0;
 
 		weaponLockSystem		= "1+2+4+8+16";
 		// once it's locked you are fucked up
@@ -1055,6 +1085,28 @@ class CfgAmmo
 		airLock 				= 1;
 		laserLock				= 1;
 		nvLock					= 1;
+
+		initTime			= 0.01;
+		trackOversteer		= 1;
+		trackLead			= 1;
+		timeToLive			= 30;
+		maneuvrability		= 8;	// Smaller velocity needs less maneuverability to succeed.
+		simulationStep		= 0.002;
+		airFriction			= 0.05;
+		sideAirFriction		= 1;
+		maxSpeed			= 2;
+		typicalSpeed		= 60;
+		thrustTime			= 16;
+		thrust				= 2;
+		fuseDistance		= 5;
+		whistleDist			= 1;
+
+		missileManualControlCone	= 90;
+		missileLockCone				= 124;
+		missileKeepLockedCone		= 180;
+		missileLockMaxDistance		= 4000;
+		missileLockMinDistance		= 10;
+		missileLockMaxSpeed			= 80;
 
 		effectsMissile = "XDF_GuidedSlug_Trail";
 
