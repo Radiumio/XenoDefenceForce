@@ -881,7 +881,7 @@ class CfgAmmo
 			frequency = 20;
 			distance = 1;
 		};
-		
+
 		class Components
 		{
 			class SensorsManagerComponent
@@ -928,143 +928,6 @@ class CfgAmmo
 			};
 		};
 	};
-	//class MissileBase;
-	//class ammo_Railshot_LG_Sub: MissileBase
-	//{
-	//	hit=60;
-	//	indirectHit=6;
-	//	indirectHitRange=0.5;
-	//	explosive=0.5;
-	//	//model="xdf\weapons\tracer_blue\tracer_blue";
-	//	effectsMissile="XDF_GuidedSlug_Trail";
-	//	soundFly[]=
-	//	{
-	//		"\xdf\sounds\shot\guided_shot_fly",
-	//		4,
-	//		1,
-	//		80
-	//	};
-//
-	//	//submunitionAmmo="ammo_Railshot_LG_Sub1";
-	//	triggerDistance 				= 2;
-	//	submunitionConeAngle 			= 55;
-	//	triggerSpeedCoef[] 				= {0.01};
-//
-	//	weaponLockSystem		= "1+2+4+8+16";
-	//	// once it's locked you are fucked up
-	//	cmImmunity				= 1;
-	//	irLock 					= 1;
-	//	airLock 				= 1;
-	//	laserLock				= 1;
-	//	nvLock					= 1;
-//
-	//	// Manual control capable is disabled since it's conflictng with locking
-	//	manualControl	= 0;
-	//	//lockType		= 0;
-	//	maxControlRange	= 4000;
-//
-	//	autoSeekTarget	= 0;
-	//	lockSeekRadius	= 500;
-//
-	//	initTime			= 0.25;
-	//	trackOversteer		= 0.05;
-	//	trackLead			= 0.9;
-	//	timeToLive			= 30;
-	//	maneuvrability		= 4;	// Smaller velocity needs less maneuverability to succeed.
-	//	simulationStep		= 0.02;
-	//	airFriction			= 0.65;
-	//	sideAirFriction		= 0.3;
-	//	maxSpeed			= 80;
-	//	typicalSpeed		= 60;
-	//	thrustTime			= 16;
-	//	thrust				= 6;
-	//	fuseDistance		= 200;
-	//	whistleDist			= 4;
-//
-	//	missileManualControlCone	= 90;
-	//	missileLockCone				= 124;
-	//	missileKeepLockedCone		= 180;
-	//	missileLockMaxDistance		= 4000;
-	//	missileLockMinDistance		= 10;
-	//	missileLockMaxSpeed			= 80;
-//
-	//	cost 				= 10;
-	//	aiAmmoUsageFlags	= AIAmmoUsageOffensiveInf + AIAmmoUsageOffensiveVeh + AIAmmoUsageOffensiveAir + AIAmmoUsageOffensiveArmour;
-//
-	//	// Flight Profiles
-	//	flightProfiles[] =
-	//	{
-	//		Direct,
-	//		TopDown,
-	//		LOALDistance
-	//	};
-	//	class Direct {
-//
-	//		missileManualControlCone	= 30;
-	//		missileLockCone				= 140;
-	//		missileKeepLockedCone		= 180;
-	//		missileLockMaxDistance		= 4000;
-	//		missileLockMinDistance		= 60;
-	//		missileLockMaxSpeed			= 80;
-	//	};
-	//	class TopDown
-	//	{
-	//		ascendHeight	= 150.0;
-	//		descendDistance	= 200.0;
-	//		minDistance		= 150.0;
-	//		ascendAngle		= 70.0;
-	//	};
-	//	class LOALDistance
-	//	{
-	//		lockSeekDistanceFromParent = 300;
-	//	};
-//
-	//	class Components
-	//	{
-	//		class SensorsManagerComponent
-	//		{
-	//			class Components
-	//			{
-	//				// can lock everything
-	//				class NVSensorComponent : SensorTemplateNV
-	//				{
-	//					SENS_RANGES_WVR(4000,4000)
-	//					maxTrackableSpeed = 180;
-	//					angleRangeHorizontal = 180;
-	//					angleRangeVertical = 180;
-	//				};
-	//				class LaserSensorComponent : SensorTemplateLaser
-	//				{
-	//					SENS_RANGES_BVR(4000,4000)
-	//					maxTrackableSpeed = 180;
-	//					angleRangeHorizontal = 180;
-	//					angleRangeVertical = 180;
-	//				};
-	//				class ManSensorComponent : SensorTemplateMan
-	//				{
-	//					SENS_RANGES_WVR(4000,4000)
-	//					maxTrackableSpeed = 180;
-	//					angleRangeHorizontal = 180;
-	//					angleRangeVertical = 180;
-	//				};
-	//				class IRSensorComponent : SensorTemplateMan
-	//				{
-	//					SENS_RANGES_WVR(4000,4000)
-	//					maxTrackableSpeed = 180;
-	//					angleRangeHorizontal = 180;
-	//					angleRangeVertical = 180;
-	//				};
-	//				class VisualSensorComponent : SensorTemplateVisual
-	//				{
-	//					SENS_RANGES_WVR(4000,4000)
-	//					maxTrackableSpeed = 180;
-	//					angleRangeHorizontal = 180;
-	//					angleRangeVertical = 180;
-	//				};
-	//			};
-	//		};
-	//	};
-	//};
 	class M_Mo_155mm_AT;
 	class ammo_Railshot_LG_Sub1: M_Mo_155mm_AT
 	{
@@ -1082,11 +945,11 @@ class CfgAmmo
 			1,
 			80
 		};
-		soundHit1[] = {"", 0.0316228, 1};
-		soundHit2[] = {"", 0.0316228, 1};
-		soundHit3[] = {"", 0.0316228, 1};
+		soundHit1[] = {"", 0, 1, 1};
+		soundHit2[] = {"", 0, 1, 1};
+		soundHit3[] = {"", 0, 1, 1};
 		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33, "soundHit3", 0.33};
-		explosionSoundEffect="";
+		explosionSoundEffect = "DefaultExplosion";
 		CraterEffects = "";
 		explosionEffects = "";
 		muzzleEffect = "";

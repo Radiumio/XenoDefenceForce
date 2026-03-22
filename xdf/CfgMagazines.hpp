@@ -1017,9 +1017,9 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="10mm 25Rnd Railgun Magazine (LG HE-AX)";
-		displaynameshort="10mm LG HE-RG";
-		descriptionShort="Caliber: 10mm SABOT AX SMRT Laser-Guided Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+		displayName="10mm 25Rnd Railgun Magazine (SMART)";
+		displaynameshort="10mm SMART";
+		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag_lg.paa";
 		ammo="B_10mm_railshot_lg";
 		count=25;
