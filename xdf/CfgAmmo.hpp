@@ -318,7 +318,7 @@ class CfgAmmo
 		lockSeekRadius = 700;
 		autoSeekTarget = 1;
 		//triggerTime=3;
-		triggerDistance 				= 150;
+		triggerDistance 				= 200;
 		submunitionConeAngle 			= 35;
 		submunitionInitSpeed 			= 20;
 		submunitionConeType[] 			= {"randomcenter",8}; // amount of units
