@@ -190,6 +190,13 @@ class CfgAmmo
 			1,
 			1200
 		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1200
+		};
 	};
 	class R_MRAAWS_HEAT55_F;
 	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F
@@ -212,7 +219,7 @@ class CfgAmmo
 			"\xdf\sounds\shot\guided_shot_fly",
 			4,
 			1,
-			80
+			180
 		};
 
 		airFriction = -0.01;
@@ -328,7 +335,7 @@ class CfgAmmo
 			"\xdf\sounds\shot\guided_shot_fly",
 			4,
 			1,
-			80
+			180
 		};
 
 		weaponLockSystem		= "1+2+4+8+16";
@@ -1229,7 +1236,7 @@ class CfgAmmo
 			"\xdf\sounds\shot\guided_shot_fly",
 			4,
 			1,
-			80
+			180
 		};
 
 		airFriction = -0.01;
@@ -1336,7 +1343,7 @@ class CfgAmmo
 			"\xdf\sounds\shot\guided_shot_fly",
 			4,
 			1,
-			80
+			180
 		};
 		soundHit[] = {"", 0, 1, 1};
 		soundHit1[] = {"", 0, 1, 1};

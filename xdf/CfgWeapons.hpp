@@ -4487,9 +4487,6 @@ class cfgWeapons
         weaponLockDelay = 2;
 		magazines[]+=
 		{
-			//"MRAWS_HE_F",
-			//"MRAWS_HEAT55_F",
-			//"MRAWS_HEAT55_F",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT55_XDF",
 			"MRAAWS_HE_NUKE_XDF",
@@ -4539,11 +4536,10 @@ class cfgWeapons
 		displayName="XDF Metis-M";
 		descriptionShort = "AX Missile Launcher<br/>Heavy anti-armor, wire-guided launcher used by special AT teams.<br/>Caliber: 130 mm Metis Missiles - Experimental AX Upgrade";
 		baseWeapon="XDF_launch_O_Vorona_black";
-		magazines[]=
+		magazines[]+=
 		{
-			"Vorona_HE",
-			"Vorona_HEAT",
-			"Vorona_HEAT_XDF"
+			"Vorona_HEAT_XDF",
+			"Vorona_FAE_XDF"
 		};
 		reloadMagazineSound[]=
 		{

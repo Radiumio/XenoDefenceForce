@@ -53,7 +53,7 @@ class CfgMagazines
 		scope=2;
 		displayName="9M135 Experimental Thermobaric";
 		displayNameShort="EXP-FAE";
-		ammo="M_Vorona_HEAT_XDF";
+		ammo="M_Vorona_FAE_XDF";
 		//mass=220;
 		count=1;
 		initSpeed=150;
@@ -85,7 +85,7 @@ class CfgMagazines
 		scope=2;
 		displayName="MAAWS Experimental HIVE Round";
 		displaynameshort="EXP-SMART";
-		descriptionShort="Smart targeting munition that deploys a swarm of seeking explosive projectiles that rain down on the enemy.<br/>Though extremely effective, HIVE rounds are criticized for the extreme risk they pose to the operator<br/>thanks to rare instances of premature detonation.<br/><br/>Needs a valid lock to track, and is capable of performing a top-down attack."
+		descriptionShort="Cutting-edge smart targeting munition that deploys a swarm of seeking explosive projectiles that rain down on the enemy.<br/>Though extremely effective, HIVE rounds are criticized for the extreme risk they pose to the operator<br/>thanks to rare instances of premature detonation.<br/><br/>Needs a valid lock to track, and is capable of performing a top-down attack."
 		ammo="R_MRAAWS_SMART_XDF";
 		mass=80;
 	};
