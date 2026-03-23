@@ -77,4 +77,11 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_artificer.paa";
 		textureVehicle = "";
 	};
+	class xdf_pride
+	{
+		displayName = "XDF Pride";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_pride.paa";
+		textureVehicle = "";
+	};
 };

@@ -1,6 +1,7 @@
 
 class mode_semiauto;
 class mode_burst;
+class burst;
 class mode_fullauto;
 class WeaponSlotsInfo;
 class CowsSlot_Rail;
@@ -4465,7 +4466,11 @@ class cfgWeapons
 	};
 
 	// Launchers
-	class launch_MRAWS_green_F;
+	class launch_MRAWS_base_F;
+	class launch_MRAWS_green_F: launch_MRAWS_base_F
+	{
+		class Single;
+	};
 	class launch_O_Vorona_green_F;
 	class launch_Titan_base;
 	class launch_Titan_short_base;
@@ -4474,16 +4479,18 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF M4 MAAWS";
-		descriptionShort = "AX Recoilless Rifle<br/>Anti-xeno recoilless rifle with the necessary changes to fire experimental rounds.<br/>Caliber: 84 mm MAAWS Rounds - Experimental AX Upgrade<br/>Thermobaric Round Capable";
+		descriptionShort = "AX Recoilless Rifle<br/>Anti-xeno recoilless rifle with the necessary changes to fire experimental rounds.<br/>Caliber: 84 mm MAAWS Rounds - Experimental AX Upgrade<br/>Thermobaric/HIVE Round Capable";
 		baseWeapon="XDF_launch_MRAWS_black";
-		magazines[]=
+
+        canLock = 2;
+        cmImmunity = 1;
+        weaponLockDelay = 1;
+		magazines[]+=
 		{
-			"MRAWS_HE_F",
-			"MRAWS_HEAT55_F",
-			"MRAWS_HEAT55_F",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT55_XDF",
-			"MRAAWS_HE_NUKE_XDF"
+			"MRAAWS_HE_NUKE_XDF",
+			"MRAAWS_SMART_XDF"
 		};
 		reloadMagazineSound[]=
 		{
@@ -4491,6 +4498,30 @@ class cfgWeapons
 			4,
 			1,
 			10
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+		modes[] = {"Single","TopDown"};
+		class TopDown: Single
+		{
+			textureType = "topDown";
+			displayName = "Top-down";
+			minRange = 160;
+			minRangeProbab = 0.6;
+			midRange = 800;
+			midRangeProbab = 0.95;
+			maxRange = 2500;
+			maxRangeProbab = 0.95;
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -4505,11 +4536,10 @@ class cfgWeapons
 		displayName="XDF Metis-M";
 		descriptionShort = "AX Missile Launcher<br/>Heavy anti-armor, wire-guided launcher used by special AT teams.<br/>Caliber: 130 mm Metis Missiles - Experimental AX Upgrade";
 		baseWeapon="XDF_launch_O_Vorona_black";
-		magazines[]=
+		magazines[]+=
 		{
-			"Vorona_HE",
-			"Vorona_HEAT",
-			"Vorona_HEAT_XDF"
+			"Vorona_HEAT_XDF",
+			"Vorona_FAE_XDF"
 		};
 		reloadMagazineSound[]=
 		{
@@ -4719,10 +4749,17 @@ class cfgWeapons
 		fireLightIntensity = 0.5;
 		fireLightDiffuse[] = {0, 0.2, 1};
 		fireLightAmbient[] = {0, 0, 0};
-		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer"};
+		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_HEAPRG_Mag_blue_tracer","85Rnd_6mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer"};
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
+
+		canLock=2;
+		weaponLockSystem = 12;
+		lockAcquire = 1;
+
+        cmImmunity        = 1;
+        weaponLockDelay    = 0.15;
 		class GunParticles
 		{
 			class FirstEffect
@@ -4781,18 +4818,19 @@ class cfgWeapons
 			1,
 			10
 		};
-		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		modes[] = {"Single", "FullAuto", "LOALDistance"};
 		class Single: Mode_SemiAuto
-		{
+		{	
+            alternativeFireMode = true;
 			reloadTime = 0.12;
 			recoil = "recoil_single_mx";
 			recoilProne = "recoil_single_prone_mx";
 			dispersion = 0.00015;
-			minRange = 2;
+			minRange = 0;
 			minRangeProbab = 0.5;
-			midRange = 200;
+			midRange = 500;
 			midRangeProbab = 0.7;
-			maxRange = 400;
+			maxRange = 1000;
 			maxRangeProbab = 0.3;
 			sounds[] = {"StandardSound"};
 			class BaseSoundModeType
@@ -4807,15 +4845,16 @@ class cfgWeapons
 		};
 		class FullAuto: Mode_FullAuto
 		{
+            alternativeFireMode = true;
 			reloadTime = 0.12;
 			dispersion = 0.00015;
 			recoil = "recoil_auto_mx";
 			recoilProne = "recoil_auto_prone_mx";
 			minRange = 0;
 			minRangeProbab = 0.9;
-			midRange = 15;
+			midRange = 250;
 			midRangeProbab = 0.7;
-			maxRange = 30;
+			maxRange = 500;
 			maxRangeProbab = 0.1;
 			aiRateOfFire = 1e-06;
 			sounds[] = {"StandardSound"};
@@ -4829,32 +4868,45 @@ class cfgWeapons
 			soundContinuous = 0;
 			soundBurst = 0;
 		};
-		class single_medium_optics1: Single
+		class LoalDistance: Single
 		{
-			requiredOpticType = 1;
-			showToPlayer = 0;
-			minRange = 2;
-			minRangeProbab = 0.2;
-			midRange = 450;
-			midRangeProbab = 0.7;
-			maxRange = 600;
-			maxRangeProbab = 0.2;
-			aiRateOfFire = 6;
-			aiRateOfFireDistance = 600;
+			textureType="LOAL";
+			displayName="LOAL";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=150;
+			minRangeProbab=0.80000001;
+			midRange=500;
+			midRangeProbab=0.94999999;
+			maxRange=2000;
+			maxRangeProbab=0.94999999;
 		};
-		class single_far_optics2: single_medium_optics1
-		{
-			requiredOpticType = 2;
-			showToPlayer = 0;
-			minRange = 100;
-			minRangeProbab = 0.1;
-			midRange = 500;
-			midRangeProbab = 0.6;
-			maxRange = 700;
-			maxRangeProbab = 0.05;
-			aiRateOfFire = 8;
-			aiRateOfFireDistance = 700;
-		};
+		//class single_medium_optics1: Single
+		//{
+		//	requiredOpticType = 1;
+		//	showToPlayer = 0;
+		//	minRange = 2;
+		//	minRangeProbab = 0.2;
+		//	midRange = 450;
+		//	midRangeProbab = 0.7;
+		//	maxRange = 600;
+		//	maxRangeProbab = 0.2;
+		//	aiRateOfFire = 6;
+		//	aiRateOfFireDistance = 600;
+		//};
+		//class single_far_optics2: single_medium_optics1
+		//{
+		//	requiredOpticType = 2;
+		//	showToPlayer = 0;
+		//	minRange = 100;
+		//	minRangeProbab = 0.1;
+		//	midRange = 500;
+		//	midRangeProbab = 0.6;
+		//	maxRange = 700;
+		//	maxRangeProbab = 0.05;
+		//	aiRateOfFire = 8;
+		//	aiRateOfFireDistance = 700;
+		//};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 353;
@@ -5340,7 +5392,7 @@ class cfgWeapons
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
-			reloadTime=0.033333302;
+			reloadTime=0.039999999;
 			dispersion=0.0015;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;
@@ -5460,7 +5512,7 @@ class cfgWeapons
 			soundContinuous=0;
 			soundBurst=0;
 			multiplier=3;
-			reloadTime=0.033333302;
+			reloadTime=0.039999999;
 			dispersion=0.0115;
 			aiRateOfFire=1;
 			aiRateOfFireDistance=10;

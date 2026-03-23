@@ -76,4 +76,43 @@ class CfgMagazines
 		pylonWeapon = "EF_weapon_SidearmAXLauncher";
 		mass = 125;
 	};
+	class PylonRack_1Rnd_Missile_AA_04_F;
+	class PylonRack_1Rnd_Missile_AA_XDF_04_F: PylonRack_1Rnd_Missile_AA_04_F
+	{
+		displayName = "AXIM-39 Reaper";
+		descriptionShort = "Short-range, infrared-guided, air-to-air missile with an unstable anti-xeno warhead";
+		pylonWeapon = "Missile_AA_04_Plane_CAS_XDF_01_F";
+		ammo = "Missile_AA_03_XDF_F";
+	};
+	class EF_300Rnd_25mm_shells_QAV80;
+	class EF_600Rnd_25mm_shells_QAV80_XDF: EF_300Rnd_25mm_shells_QAV80
+	{
+		author = "Radium";
+		DLC = "ef";
+		scope = 2;
+		displayName = "25mm AX-HE Shells";
+		displayNameShort = "AX-HE";
+		ammo = "B_25mm_AX";
+		count = 600;
+	};
+	class EF_Diplomat_25Rnd_9x19_Mag;
+	class XDF_Diplomat_25Rnd_blue_tracer_9x19_Mag: EF_Diplomat_25Rnd_9x19_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 25Rnd Tracer Mag (AX)";
+		displaynameshort="AX Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=1;
+	};
+	class XDF_Diplomat_25Rnd_blue_reload_tracer_9x19_Mag: EF_Diplomat_25Rnd_9x19_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="9 mm 25Rnd Reload Tracer Mag (AX)";
+		displaynameshort="AX R-Tracer";
+		ammo="B_9x21_Ball_blue";
+		tracersEvery=4;
+		lastRoundsTracer=4;
+	};
 };

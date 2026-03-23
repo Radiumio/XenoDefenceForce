@@ -838,6 +838,34 @@ class cfgWeapons
 			"MX_65x39_Large_XDF"
 		};
 	};
+	class EF_smg_Diplomat;
+	class EF_smg_Diplomat_XDF: EF_smg_Diplomat
+	{
+		author="Radium";
+		_generalMacro="EF_smg_Diplomat";
+		scope=2;
+		displayName="XDF Covert";
+		descriptionShort = "AX Submachinegun<br/>An extremely compact SMG adopted by the XDF Marines, mostly for vehicle crews.<br/>Caliber: 9x19 mm - Experimental AX Chamber Upgrade";
+		initSpeed=440;
+		baseWeapon="EF_smg_Diplomat_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\weapons\diplomat\smg_KH9_01_black_XDF_CO.paa",
+			"\xdf_ef\retextures\xdf_uniform\weapons\diplomat\smg_KH9_02_black_XDF_CO.paa",
+			"\xdf_ef\retextures\xdf_uniform\weapons\diplomat\smg_KH9_03_black_XDF_CO.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\diplomat_reload.ogg",
+			2,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"SMG_Diplomat_9x19_XDF"
+		};
+	};
 
 	//////////////////// VEHICLES ////////////////////
 	class EF_autocannon_30mm_Hunter;
@@ -898,6 +926,36 @@ class cfgWeapons
 		{
 			"EF_magazine_Missile_Sidearm_AX_x1",
 			"EF_PylonMissile_Missile_Sidearm_AX_x1"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+	};
+	class EF_gatling_25mm_QAV80;
+	class EF_gatling_25mm_QAV80_XDF: EF_gatling_25mm_QAV80
+	{
+		displayname = "GAU-12 Stinger 25mm";
+		magazines[] +=
+		{
+			"EF_600Rnd_25mm_shells_QAV80_XDF"
+		};
+	};
+	class Missile_AA_04_Plane_CAS_01_F;
+	class Missile_AA_04_Plane_CAS_XDF_01_F: Missile_AA_04_Plane_CAS_01_F
+	{
+		displayName = "AXIM-39 Reaper";
+		magazines[] +=
+		{
+			"PylonRack_1Rnd_Missile_AA_XDF_04_F"
 		};
 		lockingTargetSound[]=
 		{

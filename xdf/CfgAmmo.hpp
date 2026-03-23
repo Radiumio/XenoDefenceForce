@@ -1,5 +1,8 @@
 class CfgAmmo
 {
+	class SubmunitionBase;
+	class MissileBase;
+	class RocketBase;
 	class M_Titan_AA;
 	class M_Titan_AA_XDF: M_Titan_AA
 	{
@@ -124,6 +127,7 @@ class CfgAmmo
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
+		explosionForceCoef=10000;
 		explosive=1;
 		fuseDistance=70;
 		class CamShakeExplode
@@ -156,11 +160,380 @@ class CfgAmmo
 			1200
 		};
 	};
+	class M_Vorona_FAE_XDF: M_Vorona_HEAT
+	{
+		hit=3500;
+		indirectHit=800;
+		indirectHitRange=15;
+		CraterEffects="HeavyBombCrater";
+		ExplosionEffects="XDF_ThermobaricHit";
+		explosionForceCoef=10000;
+		explosive=1;
+		fuseDistance=70;
+		class CamShakeExplode
+		{
+			power=5;
+			duration=7;
+			frequency=50;
+			distance=2200;
+		};
+		soundHit1[] = {"\xdf\sounds\exp\maaws_thermobaric_1", 5, 1, 2200};
+		soundHit2[] = {"\xdf\sounds\exp\maaws_thermobaric_2", 5, 1, 2200};
+		soundHit3[] = {"\xdf\sounds\exp\maaws_thermobaric_3", 5, 1, 2200};
+		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33000001, "soundHit3", 0.33000001};
+		SoundSetExplosion[] = {"FAE_Exp_SoundSet", "FAE_Tail_SoundSet", "Explosion_Debris_SoundSet"};
+		effectsMissile="XDF_Missile3";
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			7,
+			1,
+			1200
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1200
+		};
+	};
 	class R_MRAAWS_HEAT55_F;
 	class R_MRAAWS_HEAT55_XDF: R_MRAAWS_HEAT55_F
 	{
 		hit=400;
 		submunitionAmmo="ammo_Penetrator_MRAAWS_HEAT55_XDF";
+	};
+	class R_MRAAWS_SMART_XDF: RocketBase
+	{
+		hit=0;
+		cartridge = "";
+		indirectHit=0;
+		indirectHitRange=0;
+		timeToLive=5;
+		triggerOnImpact=0;
+		//model="xdf\weapons\tracer_blue\tracer_blue";
+		submunitionAmmo="R_MRAAWS_SMART_Sub_XDF";
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			180
+		};
+
+		airFriction = 0;
+
+		explosionForceCoef = 0;
+
+		autoSeekTarget 					= 1;
+		triggerTime 					= 0.001;
+		//triggerDistance 				= 200;
+		triggerSpeedCoef[] 				= {0.001};
+		submunitionParentSpeedCoef = 0;
+		submunitionInitSpeed = 120;
+		submunitionConeAngle 			= 1;
+		submunitionDirectionType 		= "SubmunitionAutoLeveling"
+		submunitionConeType[] 			= {"randomcenter",1}; // amount of units
+
+		manualControl = 1;
+		maxControlRange = 2000;
+		cmImmunity				= 0.5;
+		irLock 					= 1;
+		airLock 				= 1;
+		laserLock				= 1;
+		nvLock					= 1;
+
+		missileLockCone			= 140;
+		missileKeepLockedCone	= 180;
+		missileLockMaxDistance 	= 4000;
+		missileLockMinDistance	= 50;
+		missileLockMaxSpeed		= 35;
+
+		flightProfiles[] =
+		{
+			TopDown
+		};
+		class TopDown
+		{
+			ascendHeight	= 150;
+			descendDistance	= 180;
+			minDistance		= 5;
+			ascendAngle		= 50;
+		};
+
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					// can lock everything
+					class NVSensorComponent : SensorTemplateNV
+					{
+						SENS_RANGES_WVR(8000,8000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent : SensorTemplateLaser
+					{
+						SENS_RANGES_BVR(8000,8000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+				};
+			};
+		};
+	};
+	class M_Mo_155mm_AT;
+	class R_MRAAWS_SMART_Sub_XDF: M_Mo_155mm_AT
+	{
+		hit=150;
+		indirectHit=80;
+		indirectHitRange=4;
+		explosive=0.8;
+		lockSeekRadius = 700;
+		autoSeekTarget = 1;
+		//triggerTime=3;
+		triggerDistance 				= 200;
+		submunitionConeAngle 			= 35;
+		submunitionInitSpeed 			= 20;
+		submunitionConeType[] 			= {"randomcenter",8}; // amount of units
+		triggerSpeedCoef[] 				= {0.01,0.55};
+		submunitionAmmo[] 				=
+		{
+			S_MRAAWS_SMART_SubTerminal1_XDF,0.33,
+			S_MRAAWS_SMART_SubTerminal2_XDF,0.33,
+			S_MRAAWS_SMART_SubTerminal3_XDF,0.33
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			180
+		};
+
+		weaponLockSystem		= "1+2+4+8+16";
+		cmImmunity				= 0.5;
+		irLock 					= 1;
+		airLock 				= 1;
+		laserLock				= 1;
+		nvLock					= 1;
+
+		initTime			= 0.01;
+		trackOversteer		= 1;
+		trackLead			= 1;
+		timeToLive			= 30;
+		maneuvrability		= 8;	// Smaller velocity needs less maneuverability to succeed.
+		simulationStep		= 0.002;
+		airFriction			= 0.05;
+		sideAirFriction		= 1;
+		maxSpeed			= 2;
+		typicalSpeed		= 60;
+		thrustTime			= 16;
+		thrust				= 2;
+		fuseDistance		= 5;
+		whistleDist			= 1;
+
+		missileManualControlCone	= 90;
+		missileLockCone				= 124;
+		missileKeepLockedCone		= 180;
+		missileLockMaxDistance		= 4000;
+		missileLockMinDistance		= 50;
+		missileLockMaxSpeed			= 80;
+
+		effectsMissile = "XDF_GuidedSlug_Trail";
+
+		lockSeekDistanceFromParent = 120;
+
+		
+		flightProfiles[] =
+		{
+			TopDown
+		};
+		class TopDown
+		{
+			ascendHeight	= 150;
+			descendDistance	= 180;
+			minDistance		= 5;
+			ascendAngle		= 50;
+		};
+
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					// can lock everything
+					class NVSensorComponent : SensorTemplateNV
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent : SensorTemplateLaser
+					{
+						SENS_RANGES_BVR(4000,4000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+						nightRangeCoef = 1; // full range at night; if undef
+					};
+				};
+			};
+		};
+	};
+	class S_MRAAWS_SMART_SubTerminal1_XDF: M_Mo_155mm_AT
+	{
+		hit = 250;
+		indirectHit = 50;
+		indirectHitRange = 2;
+		warheadName="HE";
+		explosive=0.8;
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\hive_round_init",
+			1,
+			1,
+			1500
+		};
+		//proximityExplosionDistance	= 28;
+		//explosionForceCoef			= 10000;
+		lockSeekRadius				= 700;
+
+		missileLockCone			= 24;
+		missileKeepLockedCone	= 180;
+
+		weaponLockSystem		= "1+2+4+8+16";
+		cmImmunity				= 0.5;
+		irLock 					= 1;
+		airLock 				= 1;
+		laserLock				= 1;
+		nvLock					= 1;
+
+		effectsMissile = "XDF_GuidedSlug_Trail";
+
+		lockSeekDistanceFromParent = 120;
+
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					// can lock everything
+					class NVSensorComponent : SensorTemplateNV
+					{
+						SENS_RANGES_WVR(8000,8000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent : SensorTemplateLaser
+					{
+						SENS_RANGES_BVR(8000,8000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+						nightRangeCoef = 1; // full range at night; if undef
+					};
+				};
+			};
+		};
+	};
+	class S_MRAAWS_SMART_SubTerminal2_XDF: S_MRAAWS_SMART_SubTerminal1_XDF
+	{
+		missileLockCone			= 13;
+		missileKeepLockedCone	= 55;
+	};
+	class S_MRAAWS_SMART_SubTerminal3_XDF: S_MRAAWS_SMART_SubTerminal1_XDF
+	{
+		missileLockCone			= 23;
+		missileKeepLockedCone	= 155;
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+				};
+			};
+		};
 	};
 	class R_MRAAWS_HE_F;
 	class R_MRAAWS_HE_NUKE_XDF: R_MRAAWS_HE_F
@@ -170,6 +543,7 @@ class CfgAmmo
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
+		//explosionForceCoef=10000;
 		explosive=1;
 		fuseDistance=70;
 		class CamShakeExplode
@@ -194,6 +568,7 @@ class CfgAmmo
 		cameraViewAvailable=1;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
+		//explosionForceCoef=10000;
 		effectsMissile="XDF_CruiseMissile";
 		model="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
 		proxyShape="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
@@ -231,6 +606,7 @@ class CfgAmmo
 		indirectHitRange=75;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
+		//explosionForceCoef=10000;
 		effectsMissile="XDF_Missile3";
 		class CamShakeExplode
 		{
@@ -359,6 +735,7 @@ class CfgAmmo
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
+		//explosionForceCoef=10000;
 		explosive=1;
 		fuseDistance=70;
 		typicalSpeed=1680; // default 1400
@@ -407,6 +784,16 @@ class CfgAmmo
 		hit=35;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_25mm;
+	class B_25mm_AX: B_25mm
+	{
+		hit=120;
+		indirectHit=6;
+		indirectHitRange=1;
+		warheadName="HEAT";
+		nvgOnly=0;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
 	class ammo_Missile_AMRAAM_D;
 	class ammo_Missile_AXInterceptor_D: ammo_Missile_AMRAAM_D
 	{
@@ -415,6 +802,22 @@ class CfgAmmo
 		thrust=350;
 		effectsMissile="XDF_Missile3";
 		manuevrability=36;
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			7,
+			1,
+			1200
+		};
+	};
+	class Missile_AA_03_F;
+	class Missile_AA_03_XDF_F: Missile_AA_03_F
+	{
+		hit=2200;
+		maxSpeed=1520;
+		thrust=280;
+		effectsMissile="XDF_Missile3";
+		manuevrability=32;
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
@@ -767,6 +1170,268 @@ class CfgAmmo
 			duration = 5;
 			frequency = 20;
 			distance = 1;
+		};
+	};
+	class B_10mm_railshot_heap: B_10mm_railshot
+	{
+		hit=45;
+		indirectHit=15;
+		indirectHitRange=2;
+		warheadName="HEAT";
+		submunitionAmmo = "B_10mm_railshot_heap_sub";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitSpeed = 1000;
+		submunitionParentSpeedCoef = 0;
+		submunitionInitialOffset[] = {0, 0, -0.2};
+		triggerOnImpact = 1;
+		explosive=0.2;
+		explosionSoundEffect="DefaultExplosion";
+		CraterEffects="ExploAmmoCrater";
+		explosionEffects="ExploAmmoExplosion";
+		class CamShakeExplode
+		{
+			power=4;
+			duration=0.8;
+			frequency=20;
+			distance=40;
+		};
+	};
+	class B_10mm_railshot_heap_sub: ammo_Penetrator_Base
+	{
+		caliber = 3.4;
+		hit = 90;
+		indirectHit=30;
+		indirectHitRange=1;
+	};
+	class B_6mm_railshot: B_10mm_railshot
+	{
+		hit=12;
+	};
+	class B_10mm_railshot_smart: SubmunitionBase
+	{
+		hit=35;
+		cartridge = "";
+		indirectHit=0;
+		indirectHitRange=0;
+		timeToLive=5;
+		triggerOnImpact=0;
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		submunitionAmmo="ammo_Railshot_Smart_Sub1";
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			180
+		};
+
+		airFriction = -0.01;
+
+		explosionForceCoef = 0;
+
+		autoSeekTarget 					= 1;
+		triggerTime 					= 0.001;
+		triggerDistance 				= 200;
+		triggerSpeedCoef[] 				= {0.001};
+		submunitionParentSpeedCoef = 0;
+		submunitionInitSpeed = 120;
+		submunitionConeAngle 			= 1;
+		submunitionConeType[] 			= {"randomcenter",1}; // amount of units
+
+		manualControl = 1;
+		maxControlRange = 2000;
+		cmImmunity				= 1;
+		irLock 					= 1;
+		airLock 				= 1;
+		laserLock				= 1;
+		nvLock					= 1;
+
+		missileLockCone			= 140;
+		missileKeepLockedCone	= 180;
+		missileLockMaxDistance 	= 4000;
+		missileLockMinDistance	= 1;
+		missileLockMaxSpeed		= 35;
+
+		class CamShakeFire
+		{
+			power = 0.3;
+			duration = 2.5;
+			frequency = 20;
+			distance = 10;
+		};
+		class CamShakePlayerFire
+		{
+			power = 0.8;
+			duration = 5;
+			frequency = 20;
+			distance = 1;
+		};
+
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					// can lock everything
+					class NVSensorComponent : SensorTemplateNV
+					{
+						SENS_RANGES_WVR(8000,8000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent : SensorTemplateLaser
+					{
+						SENS_RANGES_BVR(8000,8000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						SENS_RANGES_WVR(2000,2000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+				};
+			};
+		};
+	};
+	class M_Mo_155mm_AT;
+	class ammo_Railshot_Smart_Sub1: M_Mo_155mm_AT
+	{
+		hit=35;
+		indirectHit=35;
+		indirectHitRange=0.2;
+		explosive=0.8;
+		//model="xdf\weapons\tracer_blue\tracer_blue";
+		model = "xdf\weapons\smartround\XDF_Smart_Round";
+		lockSeekRadius				= 700;
+		soundFly[]=
+		{
+			"\xdf\sounds\shot\guided_shot_fly",
+			4,
+			1,
+			180
+		};
+		soundHit[] = {"", 0, 1, 1};
+		soundHit1[] = {"", 0, 1, 1};
+		soundHit2[] = {"", 0, 1, 1};
+		soundHit3[] = {"", 0, 1, 1};
+		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33, "soundHit3", 0.33};
+		SoundSetExplosion[] = {};
+		soundEngine[] = {};
+		explosionSoundEffect = "";
+		CraterEffects = "";
+		explosionEffects = "";
+		muzzleEffect = "";
+
+		weaponLockSystem		= "1+2+4+8+16";
+		cmImmunity				= 1;
+		irLock 					= 1;
+		airLock 				= 1;
+		laserLock				= 1;
+		nvLock					= 1;
+
+		initTime			= 0.01;
+		trackOversteer		= 1;
+		trackLead			= 1;
+		timeToLive			= 30;
+		maneuvrability		= 8;	// Smaller velocity needs less maneuverability to succeed.
+		simulationStep		= 0.002;
+		airFriction			= 0.05;
+		sideAirFriction		= 1;
+		maxSpeed			= 2;
+		typicalSpeed		= 60;
+		thrustTime			= 16;
+		thrust				= 2;
+		fuseDistance		= 5;
+		whistleDist			= 1;
+
+		missileManualControlCone	= 90;
+		missileLockCone				= 124;
+		missileKeepLockedCone		= 180;
+		missileLockMaxDistance		= 4000;
+		missileLockMinDistance		= 10;
+		missileLockMaxSpeed			= 80;
+
+		effectsMissile = "XDF_GuidedSlug_Trail";
+
+		lockSeekDistanceFromParent = 120;
+
+		flightProfiles[] =
+		{
+			LOALDistance
+		};
+		class LOALDistance
+		{
+			lockSeekDistanceFromParent = 20;
+		};
+
+		class CamShakeExplode {};
+		class CamShakeHit {};
+
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					// can lock everything
+					class NVSensorComponent : SensorTemplateNV
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent : SensorTemplateLaser
+					{
+						SENS_RANGES_BVR(4000,4000)
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class ManSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent : SensorTemplateMan
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						SENS_RANGES_WVR(4000,4000)
+						maxTrackableSpeed = 15;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+						nightRangeCoef = 1; // full range at night; if undef
+					};
+				};
+			};
 		};
 	};
 	class B_93x64_Ball;

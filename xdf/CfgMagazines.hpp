@@ -41,7 +41,19 @@ class CfgMagazines
 		scope=2;
 		displayName="9M135 Experimental HEAT";
 		displayNameShort="EXP-HEAT";
-		ammo="M_Vorona_HEAT_XDF";
+		ammo="M_Vorona_FAE_XDF";
+		mass=150;
+		count=1;
+		initSpeed=150;
+		maxLeadSpeed=27.7778;
+	};
+	class Vorona_FAE_XDF: Vorona_HEAT
+	{
+		author="Radium";
+		scope=2;
+		displayName="9M135 Experimental Thermobaric";
+		displayNameShort="EXP-FAE";
+		ammo="M_Vorona_FAE_XDF";
 		//mass=220;
 		count=1;
 		initSpeed=150;
@@ -66,6 +78,16 @@ class CfgMagazines
 		displaynameshort="EXP-HEAT55";
 		ammo="R_MRAAWS_HEAT55_XDF";
 		//mass=100;
+	};
+	class MRAAWS_SMART_XDF: MRAAWS_HEAT55_XDF
+	{
+		author="Radium";
+		scope=2;
+		displayName="MAAWS Experimental HIVE Round";
+		displaynameshort="EXP-SMART";
+		descriptionShort="Cutting-edge smart targeting munition that deploys a swarm of seeking explosive projectiles that rain down on the enemy.<br/>Though extremely effective, HIVE rounds are criticized for the extreme risk they pose to the operator thanks to rare instances<br/>of premature detonation when fired.<br/><br/>Needs a valid lock to track."
+		ammo="R_MRAAWS_SMART_XDF";
+		mass=80;
 	};
 	class MRAWS_HE_F;
 	class MRAAWS_HE_NUKE_XDF: MRAWS_HE_F
@@ -978,7 +1000,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="SABOT 50Rnd Railgun Magazine (APDS-AX)";
+		displayName="10mm 50Rnd Railgun Magazine (APDS-AX)";
 		displaynameshort="10mm AX-RG";
 		descriptionShort="Caliber: 10mm SABOT AX Slug<br/>Rounds: 50<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag.paa";
@@ -987,6 +1009,55 @@ class CfgMagazines
 		tracersEvery=1;
 		mass=68;
 	};
+	class 25Rnd_10mm_HEAPRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="10mm 25Rnd Railgun Magazine (HEAP-AX)";
+		displaynameshort="10mm HE-AP";
+		descriptionShort="Caliber: 10mm SABOT HE-AP<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag_heap.paa";
+		ammo="B_10mm_railshot_heap";
+		count=25;
+		tracersEvery=1;
+		mass=48;
+	};
+	class 85Rnd_6mm_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="6mm 85Rnd Railgun Magazine (6MM)";
+		displaynameshort="6mm AX-RG";
+		descriptionShort="Caliber: 6mm SABOT AX Slug<br/>Rounds: 85<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag_6mm.paa";
+		ammo="B_6mm_railshot";
+		count=85;
+		tracersEvery=1;
+		mass=56;
+	};
+	class 25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="10mm 25Rnd Railgun Magazine (SMART)";
+		displaynameshort="10mm SMART";
+		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+	    picture="\xdf\weapons\mantis\gear_mantis_mag_lg.paa";
+		ammo="B_10mm_railshot_smart";
+		count=25;
+		tracersEvery=1;
+		mass=72;
+	};
+	//class Object_02_Cluster_Autoseek_Mag: 5Rnd_127x108_APDS_Mag
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="Cluster Autoseek";
+	//	displaynameshort="AX Tracer";
+	//	ammo="Object_02_Cluster_Autoseek_Ammo_F";
+	//	tracersEvery=1;
+	//	count=100;
+	//};
 
 	class 10Rnd_93x64_DMR_05_Mag;
 	class 10Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag

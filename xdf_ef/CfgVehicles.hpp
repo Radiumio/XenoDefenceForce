@@ -366,6 +366,226 @@ class CfgVehicles
 			};
 		};
 	};
+
+	class EF_QAV80_Stealth_Base;
+	class XDF_Eagle_Stealth: EF_QAV80_Stealth_Base
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Eagle (Stealth)";
+		editorPreview="\xdf\previews\vehicles\XDF_Eagle_Stealth.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 130; // Default 50
+		fuelCapacity = 2000; // Default 1000
+		damageResistance = 0.02; // Default 0.004
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+		};
+		weapons[] = 
+		{
+			"EF_gatling_25mm_QAV80_XDF",
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera"
+		};
+		magazines[] = 
+		{
+			"EF_600Rnd_25mm_shells_QAV80_XDF",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"Laserbatteries"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_HONEY_CO.paa"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_TEMPR_CO.paa"
+				};
+			};
+			class XDF_Dazzle
+			{
+				displayName="Xeno Defence Force - Dazzle";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_DAZZLE_CO.paa"
+				};
+			};
+			class XDF_Splotch
+			{
+				displayName="Xeno Defence Force - Splotch";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_SPLOTCH_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_QAV80_Base;
+	class XDF_Eagle: EF_QAV80_Base
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Eagle";
+		editorPreview="\xdf\previews\vehicles\XDF_Eagle.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_UAV_AI";
+		armor = 130; // Default 50
+		fuelCapacity = 2000; // Default 1000
+		damageResistance = 0.02; // Default 0.004
+		typicalCargo[]=
+		{
+			"B_UAV_AI"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+		};
+		weapons[] = 
+		{
+			"EF_gatling_25mm_QAV80_XDF",
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera"
+		};
+		magazines[] = 
+		{
+			"EF_600Rnd_25mm_shells_QAV80_XDF",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"120Rnd_CMFlare_Chaff_Magazine",
+			"Laserbatteries"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_XDF_CO.paa"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_HONEY_CO.paa"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_TEMPR_CO.paa"
+				};
+			};
+			class XDF_Dazzle
+			{
+				displayName="Xeno Defence Force - Dazzle";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_DAZZLE_CO.paa"
+				};
+			};
+			class XDF_Splotch
+			{
+				displayName="Xeno Defence Force - Splotch";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_ef\retextures\harpy\qav80_SPLOTCH_CO.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+
 	class EF_B_AAV9_MJTF_Des;
 	class XDF_AAV9_Barracuda: EF_B_AAV9_MJTF_Des
 	{
@@ -518,6 +738,558 @@ class CfgVehicles
 			1
 		};
 	};
+	
+	class EF_O_Gyra_OPF_T;
+	class XDF_Serval: EF_O_Gyra_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_HMG_OPF_T;
+	class XDF_Serval_HMG: EF_O_Gyra_HMG_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (HMG)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_HMG.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_Armed_OPF_T;
+	class XDF_Serval_IFV: EF_O_Gyra_Armed_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (IFV)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_IFV.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_Mortar_OPF_T;
+	class XDF_Serval_Mortar: EF_O_Gyra_Mortar_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (Mortar)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_Mortar.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class EF_O_Gyra_Antiair_OPF_T;
+	class XDF_Serval_AA: EF_O_Gyra_Antiair_OPF_T
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Serval (AA)";
+		editorPreview="\xdf\previews\vehicles\XDF_Serval_AA.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Crew";
+		armor = 280; // Default 180
+		armorStructural = 6.5; // Default 5
+		fuelCapacity = 24; // Default 18
+		damageResistance = 0.01; // Default 0.005
+		typicalCargo[]=
+		{
+			"B_XDF_Crew"
+		};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2", 
+			"camo3", 
+			"camo4", 
+			"camo5", 
+			"camo6", 
+			"camo7", 
+			"camonet"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+		    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+			"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+			"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_black_co.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_black_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Temperate
+			{
+				displayName="Xeno Defence Force - Temperate";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_TEMPR_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_TEMPR_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Honeycomb
+			{
+				displayName="Xeno Defence Force - Honeycomb";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_HONEY_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+
 	class EF_B_CombatBoat_Unarmed_MJTF_Des;
 	class XDF_Achelois_Unarmed: EF_B_CombatBoat_Unarmed_MJTF_Des
 	{
