@@ -222,7 +222,7 @@ class CfgAmmo
 			180
 		};
 
-		airFriction = -0.01;
+		airFriction = 0;
 
 		explosionForceCoef = 0;
 
@@ -238,7 +238,7 @@ class CfgAmmo
 
 		manualControl = 1;
 		maxControlRange = 2000;
-		cmImmunity				= 1;
+		cmImmunity				= 0.5;
 		irLock 					= 1;
 		airLock 				= 1;
 		laserLock				= 1;
@@ -252,13 +252,9 @@ class CfgAmmo
 
 		flightProfiles[] =
 		{
-			Direct,
 			TopDown
 		};
-		class Direct
-		{
-		};
-		class TopDown: Direct
+		class TopDown
 		{
 			ascendHeight	= 150;
 			descendDistance	= 180;
@@ -323,7 +319,8 @@ class CfgAmmo
 		autoSeekTarget = 1;
 		//triggerTime=3;
 		triggerDistance 				= 150;
-		submunitionConeAngle 			= 55;
+		submunitionConeAngle 			= 35;
+		submunitionInitSpeed 			= 20;
 		submunitionConeType[] 			= {"randomcenter",8}; // amount of units
 		triggerSpeedCoef[] 				= {0.01,0.55};
 		submunitionAmmo[] 				=
@@ -341,7 +338,7 @@ class CfgAmmo
 		};
 
 		weaponLockSystem		= "1+2+4+8+16";
-		cmImmunity				= 1;
+		cmImmunity				= 0.5;
 		irLock 					= 1;
 		airLock 				= 1;
 		laserLock				= 1;
@@ -376,13 +373,9 @@ class CfgAmmo
 		
 		flightProfiles[] =
 		{
-			Direct,
 			TopDown
 		};
-		class Direct
-		{
-		};
-		class TopDown: Direct
+		class TopDown
 		{
 			ascendHeight	= 150;
 			descendDistance	= 180;
@@ -439,6 +432,11 @@ class CfgAmmo
 	};
 	class S_MRAAWS_SMART_SubTerminal1_XDF: M_Mo_155mm_AT
 	{
+		hit = 250;
+		indirectHit = 50;
+		indirectHitRange = 2;
+		warheadName="HE";
+		explosive=0.8;
 		soundFly[]=
 		{
 			"\xdf\sounds\shot\hive_round_init",
@@ -446,15 +444,15 @@ class CfgAmmo
 			1,
 			1500
 		};
-		proximityExplosionDistance	= 28;
-		explosionForceCoef			= 10000;
+		//proximityExplosionDistance	= 28;
+		//explosionForceCoef			= 10000;
 		lockSeekRadius				= 700;
 
 		missileLockCone			= 24;
 		missileKeepLockedCone	= 180;
 
 		weaponLockSystem		= "1+2+4+8+16";
-		cmImmunity				= 1;
+		cmImmunity				= 0.5;
 		irLock 					= 1;
 		airLock 				= 1;
 		laserLock				= 1;
