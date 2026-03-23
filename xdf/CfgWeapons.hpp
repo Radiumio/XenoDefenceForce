@@ -4466,7 +4466,11 @@ class cfgWeapons
 	};
 
 	// Launchers
-	class launch_MRAWS_green_F;
+	class launch_MRAWS_base_F;
+	class launch_MRAWS_green_F: launch_MRAWS_base_F
+	{
+		class Single;
+	};
 	class launch_O_Vorona_green_F;
 	class launch_Titan_base;
 	class launch_Titan_short_base;
@@ -4475,16 +4479,21 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF M4 MAAWS";
-		descriptionShort = "AX Recoilless Rifle<br/>Anti-xeno recoilless rifle with the necessary changes to fire experimental rounds.<br/>Caliber: 84 mm MAAWS Rounds - Experimental AX Upgrade<br/>Thermobaric Round Capable";
+		descriptionShort = "AX Recoilless Rifle<br/>Anti-xeno recoilless rifle with the necessary changes to fire experimental rounds.<br/>Caliber: 84 mm MAAWS Rounds - Experimental AX Upgrade<br/>Thermobaric/HIVE Round Capable";
 		baseWeapon="XDF_launch_MRAWS_black";
-		magazines[]=
+
+        canLock = 2;
+        cmImmunity = 1;
+        weaponLockDelay = 2;
+		magazines[]+=
 		{
-			"MRAWS_HE_F",
-			"MRAWS_HEAT55_F",
-			"MRAWS_HEAT55_F",
+			//"MRAWS_HE_F",
+			//"MRAWS_HEAT55_F",
+			//"MRAWS_HEAT55_F",
 			"MRAAWS_HEAT_XDF",
 			"MRAAWS_HEAT55_XDF",
-			"MRAAWS_HE_NUKE_XDF"
+			"MRAAWS_HE_NUKE_XDF",
+			"MRAAWS_SMART_XDF"
 		};
 		reloadMagazineSound[]=
 		{
@@ -4492,6 +4501,30 @@ class cfgWeapons
 			4,
 			1,
 			10
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
+		};
+		modes[] = {"Single","TopDown"};
+		class TopDown: Single
+		{
+			textureType = "topDown";
+			displayName = "Top-down";
+			minRange = 160;
+			minRangeProbab = 0.6;
+			midRange = 800;
+			midRangeProbab = 0.95;
+			maxRange = 2500;
+			maxRangeProbab = 0.95;
 		};
 		hiddenSelectionsTextures[]=
 		{
