@@ -853,7 +853,7 @@ class CfgCloudlets
 	};
 	class XDF_GuidedSlug_TrailEffect: Default
 	{
-		interval = 0.0002;
+		interval = 0.0005;
 		circleRadius = 0;
 		circleVelocity[] = {0,0,0};
 		particleFSNtieth = 16;
@@ -888,7 +888,7 @@ class CfgCloudlets
 		onTimerScript = "";
 		beforeDestroyScript = "";
 		lifeTimeVar = 0.01;
-		positionVar[] = {0.3,0.3,0.3};
+		positionVar[] = {0.1,0.1,0.1};
 		moveVelocityVar[] = {0.4,0.4,0.4};
 		rotationVelocityVar = 20;
 		sizeVar = 0.15;
@@ -1027,12 +1027,12 @@ class CfgLights
 		daylight = 1;
 		class Attenuation
 		{
-			start = 0.2;
+			start = 0.5;
 			constant = 0.2;
 			linear = 0;
-			quadratic = 20;
+			quadratic = 10;
 			hardlimitStart = 2;
-			hardlimitEnd = 1500;
+			hardlimitEnd = 2000;
 		};
 		brightness = 0.166667;
 	};

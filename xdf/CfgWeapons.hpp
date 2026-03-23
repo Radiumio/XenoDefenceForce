@@ -4720,7 +4720,7 @@ class cfgWeapons
 		fireLightIntensity = 0.5;
 		fireLightDiffuse[] = {0, 0.2, 1};
 		fireLightAmbient[] = {0, 0, 0};
-		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_HEAPRG_Mag_blue_tracer","85Rnd_6mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_LG_APDSRG_Mag_blue_tracer","Object_02_Cluster_Autoseek_Mag"};
+		magazines[] = {"50Rnd_10mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_HEAPRG_Mag_blue_tracer","85Rnd_6mm_APDSRG_Mag_blue_tracer","25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer"};
 		inertia = 1.5;
 		dexterity = 0.7;
 		maxZeroing = 2000;
@@ -6001,39 +6001,6 @@ class cfgWeapons
         {
             magazines[] = {"XDF_CompactSmokeShellOrange"};
 			displayName="CSG-02 Orange";
-        };
-    };
-	class arifle_object_02_Base_F: arifle_MX_Base_F
-    {
-        model = "\A3\Weapons_F\Rifles\MX\MXM_F.p3d";
-        displayName        = "Object 02";
-        class FullAuto;
-    };
-    class arifle_object_02_F: arifle_object_02_Base_F
-    {
-        scope            = 2;
-        scopeArsenal    = 2;
-        cursor = "coil";
-
-        canLock = 2;
-        magazines[] =
-        {
-            Object_02_Cluster_Mag,
-            Object_02_Cluster_Mine_AP_Mag,
-            Object_02_Cluster_Mine_AT_Mag,
-            Object_02_Cluster_Autoseek_Mag,
-            Object_02_Cluster_Chemical_Mag,
-            Object_02_Cluster_Incendiary_Mag,
-            Object_02_Airburst_Mag,
-            Object_02_EMP_Mag,
-            Object_02_Nuke_Mag,
-            Object_02_Chemical_Mag
-        };
-        cmImmunity        = 1;
-        weaponLockDelay    = 0.15;
-        class FullAuto: FullAuto
-        {
-            alternativeFireMode = true;
         };
     };
 };

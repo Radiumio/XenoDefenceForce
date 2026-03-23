@@ -1013,7 +1013,7 @@ class CfgMagazines
 		tracersEvery=1;
 		mass=56;
 	};
-	class 25Rnd_10mm_LG_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	class 25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
 	{
 		author="Radium";
 		scope=2;
@@ -1021,21 +1021,21 @@ class CfgMagazines
 		displaynameshort="10mm SMART";
 		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag_lg.paa";
-		ammo="B_10mm_railshot_lg";
+		ammo="B_10mm_railshot_smart";
 		count=25;
 		tracersEvery=1;
 		mass=72;
 	};
-	class Object_02_Cluster_Autoseek_Mag: 5Rnd_127x108_APDS_Mag
-	{
-		author="Radium";
-		scope=2;
-		displayName="Cluster Autoseek";
-		displaynameshort="AX Tracer";
-		ammo="Object_02_Cluster_Autoseek_Ammo_F";
-		tracersEvery=1;
-		count=100;
-	};
+	//class Object_02_Cluster_Autoseek_Mag: 5Rnd_127x108_APDS_Mag
+	//{
+	//	author="Radium";
+	//	scope=2;
+	//	displayName="Cluster Autoseek";
+	//	displaynameshort="AX Tracer";
+	//	ammo="Object_02_Cluster_Autoseek_Ammo_F";
+	//	tracersEvery=1;
+	//	count=100;
+	//};
 
 	class 10Rnd_93x64_DMR_05_Mag;
 	class 10Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag
