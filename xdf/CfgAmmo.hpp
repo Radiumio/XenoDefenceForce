@@ -543,7 +543,7 @@ class CfgAmmo
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
-		explosionForceCoef=10000;
+		//explosionForceCoef=10000;
 		explosive=1;
 		fuseDistance=70;
 		class CamShakeExplode
@@ -568,7 +568,7 @@ class CfgAmmo
 		cameraViewAvailable=1;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
-		explosionForceCoef=10000;
+		//explosionForceCoef=10000;
 		effectsMissile="XDF_CruiseMissile";
 		model="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
 		proxyShape="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
@@ -606,7 +606,7 @@ class CfgAmmo
 		indirectHitRange=75;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricBigHit";
-		explosionForceCoef=10000;
+		//explosionForceCoef=10000;
 		effectsMissile="XDF_Missile3";
 		class CamShakeExplode
 		{
@@ -735,7 +735,7 @@ class CfgAmmo
 		indirectHitRange=15;
 		CraterEffects="HeavyBombCrater";
 		ExplosionEffects="XDF_ThermobaricHit";
-		explosionForceCoef=10000;
+		//explosionForceCoef=10000;
 		explosive=1;
 		fuseDistance=70;
 		typicalSpeed=1680; // default 1400
