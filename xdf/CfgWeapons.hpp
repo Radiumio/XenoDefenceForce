@@ -4484,7 +4484,7 @@ class cfgWeapons
 
         canLock = 2;
         cmImmunity = 1;
-        weaponLockDelay = 2;
+        weaponLockDelay = 1;
 		magazines[]+=
 		{
 			"MRAAWS_HEAT_XDF",

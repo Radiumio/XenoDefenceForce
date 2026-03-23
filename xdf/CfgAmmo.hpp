@@ -228,16 +228,16 @@ class CfgAmmo
 
 		autoSeekTarget 					= 1;
 		triggerTime 					= 0.001;
-		triggerDistance 				= 200;
+		//triggerDistance 				= 200;
 		triggerSpeedCoef[] 				= {0.001};
 		submunitionParentSpeedCoef = 0;
 		submunitionInitSpeed = 120;
 		submunitionConeAngle 			= 1;
+		submunitionDirectionType 		= "SubmunitionAutoLeveling"
 		submunitionConeType[] 			= {"randomcenter",1}; // amount of units
 
 		manualControl = 1;
 		maxControlRange = 2000;
-		// once it's locked you are fucked up
 		cmImmunity				= 1;
 		irLock 					= 1;
 		airLock 				= 1;
@@ -247,7 +247,7 @@ class CfgAmmo
 		missileLockCone			= 140;
 		missileKeepLockedCone	= 180;
 		missileLockMaxDistance 	= 4000;
-		missileLockMinDistance	= 1;
+		missileLockMinDistance	= 50;
 		missileLockMaxSpeed		= 35;
 
 		flightProfiles[] =
@@ -262,8 +262,8 @@ class CfgAmmo
 		{
 			ascendHeight	= 150;
 			descendDistance	= 180;
-			minDistance		= 180;
-			ascendAngle		= 50.0;
+			minDistance		= 5;
+			ascendAngle		= 50;
 		};
 
 		class Components
@@ -319,8 +319,10 @@ class CfgAmmo
 		indirectHit=80;
 		indirectHitRange=4;
 		explosive=0.8;
-		lockSeekRadius				= 700;
-		triggerDistance 				= 500;
+		lockSeekRadius = 700;
+		autoSeekTarget = 1;
+		//triggerTime=3;
+		triggerDistance 				= 150;
 		submunitionConeAngle 			= 55;
 		submunitionConeType[] 			= {"randomcenter",8}; // amount of units
 		triggerSpeedCoef[] 				= {0.01,0.55};
@@ -339,7 +341,6 @@ class CfgAmmo
 		};
 
 		weaponLockSystem		= "1+2+4+8+16";
-		// once it's locked you are fucked up
 		cmImmunity				= 1;
 		irLock 					= 1;
 		airLock 				= 1;
@@ -365,7 +366,7 @@ class CfgAmmo
 		missileLockCone				= 124;
 		missileKeepLockedCone		= 180;
 		missileLockMaxDistance		= 4000;
-		missileLockMinDistance		= 10;
+		missileLockMinDistance		= 50;
 		missileLockMaxSpeed			= 80;
 
 		effectsMissile = "XDF_GuidedSlug_Trail";
@@ -385,8 +386,8 @@ class CfgAmmo
 		{
 			ascendHeight	= 150;
 			descendDistance	= 180;
-			minDistance		= 180;
-			ascendAngle		= 50.0;
+			minDistance		= 5;
+			ascendAngle		= 50;
 		};
 
 		class Components
@@ -453,7 +454,6 @@ class CfgAmmo
 		missileKeepLockedCone	= 180;
 
 		weaponLockSystem		= "1+2+4+8+16";
-		// once it's locked you are fucked up
 		cmImmunity				= 1;
 		irLock 					= 1;
 		airLock 				= 1;
@@ -463,18 +463,6 @@ class CfgAmmo
 		effectsMissile = "XDF_GuidedSlug_Trail";
 
 		lockSeekDistanceFromParent = 120;
-
-		flightProfiles[] =
-		{
-			TopDown
-		};
-		class TopDown
-		{
-			ascendHeight	= 100.0;
-			descendDistance	= 200.0;
-			minDistance		= 20.0;
-			ascendAngle		= 90.0;
-		};
 
 		class Components
 		{
@@ -1254,7 +1242,6 @@ class CfgAmmo
 
 		manualControl = 1;
 		maxControlRange = 2000;
-		// once it's locked you are fucked up
 		cmImmunity				= 1;
 		irLock 					= 1;
 		airLock 				= 1;
@@ -1358,7 +1345,6 @@ class CfgAmmo
 		muzzleEffect = "";
 
 		weaponLockSystem		= "1+2+4+8+16";
-		// once it's locked you are fucked up
 		cmImmunity				= 1;
 		irLock 					= 1;
 		airLock 				= 1;
