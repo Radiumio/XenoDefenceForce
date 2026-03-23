@@ -458,7 +458,7 @@ class CfgVehicles
 			};
 			class XDF_Splotch
 			{
-				displayName="Xeno Defence Force - Red Splotch";
+				displayName="Xeno Defence Force - Splotch";
 				author="Radium";
 				factions[]=
 				{
@@ -567,7 +567,7 @@ class CfgVehicles
 			};
 			class XDF_Splotch
 			{
-				displayName="Xeno Defence Force - Red Splotch";
+				displayName="Xeno Defence Force - Splotch";
 				author="Radium";
 				factions[]=
 				{
