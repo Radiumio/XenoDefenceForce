@@ -248,7 +248,7 @@ class CfgAmmo
 		missileKeepLockedCone	= 180;
 		missileLockMaxDistance 	= 4000;
 		missileLockMinDistance	= 50;
-		missileLockMaxSpeed		= 35;
+		missileLockMaxSpeed		= 200;
 
 		flightProfiles[] =
 		{
@@ -271,38 +271,39 @@ class CfgAmmo
 					// can lock everything
 					class NVSensorComponent : SensorTemplateNV
 					{
-						SENS_RANGES_WVR(8000,8000)
-						maxTrackableSpeed = 30;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 200;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class LaserSensorComponent : SensorTemplateLaser
 					{
-						SENS_RANGES_BVR(8000,8000)
-						maxTrackableSpeed = 30;
+						SENS_RANGES_BVR(2500,2500)
+						maxTrackableSpeed = 150;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class ManSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class IRSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 150;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class VisualSensorComponent : SensorTemplateVisual
 					{
-						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
+						nightRangeCoef = 1; // full range at night; if undef
 					};
 				};
 			};
@@ -314,7 +315,7 @@ class CfgAmmo
 		hit=150;
 		indirectHit=80;
 		indirectHitRange=4;
-		explosive=0.8;
+		explosive=1;
 		lockSeekRadius = 700;
 		autoSeekTarget = 1;
 		//triggerTime=3;
@@ -334,7 +335,7 @@ class CfgAmmo
 			"\xdf\sounds\shot\guided_shot_fly",
 			4,
 			1,
-			180
+			500
 		};
 
 		weaponLockSystem		= "1+2+4+8+16";
@@ -392,36 +393,36 @@ class CfgAmmo
 					// can lock everything
 					class NVSensorComponent : SensorTemplateNV
 					{
-						SENS_RANGES_WVR(4000,4000)
-						maxTrackableSpeed = 30;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 200;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class LaserSensorComponent : SensorTemplateLaser
 					{
-						SENS_RANGES_BVR(4000,4000)
-						maxTrackableSpeed = 30;
+						SENS_RANGES_BVR(2500,2500)
+						maxTrackableSpeed = 150;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class ManSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(4000,4000)
-						maxTrackableSpeed = 15;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class IRSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(4000,4000)
-						maxTrackableSpeed = 15;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 150;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class VisualSensorComponent : SensorTemplateVisual
 					{
-						SENS_RANGES_WVR(4000,4000)
-						maxTrackableSpeed = 15;
+						SENS_RANGES_WVR(2500,2500)
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 						nightRangeCoef = 1; // full range at night; if undef
@@ -432,11 +433,11 @@ class CfgAmmo
 	};
 	class S_MRAAWS_SMART_SubTerminal1_XDF: M_Mo_155mm_AT
 	{
-		hit = 250;
-		indirectHit = 50;
-		indirectHitRange = 2;
+		hit = 500;
+		indirectHit = 500;
+		indirectHitRange = 3;
 		warheadName="HE";
-		explosive=0.8;
+		explosive=1;
 		soundFly[]=
 		{
 			"\xdf\sounds\shot\hive_round_init",
@@ -472,35 +473,35 @@ class CfgAmmo
 					class NVSensorComponent : SensorTemplateNV
 					{
 						SENS_RANGES_WVR(8000,8000)
-						maxTrackableSpeed = 30;
+						maxTrackableSpeed = 200;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class LaserSensorComponent : SensorTemplateLaser
 					{
 						SENS_RANGES_BVR(8000,8000)
-						maxTrackableSpeed = 30;
+						maxTrackableSpeed = 150;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class ManSensorComponent : SensorTemplateMan
 					{
 						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class IRSensorComponent : SensorTemplateMan
 					{
 						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						maxTrackableSpeed = 150;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class VisualSensorComponent : SensorTemplateVisual
 					{
 						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 						nightRangeCoef = 1; // full range at night; if undef
@@ -527,7 +528,7 @@ class CfgAmmo
 					class ManSensorComponent : SensorTemplateMan
 					{
 						SENS_RANGES_WVR(2000,2000)
-						maxTrackableSpeed = 15;
+						maxTrackableSpeed = 50;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
@@ -1396,35 +1397,35 @@ class CfgAmmo
 					// can lock everything
 					class NVSensorComponent : SensorTemplateNV
 					{
-						SENS_RANGES_WVR(4000,4000)
+						SENS_RANGES_WVR(2500,2500)
 						maxTrackableSpeed = 30;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class LaserSensorComponent : SensorTemplateLaser
 					{
-						SENS_RANGES_BVR(4000,4000)
+						SENS_RANGES_BVR(2500,2500)
 						maxTrackableSpeed = 30;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class ManSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(4000,4000)
+						SENS_RANGES_WVR(2500,2500)
 						maxTrackableSpeed = 15;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class IRSensorComponent : SensorTemplateMan
 					{
-						SENS_RANGES_WVR(4000,4000)
+						SENS_RANGES_WVR(2500,2500)
 						maxTrackableSpeed = 15;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 					class VisualSensorComponent : SensorTemplateVisual
 					{
-						SENS_RANGES_WVR(4000,4000)
+						SENS_RANGES_WVR(2500,2500)
 						maxTrackableSpeed = 15;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
