@@ -794,6 +794,7 @@ class cfgWeapons
 			1,
 			10
 		};
+		mass=80;
 		magazineWell[] +=
 		{
 			"MX_65x39_XDF",
@@ -809,6 +810,7 @@ class cfgWeapons
 		displayName="XDF ACR-X4AR 3GL";
 		descriptionShort = "AX Assault Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series. The X4AR sub-variants sport a heavier barrel and stock for better accuracy and range.<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade<br/>Grenade Launcher Attachment";
 		baseWeapon="ef_arifle_MXAR_GL_XDF";
+		mass=120;
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa",
