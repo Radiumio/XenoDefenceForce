@@ -4,7 +4,7 @@ class CfgVehicles
 	class Extraterrestrial_Mothership_F: House_F
 	{
 		author="Radium";
-		editorPreview="";
+		editorPreview="\xdf\previews\structures\et_preview.jpg";
 		scope=2;
 		scopeCurator=2;
 		model="\extraterrestrials\models\alien_mothership\extraterrestrial_mothership.p3d";
