@@ -9,5 +9,8 @@ class CfgVehicles
 		scopeCurator=2;
 		model="\extraterrestrials\models\alien_mothership\extraterrestrial_mothership.p3d";
 		displayName="Extraterrestrial Mothership";
+		editorCategory="ET_Technology";
+		editorSubcategory="ET_Vessels";
+		icon="\extraterrestrials\models\alien_mothership\et_vessel_icon.paa";
 	};
 };
