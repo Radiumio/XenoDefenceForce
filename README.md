@@ -16,11 +16,13 @@ As of the current release, the project includes:
 
 - **All XDF weapons** have new reload sounds specifically for them, for a punchier feel when paired with sound mods like JSRS.
 
- - **Special anti-xeno munitions** for certain XDF vehicles - APFSDS-AX rounds for tanks, AX missiles, new AX vehicle-mounted miniguns, and AX magazines for all XDF weapons. All AX rounds have blue tracers.
+- **Special anti-xeno munitions** for certain XDF vehicles - APFSDS-AX rounds for tanks, AX missiles, new AX vehicle-mounted miniguns, and AX magazines for all XDF weapons. All AX rounds have blue tracers.
 
- - **XDF insignias** and **flags** to represent the various divisions and groups.
+- **XDF insignias** and **flags** to represent the various divisions and groups.
+ 
+- A **fully configured faction** with 30+ units, groups and crewed vehicles for use in missions.
 
- - A **fully configured faction** with 30+ units, groups and crewed vehicles for use in missions.
+- An **Extraterrestrial Mothership** prop.
 
 - On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there is a fully custom infantry weapon **(the Mantis railgun)** and a fully custom scope **(the Tharsis)** to fit the high-tech needs of the XDF.
 
