@@ -902,7 +902,140 @@ class CfgCloudlets
 		angle = 0;
 		position[] = {0,0,0};
 	};
-	
+	class XDF_Fae_Shockwave: Default
+	{
+		interval = 0.002;
+		circleRadius = 50;
+		circleVelocity[] = {0,0,500};
+		particleFSNtieth = 16;
+		particleFSIndex = 7;
+		particleFSFrameCount = 1;
+		particleFSLoop = 0;
+		angleVar = 360;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 0.15;
+		moveVelocity[] = {0,0,0};
+		rotationVelocity = 0;
+		weight = 10.1;
+		volume = 7.9;
+		rubbing = 0.3;
+		size[] = {24};
+		color[] = {{1,1,1,0.03}};
+		animationSpeed[] = {1};
+		randomDirectionPeriod = 0.02;
+		randomDirectionIntensity = 0.02;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.25;
+		positionVar[] = {2,2,2};
+		moveVelocityVar[] = {0,0,0};
+		rotationVelocityVar = 20;
+		sizeVar = 0.25;
+		colorVar[] = {0.05,0.05,0.05,0.05};
+		randomDirectionPeriodVar = 0.05;
+		randomDirectionIntensityVar = 0.01;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,10,0};
+	};
+	class XDF_Shockwave_Refract: Default
+	{
+		interval = 0.001;
+		circleRadius = 30;
+		circleVelocity[] = {0,0,500};
+		particleFSNtieth = 1;
+		particleFSIndex = 0;
+		particleFSFrameCount = 1;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Refract.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 0.5;
+		moveVelocity[] = {0,0.6,0};
+		rotationVelocity = 1;
+		weight = 0.05;
+		volume = 0.04;
+		rubbing = 0.05;
+		size[] = {6,6,6};
+		color[] =
+		{
+				{0.6,0.6,0.6,0.2},
+				{0.7,0.7,0.7,0.2},
+				{0.8,0.8,0.8,0.1},
+				{1,1,1,0}
+		};
+		animationSpeed[] = {1.5,0.5};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 8;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.3;
+		positionVar[] = {0.1,0.2,0.1};
+		moveVelocityVar[] = {50,50,50};
+		rotationVelocityVar = 0;
+		sizeVar = 6;
+		colorVar[] = {0,0,0,0.1};
+		randomDirectionPeriodVar = 0.2;
+		randomDirectionIntensityVar = 0.05;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_Fae_Kickup: Default
+	{
+		interval = 0.0005;
+		circleRadius = 5;
+		circleVelocity[] = {0,0,30};
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 9;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 15;
+		moveVelocity[] = {0,80,0};
+		rotationVelocity = 0;
+		weight = 12;
+		volume = 1;
+		rubbing = 0.3;
+		size[] = {3,1.5};
+		color[] =
+		{
+				{0,0,0,0.3},
+				{0.2,0.2,0.2,0}
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 8;
+		randomDirectionIntensity = 1;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 15;
+		positionVar[] = {0.1,0,0.1};
+		moveVelocityVar[] = {12,40,12};
+		rotationVelocityVar = 5;
+		sizeVar = 2;
+		colorVar[] = {0.1,0.1,0.1,0.1};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
 };
 
 class CfgLights
@@ -1111,6 +1244,16 @@ class XDF_ThermobaricHit
 		lifeTime=3;
 		qualityLevel=2;
 	};
+	class thermo_kickup
+	{
+		simulation="particles";
+		type="XDF_Fae_Kickup";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
 	class thermo_sparks
 	{
 		simulation="particles";
@@ -1119,6 +1262,26 @@ class XDF_ThermobaricHit
 		intensity=1;
 		interval=1;
 		lifeTime=3;
+		qualityLevel=2;
+	};
+	class fae_shockwave
+	{
+		simulation="particles";
+		type="XDF_Fae_Shockwave";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=0.5;
+		qualityLevel=2;
+	};
+	class fae_shockwave_refract
+	{
+		simulation="particles";
+		type="XDF_Shockwave_Refract";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=1;
 		qualityLevel=2;
 	};
 };
@@ -1205,6 +1368,16 @@ class XDF_ThermobaricBigHit
 		lifeTime=3;
 		qualityLevel=2;
 	};
+	class thermo_kickup
+	{
+		simulation="particles";
+		type="XDF_Fae_Kickup";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
 	class thermo_sparks
 	{
 		simulation="particles";
@@ -1213,6 +1386,26 @@ class XDF_ThermobaricBigHit
 		intensity=1;
 		interval=1;
 		lifeTime=3;
+		qualityLevel=2;
+	};
+	class fae_shockwave
+	{
+		simulation="particles";
+		type="XDF_Fae_Shockwave";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=0.5;
+		qualityLevel=2;
+	};
+	class fae_shockwave_refract
+	{
+		simulation="particles";
+		type="XDF_Shockwave_Refract";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=1;
 		qualityLevel=2;
 	};
 };

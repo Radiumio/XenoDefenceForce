@@ -84,4 +84,46 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_pride.paa";
 		textureVehicle = "";
 	};
+	class xdf_radium
+	{
+		displayName = "XDF Operative Radium";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_radium.paa";
+		textureVehicle = "";
+	};
+	class xdf_kao
+	{
+		displayName = "XDF Operative Kao";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_kao.paa";
+		textureVehicle = "";
+	};
+	class xdf_shieldmaiden
+	{
+		displayName = "XDF Operative Shieldmaiden";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_shieldmaiden.paa";
+		textureVehicle = "";
+	};
+	class xdf_coremanite
+	{
+		displayName = "XDF Operative Coremanite";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_coremanite.paa";
+		textureVehicle = "";
+	};
+	class xdf_maple
+	{
+		displayName = "XDF Operative Maple";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_maple.paa";
+		textureVehicle = "";
+	};
+	class xdf_cybern
+	{
+		displayName = "XDF Operative Cybern";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_cybern.paa";
+		textureVehicle = "";
+	};
 };
