@@ -374,6 +374,7 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_SP_Suit";
+			uniformType="Neopren";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -398,6 +399,7 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_SP_Suit_Winter";
+			uniformType="Neopren";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -597,6 +599,7 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Female_SP_Suit";
+			uniformType="Neopren";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -621,6 +624,7 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Female_SP_Suit_Winter";
+			uniformType="Neopren";
 			containerClass="Supply40";
 			mass=40;
 		};
