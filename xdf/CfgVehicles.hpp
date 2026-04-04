@@ -30421,6 +30421,21 @@ class CfgVehicles
 			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_co.paa"
 		};
 	};
+	class B_XDF_Jet_Pilot_Suit_Winter: B_Pilot_F
+	{
+		author="Radium";
+		scope=1;
+		scopeCurator=0;
+		uniformClass="U_XDF_Jet_Pilot_Suit_Winter";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_Winter_co.paa"
+		};
+	};
 	class B_XDF_CBRN_Suit: B_CBRN_Man_Oversuit_01_MTP_F
 	{
 		author="Radium";

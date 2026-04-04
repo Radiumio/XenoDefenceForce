@@ -244,8 +244,8 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		scopeArsenal=2;
-		displayName="XDF Experimental Jet Suit";
-		descriptionShort="Experimental XDF jet suit designed to maximise pilot survival when operating aircraft capable of higher-than-normal G-load."
+		displayName="XDF Advanced Pilot Suit";
+		descriptionShort="Advanced XDF pilot suit designed to maximise pilot survival when operating aircraft capable of higher-than-normal G-load."
 		hiddenSelections[]=
 		{
 			"camo"
@@ -258,6 +258,29 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="B_XDF_Jet_Pilot_Suit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_XDF_Jet_Pilot_Suit_Winter: U_B_PilotCoveralls
+	{
+		author="Radium";
+		scope=2;
+		scopeArsenal=2;
+		displayName="XDF Advanced Pilot Suit (Winter)";
+		descriptionShort="Advanced XDF pilot suit designed to maximise pilot survival when operating aircraft capable of higher-than-normal G-load. Winterized variant."
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\uniforms\XDF_Jet_Pilot_Suit_Winter_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_XDF_Jet_Pilot_Suit_Winter";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -2317,8 +2340,19 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Experimental Jet Helmet";
-		descriptionShort="Armor Level III<br/>Experimental XDF jet helmet designed to be paired with aircraft AR interfaces, providing superior visiblity and performance."
+		displayName="XDF Advanced Pilot Helmet";
+		descriptionShort="Armor Level III<br/>Advanced XDF pilot helmet designed to be paired with aircraft AR interfaces, providing superior visiblity and performance."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Jet_Pilot_Helmet_co.paa"
+		};
+	};
+	class H_XDF_Jet_Pilot_Helmet_Winter: H_PilotHelmetFighter_B
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Advanced Pilot Helmet (Winter)";
+		descriptionShort="Armor Level III<br/>Advanced XDF pilot helmet designed to be paired with aircraft AR interfaces, providing superior visiblity and performance. Winterized variant."
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Jet_Pilot_Helmet_co.paa"
