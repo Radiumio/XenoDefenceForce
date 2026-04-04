@@ -1,3 +1,10 @@
+class CfgMarkerClasses
+{
+	class XDF_Markers
+	{
+		displayName="Xeno Defence Force";
+	};
+};
 class CfgMarkers
 {
 	class Flag;
@@ -7,10 +14,11 @@ class CfgMarkers
 		icon="\xdf\markers\flag_XDF.paa";
 		texture="\xdf\markers\flag_XDF.paa";
 		size=64;
-		scope=1;
+		scope=2;
 		shadow=0;
 		color[]={1,1,1,1};
-		markerClass="Flags";
+		side=1;
+		markerClass="XDF_Markers";
 	};
 	class flag_Xeno: Flag
 	{
@@ -18,10 +26,10 @@ class CfgMarkers
 		icon="\xdf\markers\flag_Xeno.paa";
 		texture="\xdf\markers\flag_Xeno.paa";
 		size=64;
-		scope=1;
+		scope=2;
 		shadow=0;
 		color[]={1,1,1,1};
-		markerClass="Flags";
+		markerClass="XDF_Markers";
 	};
 	class xdf_alien: Flag
 	{
@@ -32,7 +40,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_wolf: Flag
 	{
@@ -43,7 +51,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_symbol: Flag
 	{
@@ -54,7 +62,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_warning: Flag
 	{
@@ -65,7 +73,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_mothership: Flag
 	{
@@ -76,7 +84,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_abduction: Flag
 	{
@@ -87,7 +95,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_bomb: Flag
 	{
@@ -98,7 +106,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_attack: Flag
 	{
@@ -109,7 +117,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_xenoresearch: Flag
 	{
@@ -120,7 +128,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_ufo: Flag
 	{
@@ -131,7 +139,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xdf_dome: Flag
 	{
@@ -142,7 +150,7 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
 	};
 	class xeno_symbol: Flag
 	{
@@ -153,6 +161,149 @@ class CfgMarkers
 		scope=2;
 		shadow=1;
 		color[]={1,1,1,1};
-		markerClass="Military";
+		markerClass="XDF_Markers";
+	};
+	class map_TF_Lotus: Flag
+	{
+		name="Task Force Lotus";
+		icon="\xdf\markers\map_TF_Lotus.paa";
+		texture="\xdf\markers\map_TF_Lotus.paa";
+		size=64;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_TF_Ion: Flag
+	{
+		name="Task Force Ion";
+		icon="\xdf\markers\map_TF_Ion.paa";
+		texture="\xdf\markers\map_TF_Ion.paa";
+		size=64;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_TF_Artificer: Flag
+	{
+		name="Task Force Artificer";
+		icon="\xdf\markers\map_TF_Artificer.paa";
+		texture="\xdf\markers\map_TF_Artificer.paa";
+		size=64;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_TF_Ceto: Flag
+	{
+		name="Task Force Ceto";
+		icon="\xdf\markers\map_TF_Ceto.paa";
+		texture="\xdf\markers\map_TF_Ceto.paa";
+		size=64;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_TF_Damocles: Flag
+	{
+		name="Task Force Damocles";
+		icon="\xdf\markers\map_TF_Damocles.paa";
+		texture="\xdf\markers\map_TF_Damocles.paa";
+		size=64;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_haz_biological: Flag
+	{
+		name="Hazard - Biological";
+		icon="\xdf\markers\xdf_haz_biological.paa";
+		texture="\xdf\markers\xdf_haz_biological.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_haz_chemical: Flag
+	{
+		name="Hazard - Chemical";
+		icon="\xdf\markers\xdf_haz_chemical.paa";
+		texture="\xdf\markers\xdf_haz_chemical.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_haz_radioactive: Flag
+	{
+		name="Hazard - Radioactive";
+		icon="\xdf\markers\xdf_haz_radioactive.paa";
+		texture="\xdf\markers\xdf_haz_radioactive.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_haz_explosive: Flag
+	{
+		name="Hazard - Explosive";
+		icon="\xdf\markers\xdf_haz_explosive.paa";
+		texture="\xdf\markers\xdf_haz_explosive.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_haz_chemical_weapon: Flag
+	{
+		name="Hazard - Chemical Weapon";
+		icon="\xdf\markers\xdf_haz_chemical_weapon.paa";
+		texture="\xdf\markers\xdf_haz_chemical_weapon.paa";
+		size=32;
+		scope=2;
+		shadow=1;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_et_portal: Flag
+	{
+		name="Extraterrestrial Portal";
+		icon="\xdf\markers\xdf_et_portal.paa";
+		texture="\xdf\markers\xdf_et_portal.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_et_temple: Flag
+	{
+		name="Extraterrestrial Temple";
+		icon="\xdf\markers\xdf_et_temple.paa";
+		texture="\xdf\markers\xdf_et_temple.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_et_fortress: Flag
+	{
+		name="Extraterrestrial Fortress";
+		icon="\xdf\markers\xdf_et_fortress.paa";
+		texture="\xdf\markers\xdf_et_fortress.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
 	};
 };
