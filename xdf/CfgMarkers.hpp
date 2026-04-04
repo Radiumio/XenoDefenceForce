@@ -38,7 +38,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_alien.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -49,7 +49,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_wolf.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -60,7 +60,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_symbol.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -71,7 +71,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_warning.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -82,7 +82,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_mothership.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -93,7 +93,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_abduction.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -104,7 +104,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_bomb.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -115,7 +115,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_attack.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -126,7 +126,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_xenoresearch.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -137,7 +137,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_ufo.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -148,7 +148,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_dome.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -159,7 +159,7 @@ class CfgMarkers
 		texture="\xdf\markers\xeno_symbol.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -170,7 +170,7 @@ class CfgMarkers
 		texture="\xdf\markers\map_TF_Lotus.paa";
 		size=64;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -181,7 +181,7 @@ class CfgMarkers
 		texture="\xdf\markers\map_TF_Ion.paa";
 		size=64;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -192,7 +192,7 @@ class CfgMarkers
 		texture="\xdf\markers\map_TF_Artificer.paa";
 		size=64;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -203,7 +203,7 @@ class CfgMarkers
 		texture="\xdf\markers\map_TF_Ceto.paa";
 		size=64;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -214,7 +214,7 @@ class CfgMarkers
 		texture="\xdf\markers\map_TF_Damocles.paa";
 		size=64;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -225,7 +225,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_haz_biological.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -236,7 +236,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_haz_chemical.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -247,7 +247,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_haz_radioactive.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -258,7 +258,7 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_haz_explosive.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
@@ -269,7 +269,18 @@ class CfgMarkers
 		texture="\xdf\markers\xdf_haz_chemical_weapon.paa";
 		size=32;
 		scope=2;
-		shadow=1;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_haz_fire: Flag
+	{
+		name="Hazard - Fire";
+		icon="\xdf\markers\xdf_haz_fire.paa";
+		texture="\xdf\markers\xdf_haz_fire.paa";
+		size=32;
+		scope=2;
+		shadow=0;
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
