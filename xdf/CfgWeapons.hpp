@@ -2355,7 +2355,7 @@ class cfgWeapons
 		descriptionShort="Armor Level III<br/>Advanced XDF pilot helmet designed to be paired with aircraft AR interfaces, providing superior visiblity and performance. Winterized variant."
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Jet_Pilot_Helmet_co.paa"
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Jet_Pilot_Helmet_Winter_co.paa"
 		};
 	};
 	class H_XDF_Helmet_Heli_Black: H_PilotHelmetHeli_B
