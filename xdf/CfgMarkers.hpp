@@ -317,4 +317,59 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class xdf_fob: Flag
+	{
+		name="FOB";
+		icon="\xdf\markers\xdf_fob.paa";
+		texture="\xdf\markers\xdf_fob.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_sectorDiamond: Flag
+	{
+		name="Sector - Diamond";
+		icon="\xdf\markers\xdf_sectorDiamond.paa";
+		texture="\xdf\markers\xdf_sectorDiamond.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_sectorChevron: Flag
+	{
+		name="Sector - Chevron";
+		icon="\xdf\markers\xdf_sectorChevron.paa";
+		texture="\xdf\markers\xdf_sectorChevron.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_sectorSecure: Flag
+	{
+		name="Sector - Secure";
+		icon="\xdf\markers\xdf_sectorSecure.paa";
+		texture="\xdf\markers\xdf_sectorSecure.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class xdf_sectorLost: Flag
+	{
+		name="Sector - Lost";
+		icon="\xdf\markers\xdf_sectorLost.paa";
+		texture="\xdf\markers\xdf_sectorLost.paa";
+		size=32;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 };
