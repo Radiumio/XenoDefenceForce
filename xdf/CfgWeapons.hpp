@@ -2328,6 +2328,18 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Wolf.paa"
 		};
 	};
+	class H_XDF_Beret_Roland: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Roland)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Roland's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Roland.paa"
+		};
+	};
 	class H_XDF_Beret_Research: H_Beret_02
 	{
 		author="Radium";

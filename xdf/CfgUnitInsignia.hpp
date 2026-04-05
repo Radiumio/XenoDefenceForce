@@ -126,4 +126,11 @@ class CfgUnitInsignia
 		texture = "\xdf\insignias\xdf_cybern.paa";
 		textureVehicle = "";
 	};
+	class xdf_roland
+	{
+		displayName = "XDF Operative Roland";
+		author = "Radium";
+		texture = "\xdf\insignias\xdf_roland.paa";
+		textureVehicle = "";
+	};
 };

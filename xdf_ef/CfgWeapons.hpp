@@ -349,6 +349,31 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_winter_Shieldmaiden.paa"
 		};
 	};
+	class V_XDF_AAV_Support_Roland: EF_V_AAV_Support_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Support, Roland)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.<br/>Personalised for Operative Roland.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_co_Roland.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_AAV_Support_Winter_Roland: V_XDF_AAV_Support_Shieldmaiden
+	{
+		author="Radium";
+		displayName="XDF Marine Vest (Support, Roland, Winter)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant. Winter camo.<br/>Personalised for Operative Roland.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_winter_Roland.paa"
+		};
+	};
 	class EF_V_AAV_TL_Black;
 	class V_XDF_AAV_TL: EF_V_AAV_TL_Black
 	{

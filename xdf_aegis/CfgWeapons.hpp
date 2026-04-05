@@ -564,6 +564,26 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HeadsetWest_XDF_Winter_CO.paa"
 		};
 	};
+	class Aegis_H_Helmet_FASTMT_Headset_Roland_XDF_F: Aegis_H_Helmet_FASTMT_Headset_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Roland)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_Roland_CO.paa"
+		};
+	};
+	class Aegis_H_Helmet_FASTMT_Headset_Winter_Roland_XDF_F: Aegis_H_Helmet_FASTMT_Headset_blk_F
+	{
+		author = "Aegis Team & Radium";
+		scope = 2;
+		displayName = "XDF Operator Helmet (Roland, Winter)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_aegis\retextures\xdf_uniform\headgear\H_HelmetFASTMT_XDF_Roland_Winter_CO.paa"
+		};
+	};
 	class H_HelmetSpecter_black_F;
 	class H_HelmetSpecter_XDF_F: H_HelmetSpecter_black_F
 	{
