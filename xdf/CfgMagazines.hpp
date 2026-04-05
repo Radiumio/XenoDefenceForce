@@ -41,7 +41,7 @@ class CfgMagazines
 		scope=2;
 		displayName="9M135 Experimental HEAT";
 		displayNameShort="EXP-HEAT";
-		ammo="M_Vorona_FAE_XDF";
+		ammo="M_Vorona_HEAT_XDF";
 		mass=150;
 		count=1;
 		initSpeed=150;

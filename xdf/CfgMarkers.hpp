@@ -66,7 +66,7 @@ class CfgMarkers
 	};
 	class xdf_warning: Flag
 	{
-		name="Xeno Hazard";
+		name="Hazard";
 		icon="\xdf\markers\xdf_warning.paa";
 		texture="\xdf\markers\xdf_warning.paa";
 		size=32;
@@ -77,7 +77,7 @@ class CfgMarkers
 	};
 	class xdf_mothership: Flag
 	{
-		name="Xeno Mothership";
+		name="Extraterrestrial Mothership";
 		icon="\xdf\markers\xdf_mothership.paa";
 		texture="\xdf\markers\xdf_mothership.paa";
 		size=32;
@@ -88,7 +88,7 @@ class CfgMarkers
 	};
 	class xdf_abduction: Flag
 	{
-		name="Xeno Abduction";
+		name="Extraterrestrial Abduction";
 		icon="\xdf\markers\xdf_abduction.paa";
 		texture="\xdf\markers\xdf_abduction.paa";
 		size=32;
@@ -99,7 +99,7 @@ class CfgMarkers
 	};
 	class xdf_bomb: Flag
 	{
-		name="Xeno Anti-Matter Bomb";
+		name="Extraterrestrial Anti-Matter Bomb";
 		icon="\xdf\markers\xdf_bomb.paa";
 		texture="\xdf\markers\xdf_bomb.paa";
 		size=32;
@@ -110,7 +110,7 @@ class CfgMarkers
 	};
 	class xdf_attack: Flag
 	{
-		name="Xeno Attack";
+		name="Extraterrestrial Attack";
 		icon="\xdf\markers\xdf_attack.paa";
 		texture="\xdf\markers\xdf_attack.paa";
 		size=32;
@@ -132,7 +132,7 @@ class CfgMarkers
 	};
 	class xdf_ufo: Flag
 	{
-		name="Xeno UFO";
+		name="Extraterrestrial UFO";
 		icon="\xdf\markers\xdf_ufo.paa";
 		texture="\xdf\markers\xdf_ufo.paa";
 		size=32;
@@ -143,7 +143,7 @@ class CfgMarkers
 	};
 	class xdf_dome: Flag
 	{
-		name="Xeno Shield Dome";
+		name="Extraterrestrial Shield Dome";
 		icon="\xdf\markers\xdf_dome.paa";
 		texture="\xdf\markers\xdf_dome.paa";
 		size=32;
