@@ -334,6 +334,54 @@ class CfgCloudlets
 		position[] = {0,0,0};
 	};
 
+	class XDF_AlienMine_Explosion: Default
+	{
+		interval = 0.01;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 0;
+		particleFSFrameCount = 32;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 2;
+		moveVelocity[] = {0,1,0};
+		rotationVelocity = 0;
+		weight = 50;
+		volume = 5;
+		rubbing = 0.1;
+		size[] = {8,6,6,3};
+		color[] =
+		{
+				{0.4,0,0,-10},
+				{0.469034,0.103407,1,-28.9301},
+				{0.336079,0,1,0},
+				{0.254492,0,1,1}
+		};
+		animationSpeed[] = {1};
+		randomDirectionPeriod = 0.2;
+		randomDirectionIntensity = 0.5;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0;
+		positionVar[] = {1,1,1};
+		moveVelocityVar[] = {2,6,2};
+		rotationVelocityVar = 15;
+		sizeVar = 0.5;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
 	class XDF_ProtoGrenade_Sparks: Default
 	{
 		interval = 0.003;
@@ -363,6 +411,48 @@ class CfgCloudlets
 		lifeTimeVar = 0.6;
 		positionVar[] = {0.3,0.2,0.3};
 		moveVelocityVar[] = {10,3,10};
+		rotationVelocityVar = 2;
+		sizeVar = 0;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_AlienMine_Sparks: Default
+	{
+		interval = 0.003;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 13;
+		particleFSFrameCount = 2;
+		particleFSLoop = 0;
+		angleVar = 360;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 2;
+		moveVelocity[] = {0,6,0};
+		rotationVelocity = 1;
+		weight = 24;
+		volume = 8;
+		rubbing = 0.4;
+		size[] = {0.2,0.5,0.8,0.8,0.8,0.8,0.6,0.4,0.2,0};
+		color[] = {{0.8,0.1,0.2,1}};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0;
+		randomDirectionIntensity = 0;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.6;
+		positionVar[] = {0.3,0.2,0.3};
+		moveVelocityVar[] = {20,3,20};
 		rotationVelocityVar = 2;
 		sizeVar = 0;
 		colorVar[] = {0,0,0,0};
@@ -418,6 +508,153 @@ class CfgCloudlets
 		colorVar[] = {0,0,0,0};
 		randomDirectionPeriodVar = 0;
 		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_AlienMine_Dust: Default
+	{
+		interval = 0.001;
+		circleRadius = 5;
+		circleVelocity[] = {1,1,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 12;
+		particleFSFrameCount = 13;
+		particleFSLoop = 0;
+		angleVar = 0;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 4;
+		moveVelocity[] = {0,0.2,0};
+		rotationVelocity = 0;
+		weight = 0.0525;
+		volume = 0.04;
+		rubbing = 0.05;
+		size[] = {1.6,3.5};
+		color[] =
+		{
+				{0.9,0.1,0.1,0.323992},
+				{0.8,0.,0,0.133624},
+				{0.9,0,0.2,0.106429},
+				{1,0,0,0.05},
+				{0,0,0.4,0.0187995},
+				{0,0,0.4,0}
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.1;
+		randomDirectionIntensity = 0.05;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 1;
+		positionVar[] = {2,0.2,2};
+		moveVelocityVar[] = {12,0.15,12};
+		rotationVelocityVar = 20;
+		sizeVar = 0.2;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_AlienMine_Jump: Default
+	{
+		interval = 0.0008;
+		circleRadius = 0.001;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 7;
+		particleFSFrameCount = 48;
+		particleFSLoop = 1;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 3;
+		moveVelocity[] = {0,0,0};
+		rotationVelocity = 0;
+		weight = 0.52;
+		volume = 0.4;
+		rubbing = 0.4;
+		size[] = {0.2,0.2,0.2,0.2};
+		color[] =
+		{
+				{0,0,1,0.05},
+				{1,0,0.8,0.05},
+				{0.2,0.3,1,0.05},
+				{1,1,1,0.05},
+				{0.2,0.5,1,0.05}
+		};
+		animationSpeed[] = {1.5,0.5,0.3,0.25,0.25};
+		randomDirectionPeriod = 0.2;
+		randomDirectionIntensity = 0.1;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 1;
+		positionVar[] = {0.1,0.1,0.1};
+		moveVelocityVar[] = {0.45,0,0.45};
+		rotationVelocityVar = 10;
+		sizeVar = 0.08;
+		colorVar[] = {0,0,0,0};
+		randomDirectionPeriodVar = 0;
+		randomDirectionIntensityVar = 0;
+		coreIntensity = 0;
+		coreDistance = 0;
+		damageTime = 0;
+		damageType = "";
+		angle = 0;
+		position[] = {0,0,0};
+	};
+
+	class XDF_AlienMine_Refract: Default
+	{
+		interval = 0.05;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 1;
+		particleFSIndex = 0;
+		particleFSFrameCount = 1;
+		particleFSLoop = 0;
+		angleVar = 1;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Refract.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 1;
+		moveVelocity[] = {0,2,0};
+		rotationVelocity = 0;
+		weight = 0.05;
+		volume = 0.04;
+		rubbing = 0.05;
+		size[] = {0.2,2,2.6,2};
+		color[] =
+		{
+				{0.6,0.6,0.6,0.2},
+				{0.7,0.7,0.7,0.2},
+				{0.8,0.8,0.8,0.1},
+				{1,1,1,0}
+		};
+		animationSpeed[] = {1.5,0.5};
+		randomDirectionPeriod = 0.4;
+		randomDirectionIntensity = 0.09;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 0.3;
+		positionVar[] = {0.1,0.2,0.1};
+		moveVelocityVar[] = {0.05,0.5,0.05};
+		rotationVelocityVar = 0;
+		sizeVar = 2;
+		colorVar[] = {0,0,0,0.1};
+		randomDirectionPeriodVar = 0.2;
+		randomDirectionIntensityVar = 0.05;
 		coreIntensity = 0;
 		coreDistance = 0;
 		damageTime = 0;
@@ -1149,6 +1386,48 @@ class CfgLights
 		brightness = 0.666667;
 	};
 
+	class XDF_AlienMine_Light
+	{
+		color[] = {1,0,0.2};
+		ambient[] = {1,0,0.2};
+		intensity = 2000;
+		useflare = 1;
+		flaresize = 10;
+		flaremaxdist = 300;
+		daylight = 1;
+		class Attenuation
+		{
+			start = 5;
+			constant = 2;
+			linear = 0;
+			quadratic = 0.2;
+			hardlimitStart = 2;
+			hardlimitEnd = 50;
+		};
+		brightness = 0.666667;
+	};
+
+	class XDF_AlienMine_Hover_Light
+	{
+		color[] = {0,0.545149,1};
+		ambient[] = {0,0.545149,1};
+		intensity = 4000;
+		useflare = 0;
+		flaresize = 0;
+		flaremaxdist = 0;
+		daylight = 1;
+		class Attenuation
+		{
+			start = 0.3;
+			constant = 0;
+			linear = 0;
+			quadratic = 120;
+			hardlimitStart = 1;
+			hardlimitEnd = 0;
+		};
+		brightness = 1.33333;
+	};
+
 	class XDF_GuidedSlug_LightEffect
 	{
 		color[] = {0,0.4,1};
@@ -1320,6 +1599,48 @@ class XDF_ProtoGrenade_ExplosionEff
 	{
 		simulation="particles";
 		type="XDF_ProtoGrenade_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=3;
+		qualityLevel=2;
+	};
+};
+
+class XDF_AlienMine_ExplosionEff
+{
+	class XDF_AlienMine_Light
+	{
+		simulation="light";
+		type="XDF_AlienMine_Light";
+		position[]={0,0,0};
+		intensity=0.1;
+		interval=1;
+		lifeTime=2;
+	}
+	class XDF_AlienMine_Explosion
+	{
+		simulation="particles";
+		type="XDF_AlienMine_Explosion";
+		position[]={0,0,0};
+		intensity=0.0099999998;
+		interval=1;
+		lifeTime=1;
+	};
+	class XDF_AlienMine_Dust
+	{
+		simulation="particles";
+		type="XDF_AlienMine_Dust";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=6;
+		qualityLevel=2;
+	};
+	class XDF_AlienMine_Sparks
+	{
+		simulation="particles";
+		type="XDF_AlienMine_Sparks";
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
@@ -1503,6 +1824,39 @@ class XDF_CruiseMissile
 		intensity = 1;
 		interval = 1;
 		lifeTime = 1;
+		qualityLevel = 1;
+	};
+};
+
+class XDF_AlienMine_JumpEffect
+{
+	class XDF_AlienMine_Hover_Light
+	{
+		simulation = "light";
+		type = "XDF_AlienMine_Hover_Light";
+		position[] = {0, 0, 0};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 3;
+	};
+	class XDF_AlienMine_Jump
+	{
+		simulation = "particles";
+		type = "XDF_AlienMine_Jump";
+		position[] = {0, 0, 0};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 3;
+		qualityLevel = 2;
+	};
+	class XDF_AlienMine_Refract
+	{
+		simulation = "particles";
+		type = "XDF_AlienMine_Refract";
+		position[] = {0, 0, 0};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 3;
 		qualityLevel = 1;
 	};
 };
