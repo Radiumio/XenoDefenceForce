@@ -698,6 +698,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		displayName = "XDF Scrim Net";
+		visionMode[] = {"Normal", "NVG"};
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"
@@ -711,6 +712,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		displayName = "XDF Scrim Net (Winter)";
+		visionMode[] = {"Normal", "NVG"};
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"
@@ -729,6 +731,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		displayName = "XDF Scrim Net (Under Helmet)";
+		visionMode[] = {"Normal", "NVG"};
 		hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_ca.paa"};
 		class ItemInfo: ItemInfo
 		{
@@ -739,6 +742,7 @@ class CfgWeapons
 	{
 		author = "Aegis Team & Radium";
 		displayName = "XDF Scrim Net (Under Helmet, Winter)";
+		visionMode[] = {"Normal", "NVG"};
 		hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"};
 		class ItemInfo: ItemInfo
 		{
