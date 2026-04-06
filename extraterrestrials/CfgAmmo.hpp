@@ -1,0 +1,66 @@
+class CfgAmmo
+{
+	class BoundingMineBase;
+	class Extraterrestrial_Mine_Ammo: BoundingMineBase
+	{
+		hit=400;
+		indirectHit=150;
+		indirectHitRange=10;
+		icon="iconExplosiveAlien";
+		model="\extraterrestrials\models\alien_mine\alien_mine.p3d";
+		mineModelDisabled="\extraterrestrials\models\alien_mine\alien_mine.p3d";
+		defaultMagazine="Extraterrestrial_Mine_Mag";
+		soundTrigger[]=
+		{
+			"\xdf\sounds\exp\alien_mine",
+			2,
+			1,
+			200
+		};
+		soundActivation[]=
+		{
+			"A3\Sounds_F\weapons\Mines\electron_activate_mine_1",
+			3,
+			1,
+			30
+		};
+		soundDeactivation[]=
+		{
+			"A3\Sounds_F\weapons\Mines\deactivate_mine_3a",
+			1.9952624,
+			1,
+			20
+		};
+		soundHit1[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\mines\Explosion_M6_slam_mine_01",
+			0,
+			1,
+			1300
+		};
+		soundHit2[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\mines\Explosion_M6_slam_mine_02",
+			0,
+			1,
+			2000
+		};
+		SoundSetExplosion[] = {"AlienMine_Exp_SoundSet","AlienMine_Tail_SoundSet"};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.5,
+			"soundHit2",
+			0.5
+		};
+		explosionEffects="XDF_AlienMine_ExplosionEff";
+		CraterEffects="BoundingMineCrater";
+		mineJumpEffects="MineJumpEffect";
+		whistleDist=60;
+		cost=300;
+		mineBoundingTime=2.5;
+		mineBoundingDist=1.5;
+		mineInconspicuousness=50;
+		mineTrigger="Extraterrestrial_MineRangeTrigger";
+	};
+};

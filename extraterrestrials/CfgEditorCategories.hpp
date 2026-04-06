@@ -4,6 +4,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Vessels"
 	};
+	class ET_Devices
+	{
+		displayName = "Devices"
+	};
 };
 class CfgEditorCategories
 {

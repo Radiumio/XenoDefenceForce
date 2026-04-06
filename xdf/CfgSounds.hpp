@@ -65,6 +65,35 @@ class CfgSoundSets
         loop = 0;
         soundShadersLimit = 2;
     };
+	class AlienMine_Exp_SoundSet
+	{
+		soundShaders[] = {"AlienMine_closeExp_SoundShader", "AlienMine_midExp_SoundShader","AlienMine_distExp_SoundShader"};
+		volumeFactor = 1;
+		volumeCurve = "InverseSquare2Curve";
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		sound3DProcessingType = "ExplosionLight3DProcessingType";
+		distanceFilter = "explosionDistanceFreqAttenuationFilter";
+	};
+    class AlienMine_Tail_SoundSet
+	{
+        soundShaders[] = {"AlienMine_Tail_SoundShader"};
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        stereoStartDistance = 100;
+        stereoRadius = 50;
+        sound3DProcessingType = "ExplosionMedium3DProcessingType";
+        distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+    };
     class FAE_Tail_SoundSet 
 	{
         soundShaders[] = {"FAE_tail_SoundShader"};
@@ -283,6 +312,27 @@ class CfgSoundShaders
 		range = 1200;
 		rangeCurve[] = {{0, 0}, {100, 0}, {400, 0.2}, {1200, 0}};
 	};
+	class AlienMine_closeExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\alienmine_explosion_1.ogg", 1}};
+		volume = 1;
+		range = 70;
+		rangeCurve[] = {{0, 1}, {50, 0.75}, {70, 0}};
+	};
+	class AlienMine_midExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\alienmine_explosion_1.ogg", 1}};
+		volume = 1;
+		range = 400;
+		rangeCurve[] = {{0, 1}, {100, 0.4}, {200, 0.2}, {400, 0}};
+	};
+	class AlienMine_distExp_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\alienmine_explosion_1.ogg", 1}};
+		volume = 1;
+		range = 1200;
+		rangeCurve[] = {{0, 0}, {100, 0}, {400, 0.2}, {1200, 0}};
+	};
 	class FAE_Big_closeExp_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\exp\big_thermobaric_1.ogg", 1}, {"\xdf\sounds\exp\big_thermobaric_2.ogg", 1}};
@@ -315,6 +365,14 @@ class CfgSoundShaders
 	class ProtoGrenade_Tail_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\exp\protogrenade_tail.ogg", 1}};
+		volume = 1;
+		range = 1200;
+		rangecurve[] = {{0,0},{1200,1}};
+		limitable = 1;
+	};
+	class AlienMine_Tail_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\exp\alienmine_tail.ogg", 1}};
 		volume = 1;
 		range = 1200;
 		rangecurve[] = {{0,0},{1200,1}};

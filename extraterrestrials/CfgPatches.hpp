@@ -10,7 +10,8 @@ class CfgPatches
 		version = "1.0";
 		units[] = 
 		{
-			"Extraterrestrial_Mothership_F"
+			"Extraterrestrial_Mothership_F",
+			"Extraterrestrial_Mine"
 		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;
