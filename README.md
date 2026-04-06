@@ -40,6 +40,7 @@ With the **Expeditionary Forces** or **Reaction Forces** CDLCs loaded, additiona
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a>**
+- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3553877393">JAM - Recon Cloaks 2035</a>**
 
 <img src="https://i.imgur.com/ePSzqnC.png" width="900"></p>
 While anyone is welcome to interpret the XDF organization as they wish, official lore regarding the faction can be read here, and is being expanded gradually.
