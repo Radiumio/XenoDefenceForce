@@ -3,9 +3,9 @@ class CfgAmmo
 	class BoundingMineBase;
 	class Extraterrestrial_Mine_Ammo: BoundingMineBase
 	{
-		hit=400;
-		indirectHit=150;
-		indirectHitRange=10;
+		hit=2000;
+		indirectHit=500;
+		indirectHitRange=8;
 		icon="iconExplosiveAlien";
 		model="\extraterrestrials\models\alien_mine\alien_mine.p3d";
 		mineModelDisabled="\extraterrestrials\models\alien_mine\alien_mine.p3d";
@@ -55,7 +55,7 @@ class CfgAmmo
 		};
 		explosionEffects="XDF_AlienMine_ExplosionEff";
 		CraterEffects="BoundingMineCrater";
-		mineJumpEffects="MineJumpEffect";
+		mineJumpEffects="XDF_AlienMine_JumpEffect";
 		whistleDist=60;
 		cost=300;
 		mineBoundingTime=2.5;

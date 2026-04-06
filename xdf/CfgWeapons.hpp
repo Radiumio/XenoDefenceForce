@@ -2340,6 +2340,78 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Roland.paa"
 		};
 	};
+	class H_XDF_Beret_Shieldmaiden: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Shieldmaiden)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Shieldmaiden's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Shieldmaiden.paa"
+		};
+	};
+	class H_XDF_Beret_Coremanite: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Coremanite)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Coremanite's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Coremanite.paa"
+		};
+	};
+	class H_XDF_Beret_Cybern: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Cybern)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Cybern's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Cybern.paa"
+		};
+	};
+	class H_XDF_Beret_Kao: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Kao)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Kao's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Kao.paa"
+		};
+	};
+	class H_XDF_Beret_Maple: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Maple)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Maple's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Maple.paa"
+		};
+	};
+	class H_XDF_Beret_Radium: H_Beret_02
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Beret (Radium)";
+		descriptionShort="No Armor<br/>XDF Beret with Operative Radium's insignia."
+		picture="\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Beret_Radium.paa"
+		};
+	};
 	class H_XDF_Beret_Research: H_Beret_02
 	{
 		author="Radium";
