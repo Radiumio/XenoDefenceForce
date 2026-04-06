@@ -165,7 +165,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_rechood\retextures\xdf_uniform\helmets\H_ReconCloak_XDF_TEMPR_CO.paa",
-			"\xdf_rechood\retextures\xdf_uniform\helmets\ghillie_threads_XDF_CA.paa"
+			"\xdf_rechood\retextures\xdf_uniform\helmets\ghillie_leaves_XDF_CA.paa"
 		};
 	};
 	class ReconCloaks_H_SniperHoodSpec_XDF_Winter: ReconCloaks_H_SniperHoodSpec_XDF
@@ -174,7 +174,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_rechood\retextures\xdf_uniform\helmets\H_ReconCloak_XDF_Winter_CO.paa",
-			"\xdf_rechood\retextures\xdf_uniform\helmets\ghillie_threads_XDF_Winter_CA.paa"
+			"\xdf_rechood\retextures\xdf_uniform\helmets\ghillie_leaves_XDF_Winter_CA.paa"
 		};
 	};
 };
