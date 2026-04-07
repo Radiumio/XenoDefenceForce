@@ -798,6 +798,31 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\headgear\lpnvg_winter_co.paa"
 		};
 	};
+	class ef_arifle_mx_grip_black;
+	class ef_arifle_mx_grip_XDF: ef_arifle_mx_grip_black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF ACR-X2 (Grip)";
+		descriptionShort = "AX Assault Rifle<br/>The result of the XDF's 'anti-xeno modernisation' program - the ACR series. Now with vertical foregrip!<br/>Caliber: 6.5x39 mm - Experimental AX Chamber Upgrade";
+		baseWeapon="ef_arifle_mx_grip_XDF";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mx\xmx_base_co.paa"
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\acr_reload.ogg",
+			2,
+			1,
+			10
+		};
+		magazineWell[] +=
+		{
+			"MX_65x39_XDF",
+			"MX_65x39_Large_XDF"
+		};
+	};
 	class ef_arifle_mxar;
 	class ef_arifle_MXAR_XDF: ef_arifle_mxar
 	{
