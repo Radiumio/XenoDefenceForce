@@ -1860,3 +1860,5 @@ class XDF_AlienMine_JumpEffect
 		qualityLevel = 1;
 	};
 };
+
+class XDF_EmptyCloudlet{};

@@ -1430,4 +1430,53 @@ class CfgMagazines
 		};
 		ammo="XDF_CompactSmokeShellOrange_Ammo";
 	};
+
+	// XDF FLARES //
+	class UGL_FlareWhite_F;
+	class XDF_UGL_FlareWhite: UGL_FlareWhite_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="HI-X White Flare";
+		displayNameShort="HI-X White";
+		ammo="F_40mm_White_XDF";
+		descriptionShort="Lightweight high-intensity flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 1 minute and 30 seconds, covering a range of about 100 meters.";
+		mass=2;
+	};
+	class XDF_UGL_FlareGreen: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Green Flare";
+		displayNameShort="HI-X Green";
+		ammo="F_40mm_Green_XDF";
+	};
+	class XDF_UGL_FlareRed: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Red Flare";
+		displayNameShort="HI-X Red";
+		ammo="F_40mm_Red_XDF";
+	};
+	class XDF_UGL_FlareYellow: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Yellow Flare";
+		displayNameShort="HI-X Yellow";
+		ammo="F_40mm_Yellow_XDF";
+	};
+	class XDF_UGL_FlareOrange: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Orange Flare";
+		displayNameShort="HI-X Orange";
+		ammo="F_40mm_Orange_XDF";
+	};
+	class XDF_UGL_FlarePurple: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Purple Flare";
+		displayNameShort="HI-X Purple";
+		ammo="F_40mm_Purple_XDF";
+	};
+	class XDF_UGL_FlareIR: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X IR Flare";
+		displayNameShort="HI-X IR";
+		ammo="F_40mm_IR_XDF";
+	};
 };

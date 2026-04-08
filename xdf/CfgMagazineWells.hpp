@@ -271,4 +271,19 @@ class CfgMagazineWells
 			"6Rnd_45ACP_Cylinder_blue_tracer"
 		};
 	};
+
+	// XDF FLARES //
+	class UGL_40x36
+	{
+		BI_Magazines[]+=
+		{
+			"XDF_UGL_FlareWhite",
+			"XDF_UGL_FlareGreen",
+			"XDF_UGL_FlareRed",
+			"XDF_UGL_FlareYellow",
+			"XDF_UGL_FlareOrange",
+			"XDF_UGL_FlarePurple",
+			"XDF_UGL_FlareIR"
+		};
+	};
 };

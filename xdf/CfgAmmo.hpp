@@ -1625,4 +1625,87 @@ class CfgAmmo
 		smokeColor[]={1,0.6,0,1};
 		effectsSmoke="SmokeShellOrangeEffect";
 	};
+	class XDF_CompactSmokeShellOrange_Ammo: XDF_CompactSmokeShell_Ammo
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)",
+			"\xdf\weapons\compactSmokeGrenade\xdf_compactSmokeGrenade_CO.paa"
+		};
+		smokeColor[]={1,0.6,0,1};
+		effectsSmoke="SmokeShellOrangeEffect";
+	};
+
+	// XDF FLARES //
+	class FlareBase;
+	class F_40mm_White_XDF: FlareBase
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={1, 1, 1, 0.5};
+		smokeColor[]={1, 1, 1, 0.5};
+		useFlare=1;
+		deflecting=30;
+		brightness=14;
+		size=1;
+		triggerTime=3;
+		triggerSpeedCoef=1;
+		audibleFire=20;
+		timeToLive=90;
+		intensity=35000;
+		affectedByWind=1;
+		flareAirFriction=-2.5;
+		coefGravity=0.2;
+		effectsSmoke="XDF_EmptyCloudlet";
+		class Attenuation
+		{
+			start=80;
+			constant=4;
+			linear=0.1;
+			quadratic=0.01;
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\flare_pop.ogg",
+			1.8,
+			1,
+			800
+		};
+	};
+	class F_40mm_Green_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={0.25,0.5,0.25,0};
+		smokeColor[]={0.25,0.5,0.25,0};
+	};
+	class F_40mm_Red_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={1,0,0,0};
+		smokeColor[]={1,0,0,0};
+	};
+	class F_40mm_Yellow_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={1,1,0,0};
+		smokeColor[]={1,1,0,0};
+	};
+	class F_40mm_Orange_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={1,0.6,0,0};
+		smokeColor[]={1,0.6,0,0};
+	};
+	class F_40mm_Purple_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={0.5,0,0.5,0};
+		smokeColor[]={0.5,0,0.5,0};
+	};
+	class F_40mm_IR_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={0.5,0.5,0.5,0};
+		smokeColor[]={0.5,0.5,0.5,0};
+		nvgOnly=1;
+	};
 };
