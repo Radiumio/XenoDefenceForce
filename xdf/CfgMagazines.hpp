@@ -1430,4 +1430,185 @@ class CfgMagazines
 		};
 		ammo="XDF_CompactSmokeShellOrange_Ammo";
 	};
+
+	// XDF FLARES //
+	class UGL_FlareWhite_F;
+	class XDF_UGL_FlareWhite: UGL_FlareWhite_F
+	{
+		author="Radium";
+		scope=2;
+		displayName="HI-X White Illumination Flare";
+		displayNameShort="HI-X White";
+		picture="\xdf\weapons\hix\hix_white_ca.paa";
+		ammo="F_40mm_White_XDF";
+		descriptionShort="Lightweight high-intensity illumination flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 2 minute and 30 seconds, with an inner coverage range of approximately 100 meters.<br/>Triggers after three seconds of flight.";
+		mass=3;
+	};
+	class XDF_UGL_FlareGreen: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Green Illumination Flare";
+		displayNameShort="HI-X Green";
+		picture="\xdf\weapons\hix\hix_green_ca.paa";
+		ammo="F_40mm_Green_XDF";
+	};
+	class XDF_UGL_FlareRed: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Red Illumination Flare";
+		displayNameShort="HI-X Red";
+		picture="\xdf\weapons\hix\hix_red_ca.paa";
+		ammo="F_40mm_Red_XDF";
+	};
+	class XDF_UGL_FlareBlue: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Blue Illumination Flare";
+		displayNameShort="HI-X Blue";
+		picture="\xdf\weapons\hix\hix_blue_ca.paa";
+		ammo="F_40mm_Blue_XDF";
+	};
+	class XDF_UGL_FlareYellow: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Yellow Illumination Flare";
+		displayNameShort="HI-X Yellow";
+		picture="\xdf\weapons\hix\hix_yellow_ca.paa";
+		ammo="F_40mm_Yellow_XDF";
+	};
+	class XDF_UGL_FlareOrange: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Orange Illumination Flare";
+		displayNameShort="HI-X Orange";
+		picture="\xdf\weapons\hix\hix_orange_ca.paa";
+		ammo="F_40mm_Orange_XDF";
+	};
+	class XDF_UGL_FlarePurple: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Purple Illumination Flare";
+		displayNameShort="HI-X Purple";
+		picture="\xdf\weapons\hix\hix_purple_ca.paa";
+		ammo="F_40mm_Purple_XDF";
+	};
+	class XDF_UGL_FlareIR: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X IR Illumination Flare";
+		displayNameShort="HI-X IR";
+		picture="\xdf\weapons\hix\hix_ir_ca.paa";
+		ammo="F_40mm_IR_XDF";
+	};
+
+	// XDF HIX HANDHELD FLARES //
+	class XDF_HIXFlare_White: XDF_CompactSmokeShell
+	{
+		author="Radium";
+		displayName="HI-X White Handheld Flare";
+		picture="\xdf\weapons\hix\hix_stick_white_ca.paa";
+		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
+		hiddenSelections[]=
+		{
+			"camo",
+			"glass",
+			"colorband"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,1,1,0.8,co)"
+		};
+		value=2;
+		ammo="F_HIXFlare_White_XDF";
+		descriptionShort="Lightweight HI-X Flare<br/>Lightweight, extremely bright handheld flare used by the XDF. Designed for signalling or illumination, these flares are easily visible and very effective.<br/>HI-X flares are the number one cause of eye-related injuries in the XDF.<br/><br/>HI-X flares include a small amount of ablative material to generate smoke alongside the flare, and are not reusable or retrievable once deployed.";
+		displayNameShort="HI-X White";
+		mass=4.5;
+		initSpeed=26;
+	};
+	class XDF_HIXFlare_Green: XDF_HIXFlare_White
+	{
+		displayName="HI-X Green Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_green_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0.25,1,0.25,0.8,co)"
+		};
+		ammo="F_HIXFlare_Green_XDF";
+		displayNameShort="HI-X Green";
+	};
+	class XDF_HIXFlare_Red: XDF_HIXFlare_White
+	{
+		displayName="HI-X Red Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_red_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,0,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_Red_XDF";
+		displayNameShort="HI-X Red";
+	};
+	class XDF_HIXFlare_Blue: XDF_HIXFlare_White
+	{
+		displayName="HI-X Blue Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_blue_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0,0,1,0.8,co)"
+		};
+		ammo="F_HIXFlare_Blue_XDF";
+		displayNameShort="HI-X Blue";
+	};
+	class XDF_HIXFlare_Yellow: XDF_HIXFlare_White
+	{
+		displayName="HI-X Yellow Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_yellow_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,1,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_Yellow_XDF";
+		displayNameShort="HI-X Yellow";
+	};
+	class XDF_HIXFlare_Orange: XDF_HIXFlare_White
+	{
+		displayName="HI-X Orange Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_orange_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_Orange_XDF";
+		displayNameShort="HI-X Orange";
+	};
+	class XDF_HIXFlare_Purple: XDF_HIXFlare_White
+	{
+		displayName="HI-X Purple Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_purple_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0.5,0,0.5,0.8,co)"
+		};
+		ammo="F_HIXFlare_Purple_XDF";
+		displayNameShort="HI-X Purple";
+	};
+	class XDF_HIXFlare_IR: XDF_HIXFlare_White
+	{
+		displayName="HI-X IR Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_ir_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0,0,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_IR_XDF";
+		displayNameShort="HI-X IR";
+	};
 };
