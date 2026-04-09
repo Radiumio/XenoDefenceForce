@@ -1659,9 +1659,9 @@ class CfgAmmo
 		class Attenuation
 		{
 			start=80;
-			constant=4;
-			linear=0.1;
-			quadratic=0.01;
+			constant=12;
+			linear=1;
+			quadratic=0.2;
 		};
 		soundFly[]=
 		{
@@ -1674,14 +1674,20 @@ class CfgAmmo
 	class F_40mm_Green_XDF: F_40mm_White_XDF
 	{
 		model="\A3\Weapons_F\Ammo\UGL_Flare";
-		lightColor[]={0.25,0.5,0.25,0};
-		smokeColor[]={0.25,0.5,0.25,0};
+		lightColor[]={0.25,1,0.25,0};
+		smokeColor[]={0.25,1,0.25,0};
 	};
 	class F_40mm_Red_XDF: F_40mm_White_XDF
 	{
 		model="\A3\Weapons_F\Ammo\UGL_Flare";
 		lightColor[]={1,0,0,0};
 		smokeColor[]={1,0,0,0};
+	};
+	class F_40mm_Blue_XDF: F_40mm_White_XDF
+	{
+		model="\A3\Weapons_F\Ammo\UGL_Flare";
+		lightColor[]={0,0,1,0};
+		smokeColor[]={0,0,1,0};
 	};
 	class F_40mm_Yellow_XDF: F_40mm_White_XDF
 	{

@@ -280,6 +280,7 @@ class CfgMagazineWells
 			"XDF_UGL_FlareWhite",
 			"XDF_UGL_FlareGreen",
 			"XDF_UGL_FlareRed",
+			"XDF_UGL_FlareBlue",
 			"XDF_UGL_FlareYellow",
 			"XDF_UGL_FlareOrange",
 			"XDF_UGL_FlarePurple",

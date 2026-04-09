@@ -1437,46 +1437,60 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="HI-X White Flare";
+		displayName="HI-X White Illumination Flare";
 		displayNameShort="HI-X White";
+		picture="\xdf\weapons\hix\hix_white_ca.paa";
 		ammo="F_40mm_White_XDF";
-		descriptionShort="Lightweight high-intensity flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 1 minute and 30 seconds, with an inner coverage range of approximately 100 meters.<br/><br/>";
+		descriptionShort="Lightweight high-intensity illumination flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 1 minute and 30 seconds, with an inner coverage range of approximately 100 meters.<br/>Triggers after three seconds of flight.";
 		mass=2;
 	};
 	class XDF_UGL_FlareGreen: XDF_UGL_FlareWhite
 	{
-		displayName="HI-X Green Flare";
+		displayName="HI-X Green Illumination Flare";
 		displayNameShort="HI-X Green";
+		picture="\xdf\weapons\hix\hix_green_ca.paa";
 		ammo="F_40mm_Green_XDF";
 	};
 	class XDF_UGL_FlareRed: XDF_UGL_FlareWhite
 	{
-		displayName="HI-X Red Flare";
+		displayName="HI-X Red Illumination Flare";
 		displayNameShort="HI-X Red";
+		picture="\xdf\weapons\hix\hix_red_ca.paa";
 		ammo="F_40mm_Red_XDF";
+	};
+	class XDF_UGL_FlareBlue: XDF_UGL_FlareWhite
+	{
+		displayName="HI-X Blue Illumination Flare";
+		displayNameShort="HI-X Blue";
+		picture="\xdf\weapons\hix\hix_blue_ca.paa";
+		ammo="F_40mm_Blue_XDF";
 	};
 	class XDF_UGL_FlareYellow: XDF_UGL_FlareWhite
 	{
-		displayName="HI-X Yellow Flare";
+		displayName="HI-X Yellow Illumination Flare";
 		displayNameShort="HI-X Yellow";
+		picture="\xdf\weapons\hix\hix_yellow_ca.paa";
 		ammo="F_40mm_Yellow_XDF";
 	};
 	class XDF_UGL_FlareOrange: XDF_UGL_FlareWhite
 	{
-		displayName="HI-X Orange Flare";
+		displayName="HI-X Orange Illumination Flare";
 		displayNameShort="HI-X Orange";
+		picture="\xdf\weapons\hix\hix_orange_ca.paa";
 		ammo="F_40mm_Orange_XDF";
 	};
 	class XDF_UGL_FlarePurple: XDF_UGL_FlareWhite
 	{
-		displayName="HI-X Purple Flare";
+		displayName="HI-X Purple Illumination Flare";
 		displayNameShort="HI-X Purple";
+		picture="\xdf\weapons\hix\hix_purple_ca.paa";
 		ammo="F_40mm_Purple_XDF";
 	};
 	class XDF_UGL_FlareIR: XDF_UGL_FlareWhite
 	{
-		displayName="HI-X IR Flare";
+		displayName="HI-X IR Illumination Flare";
 		displayNameShort="HI-X IR";
+		picture="\xdf\weapons\hix\hix_ir_ca.paa";
 		ammo="F_40mm_IR_XDF";
 	};
 };
