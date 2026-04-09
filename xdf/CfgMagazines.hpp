@@ -1441,7 +1441,7 @@ class CfgMagazines
 		displayNameShort="HI-X White";
 		picture="\xdf\weapons\hix\hix_white_ca.paa";
 		ammo="F_40mm_White_XDF";
-		descriptionShort="Lightweight high-intensity illumination flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 1 minute and 30 seconds, with an inner coverage range of approximately 100 meters.<br/>Triggers after three seconds of flight.";
+		descriptionShort="Lightweight high-intensity illumination flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 2 minute and 30 seconds, with an inner coverage range of approximately 100 meters.<br/>Triggers after three seconds of flight.";
 		mass=2;
 	};
 	class XDF_UGL_FlareGreen: XDF_UGL_FlareWhite
