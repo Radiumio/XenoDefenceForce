@@ -1714,4 +1714,53 @@ class CfgAmmo
 		smokeColor[]={0.5,0.5,0.5,0};
 		nvgOnly=1;
 	};
+
+	// XDF HANDHELD FLARES //
+	class F_20mm_White;
+	class F_HIXFlare_White_XDF: F_20mm_White
+	{
+		flare=1;
+		lightColor[] = {1, 1, 1, 1};
+		smokeColor[] = {1, 1, 1, 1};
+		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
+		hiddenSelections[]=
+		{
+			"camo",
+			"glass",
+			"colorband"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,1,1,0.8,co)"
+		};
+    	explosionTime=3;
+		timeToLive=90;
+		flareSize=6;
+		effectsSmoke="XDF_EmptyCloudlet";
+
+   		whistleDist = 0;
+   		brightness = 10;
+		useFlare=1;
+   		size=1;
+		dayLight=1;
+		intensity=35000;
+		class Attenuation
+		{
+			start=80;
+			constant=12;
+			linear=1;
+			quadratic=0.2;
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\flare_electronic.ogg",
+			1.3,
+			1,
+			150
+		};
+    	grenadeFireSound[] = {};
+    	grenadeBurningSound[] = {};
+	};
 };

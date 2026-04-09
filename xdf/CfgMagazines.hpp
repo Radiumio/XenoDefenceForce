@@ -1493,4 +1493,31 @@ class CfgMagazines
 		picture="\xdf\weapons\hix\hix_ir_ca.paa";
 		ammo="F_40mm_IR_XDF";
 	};
+
+	// XDF HIX HANDHELD FLARES //
+	class XDF_HIXFlare_White: XDF_CompactSmokeShell
+	{
+		author="Radium";
+		displayName="HI-X White Handheld Flare";
+		picture="";
+		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
+		hiddenSelections[]=
+		{
+			"camo",
+			"glass",
+			"colorband"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,1,1,0.8,co)"
+		};
+		value=2;
+		ammo="F_HIXFlare_White_XDF";
+		descriptionShort="Lightweight HI-X Flare<br/>Lightweight, extremely bright handheld flare used by the XDF. Designed for signalling or illumination, these flares are easily visible and very effective.<br/> HI-X flares are the number one cause of eye-related injuries in the XDF.";
+		displayNameShort="HI-X White";
+		mass=3.5;
+		initSpeed=26;
+	};
 };

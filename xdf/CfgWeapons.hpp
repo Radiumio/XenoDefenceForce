@@ -6109,7 +6109,8 @@ class cfgWeapons
 			"XDF_CompactSmokeShellYellowMuzzle",
 			"XDF_CompactSmokeShellPurpleMuzzle",
 			"XDF_CompactSmokeShellBlueMuzzle",
-			"XDF_CompactSmokeShellOrangeMuzzle"
+			"XDF_CompactSmokeShellOrangeMuzzle",
+			"XDF_HIXFlare_WhiteMuzzle"
 		};
 
         class ThrowMuzzle;
@@ -6152,6 +6153,11 @@ class cfgWeapons
         {
             magazines[] = {"XDF_CompactSmokeShellOrange"};
 			displayName="CSG-02 Orange";
+        };
+        class XDF_HIXFlare_WhiteMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_White"};
+			displayName="HI-X White";
         };
     };
 };
