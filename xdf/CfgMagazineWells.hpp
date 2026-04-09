@@ -275,7 +275,7 @@ class CfgMagazineWells
 	// XDF FLARES //
 	class UGL_40x36
 	{
-		BI_Magazines[]+=
+		XDF_Magazines[]+=
 		{
 			"XDF_UGL_FlareWhite",
 			"XDF_UGL_FlareGreen",
