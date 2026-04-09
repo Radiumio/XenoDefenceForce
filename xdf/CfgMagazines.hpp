@@ -1442,7 +1442,7 @@ class CfgMagazines
 		picture="\xdf\weapons\hix\hix_white_ca.paa";
 		ammo="F_40mm_White_XDF";
 		descriptionShort="Lightweight high-intensity illumination flare fired from a grenade launcher, capable of lighting up a very wide area for a prolonged period of time.<br/>Lasts about 2 minute and 30 seconds, with an inner coverage range of approximately 100 meters.<br/>Triggers after three seconds of flight.";
-		mass=2;
+		mass=3;
 	};
 	class XDF_UGL_FlareGreen: XDF_UGL_FlareWhite
 	{
@@ -1517,7 +1517,7 @@ class CfgMagazines
 		ammo="F_HIXFlare_White_XDF";
 		descriptionShort="Lightweight HI-X Flare<br/>Lightweight, extremely bright handheld flare used by the XDF. Designed for signalling or illumination, these flares are easily visible and very effective.<br/>HI-X flares are the number one cause of eye-related injuries in the XDF.<br/><br/>HI-X flares include a small amount of ablative material to generate smoke alongside the flare, and are not reusable or retrievable once deployed.";
 		displayNameShort="HI-X White";
-		mass=6;
+		mass=4.5;
 		initSpeed=26;
 	};
 	class XDF_HIXFlare_Green: XDF_HIXFlare_White
