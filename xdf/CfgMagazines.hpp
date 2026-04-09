@@ -1515,7 +1515,7 @@ class CfgMagazines
 		};
 		value=2;
 		ammo="F_HIXFlare_White_XDF";
-		descriptionShort="Lightweight HI-X Flare<br/>Lightweight, extremely bright handheld flare used by the XDF. Designed for signalling or illumination, these flares are easily visible and very effective.<br/> HI-X flares are the number one cause of eye-related injuries in the XDF.";
+		descriptionShort="Lightweight HI-X Flare<br/>Lightweight, extremely bright handheld flare used by the XDF. Designed for signalling or illumination, these flares are easily visible and very effective.<br/>HI-X flares are the number one cause of eye-related injuries in the XDF.<br/><br/>HI-X flares include a small amount of ablative material to generate smoke alongside the flare, and are not reusable or retrievable once deployed.";
 		displayNameShort="HI-X White";
 		mass=6;
 		initSpeed=26;

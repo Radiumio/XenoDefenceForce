@@ -1650,7 +1650,7 @@ class CfgAmmo
 		triggerTime=3;
 		triggerSpeedCoef=1;
 		audibleFire=20;
-		timeToLive=90;
+		timeToLive=120;
 		intensity=35000;
 		affectedByWind=1;
 		flareAirFriction=-2.5;
@@ -1738,7 +1738,7 @@ class CfgAmmo
 		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
 
     	explosionTime=3;
-		timeToLive=90;
+		timeToLive=180;
 		flareSize=6;
 		effectsSmoke="XDF_EmptyCloudlet";
    		whistleDist=0;
@@ -1756,34 +1756,10 @@ class CfgAmmo
 		};
 		soundFly[]=
 		{
-			"\xdf\sounds\exp\flare_electronic_activate.ogg",
+			"\xdf\sounds\exp\flare_electric.ogg",
 			1.2,
 			1,
-			50
-		};
-		SmokeShellSoundHit1[]=
-		{
-			"xdf\sounds\exp\flare_electronic_on.ogg",
-			2,
-			1,
-			50
-		};
-		SmokeShellSoundLoop1[]=
-		{
-			"xdf\sounds\exp\flare_fizzle_electronic.ogg",
-			0.4,
-			1,
-			110
-		};
-		grenadeFireSound[]=
-		{
-			"SmokeShellSoundHit1",
-			1
-		};
-		grenadeBurningSound[]=
-		{
-			"SmokeShellSoundLoop1",
-			1
+			80
 		};
 	};
 	class F_HIXFlare_Green_XDF: F_HIXFlare_White_XDF
