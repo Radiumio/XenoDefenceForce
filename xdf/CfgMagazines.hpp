@@ -1499,7 +1499,7 @@ class CfgMagazines
 	{
 		author="Radium";
 		displayName="HI-X White Handheld Flare";
-		picture="";
+		picture="\xdf\weapons\hix\hix_stick_white_ca.paa";
 		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
 		hiddenSelections[]=
 		{
@@ -1517,7 +1517,98 @@ class CfgMagazines
 		ammo="F_HIXFlare_White_XDF";
 		descriptionShort="Lightweight HI-X Flare<br/>Lightweight, extremely bright handheld flare used by the XDF. Designed for signalling or illumination, these flares are easily visible and very effective.<br/> HI-X flares are the number one cause of eye-related injuries in the XDF.";
 		displayNameShort="HI-X White";
-		mass=3.5;
+		mass=6;
 		initSpeed=26;
+	};
+	class XDF_HIXFlare_Green: XDF_HIXFlare_White
+	{
+		displayName="HI-X Green Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_green_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0.25,1,0.25,0.8,co)"
+		};
+		ammo="F_HIXFlare_Green_XDF";
+		displayNameShort="HI-X Green";
+	};
+	class XDF_HIXFlare_Red: XDF_HIXFlare_White
+	{
+		displayName="HI-X Red Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_red_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,0,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_Red_XDF";
+		displayNameShort="HI-X Red";
+	};
+	class XDF_HIXFlare_Blue: XDF_HIXFlare_White
+	{
+		displayName="HI-X Blue Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_blue_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0,0,1,0.8,co)"
+		};
+		ammo="F_HIXFlare_Blue_XDF";
+		displayNameShort="HI-X Blue";
+	};
+	class XDF_HIXFlare_Yellow: XDF_HIXFlare_White
+	{
+		displayName="HI-X Yellow Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_yellow_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,1,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_Yellow_XDF";
+		displayNameShort="HI-X Yellow";
+	};
+	class XDF_HIXFlare_Orange: XDF_HIXFlare_White
+	{
+		displayName="HI-X Orange Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_orange_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_Orange_XDF";
+		displayNameShort="HI-X Orange";
+	};
+	class XDF_HIXFlare_Purple: XDF_HIXFlare_White
+	{
+		displayName="HI-X Purple Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_purple_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0.5,0,0.5,0.8,co)"
+		};
+		ammo="F_HIXFlare_Purple_XDF";
+		displayNameShort="HI-X Purple";
+	};
+	class XDF_HIXFlare_IR: XDF_HIXFlare_White
+	{
+		displayName="HI-X IR Handheld Flare"
+		picture="\xdf\weapons\hix\hix_stick_ir_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0,0,0,0.8,co)"
+		};
+		ammo="F_HIXFlare_IR_XDF";
+		displayNameShort="HI-X IR";
 	};
 };

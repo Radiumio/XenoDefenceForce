@@ -1722,7 +1722,6 @@ class CfgAmmo
 		flare=1;
 		lightColor[] = {1, 1, 1, 1};
 		smokeColor[] = {1, 1, 1, 1};
-		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -1735,32 +1734,134 @@ class CfgAmmo
 			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
 			"#(argb,8,8,3)color(1,1,1,0.8,co)"
 		};
+
+		model="\xdf\weapons\hix\hix_handheld_flare.p3d";
+
     	explosionTime=3;
 		timeToLive=90;
 		flareSize=6;
 		effectsSmoke="XDF_EmptyCloudlet";
-
-   		whistleDist = 0;
-   		brightness = 10;
+   		whistleDist=0;
+   		brightness=14;
 		useFlare=1;
    		size=1;
 		dayLight=1;
 		intensity=35000;
 		class Attenuation
 		{
-			start=80;
-			constant=12;
+			start=10;
+			constant=8;
 			linear=1;
-			quadratic=0.2;
+			quadratic=2;
 		};
 		soundFly[]=
 		{
-			"\xdf\sounds\exp\flare_electronic.ogg",
-			1.3,
+			"\xdf\sounds\exp\flare_electronic_activate.ogg",
+			1.2,
 			1,
-			150
+			50
 		};
-    	grenadeFireSound[] = {};
-    	grenadeBurningSound[] = {};
+		SmokeShellSoundHit1[]=
+		{
+			"xdf\sounds\exp\flare_electronic_on.ogg",
+			2,
+			1,
+			50
+		};
+		SmokeShellSoundLoop1[]=
+		{
+			"xdf\sounds\exp\flare_fizzle_electronic.ogg",
+			0.4,
+			1,
+			110
+		};
+		grenadeFireSound[]=
+		{
+			"SmokeShellSoundHit1",
+			1
+		};
+		grenadeBurningSound[]=
+		{
+			"SmokeShellSoundLoop1",
+			1
+		};
+	};
+	class F_HIXFlare_Green_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {0.25, 1, 0.25, 1};
+		smokeColor[] = {0.25, 1, 0.25, 1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0.25,1,0.25,0.8,co)"
+		};
+	};
+	class F_HIXFlare_Red_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {1, 0, 0, 1};
+		smokeColor[] = {1, 0, 0, 1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,0,0,0.8,co)"
+		};
+	};
+	class F_HIXFlare_Blue_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {0, 0, 1, 1};
+		smokeColor[] = {0, 0, 1, 1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0,0,1,0.8,co)"
+		};
+	};
+	class F_HIXFlare_Yellow_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {1, 1, 0, 1};
+		smokeColor[] = {1, 1, 0, 1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,1,0,0.8,co)"
+		};
+	};
+	class F_HIXFlare_Orange_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {1, 0.6, 0, 1};
+		smokeColor[] = {1, 0.6, 0, 1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(1,0.6,0,0.8,co)"
+		};
+	};
+	class F_HIXFlare_Purple_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {0.5, 0, 0.5, 1};
+		smokeColor[] = {0.5, 0, 0.5, 1};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0.5,0,0.5,0.8,co)"
+		};
+	};
+	class F_HIXFlare_IR_XDF: F_HIXFlare_White_XDF
+	{
+		lightColor[] = {0.5, 0.5, 0.5, 1};
+		smokeColor[] = {0.5, 0.5, 0.5, 1};
+		nvgOnly=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\hix\xdf_hixFlare_CO.paa",
+			"\xdf\weapons\hix\xdf_hixFlareGlass_CO.paa",
+			"#(argb,8,8,3)color(0,0,0,0.8,co)"
+		};
 	};
 };

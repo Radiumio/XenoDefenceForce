@@ -6110,7 +6110,14 @@ class cfgWeapons
 			"XDF_CompactSmokeShellPurpleMuzzle",
 			"XDF_CompactSmokeShellBlueMuzzle",
 			"XDF_CompactSmokeShellOrangeMuzzle",
-			"XDF_HIXFlare_WhiteMuzzle"
+			"XDF_HIXFlare_WhiteMuzzle",
+			"XDF_HIXFlare_GreenMuzzle",
+			"XDF_HIXFlare_RedMuzzle",
+			"XDF_HIXFlare_BlueMuzzle",
+			"XDF_HIXFlare_YellowMuzzle",
+			"XDF_HIXFlare_OrangeMuzzle",
+			"XDF_HIXFlare_PurpleMuzzle",
+			"XDF_HIXFlare_IRMuzzle"
 		};
 
         class ThrowMuzzle;
@@ -6158,6 +6165,41 @@ class cfgWeapons
         {
             magazines[] = {"XDF_HIXFlare_White"};
 			displayName="HI-X White";
+        };
+        class XDF_HIXFlare_GreenMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_Green"};
+			displayName="HI-X Green";
+        };
+        class XDF_HIXFlare_RedMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_Red"};
+			displayName="HI-X Red";
+        };
+        class XDF_HIXFlare_BlueMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_Blue"};
+			displayName="HI-X Blue";
+        };
+        class XDF_HIXFlare_YellowMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_Yellow"};
+			displayName="HI-X Yellow";
+        };
+        class XDF_HIXFlare_OrangeMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_Orange"};
+			displayName="HI-X Orange";
+        };
+        class XDF_HIXFlare_PurpleMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_Purple"};
+			displayName="HI-X Purple";
+        };
+        class XDF_HIXFlare_IRMuzzle : ThrowMuzzle
+        {
+            magazines[] = {"XDF_HIXFlare_IR"};
+			displayName="HI-X IR";
         };
     };
 };
