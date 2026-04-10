@@ -8,7 +8,7 @@ forcedDiffuse[] = { 0, 0, 0, 1 };
 emmisive[] = { 0, 0, 0, 1 };
 specular[] = { 0.1, 0.1, 0.1, 1 };
 //specularPower = 2;
-specularPower = 20;
+specularPower = 40;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1 {
