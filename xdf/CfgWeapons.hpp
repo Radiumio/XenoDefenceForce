@@ -5060,6 +5060,24 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_Mantis_Winter: XDF_Mantis
+	{
+		displayName="XDF R-31 Mantis (Winter)";
+		baseWeapon="XDF_Mantis_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_winter_CO.paa"
+		};
+	};
+	class XDF_Mantis_SpecOps: XDF_Mantis
+	{
+		displayName="XDF R-31 Mantis (Spec-Ops)";
+		baseWeapon="XDF_Mantis_Spec-Ops";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_specops_CO.paa"
+		};
+	};
 
 
 	// Loadouts
