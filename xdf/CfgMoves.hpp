@@ -37,9 +37,9 @@ class CfgGesturesMale
 		};
 		class GestureReloadXDFMantisProne : GestureReloadXDFMantis
 		{
-			mask = "BodyFull";
-			file = "a3\anims_f\data\anim\sdr\gst\gesturereloadm200prone.rtm";
-			speed=0.2;
+			mask = "handsWeapon";
+			file = "\xdf\weapons\mantis\railgun_reload_prone.rtm";
+			speed=0.22;
 		};
 	};
 };
