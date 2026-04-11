@@ -39,7 +39,7 @@ class CfgGesturesMale
 		{
 			mask = "handsWeapon";
 			file = "\xdf\weapons\mantis\railgun_reload_prone.rtm";
-			speed=0.2;
+			speed=0.22;
 		};
 	};
 };

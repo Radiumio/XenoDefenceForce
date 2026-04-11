@@ -4866,11 +4866,17 @@ class cfgWeapons
 
 		hiddenSelections[]= 
 		{
-			"camo"
+			"camo",
+			"rail_emissive"
 		};
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_CO.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\weapons\mantis\mantis_texture.rvmat",
+			"\xdf\weapons\mantis\rail_emissive.rvmat"
 		};
 
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
@@ -5060,12 +5066,23 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_Mantis_Black: XDF_Mantis
+	{
+		displayName="XDF R-31 Mantis (Black)";
+		baseWeapon="XDF_Mantis_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_black_CO.paa",
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_black_CO.paa"
+		};
+	};
 	class XDF_Mantis_Winter: XDF_Mantis
 	{
 		displayName="XDF R-31 Mantis (Winter)";
 		baseWeapon="XDF_Mantis_Winter";
 		hiddenSelectionsTextures[]=
 		{
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_winter_CO.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_winter_CO.paa"
 		};
 	};
@@ -5075,7 +5092,13 @@ class cfgWeapons
 		baseWeapon="XDF_Mantis_Spec-Ops";
 		hiddenSelectionsTextures[]=
 		{
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_specops_CO.paa",
 			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_specops_CO.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\weapons\mantis\mantis_texture.rvmat",
+			"\xdf\weapons\mantis\rail_emissive_red.rvmat"
 		};
 	};
 
