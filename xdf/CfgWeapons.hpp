@@ -4863,6 +4863,16 @@ class cfgWeapons
 		{
 				libTextDesc = "The Mantis is a cutting-edge XDF prototype weapon, designed to be the next generation of standard-issue infantry portable weapon for XDF operatives. Designated as an 'assault railgun', the Mantis uses a rapid-charging electromagnetic rail to deliver solid 10mm slugs at 1100m/s, while a 50 round magazine with its complex internal delivery and loading mechanism gives it an edge over other handheld railguns in terms of sustained firerate. Unfortunately, the Mantis is unwieldly and bulky - mainly due to the reinforced design required to house the solid-state battery and charging mechanism derived from alien technology. On top of that, the Mantis project is exceptionally expensive. While many of these assault railguns are continuing to be produced, the costs involved sadly make the Mantis fall short of becoming standard-issue. Yet, this railgun's usefulness in combat against the xeno-threat cannot be understated, and remains vital in anti-xeno hunter groups.";
 		};
+
+		hiddenSelections[]= 
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\weapons\mantis\mantis_texture_CO.paa"
+		};
+
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
