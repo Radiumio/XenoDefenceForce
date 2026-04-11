@@ -5069,6 +5069,7 @@ class cfgWeapons
 	class XDF_Mantis_Black: XDF_Mantis
 	{
 		displayName="XDF R-31 Mantis (Black)";
+		picture="\xdf\weapons\mantis\gear_mantis_black_invl.paa";
 		baseWeapon="XDF_Mantis_Black";
 		hiddenSelectionsTextures[]=
 		{
@@ -5079,6 +5080,7 @@ class cfgWeapons
 	class XDF_Mantis_Winter: XDF_Mantis
 	{
 		displayName="XDF R-31 Mantis (Winter)";
+		picture="\xdf\weapons\mantis\gear_mantis_winter_invl.paa";
 		baseWeapon="XDF_Mantis_Winter";
 		hiddenSelectionsTextures[]=
 		{
@@ -5089,6 +5091,7 @@ class cfgWeapons
 	class XDF_Mantis_SpecOps: XDF_Mantis
 	{
 		displayName="XDF R-31 Mantis (Spec-Ops)";
+		picture="\xdf\weapons\mantis\gear_mantis_specops_invl.paa";
 		baseWeapon="XDF_Mantis_Spec-Ops";
 		hiddenSelectionsTextures[]=
 		{
