@@ -31,6 +31,7 @@ class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 };
 class CfgVehicles
 {
+	class Items_base_F;
 	class FlagCarrierCore;
 	class FlagCarrier: FlagCarrierCore
 	{
@@ -41254,6 +41255,62 @@ class CfgVehicles
 				magazine = "50Rnd_10mm_APDSRG_Mag_blue_tracer";
 				count = 1;
 			};
+		};
+	};
+	
+	class XDF_Blahaj: Items_base_F
+	{
+		author = "Model by Kaine-G";
+		mapSize = 0.34;
+		class SimpleObject
+		{
+			eden = 1;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.105;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		editorPreview = "";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Blahaj";
+		model = "\xdf\models\blahaj\blahaj.p3d";
+		hiddenSelections[]=
+		{
+			"shark",
+			"teef"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\models\blahaj\shark_co.paa",
+			"\xdf\models\blahaj\teef_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\models\blahaj\blahaj.rvmat",
+			"\xdf\models\blahaj\blahaj_teef.rvmat"
+		};
+		icon = "iconObject_2x1";
+		editorCategory = "XDF_Structures";
+		editorSubcategory = "XDF_MCA";
+	};
+	class XDF_Blahaj_Orange: XDF_Blahaj
+	{
+		displayName = "Blahaj (XDF)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\models\blahaj\shark_xdf_co.paa",
+			"\xdf\models\blahaj\teef_ca.paa"
+		};
+	};
+	class XDF_Blahaj_Rainbow: XDF_Blahaj
+	{
+		displayName = "Blahaj (Rainbow)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\models\blahaj\shark_rainbow_co.paa",
+			"\xdf\models\blahaj\teef_ca.paa"
 		};
 	};
 };
