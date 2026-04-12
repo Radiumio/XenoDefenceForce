@@ -317,7 +317,10 @@ class CfgPatches
 			"Box_XDF_Support_F",
 			"Box_XDF_Uniforms_F",
 			"Box_XDF_Equip_F",
-			"Box_XDF_AmmoVeh_F"
+			"Box_XDF_AmmoVeh_F",
+			"XDF_Blahaj",
+			"XDF_Blahaj_Orange",
+			"XDF_Blahaj_Rainbow"
 		};
 		weapons[] = 
 		{

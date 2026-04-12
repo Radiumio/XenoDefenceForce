@@ -41283,13 +41283,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\models\blahaj\shark_co.paa",
-			"\xdf\models\blahaj\teef_ca.paa"
+			"\xdf\models\blahaj\shark_co.paa"
+			//"\xdf\models\blahaj\teef_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\xdf\models\blahaj\blahaj.rvmat",
-			"\xdf\models\blahaj\blahaj_teef.rvmat"
+			"\xdf\models\blahaj\blahaj.rvmat"
+			//"\xdf\models\blahaj\blahaj_teef.rvmat"
 		};
 		icon = "iconObject_2x1";
 		editorCategory = "XDF_Structures";
@@ -41300,8 +41300,8 @@ class CfgVehicles
 		displayName = "Blahaj (XDF)";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\models\blahaj\shark_xdf_co.paa",
-			"\xdf\models\blahaj\teef_ca.paa"
+			"\xdf\models\blahaj\shark_xdf_co.paa"
+			//"\xdf\models\blahaj\teef_ca.paa"
 		};
 	};
 	class XDF_Blahaj_Rainbow: XDF_Blahaj
@@ -41309,8 +41309,8 @@ class CfgVehicles
 		displayName = "Blahaj (Rainbow)";
 		hiddenSelectionsTextures[]=
 		{
-			"\xdf\models\blahaj\shark_rainbow_co.paa",
-			"\xdf\models\blahaj\teef_ca.paa"
+			"\xdf\models\blahaj\shark_rainbow_co.paa"
+			//"\xdf\models\blahaj\teef_ca.paa"
 		};
 	};
 };
