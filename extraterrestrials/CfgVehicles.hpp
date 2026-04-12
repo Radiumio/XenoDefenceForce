@@ -10,11 +10,17 @@ class CfgVehicles
 		armor=999999999999;
 		model="\extraterrestrials\models\alien_mothership\extraterrestrial_mothership.p3d";
 		displayName="Extraterrestrial Mothership";
-		sound="mothership_idle";
+		simulation = "fountain";
+		sound = "mothership_idle";
 		editorCategory="ET_Technology";
 		editorSubcategory="ET_Vessels";
 		icon="\extraterrestrials\models\alien_mothership\et_vessel_icon.paa";
 		class DestructionEffects {};
+	};
+	class Extraterrestrial_Mothership_NoSound_F: Extraterrestrial_Mothership_F
+	{
+		displayName="Extraterrestrial Mothership (No Sound)";
+		sound="";
 	};
 	class APERSBoundingMine;
 	class Extraterrestrial_Mine: APERSBoundingMine

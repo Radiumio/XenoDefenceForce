@@ -5,9 +5,9 @@ class CfgSounds
 		sound[]=
 		{
 			"\extraterrestrials\sounds\mothership_idle.ogg",
+			2,
 			1,
-			1,
-			1500,
+			6000,
 			1,
 			0,
 			0,
