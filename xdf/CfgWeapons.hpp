@@ -6043,12 +6043,25 @@ class cfgWeapons
 	class weapon_VLS_XDF_01: weapon_VLS_01
 	{
 		displayName="VENATOR VLS";
-		magazineReloadTime=30;
-		reloadTime=5;
+		magazineReloadTime=15;
+		reloadTime=1;
+        weaponLockDelay = 3;
 		magazines[]=
 		{
 			"magazine_XDF_Missile_Cruise_Thermobaric_01_x18",
 			"magazine_Missiles_Cruise_01_x18"
+		};
+		lockingTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locking.ogg",
+			1,
+			1
+		};
+		lockedTargetSound[]=
+		{
+			"\xdf\sounds\lock\xdf_locked.ogg",
+			1,
+			2.5
 		};
 		class Cruise: Cruise
 		{
