@@ -17582,6 +17582,19 @@ class CfgVehicles
 					"\xdf\retextures\comanche\heli_attack_01_honeycomb_co.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 22nd Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -17686,6 +17699,19 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\comanche\heli_attack_01_honeycomb_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 22nd Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_phoenix_co.paa"
 				};
 			};
 		};
