@@ -332,7 +332,7 @@ class CfgVehicles
 			};
 			class XDF_Phoenix
 			{
-				displayName="PHOENIX - 22nd Air Assault Division";
+				displayName="PHOENIX - 1st Elite Air Assault Division";
 				author="Radium";
 				factions[]=
 				{
