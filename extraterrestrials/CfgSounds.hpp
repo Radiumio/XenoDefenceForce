@@ -4,10 +4,10 @@ class CfgSounds
 	{
 		sound[]=
 		{
-			"\xdf\sounds\mothership_idle.ogg",
-			2,
+			"\extraterrestrials\sounds\mothership_idle.ogg",
 			1,
-			500,
+			1,
+			1500,
 			1,
 			0,
 			0,

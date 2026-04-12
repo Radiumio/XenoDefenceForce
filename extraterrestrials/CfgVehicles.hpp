@@ -10,6 +10,7 @@ class CfgVehicles
 		armor=999999999999;
 		model="\extraterrestrials\models\alien_mothership\extraterrestrial_mothership.p3d";
 		displayName="Extraterrestrial Mothership";
+		sound="mothership_idle";
 		editorCategory="ET_Technology";
 		editorSubcategory="ET_Vessels";
 		icon="\extraterrestrials\models\alien_mothership\et_vessel_icon.paa";
