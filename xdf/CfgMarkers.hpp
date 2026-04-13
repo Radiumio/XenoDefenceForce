@@ -221,8 +221,8 @@ class CfgMarkers
 	class map_PhoenixDivision: Flag
 	{
 		name="PHOENIX 1st EAAD";
-		icon="\xdf\markers\map_PhoenixDivision.paa";
-		texture="\xdf\markers\map_PhoenixDivision.paa";
+		icon="\xdf\markers\map_Phoenix.paa";
+		texture="\xdf\markers\map_Phoenix.paa";
 		size=64;
 		scope=2;
 		shadow=0;
