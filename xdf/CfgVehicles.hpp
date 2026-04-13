@@ -26400,6 +26400,25 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\odin\afv_wheeled_01_ext1_sappho_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_ext2_sappho_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_wheel_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_ext3_sappho_co.paa",
+					"\xdf\retextures\odin\afv_commander_tow_sappho_co.paa",
+					"\xdf\retextures\odin\camonet_nato_black_co.paa",
+					"\xdf\retextures\odin\afv_wheeled_01_ext3_sappho_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -26587,6 +26606,23 @@ class CfgVehicles
 					"\xdf\retextures\commando\apc_wheeled_01_tows_co.paa",
 					"\xdf\retextures\commando\camonet_nato_black_co.paa",
 					"\xdf\retextures\commando\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_sappho_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_sappho_co.paa"
 				};
 				factions[]=
 				{
@@ -27021,6 +27057,22 @@ class CfgVehicles
 					"\xdf\retextures\kodiak\mbt_03_ext01_co.paa",
 					"\xdf\retextures\kodiak\mbt_03_ext02_co.paa",
 					"\xdf\retextures\kodiak\mbt_03_rcws_co.paa",
+					"\xdf\retextures\kodiak\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\kodiak\mbt_03_ext01_sappho_co.paa",
+					"\xdf\retextures\kodiak\mbt_03_ext02_sappho_co.paa",
+					"\xdf\retextures\kodiak\mbt_03_rcws_sappho_co.paa",
 					"\xdf\retextures\kodiak\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -27551,6 +27603,21 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\minotaur\mbt_04_exterior_1_sappho_co.paa",
+					"\xdf\retextures\minotaur\mbt_04_exterior_2_sappho_co.paa",
+					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -27677,6 +27744,21 @@ class CfgVehicles
 				{			
 					"\xdf\retextures\minotaur\mbt_04_exterior_1_co.paa",
 					"\xdf\retextures\minotaur\mbt_04_exterior_2_co.paa",
+					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\minotaur\mbt_04_exterior_1_sappho_co.paa",
+					"\xdf\retextures\minotaur\mbt_04_exterior_2_sappho_co.paa",
 					"\xdf\retextures\minotaur\camonet_nato_black_co.paa"
 				};
 				factions[]=

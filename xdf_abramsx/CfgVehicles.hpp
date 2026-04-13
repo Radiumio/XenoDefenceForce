@@ -47,6 +47,20 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_abramsx\retextures\abramsx\AbramsX_Hull_Sappho_co.paa",
+					"\xdf\retextures\odin\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		class Turrets: Turrets
 		{
@@ -142,6 +156,21 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf_abramsx\retextures\abramsx\AbramsX_Hull_XDF_co.paa",
+					"\xdf_abramsx\retextures\abramsx\abramsxtusk_co.paa",
+					"\xdf\retextures\odin\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_abramsx\retextures\abramsx\AbramsX_Hull_Sappho_co.paa",
 					"\xdf_abramsx\retextures\abramsx\abramsxtusk_co.paa",
 					"\xdf\retextures\odin\camonet_nato_black_co.paa"
 				};
@@ -247,6 +276,20 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf_abramsx\retextures\abramsx\AbramsX_Hull_XDF_co.paa",
+					"\xdf\retextures\odin\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_abramsx\retextures\abramsx\AbramsX_Hull_Sappho_co.paa",
 					"\xdf\retextures\odin\camonet_nato_black_co.paa"
 				};
 				factions[]=

@@ -223,6 +223,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_sappho_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_sappho_co.paa",
+					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_sappho_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -333,6 +351,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_sappho_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_sappho_co.paa",
+					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_sappho_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -395,6 +431,24 @@ class CfgVehicles
 					"\xdf\retextures\commando\camonet_nato_black_co.paa",
 					"\xdf\retextures\commando\cage_black_co.paa",
 					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Sappho
+			{
+				displayName="SAPPHO'S SHIELD - 4th Elite Armored Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\commando\apc_wheeled_01_base_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_adds_sappho_co.paa",
+					"\xdf\retextures\commando\apc_wheeled_01_tows_sappho_co.paa",
+					"\xdf\retextures\commando\camonet_nato_black_co.paa",
+					"\xdf\retextures\commando\cage_sappho_co.paa",
+					"\xdf_ws\retextures\commando\APC_Wheeled_01_lxws_sappho_co.paa"
 				};
 				factions[]=
 				{
