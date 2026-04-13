@@ -11,6 +11,7 @@ class CfgPatches
 		units[] = 
 		{
 			"Extraterrestrial_Mothership_F",
+			"Extraterrestrial_Mothership_NoSound_F",
 			"Extraterrestrial_Mine",
 			"Module_Extraterrestrial_Mine"
 		};

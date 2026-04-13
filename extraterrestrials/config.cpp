@@ -1,6 +1,7 @@
 #include "CfgPatches.hpp"
 
 #include "CfgAmmo.hpp"
+#include "CfgSounds.hpp"
 #include "CfgEditorCategories.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMineTriggers.hpp"

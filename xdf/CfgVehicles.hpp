@@ -31,11 +31,11 @@ class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 };
 class CfgVehicles
 {
+	class Items_base_F;
 	class FlagCarrierCore;
 	class FlagCarrier: FlagCarrierCore
 	{
 		author="Radium";
-		_generalMacro="FlagCarrier";
 		scope=0;
 		scopeCurator=0;
 		displayName="";
@@ -82,7 +82,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Flag_TaskForceLotus.jpg";
-		_generalMacro="Flag_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -112,7 +111,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Flag_TaskForceArtificer.jpg";
-		_generalMacro="Flag_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -142,7 +140,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Flag_TaskForceCeto.jpg";
-		_generalMacro="Flag_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -172,7 +169,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Flag_TaskForceDamocles.jpg";
-		_generalMacro="Flag_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -202,7 +198,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Flag_TaskForceIon.jpg";
-		_generalMacro="Flag_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -232,7 +227,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Flag_XenoDefenceForce.jpg";
-		_generalMacro="Flag_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -240,6 +234,35 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture '\xdf\flags\xdf_flag.paa'";
+		};
+	};
+    class Flag_PhoenixDivision: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\structures\Flag_PhoenixDivision.jpg";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="XDF_Structures";
+		displayName="Flag (XDF - PHOENIX)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\phoenix_flag.paa'";
 		};
 	};
 	class Banner_01_F;
@@ -256,7 +279,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Banner_TaskForceLotus.jpg";
-		_generalMacro="Banner_TaskForceLotus";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -279,7 +301,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Banner_TaskForceArtificer.jpg";
-		_generalMacro="Banner_TaskForceArtificer";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -302,7 +323,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Banner_TaskForceCeto.jpg";
-		_generalMacro="Banner_TaskForceCeto";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -325,7 +345,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Banner_TaskForceDamocles.jpg";
-		_generalMacro="Banner_TaskForceDamocles";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -348,7 +367,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Banner_TaskForceIon.jpg";
-		_generalMacro="Banner_TaskForceIon";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -371,7 +389,6 @@ class CfgVehicles
 			init="''";
 		};
 		editorPreview="\xdf\previews\structures\Banner_XenoDefenceForce.jpg";
-		_generalMacro="Banner_XenoDefenceForce";
 		scope=2;
 		scopeCurator=2;
 		editorCategory="XDF_Structures";
@@ -379,6 +396,28 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\xdf_flag.paa"
+		};
+	};
+	class Banner_PhoenixDivision: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\structures\Banner_PhoenixDivision.jpg";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="XDF_Structures";
+		displayName="Banner (PHOENIX)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\phoenix_flag.paa"
 		};
 	};
 
@@ -16492,6 +16531,20 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -16568,6 +16621,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -16635,6 +16704,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_bench_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_bench_co.paa"
 				};
 				factions[]=
@@ -16860,6 +16944,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -16926,6 +17026,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_fuel_co.paa"
 				};
 				factions[]=
@@ -17001,6 +17116,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
 				};
@@ -17085,6 +17216,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -17153,6 +17300,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\medusa\heli_transport_04_base_01_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_base_02_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\medusa\heli_transport_04_base_01_phoenix_co.paa",
+					"\xdf\retextures\medusa\heli_transport_04_base_02_phoenix_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_pod_ext01_co.paa",
 					"\xdf\retextures\medusa\heli_transport_04_pod_ext02_co.paa"
 				};
@@ -17581,6 +17744,19 @@ class CfgVehicles
 					"\xdf\retextures\comanche\heli_attack_01_honeycomb_co.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -17685,6 +17861,19 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\comanche\heli_attack_01_honeycomb_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_phoenix_co.paa"
 				};
 			};
 		};
@@ -17802,6 +17991,20 @@ class CfgVehicles
 					"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_phoenix_co.paa",
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -17915,6 +18118,20 @@ class CfgVehicles
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -18019,6 +18236,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
 				};
 			};
@@ -31374,7 +31606,6 @@ class CfgVehicles
 	{
 		author="Radium";
 		mapSize=0.60000002;
-		_generalMacro="B_UAV_01_backpack_F";
 		scope=2;
 		scopeCurator=2;
 		displayName="XDF UAV Bag (AR-5 Mosquito)";
@@ -31457,7 +31688,6 @@ class CfgVehicles
 	{
 		author="Radium";
 		mapSize=0.60000002;
-		_generalMacro="B_UAV_01_backpack_F";
 		scope=2;
 		scopeCurator=2;
 		displayName="XDF Designator Bag (LS-2 Sentinel)";
@@ -39462,7 +39692,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Armoury.jpg";
-		_generalMacro="XDF_Sign_Armoury";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_armoury_large.paa"
@@ -39484,7 +39713,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Medical.jpg";
-		_generalMacro="XDF_Sign_Medical";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_medical_large.paa"
@@ -39506,7 +39734,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Warning.jpg";
-		_generalMacro="XDF_Sign_Warning";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_warning_large.paa"
@@ -39528,7 +39755,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_RA_Warning.jpg";
-		_generalMacro="XDF_Sign_RA_Warning";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_ra_warning_large.paa"
@@ -39550,7 +39776,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Entrance.jpg";
-		_generalMacro="XDF_Sign_Entrance";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_entrance_large.paa"
@@ -39572,7 +39797,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Exit.jpg";
-		_generalMacro="XDF_Sign_Exit";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_exit_large.paa"
@@ -39594,7 +39818,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Evac_Zone.jpg";
-		_generalMacro="XDF_Sign_Evac_Zone";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_evac_zone_large.paa"
@@ -39616,7 +39839,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Firing_Range.jpg";
-		_generalMacro="XDF_Sign_Firing_Range";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_firing_range_large.paa"
@@ -39638,7 +39860,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Garage.jpg";
-		_generalMacro="XDF_Sign_Garage";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_garage_large.paa"
@@ -39660,7 +39881,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Live_Fire.jpg";
-		_generalMacro="XDF_Sign_Live_Fire";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_live_fire_large.paa"
@@ -39682,7 +39902,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_PPE_Zone.jpg";
-		_generalMacro="XDF_Sign_PPE_Zone";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_ppe_zone_large.paa"
@@ -39704,7 +39923,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Research.jpg";
-		_generalMacro="XDF_Sign_Research";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_research_large.paa"
@@ -39726,7 +39944,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Artificer.jpg";
-		_generalMacro="XDF_Sign_TF_Artificer";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfa_large.paa"
@@ -39748,7 +39965,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Ceto.jpg";
-		_generalMacro="XDF_Sign_TF_Ceto";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfc_large.paa"
@@ -39770,7 +39986,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Damocles.jpg";
-		_generalMacro="XDF_Sign_TF_Damocles";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfd_large.paa"
@@ -39792,7 +40007,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Ion.jpg";
-		_generalMacro="XDF_Sign_TF_Ion";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfi_large.paa"
@@ -39814,7 +40028,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_TF_Lotus.jpg";
-		_generalMacro="XDF_Sign_TF_Lotus";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfl_large.paa"
@@ -39836,7 +40049,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_XDF.jpg";
-		_generalMacro="XDF_Sign_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_xdf_large.paa"
@@ -39858,7 +40070,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Wolf.jpg";
-		_generalMacro="XDF_Sign_Wolf";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_wolf_large.paa"
@@ -39880,7 +40091,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Elite_Wolf.jpg";
-		_generalMacro="XDF_Sign_Elite_Wolf";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_elite_wolf_large.paa"
@@ -39902,7 +40112,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Xenohunter.jpg";
-		_generalMacro="XDF_Sign_Xenohunter";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_xenohunter_large.paa"
@@ -39924,7 +40133,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Command.jpg";
-		_generalMacro="XDF_Sign_Command";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_command_large.paa"
@@ -39946,7 +40154,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Radioactive.jpg";
-		_generalMacro="XDF_Sign_Radioactive";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_radioactive_large.paa"
@@ -39968,7 +40175,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Danger.jpg";
-		_generalMacro="XDF_Sign_Danger";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_danger_large.paa"
@@ -39990,7 +40196,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Deployment_Area.jpg";
-		_generalMacro="XDF_Sign_Deployment_Area";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_deployment_area_large.paa"
@@ -40012,7 +40217,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Service_Area.jpg";
-		_generalMacro="XDF_Sign_Service_Area";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_service_area_large.paa"
@@ -40034,7 +40238,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Supply_Depot.jpg";
-		_generalMacro="XDF_Sign_Supply_Depot";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_supply_depot_large.paa"
@@ -40056,10 +40259,30 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_Sign_Munition_Depot.jpg";
-		_generalMacro="XDF_Sign_Munition_Depot";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_munition_depot_large.paa"
+		};
+	};
+	class XDF_Sign_PhoenixDivision: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (PHOENIX - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_PhoenixDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_phoenix_large.paa"
 		};
 	};
 
@@ -40083,7 +40306,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Armoury.jpg";
-		_generalMacro="XDF_SignS_Armoury";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_armoury.paa"
@@ -40105,7 +40327,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Medical.jpg";
-		_generalMacro="XDF_SignS_Medical";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_medical.paa"
@@ -40127,7 +40348,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Warning.jpg";
-		_generalMacro="XDF_SignS_Warning";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_warning.paa"
@@ -40149,7 +40369,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_RA_Warning.jpg";
-		_generalMacro="XDF_SignS_RA_Warning";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_ra_warning.paa"
@@ -40171,7 +40390,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Entrance.jpg";
-		_generalMacro="XDF_SignS_Entrance";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_entrance.paa"
@@ -40193,7 +40411,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Exit.jpg";
-		_generalMacro="XDF_SignS_Exit";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_exit.paa"
@@ -40215,7 +40432,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Evac_Zone.jpg";
-		_generalMacro="XDF_SignS_Evac_Zone";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_evac_zone.paa"
@@ -40237,7 +40453,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Firing_Range.jpg";
-		_generalMacro="XDF_SignS_Firing_Range";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_firing_range.paa"
@@ -40259,7 +40474,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Garage.jpg";
-		_generalMacro="XDF_SignS_Garage";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_garage.paa"
@@ -40281,7 +40495,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Live_Fire.jpg";
-		_generalMacro="XDF_SignS_Live_Fire";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_live_fire.paa"
@@ -40303,7 +40516,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_PPE_Zone.jpg";
-		_generalMacro="XDF_SignS_PPE_Zone";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_ppe_zone.paa"
@@ -40325,7 +40537,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Research.jpg";
-		_generalMacro="XDF_SignS_Research";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_research.paa"
@@ -40347,7 +40558,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Artificer.jpg";
-		_generalMacro="XDF_SignS_TF_Artificer";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfa.paa"
@@ -40369,7 +40579,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Ceto.jpg";
-		_generalMacro="XDF_SignS_TF_Ceto";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfc.paa"
@@ -40391,7 +40600,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Damocles.jpg";
-		_generalMacro="XDF_SignS_TF_Damocles";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfd.paa"
@@ -40413,7 +40621,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Ion.jpg";
-		_generalMacro="XDF_SignS_TF_Ion";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfi.paa"
@@ -40435,7 +40642,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_TF_Lotus.jpg";
-		_generalMacro="XDF_SignS_TF_Lotus";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_tfl.paa"
@@ -40457,7 +40663,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_XDF.jpg";
-		_generalMacro="XDF_SignS_XDF";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_xdf.paa"
@@ -40479,7 +40684,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Wolf.jpg";
-		_generalMacro="XDF_SignS_Wolf";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_wolf.paa"
@@ -40501,7 +40705,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Elite_Wolf.jpg";
-		_generalMacro="XDF_SignS_Elite_Wolf";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_elite_wolf.paa"
@@ -40523,7 +40726,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Xenohunter.jpg";
-		_generalMacro="XDF_SignS_Xenohunter";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_xenohunter.paa"
@@ -40545,7 +40747,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Command.jpg";
-		_generalMacro="XDF_SignS_Command";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_command.paa"
@@ -40567,7 +40768,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Radioactive.jpg";
-		_generalMacro="XDF_SignS_Radioactive";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_radioactive.paa"
@@ -40589,7 +40789,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Danger.jpg";
-		_generalMacro="XDF_SignS_Danger";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_danger.paa"
@@ -40611,7 +40810,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Deployment_Area.jpg";
-		_generalMacro="XDF_SignS_Deployment_Area";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_deployment_area.paa"
@@ -40633,7 +40831,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Service_Area.jpg";
-		_generalMacro="XDF_SignS_Service_Area";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_service_area.paa"
@@ -40655,7 +40852,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Supply_Depot.jpg";
-		_generalMacro="XDF_SignS_Supply_Depot";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_supply_depot.paa"
@@ -40677,10 +40873,30 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_SignS_Munition_Depot.jpg";
-		_generalMacro="XDF_SignS_Munition_Depot";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_munition_depot.paa"
+		};
+	};
+	class XDF_SignS_PhoenixDivision: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (PHOENIX - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_PhoenixDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_phoenix.paa"
 		};
 	};
 
@@ -40702,7 +40918,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_MiniSign_Danger.jpg";
-		_generalMacro="XDF_MiniSign_Danger";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\small_sign_danger.paa"
@@ -40725,7 +40940,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_MiniSign_Danger_Tall.jpg";
-		_generalMacro="XDF_MiniSign_Danger_Tall";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\small_sign_danger.paa"
@@ -40747,7 +40961,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_MiniSign_Radioactive.jpg";
-		_generalMacro="XDF_MiniSign_Radioactive";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\small_sign_radioactive.paa"
@@ -40769,7 +40982,6 @@ class CfgVehicles
 		editorCategory="XDF_Structures";
 		editorSubcategory="XDF_Signs";
 		editorPreview="\xdf\previews\structures\XDF_MiniSign_Radioactive_Tall.jpg";
-		_generalMacro="XDF_MiniSign_Radioactive_Tall";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\small_sign_radioactive.paa"
@@ -41254,6 +41466,62 @@ class CfgVehicles
 				magazine = "50Rnd_10mm_APDSRG_Mag_blue_tracer";
 				count = 1;
 			};
+		};
+	};
+	
+	class XDF_Blahaj: Items_base_F
+	{
+		author = "Model by Kaine-G";
+		mapSize = 0.34;
+		class SimpleObject
+		{
+			eden = 1;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.105;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		editorPreview = "";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Blahaj";
+		model = "\xdf\models\blahaj\blahaj.p3d";
+		hiddenSelections[]=
+		{
+			"shark",
+			"teef"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\models\blahaj\shark_co.paa"
+			//"\xdf\models\blahaj\teef_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\models\blahaj\blahaj.rvmat"
+			//"\xdf\models\blahaj\blahaj_teef.rvmat"
+		};
+		icon = "iconObject_2x1";
+		editorCategory = "XDF_Structures";
+		editorSubcategory = "XDF_MCA";
+	};
+	class XDF_Blahaj_Orange: XDF_Blahaj
+	{
+		displayName = "Blahaj (XDF)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\models\blahaj\shark_xdf_co.paa"
+			//"\xdf\models\blahaj\teef_ca.paa"
+		};
+	};
+	class XDF_Blahaj_Rainbow: XDF_Blahaj
+	{
+		displayName = "Blahaj (Rainbow)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\models\blahaj\shark_rainbow_co.paa"
+			//"\xdf\models\blahaj\teef_ca.paa"
 		};
 	};
 };

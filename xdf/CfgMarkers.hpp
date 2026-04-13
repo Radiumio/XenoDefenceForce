@@ -218,6 +218,17 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class map_PhoenixDivision: Flag
+	{
+		name="PHOENIX 1st EAAD";
+		icon="\xdf\markers\map_Phoenix.paa";
+		texture="\xdf\markers\map_Phoenix.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 	class xdf_haz_biological: Flag
 	{
 		name="Hazard - Biological";

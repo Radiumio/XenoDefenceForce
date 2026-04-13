@@ -330,6 +330,20 @@ class CfgVehicles
 					"\xdf_ef\retextures\python\ah99j_1_honeycomb_CO.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\comanche\heli_attack_01_phoenix_co.paa",
+					"\xdf_ef\retextures\python\ah99j_1_CO.paa"
+				};
+			};
 		};
 		textureList[]=
 		{

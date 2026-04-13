@@ -36,12 +36,16 @@ class CfgEditorSubcategories
 	{
 		displayName = "Signs"
 	};
+    class XDF_MCA
+	{
+		displayName = "Mission-Critical Assets"
+	};
 };
 class CfgEditorCategories
 {
 	class XDF_Structures
 	{
-		displayName = "Structures (XDF)"
+		displayName = "Structures & Assets (XDF)"
 	};
 	class XDF_Supplies
 	{
