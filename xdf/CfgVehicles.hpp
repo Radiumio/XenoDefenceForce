@@ -17829,6 +17829,20 @@ class CfgVehicles
 					"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_black_CO.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext01_phoenix_co.paa",
+					"\xdf\retextures\skyhawk\Heli_Transport_03_ext02_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
