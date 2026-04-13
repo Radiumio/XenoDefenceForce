@@ -47,6 +47,24 @@ class CfgVehicles
 					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_rf\retextures\mamba\mh252_mamba_phoenix_co.paa",
+					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa",
+					"#(rgb,1024,1024,1)ui('lxRF_MFDMinimap','lxRF_MFDMinimap')",
+					"\xdf_rf\retextures\mamba\mh252_mamba_adds_co.paa",
+					"\xdf_rf\retextures\mamba\mh252_mamba_phoenix_co.paa",
+					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -101,6 +119,24 @@ class CfgVehicles
 					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_rf\retextures\mamba\mh252_mamba_phoenix_co.paa",
+					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa",
+					"#(rgb,1024,1024,1)ui('lxRF_MFDMinimap','lxRF_MFDMinimap')",
+					"\xdf_rf\retextures\mamba\mh252_mamba_adds_co.paa",
+					"\xdf_rf\retextures\mamba\mh252_mamba_phoenix_co.paa",
+					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -152,6 +188,24 @@ class CfgVehicles
 					"#(rgb,1024,1024,1)ui('lxRF_MFDMinimap','lxRF_MFDMinimap')",
 					"\xdf_rf\retextures\mamba\mh252_mamba_adds_co.paa",
 					"\xdf_rf\retextures\mamba\mh252_mamba_co.paa",
+					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf_rf\retextures\mamba\mh252_mamba_phoenix_co.paa",
+					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa",
+					"#(rgb,1024,1024,1)ui('lxRF_MFDMinimap','lxRF_MFDMinimap')",
+					"\xdf_rf\retextures\mamba\mh252_mamba_adds_co.paa",
+					"\xdf_rf\retextures\mamba\mh252_mamba_phoenix_co.paa",
 					"\lxRF\air_rf\heli_medium_ec\data\as332_int_cargo_co.paa"
 				};
 			};
