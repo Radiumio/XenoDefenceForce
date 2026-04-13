@@ -73,5 +73,6 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
+- **@hannahfishr** for the artwork used in the Sappho's Shield division.
 
 If you have any questions, please contact me either on Steam or Discord, via my handle **radiumio**. I hope you enjoy the mod!
