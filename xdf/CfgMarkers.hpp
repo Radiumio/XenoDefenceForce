@@ -229,6 +229,17 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class map_SapphoDivision: Flag
+	{
+		name="SAPPHO'S SHIELD 4th EAD";
+		icon="\xdf\markers\map_Sappho.paa";
+		texture="\xdf\markers\map_Sappho.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 	class xdf_haz_biological: Flag
 	{
 		name="Hazard - Biological";

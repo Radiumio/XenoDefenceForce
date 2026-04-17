@@ -265,6 +265,35 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\phoenix_flag.paa'";
 		};
 	};
+    class Flag_SapphoDivision: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\structures\Flag_SapphoDivision.jpg";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="XDF_Structures";
+		displayName="Flag (XDF - SAPPHO'S SHIELD)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\sappho_flag.paa'";
+		};
+	};
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
 	{
@@ -418,6 +447,28 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\phoenix_flag.paa"
+		};
+	};
+	class Banner_SapphoDivision: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\structures\Banner_SapphoDivision.jpg";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="XDF_Structures";
+		displayName="Banner (SAPPHO'S SHIELD)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\sappho_flag.paa"
 		};
 	};
 
@@ -40367,6 +40418,27 @@ class CfgVehicles
 			"\xdf\signs\sign_phoenix_large.paa"
 		};
 	};
+	class XDF_Sign_SapphoDivision: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (SAPPHO'S SHIELD - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_SapphoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_sappho_large.paa"
+		};
+	};
 
 
 
@@ -40979,6 +41051,27 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_phoenix.paa"
+		};
+	};
+	class XDF_SignS_SapphoDivision: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (SAPPHO'S SHIELD - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_SapphoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_sappho.paa"
 		};
 	};
 
