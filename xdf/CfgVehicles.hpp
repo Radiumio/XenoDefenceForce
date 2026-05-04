@@ -488,6 +488,9 @@ class CfgVehicles
 		side=1;
 		faction = "B_XDF";
 		crew = "B_XDF_Jet_Pilot";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -710,6 +713,9 @@ class CfgVehicles
 		side=1;
 		faction = "B_XDF";
 		crew = "B_XDF_Jet_Pilot";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		hiddenSelections[]=
 		{
 			"Camo_01",
@@ -16367,6 +16373,9 @@ class CfgVehicles
 		crew = "B_XDF_Jet_Pilot";
 		armor = 160; // Default 80
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		typicalCargo[]=
 		{
 			"B_XDF_Jet_Pilot"
@@ -16420,6 +16429,9 @@ class CfgVehicles
 		crew = "B_XDF_Jet_Pilot";
 		armor = 160; // Default 80
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		typicalCargo[]=
 		{
 			"B_XDF_Jet_Pilot"
