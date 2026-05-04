@@ -27150,6 +27150,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_prydonian_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext2_prydonian_co.paa",
+					"\xdf\retextures\dementer\rcws30_prydonian_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_prydonian_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+					"\xdf\retextures\dementer\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
