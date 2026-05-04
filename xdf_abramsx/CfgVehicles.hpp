@@ -22,6 +22,11 @@ class CfgVehicles
 		armorLights = 0.1;
 		armorStructural = 6;
 		fuelCapacity = 60;
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -137,6 +142,11 @@ class CfgVehicles
 		armorLights = 0.1;
 		armorStructural = 6;
 		fuelCapacity = 60;
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -258,6 +268,11 @@ class CfgVehicles
 		armorLights = 0.1;
 		armorStructural = 6;
 		fuelCapacity = 60;
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -373,6 +388,11 @@ class CfgVehicles
 		armorLights = 0.1;
 		armorStructural = 6;
 		fuelCapacity = 45;
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"

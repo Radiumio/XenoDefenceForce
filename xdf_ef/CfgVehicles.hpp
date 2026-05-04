@@ -23,6 +23,11 @@ class CfgVehicles
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1.2;
 		accelAidForceCoef = 4.5;
 		accelAidForceSpd = 80.0;
@@ -117,6 +122,11 @@ class CfgVehicles
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1.2;
 		accelAidForceCoef = 4.5;
 		accelAidForceSpd = 80.0;
@@ -205,6 +215,11 @@ class CfgVehicles
 		maxSpeed = 230; // Default 115
 		fuelCapacity = 52; // Default 26
 		damageResistance = 0.05; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1.2;
 		accelAidForceCoef = 4.5;
 		accelAidForceSpd = 80.0;
@@ -277,6 +292,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -395,6 +415,11 @@ class CfgVehicles
 		armor = 130; // Default 50
 		fuelCapacity = 2000; // Default 1000
 		damageResistance = 0.02; // Default 0.004
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_UAV_AI"
@@ -504,6 +529,11 @@ class CfgVehicles
 		armor = 130; // Default 50
 		fuelCapacity = 2000; // Default 1000
 		damageResistance = 0.02; // Default 0.004
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_UAV_AI"

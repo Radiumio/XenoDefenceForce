@@ -153,7 +153,11 @@ class CfgMagazineWells
 		XDF_Magazines[]=
 		{
 			"10Rnd_338_Mag_blue_tracer",
-			"10Rnd_338_Mag_blue_reload_tracer"
+			"10Rnd_338_Mag_blue_reload_tracer",
+			"15Rnd_338_Mag_blue_tracer",
+			"15Rnd_338_Mag_blue_reload_tracer",
+			"20Rnd_338_Mag_blue_tracer",
+			"20Rnd_338_Mag_blue_reload_tracer"
 		};
 	};
 	class GM6_127x108_XDF
@@ -188,7 +192,11 @@ class CfgMagazineWells
 		XDF_Magazines[]=
 		{
 			"10Rnd_93x64_DMR_05_Mag_blue_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer"
+			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
+			"15Rnd_93x64_DMR_05_Mag_blue_tracer",
+			"20Rnd_93x64_DMR_05_Mag_blue_tracer",
+			"15Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
+			"20Rnd_93x64_DMR_05_Mag_blue_reload_tracer"
 		};
 	};
 	class ASP1_127x54_XDF
@@ -211,7 +219,9 @@ class CfgMagazineWells
 		XDF_Magazines[]=
 		{
 			"10Rnd_762x54_Mag_blue_tracer",
-			"10Rnd_762x54_Mag_blue_reload_tracer"
+			"20Rnd_762x54_Mag_blue_tracer",
+			"10Rnd_762x54_Mag_blue_reload_tracer",
+			"20Rnd_762x54_Mag_blue_reload_tracer"
 		};
 	};
 	class Tempest_65x39_XDF

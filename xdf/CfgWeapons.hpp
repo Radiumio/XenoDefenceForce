@@ -4638,12 +4638,6 @@ class cfgWeapons
 		{
 			textureType = "topDown";
 			displayName = "Top-down";
-			minRange = 160;
-			minRangeProbab = 0.6;
-			midRange = 800;
-			midRangeProbab = 0.95;
-			maxRange = 2500;
-			maxRangeProbab = 0.95;
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -5047,7 +5041,7 @@ class cfgWeapons
 		//};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 353;
+			mass = 320;
 			class MuzzleSlot
 			{
 			};

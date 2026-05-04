@@ -14,6 +14,11 @@ class CfgVehicles
 		armor = 110; // Default 50
 		fuelCapacity = 1800; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -86,6 +91,11 @@ class CfgVehicles
 		armor = 110; // Default 50
 		fuelCapacity = 1800; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -158,6 +168,11 @@ class CfgVehicles
 		armor = 110; // Default 50
 		fuelCapacity = 1800; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -230,6 +245,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1113; // Default 742
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -276,6 +296,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1113; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"

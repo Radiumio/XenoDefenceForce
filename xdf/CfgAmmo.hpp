@@ -250,16 +250,16 @@ class CfgAmmo
 		missileLockMinDistance	= 50;
 		missileLockMaxSpeed		= 200;
 
-		flightProfiles[] =
+		flightProfiles[] = {"Direct", "TopDown"};
+		class Direct
 		{
-			TopDown
 		};
 		class TopDown
 		{
-			ascendHeight	= 150;
-			descendDistance	= 180;
-			minDistance		= 5;
-			ascendAngle		= 50;
+			ascendHeight = 150;
+			descendDistance = 180;
+			minDistance = 180;
+			ascendAngle = 30;
 		};
 
 		class Components
@@ -319,6 +319,19 @@ class CfgAmmo
 		lockSeekRadius = 700;
 		autoSeekTarget = 1;
 		//triggerTime=3;
+		
+		flightProfiles[] = {"Direct", "TopDown"};
+		class Direct
+		{
+		};
+		class TopDown
+		{
+			ascendHeight = 150;
+			descendDistance = 180;
+			minDistance = 180;
+			ascendAngle = 30;
+		};
+
 		triggerDistance 				= 200;
 		submunitionConeAngle 			= 35;
 		submunitionInitSpeed 			= 20;
@@ -370,20 +383,6 @@ class CfgAmmo
 		effectsMissile = "XDF_GuidedSlug_Trail";
 
 		lockSeekDistanceFromParent = 120;
-
-		
-		flightProfiles[] =
-		{
-			TopDown
-		};
-		class TopDown
-		{
-			ascendHeight	= 150;
-			descendDistance	= 180;
-			minDistance		= 5;
-			ascendAngle		= 50;
-		};
-
 		class Components
 		{
 			class SensorsManagerComponent
@@ -573,6 +572,11 @@ class CfgAmmo
 		effectsMissile="XDF_CruiseMissile";
 		model="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
 		proxyShape="\A3\Weapons_F_Destroyer\Ammo\Missile_Cruise_01_Fly_F";
+		class Cruise
+		{
+			preferredFlightAltitude = 250;
+			lockDistanceToTarget = 300;
+		};
 		soundEngine[]=
 		{
 			"\xdf\sounds\shot\titan\exp_missile_engine",
@@ -1483,6 +1487,7 @@ class CfgAmmo
 		explosionTime=5;
 		timeToLive=6;
 		explosionEffects="XDF_ProtoGrenade_ExplosionEff";
+		cost=20;
 		soundFly[]=
 		{
 			"\xdf\sounds\exp\protogrenade_alarm.ogg",
