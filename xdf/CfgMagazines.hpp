@@ -1063,12 +1063,12 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName="10mm 25Rnd Railgun Magazine (SMART)";
+		displayName="10mm 30Rnd Railgun Magazine (SMART)";
 		displaynameshort="10mm SMART";
-		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 30<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag_lg.paa";
 		ammo="B_10mm_railshot_smart";
-		count=25;
+		count=30;
 		tracersEvery=1;
 		mass=62;
 	};
@@ -1322,6 +1322,12 @@ class CfgMagazines
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=1;
 	};
+	class 95Rnd_762x39_AK12_Mag_blue_tracer: 75Rnd_762x39_AK12_Mag_blue_tracer
+	{
+		displayName="7.62 mm 95rnd Tracer Mag (AX)";
+		count=95;
+		mass=32;
+	};
 	class 75Rnd_762x39_AK12_Mag_blue_reload_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
 	{
 		author="Radium";
@@ -1331,6 +1337,12 @@ class CfgMagazines
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=10;
+	};
+	class 95Rnd_762x39_AK12_Mag_blue_reload_tracer: 75Rnd_762x39_AK12_Mag_blue_reload_tracer
+	{
+		displayName="7.62 mm 95rnd Reload Tracer Mag (AX)";
+		count=95;
+		mass=32;
 	};
 
 	class 200Rnd_65x39_cased_Box_Tracer_Red;
