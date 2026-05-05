@@ -18257,6 +18257,20 @@ class CfgVehicles
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -18382,6 +18396,21 @@ class CfgVehicles
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa"
 				};
 			};
 		};
@@ -26684,6 +26713,21 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hurricane\mbt_01_body_arbalest_co.paa",
+					"\xdf\retextures\hurricane\mbt_01_mlrs_arbalest_co.paa",
+					"\xdf\retextures\hurricane\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -27172,6 +27216,24 @@ class CfgVehicles
 					"\xdf\retextures\dementer\apc_wheeled_03_ext2_prydonian_co.paa",
 					"\xdf\retextures\dementer\rcws30_prydonian_co.paa",
 					"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_prydonian_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+					"\xdf\retextures\dementer\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Komodo
+			{
+				displayName="KOMODO - 6th Rapid Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_komodo_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext2_komodo_co.paa",
+					"\xdf\retextures\dementer\rcws30_komodo_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_komodo_co.paa",
 					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
 					"\xdf\retextures\dementer\cage_black_co.paa"
 				};
@@ -29645,6 +29707,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_arbalest_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -29749,6 +29827,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_radar_arbalest_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -29810,6 +29904,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
 					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_arbalest_co.paa",
 					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
 					"\xdf\retextures\ocelot\cage_black_co.paa"
 				};
@@ -29912,6 +30022,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
 					"\xdf\retextures\ocelot\lt_01_cannon_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_cannon_arbalest_co.paa",
 					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
 					"\xdf\retextures\ocelot\cage_black_co.paa"
 				};

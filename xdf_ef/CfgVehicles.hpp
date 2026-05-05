@@ -699,6 +699,27 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\mack\aav9_hull_1_lazarus_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_2_lazarus_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_3_lazarus_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_4_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_hull_5_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_1_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_alpha_1_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_2_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -768,6 +789,27 @@ class CfgVehicles
 					"\xdf_ef\retextures\mack\aav9_turret_1_co.paa", 
 					"\xdf_ef\retextures\mack\aav9_alpha_1_co.paa", 
 					"\xdf_ef\retextures\mack\aav9_turret_2_co.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\mack\aav9_hull_1_lazarus_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_2_lazarus_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_3_lazarus_co.paa", 
+		    		"\xdf_ef\retextures\mack\aav9_hull_4_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_hull_5_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_1_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_alpha_1_lazarus_co.paa", 
+					"\xdf_ef\retextures\mack\aav9_turret_2_lazarus_co.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -1216,6 +1258,26 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_ARBALEST_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_ARBALEST_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_BLACK_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_BLACK_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_BLACK_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARBALEST_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -1392,6 +1454,25 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\achelois\combatboat_hull_1_lazarus_CO.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hull_2_lazarus_CO.paa",
+					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_armor_1_lazarus_CO.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -1457,6 +1538,25 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\achelois\combatboat_hull_1_lazarus_CO.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hull_2_lazarus_CO.paa",
+					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_armor_1_lazarus_CO.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -1513,6 +1613,25 @@ class CfgVehicles
 					"\xdf_ef\retextures\achelois\combatboat_hull_2_co.paa",
 					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
 					"\xdf_ef\retextures\achelois\combatboat_armor_1_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
+					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
+					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\achelois\combatboat_hull_1_lazarus_CO.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_hull_2_lazarus_CO.paa",
+					"\xdf_ef\retextures\achelois\combatboat_hull_3_co.paa", 
+					"\xdf_ef\retextures\achelois\combatboat_armor_1_lazarus_CO.paa", 
 					"\xdf_ef\retextures\achelois\combatboat_hmg_1_co.paa",
 					"\xdf_ef\retextures\achelois\combatboat_atgm_1_co.paa", 
 					"#(rgb,1024,1024,1)ui(EF_GPSScreen,EF_GPSScreen)"
