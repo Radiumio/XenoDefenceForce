@@ -26783,7 +26783,23 @@ class CfgVehicles
 					"\xdf\retextures\scoria\MBT_01_body_CO.paa",
 					"\xdf\retextures\scoria\MBT_01_scorcher_co.paa",
 					"\xdf\retextures\scoria\Turret_CO.paa",
-					"\xdf\retextures\scoria\camonet_NATO_Desert_CO.paa"
+					"\xdf\retextures\scoria\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\hurricane\mbt_01_body_arbalest_co.paa",
+					"\xdf\retextures\scoria\MBT_01_scorcher_arbalest_co.paa",
+					"\xdf\retextures\scoria\turret_arbalest_co.paa",
+					"\xdf\retextures\scoria\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
