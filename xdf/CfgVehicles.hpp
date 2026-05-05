@@ -294,6 +294,15 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\sappho_flag.paa'";
 		};
 	};
+    class Flag_PrydonianDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_PrydonianDivision.jpg";
+		displayName="Flag (XDF - PRYDONIAN)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\prydonian_flag.paa'";
+		};
+	};
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
 	{
@@ -469,6 +478,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\sappho_flag.paa"
+		};
+	};
+	class Banner_PrydonianDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_PrydonianDivision.jpg";
+		displayName="Banner (PRYDONIAN)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\prydonian_flag.paa"
 		};
 	};
 
@@ -41052,6 +41070,15 @@ class CfgVehicles
 			"\xdf\signs\sign_sappho_large.paa"
 		};
 	};
+	class XDF_Sign_PrydonianDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (PRYDONIAN - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_PrydonianDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_prydonian_large.paa"
+		};
+	};
 
 
 
@@ -41685,6 +41712,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_sappho.paa"
+		};
+	};
+	class XDF_SignS_PrydonianDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (PRYDONIAN - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_PrydonianDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_prydonian.paa"
 		};
 	};
 
