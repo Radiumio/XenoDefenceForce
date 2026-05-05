@@ -906,6 +906,19 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\twinMortar\lxrf_twin_cannon_arbalest_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{

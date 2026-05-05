@@ -25774,6 +25774,20 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\quadbike\quadbike_01_lazarus_co.paa",
+					"\xdf\retextures\quadbike\quadbike_01_wheel_lazarus_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -26103,6 +26117,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
+					"\xdf\retextures\jackal\nato_lsv_02_lazarus_co.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -26151,6 +26181,22 @@ class CfgVehicles
 					"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
 					"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
 					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
+					"\xdf\retextures\jackal\nato_lsv_02_lazarus_co.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_lazarus_co.paa",
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
 				};
 				factions[]=
@@ -26211,6 +26257,24 @@ class CfgVehicles
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
 					"\xdf\retextures\jackal\launcher_co.paa",
 			        "\xdf\retextures\jackal\tubem_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
+					"\xdf\retextures\jackal\nato_lsv_02_lazarus_co.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
+					"\xdf\retextures\jackal\launcher_co.paa",
+			   		"\xdf\retextures\jackal\tubem_co.paa"
 				};
 				factions[]=
 				{
@@ -27749,6 +27813,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\champion\apc_tracked_03_ext_lazarus_co.paa",
+					"\xdf\retextures\champion\apc_tracked_03_ext2_lazarus_co.paa",
+					"\xdf\retextures\champion\camonet_nato_black_co.paa",
+					"\xdf\retextures\champion\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28633,6 +28713,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28686,6 +28782,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
 					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
 				};
@@ -28755,6 +28867,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cover_lazarus_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28807,6 +28935,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_fuel_co.paa"
 				};
 				factions[]=
@@ -28875,6 +29018,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28927,6 +29086,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ammo_co.paa"
 				};
 				factions[]=
@@ -28987,6 +29161,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
 					"\xdf\retextures\hemtt\containers_02_set_co.paa"
 				};
@@ -29056,6 +29246,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cover_lazarus_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -29114,6 +29320,21 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -29165,6 +29386,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_mprimer_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_mprimer_co.paa"
 				};
 				factions[]=
@@ -29345,6 +29581,23 @@ class CfgVehicles
 					"\xdf\retextures\van\van_glass_medevac_dirty_ca.paa",
 					"a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
 					"\xdf\retextures\van\van_body_xdfambulance_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\van\van_body_xdfambulance_lazarus_co.paa",
+					"\xdf\retextures\van\van_wheel_med_xdf_co.paa",
+					"\xdf\retextures\van\van_glass_medevac_dirty_ca.paa",
+					"a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
+					"\xdf\retextures\van\van_body_xdfambulance_lazarus_co.paa"
 				};
 				factions[]=
 				{
