@@ -246,7 +246,7 @@ class CfgSoundShaders
 		range=100;
 		rangeCurve="closeShotCurve";
 	};
-	class M320_Bolt_SoundShader
+	class M320_Bolt_XDF_SoundShader
 	{
 		samples[] = 
 		{

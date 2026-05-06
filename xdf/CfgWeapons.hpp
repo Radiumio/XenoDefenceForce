@@ -5660,7 +5660,7 @@ class cfgWeapons
 	class LMG_Minigun_AX_HE: LMG_Minigun_AX
 	{
 		displayName="LMG AX Minigun HE";
-		magazines[]=
+		magazines[]+=
 		{
 			"1000Rnd_20mm_GPR_shells",
 		};

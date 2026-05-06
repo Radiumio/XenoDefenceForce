@@ -21630,12 +21630,13 @@ class CfgVehicles
 		
 		weapons[]=
 		{
-			"M134_minigun",
+			"LMG_Minigun_AX_HE",
 			"CMFlareLauncher_Singles"
 		};
 		magazines[]=
 		{
-			"5000Rnd_762x51_Belt",
+			"1000Rnd_20mm_GPR_shells",
+			"1000Rnd_20mm_GPR_shells",
 			"120Rnd_CMFlareMagazine"
 		};
 		hiddenSelections[]=
