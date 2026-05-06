@@ -1457,6 +1457,32 @@ class CfgAmmo
 		hit=29; // default 24, AX munitions add 5
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
+	class B_408_Ball_blue_heax: B_408_Ball
+	{
+		hit=45; // default 24, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		indirectHit=10;
+		indirectHitRange=1;
+		warheadName="HE";
+		explosive=0.8;
+		explosionSoundEffect="DefaultExplosion";
+		CraterEffects="ExploAmmoCrater";
+		explosionEffects="ExploAmmoExplosion";
+	};
+	class B_408_Ball_blue_hvap: B_408_Ball
+	{
+		hit=60; // default 24, AX munitions add 5
+		caliber=3;
+		submunitionAmmo="B_408_Ball_blue_hvap_sub";
+		triggerTime=0.0001;
+		submunitionCount=1;
+		submunitionInitSpeed=1200;
+	};
+	class B_408_Ball_blue_hvap_sub: B_408_Ball_blue
+	{
+		hit=60;
+	};
+
 	class B_762x54_Ball;
 	class B_762x54_Ball_blue: B_762x54_Ball
 	{

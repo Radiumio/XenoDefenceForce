@@ -211,7 +211,9 @@ class CfgMagazineWells
 	{
 		XDF_Magazines[]=
 		{
-			"7Rnd_408_Mag_blue_tracer"
+			"7Rnd_408_Mag_blue_tracer",
+			"7Rnd_408_Mag_blue_heax_tracer",
+			"7Rnd_408_Mag_blue_hvap_tracer"
 		};
 	};
 	class Rahim_762x54_XDF
