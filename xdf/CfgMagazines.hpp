@@ -1154,28 +1154,31 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName=".408 mm 7Rnd Tracer Mag (AX)";
+		displayName=".408 7Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_408_Ball_blue";
 		tracersEvery=1;
+		mass=12;
 	};
 	class 7Rnd_408_Mag_blue_heax_tracer: 7Rnd_408_Mag
 	{
 		author="Radium";
 		scope=2;
-		displayName=".408 mm 7Rnd Tracer Mag (HE-AX)";
+		displayName=".408 7Rnd Tracer Mag (HE-AX)";
 		displaynameshort="HE-AX Tracer";
 		ammo="B_408_Ball_blue_heax";
 		tracersEvery=1;
+		mass=14;
 	};
 	class 7Rnd_408_Mag_blue_hvap_tracer: 7Rnd_408_Mag
 	{
 		author="Radium";
 		scope=2;
-		displayName=".408 mm 7Rnd Tracer Mag (HVAP-AX)";
+		displayName=".408 7Rnd Tracer Mag (HVAP-AX)";
 		displaynameshort="HVAP-AX Tracer";
 		ammo="B_408_Ball_blue_hvap";
 		tracersEvery=1;
+		mass=16;
 	};
 
 	class 10Rnd_762x54_Mag;

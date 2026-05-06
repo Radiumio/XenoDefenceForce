@@ -1476,7 +1476,7 @@ class CfgAmmo
 		submunitionAmmo="B_408_Ball_blue_hvap_sub";
 		triggerTime=0.0001;
 		submunitionCount=1;
-		submunitionInitSpeed=1200;
+		submunitionInitSpeed=1800;
 	};
 	class B_408_Ball_blue_hvap_sub: B_408_Ball_blue
 	{
