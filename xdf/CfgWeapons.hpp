@@ -4343,7 +4343,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Arbitrator";
-		descriptionShort = "AX Sniper Rifle<br/>While not intended for use against alien forces, AX ammunition proves significantly useful against hostile human forces too.<br/>Caliber: .408 - Experimental AX Chamber Upgrade";
+		descriptionShort = "AX Sniper Rifle<br/>Originally not intended for AX usage, the Arbitrator has received significant upgrades to level the playing field<br/>when compared to more advanced, expensive XDF sniper rifles.<br/>Caliber: .408 - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_LRR";
 		hiddenSelections[]=
 		{

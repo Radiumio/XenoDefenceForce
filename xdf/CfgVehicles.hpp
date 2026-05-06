@@ -499,6 +499,15 @@ class CfgVehicles
 			"\xdf\flags\prydonian_flag.paa"
 		};
 	};
+	class Banner_ArbalestDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_ArbalestDivision.jpg";
+		displayName="Banner (ARBALEST)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\arbalest_flag.paa"
+		};
+	};
 
 
 	class B_Plane_Fighter_01_F;
@@ -42433,7 +42442,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "";
+		editorPreview="\xdf\previews\structures\XDF_Blahaj.jpg";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Blahaj";
@@ -42460,6 +42469,7 @@ class CfgVehicles
 	class XDF_Blahaj_Orange: XDF_Blahaj
 	{
 		displayName = "Blahaj (XDF)";
+		editorPreview="\xdf\previews\structures\XDF_Blahaj_Orange.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\models\blahaj\shark_xdf_co.paa"
@@ -42469,6 +42479,7 @@ class CfgVehicles
 	class XDF_Blahaj_Rainbow: XDF_Blahaj
 	{
 		displayName = "Blahaj (Rainbow)";
+		editorPreview="\xdf\previews\structures\XDF_Blahaj_Rainbow.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\models\blahaj\shark_rainbow_co.paa"
