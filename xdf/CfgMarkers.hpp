@@ -287,8 +287,8 @@ class CfgMarkers
 	class map_KomodoDivision: Flag
 	{
 		name="KOMODO 6th RMID";
-		icon="\xdf\markers\map_KomodoDivision.paa";
-		texture="\xdf\markers\map_KomodoDivision.paa";
+		icon="\xdf\markers\map_Komodo.paa";
+		texture="\xdf\markers\map_Komodo.paa";
 		size=64;
 		scope=2;
 		shadow=0;

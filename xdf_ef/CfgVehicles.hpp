@@ -1062,7 +1062,7 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_komodo_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_KOMODO_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_KOMODO_CO.paa", 
