@@ -330,6 +330,15 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\ares_flag.paa'";
 		};
 	};
+    class Flag_KomodoDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_KomodoDivision.jpg";
+		displayName="Flag (XDF - KOMODO)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\komodo_flag.paa'";
+		};
+	};
 
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
@@ -542,6 +551,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\ares_flag.paa"
+		};
+	};
+	class Banner_KomodoDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_KomodoDivision.jpg";
+		displayName="Banner (KOMODO)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\komodo_flag.paa"
 		};
 	};
 
@@ -41261,6 +41279,15 @@ class CfgVehicles
 			"\xdf\signs\sign_ares_large.paa"
 		};
 	};
+	class XDF_Sign_KomodoDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (KOMODO - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_KomodoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_komodo_large.paa"
+		};
+	};
 
 
 
@@ -41932,6 +41959,16 @@ class CfgVehicles
 			"\xdf\signs\sign_ares.paa"
 		};
 	};
+	class XDF_SignS_KomodoDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (KOMODO - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_KomodoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_komodo.paa"
+		};
+	};
+
 
 
 	// Mini-Signs //

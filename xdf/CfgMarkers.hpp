@@ -284,6 +284,17 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class map_KomodoDivision: Flag
+	{
+		name="KOMODO 6th RMID";
+		icon="\xdf\markers\map_KomodoDivision.paa";
+		texture="\xdf\markers\map_KomodoDivision.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 	class xdf_haz_biological: Flag
 	{
 		name="Hazard - Biological";
