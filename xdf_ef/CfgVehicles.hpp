@@ -42,6 +42,41 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf_ef\retextures\boar\hunter_01_CO.paa",
+					"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf_ef\retextures\boar\hunter_01_CO.paa",
+					"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
 		class AnimationSources: AnimationSources
 		{
 			class muzzle_rot
@@ -141,6 +176,41 @@ class CfgVehicles
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf_ef\retextures\boar\hunter_01_CO.paa",
+					"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf_ef\retextures\boar\hunter_01_CO.paa",
+					"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
 		class AnimationSources: AnimationSources
 		{
 			class muzzle_rot
@@ -233,6 +303,41 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf_ef\retextures\boar\hunter_01_CO.paa",
 			"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf_ef\retextures\boar\hunter_01_CO.paa",
+					"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf_ef\retextures\boar\hunter_01_CO.paa",
+					"\xdf_ef\retextures\boar\hunter_02_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		class AnimationSources: AnimationSources
 		{
@@ -937,8 +1042,8 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
@@ -957,10 +1062,30 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_KOMODO_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_KOMODO_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_ARES_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -1087,8 +1212,8 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
@@ -1107,10 +1232,30 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_KOMODO_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_KOMODO_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_ARES_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -1237,8 +1382,8 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
@@ -1257,10 +1402,30 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_KOMODO_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_KOMODO_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_ARES_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -1387,8 +1552,8 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
@@ -1407,10 +1572,30 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_KOMODO_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_KOMODO_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_ARES_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -1537,8 +1722,8 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_ARBALEST_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARBALEST_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
@@ -1557,10 +1742,30 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_hull_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_details_1_KOMODO_CO.paa", 
 				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
-				    "\xdf_ef\retextures\gyra\gyra_hmg_1_HONEY_CO.paa", 
-					"\xdf_ef\retextures\gyra\gyra_rws_1_HONEY_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_KOMODO_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_KOMODO_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_ARES_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=

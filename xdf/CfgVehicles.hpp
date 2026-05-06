@@ -303,6 +303,16 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\prydonian_flag.paa'";
 		};
 	};
+    class Flag_ArbalestDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_ArbalestDivision.jpg";
+		displayName="Flag (XDF - ARBALEST)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\arbalest_flag.paa'";
+		};
+	};
+
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
 	{
@@ -25842,6 +25852,39 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
 		driverDoor="Door_LF";
 		cargoDoors[]={
 			"Door_RF",
@@ -25878,6 +25921,39 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
 	};
 	class B_MRAP_01_hmg_F;
 	class XDF_Boar_HMG: B_MRAP_01_hmg_F
@@ -25907,6 +25983,39 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_base_co.paa",
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 	};
 	class O_MRAP_02_F;
@@ -41079,6 +41188,15 @@ class CfgVehicles
 			"\xdf\signs\sign_prydonian_large.paa"
 		};
 	};
+	class XDF_Sign_ArbalestDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (ARBALEST - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_ArbalestDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_arbalest_large.paa"
+		};
+	};
 
 
 
@@ -41721,6 +41839,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_prydonian.paa"
+		};
+	};
+	class XDF_SignS_ArbalestDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (ARBALEST - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_ArbalestDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_arbalest.paa"
 		};
 	};
 

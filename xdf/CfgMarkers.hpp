@@ -251,6 +251,17 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class map_ArbalestDivision: Flag
+	{
+		name="ARBALEST 4th ASD";
+		icon="\xdf\markers\map_Arbalest.paa";
+		texture="\xdf\markers\map_Arbalest.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 	class xdf_haz_biological: Flag
 	{
 		name="Hazard - Biological";
