@@ -321,6 +321,15 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\lazarus_flag.paa'";
 		};
 	};
+    class Flag_AresDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_AresDivision.jpg";
+		displayName="Flag (XDF - ARES)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\ares_flag.paa'";
+		};
+	};
 
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
@@ -524,6 +533,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\lazarus_flag.paa"
+		};
+	};
+	class Banner_AresDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_AresDivision.jpg";
+		displayName="Banner (ARES)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\ares_flag.paa"
 		};
 	};
 
@@ -41233,6 +41251,15 @@ class CfgVehicles
 			"\xdf\signs\sign_lazarus_large.paa"
 		};
 	};
+	class XDF_Sign_AresDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (ARES - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_AresDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ares_large.paa"
+		};
+	};
 
 
 
@@ -41895,6 +41922,16 @@ class CfgVehicles
 			"\xdf\signs\sign_lazarus.paa"
 		};
 	};
+	class XDF_SignS_AresDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (ARES - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_AresDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ares.paa"
+		};
+	};
+
 
 	// Mini-Signs //
 	class Land_Sign_Mines_F;

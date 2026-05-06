@@ -246,6 +246,15 @@ class CfgSoundShaders
 		range=100;
 		rangeCurve="closeShotCurve";
 	};
+	class M320_Bolt_SoundShader
+	{
+		samples[] = 
+		{
+			{"\xdf\sounds\reloads\cheytac_bolt.ogg", 1}
+		};
+		range = 5;
+		volume = 1;
+	};
 	class XDF_GM6LynxRail_closeShot_SoundShader
 	{
 		samples[]=
