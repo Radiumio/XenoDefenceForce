@@ -312,6 +312,15 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\arbalest_flag.paa'";
 		};
 	};
+    class Flag_LazarusDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_LazarusDivision.jpg";
+		displayName="Flag (XDF - LAZARUS)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\lazarus_flag.paa'";
+		};
+	};
 
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
@@ -506,6 +515,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\arbalest_flag.paa"
+		};
+	};
+	class Banner_LazarusDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_LazarusDivision.jpg";
+		displayName="Banner (LAZARUS)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\lazarus_flag.paa"
 		};
 	};
 
@@ -26260,8 +26278,8 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
-					"\xdf\retextures\jackal\nato_lsv_02_lazarus_co.paa",
-					"\xdf\retextures\jackal\nato_lsv_03_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_lazarus_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
 				};
 				factions[]=
@@ -26331,8 +26349,8 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
-					"\xdf\retextures\jackal\nato_lsv_02_lazarus_co.paa",
-					"\xdf\retextures\jackal\nato_lsv_03_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_lazarus_CO.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_black_co.paa",
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
 				};
 				factions[]=
@@ -26406,8 +26424,8 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
-					"\xdf\retextures\jackal\nato_lsv_02_lazarus_co.paa",
-					"\xdf\retextures\jackal\nato_lsv_03_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_lazarus_CO.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_black_co.paa",
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
 					"\xdf\retextures\jackal\launcher_co.paa",
 			   		"\xdf\retextures\jackal\tubem_co.paa"
@@ -41206,6 +41224,15 @@ class CfgVehicles
 			"\xdf\signs\sign_arbalest_large.paa"
 		};
 	};
+	class XDF_Sign_LazarusDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (LAZARUS - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_LazarusDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_lazarus_large.paa"
+		};
+	};
 
 
 
@@ -41857,6 +41884,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\signs\sign_arbalest.paa"
+		};
+	};
+	class XDF_SignS_LazarusDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (LAZARUS - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_LazarusDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_lazarus.paa"
 		};
 	};
 

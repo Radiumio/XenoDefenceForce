@@ -262,6 +262,17 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class map_LazarusDivision: Flag
+	{
+		name="LAZARUS 17th RRD";
+		icon="\xdf\markers\map_Lazarus.paa";
+		texture="\xdf\markers\map_Lazarus.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 	class xdf_haz_biological: Flag
 	{
 		name="Hazard - Biological";
