@@ -14,6 +14,11 @@ class CfgVehicles
 		armor = 110; // Default 50
 		fuelCapacity = 1800; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -86,6 +91,11 @@ class CfgVehicles
 		armor = 110; // Default 50
 		fuelCapacity = 1800; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -158,6 +168,11 @@ class CfgVehicles
 		armor = 110; // Default 50
 		fuelCapacity = 1800; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -230,6 +245,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1113; // Default 742
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -276,6 +296,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1113; // Default 1250
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -360,6 +385,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -413,6 +456,24 @@ class CfgVehicles
 					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
 					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
 					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
 				};
 				factions[]=
 				{
@@ -478,6 +539,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -537,6 +616,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -588,6 +685,23 @@ class CfgVehicles
 					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
 					"\lxrf\vehicles_rf\pickup_01\Data\RCWS\rcws_black_co.paa",
 					"\xdf_rf\retextures\pickup\pickup_01_service_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\Data\RCWS\rcws_black_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
 				};
 				factions[]=
 				{
@@ -653,6 +767,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -712,6 +844,24 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\pickup\pickup_01_ext_prydonian_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_adds_prydonian_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_aat_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_launcher_co.paa",
+					"\xdf_rf\retextures\pickup\pickup_01_service_prydonian_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -750,6 +900,19 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf_rf\retextures\twinMortar\lxrf_twin_cannon_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_rf\retextures\twinMortar\lxrf_twin_cannon_arbalest_co.paa"
 				};
 				factions[]=
 				{

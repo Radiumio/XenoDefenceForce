@@ -265,6 +265,81 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\phoenix_flag.paa'";
 		};
 	};
+    class Flag_SapphoDivision: FlagCarrier
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]=
+			{
+				
+				{
+					"flag",
+					0
+				}
+			};
+			hide[]={};
+			verticalOffset=3.977;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\structures\Flag_SapphoDivision.jpg";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="XDF_Structures";
+		displayName="Flag (XDF - SAPPHO'S SHIELD)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\sappho_flag.paa'";
+		};
+	};
+    class Flag_PrydonianDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_PrydonianDivision.jpg";
+		displayName="Flag (XDF - PRYDONIAN)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\prydonian_flag.paa'";
+		};
+	};
+    class Flag_ArbalestDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_ArbalestDivision.jpg";
+		displayName="Flag (XDF - ARBALEST)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\arbalest_flag.paa'";
+		};
+	};
+    class Flag_LazarusDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_LazarusDivision.jpg";
+		displayName="Flag (XDF - LAZARUS)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\lazarus_flag.paa'";
+		};
+	};
+    class Flag_AresDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_AresDivision.jpg";
+		displayName="Flag (XDF - ARES)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\ares_flag.paa'";
+		};
+	};
+    class Flag_KomodoDivision: Flag_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Flag_KomodoDivision.jpg";
+		displayName="Flag (XDF - KOMODO)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\komodo_flag.paa'";
+		};
+	};
+
 	class Banner_01_F;
 	class Banner_TaskForceLotus: Banner_01_F
 	{
@@ -420,6 +495,73 @@ class CfgVehicles
 			"\xdf\flags\phoenix_flag.paa"
 		};
 	};
+	class Banner_SapphoDivision: Banner_01_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=0.46900001;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		editorPreview="\xdf\previews\structures\Banner_SapphoDivision.jpg";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="XDF_Structures";
+		displayName="Banner (SAPPHO'S SHIELD)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\sappho_flag.paa"
+		};
+	};
+	class Banner_PrydonianDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_PrydonianDivision.jpg";
+		displayName="Banner (PRYDONIAN)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\prydonian_flag.paa"
+		};
+	};
+	class Banner_ArbalestDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_ArbalestDivision.jpg";
+		displayName="Banner (ARBALEST)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\arbalest_flag.paa"
+		};
+	};
+	class Banner_LazarusDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_LazarusDivision.jpg";
+		displayName="Banner (LAZARUS)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\lazarus_flag.paa"
+		};
+	};
+	class Banner_AresDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_AresDivision.jpg";
+		displayName="Banner (ARES)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\ares_flag.paa"
+		};
+	};
+	class Banner_KomodoDivision: Banner_SapphoDivision
+	{
+		editorPreview="\xdf\previews\structures\Banner_KomodoDivision.jpg";
+		displayName="Banner (KOMODO)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\komodo_flag.paa"
+		};
+	};
 
 
 	class B_Plane_Fighter_01_F;
@@ -437,6 +579,9 @@ class CfgVehicles
 		side=1;
 		faction = "B_XDF";
 		crew = "B_XDF_Jet_Pilot";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -659,6 +804,9 @@ class CfgVehicles
 		side=1;
 		faction = "B_XDF";
 		crew = "B_XDF_Jet_Pilot";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		hiddenSelections[]=
 		{
 			"Camo_01",
@@ -16316,6 +16464,9 @@ class CfgVehicles
 		crew = "B_XDF_Jet_Pilot";
 		armor = 160; // Default 80
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		typicalCargo[]=
 		{
 			"B_XDF_Jet_Pilot"
@@ -16369,6 +16520,9 @@ class CfgVehicles
 		crew = "B_XDF_Jet_Pilot";
 		armor = 160; // Default 80
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		typicalCargo[]=
 		{
 			"B_XDF_Jet_Pilot"
@@ -16401,6 +16555,10 @@ class CfgVehicles
 		maxSpeed = 365; // Default 365
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -16501,6 +16659,10 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -16585,6 +16747,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -16674,6 +16841,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Operative"
@@ -16908,6 +17080,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17000,6 +17177,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17088,6 +17270,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17180,6 +17367,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17272,6 +17464,10 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17666,6 +17862,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17785,6 +17986,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -17910,6 +18116,11 @@ class CfgVehicles
 		maxSpeed = 300; // Default 300
 		fuelCapacity = 2300; // Default 1360
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18037,6 +18248,11 @@ class CfgVehicles
 		maxSpeed = 300; // Default 300
 		fuelCapacity = 2300; // Default 1360
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18132,6 +18348,20 @@ class CfgVehicles
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -18163,6 +18393,11 @@ class CfgVehicles
 		maxSpeed = 300; // Default 300
 		fuelCapacity = 2300; // Default 1360
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18254,6 +18489,21 @@ class CfgVehicles
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -18276,6 +18526,11 @@ class CfgVehicles
 		maxSpeed = 300; // Default 300
 		fuelCapacity = 3000; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18326,6 +18581,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1200; // Default 800
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18370,6 +18630,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1200; // Default 800
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18414,6 +18679,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1113; // Default 742
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18462,6 +18732,11 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 1113; // Default 742
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -18516,8 +18791,11 @@ class CfgVehicles
 		{
 			"B_XDF_Pilot"
 		};
-		lockDetectionSystem="8 + 4";
-		incomingMissileDetectionSystem="8 + 16";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		weapons[]=
 		{
 			"CMFlareLauncher_Singles"
@@ -21363,16 +21641,20 @@ class CfgVehicles
 		{
 			"B_XDF_Pilot"
 		};
-		lockDetectionSystem="8 + 4";
-		incomingMissileDetectionSystem="8 + 16";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		weapons[]=
 		{
-			"M134_minigun",
+			"LMG_Minigun_AX_HE",
 			"CMFlareLauncher_Singles"
 		};
 		magazines[]=
 		{
-			"5000Rnd_762x51_Belt",
+			"1000Rnd_20mm_GPR_shells",
+			"1000Rnd_20mm_GPR_shells",
 			"120Rnd_CMFlareMagazine"
 		};
 		hiddenSelections[]=
@@ -24934,6 +25216,11 @@ class CfgVehicles
 		maxSpeed = 700; // Default 700
 		fuelCapacity = 2500; // Default 1000
 		damageResistance = 0.02; // Default 0.00039999999
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -24979,6 +25266,11 @@ class CfgVehicles
 		maxSpeed = 700; // Default 700
 		fuelCapacity = 2500; // Default 1000
 		damageResistance = 0.02; // Default 0.00039999999
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -25024,6 +25316,11 @@ class CfgVehicles
 		maxSpeed = 550; // Default 550
 		fuelCapacity = 3000; // Default ?
 		damageResistance = 0.02; // Default 0.001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -25078,6 +25375,11 @@ class CfgVehicles
 		maxSpeed = 550; // Default 550
 		fuelCapacity = 3000; // Default ?
 		damageResistance = 0.02; // Default 0.001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -25132,6 +25434,11 @@ class CfgVehicles
 		maxSpeed = 550; // Default 550
 		fuelCapacity = 3000; // Default ?
 		damageResistance = 0.02; // Default 0.001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Pilot"
@@ -25373,7 +25680,12 @@ class CfgVehicles
 		armor = 100; // Default 50
 		maxSpeed = 800; // Default 800
 		// fuelCapacity = 200; // Default 100
-		damageResistance = 0.02; // Default 0.0040000002	    
+		damageResistance = 0.02; // Default 0.0040000002
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+			    
 		typicalCargo[]=
 		{
 			"B_UAV_AI"
@@ -25420,7 +25732,12 @@ class CfgVehicles
 		armor = 80; // Default ??
 		maxSpeed = 400; // Default 400
 		// fuelCapacity = 200; // Default 100
-		damageResistance = 0.02; // Default 0.0040000002	    
+		damageResistance = 0.02; // Default 0.0040000002
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+			    
 		typicalCargo[]=
 		{
 			"B_UAV_AI"
@@ -25466,6 +25783,11 @@ class CfgVehicles
 		maxSpeed = 250; // Default 250
 		fuelCapacity = 200; // Default 100
 		damageResistance = 0.02; // Default 0	    
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_UAV_AI"
@@ -25544,6 +25866,20 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\quadbike\quadbike_01_lazarus_co.paa",
+					"\xdf\retextures\quadbike\quadbike_01_wheel_lazarus_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -25579,6 +25915,39 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_base_co.paa",
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		driverDoor="Door_LF";
 		cargoDoors[]={
@@ -25616,6 +25985,39 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+		};
 	};
 	class B_MRAP_01_hmg_F;
 	class XDF_Boar_HMG: B_MRAP_01_hmg_F
@@ -25645,6 +26047,39 @@ class CfgVehicles
 			"\xdf\retextures\boar\mrap_01_base_co.paa",
 			"\xdf\retextures\boar\mrap_01_adds_co.paa",
 			"\xdf\retextures\boar\turret_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Ares
+			{
+				displayName="ARES - 7th Elite Anti-Tank Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\boar\mrap_01_base_ares_co.paa",
+					"\xdf\retextures\boar\mrap_01_adds_co.paa",
+					"\xdf\retextures\boar\turret_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 	};
 	class O_MRAP_02_F;
@@ -25873,6 +26308,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_lazarus_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -25921,6 +26372,22 @@ class CfgVehicles
 					"\xdf\retextures\jackal\NATO_LSV_01_black_CO.paa",
 					"\xdf\retextures\jackal\NATO_LSV_02_black_CO.paa",
 					"\xdf\retextures\jackal\NATO_LSV_03_black_CO.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_lazarus_CO.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_black_co.paa",
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa"
 				};
 				factions[]=
@@ -25981,6 +26448,24 @@ class CfgVehicles
 					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
 					"\xdf\retextures\jackal\launcher_co.paa",
 			        "\xdf\retextures\jackal\tubem_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\jackal\nato_lsv_01_lazarus_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_02_lazarus_CO.paa",
+					"\xdf\retextures\jackal\nato_lsv_03_black_co.paa",
+					"\xdf\retextures\jackal\NATO_LSV_Adds_black_CO.paa",
+					"\xdf\retextures\jackal\launcher_co.paa",
+			   		"\xdf\retextures\jackal\tubem_co.paa"
 				};
 				factions[]=
 				{
@@ -26309,6 +26794,11 @@ class CfgVehicles
 		maxSpeed = 240; // Default 120
 		fuelCapacity = 48; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 50.0;
@@ -26478,6 +26968,21 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hurricane\mbt_01_body_arbalest_co.paa",
+					"\xdf\retextures\hurricane\mbt_01_mlrs_arbalest_co.paa",
+					"\xdf\retextures\hurricane\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -26533,7 +27038,23 @@ class CfgVehicles
 					"\xdf\retextures\scoria\MBT_01_body_CO.paa",
 					"\xdf\retextures\scoria\MBT_01_scorcher_co.paa",
 					"\xdf\retextures\scoria\Turret_CO.paa",
-					"\xdf\retextures\scoria\camonet_NATO_Desert_CO.paa"
+					"\xdf\retextures\scoria\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\hurricane\mbt_01_body_arbalest_co.paa",
+					"\xdf\retextures\scoria\MBT_01_scorcher_arbalest_co.paa",
+					"\xdf\retextures\scoria\turret_arbalest_co.paa",
+					"\xdf\retextures\scoria\camonet_nato_black_co.paa"
 				};
 				factions[]=
 				{
@@ -26956,6 +27477,42 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Prydonian
+			{
+				displayName="PRYDONIAN - 7th Elite Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_prydonian_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext2_prydonian_co.paa",
+					"\xdf\retextures\dementer\rcws30_prydonian_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_prydonian_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+					"\xdf\retextures\dementer\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Komodo
+			{
+				displayName="KOMODO - 6th Rapid Mechanized Infantry Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_komodo_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext2_komodo_co.paa",
+					"\xdf\retextures\dementer\rcws30_komodo_co.paa",
+					"\xdf\retextures\dementer\apc_wheeled_03_ext_alpha_komodo_co.paa",
+					"\xdf\retextures\dementer\camonet_nato_black_co.paa",
+					"\xdf\retextures\dementer\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -27173,6 +27730,11 @@ class CfgVehicles
 		maxSpeed = 120; // Default 65
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 60.0;
@@ -27273,6 +27835,11 @@ class CfgVehicles
 		maxSpeed = 120; // Default 65
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 60.0;
@@ -27437,6 +28004,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{			
+					"\xdf\retextures\champion\apc_tracked_03_ext_lazarus_co.paa",
+					"\xdf\retextures\champion\apc_tracked_03_ext2_lazarus_co.paa",
+					"\xdf\retextures\champion\camonet_nato_black_co.paa",
+					"\xdf\retextures\champion\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -27567,6 +28150,11 @@ class CfgVehicles
 		maxSpeed = 105; // Default 70
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 60.0;
@@ -27715,6 +28303,11 @@ class CfgVehicles
 		maxSpeed = 105; // Default 70
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 60.0;
@@ -28311,6 +28904,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28364,6 +28973,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
 					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
 				};
@@ -28433,6 +29058,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cover_lazarus_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28485,6 +29126,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_fuel_co.paa"
 				};
 				factions[]=
@@ -28553,6 +29209,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28605,6 +29277,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ammo_co.paa"
 				};
 				factions[]=
@@ -28665,6 +29352,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
+					"\xdf\retextures\hemtt\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ammo_co.paa",
 					"\xdf\retextures\hemtt\containers_02_set_co.paa"
 				};
@@ -28734,6 +29437,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cover_lazarus_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28792,6 +29511,21 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -28843,6 +29577,21 @@ class CfgVehicles
 				{
 					"\xdf\retextures\hemtt\truck_01_ext_01_co.paa",
 					"\xdf\retextures\hemtt\truck_01_ext_02_co.paa",
+					"\xdf\retextures\hemtt\truck_01_mprimer_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\hemtt\truck_01_ext_01_lazarus_co.paa",
+					"\xdf\retextures\hemtt\truck_01_ext_02_lazarus_co.paa",
 					"\xdf\retextures\hemtt\truck_01_mprimer_co.paa"
 				};
 				factions[]=
@@ -29023,6 +29772,23 @@ class CfgVehicles
 					"\xdf\retextures\van\van_glass_medevac_dirty_ca.paa",
 					"a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
 					"\xdf\retextures\van\van_body_xdfambulance_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\van\van_body_xdfambulance_lazarus_co.paa",
+					"\xdf\retextures\van\van_wheel_med_xdf_co.paa",
+					"\xdf\retextures\van\van_glass_medevac_dirty_ca.paa",
+					"a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
+					"\xdf\retextures\van\van_body_xdfambulance_lazarus_co.paa"
 				};
 				factions[]=
 				{
@@ -29239,6 +30005,11 @@ class CfgVehicles
 		maxSpeed = 150; // Default 75
 		fuelCapacity = 45; // Default 15
 		damageResistance = 0.1; // Default 0.0038900001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 2;
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 40.0;
@@ -29355,6 +30126,11 @@ class CfgVehicles
 		armorStructural = 7; // Default 5
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -29383,6 +30159,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
 					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_arbalest_co.paa",
 					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
 					"\xdf\retextures\ocelot\cage_black_co.paa"
 				};
@@ -29454,6 +30246,11 @@ class CfgVehicles
 		armorStructural = 7; // Default 5
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -29490,6 +30287,22 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_radar_arbalest_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -29518,6 +30331,11 @@ class CfgVehicles
 		armorStructural = 7; // Default 5
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -29546,6 +30364,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
 					"\xdf\retextures\ocelot\lt_01_at_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_at_arbalest_co.paa",
 					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
 					"\xdf\retextures\ocelot\cage_black_co.paa"
 				};
@@ -29615,6 +30449,11 @@ class CfgVehicles
 		armorStructural = 7; // Default 5
 		fuelCapacity = 50; // Default 25
 		damageResistance = 0.1; // Default 0.0038900001
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_XDF_Crew"
@@ -29643,6 +30482,22 @@ class CfgVehicles
 				{
 					"\xdf\retextures\ocelot\lt_01_main_xdf_co.paa",
 					"\xdf\retextures\ocelot\lt_01_cannon_xdf_co.paa",
+					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
+					"\xdf\retextures\ocelot\cage_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Arbalest
+			{
+				displayName="ARBALEST - 4th Artillery Support Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\ocelot\lt_01_main_arbalest_co.paa",
+					"\xdf\retextures\ocelot\lt_01_cannon_arbalest_co.paa",
 					"\xdf\retextures\ocelot\camonet_nato_black_co.paa",
 					"\xdf\retextures\ocelot\cage_black_co.paa"
 				};
@@ -40367,6 +41222,72 @@ class CfgVehicles
 			"\xdf\signs\sign_phoenix_large.paa"
 		};
 	};
+	class XDF_Sign_SapphoDivision: Land_Sign_WarningNoWeapon_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.041;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (SAPPHO'S SHIELD - Large)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_Sign_SapphoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_sappho_large.paa"
+		};
+	};
+	class XDF_Sign_PrydonianDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (PRYDONIAN - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_PrydonianDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_prydonian_large.paa"
+		};
+	};
+	class XDF_Sign_ArbalestDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (ARBALEST - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_ArbalestDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_arbalest_large.paa"
+		};
+	};
+	class XDF_Sign_LazarusDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (LAZARUS - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_LazarusDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_lazarus_large.paa"
+		};
+	};
+	class XDF_Sign_AresDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (ARES - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_AresDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ares_large.paa"
+		};
+	};
+	class XDF_Sign_KomodoDivision: XDF_Sign_SapphoDivision
+	{
+		displayName="XDF Sign (KOMODO - Large)";
+		editorPreview="\xdf\previews\structures\XDF_Sign_KomodoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_komodo_large.paa"
+		};
+	};
 
 
 
@@ -40981,6 +41902,74 @@ class CfgVehicles
 			"\xdf\signs\sign_phoenix.paa"
 		};
 	};
+	class XDF_SignS_SapphoDivision: SignAd_SponsorS_F
+	{
+		author="Radium";
+		class SimpleObject
+		{
+			eden=0;
+			animate[]={};
+			hide[]={};
+			verticalOffset=1.141;
+			verticalOffsetWorld=0;
+			init="''";
+		};
+		displayName="XDF Sign (SAPPHO'S SHIELD - Small)";
+		editorCategory="XDF_Structures";
+		editorSubcategory="XDF_Signs";
+		editorPreview="\xdf\previews\structures\XDF_SignS_SapphoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_sappho.paa"
+		};
+	};
+	class XDF_SignS_PrydonianDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (PRYDONIAN - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_PrydonianDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_prydonian.paa"
+		};
+	};
+	class XDF_SignS_ArbalestDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (ARBALEST - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_ArbalestDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_arbalest.paa"
+		};
+	};
+	class XDF_SignS_LazarusDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (LAZARUS - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_LazarusDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_lazarus.paa"
+		};
+	};
+	class XDF_SignS_AresDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (ARES - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_AresDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_ares.paa"
+		};
+	};
+	class XDF_SignS_KomodoDivision: XDF_SignS_SapphoDivision
+	{
+		displayName="XDF Sign (KOMODO - Small)";
+		editorPreview="\xdf\previews\structures\XDF_SignS_KomodoDivision.jpg";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\signs\sign_komodo.paa"
+		};
+	};
+
+
 
 	// Mini-Signs //
 	class Land_Sign_Mines_F;
@@ -41564,7 +42553,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "";
+		editorPreview="\xdf\previews\structures\XDF_Blahaj.jpg";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Blahaj";
@@ -41591,6 +42580,7 @@ class CfgVehicles
 	class XDF_Blahaj_Orange: XDF_Blahaj
 	{
 		displayName = "Blahaj (XDF)";
+		editorPreview="\xdf\previews\structures\XDF_Blahaj_Orange.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\models\blahaj\shark_xdf_co.paa"
@@ -41600,6 +42590,7 @@ class CfgVehicles
 	class XDF_Blahaj_Rainbow: XDF_Blahaj
 	{
 		displayName = "Blahaj (Rainbow)";
+		editorPreview="\xdf\previews\structures\XDF_Blahaj_Rainbow.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\models\blahaj\shark_rainbow_co.paa"

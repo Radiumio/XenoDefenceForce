@@ -162,6 +162,11 @@ class CfgVehicles
 		maxSpeed = 120; // Default 65
 		fuelCapacity = 60; // Default 20
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 60.0;
@@ -395,6 +400,11 @@ class CfgVehicles
 		maxSpeed = 240; // Default 120
 		fuelCapacity = 48; // Default 24
 		damageResistance = 0.1; // Default 0.0071899998
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		engineMOI = 1; // 7
 		accelAidForceCoef = 5.0;
 		accelAidForceSpd = 50.0;
@@ -437,12 +447,11 @@ class CfgVehicles
 				magazines[]=
 				{
 					"18Rnd_120mm_APFSDS_T_Blue_AX",
-					"12Rnd_120mm_APFSDS_shells_Tracer_Red",
-					"8Rnd_120mm_HE_shells_Tracer_Red",
-					"8Rnd_120mm_HEAT_MP_T_Red",
+					"4Rnd_120mm_Thermobaric_AX",
+					"8Rnd_120mm_HEAT_AX_T_Blue",
 					"1000Rnd_20mm_GPR_shells",
 					"1000Rnd_20mm_GPR_shells",
-					"4Rnd_120mm_LG_cannon_missiles"
+					"4Rnd_120mm_cannon_AX_missiles"
 				};
 			};
 		};
@@ -849,8 +858,10 @@ class CfgVehicles
 		{
 			"O_PXLA_Crewman"
 		};
-		lockDetectionSystem="8 + 4";
-		incomingMissileDetectionSystem="8 + 16";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+
 		weapons[]=
 		{
 			"CMFlareLauncher_Singles"
@@ -3697,8 +3708,10 @@ class CfgVehicles
 		{
 			"O_PXLA_Crewman"
 		};
-		lockDetectionSystem="8 + 4";
-		incomingMissileDetectionSystem="8 + 16";
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+
 		weapons[]=
 		{
 			"M134_minigun",
@@ -7273,6 +7286,10 @@ class CfgVehicles
 		armor = 120; // Default 40
 		fuelCapacity = 3750; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+
 		typicalCargo[]=
 		{
 			"O_PXLA_Crewman"
@@ -7327,6 +7344,10 @@ class CfgVehicles
 		maxSpeed = 300; // Default 300
 		fuelCapacity = 3000; // Default 2500
 		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
 		typicalCargo[]=
 		{
 			"O_PXLA_Crewman"

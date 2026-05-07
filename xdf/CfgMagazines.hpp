@@ -934,6 +934,18 @@ class CfgMagazines
 		ammo="B_338_Ball_blue";
 		tracersEvery=1;
 	};
+	class 15Rnd_338_Mag_blue_tracer: 10Rnd_338_Mag_blue_tracer
+	{
+		displayName=".338 LM 15Rnd Tracer Mag (AX)";
+		count=15;
+		mass=18;
+	};
+	class 20Rnd_338_Mag_blue_tracer: 10Rnd_338_Mag_blue_tracer
+	{
+		displayName=".338 LM 20Rnd Tracer Mag (AX)";
+		count=20;
+		mass=22;
+	};
 	class 10Rnd_338_Mag_blue_reload_tracer: 10Rnd_338_Mag
 	{
 		author="Radium";
@@ -943,6 +955,18 @@ class CfgMagazines
 		ammo="B_338_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
+	};
+	class 15Rnd_338_Mag_blue_reload_tracer: 10Rnd_338_Mag_blue_reload_tracer
+	{
+		displayName=".338 LM 15Rnd Reload Tracer Mag (AX)";
+		count=15;
+		mass=18;
+	};
+	class 20Rnd_338_Mag_blue_reload_tracer: 10Rnd_338_Mag_blue_reload_tracer
+	{
+		displayName=".338 LM 20Rnd Reload Tracer Mag (AX)";
+		count=20;
+		mass=22;
 	};
 
 	class 5Rnd_127x108_Mag;
@@ -1007,7 +1031,7 @@ class CfgMagazines
 		ammo="B_10mm_railshot";
 		count=50;
 		tracersEvery=1;
-		mass=68;
+		mass=58;
 	};
 	class 25Rnd_10mm_HEAPRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
 	{
@@ -1020,7 +1044,7 @@ class CfgMagazines
 		ammo="B_10mm_railshot_heap";
 		count=25;
 		tracersEvery=1;
-		mass=48;
+		mass=38;
 	};
 	class 85Rnd_6mm_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
 	{
@@ -1033,20 +1057,20 @@ class CfgMagazines
 		ammo="B_6mm_railshot";
 		count=85;
 		tracersEvery=1;
-		mass=56;
+		mass=46;
 	};
 	class 25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
 	{
 		author="Radium";
 		scope=2;
-		displayName="10mm 25Rnd Railgun Magazine (SMART)";
+		displayName="10mm 30Rnd Railgun Magazine (SMART)";
 		displaynameshort="10mm SMART";
-		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 25<br/>Used in: XDF R-31 Mantis"
+		descriptionShort="Caliber: 10mm SABOT AX Smart Round Slug<br/>Rounds: 30<br/>Used in: XDF R-31 Mantis"
 	    picture="\xdf\weapons\mantis\gear_mantis_mag_lg.paa";
 		ammo="B_10mm_railshot_smart";
-		count=25;
+		count=30;
 		tracersEvery=1;
-		mass=72;
+		mass=62;
 	};
 	//class Object_02_Cluster_Autoseek_Mag: 5Rnd_127x108_APDS_Mag
 	//{
@@ -1069,6 +1093,18 @@ class CfgMagazines
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=1;
 	};
+	class 15Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag_blue_tracer
+	{
+		displayName="9.3 mm 15Rnd Tracer Mag (AX)";
+		count=15;
+		mass=20;
+	};
+	class 20Rnd_93x64_DMR_05_Mag_blue_tracer: 10Rnd_93x64_DMR_05_Mag_blue_tracer
+	{
+		displayName="9.3 mm 20Rnd Tracer Mag (AX)";
+		count=20;
+		mass=26;
+	};
 	class 10Rnd_93x64_DMR_05_Mag_blue_reload_tracer: 10Rnd_93x64_DMR_05_Mag
 	{
 		author="Radium";
@@ -1078,6 +1114,18 @@ class CfgMagazines
 		ammo="B_93x64_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
+	};
+	class 15Rnd_93x64_DMR_05_Mag_blue_reload_tracer: 10Rnd_93x64_DMR_05_Mag_blue_reload_tracer
+	{
+		displayName="9.3 mm 15Rnd Reload Tracer Mag (AX)";
+		count=15;
+		mass=20;
+	};
+	class 20Rnd_93x64_DMR_05_Mag_blue_reload_tracer: 10Rnd_93x64_DMR_05_Mag_blue_reload_tracer
+	{
+		displayName="9.3 mm 20Rnd Reload Tracer Mag (AX)";
+		count=20;
+		mass=26;
 	};
 
 	class 10Rnd_127x54_Mag;
@@ -1106,10 +1154,31 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
-		displayName=".408 mm 7Rnd Tracer Mag (AX)";
+		displayName=".408 7Rnd Tracer Mag (AX)";
 		displaynameshort="AX Tracer";
 		ammo="B_408_Ball_blue";
 		tracersEvery=1;
+		mass=12;
+	};
+	class 7Rnd_408_Mag_blue_heax_tracer: 7Rnd_408_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".408 7Rnd Tracer Mag (HE-AX)";
+		displaynameshort="HE-AX Tracer";
+		ammo="B_408_Ball_blue_heax";
+		tracersEvery=1;
+		mass=14;
+	};
+	class 7Rnd_408_Mag_blue_hvap_tracer: 7Rnd_408_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName=".408 7Rnd Tracer Mag (HVAP-AX)";
+		displaynameshort="HVAP-AX Tracer";
+		ammo="B_408_Ball_blue_hvap";
+		tracersEvery=1;
+		mass=16;
 	};
 
 	class 10Rnd_762x54_Mag;
@@ -1122,6 +1191,12 @@ class CfgMagazines
 		ammo="B_762x54_Ball_blue";
 		tracersEvery=1;
 	};
+	class 20Rnd_762x54_Mag_blue_tracer: 10Rnd_762x54_Mag_blue_tracer
+	{
+		displayName="7.62 mm 20Rnd Tracer Mag (AX)";
+		count=20;
+		mass=12;
+	};
 	class 10Rnd_762x54_Mag_blue_reload_tracer: 10Rnd_762x54_Mag
 	{
 		author="Radium";
@@ -1131,6 +1206,13 @@ class CfgMagazines
 		ammo="B_762x54_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
+	};
+	class 20Rnd_762x54_Mag_blue_reload_tracer: 10Rnd_762x54_Mag_blue_reload_tracer
+	{
+		displayName="7.62 mm 20Rnd Reload Tracer Mag (AX)";
+		ammo="B_762x54_Ball_blue";
+		count=20;
+		mass=12;
 	};
 
 	class 20Rnd_650x39_Cased_Mag_F;
@@ -1142,6 +1224,7 @@ class CfgMagazines
 		displaynameshort="AX Tracer";
 		ammo="B_65x39_Case_blue";
 		tracersEvery=1;
+		count=20;
 	};
 	class 20Rnd_650x39_Cased_Mag_blue_reload_tracer: 20Rnd_650x39_Cased_Mag_F
 	{
@@ -1152,6 +1235,7 @@ class CfgMagazines
 		ammo="B_65x39_Case_blue";
 		tracersEvery=4;
 		lastRoundsTracer=4;
+		count=20;
 	};
 
 	class 150Rnd_93x64_Mag;
@@ -1259,6 +1343,12 @@ class CfgMagazines
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=1;
 	};
+	class 95Rnd_762x39_AK12_Mag_blue_tracer: 75Rnd_762x39_AK12_Mag_blue_tracer
+	{
+		displayName="7.62 mm 95rnd Tracer Mag (AX)";
+		count=95;
+		mass=32;
+	};
 	class 75Rnd_762x39_AK12_Mag_blue_reload_tracer: 75rnd_762x39_AK12_Mag_Tracer_F
 	{
 		author="Radium";
@@ -1268,6 +1358,12 @@ class CfgMagazines
 		ammo="B_762x39_Ball_blue";
 		tracersEvery=4;
 		lastRoundsTracer=10;
+	};
+	class 95Rnd_762x39_AK12_Mag_blue_reload_tracer: 75Rnd_762x39_AK12_Mag_blue_reload_tracer
+	{
+		displayName="7.62 mm 95rnd Reload Tracer Mag (AX)";
+		count=95;
+		mass=32;
 	};
 
 	class 200Rnd_65x39_cased_Box_Tracer_Red;

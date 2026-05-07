@@ -46,6 +46,23 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\weapons\sa80\SA80_F_02_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\weapons\sa80\SA80_F_GL_CO.paa"
 		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
+		};
 		magazines[] += {"30Rnd_65x39_caseless_black_mag_blue_tracer"};
 		magazineWell[] += {"MX_65x39_XDF"};
 	};
@@ -139,6 +156,23 @@ class CfgWeapons
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m4a1\arifle_M4A1_02_black_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m4a1\arifle_M4A1_03_black_CO.paa",
 			"\xdf_aegis\retextures\xdf_uniform\weapons\m4a1\arifle_M4A1_04_black_CO.paa"
+		};
+		class EGLM: EGLM
+		{
+			drySound[]=
+			{
+				"\xdf\sounds\reloads\spearhead_gl_click.ogg",
+				0.56234133,
+				1,
+				10
+			};
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\hk416_gl_reload.ogg",
+				4,
+				1,
+				10
+			};
 		};
 		magazines[] = {"30rnd_556x45_stanag_blue_tracer"};
 		magazineWell[] += {"STANAG_556x45_XDF","STANAG_556x45_Large_XDF"};

@@ -21,6 +21,11 @@ class CfgVehicles
 		armorStructural = 5; // Default unknown
 		fuelCapacity = 40; // Default 20
 		damageResistance = 0.05; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		
 		typicalCargo[]=
 		{
 			"B_UAV_AI"

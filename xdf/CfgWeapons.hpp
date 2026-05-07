@@ -4343,7 +4343,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Arbitrator";
-		descriptionShort = "AX Sniper Rifle<br/>While not intended for use against alien forces, AX ammunition proves significantly useful against hostile human forces too.<br/>Caliber: .408 - Experimental AX Chamber Upgrade";
+		descriptionShort = "AX Sniper Rifle<br/>Originally not intended for AX usage, the Arbitrator has received significant upgrades to level the playing field<br/>when compared to more advanced, expensive XDF sniper rifles.<br/>Caliber: .408 - Experimental AX Chamber Upgrade";
 		baseWeapon="XDF_srifle_LRR";
 		hiddenSelections[]=
 		{
@@ -4638,12 +4638,6 @@ class cfgWeapons
 		{
 			textureType = "topDown";
 			displayName = "Top-down";
-			minRange = 160;
-			minRangeProbab = 0.6;
-			midRange = 800;
-			midRangeProbab = 0.95;
-			maxRange = 2500;
-			maxRangeProbab = 0.95;
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -5047,7 +5041,7 @@ class cfgWeapons
 		//};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 353;
+			mass = 320;
 			class MuzzleSlot
 			{
 			};
@@ -5666,7 +5660,7 @@ class cfgWeapons
 	class LMG_Minigun_AX_HE: LMG_Minigun_AX
 	{
 		displayName="LMG AX Minigun HE";
-		magazines[]=
+		magazines[]+=
 		{
 			"1000Rnd_20mm_GPR_shells",
 		};

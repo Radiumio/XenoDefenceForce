@@ -229,6 +229,72 @@ class CfgMarkers
 		color[]={1,1,1,1};
 		markerClass="XDF_Markers";
 	};
+	class map_SapphoDivision: Flag
+	{
+		name="SAPPHO'S SHIELD 4th EAD";
+		icon="\xdf\markers\map_Sappho.paa";
+		texture="\xdf\markers\map_Sappho.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_PrydonianDivision: Flag
+	{
+		name="PRYDONIAN 7th EMID";
+		icon="\xdf\markers\map_Prydonian.paa";
+		texture="\xdf\markers\map_Prydonian.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_ArbalestDivision: Flag
+	{
+		name="ARBALEST 4th ASD";
+		icon="\xdf\markers\map_Arbalest.paa";
+		texture="\xdf\markers\map_Arbalest.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_LazarusDivision: Flag
+	{
+		name="LAZARUS 17th RRD";
+		icon="\xdf\markers\map_Lazarus.paa";
+		texture="\xdf\markers\map_Lazarus.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_AresDivision: Flag
+	{
+		name="ARES 7th EATD";
+		icon="\xdf\markers\map_Ares.paa";
+		texture="\xdf\markers\map_Ares.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
+	class map_KomodoDivision: Flag
+	{
+		name="KOMODO 6th RMID";
+		icon="\xdf\markers\map_Komodo.paa";
+		texture="\xdf\markers\map_Komodo.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		markerClass="XDF_Markers";
+	};
 	class xdf_haz_biological: Flag
 	{
 		name="Hazard - Biological";
