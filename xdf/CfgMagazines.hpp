@@ -773,7 +773,7 @@ class CfgMagazines
 		ammo="B_45ACP_Ball_blue";
 		count=50;
 		tracersEvery=1;
-		mass=32;
+		mass=21;
 	};
 	class 50rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
 	{
@@ -785,7 +785,7 @@ class CfgMagazines
 		count=50;
 		tracersEvery=4;
 		lastRoundsTracer=4;
-		mass=32;
+		mass=21;
 	};
 
 	class 50Rnd_570x28_SMG_03;
