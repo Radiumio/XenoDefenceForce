@@ -5105,20 +5105,28 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		reloadAction="";
+
+	    ace_overpressure_angle = 0;
+		ace_overpressure_damage = 0;
+		ace_overpressure_offset = 0;
+		ace_overpressure_priority = 0;
+		ace_overpressure_range = 0;
+
 		displayName="XDF PSRG-03 Hades";
 		model="\xdf\weapons\hades\psrg_railgun_xtnd.p3d";
 		picture="";
 		uiPicture="\A3\Weapons_F\Data\UI\icon_at_CA.paa";
-		handAnim[] =
-		{
-			"OFP2_ManSkeleton",
-			"\a3\Weapons_F_Tank\Launchers\MRAWS\Data\Anim\MRAWS.rtm"
-		};
+		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\hades\hades_handAnim.rtm"};
 		magazines[] = {"MRAWS_HEAT_F", "MRAWS_HE_F", "MRAWS_HEAT55_F"};
 		hiddenSelections[] = 
 		{
 			"camo1", 
 			"camo2"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"#(argb,8,8,3)color(0.2,0.8,0.2,1)", 
+			"#(argb,8,8,3)color(0.8,0.2,0.2,1)"
 		};
 		initSpeed=3200;
 		fireLightDuration = 0.05;
@@ -5171,9 +5179,7 @@ class cfgWeapons
 			};
 			class StandardSound: BaseSoundModeType
 			{
-				soundSetShot[] = {"Launcher_MRAWS_Shot_SoundSet", "Launcher_MRAWS_Tail_SoundSet"};
-				begin1[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\rpg32", 1.99526, 1, 1500};
-				soundBegin[] = {"begin1", 1};
+				soundSetShot[] = {"Hades_shot_SoundSet", "Hades_tail_SoundSet"};
 			};
 			sounds[] = {"StandardSound"};
 			recoil = "recoil_single_law";
@@ -5190,16 +5196,42 @@ class cfgWeapons
 		};
 		reloadTime = 5;
 		magazineReloadTime = 5;
-		drySound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Dry_RPG32", 0.446684, 1, 20};
-		reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\reload_RPG32", 0.251189, 1, 10};
-		soundFly[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Fly_RPG32", 0.316228, 1.5, 900};
+		reloadSound[]=
+		{
+			"\xdf\sounds\reloads\hades_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\hades_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		changeFiremodeSound[] = 
+		{
+			"\xdf\sounds\shot\mantis\mantis_firemode.ogg", 
+			0.9, 
+			1, 
+			5
+		};
+		drySound[]=
+		{
+			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
+			0.6,
+			1,
+			10
+		};
+		soundFly[] = {"\xdf\sounds\shot\gm6\gm6_railfly", 0.316228, 1.5, 900};
 		canLock = 0;
 		weaponLockDelay = 3;
 		lockAcquire = 0;
 		inertia = 1.4;
 		aimTransitionSpeed = 0.35;
 		dexterity = 0.7;
-		descriptionShort = "One of the XDF's latest counters to the xenothreat, the Hades Portable Shoulder-fired Rail Gun is an exceptionally deadly infantry-portable railgun system that fires 10mm slugs at hypersonic speeds.<br/><br/>The kinetic energy of such an impact is catastrophic to even the thickest armors.<br/><br/>Many learnings from the Mantis platform have been upscaled and applied to the Hades, but much of the cost, complexity and bulkiness has remained.<br/><br/>An advanced recoil system absorbs a majority of the recoil caused by the meter-long rail reciprocating, yet the recoil experienced by the operator still remains immense.<br/><br/>A glove-compatible touchscreen interface allows the operator to easily cycle the internal rotary magazine<br/>to reload or swap ammunition types.<br/><br/>Compared to other portable launchers, the Hades is exceptionally dangerous to the operator due to the railgun's intense heat output after multiple rounds.<br/><br/>Another unfortunate drawback that remains unresolved by XDF Research is the Hades' tendency to experience sudden and rapid barrel decoupling<br/> after firing over a dozen rounds - which occasionally shears the weapon in half violently.<br/>All these factors combined mean the railgun must be frequently serviced to replace the entire rail system and internal mechanism.<br/><br/>An additional drawback is the reloading mechanism - due to the complex internal rotary magazine, the Hades cannot be reloaded in the field once the internal magazine is exhausted<br/>and must be serviced by an engineer to replace the magazine.<br/><br/>XDF operatives need extensive training to utilise this weapon system effectively and without excessively endangering themselves.<br/>Ammo: 10mm Hypervelocity Railgun Slugs";
+		descriptionShort = "One of the XDF's latest counters to the xenothreat, the Hades Portable Shoulder-fired Rail Gun is an exceptionally deadly infantry-portable railgun system that fires 10mm slugs at hypersonic speeds.<br/><br/>The kinetic energy of such an impact is catastrophic to even the thickest armors.<br/><br/>Many learnings from the Mantis platform have been upscaled and applied to the Hades, but much of the cost, complexity and bulkiness has remained.<br/><br/>An advanced recoil system absorbs a majority of the recoil caused by the meter-long rail reciprocating, yet the recoil experienced by the operator still remains immense.<br/><br/>A glove-compatible touchscreen interface allows the operator to easily cycle the internal rotary magazine to reload or swap ammunition types.<br/><br/>Compared to other portable launchers, the Hades is exceptionally dangerous to the operator due to the railgun's intense heat output after multiple rounds.<br/><br/>Another unfortunate drawback that remains unresolved by XDF Research is the Hades' tendency to experience sudden and rapid barrel decoupling<br/>after firing over a dozen rounds - which occasionally shears the weapon in half violently.<br/>All these factors combined mean the railgun must be frequently serviced to replace the entire rail system and internal mechanism.<br/><br/>An additional drawback is the reloading mechanism - due to the complex internal rotary magazine, the Hades cannot be reloaded in the field once the internal magazine is exhausted<br/>and must be serviced by an engineer to replace the magazine.<br/><br/>XDF operatives need extensive training to utilise this weapon system effectively and without excessively endangering themselves.<br/>Ammo: 10mm Hypervelocity Railgun Slugs";
 	};
 
 

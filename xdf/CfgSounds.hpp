@@ -176,6 +176,39 @@ class CfgSoundSets
         loop = 0;
         soundShadersLimit = 2;
     };
+    class Hades_shot_SoundSet {
+        soundShaders[] = { "Hades_closeShot_SoundShader", "Hades_midShot_SoundShader", "Hades_distShot_SoundShader", "Hades_closure_SoundShader" };
+        volumeFactor = 1.5;
+        volumeCurve = "InverseSquare2Curve";
+        stereoStartDistance = 8;
+        stereoRadius = 10;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
+        frequencyRandomizer = 0.5; 
+		frequencyRandomizerMin = 0.1; 
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+    };
+    class Hades_tail_SoundSet {
+        soundShaders[] = { "Hades_tailForest_SoundShader", "Hades_tailHouses_SoundShader", "Hades_tailMeadows_SoundShader", "Hades_tailTrees_SoundShader", "Hades_tailInterior_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        stereoStartDistance = 100;
+        stereoRadius = 50;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+    };
 	class AX_Minigun_Shot_SoundSet
 	{
 		soundShaders[] = 
@@ -425,7 +458,7 @@ class CfgSoundShaders
 	};
 	class Mantis_tailInterior_SoundShader
 	{
-		samples[] = {{"\xdf\sounds\shot\mantis\mantis_tailinterior.ogg",1}};
+		samples[] = {{"\xdf\sounds\shot\mantis\mantis_tailInterior.ogg",1}};
         volume = "1.5*((interior)*0.65)";
 		range = 500;
 		rangeCurve[] = {{0,0.7},{250,0}};
@@ -461,6 +494,74 @@ class CfgSoundShaders
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1500;
 		rangeCurve[] = {{0,1},{1500,0.3}};
+		limitation = 1;
+	};
+	class Hades_closure_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\mantis\mantis_closure_01.ogg", 1},{"\xdf\sounds\shot\mantis\mantis_closure_02.ogg"}};
+		volume = 0.5;
+		range = 50;
+		rangeCurve[] = {{0,1},{10,0}};
+	};
+	class Hades_closeShot_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_rail_closeShot1.ogg",1},{"\xdf\sounds\shot\hades\hades_rail_closeShot2.ogg",1},{"\xdf\sounds\shot\hades\hades_rail_closeShot3.ogg",1}};
+		volume = 1;
+		range = 300;
+		rangeCurve = "closeShotCurve";
+	};
+	class Hades_midShot_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_midshot_01.ogg",1},{"\xdf\sounds\shot\hades\hades_midshot_02.ogg",1},{"\xdf\sounds\shot\hades\hades_midshot_03.ogg",1}};
+		volume = 1.2;
+		range = 2500;
+		rangeCurve[] = {{0,0.2},{100,1},{300,0.4},{2500,0}};
+	};
+	class Hades_distShot_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_distshot_01.ogg",1},{"\xdf\sounds\shot\hades\hades_distshot_02.ogg",1},{"\xdf\sounds\shot\hades\hades_distshot_03.ogg",1}};
+		volume = 2.8;
+		range = 3500;
+		rangeCurve[] = {{0,0},{100,0},{300,1},{3500,1}};
+	};
+	class Hades_tailInterior_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_tailInterior.ogg",1}};
+        volume = "1.5*((interior)*0.65)";
+		range = 1500;
+		rangeCurve[] = {{0,0.7},{1500,0}};
+		limitation = 1;
+	};
+	class Hades_tailForest_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_tailForest.ogg",1}};
+		volume = "(1-interior/1.4)*forest/3";
+		range = 2500;
+		rangeCurve[] = {{0,1},{2500,0.3}};
+		limitation = 1;
+	};
+	class Hades_tailHouses_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_tailHouses.ogg",1}};
+		volume = "(1-interior/1.4)*houses/3";
+		range = 2500;
+		rangeCurve[] = {{0,1},{200,0.5},{800,0.3},{2500,0}};
+		limitation = 1;
+	};
+	class Hades_tailMeadows_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_tailMeadows.ogg",1}};
+		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range = 2500;
+		rangeCurve[] = {{0,1},{2500,0.3}};
+		limitation = 1;
+	};
+	class Hades_tailTrees_SoundShader
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_tailTrees.ogg",1}};
+		volume = "(1-interior/1.4)*trees/3";
+		range = 2500;
+		rangeCurve[] = {{0,1},{2500,0.3}};
 		limitation = 1;
 	};
 	class AX_Minigun_Closure_SoundShader
