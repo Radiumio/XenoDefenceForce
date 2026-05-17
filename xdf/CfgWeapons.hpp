@@ -5099,6 +5099,109 @@ class cfgWeapons
 		};
 	};
 
+	class Launcher_Base_F;
+	class XDF_Hades_PSRG: Launcher_Base_F
+	{
+		author="Radium";
+		scope=2;
+		reloadAction="";
+		displayName="XDF PSRG-03 Hades";
+		model="\xdf\weapons\hades\psrg_railgun_xtnd.p3d";
+		picture="";
+		uiPicture="\A3\Weapons_F\Data\UI\icon_at_CA.paa";
+		handAnim[] =
+		{
+			"OFP2_ManSkeleton",
+			"\a3\Weapons_F_Tank\Launchers\MRAWS\Data\Anim\MRAWS.rtm"
+		};
+		magazines[] = {"MRAWS_HEAT_F", "MRAWS_HE_F", "MRAWS_HEAT55_F"};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2"
+		};
+		initSpeed=3200;
+		fireLightDuration = 0.05;
+		fireLightIntensity = 1.2;
+		fireLightDiffuse[] = {0, 0.2, 1};
+		fireLightAmbient[] = {0, 0, 0};
+		recoil="recoil_rpg";
+		maxZeroing=2000;
+		modelOptics = "\a3\Weapons_F_Tank\acc\reticle_MRAWSNew.p3d";
+		weaponInfoType = "RscOpticsRangeFinderMRAWS";
+		opticsZoomMin = 0.001;
+		opticsZoomMax = 0.25;
+		opticsZoomInit = 0.25;
+		cameraDir="look";
+		shotPos="muzzle_end";
+		shotEnd="muzzle_start";
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName = "muzzle_start";
+				directionName = "muzzle_end";
+				effectName = "XDF_Mantis_Muzzle_Sparks";
+			};
+		};
+		class OpticsModes
+		{
+			class optic
+			{
+				opticsID = 1;
+				useModelOptics = 1;
+				opticsZoomMin = 0.0875;
+				opticsZoomMax = 0.0875;
+				opticsZoomInit = 0.0875;
+				distanceZoomMin = 300;
+				distanceZoomMax = 300;
+				memoryPointCamera = "eye";
+				opticsFlare = 1;
+				opticsDisablePeripherialVision = 1;
+				cameraDir = "look";
+				visionMode[] = {"Normal", "NVG", "TI"};
+				opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
+			};
+		};
+		modes[] = {"Single"};
+		class Single: Mode_SemiAuto
+		{
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Launcher_MRAWS_Shot_SoundSet", "Launcher_MRAWS_Tail_SoundSet"};
+				begin1[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\rpg32", 1.99526, 1, 1500};
+				soundBegin[] = {"begin1", 1};
+			};
+			sounds[] = {"StandardSound"};
+			recoil = "recoil_single_law";
+			reloadTime=5;
+			aiRateOfFire = 7;
+			aiRateOfFireDistance = 600;
+			dispersion = 0.07;
+			minRange = 50;
+			minRangeProbab = 0.3;
+			midRange = 400;
+			midRangeProbab = 0.8;
+			maxRange = 700;
+			maxRangeProbab = 0.1;
+		};
+		reloadTime = 5;
+		magazineReloadTime = 5;
+		drySound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Dry_RPG32", 0.446684, 1, 20};
+		reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\reload_RPG32", 0.251189, 1, 10};
+		soundFly[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Fly_RPG32", 0.316228, 1.5, 900};
+		canLock = 0;
+		weaponLockDelay = 3;
+		lockAcquire = 0;
+		inertia = 1.4;
+		aimTransitionSpeed = 0.35;
+		dexterity = 0.7;
+		descriptionShort = "Rocket Launcher<br />Ammo: 84 mm MAAWS Rockets";
+	};
+
 
 	// Loadouts
 	class arifle_MSBS65_black_F;
