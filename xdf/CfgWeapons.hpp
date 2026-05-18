@@ -5195,6 +5195,7 @@ class cfgWeapons
 			{
 				soundSetShot[] = {"Hades_shot_SoundSet", "Hades_tail_SoundSet"};
 			};
+			selectionFireAnim = "muzzleFlash";
 			sounds[] = {"StandardSound"};
 			//recoil = "recoil_hades_psrg";
 			reloadTime=5;
