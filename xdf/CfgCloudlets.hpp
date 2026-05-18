@@ -1117,7 +1117,7 @@ class CfgCloudlets
 		};
 		emissive[] = 
 		{
-			0,0.4,1,-1
+			0,0.4,1,1
 		};
 		animationSpeed[] = {1000};
 		randomDirectionPeriod = 0.35;
@@ -1823,6 +1823,15 @@ class XDF_Hades_Muzzle_Sparks
 		lifeTime=1;
 		qualityLevel=2;
 	};
+	class LightEffect1
+	{
+		simulation="light";
+		type="XDF_GuidedSlug_LightEffect";
+		position[]={0,0,0};
+		intensity=0.01;
+		interval=1;
+		lifeTime=0.1;
+	};
 };
 
 class XDF_GuidedSlug_Trail
@@ -1845,7 +1854,7 @@ class XDF_GuidedSlug_Trail
 		intensity=0.0099999998;
 		interval=1;
 		lifeTime=1;
-	}
+	};
 };
 
 class XDF_Mantis_Shroud_Heat_Down

@@ -1077,10 +1077,11 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
+		dlc="";
 		displayName="5Rnd Internal Rotary Magazine (10mm HYP-X)";
 		displaynameshort="10mm AX-RG";
 		descriptionShort="Caliber: 10mm SABOT Hypersonic AX Slug<br/>Rounds: 5<br/>Used in: XDF PSRG-03 Hades"
-	    picture="";
+	    picture="\xdf\weapons\hades\gear_hades_mag.paa";
 		ammo="B_10mm_railshot_hypersonic";
 		count=5;
 		tracersEvery=1;
@@ -1091,10 +1092,11 @@ class CfgMagazines
 	{
 		author="Radium";
 		scope=2;
+		dlc="";
 		displayName="5Rnd Internal Rotary Magazine (10mm EX-HE)";
 		displaynameshort="10mm EX-HE";
 		descriptionShort="Caliber: 10mm SABOT Hypersonic AX Experimental HE Slug<br/>Rounds: 5<br/>Used in: XDF PSRG-03 Hades"
-	    picture="";
+	    picture="\xdf\weapons\hades\gear_hades_mag_axhe.paa";
 		ammo="B_10mm_railshot_hypersonic_xpg";
 		initSpeed=3200;
 	};

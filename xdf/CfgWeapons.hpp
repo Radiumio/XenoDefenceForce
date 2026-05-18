@@ -5101,21 +5101,21 @@ class cfgWeapons
 	};
 
 	class Launcher_Base_F;
-	class XDF_Hades_PSRG: Launcher_Base_F
+	class XDF_Hades_SERS: Launcher_Base_F
 	{
 		author="Radium";
 		scope=2;
 		reloadAction="";
-
+		// ace compat //
 	    ace_overpressure_angle = 0;
 		ace_overpressure_damage = 0;
 		ace_overpressure_offset = 0;
 		ace_overpressure_priority = 0;
 		ace_overpressure_range = 0;
-
-		displayName="XDF PSRG-03 Hades";
+		////////////////
+		displayName="XDF SERS-03 Hades";
 		model="\xdf\weapons\hades\psrg_railgun_xtnd.p3d";
-		picture="";
+		picture="\xdf\weapons\hades\gear_hades_invl.paa";
 		uiPicture="\A3\Weapons_F\Data\UI\icon_at_CA.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\hades\hades_handAnim.rtm"};
 		magazineWell[] = {"Hades_10mm"};
@@ -5263,7 +5263,7 @@ class cfgWeapons
 		inertia = 1.4;
 		aimTransitionSpeed = 0.35;
 		dexterity = 0.7;
-		descriptionShort = "One of the XDF's latest counters to the xenothreat, the Hades Portable Shoulder-fired Rail Gun is an exceptionally deadly infantry-portable railgun system that fires 10mm slugs at hypersonic speeds.<br/><br/>The kinetic energy of such an impact is catastrophic to even the thickest armors.<br/><br/>Many learnings from the Mantis platform have been upscaled and applied to the Hades, but much of the cost, complexity and bulkiness has remained.<br/><br/>An advanced recoil system absorbs a majority of the recoil caused by the meter-long rail reciprocating, yet the recoil experienced by the operator still remains immense.<br/><br/>A glove-compatible touchscreen interface allows the operator to easily cycle the internal rotary magazine to reload or swap ammunition types.<br/><br/>Compared to other portable launchers, the Hades is exceptionally dangerous to the operator due to the railgun's intense heat output after multiple rounds.<br/><br/>Another unfortunate drawback that remains unresolved by XDF Research is the Hades' tendency to experience sudden and rapid barrel decoupling<br/>after firing over a dozen rounds - which occasionally shears the weapon in half violently.<br/>All these factors combined mean the railgun must be frequently serviced to replace the entire rail system and internal mechanism.<br/><br/>An additional drawback is the reloading mechanism - due to the complex internal rotary magazine, the Hades cannot be reloaded in the field once the internal magazine is exhausted<br/>and must be serviced by an engineer to replace the magazine.<br/><br/>XDF operatives need extensive training to utilise this weapon system effectively and without excessively endangering themselves.<br/>Ammo: 10mm Hypervelocity Railgun Slugs";
+		descriptionShort = "One of the XDF's latest counters to the xenothreat, the Hades Shoulder-fired Electromagnetic Rail System is an exceptionally deadly infantry-portable railgun system that fires 10mm slugs at hypersonic speeds.<br/><br/>The kinetic energy of such an impact is catastrophic to even the thickest armors.<br/><br/>Many learnings from the Mantis platform have been upscaled and applied to the Hades, but much of the cost, complexity and bulkiness has remained.<br/><br/>An advanced recoil system absorbs a majority of the recoil caused by the meter-long rail reciprocating, yet the recoil experienced by the operator still remains immense.<br/><br/>A glove-compatible touchscreen interface allows the operator to easily cycle the internal rotary magazine to reload or swap ammunition types.<br/><br/>Compared to other portable launchers, the Hades is exceptionally dangerous to the operator due to the railgun's intense heat output after multiple rounds.<br/><br/>Another unfortunate drawback that remains unresolved by XDF Research is the Hades' tendency to experience sudden and rapid barrel decoupling<br/>after firing over a dozen rounds - which occasionally shears the weapon in half violently.<br/>All these factors combined mean the railgun must be frequently serviced to replace the entire rail system and internal mechanism.<br/><br/>An additional drawback is the reloading mechanism - due to the complex internal rotary magazine, the Hades cannot be reloaded in the field once the internal magazine is exhausted<br/>and must be serviced by an engineer to replace the magazine.<br/><br/>XDF operatives need extensive training to utilise this weapon system effectively and without excessively endangering themselves.<br/>Ammo: 10mm Hypervelocity Railgun Slugs";
 	};
 
 
