@@ -5154,6 +5154,8 @@ class cfgWeapons
 		opticsZoomMax = 0.25;
 		opticsZoomInit = 0.25;
 		cameraDir="look";
+		muzzlePos="muzzle_end";
+		muzzleEnd="muzzle_start";
 		shotPos="muzzle_end";
 		shotEnd="muzzle_start";
 		class GunParticles
@@ -5162,7 +5164,7 @@ class cfgWeapons
 			{
 				positionName = "muzzle_start";
 				directionName = "muzzle_end";
-				effectName = "XDF_Mantis_Muzzle_Sparks";
+				effectName = "XDF_Hades_Muzzle_Sparks";
 			};
 		};
 		class OpticsModes
@@ -5195,7 +5197,6 @@ class cfgWeapons
 			{
 				soundSetShot[] = {"Hades_shot_SoundSet", "Hades_tail_SoundSet"};
 			};
-			selectionFireAnim = "muzzleFlash";
 			sounds[] = {"StandardSound"};
 			//recoil = "recoil_hades_psrg";
 			reloadTime=5;

@@ -1220,6 +1220,7 @@ class CfgAmmo
 		hit=2200;
 		indirectHit = 1100;
 		indirectHitRange=0.5;
+		explosionForceCoef = 0;
 		warheadName = "HEAT";
 		effectsMissileInit = "";
 		effectsMissile = "EmptyEffect";
@@ -1260,14 +1261,14 @@ class CfgAmmo
 			power = 11;
 			duration = 1.4;
 			frequency = 20;
-			distance = 99.3296;
+			distance = 100;
 		};
 		class CamShakeHit
 		{
 			power = 110;
 			duration = 0.6;
 			frequency = 20;
-			distance = 1;
+			distance = 3;
 		};
 	};
 	class B_10mm_railshot_hypersonic_xpg: B_10mm_railshot_hypersonic
@@ -1275,7 +1276,8 @@ class CfgAmmo
 		hit=300;
 		indirectHit = 120;
 		indirectHitRange = 3.5;
-		explosionEffects="XDF_ProtoGrenade_ExplosionEff";
+		explosionForceCoef = 0;
+		explosionEffects = "XDF_ProtoGrenade_ExplosionEff";
 		SoundSetExplosion[] = {"AlienMine_Exp_SoundSet","AlienMine_Tail_SoundSet"};
 	};
 	class B_10mm_railshot_smart: SubmunitionBase
