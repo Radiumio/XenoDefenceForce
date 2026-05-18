@@ -76,6 +76,17 @@ class CfgSoundSets
 		sound3DProcessingType = "ExplosionLight3DProcessingType";
 		distanceFilter = "explosionDistanceFreqAttenuationFilter";
 	};
+	class Hades_RailHit
+	{
+		soundShaders[] = {"Hades_RailHit_close"};
+		volumeFactor = 1;
+		volumeCurve = "InverseSquare2Curve";
+		spatial = 1;
+		doppler = 0;
+		loop = 0;
+		sound3DProcessingType = "ExplosionLight3DProcessingType";
+		distanceFilter = "explosionDistanceFreqAttenuationFilter";
+	};
     class AlienMine_Tail_SoundSet
 	{
         soundShaders[] = {"AlienMine_Tail_SoundShader"};
@@ -360,6 +371,13 @@ class CfgSoundShaders
 		volume = 1;
 		range = 70;
 		rangeCurve[] = {{0, 1}, {50, 0.75}, {70, 0}};
+	};
+	class Hades_RailHit_close
+	{
+		samples[] = {{"\xdf\sounds\shot\hades\hades_railHit1.ogg", 1}, {"\xdf\sounds\shot\hades\hades_railHit2.ogg", 1}, {"\xdf\sounds\shot\hades\hades_railHit3.ogg", 1}};
+		volume = 1;
+		range = 1200;
+		rangeCurve[] = {{0, 1}, {200, 0.4}, {120, 0}};
 	};
 	class AlienMine_midExp_SoundShader
 	{

@@ -5140,7 +5140,7 @@ class cfgWeapons
 			"\xdf\weapons\hades\screen_emissive.rvmat",
 			"\xdf\weapons\hades\heatsink_emissive.rvmat"
 		};
-		initSpeed=3200;
+		initSpeed=2800;
 		fireLightDuration = 0.05;
 		fireLightIntensity = 1.2;
 		fireLightDiffuse[] = {0, 0.2, 1};
