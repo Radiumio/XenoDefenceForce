@@ -8,6 +8,7 @@ class CowsSlot_Rail;
 class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
+class AnimationSources;
 class cfgWeapons
 {
 	class ItemCore;
@@ -5117,7 +5118,7 @@ class cfgWeapons
 		picture="";
 		uiPicture="\A3\Weapons_F\Data\UI\icon_at_CA.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\hades\hades_handAnim.rtm"};
-		magazines[] = {"MRAWS_HEAT_F", "MRAWS_HE_F", "MRAWS_HEAT55_F"};
+		magazineWell[] = {"Hades_10mm"};
 		hiddenSelections[] = 
 		{
 			"camo1", 
@@ -5144,6 +5145,7 @@ class cfgWeapons
 		fireLightIntensity = 1.2;
 		fireLightDiffuse[] = {0, 0.2, 1};
 		fireLightAmbient[] = {0, 0, 0};
+		selectionFireAnim = "muzzleFlash";
 		recoil="recoil_hades_psrg";
 		maxZeroing=2000;
 		modelOptics="\xdf\weapons\hades\hades_scope.p3d";

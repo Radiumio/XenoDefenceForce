@@ -1212,6 +1212,68 @@ class CfgAmmo
 	{
 		hit=12;
 	};
+	class RocketBase;
+	class B_10mm_railshot_hypersonic: RocketBase
+	{
+		model = "\A3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HEAT_F.p3d";
+		hit=2200;
+		indirectHit = 1100;
+		indirectHitRange=0.5;
+		warheadName = "HEAT";
+		explosionEffects = "";
+		effectsMissileInit = "";
+		effectsMissile = "EmptyEffect";
+		typicalSpeed=3200;
+		explosive = 0;
+		airFriction = 0.05;
+		sideAirFriction = 0;
+		maxSpeed = 3200;
+		initTime = 0;
+		thrustTime = 0.1;
+		thrust = 0.1;
+		fuseDistance = 0;
+		simulationStep = 0.02;
+		class CamShakeFire
+		{
+			power = 0.5;
+			duration = 3;
+			frequency = 20;
+			distance = 30;
+		};
+		class CamShakePlayerFire
+		{
+			power = 0.9;
+			duration = 7;
+			frequency = 20;
+			distance = 1;
+		};	
+		soundHit1[] = {"\xdf\sounds\shot\hades\hades_railHit1.ogg", 1.5, 1, 2200};
+		soundHit2[] = {"\xdf\sounds\shot\hades\hades_railHit2.ogg", 1.5, 1, 2200};
+		soundHit3[] = {"\xdf\sounds\shot\hades\hades_railHit3.ogg", 1.5, 1, 2200};
+		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33, "soundHit3", 0.33};
+		class CamShakeExplode
+		{
+			power = 11;
+			duration = 1.4;
+			frequency = 20;
+			distance = 99.3296;
+		};
+		class CamShakeHit
+		{
+			power = 110;
+			duration = 0.6;
+			frequency = 20;
+			distance = 1;
+		};
+	};
+	class B_10mm_railshot_hypersonic_xpg: B_10mm_railshot_hypersonic
+	{
+		hit=300;
+		indirectHit = 120;
+		indirectHitRange = 6;
+		explosionEffects="XDF_ProtoGrenade_ExplosionEff";
+		SoundSetExplosion[] = {"AlienMine_Exp_SoundSet","AlienMine_Tail_SoundSet"};
+	};
 	class B_10mm_railshot_smart: SubmunitionBase
 	{
 		hit=35;
@@ -1464,7 +1526,7 @@ class CfgAmmo
 		indirectHit=10;
 		indirectHitRange=1;
 		warheadName="HE";
-		explosive=0.8;
+		explosive=0.1;
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";

@@ -20,16 +20,16 @@ class CfgRecoils
 	{
 		muzzleOuter[]=
 		{
-			1.9,
-			5.0,
-			1.0,
-			1.2
+			0.9,
+			3.5,
+			0.5,
+			0.2
 		};
 		kickBack[]=
 		{
-			0.26,
-			0.28
+			0.18,
+			0.21
 		};
-		temporary=0.035;
+		temporary=0.03;
 	};
 };
