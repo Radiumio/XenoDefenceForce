@@ -5135,8 +5135,8 @@ class cfgWeapons
 		fireLightAmbient[] = {0, 0, 0};
 		recoil="recoil_hades_psrg";
 		maxZeroing=2000;
-		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
-		weaponInfoType="RscOptics_TharsisScope";
+		modelOptics="\xdf\weapons\hades\hades_scope.p3d";
+		weaponInfoType="RscOptics_HadesScope";
 		opticsZoomMin = 0.001;
 		opticsZoomMax = 0.25;
 		opticsZoomInit = 0.25;
