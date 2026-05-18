@@ -16,4 +16,20 @@ class CfgRecoils
 		kickBack[]={0.25,0.28};
 		temporary=0.025;
 	};
+	class recoil_hades_psrg: recoil_default
+	{
+		muzzleOuter[]=
+		{
+			1.9,
+			8.0,
+			1.0,
+			1.4
+		};
+		kickBack[]=
+		{
+			0.28,
+			0.32
+		};
+		temporary=0.055;
+	};
 };

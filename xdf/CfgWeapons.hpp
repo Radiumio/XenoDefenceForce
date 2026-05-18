@@ -5133,10 +5133,10 @@ class cfgWeapons
 		fireLightIntensity = 1.2;
 		fireLightDiffuse[] = {0, 0.2, 1};
 		fireLightAmbient[] = {0, 0, 0};
-		recoil="recoil_rpg";
+		recoil="recoil_hades_psrg";
 		maxZeroing=2000;
-		modelOptics = "\a3\Weapons_F_Tank\acc\reticle_MRAWSNew.p3d";
-		weaponInfoType = "RscOpticsRangeFinderMRAWS";
+		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+		weaponInfoType="RscOptics_TharsisScope";
 		opticsZoomMin = 0.001;
 		opticsZoomMax = 0.25;
 		opticsZoomInit = 0.25;
@@ -5158,16 +5158,17 @@ class cfgWeapons
 			{
 				opticsID = 1;
 				useModelOptics = 1;
-				opticsZoomMin = 0.0875;
-				opticsZoomMax = 0.0875;
-				opticsZoomInit = 0.0875;
+				opticsZoomMin = 0.001;
+				opticsZoomMax = 0.25;
+				opticsZoomInit = 0.25;
 				distanceZoomMin = 300;
 				distanceZoomMax = 300;
 				memoryPointCamera = "eye";
 				opticsFlare = 1;
 				opticsDisablePeripherialVision = 1;
 				cameraDir = "look";
-				visionMode[] = {"Normal", "NVG", "TI"};
+				visionMode[] = {"Normal", "NVG", "Ti"};
+				thermalMode[]={2};
 				opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
 			};
 		};
@@ -5182,7 +5183,7 @@ class cfgWeapons
 				soundSetShot[] = {"Hades_shot_SoundSet", "Hades_tail_SoundSet"};
 			};
 			sounds[] = {"StandardSound"};
-			recoil = "recoil_single_law";
+			recoil = "recoil_hades_psrg";
 			reloadTime=5;
 			aiRateOfFire = 7;
 			aiRateOfFireDistance = 600;
@@ -5193,6 +5194,22 @@ class cfgWeapons
 			midRangeProbab = 0.8;
 			maxRange = 700;
 			maxRangeProbab = 0.1;
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 615;
+			class MuzzleSlot
+			{
+			};
+			class CowsSlot
+			{
+			};
+			class PointerSlot
+			{
+			};
+			class UnderBarrelSlot
+			{
+			};
 		};
 		reloadTime = 5;
 		magazineReloadTime = 5;
