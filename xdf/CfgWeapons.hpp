@@ -5121,12 +5121,23 @@ class cfgWeapons
 		hiddenSelections[] = 
 		{
 			"camo1", 
-			"camo2"
+			"camo2",
+			"screen_emissive",
+			"heatsink_emissive"
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"#(argb,8,8,3)color(0.2,0.8,0.2,1)", 
-			"#(argb,8,8,3)color(0.8,0.2,0.2,1)"
+			"\xdf\weapons\hades\hades_base_CO.paa", 
+			"\xdf\weapons\hades\hades_rail_CO.paa",
+			"\xdf\weapons\hades\hades_base_CO.paa",
+			"\xdf\weapons\hades\hades_base_CO.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"\xdf\weapons\hades\hades_base.rvmat", 
+			"\xdf\weapons\hades\hades_rail.rvmat",
+			"\xdf\weapons\hades\screen_emissive.rvmat",
+			"\xdf\weapons\hades\heatsink_emissive.rvmat"
 		};
 		initSpeed=3200;
 		fireLightDuration = 0.05;
@@ -5183,7 +5194,7 @@ class cfgWeapons
 				soundSetShot[] = {"Hades_shot_SoundSet", "Hades_tail_SoundSet"};
 			};
 			sounds[] = {"StandardSound"};
-			recoil = "recoil_hades_psrg";
+			//recoil = "recoil_hades_psrg";
 			reloadTime=5;
 			aiRateOfFire = 7;
 			aiRateOfFireDistance = 600;

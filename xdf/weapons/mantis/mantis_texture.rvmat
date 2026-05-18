@@ -1,8 +1,7 @@
 /*
 	Generated on https://jdtools.dev/
-	Made by John Doe
+	Made by Radium
 */
-ambient[] = { 1, 1, 1, 1 };
 ambient[] = { 1, 1, 1, 1 };
 forcedDiffuse[] = { 0, 0, 0, 1 };
 emmisive[] = { 0, 0, 0, 1 };

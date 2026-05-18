@@ -225,7 +225,7 @@ class RscInGameUI
     				sizeEx="0.035*SafezoneH";
     				shadow=0;
     				font="EtelkaMonospacePro";
-    				text="\xdf\weapons\mantis\tharsis_brackets_ca.paa";
+    				text="\xdf\weapons\hades\hades_brackets_ca.paa";
     				x="16.5 * 		(0.01875 * SafezoneH)";
     				y="9.75 * 		(0.025 * SafezoneH)";
     				w="20.5 * 		(0.01875 * SafezoneH)";

@@ -21,15 +21,15 @@ class CfgRecoils
 		muzzleOuter[]=
 		{
 			1.9,
-			8.0,
+			5.0,
 			1.0,
-			1.4
+			1.2
 		};
 		kickBack[]=
 		{
-			0.28,
-			0.32
+			0.26,
+			0.28
 		};
-		temporary=0.055;
+		temporary=0.035;
 	};
 };
