@@ -191,8 +191,8 @@ class CfgMagazineWells
 	{
 		XDF_Magazines[]=
 		{
-			"5Rnd_10mm_Hypersonic_Railshot"
-			//"5Rnd_10mm_Hypersonic_XPG_Railshot"
+			"5Rnd_10mm_Hypersonic_Railshot",
+			"5Rnd_10mm_Hypersonic_XPG_Railshot"
 		};
 	};
 	class Cyrus_93_XDF

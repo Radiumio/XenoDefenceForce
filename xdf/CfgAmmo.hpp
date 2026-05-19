@@ -1224,11 +1224,11 @@ class CfgAmmo
 		warheadName = "HEAT";
 		effectsMissileInit = "";
 		effectsMissile = "EmptyEffect";
-		typicalSpeed=2200;
+		typicalSpeed=2800;
 		explosive = 0;
 		airFriction = 0;
 		sideAirFriction = 0;
-		maxSpeed = 2200;
+		maxSpeed = 2800;
 		initTime = 0;
 		thrustTime = 0.1;
 		thrust = 0.1;
@@ -1277,6 +1277,9 @@ class CfgAmmo
 		indirectHit = 120;
 		indirectHitRange = 3.5;
 		explosionForceCoef = 0;
+		explosive = 0.5;
+		typicalSpeed=2800;
+		maxSpeed=2800;
 		explosionEffects = "XDF_ProtoGrenade_ExplosionEff";
 		SoundSetExplosion[] = {"AlienMine_Exp_SoundSet","AlienMine_Tail_SoundSet"};
 	};
