@@ -979,6 +979,45 @@ class CfgAmmo
 			1200
 		};
 	};
+	class R_230mm_HE;
+	class R_230mm_FAE: R_230mm_HE
+	{
+		submunitionAmmo="R_230mm_FAE_fly";
+		hit=300;
+		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
+	};
+	class R_230mm_fly;
+	class R_230mm_FAE_fly: R_230mm_fly
+	{
+		hit=12000;
+		indirectHit=12000;
+		indirectHitRange=75;
+		ExplosionEffects="XDF_ThermobaricBigHit";
+		effectsMissile="XDF_CruiseMissile";
+		//effectFly = "XDF_CruiseMissile";
+		class CamShakeExplode
+		{
+			power=20;
+			duration=7;
+			frequency=50;
+			distance=1500;
+		};
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			4,
+			1,
+			1200
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1200
+		};
+		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
+	};
 
 
 	// infantry weapons 

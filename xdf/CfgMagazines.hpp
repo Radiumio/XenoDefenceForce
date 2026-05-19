@@ -557,6 +557,15 @@ class CfgMagazines
 		count=18;
 		nameSound="missiles";
 	};
+	class 12Rnd_230mm_rockets;
+	class 4Rnd_230mm_rockets_fae: 12Rnd_230mm_rockets
+	{
+		displayName="230mm Thermobaric Rocket";
+		displayNameShort = "FAE";
+		displayNameMFDFormat = "FAE";
+		ammo = "R_230mm_FAE";
+		count = 4;
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;
