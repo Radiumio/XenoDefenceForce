@@ -979,6 +979,54 @@ class CfgAmmo
 			1200
 		};
 	};
+	class R_230mm_HE;
+	class R_230mm_FAE: R_230mm_HE
+	{
+		submunitionAmmo="R_230mm_FAE_fly";
+		hit=300;
+		effectsMissile="XDF_CruiseMissile";
+		effectFly = "XDF_CruiseMissile";
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1600
+		};
+		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
+	};
+	class R_230mm_fly;
+	class R_230mm_FAE_fly: R_230mm_fly
+	{
+		hit=12000;
+		indirectHit=12000;
+		indirectHitRange=75;
+		ExplosionEffects="XDF_ThermobaricBigHit";
+		effectsMissile="XDF_CruiseMissile";
+		effectFly = "XDF_CruiseMissile";
+		class CamShakeExplode
+		{
+			power=20;
+			duration=7;
+			frequency=50;
+			distance=1500;
+		};
+		soundEngine[]=
+		{
+			"\xdf\sounds\shot\titan\exp_missile_engine",
+			4,
+			1,
+			1200
+		};
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1600
+		};
+		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
+	};
 
 
 	// infantry weapons 
@@ -1211,6 +1259,77 @@ class CfgAmmo
 	class B_6mm_railshot: B_10mm_railshot
 	{
 		hit=12;
+	};
+	class RocketBase;
+	class B_10mm_railshot_hypersonic: RocketBase
+	{
+		//model = "\A3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HEAT_F.p3d";
+		model="xdf\weapons\shell_tracer_blue\shell_tracer_blue";
+		hit=2200;
+		indirectHit = 1100;
+		indirectHitRange=0.5;
+		explosionForceCoef = 0;
+		warheadName = "HEAT";
+		effectsMissileInit = "";
+		effectsMissile = "EmptyEffect";
+		typicalSpeed=2800;
+		explosive = 0;
+		airFriction = 0;
+		sideAirFriction = 0;
+		maxSpeed = 2800;
+		initTime = 0;
+		thrustTime = 0.1;
+		thrust = 0.1;
+		fuseDistance = 0;
+		simulationStep = 0.02;
+		tracerScale=1.5;
+		tracerStartTime=0;
+		tracerEndTime=5;
+		class CamShakeFire
+		{
+			power = 0.5;
+			duration = 3;
+			frequency = 20;
+			distance = 30;
+		};
+		class CamShakePlayerFire
+		{
+			power = 0.9;
+			duration = 7;
+			frequency = 20;
+			distance = 1;
+		};	
+		soundHit1[] = {"\xdf\sounds\shot\hades\hades_railHit1.ogg", 1.5, 1, 2200};
+		soundHit2[] = {"\xdf\sounds\shot\hades\hades_railHit2.ogg", 1.5, 1, 2200};
+		soundHit3[] = {"\xdf\sounds\shot\hades\hades_railHit3.ogg", 1.5, 1, 2200};
+		multiSoundHit[] = {"soundHit1", 0.34, "soundHit2", 0.33, "soundHit3", 0.33};
+		SoundSetExplosion[] = {"Hades_RailHit"};
+		class CamShakeExplode
+		{
+			power = 11;
+			duration = 1.4;
+			frequency = 20;
+			distance = 100;
+		};
+		class CamShakeHit
+		{
+			power = 110;
+			duration = 0.6;
+			frequency = 20;
+			distance = 3;
+		};
+	};
+	class B_10mm_railshot_hypersonic_xpg: B_10mm_railshot_hypersonic
+	{
+		hit=300;
+		indirectHit = 120;
+		indirectHitRange = 3.5;
+		explosionForceCoef = 0;
+		explosive = 0.5;
+		typicalSpeed=2800;
+		maxSpeed=2800;
+		explosionEffects = "XDF_ProtoGrenade_ExplosionEff";
+		SoundSetExplosion[] = {"AlienMine_Exp_SoundSet","AlienMine_Tail_SoundSet"};
 	};
 	class B_10mm_railshot_smart: SubmunitionBase
 	{
@@ -1464,7 +1583,7 @@ class CfgAmmo
 		indirectHit=10;
 		indirectHitRange=1;
 		warheadName="HE";
-		explosive=0.8;
+		explosive=0.1;
 		explosionSoundEffect="DefaultExplosion";
 		CraterEffects="ExploAmmoCrater";
 		explosionEffects="ExploAmmoExplosion";

@@ -8,6 +8,7 @@ class CowsSlot_Rail;
 class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
+class AnimationSources;
 class cfgWeapons
 {
 	class ItemCore;
@@ -5099,6 +5100,185 @@ class cfgWeapons
 		};
 	};
 
+	class Launcher_Base_F;
+	class XDF_Hades_SERS: Launcher_Base_F
+	{
+		author="Radium";
+		scope=2;
+		reloadAction="";
+		// ace compat //
+	    ace_overpressure_angle = 0;
+		ace_overpressure_damage = 0;
+		ace_overpressure_offset = 0;
+		ace_overpressure_priority = 0;
+		ace_overpressure_range = 0;
+		////////////////
+		displayName="XDF SERS-03 Hades";
+		model="\xdf\weapons\hades\psrg_railgun.p3d";
+		picture="\xdf\weapons\hades\gear_hades_invl.paa";
+		uiPicture="\A3\Weapons_F\Data\UI\icon_at_CA.paa";
+		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\hades\hades_handAnim.rtm"};
+		magazineWell[] = {"Hades_10mm"};
+		hiddenSelections[] = 
+		{
+			"camo1", 
+			"camo2",
+			"screen_emissive",
+			"heatsink_emissive"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf\weapons\hades\hades_base_CO.paa", 
+			"\xdf\weapons\hades\hades_rail_CO.paa",
+			"\xdf\weapons\hades\hades_base_CO.paa",
+			"\xdf\weapons\hades\hades_base_CO.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"\xdf\weapons\hades\hades_base.rvmat", 
+			"\xdf\weapons\hades\hades_rail.rvmat",
+			"\xdf\weapons\hades\screen_emissive.rvmat",
+			"\xdf\weapons\hades\heatsink_emissive.rvmat"
+		};
+		initSpeed=2800;
+		fireLightDuration = 0.05;
+		fireLightIntensity = 1.2;
+		fireLightDiffuse[] = {0, 0.2, 1};
+		fireLightAmbient[] = {0, 0, 0};
+		selectionFireAnim = "muzzleFlash";
+		recoil="recoil_hades_psrg";
+		maxZeroing=2000;
+		modelOptics="\xdf\weapons\hades\hades_scope.p3d";
+		weaponInfoType="RscOptics_HadesScope";
+		opticsZoomMin = 0.001;
+		opticsZoomMax = 0.25;
+		opticsZoomInit = 0.25;
+		cameraDir="look";
+		muzzlePos="muzzle_end";
+		muzzleEnd="muzzle_start";
+		shotPos="muzzle_end";
+		shotEnd="muzzle_start";
+		class AnimationSources: AnimationSources
+		{
+			class muzzleFlash_Hide
+			{
+				weapon = "XDF_Hades_SERS";
+				source = "reload";
+			};
+			class muzzleFlash_Hide_Empty
+			{
+				weapon = "XDF_Hades_SERS";
+				source = "isempty";
+			};
+		};
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName = "muzzle_start";
+				directionName = "muzzle_end";
+				effectName = "XDF_Hades_Muzzle_Sparks";
+			};
+		};
+		class OpticsModes
+		{
+			class optic
+			{
+				opticsID = 1;
+				useModelOptics = 1;
+				opticsZoomMin = 0.001;
+				opticsZoomMax = 0.25;
+				opticsZoomInit = 0.25;
+				distanceZoomMin = 300;
+				distanceZoomMax = 300;
+				memoryPointCamera = "eye";
+				opticsFlare = 1;
+				opticsDisablePeripherialVision = 1;
+				cameraDir = "look";
+				visionMode[] = {"Normal", "NVG", "Ti"};
+				thermalMode[]={2};
+				opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
+			};
+		};
+		modes[] = {"Single"};
+		class Single: Mode_SemiAuto
+		{
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Hades_shot_SoundSet", "Hades_tail_SoundSet"};
+			};
+			sounds[] = {"StandardSound"};
+			//recoil = "recoil_hades_psrg";
+			reloadTime=5;
+			aiRateOfFire = 7;
+			aiRateOfFireDistance = 600;
+			dispersion = 0.07;
+			minRange = 50;
+			minRangeProbab = 0.3;
+			midRange = 400;
+			midRangeProbab = 0.8;
+			maxRange = 700;
+			maxRangeProbab = 0.1;
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 615;
+			class MuzzleSlot
+			{
+			};
+			class CowsSlot
+			{
+			};
+			class PointerSlot
+			{
+			};
+			class UnderBarrelSlot
+			{
+			};
+		};
+		reloadTime = 5;
+		magazineReloadTime = 5;
+		reloadSound[]=
+		{
+			"\xdf\sounds\reloads\hades_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\hades_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		changeFiremodeSound[] = 
+		{
+			"\xdf\sounds\shot\mantis\mantis_firemode.ogg", 
+			0.9, 
+			1, 
+			5
+		};
+		drySound[]=
+		{
+			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
+			0.6,
+			1,
+			10
+		};
+		soundFly[] = {"\xdf\sounds\shot\gm6\gm6_railfly", 0.316228, 1.5, 900};
+		canLock = 0;
+		weaponLockDelay = 3;
+		lockAcquire = 0;
+		inertia = 1.4;
+		aimTransitionSpeed = 0.35;
+		dexterity = 0.7;
+		descriptionShort = "One of the XDF's latest counters to the xenothreat, the Hades Shoulder-fired Electromagnetic Rail System is an exceptionally deadly infantry-portable railgun system that fires 10mm slugs at hypersonic speeds.<br/><br/>The kinetic energy of such an impact is catastrophic to even the thickest armors.<br/><br/>Many learnings from the Mantis platform have been upscaled and applied to the Hades, but much of the cost, complexity and bulkiness has remained.<br/><br/>An advanced recoil system absorbs a majority of the recoil caused by the meter-long rail reciprocating, yet the recoil experienced by the operator still remains immense.<br/><br/>A glove-compatible touchscreen interface allows the operator to easily cycle the internal rotary magazine to reload or swap ammunition types.<br/><br/>Compared to other portable launchers, the Hades is exceptionally dangerous to the operator due to the railgun's intense heat output after multiple rounds.<br/><br/>Another unfortunate drawback that remains unresolved by XDF Research is the Hades' tendency to experience sudden and rapid barrel decoupling<br/>after firing over a dozen rounds - which occasionally shears the weapon in half violently.<br/>All these factors combined mean the railgun must be frequently serviced to replace the entire rail system and internal mechanism.<br/><br/>An additional drawback is the reloading mechanism - due to the complex internal rotary magazine, the Hades cannot be reloaded in the field once the internal magazine is exhausted<br/>and must be serviced by an engineer to replace the magazine.<br/><br/>XDF operatives need extensive training to utilise this weapon system effectively and without excessively endangering themselves.<br/>Ammo: 10mm Hypervelocity Railgun Slugs";
+	};
+
 
 	// Loadouts
 	class arifle_MSBS65_black_F;
@@ -6081,6 +6261,15 @@ class cfgWeapons
 		class LoalAltitude: LoalAltitude
 		{
 			displayName="GPX-FAE500";
+		};
+	};
+	class rockets_230mm_GAT;
+	class rockets_230mm_GAT_XDF: rockets_230mm_GAT
+	{
+		magazineReloadTime=30;
+		magazines[]+= 
+		{
+			"4Rnd_230mm_rockets_fae"
 		};
 	};
 

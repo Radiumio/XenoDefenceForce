@@ -152,7 +152,113 @@ class RscInGameUI
     		};
     	};
     };
+    class RscOptics_HadesScope: RscUnitInfo
+    {
+    	idd=300;
+    	controls[]=
+    	{
+    		"CA_IGUI_elements_group"
+    	};
+    	class CA_IGUI_elements_group: RscControlsGroup
+    	{
+    		idc=170;
+    		class VScrollbar: VScrollbar
+    		{
+    			width=0;
+    		};
+    		class HScrollbar: HScrollbar
+    		{
+    			height=0;
+    		};
+    		x="0 * 		(0.01875 * SafezoneH) + 		(SafezoneX + ((SafezoneW - SafezoneH) / 2))";
+    		y="0 * 		(0.025 * SafezoneH) + 		(SafezoneY)";
+    		w="53.5 * 		(0.01875 * SafezoneH)";
+    		h="40 * 		(0.025 * SafezoneH)";
+    		class controls
+    		{
+    			class CA_Distance: RscText
+    			{
+    				idc=198;
+    				style=0;
+    				sizeEx="0.045*SafezoneH";
+    				colorText[]={0.1,0.8,1,0.8};
+    				shadow=0;
+    				font="LCD14";
+    				text="- - - -";
+					x="39 * 		(0.01875 * SafezoneH)";
+					y="19.35 * 		(0.025 * SafezoneH)";
+					w="5.6 * 		(0.01875 * SafezoneH)";
+					h="2 * 		(0.025 * SafezoneH)";
+    			};
+    			class CA_VisionMode: RscText
+    			{
+    				idc=179;
+    				style=0;
+    				sizeEx="0.045*SafezoneH";
+    				colorText[]={0.1,0.8,1,0.8};
+    				shadow=0;
+    				font="LCD14";
+    				text="VIS";
+					x="11.5 * 		(0.01875 * SafezoneH)";
+					y="19.35 * 		(0.025 * SafezoneH)";
+					w="5 * 		(0.01875 * SafezoneH)";
+					h="2 * 		(0.025 * SafezoneH)";
+    			};
+    			class CA_OpticsZoom: RscText
+    			{
+    				idc=180;
+    				style=1;
+    				sizeEx="0.028*SafezoneH";
+    				colorText[]={0.1,0.8,1,0.8};
+    				shadow=0;
+    				font="LCD14";
+    				text="5.5";
+					x="39 * 		(0.01875 * SafezoneH)";
+					y="20.65 * 		(0.025 * SafezoneH)"; // +1,3 to be below distance HUD element
+					w="4 * 		(0.01875 * SafezoneH)";
+					h="1.5 * 		(0.025 * SafezoneH)";
+    			};
+    			class CA_Bracket: RscText
+    			{
+    				idc=181;
+    				style="0x30 + 0x800";
+    				sizeEx="0.035*SafezoneH";
+    				shadow=0;
+    				font="EtelkaMonospacePro";
+    				text="\xdf\weapons\hades\hades_brackets_ca.paa";
+    				x="16.5 * 		(0.01875 * SafezoneH)";
+    				y="9.75 * 		(0.025 * SafezoneH)";
+    				w="20.5 * 		(0.01875 * SafezoneH)";
+    				h="20.5 * 		(0.025 * SafezoneH)";
+    			};
+    		};
+    	};
+    };
 };
+
+class RscDisplayMain
+{
+    class controlsBackground
+    {
+        class Menu_Background_Image
+        {
+            idc = 992001;
+            type = 0;
+            style = 48;
+            text = "\xdf\mainmenu\xdf_mainmenu.paa";
+            x = safeZoneX;
+            y = safeZoneY;
+            w = safeZoneW;
+            h = safeZoneH;
+            colorBackground[] = {0,0,0,0};
+            colorText[] = {1,1,1,1};
+            font = "RobotoCondensed";
+            sizeEx = 0;
+            shadow = 0;
+        };
+    };
+};
+
 
 #include "CfgPatches.hpp"
 #include "CfgCloudlets.hpp"

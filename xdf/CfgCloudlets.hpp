@@ -1088,6 +1088,52 @@ class CfgCloudlets
 		moveVelocity[] = {0, 0, "-0.6*directionZ"};
 		position[] = {"positionX","positionY","positionZ"};
 	};
+	class Hades_Muzzle_Sparks: Default
+	{
+		interval = 0.0005;
+		circleRadius = 0;
+		circleVelocity[] = {0,0,0};
+		particleFSNtieth = 16;
+		particleFSIndex = 13;
+		particleFSFrameCount = 2;
+		particleFSLoop = 0;
+		angleVar = 45;
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		particleType = "Billboard";
+		timerPeriod = 1;
+		lifeTime = 1;
+		moveVelocity[] = {"3*directionLocalY","3*directionLocalY","3*directionLocalY"};
+		rotationVelocity = 1;
+		weight = 0.2;
+		volume = 0.005;
+		friction = 0.002;
+		size[] = {0.06,0.08,0.15};
+		color[] =
+		{
+				{0,0.1,1,-1},
+				{0,0.2,1,-1},
+				{0,0.3,1,-1},
+				{0,0.4,1,-1}
+		};
+		emissive[] = 
+		{
+			0,0.4,1,1
+		};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.35;
+		randomDirectionIntensity = 2.5;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		lifeTimeVar = 1.5;
+		position[] = {"positionX","positionY","positionZ"};
+		positionVar[] = {0,0,0};
+		moveVelocityVar[] = {0.2,1,0.2};
+		rotationVelocityVar = 6;
+		sizeVar = 0.08;
+		randomDirectionPeriodVar = 0.2;
+		randomDirectionIntensityVar = 0.3;
+		angle = 0;
+	};
 	class XDF_GuidedSlug_TrailEffect: Default
 	{
 		interval = 0.0005;
@@ -1745,6 +1791,49 @@ class XDF_Mantis_Muzzle_Sparks
 	};
 };
 
+class XDF_Hades_Muzzle_Sparks
+{
+	class MuzzleSparks1
+	{
+		simulation="particles";
+		type="Hades_Muzzle_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=0.5;
+		qualityLevel=2;
+	};
+	class ShroudHeat1
+	{
+		simulation="particles";
+		type="MantisRefractDown";
+		position[]={0,0,0};
+		intensity=0.2;
+		interval=1;
+		lifeTime=1;
+		qualityLevel=2;
+	};
+	class ShroudHeat2
+	{
+		simulation="particles";
+		type="MantisRefractUp";
+		position[]={0,0,0};
+		intensity=0.2;
+		interval=1;
+		lifeTime=1;
+		qualityLevel=2;
+	};
+	class LightEffect1
+	{
+		simulation="light";
+		type="XDF_GuidedSlug_LightEffect";
+		position[]={0,0,0};
+		intensity=0.01;
+		interval=1;
+		lifeTime=0.1;
+	};
+};
+
 class XDF_GuidedSlug_Trail
 {
 	class SlugTrail1
@@ -1765,7 +1854,7 @@ class XDF_GuidedSlug_Trail
 		intensity=0.0099999998;
 		interval=1;
 		lifeTime=1;
-	}
+	};
 };
 
 class XDF_Mantis_Shroud_Heat_Down

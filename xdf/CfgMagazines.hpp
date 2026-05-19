@@ -557,6 +557,15 @@ class CfgMagazines
 		count=18;
 		nameSound="missiles";
 	};
+	class 12Rnd_230mm_rockets;
+	class 4Rnd_230mm_rockets_fae: 12Rnd_230mm_rockets
+	{
+		displayName="230mm Thermobaric Rocket";
+		displayNameShort = "FAE";
+		displayNameMFDFormat = "FAE";
+		ammo = "R_230mm_FAE";
+		count = 4;
+	};
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;
@@ -773,7 +782,7 @@ class CfgMagazines
 		ammo="B_45ACP_Ball_blue";
 		count=50;
 		tracersEvery=1;
-		mass=32;
+		mass=21;
 	};
 	class 50rnd_45acp_mag_smg_01_blue_reload_tracer: 30Rnd_45ACP_Mag_SMG_01_Tracer_Green
 	{
@@ -785,7 +794,7 @@ class CfgMagazines
 		count=50;
 		tracersEvery=4;
 		lastRoundsTracer=4;
-		mass=32;
+		mass=21;
 	};
 
 	class 50Rnd_570x28_SMG_03;
@@ -1071,6 +1080,34 @@ class CfgMagazines
 		count=30;
 		tracersEvery=1;
 		mass=62;
+	};
+	class CA_LauncherMagazine;
+	class 5Rnd_10mm_Hypersonic_Railshot : CA_LauncherMagazine
+	{
+		author="Radium";
+		scope=2;
+		dlc="";
+		displayName="5Rnd Internal Rotary Magazine (10mm HYP-X)";
+		displaynameshort="10mm AX-RG";
+		descriptionShort="Caliber: 10mm SABOT Hypersonic AX Slug<br/>Rounds: 5<br/>Used in: XDF PSRG-03 Hades"
+	    picture="\xdf\weapons\hades\gear_hades_mag.paa";
+		ammo="B_10mm_railshot_hypersonic";
+		count=5;
+		tracersEvery=1;
+		mass=121;
+		initSpeed=3200;
+	};
+	class 5Rnd_10mm_Hypersonic_XPG_Railshot : 5Rnd_10mm_Hypersonic_Railshot
+	{
+		author="Radium";
+		scope=2;
+		dlc="";
+		displayName="5Rnd Internal Rotary Magazine (10mm EX-HE)";
+		displaynameshort="10mm EX-HE";
+		descriptionShort="Caliber: 10mm SABOT Hypersonic AX Experimental HE Slug<br/>Rounds: 5<br/>Used in: XDF PSRG-03 Hades"
+	    picture="\xdf\weapons\hades\gear_hades_mag_axhe.paa";
+		ammo="B_10mm_railshot_hypersonic_xpg";
+		initSpeed=3200;
 	};
 	//class Object_02_Cluster_Autoseek_Mag: 5Rnd_127x108_APDS_Mag
 	//{

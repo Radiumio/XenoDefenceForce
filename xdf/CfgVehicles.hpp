@@ -26916,7 +26916,18 @@ class CfgVehicles
 			1
 		};
 	};
-	class B_MBT_01_mlrs_F;
+	class MBT_01_mlrs_base_F;
+	class B_MBT_01_mlrs_base_F: MBT_01_mlrs_base_F
+	{
+		class Turrets;
+	};
+	class B_MBT_01_mlrs_F: B_MBT_01_mlrs_base_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
 	class XDF_Hurricane: B_MBT_01_mlrs_F
 	{
 		author="Radium";
@@ -26950,6 +26961,14 @@ class CfgVehicles
 			"\xdf\retextures\hurricane\mbt_01_body_co.paa",
 			"\xdf\retextures\hurricane\mbt_01_mlrs_co.paa",
 			"\xdf\retextures\hurricane\camonet_nato_black_co.paa"
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[]={"rockets_230mm_GAT_XDF"};
+				magazines[]={"12Rnd_230mm_rockets","4Rnd_230mm_rockets_fae"};
+			};
 		};
 		class TextureSources
 		{

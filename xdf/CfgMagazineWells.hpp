@@ -187,6 +187,14 @@ class CfgMagazineWells
 			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer"
 		};
 	};
+	class Hades_10mm
+	{
+		XDF_Magazines[]=
+		{
+			"5Rnd_10mm_Hypersonic_Railshot",
+			"5Rnd_10mm_Hypersonic_XPG_Railshot"
+		};
+	};
 	class Cyrus_93_XDF
 	{
 		XDF_Magazines[]=
