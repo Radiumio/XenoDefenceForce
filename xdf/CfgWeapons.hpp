@@ -6266,6 +6266,7 @@ class cfgWeapons
 	class rockets_230mm_GAT;
 	class rockets_230mm_GAT_XDF: rockets_230mm_GAT
 	{
+		magazineReloadTime=30;
 		magazines[]+= 
 		{
 			"4Rnd_230mm_rockets_fae"

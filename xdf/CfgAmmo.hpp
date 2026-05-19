@@ -984,6 +984,15 @@ class CfgAmmo
 	{
 		submunitionAmmo="R_230mm_FAE_fly";
 		hit=300;
+		effectsMissile="XDF_CruiseMissile";
+		effectFly = "XDF_CruiseMissile";
+		soundFly[]=
+		{
+			"\xdf\sounds\exp\thermobaric_alarm.ogg",
+			2,
+			1,
+			1600
+		};
 		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
 	};
 	class R_230mm_fly;
@@ -994,7 +1003,7 @@ class CfgAmmo
 		indirectHitRange=75;
 		ExplosionEffects="XDF_ThermobaricBigHit";
 		effectsMissile="XDF_CruiseMissile";
-		//effectFly = "XDF_CruiseMissile";
+		effectFly = "XDF_CruiseMissile";
 		class CamShakeExplode
 		{
 			power=20;
@@ -1014,7 +1023,7 @@ class CfgAmmo
 			"\xdf\sounds\exp\thermobaric_alarm.ogg",
 			2,
 			1,
-			1200
+			1600
 		};
 		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
 	};
