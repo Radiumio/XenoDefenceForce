@@ -1224,11 +1224,11 @@ class CfgAmmo
 		warheadName = "HEAT";
 		effectsMissileInit = "";
 		effectsMissile = "EmptyEffect";
-		typicalSpeed=2800;
+		typicalSpeed=2200;
 		explosive = 0;
 		airFriction = 0;
 		sideAirFriction = 0;
-		maxSpeed = 2800;
+		maxSpeed = 2200;
 		initTime = 0;
 		thrustTime = 0.1;
 		thrust = 0.1;

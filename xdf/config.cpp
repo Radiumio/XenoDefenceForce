@@ -236,6 +236,30 @@ class RscInGameUI
     };
 };
 
+class RscDisplayMain
+{
+    class controlsBackground
+    {
+        class Menu_Background_Image
+        {
+            idc = 992001;
+            type = 0;
+            style = 48;
+            text = "\xdf\mainmenu\xdf_mainmenu.paa";
+            x = safeZoneX;
+            y = safeZoneY;
+            w = safeZoneW;
+            h = safeZoneH;
+            colorBackground[] = {0,0,0,0};
+            colorText[] = {1,1,1,1};
+            font = "RobotoCondensed";
+            sizeEx = 0;
+            shadow = 0;
+        };
+    };
+};
+
+
 #include "CfgPatches.hpp"
 #include "CfgCloudlets.hpp"
 #include "CfgEditorCategories.hpp"
