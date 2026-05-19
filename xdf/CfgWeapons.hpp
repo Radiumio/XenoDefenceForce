@@ -5114,7 +5114,7 @@ class cfgWeapons
 		ace_overpressure_range = 0;
 		////////////////
 		displayName="XDF SERS-03 Hades";
-		model="\xdf\weapons\hades\psrg_railgun_xtnd.p3d";
+		model="\xdf\weapons\hades\psrg_railgun.p3d";
 		picture="\xdf\weapons\hades\gear_hades_invl.paa";
 		uiPicture="\A3\Weapons_F\Data\UI\icon_at_CA.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\hades\hades_handAnim.rtm"};
