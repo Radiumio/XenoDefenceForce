@@ -5158,6 +5158,19 @@ class cfgWeapons
 		muzzleEnd="muzzle_start";
 		shotPos="muzzle_end";
 		shotEnd="muzzle_start";
+		class AnimationSources: AnimationSources
+		{
+			class muzzleFlash_Hide
+			{
+				weapon = "XDF_Hades_SERS";
+				source = "reload";
+			};
+			class muzzleFlash_Hide_Empty
+			{
+				weapon = "XDF_Hades_SERS";
+				source = "isempty";
+			};
+		};
 		class GunParticles
 		{
 			class effect1
