@@ -5250,7 +5250,7 @@ class cfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 124;
-			class MuzzleSlot
+			class MuzzleSlot: MuzzleSlot
 			{
 			};
 			class CowsSlot: CowsSlot_Rail
