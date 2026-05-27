@@ -5099,6 +5099,175 @@ class cfgWeapons
 			"\xdf\weapons\mantis\rail_emissive_red.rvmat"
 		};
 	};
+	class XDF_Solaris_PulseRifle: arifle_MX_Base_F
+	{
+		author="Radium";
+		baseWeapon="XDF_Solaris_PulseRifle";
+		scope=2;
+		displayName="XDF SPR-34 Solaris Pulse Rifle";
+		descriptionShort="Prototype Pulse Rifle";
+		model="\xdf\weapons\solaris\solaris_pr.p3d";
+		picture="";
+		UiPicture="";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"	
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"#(rgb,8,8,3)color(1,0,0,1)",
+			"#(rgb,8,8,3)color(0,1,0,1)"
+		};
+		//handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
+		selectionFireAnim = "muzzleFlash";
+		reloadAction = "GestureReloadXDFMantis";
+		initSpeed=450;
+		fireLightDuration = 0.05;
+		fireLightIntensity = 0.5;
+		fireLightDiffuse[] = {0, 0.2, 1};
+		fireLightAmbient[] = {0, 0, 0};
+		//hiddenSelectionsMaterials[]={};
+		inertia = 1;
+		dexterity = 1;
+		maxZeroing = 1200;
+		
+		canLock=2;
+		weaponLockSystem = 12;
+		lockAcquire = 1;
+
+        cmImmunity        = 1;
+        weaponLockDelay    = 0.15;
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\mantis_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		changeFiremodeSound[] = 
+		{
+			"\xdf\sounds\shot\mantis\mantis_firemode.ogg", 
+			0.9, 
+			1, 
+			5
+		};
+		drySound[]=
+		{
+			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
+			0.6,
+			1,
+			10
+		};modes[] = {"Single", "FullAuto", "LOALDistance"};
+		class Single: Mode_SemiAuto
+		{	
+            alternativeFireMode = true;
+			reloadTime = 0.12;
+			recoil = "recoil_single_mx";
+			recoilProne = "recoil_single_prone_mx";
+			dispersion = 0.00015;
+			minRange = 0;
+			minRangeProbab = 0.5;
+			midRange = 500;
+			midRangeProbab = 0.7;
+			maxRange = 1000;
+			maxRangeProbab = 0.3;
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+            alternativeFireMode = true;
+			reloadTime = 0.12;
+			dispersion = 0.00015;
+			recoil = "recoil_auto_mx";
+			recoilProne = "recoil_auto_prone_mx";
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 250;
+			midRangeProbab = 0.7;
+			maxRange = 500;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 1e-06;
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class LoalDistance: Single
+		{
+			textureType="LOAL";
+			displayName="LOAL";
+			aiRateOfFire=7;
+			aiRateOfFireDistance=1500;
+			minRange=150;
+			minRangeProbab=0.80000001;
+			midRange=500;
+			midRangeProbab=0.94999999;
+			maxRange=2000;
+			maxRangeProbab=0.94999999;
+		};
+		//class single_medium_optics1: Single
+		//{
+		//	requiredOpticType = 1;
+		//	showToPlayer = 0;
+		//	minRange = 2;
+		//	minRangeProbab = 0.2;
+		//	midRange = 450;
+		//	midRangeProbab = 0.7;
+		//	maxRange = 600;
+		//	maxRangeProbab = 0.2;
+		//	aiRateOfFire = 6;
+		//	aiRateOfFireDistance = 600;
+		//};
+		//class single_far_optics2: single_medium_optics1
+		//{
+		//	requiredOpticType = 2;
+		//	showToPlayer = 0;
+		//	minRange = 100;
+		//	minRangeProbab = 0.1;
+		//	midRange = 500;
+		//	midRangeProbab = 0.6;
+		//	maxRange = 700;
+		//	maxRangeProbab = 0.05;
+		//	aiRateOfFire = 8;
+		//	aiRateOfFireDistance = 700;
+		//};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 124;
+			class MuzzleSlot
+			{
+			};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.37, 0.24};
+				iconScale = 0.2;
+			};
+			class PointerSlot: PointerSlot_Rail
+			{
+				iconPosition[] = {0.21, 0.38};
+				iconScale = 0.2;
+			};
+			class UnderBarrelSlot
+			{
+			};
+		};
+	};
 
 	class Launcher_Base_F;
 	class XDF_Hades_SERS: Launcher_Base_F
