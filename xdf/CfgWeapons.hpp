@@ -5,6 +5,7 @@ class burst;
 class mode_fullauto;
 class WeaponSlotsInfo;
 class CowsSlot_Rail;
+class MuzzleSlot;
 class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
@@ -2805,6 +2806,7 @@ class cfgWeapons
 	class arifle_RPK12_F;
 	class Secondary;
 	class UGL;
+	class UGL_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
@@ -5104,8 +5106,8 @@ class cfgWeapons
 		author="Radium";
 		baseWeapon="XDF_Solaris_PulseRifle";
 		scope=2;
-		displayName="XDF SPR-34 Solaris Pulse Rifle";
-		descriptionShort="Prototype Pulse Rifle";
+		displayName="XDF EPR-34 Solaris";
+		descriptionShort="Experimental Pulse Rifle";
 		model="\xdf\weapons\solaris\solaris_pr.p3d";
 		picture="";
 		UiPicture="";
@@ -5119,15 +5121,18 @@ class cfgWeapons
 			"#(rgb,8,8,3)color(1,0,0,1)",
 			"#(rgb,8,8,3)color(0,1,0,1)"
 		};
-		//handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\mantis\railgun_handanim.rtm"};
+		//hiddenSelectionsMaterials[]={};
+		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\solaris\solaris_handAnim.rtm"};
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
-		initSpeed=450;
+		//memoryPointCamera = "eye";
+		initSpeed=950;
 		fireLightDuration = 0.05;
-		fireLightIntensity = 0.5;
+		fireLightIntensity = 0.3;
 		fireLightDiffuse[] = {0, 0.2, 1};
 		fireLightAmbient[] = {0, 0, 0};
-		//hiddenSelectionsMaterials[]={};
+		//muzzleEnd="muzzleStart";
+		//muzzlePos="muzzleEnd";
 		inertia = 1;
 		dexterity = 1;
 		maxZeroing = 1200;
@@ -5136,8 +5141,30 @@ class cfgWeapons
 		weaponLockSystem = 12;
 		lockAcquire = 1;
 
-        cmImmunity        = 1;
-        weaponLockDelay    = 0.15;
+        cmImmunity = 1;
+        weaponLockDelay = 0.15;
+		canShootInWater = 1;
+		class GunParticles
+		{
+			class FirstEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Down";
+				positionName = "heatLeftStart";
+				directionName = "heatLeftEnd";
+			};
+			class SecondEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Up";
+				positionName = "heatRightStart";
+				directionName = "heatRightEnd";
+			};
+			class ThirdEffect
+			{
+				effectName = "XDF_Mantis_Muzzle_Sparks";
+				positionName = "muzzleEffectStart";
+				directionName = "muzzleEffectEnd";
+			};
+		};
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\mantis_reload.ogg",
@@ -5158,14 +5185,15 @@ class cfgWeapons
 			0.6,
 			1,
 			10
-		};modes[] = {"Single", "FullAuto", "LOALDistance"};
+		};
+		muzzles[] = {"this", "EGLM"};
+		modes[] = {"Single", "FullAuto", "EGLM"};
 		class Single: Mode_SemiAuto
 		{	
-            alternativeFireMode = true;
-			reloadTime = 0.12;
+			reloadTime = 0.08;
 			recoil = "recoil_single_mx";
 			recoilProne = "recoil_single_prone_mx";
-			dispersion = 0.00015;
+			dispersion = 0.00022;
 			minRange = 0;
 			minRangeProbab = 0.5;
 			midRange = 500;
@@ -5185,9 +5213,8 @@ class cfgWeapons
 		};
 		class FullAuto: Mode_FullAuto
 		{
-            alternativeFireMode = true;
-			reloadTime = 0.12;
-			dispersion = 0.00015;
+			reloadTime = 0.08;
+			dispersion = 0.00022;
 			recoil = "recoil_auto_mx";
 			recoilProne = "recoil_auto_prone_mx";
 			minRange = 0;
@@ -5208,48 +5235,26 @@ class cfgWeapons
 			soundContinuous = 0;
 			soundBurst = 0;
 		};
-		class LoalDistance: Single
+		class EGLM: UGL_F
 		{
-			textureType="LOAL";
-			displayName="LOAL";
-			aiRateOfFire=7;
-			aiRateOfFireDistance=1500;
-			minRange=150;
-			minRangeProbab=0.80000001;
-			midRange=500;
-			midRangeProbab=0.94999999;
-			maxRange=2000;
-			maxRangeProbab=0.94999999;
+			displayName = "Solaris Integrated GL";
+			descriptionShort = "Integrated Grenade Launcher<br/>Caliber: 40mm";
+			//magazineWell[] = {"UGL_40x36"};
+			useModelOptics = 0;
+			useExternalOptic = 0;
+			memoryPointCamera="GL_eye";
+			cameraDir = "GL_look";
+			discreteDistance[] = {100};
+			discreteDistanceCameraPoint[] = {"GL_look"};
+			discreteDistanceInitIndex = 1;
+			reloadAction = "GestureReloadMXUGL";
+			reloadMagazineSound[]={};
+			//muzzleEnd="usti granatometu";
+			//muzzlePos="konec granatometu";
 		};
-		//class single_medium_optics1: Single
-		//{
-		//	requiredOpticType = 1;
-		//	showToPlayer = 0;
-		//	minRange = 2;
-		//	minRangeProbab = 0.2;
-		//	midRange = 450;
-		//	midRangeProbab = 0.7;
-		//	maxRange = 600;
-		//	maxRangeProbab = 0.2;
-		//	aiRateOfFire = 6;
-		//	aiRateOfFireDistance = 600;
-		//};
-		//class single_far_optics2: single_medium_optics1
-		//{
-		//	requiredOpticType = 2;
-		//	showToPlayer = 0;
-		//	minRange = 100;
-		//	minRangeProbab = 0.1;
-		//	midRange = 500;
-		//	midRangeProbab = 0.6;
-		//	maxRange = 700;
-		//	maxRangeProbab = 0.05;
-		//	aiRateOfFire = 8;
-		//	aiRateOfFireDistance = 700;
-		//};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 124;
+			mass = 114;
 			class MuzzleSlot: MuzzleSlot
 			{
 			};
