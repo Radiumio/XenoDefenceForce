@@ -5118,8 +5118,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"#(rgb,8,8,3)color(1,0,0,1)",
-			"#(rgb,8,8,3)color(0,1,0,1)"
+			"#(rgb,8,8,3)color(0.1,0.1,0.1,1)",
+			"#(rgb,8,8,3)color(0.5,0.2,0.2,1)"
 		};
 		//hiddenSelectionsMaterials[]={};
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\solaris\solaris_handAnim.rtm"};
@@ -5270,6 +5270,39 @@ class cfgWeapons
 			};
 			class UnderBarrelSlot
 			{
+			};
+		};
+		class OpticsModes
+		{
+			class Solaris_integrated_backup
+			{
+				opticsID = 1;
+				useModelOptics = false;
+				opticsPPEffects[]={""};
+				opticsFlare = false;
+				opticsDisablePeripherialVision = false;
+				opticsZoomMin=0.25;
+				opticsZoomMax=1.25;
+				opticsZoomInit=0.75;
+				memoryPointCamera = "eye";
+				visionMode[] = {}; /// Can be combined with NVG
+				distanceZoomMin=100;
+				distanceZoomMax=100;
+			};
+			class Solaris_integrated_optic
+			{
+				opticsID = 2;
+				useModelOptics = false;
+				opticsPPEffects[]={"OpticsCHAbera5","OpticsBlur5"};
+				opticsFlare = true;
+				opticsDisablePeripherialVision = true;
+				opticsZoomMin = 0.125;
+				opticsZoomMax=1;
+				opticsZoomInit=0.5;
+				memoryPointCamera = "optic_eye";
+				visionMode[] = {}; /// Can be combined with NVG
+				distanceZoomMin=300;
+				distanceZoomMax=300;
 			};
 		};
 	};
