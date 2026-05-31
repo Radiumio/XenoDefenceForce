@@ -561,23 +561,23 @@ class CfgSoundShaders
 	class Solaris_closeShot_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\solaris\solaris_closeshot_01.ogg",1},{"\xdf\sounds\shot\solaris\solaris_closeshot_02.ogg",1},{"\xdf\sounds\shot\solaris\solaris_closeshot_03.ogg",1}};
-		volume = 0.6;
+		volume = 0.5;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
 	class Solaris_midShot_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\solaris\solaris_midshot_01.ogg",1},{"\xdf\sounds\shot\solaris\solaris_midshot_02.ogg",1},{"\xdf\sounds\shot\solaris\solaris_midshot_03.ogg",1}};
-		volume = 0.6;
+		volume = 0.4;
 		range = 1800;
 		rangeCurve[] = {{0,0.2},{100,1},{300,0},{1800,0}};
 	};
 	class Solaris_distShot_SoundShader
 	{
 		samples[] = {{"\xdf\sounds\shot\solaris\solaris_distshot_01.ogg",1},{"\xdf\sounds\shot\solaris\solaris_distshot_02.ogg",1},{"\xdf\sounds\shot\solaris\solaris_distshot_03.ogg",1}};
-		volume = 2;
-		range = 1800;
-		rangeCurve[] = {{0,0},{100,0},{300,1},{1800,1}};
+		volume = 0.8;
+		range = 2000;
+		rangeCurve[] = {{0,0},{100,0},{300,1},{2000,0.8}};
 	};
 	class Solaris_tailInterior_SoundShader
 	{

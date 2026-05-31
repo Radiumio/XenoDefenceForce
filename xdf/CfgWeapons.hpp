@@ -9,6 +9,7 @@ class MuzzleSlot;
 class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
+class GrenadeLauncher;
 class AnimationSources;
 class cfgWeapons
 {
@@ -5151,6 +5152,7 @@ class cfgWeapons
         cmImmunity = 1;
         weaponLockDelay = 0.15;
 		canShootInWater = 1;
+
 		class GunParticles
 		{
 			class FirstEffect
@@ -5172,6 +5174,7 @@ class cfgWeapons
 				directionName = "muzzleEffectEnd";
 			};
 		};
+
 		reloadMagazineSound[]=
 		{
 			"\xdf\sounds\reloads\mantis_reload.ogg",
@@ -5193,8 +5196,9 @@ class cfgWeapons
 			1,
 			10
 		};
+
 		muzzles[] = {"this", "EGLM"};
-		modes[] = {"Single", "FullAuto", "EGLM"};
+		//modes[] = {"Single", "FullAuto", "EGLM"};
 		class Single: Mode_SemiAuto
 		{	
 			reloadTime = 0.08;
@@ -5242,6 +5246,46 @@ class cfgWeapons
 			soundContinuous = 0;
 			soundBurst = 0;
 		};
+		class fullauto_medium: FullAuto
+		{
+			showToPlayer = 0;
+			burst = 3;
+			aiBurstTerminable = 1;
+			minRange = 2;
+			minRangeProbab = 0.5;
+			midRange = 75;
+			midRangeProbab = 0.7;
+			maxRange = 150;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 2;
+			aiRateOfFireDistance = 200;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			minRange = 2;
+			minRangeProbab = 0.2;
+			midRange = 450;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
+		};
+		class single_far_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			showToPlayer = 0;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 500;
+			midRangeProbab = 0.6;
+			maxRange = 700;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 8;
+			aiRateOfFireDistance = 700;
+		};
 		class EGLM: UGL_F
 		{
 			displayName = "Solaris Integrated GL";
@@ -5259,6 +5303,7 @@ class cfgWeapons
 			//muzzleEnd="usti granatometu";
 			//muzzlePos="konec granatometu";
 		};
+
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 114;
@@ -5279,6 +5324,7 @@ class cfgWeapons
 			{
 			};
 		};
+
 		class OpticsModes
 		{
 			class Solaris_integrated_backup
