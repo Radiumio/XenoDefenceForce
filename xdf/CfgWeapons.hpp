@@ -5114,14 +5114,21 @@ class cfgWeapons
 		hiddenSelections[]=
 		{
 			"camo1",
-			"camo2"	
+			"camo2",
+			"heatsink"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"#(rgb,8,8,3)color(0.1,0.1,0.1,1)",
-			"#(rgb,8,8,3)color(0.5,0.2,0.2,1)"
+			"\xdf\weapons\solaris\solaris_texture1_co.paa",
+			"\xdf\weapons\solaris\solaris_texture2_co.paa",
+			"\xdf\weapons\solaris\solaris_texture1_co.paa"
 		};
-		//hiddenSelectionsMaterials[]={};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1.rvmat",
+			"\xdf\weapons\solaris\solaris_texture2.rvmat",
+			"\xdf\weapons\solaris\heatsink_emissive.rvmat"
+		};
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\solaris\solaris_handAnim.rtm"};
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
