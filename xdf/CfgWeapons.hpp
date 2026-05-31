@@ -5181,14 +5181,14 @@ class cfgWeapons
 		};
 		changeFiremodeSound[] = 
 		{
-			"\xdf\sounds\shot\mantis\mantis_firemode.ogg", 
+			"\xdf\sounds\shot\solaris\solaris_firemode.ogg", 
 			0.9, 
 			1, 
 			5
 		};
 		drySound[]=
 		{
-			"\xdf\sounds\shot\mantis\mantis_dry.ogg",
+			"\xdf\sounds\shot\solaris\solaris_dry.ogg",
 			0.6,
 			1,
 			10
@@ -5213,7 +5213,7 @@ class cfgWeapons
 			};
 			class StandardSound: BaseSoundModeType
 			{
-				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
@@ -5237,7 +5237,7 @@ class cfgWeapons
 			};
 			class StandardSound: BaseSoundModeType
 			{
-				soundSetShot[] = {"Mantis_shot_SoundSet", "Mantis_tail_SoundSet"};
+				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
