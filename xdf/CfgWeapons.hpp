@@ -5152,6 +5152,9 @@ class cfgWeapons
         cmImmunity = 1;
         weaponLockDelay = 0.15;
 		canShootInWater = 1;
+		
+		weaponInfoType = "RscWeaponEmpty";
+		modelOptics="\xdf\weapons\solaris\solaris_scope.p3d";
 
 		class GunParticles
 		{
@@ -5345,7 +5348,7 @@ class cfgWeapons
 			class Solaris_integrated_optic
 			{
 				opticsID = 2;
-				useModelOptics = false;
+				useModelOptics = 1;
 				opticsPPEffects[]={"OpticsCHAbera5","OpticsBlur5"};
 				opticsFlare = true;
 				opticsDisablePeripherialVision = true;
