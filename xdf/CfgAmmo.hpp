@@ -1443,7 +1443,7 @@ class CfgAmmo
 		hit=35;
 		indirectHit=35;
 		indirectHitRange=0.2;
-		explosive=0.8;
+		explosive=0.5;
 		//model="xdf\weapons\tracer_blue\tracer_blue";
 		model = "xdf\weapons\smartround\XDF_Smart_Round";
 		lockSeekRadius				= 700;
@@ -1558,6 +1558,19 @@ class CfgAmmo
 			};
 		};
 	};
+	class B_762_PulseJacket_smart: B_10mm_railshot_smart
+	{
+		hit=15;
+		submunitionAmmo="ammo_PulseJacket_Smart_Sub1";
+		submunitionInitSpeed = 80;
+	};
+	class ammo_PulseJacket_Smart_Sub1: ammo_Railshot_Smart_Sub1
+	{
+		hit=20;
+		indirectHit=20;
+		indirectHitRange=0.2;
+		explosive=0.8;
+	};
 	class B_93x64_Ball;
 	class B_93x64_Ball_blue: B_93x64_Ball
 	{
@@ -1606,6 +1619,11 @@ class CfgAmmo
 	class B_762x54_Ball_blue: B_762x54_Ball
 	{
 		hit=16.6; // default 11.6, AX munitions add 5
+		model="xdf\weapons\tracer_blue\tracer_blue";
+	};
+	class B_762x54_PulseJacket: B_762x54_Ball
+	{
+		hit=20;
 		model="xdf\weapons\tracer_blue\tracer_blue";
 	};
 	class B_65x39_Case_green;

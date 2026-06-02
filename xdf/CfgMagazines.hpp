@@ -1081,6 +1081,32 @@ class CfgMagazines
 		tracersEvery=1;
 		mass=62;
 	};
+	class 45Rnd_762_PJ_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 45Rnd Solaris Magazine (PJ)";
+		displaynameshort="AX Tracer";
+		descriptionShort="Caliber: 7.62x51mm Pulse Jacket<br/>Rounds: 45<br/>Used in: XDF EPR-34 Solaris"
+	    picture="\xdf\weapons\solaris\gear_solaris_mag.paa";
+		ammo="B_762x54_PulseJacket";
+		count=45;
+		tracersEvery=1;
+		mass=13;
+	};
+	class 15Rnd_762_PJ_SMART_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
+	{
+		author="Radium";
+		scope=2;
+		displayName="7.62 mm 15Rnd Solaris Magazine (SMART)";
+		displaynameshort="7.62 SMART";
+		descriptionShort="Caliber: 7.62x51mm SMART Pulse Jacket<br/>Rounds: 15<br/>Used in: XDF EPR-34 Solaris"
+	    picture="\xdf\weapons\solaris\gear_solaris_mag.paa";
+		ammo="B_762_PulseJacket_smart";
+		count=15;
+		tracersEvery=1;
+		mass=22;
+	};
 	class CA_LauncherMagazine;
 	class 5Rnd_10mm_Hypersonic_Railshot : CA_LauncherMagazine
 	{

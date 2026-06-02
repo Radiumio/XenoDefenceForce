@@ -5110,8 +5110,8 @@ class cfgWeapons
 		displayName="XDF EPR-34 Solaris";
 		descriptionShort="Experimental Pulse Rifle";
 		model="\xdf\weapons\solaris\solaris_pr.p3d";
-		picture="";
-		UiPicture="";
+		picture="\xdf\weapons\solaris\gear_solaris_invl.paa";
+		UiPicture="\A3\weapons_f\data\UI\icon_regular_CA.paa";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -5133,8 +5133,14 @@ class cfgWeapons
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\solaris\solaris_handAnim.rtm"};
 		selectionFireAnim = "muzzleFlash";
 		reloadAction = "GestureReloadXDFMantis";
+
+		magazines[]={"45Rnd_762_PJ_Mag_blue_tracer","15Rnd_762_PJ_SMART_Mag_blue_tracer"};
+		magazineWell[]=
+		{
+			"Solaris_762"
+		};
 		//memoryPointCamera = "eye";
-		initSpeed=950;
+		initSpeed=780;
 		fireLightDuration = 0.05;
 		fireLightIntensity = 0.3;
 		fireLightDiffuse[] = {0, 0.2, 1};
@@ -5170,12 +5176,12 @@ class cfgWeapons
 				positionName = "heatRightStart";
 				directionName = "heatRightEnd";
 			};
-			class ThirdEffect
-			{
-				effectName = "XDF_Mantis_Muzzle_Sparks";
-				positionName = "muzzleEffectStart";
-				directionName = "muzzleEffectEnd";
-			};
+			//class ThirdEffect
+			//{
+			//	effectName = "XDF_Mantis_Muzzle_Sparks";
+			//	positionName = "muzzleEffectStart";
+			//	directionName = "muzzleEffectEnd";
+			//};
 		};
 
 		reloadMagazineSound[]=
@@ -5214,13 +5220,17 @@ class cfgWeapons
 			midRangeProbab = 0.7;
 			maxRange = 1000;
 			maxRangeProbab = 0.3;
-			sounds[] = {"StandardSound"};
+			sounds[] = {"StandardSound","SilencedSound"};
 			class BaseSoundModeType
 			{
 			};
 			class StandardSound: BaseSoundModeType
 			{
 				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundsetshot[] = {"Solaris_suppressed_shot_SoundSet", "Solaris_suppressed_tail_SoundSet"};
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
@@ -5238,13 +5248,17 @@ class cfgWeapons
 			maxRange = 500;
 			maxRangeProbab = 0.1;
 			aiRateOfFire = 1e-06;
-			sounds[] = {"StandardSound"};
+			sounds[] = {"StandardSound","SilencedSound"};
 			class BaseSoundModeType
 			{
 			};
 			class StandardSound: BaseSoundModeType
 			{
 				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundsetshot[] = {"Solaris_suppressed_shot_SoundSet", "Solaris_suppressed_tail_SoundSet"};
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
@@ -5292,7 +5306,7 @@ class cfgWeapons
 		class EGLM: UGL_F
 		{
 			displayName = "Solaris Integrated GL";
-			descriptionShort = "Integrated Grenade Launcher<br/>Caliber: 40mm";
+			descriptionShort = "Integrated Grenade Launcher<br/>Caliber: Caseless 40mm";
 			//magazineWell[] = {"UGL_40x36"};
 			useModelOptics = 0;
 			useExternalOptic = 0;
@@ -5302,9 +5316,29 @@ class cfgWeapons
 			discreteDistanceCameraPoint[] = {"GL_look"};
 			discreteDistanceInitIndex = 1;
 			reloadAction = "GestureReloadMXUGL";
-			reloadMagazineSound[]={};
 			//muzzleEnd="usti granatometu";
 			//muzzlePos="konec granatometu";
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\mantis_reload.ogg",
+				4.5,
+				1,
+				10
+			};
+			changeFiremodeSound[] = 
+			{
+				"\xdf\sounds\shot\solaris\solaris_firemode.ogg", 
+				0.9, 
+				1, 
+				5
+			};
+			drySound[]=
+			{
+				"\xdf\sounds\shot\solaris\solaris_gl_dry.ogg",
+				0.6,
+				1,
+				10
+			};
 		};
 
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -5312,6 +5346,10 @@ class cfgWeapons
 			mass = 114;
 			class MuzzleSlot: MuzzleSlot
 			{
+				compatibleItems[] =
+				{
+					"XDF_Solaris_Suppressor"
+				};
 			};
 			class CowsSlot: CowsSlot_Rail
 			{
@@ -6714,4 +6752,23 @@ class cfgWeapons
 			displayName="HI-X IR";
         };
     };
+
+	// ATTACHMENTS //
+	class muzzle_snds_H;
+	class muzzle_snds_B: muzzle_snds_H
+	{
+		class ItemInfo;
+	};
+	class XDF_Solaris_Suppressor: muzzle_snds_B
+	{
+		author="Radium";
+		displayName="Solaris Suppressor";
+		descriptionShort="A bespoke, effective suppressor made specifically for the Solaris Pulse Rifle."
+		picture="\xdf\weapons\solaris\acc_solaris_supp_invl.paa";
+		model="\xdf\weapons\solaris\solaris_suppressor.p3d";
+		class ItemInfo: ItemInfo
+		{
+			mass=17;
+		};
+	};
 };
