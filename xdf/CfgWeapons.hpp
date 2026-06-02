@@ -2020,7 +2020,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
-		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite)";
+		displayName="XDF Infantry Combat Helmet (Coremanite, Enhanced)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection.<br/>Personalised for Operative Coremanite."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -2031,7 +2031,7 @@ class cfgWeapons
 	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_core: H_XDF_Enhanced_Combat_Helmet_Black_core
 	{
 		author="Clasless & Radium";
-		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite, Winter)";
+		displayName="XDF Infantry Combat Helmet (Coremanite, Enhanced, Winter)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Coremanite."
 		hiddenSelectionsTextures[]=
 		{
@@ -2042,7 +2042,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
-		displayName="XDF Infantry Combat Helmet (Enhanced, Kao)";
+		displayName="XDF Infantry Combat Helmet (Kao, Enhanced)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection.<br/>Personalised for Operative Kao."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -2053,7 +2053,7 @@ class cfgWeapons
 	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_Kao: H_XDF_Enhanced_Combat_Helmet_Black_Kao
 	{
 		author="Clasless & Radium";
-		displayName="XDF Infantry Combat Helmet (Enhanced, Kao, Winter)";
+		displayName="XDF Infantry Combat Helmet (Kao, Enhanced, Winter)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Kao."
 		hiddenSelectionsTextures[]=
 		{
