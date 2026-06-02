@@ -18895,6 +18895,32 @@ class CfgVehicles
 					"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\hornet\heli_light_01_ext_lazarus_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\hornet\heli_light_01_ext_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -21752,6 +21778,34 @@ class CfgVehicles
 				textures[]=
 				{
 					"\xdf\retextures\hornet\heli_light_01_ext_blufor_co.paa",
+					""
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\hornet\heli_light_01_ext_lazarus_co.paa",
+					""
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\hornet\heli_light_01_ext_phoenix_co.paa",
 					""
 				};
 			};
