@@ -5315,12 +5315,12 @@ class cfgWeapons
 			discreteDistance[] = {100};
 			discreteDistanceCameraPoint[] = {"GL_look"};
 			discreteDistanceInitIndex = 1;
-			reloadAction = "GestureReloadMXUGL";
+			reloadAction = "GestureReloadXDFSolarisGL";
 			//muzzleEnd="usti granatometu";
 			//muzzlePos="konec granatometu";
 			reloadMagazineSound[]=
 			{
-				"\xdf\sounds\reloads\mantis_reload.ogg",
+				"\xdf\sounds\reloads\solaris_gl_reload.ogg",
 				4.5,
 				1,
 				10
