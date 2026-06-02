@@ -259,11 +259,22 @@ class cfgWeapons
 			containerClass="Supply250";
 		};
 	};
+	class V_XDF_AAV_Scout_Radium_Winter: V_XDF_AAV_Scout_Radium
+	{
+		author="Radium";
+		displayName="XDF Marine Vest (Radium, Scout, Winter)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant. Winter camo.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_radium_winter_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+	};
 	class V_XDF_AAV_Scout_Maple: EF_V_AAV_Scout_Black
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Vest (Scout, Maple)";
+		displayName="XDF Marine Vest (Maple, Scout)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant.<br/>Personalised for Operative Maple.";
 		hiddenSelectionsTextures[]=
 		{
@@ -278,7 +289,7 @@ class cfgWeapons
 	class V_XDF_AAV_Scout_Winter_Maple: V_XDF_AAV_Scout_Maple
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Scout, Maple, Winter)";
+		displayName="XDF Marine Vest (Maple, Scout, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant. Winter camo.<br/>Personalised for Operative Maple.";
 		hiddenSelectionsTextures[]=
 		{
@@ -319,7 +330,7 @@ class cfgWeapons
 		author="Radium";
 		scope=2;
 		displayName="XDF Marine Vest (Radium, Medic)";
-		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant.";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant.<br/>Personalised for Operative Radium.";
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_radium_co.paa",
@@ -328,6 +339,17 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			containerClass="Supply250";
+		};
+	};
+	class V_XDF_AAV_Medic_Radium_Winter: V_XDF_AAV_Medic_Radium
+	{
+		author="Radium";
+		displayName="XDF Marine Vest (Radium, Medic, Winter)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant. Winter camo.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_radium_winter_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
 		};
 	};
 	class EF_V_AAV_Support_Black;
@@ -360,7 +382,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Vest (Support, Shieldmaiden)";
+		displayName="XDF Marine Vest (Shieldmaiden, Support)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.<br/>Personalised for Operative Shieldmaiden.";
 		hiddenSelectionsTextures[]=
 		{
@@ -374,7 +396,7 @@ class cfgWeapons
 	class V_XDF_AAV_Support_Winter_Shieldmaiden: V_XDF_AAV_Support_Shieldmaiden
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Support, Shieldmaiden, Winter)";
+		displayName="XDF Marine Vest (Shieldmaiden, Support, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant. Winter camo.<br/>Personalised for Operative Shieldmaiden.";
 		hiddenSelectionsTextures[]=
 		{
@@ -385,7 +407,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Vest (Support, Roland)";
+		displayName="XDF Marine Vest (Roland, Support)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.<br/>Personalised for Operative Roland.";
 		hiddenSelectionsTextures[]=
 		{
@@ -399,7 +421,7 @@ class cfgWeapons
 	class V_XDF_AAV_Support_Winter_Roland: V_XDF_AAV_Support_Shieldmaiden
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Support, Roland, Winter)";
+		displayName="XDF Marine Vest (Roland, Support, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant. Winter camo.<br/>Personalised for Operative Roland.";
 		hiddenSelectionsTextures[]=
 		{

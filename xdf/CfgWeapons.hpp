@@ -2232,7 +2232,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
-		displayName="XDF Advanced Modular Helmet (Chops, Cybern)";
+		displayName="XDF Advanced Modular Helmet (Cybern, Chops)";
 		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops.<br/>Personalised for Operative Cybern."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Chops_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -2243,7 +2243,7 @@ class cfgWeapons
 	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Winter_Cybern: H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern
 	{
 		author="Clasless & Radium";
-		displayName="XDF Advanced Modular Helmet (Chops, Cybern, Winter)";
+		displayName="XDF Advanced Modular Helmet (Cybern, Chops, Winter)";
 		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops. Winter camo.<br/>Personalised for Operative Cybern."
 		hiddenSelectionsTextures[]=
 		{
