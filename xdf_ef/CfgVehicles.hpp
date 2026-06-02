@@ -1093,6 +1093,26 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_LAZARUS_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -1256,6 +1276,26 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_LAZARUS_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_LAZARUS_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
@@ -1433,6 +1473,26 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_LAZARUS_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -1603,6 +1663,26 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_LAZARUS_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -1766,6 +1846,26 @@ class CfgVehicles
 					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_turret_1_ARES_CO.paa", 
 					"\xdf_ef\retextures\gyra\gyra_mortar_1_ARES_CO.paa", 
+					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf_ef\retextures\gyra\gyra_hull_1_LAZARUS_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_details_1_black_CO.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_int_1_black_co.paa", 
+				    "\xdf_ef\retextures\gyra\gyra_hmg_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_rws_1_black_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_turret_1_LAZARUS_CO.paa", 
+					"\xdf_ef\retextures\gyra\gyra_mortar_1_LAZARUS_CO.paa", 
 					"\xdf_ef\retextures\mack\camonet_nato_black_co.paa"
 				};
 				factions[]=
