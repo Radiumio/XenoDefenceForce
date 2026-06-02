@@ -317,4 +317,14 @@ class CfgMagazineWells
 			"XDF_UGL_FlareIR"
 		};
 	};
+
+	// SOLARIS GL WELL //
+	class UGL_40x36_Solaris: UGL_40x36
+	{
+		XDF_Magazines_Solaris[]=
+		{
+			"1Rnd_XPG_Grenade_Round"
+			//"1Rnd_SMART_Grenade_Round"
+		};
+	};
 };

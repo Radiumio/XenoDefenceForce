@@ -1092,7 +1092,7 @@ class CfgMagazines
 		ammo="B_762x54_PulseJacket";
 		count=45;
 		tracersEvery=1;
-		mass=13;
+		mass=12;
 	};
 	class 15Rnd_762_PJ_SMART_Mag_blue_tracer: 5Rnd_127x108_APDS_Mag
 	{
@@ -1105,7 +1105,7 @@ class CfgMagazines
 		ammo="B_762_PulseJacket_smart";
 		count=15;
 		tracersEvery=1;
-		mass=22;
+		mass=17;
 	};
 	class CA_LauncherMagazine;
 	class 5Rnd_10mm_Hypersonic_Railshot : CA_LauncherMagazine
@@ -1769,5 +1769,28 @@ class CfgMagazines
 		};
 		ammo="F_HIXFlare_IR_XDF";
 		displayNameShort="HI-X IR";
+	};
+
+	// SOLARIS BESPOKE GRENADES //
+	class 1Rnd_HE_Grenade_shell;
+	class 1Rnd_XPG_Grenade_Round: 1Rnd_HE_Grenade_shell
+	{
+		author = "Radium";
+		scope = 2;
+		displayName = "40 mm XPG Round";
+		displayNameShort="XPG-HE";
+		picture="\xdf\weapons\solaris\40mm_xpg_ca.paa";
+		ammo="G_40mm_XPG";
+		descriptionShort = "Type: Experimental Proto-Grenade Round<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: Solaris Integrated GL";
+	};
+	class 1Rnd_SMART_Grenade_Round: 1Rnd_HE_Grenade_shell
+	{
+		author = "Radium";
+		scope = 2;
+		displayName = "40 mm SMART Round";
+		displayNameShort="SMART-HE";
+		picture="\xdf\weapons\solaris\40mm_smart_ca.paa";
+		ammo="G_40mm_SMART";
+		descriptionShort = "Type: Experimental SMART Round<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: Solaris Integrated GL";
 	};
 };

@@ -5227,10 +5227,18 @@ class cfgWeapons
 			class StandardSound: BaseSoundModeType
 			{
 				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
 			};
 			class SilencedSound: BaseSoundModeType
 			{
 				soundsetshot[] = {"Solaris_suppressed_shot_SoundSet", "Solaris_suppressed_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
@@ -5255,10 +5263,18 @@ class cfgWeapons
 			class StandardSound: BaseSoundModeType
 			{
 				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
 			};
 			class SilencedSound: BaseSoundModeType
 			{
 				soundsetshot[] = {"Solaris_suppressed_shot_SoundSet", "Solaris_suppressed_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
 			};
 			soundContinuous = 0;
 			soundBurst = 0;
@@ -5307,7 +5323,7 @@ class cfgWeapons
 		{
 			displayName = "Solaris Integrated GL";
 			descriptionShort = "Integrated Grenade Launcher<br/>Caliber: Caseless 40mm";
-			//magazineWell[] = {"UGL_40x36"};
+			magazineWell[] = {"UGL_40x36_Solaris","UGL_40x36"};
 			useModelOptics = 0;
 			useExternalOptic = 0;
 			memoryPointCamera="GL_eye";
@@ -5339,6 +5355,13 @@ class cfgWeapons
 				1,
 				10
 			};
+
+			canLock=2;
+			weaponLockSystem = 12;
+			lockAcquire = 1;
+	
+        	cmImmunity        = 1;
+        	weaponLockDelay    = 0.15;
 		};
 
 		class WeaponSlotsInfo: WeaponSlotsInfo

@@ -2008,4 +2008,68 @@ class CfgAmmo
 			"#(argb,8,8,3)color(0,0,0,0.8,co)"
 		};
 	};
+
+	// Solaris Grenade Rounds
+	class G_40mm_HE;
+	class G_40mm_XPG: G_40mm_HE
+	{
+		hit=80;
+		indirectHit=18;
+		indirectHitRange=8;
+		explosionEffects="XDF_ProtoGrenade_ExplosionEff";
+		SoundSetExplosion[] = {"ProtoGrenade_Exp_SoundSet","ProtoGrenade_Tail_SoundSet"};
+		class CamShakeExplode
+		{
+			power=8;
+			duration=4;
+			frequency=40;
+			distance=150;
+		};
+	};
+	class G_40mm_SMART: B_10mm_railshot_smart
+	{
+		hit=15;
+		submunitionAmmo="G_40mm_SMART_Sub1";
+		submunitionInitSpeed = 60;
+	};
+	class G_40mm_SMART_Sub1: ammo_Railshot_Smart_Sub1
+	{
+		explosionSoundEffect = "DefaultExplosion";
+		CraterEffects = "GrenadeCrater";
+		explosionEffects = "GrenadeExplosion";
+		explosionForceCoef = 4;
+		hit=60;
+		indirectHit=8;
+		indirectHitRange=6;
+		explosive=1;
+		class CamShakeExplode
+		{
+			power = 8;
+			duration = 1.2;
+			frequency = 20;
+			distance = 74.5964;
+		};
+		class CamShakeHit
+		{
+			power = 20;
+			duration = 0.4;
+			frequency = 20;
+			distance = 1;
+		};
+		class CamShakeFire
+		{
+			power = 0;
+			duration = 0.2;
+			frequency = 20;
+			distance = 0;
+		};
+		class CamShakePlayerFire
+		{
+			power = 0;
+			duration = 0.1;
+			frequency = 20;
+			distance = 1;
+		};
+		SoundSetExplosion[] = {"GrenadeHe_Exp_SoundSet", "GrenadeHe_Tail_SoundSet", "Explosion_Debris_SoundSet"};
+	};
 };
