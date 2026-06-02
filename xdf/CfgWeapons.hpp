@@ -5201,6 +5201,15 @@ class cfgWeapons
 		fireLightAmbient[] = {0, 0, 0};
 		//muzzleEnd="muzzleStart";
 		//muzzlePos="muzzleEnd";
+
+		// ace overheating compat //
+		ace_overheating_closedBolt=0;
+		ace_overheating_dispersion=0;
+		ace_overheating_mrbs = 999999;
+		ace_overheating_slowdownFactor = 0;
+		ace_overheating_allowSwapBarrel = 0;
+		////////////////////////////
+
 		inertia = 0.8;
 		dexterity = 1;
 		maxZeroing = 1200;
