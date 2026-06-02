@@ -16506,6 +16506,42 @@ class CfgVehicles
 				weapon="Gatling_30mm_AX_CAS_01_F";
 			};
 		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\tusk\plane_cas_01_ext01_co.paa",
+					"\xdf\retextures\tusk\plane_cas_01_ext02_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\tusk\plane_cas_01_ext01_phoenix_co.paa",
+					"\xdf\retextures\tusk\plane_cas_01_ext02_phoenix_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
 	};
 	class O_Plane_CAS_02_dynamicLoadout_F;
 	class XDF_Vulture: O_Plane_CAS_02_dynamicLoadout_F
@@ -16531,6 +16567,42 @@ class CfgVehicles
 		{
 			"\xdf\retextures\vulture\fighter02_ext01_co.paa",
 			"\xdf\retextures\vulture\fighter02_ext02_co.paa"
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\vulture\fighter02_ext01_co.paa",
+					"\xdf\retextures\vulture\fighter02_ext02_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\vulture\fighter02_ext01_phoenix_co.paa",
+					"\xdf\retextures\vulture\fighter02_ext02_phoenix_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
 		};
 	};
 	class O_Heli_Attack_02_dynamicLoadout_black_F;
@@ -25243,6 +25315,22 @@ class CfgVehicles
 					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_co.paa"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\wraith\VTOL_02_EXT01_XDF_phoenix_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_phoenix_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_phoenix_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_phoenix_co.paa"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -25291,6 +25379,22 @@ class CfgVehicles
 					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_co.paa",
 					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_co.paa",
 					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\wraith\VTOL_02_EXT01_XDF_phoenix_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT02_XDF_phoenix_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_L_XDF_phoenix_co.paa",
+					"\xdf\retextures\wraith\VTOL_02_EXT03_R_XDF_phoenix_co.paa"
 				};
 			};
 		};

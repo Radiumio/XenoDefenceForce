@@ -618,7 +618,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet";
+		displayName="XDF MCH";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -629,7 +629,7 @@ class cfgWeapons
 	class H_XDF_MCH_Winter: H_XDF_MCH
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (Winter)";
+		displayName="XDF MCH (Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -642,7 +642,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (ComTacs)";
+		displayName="XDF MCH (ComTacs)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -653,7 +653,7 @@ class cfgWeapons
 	class H_XDF_MCH_Basic_Winter: H_XDF_MCH_Basic
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (ComTacs, Winter)";
+		displayName="XDF MCH (ComTacs, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -666,7 +666,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (ComTacs, Cover)";
+		displayName="XDF MCH (ComTacs, Cover)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac and Cover variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -677,7 +677,7 @@ class cfgWeapons
 	class H_XDF_MCH_BasicNet_Winter: H_XDF_MCH_BasicNet
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (ComTacs, Cover, Winter)";
+		displayName="XDF MCH (ComTacs, Cover, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac and Cover variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -690,7 +690,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (Full, ComTacs)";
+		displayName="XDF MCH (Full, ComTacs)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -701,7 +701,7 @@ class cfgWeapons
 	class H_XDF_MCH_Full_Winter: H_XDF_MCH_Full
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (Full, ComTacs, Winter)";
+		displayName="XDF MCH (Full, ComTacs, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -709,12 +709,35 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_co.paa"
 		};
 	};
+	class H_XDF_MCH_Full_Cybern: EF_H_MCH_Full
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MCH (Cybern, Full, ComTacs)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_cybern_co.paa"
+		};
+	};
+	class H_XDF_MCH_Full_Cybern_Winter: H_XDF_MCH_Full
+	{
+		author="Radium";
+		displayName="XDF MCH (Cybern, Full, ComTacs, Winter)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant. Winter camo.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_winter_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_cybern_co.paa"
+		};
+	};
 	class EF_H_MCH_FullCamo_Black;
 	class H_XDF_MCH_FullNet: EF_H_MCH_FullCamo_Black
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (Full, ComTacs, Cover)";
+		displayName="XDF MCH (Full, ComTacs, Cover)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -726,12 +749,36 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (Full, ComTacs, Cover, Winter)";
+		displayName="XDF MCH (Full, ComTacs, Cover, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_winter_co.paa",
 			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_co.paa"
+		};
+	};
+	class H_XDF_MCH_FullNet_Cybern: EF_H_MCH_FullCamo_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MCH (Cybern, Full, ComTacs, Cover)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_cybern_co.paa"
+		};
+	};
+	class H_XDF_MCH_FullNet_Cybern_Winter: H_XDF_MCH_FullNet
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MCH (Cybern, Full, ComTacs, Cover, Winter)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant. Winter camo.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_winter_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_cybern_co.paa"
 		};
 	};
 	class EF_LPNVG;

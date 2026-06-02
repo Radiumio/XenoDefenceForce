@@ -1245,6 +1245,38 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Modular_Carrier_Lite_Black_Kao: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Kao)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills.<br/>Personalised for Operative Kao."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Lite_Black_Winter_Kao: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Kao, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills. Winter camo.<br/>Personalised for Operative Kao."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_CarrierRigKBT_01_Olive_F;
 	class V_XDF_Modular_Carrier_Vest_Black: V_CarrierRigKBT_01_Olive_F
 	{
@@ -2106,6 +2138,28 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Cybern: H_SSU_Advanced_Modular_Helmet_HS_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Advanced Modular Helmet (Cybern)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Cybern_Winter: H_XDF_Advanced_Modular_Helmet_HS_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Cybern, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter_Cybern.paa"
 		};
 	};
 	class H_XDF_Advanced_Modular_Helmet_HS_Black_Maple: H_SSU_Advanced_Modular_Helmet_HS_base
