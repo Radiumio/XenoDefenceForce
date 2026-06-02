@@ -5108,7 +5108,7 @@ class cfgWeapons
 		baseWeapon="XDF_Solaris_PulseRifle";
 		scope=2;
 		displayName="XDF EPR-34 Solaris";
-		descriptionShort="Experimental Pulse Rifle";
+		descriptionShort="Experimental Pulse Rifle<br/>The Solaris Pulse Rifle is the XDF's first standard-issue infantry weapon, combining a pulse-fire mechanism and grenade launcher package into a relatively lightweight and compact 7.62 bullpup.<br/><br/>The design eschews much of the shortcomings - and advantages - of the Mantis project in order to give XDF infantry a reliable and powerful anti-xeno weapon.<br/><br/>Using bespoke 7.62 Pulse Jacket ammunition, the Solaris packs a punch while opening the door to more experimental munitions, such as SMART rounds.<br/><br/>The integrated grenade launcher was primarily designed to fire smoke and flare rounds, but synchronisation with an operator's HUD allows consistent alignment and the ability to 'eyeball' explosive rounds - at the user's own risk.<br/><br/>The Solaris's biggest downside is field stripping - in the case of a complex jam where manually cycling the internal bolt fails to clear it,<br/>the weapon cannot be easily and quickly opened to access the inner receiver.";
 		model="\xdf\weapons\solaris\solaris_pr.p3d";
 		picture="\xdf\weapons\solaris\gear_solaris_invl.paa";
 		UiPicture="\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -5132,7 +5132,7 @@ class cfgWeapons
 		};
 		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\solaris\solaris_handAnim.rtm"};
 		selectionFireAnim = "muzzleFlash";
-		reloadAction = "GestureReloadXDFMantis";
+		reloadAction = "GestureReloadXDFSolaris";
 
 		magazines[]={"45Rnd_762_PJ_Mag_blue_tracer","15Rnd_762_PJ_SMART_Mag_blue_tracer"};
 		magazineWell[]=
@@ -5147,7 +5147,7 @@ class cfgWeapons
 		fireLightAmbient[] = {0, 0, 0};
 		//muzzleEnd="muzzleStart";
 		//muzzlePos="muzzleEnd";
-		inertia = 1;
+		inertia = 0.8;
 		dexterity = 1;
 		maxZeroing = 1200;
 		
@@ -5186,7 +5186,7 @@ class cfgWeapons
 
 		reloadMagazineSound[]=
 		{
-			"\xdf\sounds\reloads\mantis_reload.ogg",
+			"\xdf\sounds\reloads\solaris_reload.ogg",
 			4.5,
 			1,
 			10
@@ -5201,7 +5201,7 @@ class cfgWeapons
 		drySound[]=
 		{
 			"\xdf\sounds\shot\solaris\solaris_dry.ogg",
-			0.6,
+			0.9,
 			1,
 			10
 		};
@@ -5335,7 +5335,7 @@ class cfgWeapons
 			drySound[]=
 			{
 				"\xdf\sounds\shot\solaris\solaris_gl_dry.ogg",
-				0.6,
+				0.9,
 				1,
 				10
 			};
