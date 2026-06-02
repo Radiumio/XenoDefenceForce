@@ -229,7 +229,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Scout_Winter: V_XDF_AAV_Scout
@@ -241,6 +241,22 @@ class cfgWeapons
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_winter_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+	};
+	class V_XDF_AAV_Scout_Radium: EF_V_AAV_Scout_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Radium, Scout)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_radium_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Scout_Maple: EF_V_AAV_Scout_Black
@@ -256,7 +272,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Scout_Winter_Maple: V_XDF_AAV_Scout_Maple
@@ -284,7 +300,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Medic_Winter: V_XDF_AAV_Medic
@@ -296,6 +312,22 @@ class cfgWeapons
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_winter_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+	};
+	class V_XDF_AAV_Medic_Radium: EF_V_AAV_Scout_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Radium, Medic)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_radium_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
 		};
 	};
 	class EF_V_AAV_Support_Black;
@@ -311,7 +343,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Support_Winter: V_XDF_AAV_Support
@@ -336,7 +368,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Support_Winter_Shieldmaiden: V_XDF_AAV_Support_Shieldmaiden
@@ -361,7 +393,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Support_Winter_Roland: V_XDF_AAV_Support_Shieldmaiden

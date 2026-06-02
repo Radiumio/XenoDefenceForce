@@ -1782,6 +1782,7 @@ class CfgMagazines
 		picture="\xdf\weapons\solaris\40mm_xpg_ca.paa";
 		ammo="G_40mm_XPG";
 		descriptionShort = "Type: Experimental Proto-Grenade Round<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: Solaris Integrated GL";
+		mass=7.5;
 	};
 	class 1Rnd_SMART_Grenade_Round: 1Rnd_HE_Grenade_shell
 	{

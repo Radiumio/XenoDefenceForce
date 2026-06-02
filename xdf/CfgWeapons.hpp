@@ -1763,7 +1763,7 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo"};
-			containerClass="Supply200";
+			containerClass="Supply300";
 		};
 		hiddenSelectionsTextures[] = 
 		{
