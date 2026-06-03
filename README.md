@@ -24,7 +24,7 @@ As of the current release, the project includes:
 
 - An **Extraterrestrial Mothership** prop.
 
-- On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there is a fully custom infantry weapon **(the Mantis railgun)** and a fully custom scope **(the Tharsis)** to fit the high-tech needs of the XDF.
+- On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there are three custom weapons - the **Mantis** portable railgun, the **Hades** shoulder-fired railgun, and the Solaris[/b] pulse rifle. A high-tech optic, the **Tharsis** is also available on most weapons - modded or otherwise.
 
 All units and vehicles can be found under the **Xeno Defence Force** faction in **BLUFOR**. The mod only includes __one__ small OPFOR faction, the **Pro-Xeno Liberation Alliance**, which serve as rivals to the XDF. The PXLA may receive more gear in future updates, but for alien factions to fight against, __XDF relies on being paired with other mods to fill those gaps.__
 
@@ -74,5 +74,6 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
 - **@hannahfishr** for the artwork used in the Sappho's Shield division.
+- **Beautiful Beasties** for the artwork used in custom Medusa SPH helmet.
 
 If you have any questions, please contact me either on Steam or Discord, via my handle **radiumio**. I hope you enjoy the mod!
