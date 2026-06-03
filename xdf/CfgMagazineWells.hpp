@@ -187,6 +187,14 @@ class CfgMagazineWells
 			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer"
 		};
 	};
+	class Solaris_762
+	{
+		XDF_Magazines[]=
+		{
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer"
+		};
+	};
 	class Hades_10mm
 	{
 		XDF_Magazines[]=
@@ -307,6 +315,16 @@ class CfgMagazineWells
 			"XDF_UGL_FlareOrange",
 			"XDF_UGL_FlarePurple",
 			"XDF_UGL_FlareIR"
+		};
+	};
+
+	// SOLARIS GL WELL //
+	class UGL_40x36_Solaris: UGL_40x36
+	{
+		XDF_Magazines_Solaris[]=
+		{
+			"1Rnd_XPG_Grenade_Round"
+			//"1Rnd_SMART_Grenade_Round"
 		};
 	};
 };

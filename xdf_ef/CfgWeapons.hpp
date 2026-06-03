@@ -229,7 +229,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Scout_Winter: V_XDF_AAV_Scout
@@ -243,11 +243,38 @@ class cfgWeapons
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
 		};
 	};
+	class V_XDF_AAV_Scout_Radium: EF_V_AAV_Scout_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Radium, Scout)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_radium_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_AAV_Scout_Radium_Winter: V_XDF_AAV_Scout_Radium
+	{
+		author="Radium";
+		displayName="XDF Marine Vest (Radium, Scout, Winter)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant. Winter camo.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_vest_radium_winter_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+	};
 	class V_XDF_AAV_Scout_Maple: EF_V_AAV_Scout_Black
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Vest (Scout, Maple)";
+		displayName="XDF Marine Vest (Maple, Scout)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant.<br/>Personalised for Operative Maple.";
 		hiddenSelectionsTextures[]=
 		{
@@ -256,13 +283,13 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Scout_Winter_Maple: V_XDF_AAV_Scout_Maple
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Scout, Maple, Winter)";
+		displayName="XDF Marine Vest (Maple, Scout, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Scout variant. Winter camo.<br/>Personalised for Operative Maple.";
 		hiddenSelectionsTextures[]=
 		{
@@ -284,7 +311,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Medic_Winter: V_XDF_AAV_Medic
@@ -295,6 +322,33 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_winter_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+	};
+	class V_XDF_AAV_Medic_Radium: EF_V_AAV_Scout_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF Marine Vest (Radium, Medic)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_radium_co.paa",
+			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class V_XDF_AAV_Medic_Radium_Winter: V_XDF_AAV_Medic_Radium
+	{
+		author="Radium";
+		displayName="XDF Marine Vest (Radium, Medic, Winter)";
+		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Medic variant. Winter camo.<br/>Personalised for Operative Radium.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf_ef\retextures\xdf_uniform\vests\V_XDF_AA_med_vest_radium_winter_co.paa",
 			"\a3\weapons_f_epb\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"
 		};
 	};
@@ -311,7 +365,7 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Support_Winter: V_XDF_AAV_Support
@@ -328,7 +382,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Vest (Support, Shieldmaiden)";
+		displayName="XDF Marine Vest (Shieldmaiden, Support)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.<br/>Personalised for Operative Shieldmaiden.";
 		hiddenSelectionsTextures[]=
 		{
@@ -336,13 +390,13 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Support_Winter_Shieldmaiden: V_XDF_AAV_Support_Shieldmaiden
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Support, Shieldmaiden, Winter)";
+		displayName="XDF Marine Vest (Shieldmaiden, Support, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant. Winter camo.<br/>Personalised for Operative Shieldmaiden.";
 		hiddenSelectionsTextures[]=
 		{
@@ -353,7 +407,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Vest (Support, Roland)";
+		displayName="XDF Marine Vest (Roland, Support)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant.<br/>Personalised for Operative Roland.";
 		hiddenSelectionsTextures[]=
 		{
@@ -361,13 +415,13 @@ class cfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			containerClass="Supply200";
+			containerClass="Supply250";
 		};
 	};
 	class V_XDF_AAV_Support_Winter_Roland: V_XDF_AAV_Support_Shieldmaiden
 	{
 		author="Radium";
-		displayName="XDF Marine Vest (Support, Roland, Winter)";
+		displayName="XDF Marine Vest (Roland, Support, Winter)";
 		descriptionShort = "Armor Level IV<br/>Modernised, slim plate carrier. Plates go in front facing enemy, crayons remain in back pouch. Support variant. Winter camo.<br/>Personalised for Operative Roland.";
 		hiddenSelectionsTextures[]=
 		{
@@ -618,7 +672,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet";
+		displayName="XDF MCH";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -629,7 +683,7 @@ class cfgWeapons
 	class H_XDF_MCH_Winter: H_XDF_MCH
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (Winter)";
+		displayName="XDF MCH (Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -642,7 +696,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (ComTacs)";
+		displayName="XDF MCH (ComTacs)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -653,7 +707,7 @@ class cfgWeapons
 	class H_XDF_MCH_Basic_Winter: H_XDF_MCH_Basic
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (ComTacs, Winter)";
+		displayName="XDF MCH (ComTacs, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -666,7 +720,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (ComTacs, Cover)";
+		displayName="XDF MCH (ComTacs, Cover)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac and Cover variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -677,7 +731,7 @@ class cfgWeapons
 	class H_XDF_MCH_BasicNet_Winter: H_XDF_MCH_BasicNet
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (ComTacs, Cover, Winter)";
+		displayName="XDF MCH (ComTacs, Cover, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>ComTac and Cover variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -690,7 +744,7 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (Full, ComTacs)";
+		displayName="XDF MCH (Full, ComTacs)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -701,7 +755,7 @@ class cfgWeapons
 	class H_XDF_MCH_Full_Winter: H_XDF_MCH_Full
 	{
 		author="Radium";
-		displayName="XDF Marine Combat Helmet (Full, ComTacs, Winter)";
+		displayName="XDF MCH (Full, ComTacs, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -709,12 +763,35 @@ class cfgWeapons
 			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_co.paa"
 		};
 	};
+	class H_XDF_MCH_Full_Cybern: EF_H_MCH_Full
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MCH (Cybern, Full, ComTacs)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_cybern_co.paa"
+		};
+	};
+	class H_XDF_MCH_Full_Cybern_Winter: H_XDF_MCH_Full
+	{
+		author="Radium";
+		displayName="XDF MCH (Cybern, Full, ComTacs, Winter)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear variant. Winter camo.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_winter_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_cybern_co.paa"
+		};
+	};
 	class EF_H_MCH_FullCamo_Black;
 	class H_XDF_MCH_FullNet: EF_H_MCH_FullCamo_Black
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (Full, ComTacs, Cover)";
+		displayName="XDF MCH (Full, ComTacs, Cover)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant.";
 		hiddenSelectionsTextures[] = 
 		{
@@ -726,12 +803,36 @@ class cfgWeapons
 	{
 		author="Radium";
 		scope=2;
-		displayName="XDF Marine Combat Helmet (Full, ComTacs, Cover, Winter)";
+		displayName="XDF MCH (Full, ComTacs, Cover, Winter)";
 		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant. Winter camo.";
 		hiddenSelectionsTextures[] = 
 		{
 			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_winter_co.paa",
 			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_co.paa"
+		};
+	};
+	class H_XDF_MCH_FullNet_Cybern: EF_H_MCH_FullCamo_Black
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MCH (Cybern, Full, ComTacs, Cover)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_black_cybern_co.paa"
+		};
+	};
+	class H_XDF_MCH_FullNet_Cybern_Winter: H_XDF_MCH_FullNet
+	{
+		author="Radium";
+		scope=2;
+		displayName="XDF MCH (Cybern, Full, ComTacs, Cover, Winter)";
+		descriptionShort = "Armor Level II<br/>Light-weight combat helmet designed for XDF marine forces. Not rated for anti-xeno combat.<br/>Full gear and cover variant. Winter camo.";
+		hiddenSelectionsTextures[] = 
+		{
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_base_winter_cybern_co.paa",
+			"\xdf_ef\retextures\xdf_uniform\helmets\mch_cover_winter_cybern_co.paa"
 		};
 	};
 	class EF_LPNVG;

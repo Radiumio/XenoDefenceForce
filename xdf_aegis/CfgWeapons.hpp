@@ -1,5 +1,6 @@
 
 class EGLM;
+class ItemInfo;
 class CfgWeapons
 {
 	class arifle_SA80_C_blk_F;
@@ -781,6 +782,121 @@ class CfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\xdf_aegis\retextures\xdf_uniform\headgear\scrimNet_XDF_Winter_ca.paa"};
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_cqb_black_F;
+	class Aegis_V_CarrierRigKBT_01_cqb_XDF_F: Aegis_V_CarrierRigKBT_01_cqb_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier CQB Rig";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts for CQB usage.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_cqb_XDF_Winter_F: Aegis_V_CarrierRigKBT_01_cqb_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier CQB Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts for CQB usage.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_cqb_XDF_Kao_F: Aegis_V_CarrierRigKBT_01_cqb_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier CQB Rig (Kao)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts for CQB usage.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_cqb_XDF_Kao_Winter_F: Aegis_V_CarrierRigKBT_01_cqb_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier CQB Rig (Kao, Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with heavier inserts for CQB usage.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_recon_black_F;
+	class Aegis_V_CarrierRigKBT_01_recon_XDF_F: Aegis_V_CarrierRigKBT_01_recon_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier Recon Rig";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier set up for reconnaissance operatives.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_recon_XDF_Winter_F: Aegis_V_CarrierRigKBT_01_recon_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier Recon Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier set up for reconnaissance operatives.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply300";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_tac_black_F;
+	class Aegis_V_CarrierRigKBT_01_tac_XDF_F: Aegis_V_CarrierRigKBT_01_tac_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier Tactical Rig";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with tactical shoulder-pads.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
+		};
+	};
+	class Aegis_V_CarrierRigKBT_01_tac_XDF_Winter_F: Aegis_V_CarrierRigKBT_01_tac_black_F
+	{
+		author="Aegis Team & Radium";
+		displayName="XDF Modular Carrier Tactical Rig (Winter)";
+		descriptionShort="Armor Level IV<br/>Modular XDF plate carrier with tactical shoulder-pads.";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply250";
 		};
 	};
 };

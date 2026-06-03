@@ -4,16 +4,22 @@ class CfgMovesBasic
 	class ManActions
 	{
 		GestureReloadXDFMantis = "GestureReloadXDFMantis";
+		GestureReloadXDFSolaris = "GestureReloadXDFSolaris";
+		GestureReloadXDFSolarisGL = "GestureReloadXDFSolarisGL";
 	};
     class Actions
     {
 		class NoActions : ManActions {
 			GestureReloadXDFMantis[] = {"GestureReloadXDFMantis", "Gesture"};
+			GestureReloadXDFSolaris[] = {"GestureReloadXDFSolaris", "Gesture"};
+			GestureReloadXDFSolarisGL[] = {"GestureReloadXDFSolarisGL", "Gesture"};
 		};
 		class RifleBaseLowStandActions: NoActions {};
         class RifleBaseStandActions: RifleBaseLowStandActions {};
         class RifleProneActions: RifleBaseStandActions {
             GestureReloadXDFMantis[] = {"GestureReloadXDFMantisProne", "Gesture"};
+            GestureReloadXDFSolaris[] = {"GestureReloadXDFSolarisProne", "Gesture"};
+            GestureReloadXDFSolarisGL[] = {"GestureReloadXDFSolarisGLProne", "Gesture"};
         };
     };
 };
@@ -40,6 +46,42 @@ class CfgGesturesMale
 			mask = "handsWeapon";
 			file = "\xdf\weapons\mantis\railgun_reload_prone.rtm";
 			speed=0.22;
+		};
+		class GestureReloadXDFSolaris : Default
+		{
+			file = "\xdf\weapons\solaris\solaris_reload.rtm";
+			looped = 0;
+			speed = 0.24;
+			mask = "handsWeapon";
+			headBobStrength = 0.200000;
+			headBobMode = 2;
+			rightHandIKBeg = 1;
+			rightHandIKEnd = 1;
+			leftHandIKCurve[] = { 0, 1, 0.050000, 0, 0.950000, 0, 1, 1 };
+		};
+		class GestureReloadXDFSolarisProne : GestureReloadXDFSolaris
+		{
+			mask = "handsWeapon";
+			file = "\xdf\weapons\solaris\solaris_reload_prone.rtm";
+			speed=0.24;
+		};
+		class GestureReloadXDFSolarisGL : Default
+		{
+			file = "\xdf\weapons\solaris\solaris_gl_reload.rtm";
+			looped = 0;
+			speed = 0.34;
+			mask = "handsWeapon";
+			headBobStrength = 0.200000;
+			headBobMode = 2;
+			rightHandIKBeg = 1;
+			rightHandIKEnd = 1;
+			leftHandIKCurve[] = { 0, 1, 0.050000, 0, 0.950000, 0, 1, 1 };
+		};
+		class GestureReloadXDFSolarisGLProne : GestureReloadXDFSolaris
+		{
+			mask = "handsWeapon";
+			file = "\xdf\weapons\solaris\solaris_gl_reload_prone.rtm";
+			speed=0.34;
 		};
 	};
 };

@@ -45,6 +45,11 @@ class asdg_OpticRail;
 class asdg_OpticRail1913: asdg_OpticRail {
     class compatibleItems {
         optic_Mantis_Scope = 1;
+        optic_Mantis_Scope_Black = 1;
+        optic_Mantis_Scope_Winter = 1;
+        optic_Mantis_Scope_White = 1;
+        optic_Mantis_Scope_Tan = 1;
+        optic_Mantis_Scope_Olive = 1;
     };
 };
 
@@ -52,13 +57,23 @@ class asdg_OpticRail1913: asdg_OpticRail {
 class SlotInfo;
 class CowsSlot: SlotInfo {
     compatibleItems[] = {
-        "optic_Mantis_Scope"
+        "optic_Mantis_Scope",
+		"optic_Mantis_Scope_Black",
+		"optic_Mantis_Scope_Winter",
+		"optic_Mantis_Scope_White",
+		"optic_Mantis_Scope_Tan",
+		"optic_Mantis_Scope_Olive"
     };
 };
 
 class CowsSlot_Rail: CowsSlot {
     class compatibleItems {
         optic_Mantis_Scope = 1;
+        optic_Mantis_Scope_Black = 1;
+        optic_Mantis_Scope_Winter = 1;
+        optic_Mantis_Scope_White = 1;
+        optic_Mantis_Scope_Tan = 1;
+        optic_Mantis_Scope_Olive = 1;
     };
 };
 

@@ -5,9 +5,11 @@ class burst;
 class mode_fullauto;
 class WeaponSlotsInfo;
 class CowsSlot_Rail;
+class MuzzleSlot;
 class PointerSlot_Rail;
 class GL_3GL_F;
 class EGLM;
+class GrenadeLauncher;
 class AnimationSources;
 class cfgWeapons
 {
@@ -1243,6 +1245,38 @@ class cfgWeapons
 			containerClass="Supply200";
 		};
 	};
+	class V_XDF_Modular_Carrier_Lite_Black_Kao: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Kao)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills.<br/>Personalised for Operative Kao."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
+	class V_XDF_Modular_Carrier_Lite_Black_Winter_Kao: V_SSU_Modular_Carrier_Lite_Black
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Modular Carrier Lite (Kao, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF plate carrier with no frills. Winter camo.<br/>Personalised for Operative Kao."
+		picture="\SSU_Black_Vests\UI\Icon_SSU_Modular_Carrier_Lite_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\vests\V_XDF_Modular_Carrier_Rig_Black_Winter_Kao.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply200";
+		};
+	};
 	class V_CarrierRigKBT_01_Olive_F;
 	class V_XDF_Modular_Carrier_Vest_Black: V_CarrierRigKBT_01_Olive_F
 	{
@@ -1729,7 +1763,7 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo"};
-			containerClass="Supply200";
+			containerClass="Supply300";
 		};
 		hiddenSelectionsTextures[] = 
 		{
@@ -1986,7 +2020,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
-		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite)";
+		displayName="XDF Infantry Combat Helmet (Coremanite, Enhanced)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection.<br/>Personalised for Operative Coremanite."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -1997,7 +2031,7 @@ class cfgWeapons
 	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_core: H_XDF_Enhanced_Combat_Helmet_Black_core
 	{
 		author="Clasless & Radium";
-		displayName="XDF Infantry Combat Helmet (Enhanced, Coremanite, Winter)";
+		displayName="XDF Infantry Combat Helmet (Coremanite, Enhanced, Winter)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Coremanite."
 		hiddenSelectionsTextures[]=
 		{
@@ -2008,7 +2042,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
-		displayName="XDF Infantry Combat Helmet (Enhanced, Kao)";
+		displayName="XDF Infantry Combat Helmet (Kao, Enhanced)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection.<br/>Personalised for Operative Kao."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Enhanced_Combat_Helmet_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -2019,7 +2053,7 @@ class cfgWeapons
 	class H_XDF_Enhanced_Combat_Helmet_Black_Winter_Kao: H_XDF_Enhanced_Combat_Helmet_Black_Kao
 	{
 		author="Clasless & Radium";
-		displayName="XDF Infantry Combat Helmet (Enhanced, Kao, Winter)";
+		displayName="XDF Infantry Combat Helmet (Kao, Enhanced, Winter)";
 		descriptionShort="Armor Level IV<br/>Standard-issue XDF infantry combat helmet, enhanced for better protection. Winter camo.<br/>Personalised for Operative Kao."
 		hiddenSelectionsTextures[]=
 		{
@@ -2106,6 +2140,28 @@ class cfgWeapons
 			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter.paa"
 		};
 	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Cybern: H_SSU_Advanced_Modular_Helmet_HS_base
+	{
+		author="Clasless & Radium";
+		scope=2;
+		displayName="XDF Advanced Modular Helmet (Cybern)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet."
+		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_HS_Black.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Cybern.paa"
+		};
+	};
+	class H_XDF_Advanced_Modular_Helmet_HS_Black_Cybern_Winter: H_XDF_Advanced_Modular_Helmet_HS_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF Advanced Modular Helmet (Cybern, Winter)";
+		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet. Winter camo."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Advanced_Modular_Helmet_Black_Winter_Cybern.paa"
+		};
+	};
 	class H_XDF_Advanced_Modular_Helmet_HS_Black_Maple: H_SSU_Advanced_Modular_Helmet_HS_base
 	{
 		author="Clasless & Radium";
@@ -2176,7 +2232,7 @@ class cfgWeapons
 	{
 		author="Clasless & Radium";
 		scope=2;
-		displayName="XDF Advanced Modular Helmet (Chops, Cybern)";
+		displayName="XDF Advanced Modular Helmet (Cybern, Chops)";
 		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops.<br/>Personalised for Operative Cybern."
 		picture="\SSU_Black_Helmets\UI\Icon_SSU_Advanced_Modular_Helmet_Chops_Black.paa";
 		hiddenSelectionsTextures[]=
@@ -2187,7 +2243,7 @@ class cfgWeapons
 	class H_XDF_Advanced_Modular_Helmet_Chops_Black_Winter_Cybern: H_XDF_Advanced_Modular_Helmet_Chops_Black_Cybern
 	{
 		author="Clasless & Radium";
-		displayName="XDF Advanced Modular Helmet (Chops, Cybern, Winter)";
+		displayName="XDF Advanced Modular Helmet (Cybern, Chops, Winter)";
 		descriptionShort="Armor Level III<br/>Modular XDF infantry combat helmet with protective chops. Winter camo.<br/>Personalised for Operative Cybern."
 		hiddenSelectionsTextures[]=
 		{
@@ -2221,6 +2277,26 @@ class cfgWeapons
 					passThrough = 0.5;
 				};
 			};
+		};
+	};
+	class H_XDF_Special_Purpose_Helmet_Black_Shieldmaiden: H_XDF_Special_Purpose_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF SPH 'Xenohunter' (Shieldmaiden)";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters.<br/>Personalised for Operative Shieldmaiden."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black_Shieldmaiden.paa"
+		};
+	};
+	class H_XDF_Special_Purpose_Helmet_Winter_Shieldmaiden: H_XDF_Special_Purpose_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF SPH 'Xenohunter' (Shieldmaiden, Winter)";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters.<br/>Personalised for Operative Shieldmaiden.<br/>Has seen some time in a winter environment without being officially painted."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black_Shieldmaiden_Winter.paa"
 		};
 	};
 	class H_XDF_Special_Purpose_Helmet_Black_Winter: H_XDF_Special_Purpose_Helmet_Black
@@ -2805,6 +2881,7 @@ class cfgWeapons
 	class arifle_RPK12_F;
 	class Secondary;
 	class UGL;
+	class UGL_F;
 	class arifle_MSBS65_XDF_black: arifle_MSBS65_base_black_F
 	{
 		author="Radium";
@@ -5099,6 +5176,336 @@ class cfgWeapons
 			"\xdf\weapons\mantis\rail_emissive_red.rvmat"
 		};
 	};
+	class XDF_Solaris_PulseRifle: arifle_MX_Base_F
+	{
+		author="Radium";
+		baseWeapon="XDF_Solaris_PulseRifle";
+		scope=2;
+		displayName="XDF EPR-34 Solaris";
+		descriptionShort="Experimental Pulse Rifle<br/>The Solaris Pulse Rifle is the XDF's first standard-issue infantry weapon, combining a pulse-fire mechanism and grenade launcher package into a relatively lightweight and compact 7.62 bullpup.<br/><br/>The design eschews much of the shortcomings - and advantages - of the Mantis project in order to give XDF infantry a reliable and powerful anti-xeno weapon.<br/><br/>Using bespoke 7.62 Pulse Jacket ammunition, the Solaris packs a punch while opening the door to using more experimental munitions, such as SMART rounds.<br/><br/>The integrated grenade launcher was primarily designed to fire smoke and flare rounds, but synchronisation with an operator's HUD allows consistent alignment and the ability to 'eyeball' explosive rounds - at the user's own risk.<br/><br/>The Solaris's biggest downside is field stripping - in the case of a complex jam where manually cycling the internal bolt fails to clear it, the weapon cannot be easily and quickly opened to access the inner receiver.<br/><br/>The rifle's sealed electrical firing mechanism also allows it to fire while submerged.";
+		model="\xdf\weapons\solaris\solaris_pr.p3d";
+		picture="\xdf\weapons\solaris\gear_solaris_invl.paa";
+		UiPicture="\A3\weapons_f\data\UI\icon_regular_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"heatsink"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1_co.paa",
+			"\xdf\weapons\solaris\solaris_texture2_co.paa",
+			"\xdf\weapons\solaris\solaris_texture1_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1.rvmat",
+			"\xdf\weapons\solaris\solaris_texture2.rvmat",
+			"\xdf\weapons\solaris\heatsink_emissive.rvmat"
+		};
+		handAnim[] = {"OFP2_ManSkeleton","\xdf\weapons\solaris\solaris_handAnim.rtm"};
+		selectionFireAnim = "muzzleFlash";
+		reloadAction = "GestureReloadXDFSolaris";
+
+		magazines[]={"45Rnd_762_PJ_Mag_blue_tracer","15Rnd_762_PJ_SMART_Mag_blue_tracer"};
+		magazineWell[]=
+		{
+			"Solaris_762"
+		};
+		//memoryPointCamera = "eye";
+		initSpeed=780;
+		fireLightDuration = 0.05;
+		fireLightIntensity = 0.3;
+		fireLightDiffuse[] = {0, 0.2, 1};
+		fireLightAmbient[] = {0, 0, 0};
+		//muzzleEnd="muzzleStart";
+		//muzzlePos="muzzleEnd";
+
+		// ace overheating compat //
+		ace_overheating_closedBolt=0;
+		ace_overheating_dispersion=0;
+		ace_overheating_mrbs = 999999;
+		ace_overheating_slowdownFactor = 0;
+		ace_overheating_allowSwapBarrel = 0;
+		////////////////////////////
+
+		inertia = 0.8;
+		dexterity = 1;
+		maxZeroing = 1200;
+		
+		canLock=2;
+		weaponLockSystem = 12;
+		lockAcquire = 1;
+
+        cmImmunity = 1;
+        weaponLockDelay = 0.15;
+		canShootInWater = 1;
+		
+		weaponInfoType = "RscWeaponEmpty";
+		modelOptics="\xdf\weapons\solaris\solaris_scope.p3d";
+
+		class GunParticles
+		{
+			class FirstEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Down";
+				positionName = "heatLeftStart";
+				directionName = "heatLeftEnd";
+			};
+			class SecondEffect
+			{
+				effectName = "XDF_Mantis_Shroud_Heat_Up";
+				positionName = "heatRightStart";
+				directionName = "heatRightEnd";
+			};
+			//class ThirdEffect
+			//{
+			//	effectName = "XDF_Mantis_Muzzle_Sparks";
+			//	positionName = "muzzleEffectStart";
+			//	directionName = "muzzleEffectEnd";
+			//};
+		};
+
+		reloadMagazineSound[]=
+		{
+			"\xdf\sounds\reloads\solaris_reload.ogg",
+			4.5,
+			1,
+			10
+		};
+		changeFiremodeSound[] = 
+		{
+			"\xdf\sounds\shot\solaris\solaris_firemode.ogg", 
+			0.9, 
+			1, 
+			5
+		};
+		drySound[]=
+		{
+			"\xdf\sounds\shot\solaris\solaris_dry.ogg",
+			0.9,
+			1,
+			10
+		};
+
+		muzzles[] = {"this", "EGLM"};
+		//modes[] = {"Single", "FullAuto", "EGLM"};
+		class Single: Mode_SemiAuto
+		{	
+			reloadTime = 0.08;
+			recoil = "recoil_single_mx";
+			recoilProne = "recoil_single_prone_mx";
+			dispersion = 0.00022;
+			minRange = 0;
+			minRangeProbab = 0.5;
+			midRange = 500;
+			midRangeProbab = 0.7;
+			maxRange = 1000;
+			maxRangeProbab = 0.3;
+			sounds[] = {"StandardSound","SilencedSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundsetshot[] = {"Solaris_suppressed_shot_SoundSet", "Solaris_suppressed_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			reloadTime = 0.08;
+			dispersion = 0.00022;
+			recoil = "recoil_auto_mx";
+			recoilProne = "recoil_auto_prone_mx";
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 250;
+			midRangeProbab = 0.7;
+			maxRange = 500;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 1e-06;
+			sounds[] = {"StandardSound","SilencedSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"Solaris_shot_SoundSet", "Solaris_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\solaris_closeshot_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundsetshot[] = {"Solaris_suppressed_shot_SoundSet", "Solaris_suppressed_tail_SoundSet"};
+				beginwater1[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_01.ogg", 1, 1, 400};
+				beginwater2[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_02.ogg", 1, 1, 400};
+				beginwater3[] = {"\xdf\sounds\shot\solaris\suppressed\solaris_closeshot_suppressed_submerged_03.ogg", 1, 1, 400};
+				soundBeginWater[] = {"beginwater1", 0.33, "beginwater2", 0.33, "beginwater3", 0.34};
+			};
+			soundContinuous = 0;
+			soundBurst = 0;
+		};
+		class fullauto_medium: FullAuto
+		{
+			showToPlayer = 0;
+			burst = 3;
+			aiBurstTerminable = 1;
+			minRange = 2;
+			minRangeProbab = 0.5;
+			midRange = 75;
+			midRangeProbab = 0.7;
+			maxRange = 150;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 2;
+			aiRateOfFireDistance = 200;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			minRange = 2;
+			minRangeProbab = 0.2;
+			midRange = 450;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
+		};
+		class single_far_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			showToPlayer = 0;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 500;
+			midRangeProbab = 0.6;
+			maxRange = 700;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 8;
+			aiRateOfFireDistance = 700;
+		};
+		class EGLM: UGL_F
+		{
+			displayName = "Solaris Integrated GL";
+			descriptionShort = "Integrated Grenade Launcher<br/>Caliber: Caseless 40mm";
+			magazineWell[] = {"UGL_40x36_Solaris","UGL_40x36"};
+			useModelOptics = 0;
+			useExternalOptic = 0;
+			memoryPointCamera="GL_eye";
+			cameraDir = "GL_look";
+			discreteDistance[] = {100};
+			discreteDistanceCameraPoint[] = {"GL_look"};
+			discreteDistanceInitIndex = 1;
+			reloadAction = "GestureReloadXDFSolarisGL";
+			//muzzleEnd="usti granatometu";
+			//muzzlePos="konec granatometu";
+			reloadMagazineSound[]=
+			{
+				"\xdf\sounds\reloads\solaris_gl_reload.ogg",
+				4.5,
+				1,
+				10
+			};
+			changeFiremodeSound[] = 
+			{
+				"\xdf\sounds\shot\solaris\solaris_firemode.ogg", 
+				0.9, 
+				1, 
+				5
+			};
+			drySound[]=
+			{
+				"\xdf\sounds\shot\solaris\solaris_gl_dry.ogg",
+				0.9,
+				1,
+				10
+			};
+
+			canLock=2;
+			weaponLockSystem = 12;
+			lockAcquire = 1;
+	
+        	cmImmunity        = 1;
+        	weaponLockDelay    = 0.15;
+		};
+
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 114;
+			class MuzzleSlot: MuzzleSlot
+			{
+				compatibleItems[] =
+				{
+					"XDF_Solaris_Suppressor"
+				};
+			};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.37, 0.24};
+				iconScale = 0.2;
+			};
+			class PointerSlot: PointerSlot_Rail
+			{
+				iconPosition[] = {0.21, 0.38};
+				iconScale = 0.2;
+			};
+			class UnderBarrelSlot
+			{
+			};
+		};
+
+		class OpticsModes
+		{
+			class Solaris_integrated_backup
+			{
+				opticsID = 1;
+				useModelOptics = false;
+				opticsPPEffects[]={""};
+				opticsFlare = false;
+				opticsDisablePeripherialVision = false;
+				opticsZoomMin=0.25;
+				opticsZoomMax=1.25;
+				opticsZoomInit=0.75;
+				memoryPointCamera = "eye";
+				visionMode[] = {}; /// Can be combined with NVG
+				distanceZoomMin=100;
+				distanceZoomMax=100;
+			};
+			class Solaris_integrated_optic
+			{
+				opticsID = 2;
+				useModelOptics = 1;
+				opticsPPEffects[]={"OpticsCHAbera5","OpticsBlur5"};
+				opticsFlare = true;
+				opticsDisablePeripherialVision = true;
+				opticsZoomMin = 0.125;
+				opticsZoomMax=1;
+				opticsZoomInit=0.5;
+				memoryPointCamera = "optic_eye";
+				visionMode[] = {}; /// Can be combined with NVG
+				distanceZoomMin=300;
+				distanceZoomMax=300;
+			};
+		};
+	};
 
 	class Launcher_Base_F;
 	class XDF_Hades_SERS: Launcher_Base_F
@@ -6278,18 +6685,18 @@ class cfgWeapons
 	class optic_Mantis_Scope: optic_Nightstalker
 	{
 		author="Radium";
-		displayName="Tharsis Hybrid Combat Scope"
+		displayName="Tharsis Hybrid Combat Scope";
 		descriptionShort="The Tharsis HCS is a next-generation multirole combat optic designed to be used with the R-31 Mantis railgun platform, but is compatible with other rail systems.<br/>Equipped with a FALCON Opus hybrid optical rangefinder and target resolver, the Tharsis scope is capable of identifying targets up to 2 kilometres.<br/>A delicate and complex multi-phase lens is paired with a bulky electronics package to give the scope crystal-clear infrared and thermal imaging capabilities.<br/>Paired with an alien-derived solid-state battery and electronically controlled zeroing, the Tharsis can hold zero for millions of rounds and power its electronics indefinitely.<br/>Solid-state battery has been the subject of more than one internal safety review, which cited 'explosive hazard concerns' when mounted to particularly compact devices.<br/>The XENOCOM board ultimately ruled that solid-state batteries are 'acceptably safe' for combat usage."
-		model="\xdf\weapons\mantis\mantis_scope.p3d";
-		picture="\xdf\weapons\mantis\tharsis_inv_icon.paa";
-		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope.p3d";
+		picture="\xdf\weapons\attachments\tharsis_scope\tharsis_inv_icon.paa";
+		//modelOptics="\xdf\weapons\attachments\tharsis_scope\mantis_scope.p3d";
 		weaponInfoType="RscOptics_TharsisScope";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=18;
 			opticType=1;
 			optics=1;
-			modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+			modelOptics="\xdf\weapons\attachments\tharsis_scope\mantis_scope.p3d";
 			class OpticsModes
 			{
 				class Tharsis_ScopeView
@@ -6343,6 +6750,36 @@ class cfgWeapons
 			};
 		};
 		inertia=0.2;
+	};
+	class optic_Mantis_Scope_Black: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Black)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_black.p3d";
+	};
+	class optic_Mantis_Scope_Winter: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Winter)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_winter.p3d";
+	};
+	class optic_Mantis_Scope_White: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (White)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_white.p3d";
+	};
+	class optic_Mantis_Scope_Tan: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Tan)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_tan.p3d";
+	};
+	class optic_Mantis_Scope_Olive: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Olive)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_olive.p3d";
 	};
 
 	// Grenades //
@@ -6451,4 +6888,23 @@ class cfgWeapons
 			displayName="HI-X IR";
         };
     };
+
+	// ATTACHMENTS //
+	class muzzle_snds_H;
+	class muzzle_snds_B: muzzle_snds_H
+	{
+		class ItemInfo;
+	};
+	class XDF_Solaris_Suppressor: muzzle_snds_B
+	{
+		author="Radium";
+		displayName="Solaris Suppressor";
+		descriptionShort="A bespoke, effective suppressor made specifically for the Solaris Pulse Rifle."
+		picture="\xdf\weapons\solaris\acc_solaris_supp_invl.paa";
+		model="\xdf\weapons\solaris\solaris_suppressor.p3d";
+		class ItemInfo: ItemInfo
+		{
+			mass=17;
+		};
+	};
 };
