@@ -2279,6 +2279,26 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_XDF_Special_Purpose_Helmet_Black_Shieldmaiden: H_XDF_Special_Purpose_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF SPH 'Xenohunter' (Shieldmaiden)";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters.<br/>Personalised for Operative Shieldmaiden."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black_Shieldmaiden.paa"
+		};
+	};
+	class H_XDF_Special_Purpose_Helmet_Winter_Shieldmaiden: H_XDF_Special_Purpose_Helmet_Black
+	{
+		author="Clasless & Radium";
+		displayName="XDF SPH 'Xenohunter' (Shieldmaiden, Winter)";
+		descriptionShort="Armor Level V<br/>High-tech XDF special forces helmet designed to be paired with the Special Purpose Suit.<br/>Completely sealed and rated for vacuum or toxic environments, but often used with open air filters.<br/>Personalised for Operative Shieldmaiden.<br/>Has seen some time in a winter environment without being officially painted."
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\xdf_uniform\helmets\H_XDF_Special_Purpose_Helmet_Black_Shieldmaiden_Winter.paa"
+		};
+	};
 	class H_XDF_Special_Purpose_Helmet_Black_Winter: H_XDF_Special_Purpose_Helmet_Black
 	{
 		author="Clasless & Radium";
