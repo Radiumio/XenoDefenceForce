@@ -6665,18 +6665,18 @@ class cfgWeapons
 	class optic_Mantis_Scope: optic_Nightstalker
 	{
 		author="Radium";
-		displayName="Tharsis Hybrid Combat Scope"
+		displayName="Tharsis Hybrid Combat Scope";
 		descriptionShort="The Tharsis HCS is a next-generation multirole combat optic designed to be used with the R-31 Mantis railgun platform, but is compatible with other rail systems.<br/>Equipped with a FALCON Opus hybrid optical rangefinder and target resolver, the Tharsis scope is capable of identifying targets up to 2 kilometres.<br/>A delicate and complex multi-phase lens is paired with a bulky electronics package to give the scope crystal-clear infrared and thermal imaging capabilities.<br/>Paired with an alien-derived solid-state battery and electronically controlled zeroing, the Tharsis can hold zero for millions of rounds and power its electronics indefinitely.<br/>Solid-state battery has been the subject of more than one internal safety review, which cited 'explosive hazard concerns' when mounted to particularly compact devices.<br/>The XENOCOM board ultimately ruled that solid-state batteries are 'acceptably safe' for combat usage."
-		model="\xdf\weapons\mantis\mantis_scope.p3d";
-		picture="\xdf\weapons\mantis\tharsis_inv_icon.paa";
-		modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope.p3d";
+		picture="\xdf\weapons\attachments\tharsis_scope\tharsis_inv_icon.paa";
+		//modelOptics="\xdf\weapons\attachments\tharsis_scope\mantis_scope.p3d";
 		weaponInfoType="RscOptics_TharsisScope";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=18;
 			opticType=1;
 			optics=1;
-			modelOptics="\xdf\weapons\mantis\mantis_scope.p3d";
+			modelOptics="\xdf\weapons\attachments\tharsis_scope\mantis_scope.p3d";
 			class OpticsModes
 			{
 				class Tharsis_ScopeView
@@ -6730,6 +6730,36 @@ class cfgWeapons
 			};
 		};
 		inertia=0.2;
+	};
+	class optic_Mantis_Scope_Black: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Black)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_black.p3d";
+	};
+	class optic_Mantis_Scope_Winter: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Winter)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_winter.p3d";
+	};
+	class optic_Mantis_Scope_White: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (White)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_white.p3d";
+	};
+	class optic_Mantis_Scope_Tan: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Tan)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_tan.p3d";
+	};
+	class optic_Mantis_Scope_Olive: optic_Mantis_Scope
+	{
+		author="Radium";
+		displayName="Tharsis Hybrid Combat Scope (Olive)";
+		model="\xdf\weapons\attachments\tharsis_scope\mantis_scope_olive.p3d";
 	};
 
 	// Grenades //
