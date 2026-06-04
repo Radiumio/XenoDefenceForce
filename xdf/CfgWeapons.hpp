@@ -5233,7 +5233,7 @@ class cfgWeapons
 		inertia = 0.8;
 		dexterity = 1;
 		maxZeroing = 1200;
-		
+
 		canLock=2;
 		weaponLockSystem = 12;
 		lockAcquire = 1;
@@ -5242,7 +5242,7 @@ class cfgWeapons
         weaponLockDelay = 0.15;
 		canShootInWater = 1;
 		
-		weaponInfoType = "RscWeaponEmpty";
+		//weaponInfoType = "RscWeaponEmpty";
 		modelOptics="\xdf\weapons\solaris\solaris_scope.p3d";
 
 		class GunParticles
