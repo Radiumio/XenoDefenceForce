@@ -632,6 +632,28 @@ class CfgVehicles
 					"B_XDF"
 				};
 			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				textures[]=
+				{
+					"\xdf\retextures\gemini\Fighter_01_fuselage_01_phoenix_co.paa",
+					"\xdf\retextures\gemini\Fighter_01_fuselage_02_phoenix_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa",
+					"\xdf\retextures\gemini\Fighter_01_cockpit_02_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa",
+					"a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"
+				};
+				factions[]=
+				{
+					"B_XDF"
+				};
+			};
 		};
 		textureList[]=
 		{
@@ -674,14 +696,14 @@ class CfgVehicles
         airBrakeFrictionCoef=3.0;
 		altFullForce				= 5000;				/// CRUISE ALTITUDE
 		altNoForce					= 15000;			/// SERVICE CEILING
-		rudderInfluence				= 0.7660;			/// Basic angle (cos angle) of the rudder extent
+		rudderInfluence				= 0.7200;			/// Basic angle (cos angle) of the rudder extent
 		noseDownCoef 				= 0;
 		angleOfIndicence            = 0.04;
 
-		aileronSensitivity	= 1.6;			/// coefficient of ailerons affecting roll of the plane
+		aileronSensitivity	= 1.3;			/// coefficient of ailerons affecting roll of the plane
 		elevatorSensitivity	= 1.8;			/// coefficient of elevators affecting changing of plane horizontal heading
 
-		elevatorControlsSensitivityCoef	= 4.0;	    /// elevator coefficient of player's controller sensitivity (does not affect AI)
+		elevatorControlsSensitivityCoef	= 3.4;	    /// elevator coefficient of player's controller sensitivity (does not affect AI)
 		aileronControlsSensitivityCoef	= 3.5;		/// aileron coefficient of player's controller sensitivity (does not affect AI)
 		rudderControlsSensitivityCoef	= 4.0;		/// rudder coefficient of player's controller sensitivity (does not affect AI)
 
@@ -737,11 +759,11 @@ class CfgVehicles
 			0.80,	// 	120
 			0.80,	// 	240
 			1.00,	// 	360
-			1.49,	// 	480
-			1.46,	// 	600
-			1.43,	// 	720
-			1.40,	// 	840
-			1.35,	// 	960
+			1.29,	// 	480
+			1.26,	// 	600
+			1.23,	// 	720
+			1.20,	// 	840
+			1.25,	// 	960
 			1.30,	// 	1080
 			1.25,	// 	1200
 			1.18,	// 	1320
@@ -18469,6 +18491,288 @@ class CfgVehicles
 		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		
+		
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+		};
+		class Turrets : Turrets
+		{
+			class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+			class CargoTurret_01: CargoTurret_01 {};
+			class CargoTurret_02: CargoTurret_02 {};
+		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
+					{
+					};
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=0;
+							maxRange=4000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=20;
+							maxRange=2500;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=80;
+						angleRangeHorizontal=75;
+						angleRangeVertical=60;
+						animDirection="";
+						aimDown=-0.2;
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftPilot
+			{
+			};
+			class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightPilot
+			{
+			};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_CTRG_Heli_Transport_01_Assault_F;
+    class B_CTRG_Heli_Transport_01_Assault_F_OCimport_01 : B_CTRG_Heli_Transport_01_Assault_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_CTRG_Heli_Transport_01_Assault_F_OCimport_02 : B_CTRG_Heli_Transport_01_Assault_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+			class CopilotTurret;
+			class CargoTurret_01;
+			class CargoTurret_02;
+        };
+    };
+	class XDF_Dragonfly_Assault: B_CTRG_Heli_Transport_01_Assault_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dragonfly (Assault)";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly_Assault.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 300; // Default 300
+		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		
+		typicalCargo[]=
+		{
+			"B_XDF_Pilot"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+		};
+		class Turrets : Turrets
+		{
+			class CopilotTurret : CopilotTurret 
+			{ 
+				gunnerType = "B_XDF_Pilot"; 
+			};
+			class CargoTurret_01: CargoTurret_01 {};
+			class CargoTurret_02: CargoTurret_02 {};
+		};
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
+					{
+					};
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange=0;
+							maxRange=4000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=1;
+						};
+						class GroundTarget
+						{
+							minRange=20;
+							maxRange=2500;
+							objectDistanceLimitCoef=1;
+							viewDistanceLimitCoef=1;
+						};
+						maxTrackableSpeed=80;
+						angleRangeHorizontal=75;
+						angleRangeVertical=60;
+						animDirection="";
+						aimDown=-0.2;
+					};
+				};
+			};
+			class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftPilot
+			{
+			};
+			class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightPilot
+			{
+			};
+		};
+		class TextureSources
+		{
+			class XDF
+			{
+				displayName="Xeno Defence Force";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+			class XDF_Phoenix
+			{
+				displayName="PHOENIX - 1st Elite Air Assault Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+				};
+			};
+			class XDF_Lazarus
+			{
+				displayName="LAZARUS - 17th Rapid Response Division";
+				author="Radium";
+				factions[]=
+				{
+					"B_XDF"
+				};
+				textures[]=
+				{
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa",
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"XDF",
+			1
+		};
+	};
+	class B_CTRG_Heli_Transport_01_DAP_F;
+    class B_CTRG_Heli_Transport_01_DAP_F_OCimport_01 : B_CTRG_Heli_Transport_01_DAP_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_CTRG_Heli_Transport_01_DAP_F_OCimport_02 : B_CTRG_Heli_Transport_01_DAP_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+			class CopilotTurret;
+			class CargoTurret_01;
+			class CargoTurret_02;
+        };
+    };
+	class XDF_Dragonfly_DAP: B_CTRG_Heli_Transport_01_DAP_F_OCimport_02
+	{
+		author="Radium";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "XDF Dragonfly (DAP)";
+		editorPreview="\xdf\previews\vehicles\XDF_Dragonfly_DAP.jpg";
+		side = 1;
+		faction = "B_XDF";
+		crew = "B_XDF_Pilot";
+		armor = 120; // Default 40
+		maxSpeed = 300; // Default 300
+		fuelCapacity = 2300; // Default 1360
+		damageResistance = 0.02; // Default 0
+
+		lockDetectionSystem = "1 + 2 + 4 + 8 + 16";
+		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16";
 		
 		typicalCargo[]=
 		{
