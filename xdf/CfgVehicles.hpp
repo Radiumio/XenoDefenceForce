@@ -18606,13 +18606,18 @@ class CfgVehicles
 		};
 	};
 	class B_CTRG_Heli_Transport_01_Assault_F;
-    class B_CTRG_Heli_Transport_01_Assault_F_OCimport_01 : B_CTRG_Heli_Transport_01_Assault_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_CTRG_Heli_Transport_01_Assault_F_OCimport_01 : B_CTRG_Heli_Transport_01_Assault_F { scope = 0; class AnimationSources; class EventHandlers; class Turrets; };
     class B_CTRG_Heli_Transport_01_Assault_F_OCimport_02 : B_CTRG_Heli_Transport_01_Assault_F_OCimport_01 { 
+		class AnimationSources;
         class EventHandlers; 
         class Turrets : Turrets {
 			class CopilotTurret;
-			class CargoTurret_01;
-			class CargoTurret_02;
+            class MainTurret;
+			class RightDoorGun;
+			class CargoTurret_05;
+			class CargoTurret_06;
+			class CargoTurret_07;
+			class CargoTurret_08;
         };
     };
 	class XDF_Dragonfly_Assault: B_CTRG_Heli_Transport_01_Assault_F_OCimport_02
@@ -18643,14 +18648,65 @@ class CfgVehicles
 			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
 			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
 		};
+		class AnimationSources: AnimationSources
+		{	
+			class Minigun
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Muzzle_flash
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE";
+			};
+			class Minigun2
+			{
+				source="revolving";
+				weapon="LMG_Minigun_AX_HE2";
+			};
+			class Muzzle_flash2
+			{
+				source="ammorandom";
+				weapon="LMG_Minigun_AX_HE2";
+			};
+		};
 		class Turrets : Turrets
 		{
 			class CopilotTurret : CopilotTurret 
 			{ 
 				gunnerType = "B_XDF_Pilot"; 
 			};
-			class CargoTurret_01: CargoTurret_01 {};
-			class CargoTurret_02: CargoTurret_02 {};
+            class MainTurret : MainTurret 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew"; 
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
+			};
+            class RightDoorGun : RightDoorGun 
+			{ 
+				gunnerType = "B_XDF_Heli_Crew";  
+				weapons[]=
+				{
+					"LMG_Minigun_AX_HE2"
+				};
+				magazines[]=
+				{
+					"1000Rnd_20mm_GPR_shells",
+					"1000Rnd_20mm_GPR_shells"
+				};
+			};
+			class CargoTurret_05: CargoTurret_05 {};
+			class CargoTurret_06: CargoTurret_06 {};
+			class CargoTurret_07: CargoTurret_07 {};
+			class CargoTurret_08: CargoTurret_08 {};
 		};
 		class Components: Components
 		{
