@@ -1145,7 +1145,7 @@ class CfgMagazines
 		ammo="B_762_PulseJacket_smart";
 		count=15;
 		tracersEvery=1;
-		mass=17;
+		mass=8.5;
 	};
 	class CA_LauncherMagazine;
 	class 5Rnd_10mm_Hypersonic_Railshot : CA_LauncherMagazine

@@ -5777,6 +5777,20 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_Mantis_SpecOps_AX_F: XDF_Mantis_SpecOps // Promet Standard
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Mantis_Scope_Black";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};
 	class XDF_Solaris_PulseRifle_Rifle_F: XDF_Solaris_PulseRifle // Promet Standard
 	{
 		class linkedItems

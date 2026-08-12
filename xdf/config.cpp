@@ -273,7 +273,26 @@ class RscDisplayMain
         };
     };
 };
-
+class CfgWorlds
+{
+	class CAWorld;
+	class VR : CAWorld
+	{
+		cutscenes[] = { "XDF_MainMenu" }; // Class names of used scenes. When more than one is present, the system will pick one randomly.
+	};
+	initWorld = "VR";
+	demoWorld = "VR";
+};
+class CfgMissions
+{
+	class Cutscenes
+	{
+		class XDF_MainMenu // Class referenced in 'cutscenes' property in CfgWorlds
+		{
+			directory = "xdf\mainmenu\xdf_mainmenu.VR"; // Path to scenario with the scene
+		};
+	};
+};
 
 #include "CfgPatches.hpp"
 #include "CfgCloudlets.hpp"
@@ -286,6 +305,7 @@ class RscDisplayMain
 #include "CfgMagazineWells.hpp"
 #include "CfgMarkers.hpp"
 #include "CfgMoves.hpp"
+#include "CfgMusic.hpp"
 #include "CfgRecoils.hpp"
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"

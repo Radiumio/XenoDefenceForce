@@ -33265,6 +33265,19 @@ class CfgVehicles
 		};
 		class TransportItems {};
 	};
+	class B_XDF_Viper_Harness_Black_HADES : B_XDF_Viper_Harness_Black
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class 5Rnd_10mm_Hypersonic_Railshot
+			{
+				magazine = "5Rnd_10mm_Hypersonic_Railshot";
+				count = 2;
+			};
+		};
+		class TransportItems {};
+	};
 	class B_XDF_Kitbag_Black_MS_AT : B_XDF_Kitbag_Black
 	{
 		scope = 1;
@@ -39073,25 +39086,25 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_srifle_DMR_04_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_srifle_DMR_04_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
 		magazines[] = {
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -39107,14 +39120,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -39200,25 +39213,25 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_srifle_DMR_04_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_srifle_DMR_04_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
 			"Rangefinder"
 		};
 
 		magazines[] = {
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -39234,14 +39247,14 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
 			"11Rnd_45ACP_Mag_blue_reload_tracer",
@@ -40255,13 +40268,13 @@ class CfgVehicles
 		weapons[] = {
 			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
-			"XDF_launch_O_Vorona_black",
+			"XDF_Hades_SERS",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
-			"XDF_launch_O_Vorona_black",
+			"XDF_Hades_SERS",
 			"Rangefinder"
 		};
 
@@ -40308,7 +40321,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black_METIS";
+		backpack = "B_XDF_Viper_Harness_Black_HADES";
 		items[]=
 		{
 			"FirstAidKit",
@@ -40364,13 +40377,13 @@ class CfgVehicles
 		weapons[] = {
 			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
-			"XDF_launch_O_Vorona_black",
+			"XDF_Hades_SERS",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
 			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_Pistol_heavy_01",
-			"XDF_launch_O_Vorona_black",
+			"XDF_Hades_SERS",
 			"Rangefinder"
 		};
 
@@ -40417,7 +40430,7 @@ class CfgVehicles
 			"SmokeShell"
 		};
 
-		backpack = "B_XDF_Viper_Harness_Black_METIS";
+		backpack = "B_XDF_Viper_Harness_Black_HADES";
 		items[]=
 		{
 			"FirstAidKit",
@@ -40467,32 +40480,28 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_arifle_ARX_blk_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_arifle_ARX_blk_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
 		magazines[] = {
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"10Rnd_50BW_Mag_F",
-			"10Rnd_50BW_Mag_F",
-			"10Rnd_50BW_Mag_F",
-			"10Rnd_50BW_Mag_F",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
@@ -40507,21 +40516,17 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"30Rnd_65x39_caseless_blue_reload_tracer",
-			"10Rnd_50BW_Mag_F",
-			"10Rnd_50BW_Mag_F",
-			"10Rnd_50BW_Mag_F",
-			"10Rnd_50BW_Mag_F",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
+			"15Rnd_762_PJ_SMART_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
@@ -40588,24 +40593,24 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_srifle_DMR_05_blk_F",
+			"XDF_Mantis_SpecOps_AX_F",
 			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_srifle_DMR_05_blk_F",
+			"XDF_Mantis_SpecOps_AX_F",
 			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
 		magazines[] = {
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
@@ -40620,13 +40625,13 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
-			"10Rnd_93x64_DMR_05_Mag_blue_reload_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"50Rnd_10mm_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer",
+			"25Rnd_10mm_SMART_APDSRG_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
@@ -40793,24 +40798,24 @@ class CfgVehicles
 		};
 
 		weapons[] = {
-			"XDF_srifle_DMR_04_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 		respawnWeapons[] = {
-			"XDF_srifle_DMR_04_F",
+			"XDF_Solaris_PulseRifle_Rifle_AX_Elite_F",
 			"XDF_hgun_ACPC2",
 			"Rangefinder"
 		};
 
 		magazines[] = {
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
@@ -40827,13 +40832,13 @@ class CfgVehicles
 			"SmokeShell"
 		};
 		respawnMagazines[] = {
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
-			"10Rnd_127x54_Mag_blue_reload_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
+			"45Rnd_762_PJ_Mag_blue_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
 			"9Rnd_45ACP_Mag_blue_reload_tracer",
