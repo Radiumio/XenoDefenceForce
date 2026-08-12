@@ -18646,7 +18646,8 @@ class CfgVehicles
 		{
 			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
-			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa",
+			"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 		};
 		class AnimationSources: AnimationSources
 		{	
@@ -18762,7 +18763,8 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
-					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa",
+					"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 				};
 			};
 			class XDF_Phoenix
@@ -18777,7 +18779,8 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa",
-					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa",
+					"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 				};
 			};
 			class XDF_Lazarus
@@ -18792,7 +18795,8 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa",
-					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa"
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa",
+					"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 				};
 			};
 		};
@@ -18838,7 +18842,8 @@ class CfgVehicles
 		{
 			"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 			"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
-			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+			"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa",
+			"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 		};
 		class Turrets : Turrets
 		{
@@ -18903,7 +18908,8 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_co.paa",
-					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa",
+					"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 				};
 			};
 			class XDF_Phoenix
@@ -18918,7 +18924,8 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_phoenix_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_phoenix_co.paa",
-					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa"
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_co.paa",
+					"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 				};
 			};
 			class XDF_Lazarus
@@ -18933,7 +18940,8 @@ class CfgVehicles
 				{
 					"\xdf\retextures\dragonfly\heli_transport_01_ext01_lazarus_co.paa",
 					"\xdf\retextures\dragonfly\heli_transport_01_ext02_lazarus_co.paa",
-					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa"
+					"\xdf\retextures\dragonfly\heli_transport_01_ext01_add_lazarus_co.paa",
+					"\A3\Air_F_Beta\Heli_Transport_01\Data\heli_transport_01_dap_CO.paa"
 				};
 			};
 		};
