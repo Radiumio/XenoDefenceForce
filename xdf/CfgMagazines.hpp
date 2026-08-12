@@ -581,7 +581,7 @@ class CfgMagazines
 		ammo="B_127x99_HEI_AX";
 		count=500;
 		tracersEvery=1;
-		pylonWeapon="Gatling_127mm_HeliPylon_F";
+		pylonWeapon="Gatling_127mm_HeliPylon_XDF_F";
 		pylonMirrorClass="PylonWeapon_500Rnd_127mm_HEIAP_belt_left";
 		class EventHandlers
 		{

@@ -5509,6 +5509,7 @@ class cfgWeapons
 	class XDF_Solaris_PulseRifle_Black: XDF_Solaris_PulseRifle
 	{
 		displayName="XDF EPR-34 Solaris (Black)";
+		picture="\xdf\weapons\solaris\gear_solaris_black_invl.paa";
 		baseWeapon="XDF_Solaris_PulseRifle_Black";
 		hiddenSelectionsTextures[]=
 		{
@@ -5520,6 +5521,7 @@ class cfgWeapons
 	class XDF_Solaris_PulseRifle_Olive: XDF_Solaris_PulseRifle
 	{
 		displayName="XDF EPR-34 Solaris (Olive)";
+		picture="\xdf\weapons\solaris\gear_solaris_olive_invl.paa";
 		baseWeapon="XDF_Solaris_PulseRifle_Olive";
 		hiddenSelectionsTextures[]=
 		{
@@ -5531,6 +5533,7 @@ class cfgWeapons
 	class XDF_Solaris_PulseRifle_Tan: XDF_Solaris_PulseRifle
 	{
 		displayName="XDF EPR-34 Solaris (Tan)";
+		picture="\xdf\weapons\solaris\gear_solaris_tan_invl.paa";
 		baseWeapon="XDF_Solaris_PulseRifle_Tan";
 		hiddenSelectionsTextures[]=
 		{
@@ -5542,6 +5545,7 @@ class cfgWeapons
 	class XDF_Solaris_PulseRifle_SpecOps: XDF_Solaris_PulseRifle
 	{
 		displayName="XDF EPR-34 Solaris (Spec-Ops)";
+		picture="\xdf\weapons\solaris\gear_solaris_specops_invl.paa";
 		baseWeapon="XDF_Solaris_PulseRifle_SpecOps";
 		hiddenSelectionsTextures[]=
 		{
@@ -5549,10 +5553,17 @@ class cfgWeapons
 			"\xdf\weapons\solaris\solaris_texture2_specops_CO.paa",
 			"\xdf\weapons\solaris\solaris_texture1_specops_CO.paa"
 		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1.rvmat",
+			"\xdf\weapons\solaris\solaris_texture2.rvmat",
+			"\xdf\weapons\solaris\heatsink_emissive_red.rvmat"
+		};
 	};
 	class XDF_Solaris_PulseRifle_Winter: XDF_Solaris_PulseRifle
 	{
 		displayName="XDF EPR-34 Solaris (Winter)";
+		picture="\xdf\weapons\solaris\gear_solaris_winter_invl.paa";
 		baseWeapon="XDF_Solaris_PulseRifle_Winter";
 		hiddenSelectionsTextures[]=
 		{
