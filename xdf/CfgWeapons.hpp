@@ -5506,6 +5506,61 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_Solaris_PulseRifle_Black: XDF_Solaris_PulseRifle
+	{
+		displayName="XDF EPR-34 Solaris (Black)";
+		baseWeapon="XDF_Solaris_PulseRifle_Black";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1_black_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture2_black_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture1_black_CO.paa"
+		};
+	};
+	class XDF_Solaris_PulseRifle_Olive: XDF_Solaris_PulseRifle
+	{
+		displayName="XDF EPR-34 Solaris (Olive)";
+		baseWeapon="XDF_Solaris_PulseRifle_Olive";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1_olive_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture2_olive_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture1_olive_CO.paa"
+		};
+	};
+	class XDF_Solaris_PulseRifle_Tan: XDF_Solaris_PulseRifle
+	{
+		displayName="XDF EPR-34 Solaris (Tan)";
+		baseWeapon="XDF_Solaris_PulseRifle_Tan";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1_tan_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture2_tan_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture1_tan_CO.paa"
+		};
+	};
+	class XDF_Solaris_PulseRifle_SpecOps: XDF_Solaris_PulseRifle
+	{
+		displayName="XDF EPR-34 Solaris (Spec-Ops)";
+		baseWeapon="XDF_Solaris_PulseRifle_SpecOps";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1_specops_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture2_specops_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture1_specops_CO.paa"
+		};
+	};
+	class XDF_Solaris_PulseRifle_Winter: XDF_Solaris_PulseRifle
+	{
+		displayName="XDF EPR-34 Solaris (Winter)";
+		baseWeapon="XDF_Solaris_PulseRifle_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\weapons\solaris\solaris_texture1_winter_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture2_winter_CO.paa",
+			"\xdf\weapons\solaris\solaris_texture1_winter_CO.paa"
+		};
+	};
 
 	class Launcher_Base_F;
 	class XDF_Hades_SERS: Launcher_Base_F
@@ -6677,6 +6732,56 @@ class cfgWeapons
 		magazines[]+= 
 		{
 			"4Rnd_230mm_rockets_fae"
+		};
+	};
+	class Cannon_30mm_Plane_CAS_02_F;
+	class Gatling_127mm_HeliPylon_F: Cannon_30mm_Plane_CAS_02_F
+	{
+		class LowROF;
+	};
+	class Gatling_127mm_HeliPylon_XDF_F: Gatling_127mm_HeliPylon_F
+	{
+		displayName="Minigun 12.7mm (HEI-AX)";
+		magazines[]=
+		{
+			"PylonWeapon_500Rnd_127mm_HEI_AX_belt_right",
+			"PylonWeapon_500Rnd_127mm_HEI_AX_belt_left"
+		};
+		class LowROF: LowROF
+		{
+			displayName="Minigun 12.7mm (HEI-AX)";
+			class StandardSound
+			{
+				//begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
+				//begin2[] = {"\xdf\sounds\shot\axminigun\axminigun_shot2.ogg", 1, 1.1, 2000};
+				//begin3[] = {"\xdf\sounds\shot\axminigun\axminigun_shot3.ogg", 1, 0.9, 2000};
+				//soundBegin[] = {"begin1", 0.33, "begin2", 0.33, "begin3", 0.34};
+				//closure1[] = {"\xdf\sounds\shot\axminigun\axminigun_spin1.ogg", 0.316228, 1, 20};
+				//closure2[] = {"\xdf\sounds\shot\axminigun\axminigun_spin2.ogg", 0.316228, 1, 20};
+				//soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+				soundsetshot[] = {"AX_Minigun_Shot_SoundSet", "AX_Minigun_Tail_SoundSet"};
+			};
+		};
+		class GunParticles
+		{
+			class FirstEffect
+			{
+				effectName="MachineGun2";
+				positionName="machinegun_end";
+				directionName="machinegun_beg";
+			};
+			class SecondEffect
+			{
+				effectName="MachineGun2";
+				positionName="machinegun_end";
+				directionName="machinegun_beg";
+			};
+			class effect1
+			{
+				positionName="machinegun_eject_pos";
+				directionName="machinegun_eject_dir";
+				effectName="MachineGunCartridge";
+			};
 		};
 	};
 

@@ -566,6 +566,46 @@ class CfgMagazines
 		ammo = "R_230mm_FAE";
 		count = 4;
 	};
+	class PylonWeapon_500Rnd_127mm_HEIAP_belt_right;
+	class PylonWeapon_500Rnd_127mm_HEI_AX_belt_right: PylonWeapon_500Rnd_127mm_HEIAP_belt_right
+	{
+		displayName="Minigun 12.7 mm (HEI-AX)";
+		descriptionShort="12.7mm minigun chambered for 500 rounds of HEI-AX tracer ammunition";
+		model="a3\Weapons_F\DynamicLoadout\PylonPod_HeavyMinigun_Heli_Transport_01_R_F.p3d";
+		muzzlePos="machinegun_beg";
+		muzzleEnd="machinegun_end";
+		hardpoints[]=
+		{
+			"B_GAU19_HELI_R"
+		};
+		ammo="B_127x99_HEI_AX";
+		count=500;
+		tracersEvery=1;
+		pylonWeapon="Gatling_127mm_HeliPylon_F";
+		pylonMirrorClass="PylonWeapon_500Rnd_127mm_HEIAP_belt_left";
+		class EventHandlers
+		{
+			Added="_this + ['Hide_Door_R'] call BIS_fnc_Pylon_MountGatling";
+			Removed="_this + ['Hide_Door_R'] call BIS_fnc_Pylon_MountGatling";
+		};
+		mass=150;
+		weight=140;
+	};
+	class PylonWeapon_500Rnd_127mm_HEI_AX_belt_left: PylonWeapon_500Rnd_127mm_HEI_AX_belt_right
+	{
+		model="a3\Weapons_F\DynamicLoadout\PylonPod_HeavyMinigun_Heli_Transport_01_L_F.p3d";
+		hardpoints[]=
+		{
+			"B_GAU19_HELI_L"
+		};
+		pylonMirrorClass="PylonWeapon_500Rnd_127mm_HEI_AX_belt_right";
+		class EventHandlers
+		{
+			Added="(_this + ['Hide_Door_L']) call BIS_fnc_Pylon_MountGatling";
+			Removed="(_this + ['Hide_Door_L']) call BIS_fnc_Pylon_MountGatling";
+		};
+	};
+
 
 	// infantry weapons
 	class 30Rnd_65x39_caseless_msbs_mag_Tracer;

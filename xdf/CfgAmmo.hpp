@@ -1027,6 +1027,36 @@ class CfgAmmo
 		};
 		SoundSetExplosion[] = {"FAE_Big_Exp_SoundSet", "RocketsLight_Tail_SoundSet", "Explosion_Debris_SoundSet","FAE_Big_Tail_SoundSet"};
 	};
+	class B_127x99_HEIAP;
+	class B_127x99_HEI_AX: B_127x99_HEIAP
+	{
+		model="xdf\weapons\tracer_blue\tracer_blue";
+		hit=65;
+		caliber=3.2;
+		typicalSpeed=900;
+		airFriction=-0.00060000003;
+		indirectHit=4;
+		indirectHitRange=3;
+		explosive=0.40000001;
+		warheadName="HE";
+		explosionEffects="ExploAmmoExplosion";
+		craterEffects="ExploAmmoCrater";
+		cost=20;
+		class CamShakeExplode
+		{
+			power=4.4721398;
+			duration=0.80000001;
+			frequency=20;
+			distance=13.4164;
+		};
+		class CamShakeHit
+		{
+			power=20;
+			duration=0.40000001;
+			frequency=20;
+			distance=1;
+		};
+	};
 
 
 	// infantry weapons 
