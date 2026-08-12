@@ -1,10 +1,10 @@
-class cfgMusicClasses
-{
-    class XDF_Music
-    {
-        displayName = "Xeno Defence Force";
-    };
-};
+//class cfgMusicClasses
+//{
+//    class XDF_Music
+//    {
+//        displayName = "Xeno Defence Force";
+//    };
+//};
 class CfgMusic
 {
     class xdf_maintheme
@@ -14,6 +14,6 @@ class CfgMusic
         sound[] = {"\xdf\mainmenu\xdf_maintheme.ogg", 1, 1};
         theme = "Lead";
         duration = 148;
-        musicClass = "XDF_Music";
+        //musicClass = "XDF_Music";
     };
 };

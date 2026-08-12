@@ -273,6 +273,7 @@ class RscDisplayMain
         };
     };
 };
+
 class CfgWorlds
 {
 	class CAWorld;
@@ -283,6 +284,7 @@ class CfgWorlds
 	initWorld = "VR";
 	demoWorld = "VR";
 };
+
 class CfgMissions
 {
 	class Cutscenes
