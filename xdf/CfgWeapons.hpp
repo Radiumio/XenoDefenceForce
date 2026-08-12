@@ -5777,6 +5777,56 @@ class cfgWeapons
 			};
 		};
 	};
+	class XDF_Solaris_PulseRifle_Rifle_F: XDF_Solaris_PulseRifle // Promet Standard
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Mantis_Scope";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+		};
+	};
+	class XDF_Solaris_PulseRifle_Rifle_AX_F: XDF_Solaris_PulseRifle // Promet Standard
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Mantis_Scope";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "XDF_Solaris_Suppressor";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
+	class XDF_Solaris_PulseRifle_Rifle_AX_Elite_F: XDF_Solaris_PulseRifle_SpecOps // Promet Standard
+	{
+		class linkedItems
+		{
+			class LinkedItemsOptic {
+				item = "optic_Mantis_Scope";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc {
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle {
+				item = "XDF_Solaris_Suppressor";
+				slot = "MuzzleSlot";
+			};
+		};
+	};
 	class arifle_MSBS65_XDF_black_F: arifle_MSBS65_XDF_black // Promet Standard
 	{
 		class linkedItems
