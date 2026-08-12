@@ -569,7 +569,7 @@ class CfgMagazines
 	class PylonWeapon_500Rnd_127mm_HEIAP_belt_right;
 	class PylonWeapon_500Rnd_127mm_HEI_AX_belt_right: PylonWeapon_500Rnd_127mm_HEIAP_belt_right
 	{
-		displayName="Minigun 12.7 mm (HEI-AX)";
+		displayName="AX Minigun 12.7 mm (HEI-AX)";
 		descriptionShort="12.7mm minigun chambered for 500 rounds of HEI-AX tracer ammunition";
 		model="a3\Weapons_F\DynamicLoadout\PylonPod_HeavyMinigun_Heli_Transport_01_R_F.p3d";
 		muzzlePos="machinegun_beg";

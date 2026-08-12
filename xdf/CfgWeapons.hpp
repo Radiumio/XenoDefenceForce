@@ -6741,7 +6741,7 @@ class cfgWeapons
 	};
 	class Gatling_127mm_HeliPylon_XDF_F: Gatling_127mm_HeliPylon_F
 	{
-		displayName="Minigun 12.7mm (HEI-AX)";
+		displayName="AX Minigun 12.7 mm (HEI-AX)";
 		magazines[]=
 		{
 			"PylonWeapon_500Rnd_127mm_HEI_AX_belt_right",
@@ -6749,7 +6749,7 @@ class cfgWeapons
 		};
 		class LowROF: LowROF
 		{
-			displayName="Minigun 12.7mm (HEI-AX)";
+			displayName="AX Minigun 12.7 mm (HEI-AX)";
 			class StandardSound
 			{
 				//begin1[] = {"\xdf\sounds\shot\axminigun\axminigun_shot1.ogg", 1, 1, 2000};
