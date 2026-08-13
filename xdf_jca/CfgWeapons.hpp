@@ -54,4 +54,16 @@ class CfgWeapons
 		};
 		magazineWell[] += {"JCA_HK437_300BLK_XDF"};
 	};
+	class JCA_srifle_M107_black_F;
+	class JCA_srifle_M107_XDF_F: JCA_srifle_M107_black_F
+	{
+		displayName = "XDF M107A1 12.7 mm";
+		baseWeapon = "JCA_srifle_M107_XDF_F";
+		hiddenSelectionsTextures[] = 
+		{
+			"xdf_jca\retextures\xdf_uniform\weapons\m107\srifle_M107_01_XDF_CO.paa",
+			"xdf_jca\retextures\xdf_uniform\weapons\m107\srifle_M107_02_XDF_CO.paa"
+		};
+		magazineWell[] += {"JCA_M107_127x99_XDF"};
+	};
 };

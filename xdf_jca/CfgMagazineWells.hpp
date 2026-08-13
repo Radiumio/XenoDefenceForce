@@ -18,4 +18,13 @@ class CfgMagazineWells
 			"JCA_30Rnd_300BLK_EMAG_AX_ReloadTracer"
 		};
 	};
+	class JCA_M107_127x99_XDF
+	{
+		XDF_Magazines[] = 
+		{
+			"JCA_10Rnd_127x99_M107_Mag_AX",
+			"JCA_10Rnd_127x99_M107_Mag_APDS_AX",
+			"JCA_10Rnd_127x99_M107_Mag_APDSHE_AX"
+		};
+	};
 };
