@@ -42,6 +42,7 @@ With the **Expeditionary Forces** or **Reaction Forces** CDLCs loaded, additiona
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3355618886">QAV - AbramsX</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3553877393">JAM - Recon Cloaks 2035</a>**
+- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397">JCA - Infantry Arsenal</a>**
 
 <img src="https://i.imgur.com/ePSzqnC.png" width="900"></p>
 While anyone is welcome to interpret the XDF organization as they wish, official lore regarding the faction can be read here, and is being expanded gradually.
@@ -70,6 +71,8 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - Thank you to **Rotators Collective** and **Tiny Gecko Studios** for providing the samples for their respective CDLCs, and in some cases providing extra textures!
 - Thank you to **Moose (Outworld Studios)** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a> mod and allowing it to be retextured.
 - Thank you to **OokamiJamie** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a> mod and allowing it to be retextured.
+- Graves, who created the **JCA** mods.
+- Jeremy and Justin Sahl who I commissioned to create the **Nemesis** theme.
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
