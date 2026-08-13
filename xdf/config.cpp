@@ -251,47 +251,81 @@ class RscInGameUI
     };
 };
 
-class RscDisplayMain
-{
-    class controlsBackground
-    {
-        class Menu_Background_Image
-        {
-            idc = 992001;
-            type = 0;
-            style = 48;
-            text = "\xdf\mainmenu\xdf_mainmenu.paa";
-            x = safeZoneX;
-            y = safeZoneY;
-            w = safeZoneW;
-            h = safeZoneH;
-            colorBackground[] = {0,0,0,0};
-            colorText[] = {1,1,1,1};
-            font = "RobotoCondensed";
-            sizeEx = 0;
-            shadow = 0;
-        };
-    };
+//class RscDisplayMain
+//{
+//    class controlsBackground
+//    {
+//        class Menu_Background_Image
+//        {
+//            idc = 992001;
+//            type = 0;
+//            style = 48;
+//            text = "\xdf\mainmenu\xdf_mainmenu.paa";
+//            x = safeZoneX;
+//            y = safeZoneY;
+//            w = safeZoneW;
+//            h = safeZoneH;
+//            colorBackground[] = {0,0,0,0};
+//            colorText[] = {1,1,1,1};
+//            font = "RobotoCondensed";
+//            sizeEx = 0;
+//            shadow = 0;
+//        };
+//    };
+//};
+
+class RscStandardDisplay;
+class RscDisplayMain: RscStandardDisplay {
+	enableDisplay = 0;
+	delete Spotlight;
+	class controls {
+		delete Spotlight1;
+		delete Spotlight2;
+		delete Spotlight3;
+		delete BackgroundSpotlightRight;
+		delete BackgroundSpotlightLeft;
+		delete BackgroundSpotlight;
+	};
 };
 
 class CfgWorlds
 {
 	class CAWorld;
+	class Stratis : CAWorld
+	{
+		cutscenes[] = { "XDF_MainMenu" };
+	};
 	class VR : CAWorld
 	{
-		cutscenes[] = { "XDF_MainMenu" }; // Class names of used scenes. When more than one is present, the system will pick one randomly.
+		cutscenes[] = { "XDF_MainMenu" };
 	};
-	initWorld = "VR";
-	demoWorld = "VR";
+	class Altis : CAWorld
+	{
+		cutscenes[] = { "XDF_MainMenu" };
+	};
+	class Tanoa : CAWorld
+	{
+		cutscenes[] = { "XDF_MainMenu" };
+	};
+	class Malden : CAWorld
+	{
+		cutscenes[] = { "XDF_MainMenu" };
+	};
+	class Enoch : CAWorld
+	{
+		cutscenes[] = { "XDF_MainMenu" };
+	};
+	initWorld = "Stratis";
+	demoWorld = "Stratis";
 };
 
 class CfgMissions
 {
 	class Cutscenes
 	{
-		class XDF_MainMenu // Class referenced in 'cutscenes' property in CfgWorlds
+		class XDF_MainMenu
 		{
-			directory = "xdf\mainmenu\xdf_mainmenu.VR"; // Path to scenario with the scene
+			directory = "xdf\mainmenu\xdf_mainmenu.Stratis";
 		};
 	};
 };
