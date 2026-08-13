@@ -51,7 +51,7 @@ class CfgGesturesMale
 		{
 			file = "\xdf\weapons\solaris\solaris_reload.rtm";
 			looped = 0;
-			speed = 0.24;
+			speed = 0.25;
 			mask = "handsWeapon";
 			headBobStrength = 0.200000;
 			headBobMode = 2;

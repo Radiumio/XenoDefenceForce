@@ -49,6 +49,8 @@ class CfgPatches
 			"XDF_Skyhawk",
 			"XDF_Dragonfly",
 			"XDF_Dragonfly_Pylons",
+			"XDF_Dragonfly_Assault",
+			"XDF_Dragonfly_DAP",
 			"XDF_Merlin",
 			"XDF_Mako",
 			"XDF_Mako_Unarmed",
