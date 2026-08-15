@@ -1,6 +1,9 @@
 class CfgSounds
 {
-	class xdf_no_sound{};
+	class xdf_no_sound
+	{
+		sound[]={};
+	};
 	class mothership_idle
 	{
 		sound[]=
