@@ -20,6 +20,18 @@ class CfgMarkers
 		side=1;
 		markerClass="XDF_Markers";
 	};
+	class flag_XNV_Xenohunter: Flag
+	{
+		name="XNV Xenohunter";
+		icon="\xdf\markers\map_XNV_Xenohunter.paa";
+		texture="\xdf\markers\map_XNV_Xenohunter.paa";
+		size=64;
+		scope=2;
+		shadow=0;
+		color[]={1,1,1,1};
+		side=1;
+		markerClass="XDF_Markers";
+	};
 	class flag_Xeno: Flag
 	{
 		name="Extraterrestrials";
