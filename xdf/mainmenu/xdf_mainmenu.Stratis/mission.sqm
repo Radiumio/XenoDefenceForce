@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4449.6851,206.32869,4132.4902};
-		dir[]={0.86156881,0.27831551,0.42457455};
-		up[]={-0.24964353,0.96048862,-0.12302245};
-		aside[]={0.4420391,-3.6174788e-07,-0.89700991};
+		pos[]={4447.2822,206.32869,4130.6421};
+		dir[]={0.82998031,-0.55625379,-0.041404441};
+		up[]={0.55556291,0.83101243,-0.027714841};
+		aside[]={-0.049824089,0,-0.99875796};
 	};
 };
 binarizationWanted=0;
@@ -188,6 +188,37 @@ class ScenarioData
 };
 class CustomAttributes
 {
+	class Category0
+	{
+		name="HNEG_emed_ped_session";
+		class Attribute0
+		{
+			property="HNEG_emed_ped_sessionRUN";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="HNEG_emed_ped_sessionATTNOTOOL";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=1;
+				};
+			};
+		};
+		nAttributes=2;
+	};
 };
 class Intro
 {
@@ -451,7 +482,7 @@ class Intro
 		{
 			dataType="Trigger";
 			position[]={4438.4521,204.05037,4122.8081};
-			angle=0.95959932;
+			angle=0.95959914;
 			class Attributes
 			{
 				name="mainTrigger";
@@ -3954,14 +3985,14 @@ class Intro
 						};
 						class Attribute1
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
 								{
-									singleType="STRING";
-									value="TCGM_Fem_FoxBun";
+									singleType="BOOL";
+									value=0;
 								};
 							};
 						};
@@ -4006,14 +4037,14 @@ class Intro
 						};
 						class Attribute5
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
 								{
-									singleType="BOOL";
-									value=0;
+									singleType="STRING";
+									value="TCGM_Fem_FoxBun";
 								};
 							};
 						};
@@ -5598,7 +5629,7 @@ class Intro
 		{
 			dataType="Trigger";
 			position[]={4438.4521,204.05037,4122.8081};
-			angle=0.95959932;
+			angle=0.95959914;
 			class Attributes
 			{
 				name="volumeTrigger";
@@ -6285,7 +6316,7 @@ class Intro
 					flags=7;
 					class Attributes
 					{
-						init="this switchMove [""HubSittingHighA_idle1"",0,0.5]; " \n "this enableMimics true;" \n "this disableAI ""ANIM"";";
+						init="this switchMove ""HubSittingHighA_idle1""; " \n "this addEventHandler [ ""AnimDone"", { " \n " params[ ""_unit"", ""_anim"" ]; " \n "  " \n " if ( _anim == ""HubSittingHighA_idle1"" ) then { " \n "  _unit switchMove ""HubSittingHighA_idle1""; " \n " }; " \n "}];" \n "this enableMimics true;" \n "this disableAI ""ANIM"";";
 						name="unitSit1";
 						class Inventory
 						{
@@ -6396,40 +6427,40 @@ class Intro
 					{
 						class Attribute0
 						{
-							property="speaker";
-							expression="_this setspeaker _value;";
+							property="HNEG_emed_emtrDieout3ID";
+							expression="false";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="Male02ENG";
+									value="0";
 								};
 							};
 						};
 						class Attribute1
 						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="unitName";
-							expression="_this setname _value;";
+							property="HNEG_emed_emtrDieout4ID";
+							expression="false";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="Harrison";
+									value="0";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="HNEG_emed_aedInit";
+							expression=" if (!is3DEN) then { _this call compile _value; }; ";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="true";
 								};
 							};
 						};
@@ -6448,6 +6479,19 @@ class Intro
 						};
 						class Attribute4
 						{
+							property="unitName";
+							expression="_this setname _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Harrison";
+								};
+							};
+						};
+						class Attribute5
+						{
 							property="face";
 							expression="_this setface _value;";
 							class Value
@@ -6459,7 +6503,72 @@ class Intro
 								};
 							};
 						};
-						nAttributes=5;
+						class Attribute6
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.1;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="HNEG_emed_emtrDieout1ID";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0";
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="HNEG_emed_emitterInit";
+							expression=" if (!is3DEN) then { _this call compile _value; }; ";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="true";
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="HNEG_emed_emtrDieout2ID";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0";
+								};
+							};
+						};
+						nAttributes=11;
 					};
 				};
 			};
