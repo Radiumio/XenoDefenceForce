@@ -18,9 +18,9 @@ class CfgMusic
     class XDF_ex25Nemesis
     {
         name = "XDF - EX-25 Nemesis";
-        sound[] = {"", 1, 1};
+        sound[] = {"\xdf\sounds\music\XDF_ex25Nemesis.ogg", 1, 1};
         theme = "Lead";
-        duration = 242;
+        duration = 240;
         musicClass = "XDF_Music";
     };
 };
