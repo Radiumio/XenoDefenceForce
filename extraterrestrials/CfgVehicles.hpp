@@ -20,7 +20,23 @@ class CfgVehicles
 	class Extraterrestrial_Mothership_NoSound_F: Extraterrestrial_Mothership_F
 	{
 		displayName="Extraterrestrial Mothership (No Sound)";
-		sound="";
+		sound="xdf_no_sound";
+	};
+	class Extraterrestrial_Monolith: House_F
+	{
+		author="Radium";
+		editorPreview="\xdf\previews\structures\et_preview.jpg";
+		scope=2;
+		scopeCurator=2;
+		armor=999999999999;
+		model="\extraterrestrials\models\alien_monolith\alien_monolith.p3d";
+		displayName="Extraterrestrial Monolith";
+		simulation = "fountain";
+		sound="xdf_no_sound";
+		editorCategory="ET_Technology";
+		editorSubcategory="ET_Devices";
+		icon="\extraterrestrials\models\alien_monolith\et_monolith_icon.paa";
+		class DestructionEffects {};
 	};
 	class APERSBoundingMine;
 	class Extraterrestrial_Mine: APERSBoundingMine

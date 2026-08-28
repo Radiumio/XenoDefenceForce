@@ -236,6 +236,33 @@ class CfgVehicles
 			init="(_this select 0) setFlagTexture '\xdf\flags\xdf_flag.paa'";
 		};
 	};
+    class Flag_XenoDefenceForce_Plain: Flag_XenoDefenceForce
+	{
+		editorPreview="\xdf\previews\structures\Flag_XenoDefenceForce_Plain.jpg";
+		displayName="Flag (XDF - Plain)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\xdf_plain.paa'";
+		};
+	};
+    class Flag_XNV_Xenohunter: Flag_XenoDefenceForce
+	{
+		editorPreview="\xdf\previews\structures\Flag_XNV_Xenohunter.jpg";
+		displayName="Flag (XNV Xenohunter)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\xnv_xenohunter_flag.paa'";
+		};
+	};
+    class Flag_XNV_Xenohunter_Solid: Flag_XenoDefenceForce
+	{
+		editorPreview="\xdf\previews\structures\Flag_XNV_Xenohunter.jpg";
+		displayName="Flag (XNV Xenohunter - Solid)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\xdf\flags\xnv_xenohunter_flag_solid.paa'";
+		};
+	};
     class Flag_PhoenixDivision: FlagCarrier
 	{
 		author="Radium";
@@ -471,6 +498,33 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\xdf\flags\xdf_flag.paa"
+		};
+	};
+	class Banner_XenoDefenceForce_Plain: Banner_XenoDefenceForce
+	{
+		editorPreview="\xdf\previews\structures\Banner_XenoDefenceForce_Plain.jpg";
+		displayName="Banner (XDF - Plain)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\xdf_plain.paa"
+		};
+	};
+	class Banner_XNV_Xenohunter: Banner_XenoDefenceForce
+	{
+		editorPreview="\xdf\previews\structures\Banner_XNV_Xenohunter.jpg";
+		displayName="Banner (XNV Xenohunter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\xnv_xenohunter_flag.paa"
+		};
+	};
+	class Banner_XNV_Xenohunter_Solid: Banner_XenoDefenceForce
+	{
+		editorPreview="\xdf\previews\structures\Banner_XNV_Xenohunter_Solid.jpg";
+		displayName="Banner (XNV Xenohunter - Solid)";
+		hiddenSelectionsTextures[]=
+		{
+			"\xdf\flags\xnv_xenohunter_flag_solid.paa"
 		};
 	};
 	class Banner_PhoenixDivision: Banner_01_F

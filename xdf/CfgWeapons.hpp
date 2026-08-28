@@ -6585,11 +6585,11 @@ class cfgWeapons
 			"magazine_Fighter02_Gun30mm_AX_x180"
 		};
 	};
-	class gatling_30mm_base
+	class gatling_30mm_base;
+	class gatling_30mm: gatling_30mm_base
 	{
 		class LowROF;
 	};
-	class gatling_30mm;
 	class AX_gatling_30mm: gatling_30mm
 	{
 		displayName="GSh-4-80 Inquisitor";
