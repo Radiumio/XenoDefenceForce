@@ -6,10 +6,6 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=10;
-	mods[]=
-	{
-		"3denEnhanced"
-	};
 	class ItemIDProvider
 	{
 		nextID=285;
@@ -32,12 +28,9 @@ addons[]=
 	"A3_Modules_F",
 	"xdf_extraterrestrials",
 	"A3_Weapons_F_Acc",
-	"ace_laserpointer",
 	"A3_Weapons_F",
 	"SSU_NVGs",
 	"A3_Weapons_F_Items",
-	"ace_medical_treatment",
-	"ace_realisticnames",
 	"A3_Structures_F_System",
 	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Props_F_Enoch_Military_Decontamination",
@@ -59,7 +52,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=16;
+		items=14;
 		class Item0
 		{
 			className="xdf";
@@ -89,81 +82,67 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="ace_laserpointer";
-			name="ACE3 - Laser Pointer";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item5
-		{
 			className="SSU_NVGs";
 			name="SSU_NVGs";
 			author="Clasless";
 		};
-		class Item6
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item7
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item8
+		class Item5
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item6
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item7
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item8
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
 		{
 			className="A3_Air_F_Orange";
 			name="Arma 3 Orange - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item10
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item11
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item12
 		{
 			className="A3_Weapons_F_Enoch";
 			name="Arma 3 Contact Platform - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item13
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
@@ -185,40 +164,6 @@ randomSeed=7276007;
 class ScenarioData
 {
 	author="Radium";
-};
-class CustomAttributes
-{
-	class Category0
-	{
-		name="HNEG_emed_ped_session";
-		class Attribute0
-		{
-			property="HNEG_emed_ped_sessionRUN";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="HNEG_emed_ped_sessionATTNOTOOL";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=1;
-				};
-			};
-		};
-		nAttributes=2;
-	};
 };
 class Intro
 {
@@ -482,7 +427,7 @@ class Intro
 		{
 			dataType="Trigger";
 			position[]={4438.4521,204.05037,4122.8081};
-			angle=0.95959914;
+			angle=0.95959896;
 			class Attributes
 			{
 				name="mainTrigger";
@@ -5629,7 +5574,7 @@ class Intro
 		{
 			dataType="Trigger";
 			position[]={4438.4521,204.05037,4122.8081};
-			angle=0.95959914;
+			angle=0.95959896;
 			class Attributes
 			{
 				name="volumeTrigger";
@@ -6173,57 +6118,18 @@ class Intro
 					{
 						class Attribute0
 						{
-							property="HNEG_emed_emtrDieout3ID";
-							expression="false";
+							property="speaker";
+							expression="_this setspeaker _value;";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="0";
+									value="Male02ENG";
 								};
 							};
 						};
 						class Attribute1
-						{
-							property="HNEG_emed_emtrDieout4ID";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="0";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="HNEG_emed_aedInit";
-							expression=" if (!is3DEN) then { _this call compile _value; }; ";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="true";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="face";
-							expression="_this setface _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="TCGM_Fem_StoneBun";
-								};
-							};
-						};
-						class Attribute4
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -6236,59 +6142,20 @@ class Intro
 								};
 							};
 						};
-						class Attribute5
+						class Attribute2
 						{
-							property="speaker";
-							expression="_this setspeaker _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="Male02ENG";
+									value="TCGM_Fem_StoneBun";
 								};
 							};
 						};
-						class Attribute6
-						{
-							property="HNEG_emed_emtrDieout1ID";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="0";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="HNEG_emed_emitterInit";
-							expression=" if (!is3DEN) then { _this call compile _value; }; ";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="true";
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="HNEG_emed_emtrDieout2ID";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="0";
-								};
-							};
-						};
-						nAttributes=9;
+						nAttributes=3;
 					};
 				};
 			};
@@ -6427,40 +6294,40 @@ class Intro
 					{
 						class Attribute0
 						{
-							property="HNEG_emed_emtrDieout3ID";
-							expression="false";
+							property="speaker";
+							expression="_this setspeaker _value;";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="0";
+									value="Male02ENG";
 								};
 							};
 						};
 						class Attribute1
 						{
-							property="HNEG_emed_emtrDieout4ID";
-							expression="false";
+							property="pitch";
+							expression="_this setpitch _value;";
 							class Value
 							{
 								class data
 								{
-									singleType="STRING";
-									value="0";
+									singleType="SCALAR";
+									value=1.1;
 								};
 							};
 						};
 						class Attribute2
 						{
-							property="HNEG_emed_aedInit";
-							expression=" if (!is3DEN) then { _this call compile _value; }; ";
+							property="unitName";
+							expression="_this setname _value;";
 							class Value
 							{
 								class data
 								{
 									singleType="STRING";
-									value="true";
+									value="Harrison";
 								};
 							};
 						};
@@ -6479,19 +6346,6 @@ class Intro
 						};
 						class Attribute4
 						{
-							property="unitName";
-							expression="_this setname _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Harrison";
-								};
-							};
-						};
-						class Attribute5
-						{
 							property="face";
 							expression="_this setface _value;";
 							class Value
@@ -6503,72 +6357,7 @@ class Intro
 								};
 							};
 						};
-						class Attribute6
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.1;
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male02ENG";
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="HNEG_emed_emtrDieout1ID";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="0";
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="HNEG_emed_emitterInit";
-							expression=" if (!is3DEN) then { _this call compile _value; }; ";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="true";
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="HNEG_emed_emtrDieout2ID";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="0";
-								};
-							};
-						};
-						nAttributes=11;
+						nAttributes=5;
 					};
 				};
 			};
