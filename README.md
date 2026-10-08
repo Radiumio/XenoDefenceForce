@@ -24,7 +24,7 @@ As of the current release, the project includes:
 
 - An **Extraterrestrial Mothership** prop.
 
-- On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there are three custom weapons - the **Mantis** portable railgun, the **Hades** shoulder-fired railgun, and the Solaris[/b] pulse rifle. A high-tech optic, the **Tharsis** is also available on most weapons - modded or otherwise.
+- On top of some modified vanilla weapons **(like a railgun variant of the GM6 Lynx)**, there is a fully custom infantry weapon **(the Mantis railgun)** and a fully custom scope **(the Tharsis)** to fit the high-tech needs of the XDF.
 
 All units and vehicles can be found under the **Xeno Defence Force** faction in **BLUFOR**. The mod only includes __one__ small OPFOR faction, the **Pro-Xeno Liberation Alliance**, which serve as rivals to the XDF. The PXLA may receive more gear in future updates, but for alien factions to fight against, __XDF relies on being paired with other mods to fill those gaps.__
 
@@ -40,9 +40,6 @@ With the **Expeditionary Forces** or **Reaction Forces** CDLCs loaded, additiona
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3388436328">QAV - Ripsaw</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a>**
 - **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a>**
-- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3355618886">QAV - AbramsX</a>**
-- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3553877393">JAM - Recon Cloaks 2035</a>**
-- **<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397">JCA - Infantry Arsenal</a>**
 
 <img src="https://i.imgur.com/ePSzqnC.png" width="900"></p>
 While anyone is welcome to interpret the XDF organization as they wish, official lore regarding the faction can be read here, and is being expanded gradually.
@@ -51,9 +48,6 @@ While anyone is welcome to interpret the XDF organization as they wish, official
 <img src="https://i.imgur.com/UM4djXY.png" width="900"></p>
 If you have an issue or specific request for the mod, please create a GitHub issue here.
 <a href="https://github.com/Radiumio/XenoDefenceForce/issues">XDF GitHub Issues</a>
-
-You can also join our Discord here to ask direct questions and follow the mod's progress.
-<a href="https://discord.gg/UXneg3sf5y">XDF Discord</a>
 
 If you'd like to support the mod and throw me a bone, consider donating to my Ko-fi here! Many hours went into this mod leading up to its release on the Workshop.
 <a href="https://ko-fi.com/radiumio">Radium's Ko-Fi</a>
@@ -71,12 +65,8 @@ This mod will **only ever be** posted under the steam account **radiumio**.
 - Thank you to **Rotators Collective** and **Tiny Gecko Studios** for providing the samples for their respective CDLCs, and in some cases providing extra textures!
 - Thank you to **Moose (Outworld Studios)** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3431202060">RATNIK 3</a> mod and allowing it to be retextured.
 - Thank you to **OokamiJamie** for creating the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3268417231">IHWCU 2035</a> mod and allowing it to be retextured.
-- Graves, who created the **JCA** mods.
-- Jeremy and Justin Sahl who I commissioned to create the **Nemesis** theme.
 - My friend **StanLazy** who helped voice-act the XDF trailer.
 - The people in the **BISON Community** that helped encourage, provide feedback, and ultimately finalize the mod.
 - Thank you to **Hecks** for providing some promo-screenshots of the mod for the workshop page.
-- **@hannahfishr** for the artwork used in the Sappho's Shield division.
-- **Beautiful Beasties** for the artwork used in custom Medusa SPH helmet.
 
 If you have any questions, please contact me either on Steam or Discord, via my handle **radiumio**. I hope you enjoy the mod!
